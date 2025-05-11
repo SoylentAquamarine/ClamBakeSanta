@@ -1,6 +1,7 @@
 import os
 import tweepy
 from datetime import datetime
+from days import themes, haikus
 
 # Authenticate to Twitter
 auth = tweepy.OAuth1UserHandler(
@@ -11,12 +12,14 @@ auth = tweepy.OAuth1UserHandler(
 )
 api = tweepy.API(auth)
 
-# Generate today's theme (placeholder)
-today = datetime.now().strftime("%B %d")
-theme = f"Today is {today}."
+# Get today’s date and theme
+today = datetime.now().strftime("%m-%d")
+theme_key = themes.get(today, None)
 
-# Placeholder haiku
-haiku = f"{theme}\nLine two of haiku\nFinal line here."
-
-# Post the tweet
-api.update_status(haiku)
+if theme_key and theme_key in haikus:
+    haiku_body = haikus[theme_key][0]
+    hashtag = f"#{theme_key}"
+    tweet = f"{haiku_body}\n\nHappy {hashtag} from @ClamBakeSanta"
+    api.update_status(tweet)
+else:
+    print("No theme or haiku found for today.")
