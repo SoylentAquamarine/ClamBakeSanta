@@ -7,7 +7,6 @@
 10-01: National Pumpkin Spice Day
 10-01: CD Player Day
 10-01: International Music Day
-10-02: International Day of Non-Violence
 10-02: National Name Your Car Day
 10-02: National Custodial Workers Recognition Day
 10-02: World Farm Animals Day
@@ -19,14 +18,13 @@
 10-04: World Animal Day
 10-04: National Taco Day
 10-04: National Vodka Day
-10-04: National Golf Lover’s Day
+10-04: National Golf Lovers Day
 10-04: National Cinnamon Bun Day
-10-05: World Teachers' Day
+10-05: World Teachers Day
 10-05: National Do Something Nice Day
 10-06: National Mad Hatter Day
 10-06: National Noodle Day
 10-06: National Coaches Day
-10-06: National Plus Size Appreciation Day
 10-06: National German-American Day
 10-07: National Frappe Day
 10-07: National Chocolate Covered Pretzel Day
@@ -37,8 +35,6 @@
 10-08: World Octopus Day
 10-09: Leif Erikson Day
 10-09: National Moldy Cheese Day
-10-09: National Pro-Life Cupcake Day
-10-10: World Mental Health Day
 10-10: National Handbag Day
 10-10: National Cake Decorating Day
 10-10: National Angel Food Cake Day
@@ -60,7 +56,7 @@
 10-15: National Grouch Day
 10-15: National I Love Lucy Day
 10-16: World Food Day
-10-16: National Boss’s Day
+10-16: National Bosss Day
 10-16: National Liqueur Day
 10-17: National Pasta Day
 10-17: National Mulligan Day
@@ -76,7 +72,6 @@
 10-21: National Reptile Awareness Day
 10-21: Back to the Future Day
 10-22: National Nut Day
-10-22: International Stuttering Awareness Day
 10-23: National Boston Cream Pie Day
 10-23: National Mole Day
 10-23: TV Talk Show Host Day
@@ -103,4 +98,4 @@
 10-31: Halloween
 10-31: National Magic Day
 10-31: National Caramel Apple Day
-10-31: Girl Scout Founder’s Day
+10-31: Girl Scout Founders Day
