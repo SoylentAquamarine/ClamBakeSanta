@@ -1,8 +1,7 @@
 import os
 import tweepy
-from datetime import datetime
-from days import themes
 import openai
+from datetime import datetime
 
 # === Twitter Auth ===
 auth = tweepy.OAuth1UserHandler(
@@ -13,13 +12,30 @@ auth = tweepy.OAuth1UserHandler(
 )
 api = tweepy.API(auth)
 
-# === OpenAI Auth (new 1.x syntax) ===
+# === OpenAI Auth ===
 client = openai.OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
-# === Get today's date and holidays ===
+# === Get today's date and month ===
 today = datetime.now().strftime("%m-%d")
-holiday_list = themes.get(today, [])
+month = datetime.now().strftime("%B").lower()  # e.g., "may"
 
+# === Load holidays from files ===
+holiday_list = []
+
+def load_holidays_from_file(filename):
+    try:
+        with open(filename, 'r') as f:
+            for line in f:
+                if line.startswith(today):
+                    holiday = line.split(":", 1)[1].strip()
+                    holiday_list.append(holiday)
+    except FileNotFoundError:
+        print(f"File not found: {filename}")
+
+load_holidays_from_file(f"{month}_celebritybirthday.txt")
+load_holidays_from_file(f"{month}_randomholiday.txt")
+
+# === Process each holiday ===
 if holiday_list:
     for holiday in holiday_list:
         try:
@@ -33,7 +49,7 @@ if holiday_list:
                 hashtag = tag
                 tweet_intro = f"Happy {hashtag} from @ClamBakeSanta"
 
-            # Prompt ChatGPT (new SDK)
+            # Prompt ChatGPT (OpenAI)
             prompt = (
                 f"Write a haiku in 5-7-5 format about {holiday}. "
                 "Make it sensory, poetic, and themed like a holiday. "
