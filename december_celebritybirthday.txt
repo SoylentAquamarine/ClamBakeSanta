@@ -1,1 +1,96 @@
+12-01: Birthday Zoë Kravitz
+12-01: Birthday Sarah Silverman
+12-01: Birthday Woody Allen
+12-01: Birthday Bette Midler
+12-02: Birthday Britney Spears
+12-02: Birthday Lucy Liu
+12-02: Birthday Nelly Furtado
+12-03: Birthday Amanda Seyfried
+12-03: Birthday Ozzy Osbourne
+12-03: Birthday Julianne Moore
+12-03: Birthday Brendan Fraser
+12-04: Birthday Jay-Z
+12-04: Birthday Marisa Tomei
+12-04: Birthday Tyra Banks
+12-05: Birthday Paula Patton
+12-05: Birthday Frankie Muniz
+12-05: Birthday Amy Acker
+12-06: Birthday Judd Apatow
+12-06: Birthday Giannis Antetokounmpo
+12-06: Birthday A Boogie wit da Hoodie
+12-07: Birthday Larry Bird
+12-07: Birthday Nicholas Hoult
+12-07: Birthday C. Thomas Howell
+12-08: Birthday Nicki Minaj
+12-08: Birthday Ian Somerhalder
+12-08: Birthday Teri Hatcher
+12-09: Birthday Judi Dench
+12-09: Birthday John Malkovich
+12-09: Birthday Felicity Huffman
+12-10: Birthday Raven-Symoné
+12-10: Birthday Kenneth Branagh
+12-10: Birthday Teyana Taylor
+12-11: Birthday Hailee Steinfeld
+12-11: Birthday Rita Moreno
+12-11: Birthday Mo'Nique
+12-12: Birthday Jennifer Connelly
+12-12: Birthday Regina Hall
+12-12: Birthday Mayim Bialik
+12-13: Birthday Taylor Swift
+12-13: Birthday Jamie Foxx
+12-13: Birthday Steve Buscemi
+12-14: Birthday Vanessa Hudgens
+12-14: Birthday Tori Kelly
+12-14: Birthday Natascha McElhone
+12-15: Birthday Adam Brody
+12-15: Birthday Don Johnson
+12-15: Birthday Stuart Townsend
+12-16: Birthday Krysten Ritter
+12-16: Birthday Theo James
+12-16: Birthday Ludwig van Beethoven
+12-17: Birthday Sarah Paulson
+12-17: Birthday Milla Jovovich
+12-17: Birthday Eugene Levy
+12-18: Birthday Brad Pitt
+12-18: Birthday Christina Aguilera
+12-18: Birthday Steven Spielberg
+12-19: Birthday Jake Gyllenhaal
+12-19: Birthday Alyssa Milano
+12-19: Birthday Kristy Swanson
+12-20: Birthday Jonah Hill
+12-20: Birthday JoJo
+12-20: Birthday Todd Phillips
+12-21: Birthday Samuel L. Jackson
+12-21: Birthday Kiefer Sutherland
+12-21: Birthday Jane Fonda
+12-22: Birthday Ralph Fiennes
+12-22: Birthday Meghan Trainor
+12-22: Birthday Jordin Sparks
+12-23: Birthday Finn Wolfhard
+12-23: Birthday Eddie Vedder
+12-23: Birthday Susan Lucci
+12-24: Birthday Ricky Martin
+12-24: Birthday Ava Gardner
+12-24: Birthday Ryan Seacrest
+12-25: Birthday Annie Lennox
+12-25: Birthday Humphrey Bogart
+12-25: Birthday Sissy Spacek
+12-26: Birthday Jared Leto
+12-26: Birthday Kit Harington
+12-26: Birthday Chris Daughtry
+12-27: Birthday Timothée Chalamet
+12-27: Birthday Hayley Williams
+12-27: Birthday Emilie de Ravin
+12-28: Birthday Denzel Washington
+12-28: Birthday Maggie Smith
+12-28: Birthday Seth Meyers
+12-29: Birthday Jude Law
+12-29: Birthday Jon Voight
+12-29: Birthday Mary Tyler Moore
+12-30: Birthday LeBron James
+12-30: Birthday Ellie Goulding
+12-30: Birthday Tiger Woods
+12-31: Birthday Val Kilmer
+12-31: Birthday Anthony Hopkins
+12-31: Birthday Gabby Douglas
 
