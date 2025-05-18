@@ -1,13 +1,8 @@
-12-01: World AIDS Day
-12-01: Rosa Parks Day
 12-01: National Christmas Lights Day
 12-01: National Pie Day
 12-01: Eat a Red Apple Day
-12-02: International Day for the Abolition of Slavery
 12-02: National Fritters Day
 12-02: National Mutt Day
-12-03: International Day of Persons with Disabilities
-12-03: National Roof Over Your Head Day
 12-03: Make a Gift Day
 12-04: National Cookie Day
 12-04: International Cheetah Day
@@ -19,42 +14,33 @@
 12-06: St. Nicholas Day
 12-06: National Gazpacho Day
 12-06: National Microwave Oven Day
-12-07: Pearl Harbor Remembrance Day
 12-07: International Civil Aviation Day
 12-07: National Letter Writing Day
 12-08: Bodhi Day
-12-08: Feast of the Immaculate Conception
 12-08: National Brownie Day
 12-08: Pretend to Be a Time Traveler Day
 12-09: International Anti-Corruption Day
 12-09: National Llama Day
 12-09: National Pastry Day
-12-10: Human Rights Day
 12-10: Nobel Prize Day
 12-10: Dewey Decimal System Day
 12-11: International Mountain Day
 12-11: National App Day
 12-11: National Noodle Ring Day
-12-12: Feast of Our Lady of Guadalupe
 12-12: Gingerbread House Day
 12-12: National Ding-a-Ling Day
-12-13: Saint Lucia's Day
 12-13: National Cocoa Day
 12-13: National Violin Day
-12-14: Monkey Day
 12-14: National Bouillabaisse Day
 12-15: Bill of Rights Day
 12-15: National Cupcake Day
-12-16: Victory Day (Bangladesh)
 12-16: National Chocolate-Covered Anything Day
 12-17: Wright Brothers Day
 12-17: National Maple Syrup Day
 12-17: Pan American Aviation Day
-12-18: International Migrants Day
 12-18: National Roast Suckling Pig Day
 12-19: National Hard Candy Day
 12-19: National Oatmeal Muffin Day
-12-20: International Human Solidarity Day
 12-20: National Sangria Day
 12-21: Winter Solstice
 12-21: National Crossword Puzzle Day
@@ -77,5 +63,5 @@
 12-29: National Pepper Pot Day
 12-30: National Bicarbonate of Soda Day
 12-30: Bacon Day
-12-31: New Year's Eve
+12-31: New Years Eve
 12-31: National Champagne Day
