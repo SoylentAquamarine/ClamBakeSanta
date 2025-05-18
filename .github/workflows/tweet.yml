@@ -4,7 +4,8 @@ on:
   schedule:
     - cron: '0 8 * * *'  # Runs daily at 08:00 UTC = 4:00 AM Eastern
   workflow_dispatch:       # Allows manual runs for testing
-
+permissions:
+  contents: write
 jobs:
   tweet:
     runs-on: ubuntu-latest
