@@ -4,9 +4,8 @@
 05-01: Mother Goose Day
 05-01: Law Day
 05-01: Save the Rhino Day
-05-01: School Principals' Day
-05-01: Silver Star Service Banner Day
-05-01: International Workers' Day
+05-01: School Principals Day
+05-01: International Workers Day
 05-01: Beltane
 05-01: National Chocolate Parfait Day
 05-01: National Purebred Dog Day
@@ -71,12 +70,10 @@
 05-05: National Meeting Planners Appreciation Day
 05-05: National Nail Day
 05-05: International Midwives Day
-05-05: Museum Lover's Day
+05-05: Museum Lovers Day
 05-05: Hug a Shed and Take a Selfie Day
 05-05: World Portuguese Language Day
 05-05: Great Lakes Awareness Day
-05-05: Melanoma Monday
-05-05: Missing and Murdered Indigenous Women Awareness Day
 05-06: National Nurses Day
 05-06: National Beverage Day
 05-06: National Crepes Suzette Day
@@ -84,9 +81,6 @@
 05-06: National Concert Day
 05-06: National Golf Day
 05-06: National Teachers Day
-05-06: National Infertility Survival Day
-05-06: National Children's Mental Health Awareness Day
-05-06: National Anxiety Disorders Screening Day
 05-06: National Interpreter Appreciation Day
 05-06: National Skilled Trades Day
 05-06: National Roast Leg of Lamb Day
@@ -97,7 +91,6 @@
 05-06: Project ACES Day
 05-07: National Barrier Awareness Day
 05-07: National Cosmopolitan Day
-05-07: National Day to Prevent Teen and Unplanned Pregnancy
 05-07: National (Deaf) Interpreter Day
 05-07: National School Nurse Day
 05-07: National Tourism Day
@@ -114,10 +107,9 @@
 05-08: National Give Someone a Cupcake Day
 05-08: National Have a Coke Day
 05-08: National Empanada Day
-05-08: National Children's Mental Health Awareness Day
+05-08: National Childrens Mental Health Awareness Day
 05-08: Make a Book Day
 05-08: Free Trade Day
-05-08: Emancipation Day (Columbus, Mississippi)
 05-09: Lost Sock Memorial Day
 05-09: Military Spouse Appreciation Day
 05-09: National Butterscotch Brownie Day
@@ -130,11 +122,10 @@
 05-10: National Babysitters Day
 05-10: National Windmill Day
 05-10: International Migratory Bird Day
-05-10: Birth Mother's Day
+05-10: Birth Mothers Day
 05-10: Hanging Flower Baskets Day
 05-11: Eat What You Want Day
 05-11: Twilight Zone Day
-05-11: Mother's Day
 05-11: Lilac Sunday
 05-12: International Nurses Day
 05-12: Limerick Day
@@ -163,9 +154,8 @@
 05-18: No Dirty Dishes Day
 05-18: Visit Your Relatives Day
 05-18: World Baking Day
-05-19: National Devil's Food Cake Day
+05-19: National Devils Food Cake Day
 05-19: Boy's Club Day
-05-19: World IBD Day
 05-19: May Ray Day
 05-20: National Rescue Dog Day
 05-20: National Be a Millionaire Day
@@ -181,12 +171,11 @@
 05-23: Lucky Penny Day
 05-23: National Taffy Day
 05-24: National Scavenger Hunt Day
-05-24: Brother's Day
+05-24: Brothers Day
 05-24: International Tiara Day
 05-25: National Wine Day
 05-25: Towel Day
 05-25: Geek Pride Day
-05-26: Memorial Day
 05-26: National Blueberry Cheesecake Day
 05-26: National Paper Airplane Day
 05-27: National Grape Popsicle Day
