@@ -1,1 +1,229 @@
+01-01: Birthday Morris Chestnut
+01-01: Birthday Frank Langella
+01-01: Birthday Verne Troyer
+01-01: Birthday Sophie Okonedo
+01-02: Birthday Renee Elise Goldsberry
+01-02: Birthday Shelley Hennig
+01-02: Birthday Tia Carrere
+01-02: Birthday Cuba Gooding Jr.
+01-02: Birthday Taye Diggs
+01-02: Birthday Paz Vega
+01-02: Birthday Dax Shepard
+01-02: Birthday Kate Bosworth
+01-03: Birthday Florence Pugh
+01-03: Birthday Mel Gibson
+01-03: Birthday Robert Loggia
+01-03: Birthday Danica McKellar
+01-04: Birthday Dyan Cannon
+01-04: Birthday Julia Ormond
+01-04: Birthday Harmony Korine
+01-04: Birthday D'Arcy Carden
+01-04: Birthday Jaeden Martell
+01-04: Birthday Charlyne Yi
+01-05: Birthday Bradley Cooper
+01-05: Birthday Robert Duvall
+01-05: Birthday Hayao Miyazaki
+01-05: Birthday Diane Keaton
+01-05: Birthday Vinnie Jones
+01-05: Birthday Carrie Ann Inaba
+01-05: Birthday Marilyn Manson
+01-05: Birthday January Jones
+01-05: Birthday Kristin Cavallari
+01-06: Birthday Eddie Redmayne
+01-06: Birthday Eliza Scanlen
+01-06: Birthday Norman Reedus
+01-06: Birthday Rowan Atkinson
+01-06: Birthday Rinko Kikuchi
+01-07: Birthday Jeremy Renner
+01-07: Birthday Ruth Negga
+01-07: Birthday Haley Bennett
+01-07: Birthday MJ Rodriguez
+01-07: Birthday Kenny Loggins
+01-07: Birthday Sammo Hung
+01-07: Birthday David Caruso
+01-07: Birthday Katie Couric
+01-07: Birthday Nicolas Cage
+01-07: Birthday Rex Lee
+01-07: Birthday Lyndsy Fonseca
+01-08: Birthday Sarah Polley
+01-08: Birthday Cynthia Erivo
+01-08: Birthday David Bowie
+01-08: Birthday John McTiernan
+01-09: Birthday J.K. Simmons
+01-09: Birthday Omari Hardwick
+01-09: Birthday Nina Dobrev
+01-09: Birthday Jimmy Page
+01-09: Birthday Imelda Staunton
+01-09: Birthday Joely Richardson
+01-09: Birthday Dave Matthews
+01-10: Birthday Sarah Shahi
+01-10: Birthday Gurinder Chadha
+01-10: Birthday Rod Stewart
+01-10: Birthday Linda Lovelace
+01-10: Birthday Pat Benatar
+01-10: Birthday Jemaine Clement
+01-10: Birthday Walter Hill
+01-11: Birthday Amanda Peet
+01-11: Birthday Aja Naomi King
+01-11: Birthday Mary J. Blige
+01-11: Birthday Naomi Judd
+01-11: Birthday Kim Coles
+01-11: Birthday Darren Lynn Bousman
+01-12: Birthday Gemma Arterton
+01-12: Birthday Issa Rae
+01-12: Birthday Sam Richardson
+01-12: Birthday Azhy Robertson
+01-12: Birthday Kirstie Alley
+01-12: Birthday Howard Stern
+01-12: Birthday John Lasseter
+01-12: Birthday Oliver Platt
+01-12: Birthday Rob Zombie
+01-12: Birthday Olivier Martinez
+01-13: Birthday Orlando Bloom
+01-13: Birthday Liam Hemsworth
+01-13: Birthday Rip Taylor
+01-13: Birthday Julia Louis-Dreyfus
+01-13: Birthday Trace Adkins
+01-13: Birthday Patrick Dempsey
+01-13: Birthday Nicole Eggert
+01-13: Birthday Michael Peña
+01-14: Birthday Jason Bateman
+01-14: Birthday L.L. Cool J
+01-14: Birthday Holland Taylor
+01-14: Birthday Faye Dunaway
+01-14: Birthday Carl Weathers
+01-14: Birthday Steven Soderbergh
+01-14: Birthday Emily Watson
+01-14: Birthday Dave Grohl
+01-14: Birthday Zach Gilford
+01-15: Birthday Regina King
+01-15: Birthday Mario Van Peebles
+01-15: Birthday Chad Lowe
+01-15: Birthday Shane McMahon
+01-15: Birthday James Nesbitt
+01-16: Birthday John Carpenter
+01-16: Birthday Sade
+01-16: Birthday David Chokachi
+01-16: Birthday Roy Jones Jr.
+01-16: Birthday Richard T. Jones
+01-16: Birthday Kate Moss
+01-17: Birthday Jim Carrey
+01-17: Birthday Betty White
+01-17: Birthday James Earl Jones
+01-17: Birthday Kelly Marie Tran
+01-17: Birthday Lucy Boynton
+01-17: Birthday Steve Harvey
+01-17: Birthday D.J. Caruso
+01-17: Birthday Naveen Andrews
+01-17: Birthday Zooey Deschanel
+01-18: Birthday Mark Rylance
+01-18: Birthday Jason Segel
+01-18: Birthday Kevin Costner
+01-18: Birthday Jane Horrocks
+01-18: Birthday Jesse L. Martin
+01-18: Birthday Takeshi "Beat" Kitano
+01-19: Birthday Logan Lerman
+01-19: Birthday Paul Rodriguez
+01-19: Birthday Tippi Hedren
+01-19: Birthday Dolly Parton
+01-19: Birthday Katey Sagal
+01-19: Birthday Antoine Fuqua
+01-19: Birthday Shawn Wayans
+01-19: Birthday Drea de Matteo
+01-20: Birthday Rainn Wilson
+01-20: Birthday David Lynch
+01-20: Birthday Evan Peters
+01-20: Birthday Bill Maher
+01-20: Birthday Lorenzo Lamas
+01-20: Birthday Stacey Dash
+01-20: Birthday Melissa Rivers
+01-20: Birthday Skeet Ulrich
+01-21: Birthday Geena Davis
+01-21: Birthday Emma Bunton
+01-21: Birthday Luke Grimes
+01-21: Birthday Michel Teló
+01-21: Birthday Ken Leung
+01-21: Birthday Hakeem Olajuwon
+01-21: Birthday Billy Ocean
+01-21: Birthday Paul Allen
+01-22: Birthday Diane Lane
+01-22: Birthday John Hurt
+01-22: Birthday Olivia d'Abo
+01-22: Birthday Guy Fieri
+01-22: Birthday Beverley Mitchell
+01-22: Birthday Linda Blair
+01-22: Birthday Willa Ford
+01-22: Birthday Jim Jarmusch
+01-23: Birthday Mariska Hargitay
+01-23: Birthday Tiffani Thiessen
+01-23: Birthday Richard Dean Anderson
+01-23: Birthday Rutger Hauer
+01-23: Birthday Arjen Robben
+01-23: Birthday Chita Rivera
+01-23: Birthday Jeanne Moreau
+01-23: Birthday John Hancock
+01-24: Birthday Mischa Barton
+01-24: Birthday Ed Helms
+01-24: Birthday Neil Diamond
+01-24: Birthday Nastassja Kinski
+01-24: Birthday Mary Lou Retton
+01-24: Birthday Aaron Neville
+01-24: Birthday Sharon Tate
+01-24: Birthday Ernest Borgnine
+01-25: Birthday Alicia Keys
+01-25: Birthday Virginia Woolf
+01-25: Birthday Etta James
+01-25: Birthday Robert Burns
+01-25: Birthday Jenifer Lewis
+01-25: Birthday Michael Trevino
+01-25: Birthday Dean Jones
+01-25: Birthday Tobe Hooper
+01-26: Birthday Ellen DeGeneres
+01-26: Birthday Paul Newman
+01-26: Birthday Wayne Gretzky
+01-26: Birthday Kirk Franklin
+01-26: Birthday Anita Baker
+01-26: Birthday Gene Siskel
+01-26: Birthday Eddie Van Halen
+01-26: Birthday Angela Davis
+01-27: Birthday Patton Oswalt
+01-27: Birthday Bridget Fonda
+01-27: Birthday Wolfgang Amadeus Mozart
+01-27: Birthday Lewis Carroll
+01-27: Birthday James Cromwell
+01-27: Birthday Mikhail Baryshnikov
+01-27: Birthday Rosamund Pike
+01-27: Birthday Alan Cumming
+01-28: Birthday Elijah Wood
+01-28: Birthday Nick Carter
+01-28: Birthday Sarah McLachlan
+01-28: Birthday Jackson Pollock
+01-28: Birthday Rick Warren
+01-28: Birthday Alan Alda
+01-28: Birthday Frank Darabont
+01-28: Birthday Barbi Benton
+01-29: Birthday Oprah Winfrey
+01-29: Birthday Tom Selleck
+01-29: Birthday Heather Graham
+01-29: Birthday Sara Gilbert
+01-29: Birthday Greg Louganis
+01-29: Birthday Adam Lambert
+01-29: Birthday Paul Ryan
+01-29: Birthday W.C. Fields
+01-30: Birthday Christian Bale
+01-30: Birthday Gene Hackman
+01-30: Birthday Vanessa Redgrave
+01-30: Birthday Phil Collins
+01-30: Birthday Franklin D. Roosevelt
+01-30: Birthday Olivia Colman
+01-30: Birthday Dorothy Malone
+01-30: Birthday Ruth Brown
+01-31: Birthday Justin Timberlake
+01-31: Birthday Portia de Rossi
+01-31: Birthday Minnie Driver
+01-31: Birthday Jackie Robinson
+01-31: Birthday Kerry Washington
+01-31: Birthday Nolan Ryan
+01-31: Birthday Carol Channing
+01-31: Birthday Tallulah Bankhead
 
