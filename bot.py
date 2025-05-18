@@ -7,7 +7,7 @@ client = openai.OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
 # === Get today's date and month ===
 today = datetime.now().strftime("%m-%d")
-month = datetime.now().strftime("%B").lower()  # e.g., "may"
+month = datetime.now().strftime("%B").lower()
 
 # === Load holidays from files ===
 holiday_list = []
@@ -25,10 +25,11 @@ def load_holidays_from_file(filename):
 load_holidays_from_file(f"{month}_celebritybirthday.txt")
 load_holidays_from_file(f"{month}_randomholiday.txt")
 
-# === Process the first holiday only and write it to outbox.txt ===
+# === Process first holiday ===
 if holiday_list:
-    holiday = holiday_list[0]  # just one for Selenium posting
+    holiday = holiday_list[0]
     try:
+        # Format greeting
         if "birthday" in holiday.lower():
             name = holiday.replace("Birthday", "").strip()
             hashtag = f"#HappyBirthday{''.join(word.capitalize() for word in name.split())}"
@@ -37,6 +38,7 @@ if holiday_list:
             tag = "#" + "".join(c for c in holiday.title() if c.isalnum())
             tweet_intro = f"Happy {tag} from @ClamBakeSanta"
 
+        # Haiku prompt
         prompt = (
             f"Write a haiku in 5-7-5 format about {holiday}. "
             "Make it sensory, poetic, and themed like a holiday. "
@@ -53,11 +55,20 @@ if holiday_list:
         haiku = response.choices[0].message.content.strip()
         tweet = f"{haiku}\n\n{tweet_intro}"
 
-        print(tweet)  # debug
+        # Write to outbox.txt
         with open("outbox.txt", "w", encoding="utf-8") as f:
             f.write(tweet + "\n")
 
+        print("✅ Haiku written to outbox.txt")
+
+        # === Commit and push outbox.txt ===
+        os.system("git config --global user.name 'ClamBakeSantaBot'")
+        os.system("git config --global user.email 'bot@example.com'")
+        os.system("git add outbox.txt")
+        os.system('git commit -m "Daily haiku update"')
+        os.system("git push origin main")
+
     except Exception as e:
-        print(f"❌ Failed to generate tweet for {holiday}: {e}")
+        print(f"❌ Failed to generate tweet: {e}")
 else:
     print("No holidays for today.")
