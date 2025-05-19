@@ -99,12 +99,15 @@ def generate_rss_feed(haikus, date_str):
         title = theme
         desc = haiku.replace("\n", "<br>")
         rss_items += f"""
-        <item>
-          <title>{title}</title>
-          <link>{base_url}archives/{date_str}.html</link>
-          <pubDate>{pub_date}</pubDate>
-          <description><![CDATA[{desc}]]></description>
-        </item>"""
+    <item>
+      <title>{title}</title>
+      <link>{base_url}archives/{date_str}.html</link>
+      <pubDate>{pub_date}</pubDate>
+      <description><![CDATA[
+        {desc}
+      ]]></description>
+    </item>"""
+
     rss = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
@@ -112,8 +115,7 @@ def generate_rss_feed(haikus, date_str):
     <link>{base_url}</link>
     <description>Daily haikus celebrating holidays and birthdays</description>
     <language>en-us</language>
-    <lastBuildDate>{pub_date}</lastBuildDate>
-    {rss_items}
+    <lastBuildDate>{pub_date}</lastBuildDate>{rss_items}
   </channel>
 </rss>
 """
