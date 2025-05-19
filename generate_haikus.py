@@ -20,14 +20,19 @@ def load_themes(month, day):
     themes = []
     for category in ["celebritybirthday", "randomholiday"]:
         file_path = f"{month}_{category}.txt"
+        print(f"Looking for file: {file_path}")
         if not os.path.exists(file_path):
+            print(f"❌ File not found: {file_path}")
             continue
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
+                print(f"Checking line: {line.strip()}")
                 if line.strip().startswith(f"{day}:"):
-                    # Get everything after the colon and split by commas
+                    print(f"✅ Matched line: {line.strip()}")
                     themes.extend(x.strip() for x in line.split(":", 1)[1].split(","))
+    print("🎯 Final themes:", themes)
     return themes
+
 
 def generate_haiku(prompt):
     response = openai.ChatCompletion.create(
