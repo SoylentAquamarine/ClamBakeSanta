@@ -11,6 +11,7 @@ ftp_host = os.getenv("FTP_HOST")
 ftp_user = os.getenv("FTP_USER")
 ftp_pass = os.getenv("FTP_PASS")
 remote_dir = "/htdocs/ClamBakeSanta/"
+base_url = "https://steve.lovestoblog.com/ClamBakeSanta/"
 
 today = datetime.date.today()
 today_str = today.strftime("%Y-%m-%d")
@@ -61,7 +62,7 @@ haikus = [generate_haiku(theme) for theme in themes if generate_haiku(theme)]
 # === HTML Generation ===
 def format_html(date_str, haikus):
     header = f"<h1>Haikus for {date_str}</h1>\n"
-    link = '<p><a href="archives/index.html">🗂 View Archive</a> | <a href="feed.xml">📡 RSS Feed</a></p>\n'
+    link = f'<p><a href="{base_url}archives/index.html">🗂 View Archive</a> | <a href="{base_url}feed.xml">📡 RSS Feed</a></p>\n'
     body = "\n".join(f"<p>{h.replace('\n', '<br>')}</p>" for h in haikus)
     return f"<html><body>{header}{link}{body}</body></html>"
 
@@ -83,7 +84,7 @@ def update_archive_index():
     for filename in sorted(os.listdir("archives")):
         if filename.endswith(".html") and filename != "index.html":
             date_str = filename.replace(".html", "")
-            links.append(f'<li><a href="{filename}">{date_str}</a></li>')
+            links.append(f'<li><a href="{date_str}.html">{date_str}</a></li>')
     html = f"<html><body><h1>Haiku Archives</h1><ul>{''.join(links)}</ul></body></html>"
     with open("archives/index.html", "w") as f:
         f.write(html)
@@ -100,16 +101,15 @@ def generate_rss_feed(haikus, date_str):
         rss_items += f"""
         <item>
           <title>{title}</title>
-          <link>https://yourwebsite.com/ClamBakeSanta/archives/{date_str}.html</link>
+          <link>{base_url}archives/{date_str}.html</link>
           <pubDate>{pub_date}</pubDate>
           <description><![CDATA[{desc}]]></description>
         </item>"""
-
     rss = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
     <title>ClamBakeSanta Daily Haikus</title>
-    <link>https://yourwebsite.com/ClamBakeSanta/</link>
+    <link>{base_url}</link>
     <description>Daily haikus celebrating holidays and birthdays</description>
     <language>en-us</language>
     <lastBuildDate>{pub_date}</lastBuildDate>
