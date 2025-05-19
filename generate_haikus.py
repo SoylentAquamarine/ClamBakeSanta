@@ -93,12 +93,25 @@ def main():
     save_html(archive_index, "archives/index.html")
 
 
-    # Upload via FTP
-    upload_via_ftp("index.html", "index.html")
-    upload_via_ftp(archive_file, f"archives/{full_date}.html")
-    upload_via_ftp("archives/index.html", "archives/index.html")
+    def upload_via_ftp(file_path, remote_path):
+    try:
+        with FTP(FTP_HOST) as ftp:
+            print("🔌 Connecting to FTP...")
+            ftp.login(FTP_USER, FTP_PASS)
+            print("✅ FTP login successful.")
+            try:
+                ftp.mkd('archives')  # Optional: create folder if missing
+            except Exception as e:
+                print("ℹ️ Could not create archives dir (probably exists):", e)
 
-    print("✅ Website content generated and uploaded.")
+            with open(file_path, 'rb') as f:
+                print(f"⬆️ Uploading {file_path} to {remote_path}")
+                ftp.storbinary(f'STOR {remote_path}', f)
+            print("✅ Upload complete.")
+    except Exception as e:
+        print("❌ FTP upload failed:", e)
+        raise
+
 
 if __name__ == "__main__":
     try:
