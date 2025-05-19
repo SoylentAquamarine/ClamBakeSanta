@@ -1,139 +1,152 @@
 import os
-from datetime import datetime
-from pathlib import Path
-import ssl
-from ftplib import FTP_TLS
+import datetime
 from openai import OpenAI
+from ftplib import FTP_TLS
+import ssl
 
-# Load API and FTP credentials from environment
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-FTP_HOST = os.getenv("FTP_HOST")
-FTP_USER = os.getenv("FTP_USER")
-FTP_PASS = os.getenv("FTP_PASS")
+client = OpenAI()
 
-# Get today's date info
-now = datetime.now()
-month = now.strftime("%B").lower()
-day_key = now.strftime("%m-%d")
-full_date = now.strftime("%Y-%m-%d")
+# === Configuration ===
+ftp_host = os.getenv("FTP_HOST")
+ftp_user = os.getenv("FTP_USER")
+ftp_pass = os.getenv("FTP_PASS")
+remote_dir = "/htdocs/ClamBakeSanta/"
 
-def load_themes(month, day_key):
+today = datetime.date.today()
+today_str = today.strftime("%Y-%m-%d")
+month = today.strftime("%B").lower()
+mm_dd = today.strftime("%m-%d")
+
+# === Load Holiday Data ===
+def load_themes(filename):
     themes = []
-    for category in ["celebritybirthday", "randomholiday"]:
-        file_path = f"{month}_{category}.txt"
-        print(f"Looking for file: {file_path}")
-        if not os.path.exists(file_path):
-            print(f"❌ File not found: {file_path}")
-            continue
-        with open(file_path, "r", encoding="utf-8") as f:
+    try:
+        with open(filename, "r") as f:
             for line in f:
-                print(f"Checking line: {line.strip()}")
-                if line.strip().startswith(f"{day_key}:"):
-                    print(f"✅ Matched line: {line.strip()}")
-                    themes.extend(x.strip() for x in line.split(":", 1)[1].split(","))
-    print("🎯 Final themes:", themes)
+                if line.startswith(mm_dd):
+                    parts = line.strip().split(":")
+                    if len(parts) > 1:
+                        items = parts[1].split(",")
+                        themes.extend([item.strip() for item in items])
+    except Exception as e:
+        print(f"Error loading {filename}: {e}")
     return themes
 
-def generate_haiku(prompt):
-    response = client.chat.completions.create(
-        model="gpt-4",
-        messages=[{
-            "role": "user",
-            "content": f"Write a 3-line haiku about {prompt}, sensory and seasonal if possible. Do not use the theme name in the haiku."
-        }]
-    )
-    return response.choices[0].message.content.strip()
+celebs = load_themes(f"{month}_celebritybirthday.txt")
+holidays = load_themes(f"{month}_randomholiday.txt")
+themes = holidays + celebs
 
+# === Generate Haikus ===
+def generate_haiku(theme):
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": "Write a haiku (5-7-5) about the given theme. Do not mention the theme name directly. Use vivid, sensory language."},
+                {"role": "user", "content": f"{theme}"}
+            ]
+        )
+        poem = response.choices[0].message.content.strip()
+        if "birthday" in theme.lower():
+            hashtag = "#HappyBirthday" + theme.replace("Birthday ", "").replace(" ", "")
+        else:
+            hashtag = "Happy #" + theme.replace(" ", "").replace("'", "")
+        return f"{poem}\n\n{hashtag} from @ClamBakeSanta"
+    except Exception as e:
+        print(f"❌ Failed to generate haiku for {theme}: {e}")
+        return None
+
+haikus = [generate_haiku(theme) for theme in themes if generate_haiku(theme)]
+
+# === HTML Generation ===
 def format_html(date_str, haikus):
     header = f"<h1>Haikus for {date_str}</h1>\n"
-    link = '<p><a href="archives/index.html">🗂 View Archive</a></p>\n'
+    link = '<p><a href="archives/index.html">🗂 View Archive</a> | <a href="feed.xml">📡 RSS Feed</a></p>\n'
     body = "\n".join(f"<p>{h.replace('\n', '<br>')}</p>" for h in haikus)
     return f"<html><body>{header}{link}{body}</body></html>"
 
-def save_html(content, path):
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
+index_html = format_html(today_str, haikus)
+archive_path = f"archives/{today_str}.html"
+archive_html = format_html(today_str, haikus)
 
-def upload_via_ftp(file_path, remote_path):
+# === Write Files Locally ===
+with open("index.html", "w") as f:
+    f.write(index_html)
+
+os.makedirs("archives", exist_ok=True)
+with open(archive_path, "w") as f:
+    f.write(archive_html)
+
+# === Update Archive Index ===
+def update_archive_index():
+    links = []
+    for filename in sorted(os.listdir("archives")):
+        if filename.endswith(".html") and filename != "index.html":
+            date_str = filename.replace(".html", "")
+            links.append(f'<li><a href="{filename}">{date_str}</a></li>')
+    html = f"<html><body><h1>Haiku Archives</h1><ul>{''.join(links)}</ul></body></html>"
+    with open("archives/index.html", "w") as f:
+        f.write(html)
+
+update_archive_index()
+
+# === Generate feed.xml ===
+def generate_rss_feed(haikus, date_str):
+    pub_date = today.strftime("%a, %d %b %Y 04:00:00 +0000")
+    rss_items = ""
+    for theme, haiku in zip(themes, haikus):
+        title = theme
+        desc = haiku.replace("\n", "<br>")
+        rss_items += f"""
+        <item>
+          <title>{title}</title>
+          <link>https://yourwebsite.com/ClamBakeSanta/archives/{date_str}.html</link>
+          <pubDate>{pub_date}</pubDate>
+          <description><![CDATA[{desc}]]></description>
+        </item>"""
+
+    rss = f"""<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>ClamBakeSanta Daily Haikus</title>
+    <link>https://yourwebsite.com/ClamBakeSanta/</link>
+    <description>Daily haikus celebrating holidays and birthdays</description>
+    <language>en-us</language>
+    <lastBuildDate>{pub_date}</lastBuildDate>
+    {rss_items}
+  </channel>
+</rss>
+"""
+    with open("feed.xml", "w") as f:
+        f.write(rss)
+
+generate_rss_feed(haikus, today_str)
+
+# === Upload Files via FTP ===
+def upload_file(ftp, local_path, remote_path):
     try:
-        if not os.path.exists(file_path):
-            print(f"❌ File does not exist: {file_path}")
-            return
-
-        print(f"🌐 Connecting to FTP_TLS at {FTP_HOST} as {FTP_USER}")
-
-        # Use relaxed SSL context to support weak DH keys
-        context = ssl.create_default_context()
-        context.set_ciphers("DEFAULT:@SECLEVEL=1")
-
-        ftp = FTP_TLS(context=context)
-        ftp.connect(FTP_HOST, 21)
-        ftp.login(FTP_USER, FTP_PASS)
-        ftp.prot_p()
-        print("✅ FTP_TLS login successful.")
-        print("📂 Current FTP directory:", ftp.pwd())
-        ftp.retrlines('LIST')
-
-        try:
-            ftp.mkd('htdocs/ClamBakeSanta/archives')
-            print("📁 Created 'archives' directory.")
-        except Exception as e:
-            print("ℹ️ 'archives' may already exist:", e)
-
-        print(f"⬆️ Uploading {file_path} to {remote_path}")
-        with open(file_path, 'rb') as f:
-            ftp.storbinary(f'STOR ' + remote_path, f)
-        print("✅ Upload complete.")
-        ftp.quit()
-
+        with open(local_path, "rb") as f:
+            ftp.storbinary(f"STOR {remote_path}", f)
+            print(f"✅ Uploaded {local_path} to {remote_path}")
     except Exception as e:
-        print("❌ FTP_TLS upload failed:", e)
-        raise
+        print(f"❌ FTP upload failed for {local_path}: {e}")
 
-def main():
-    themes = load_themes(month, day_key)
+try:
+    context = ssl.create_default_context()
+    context.set_ciphers("DEFAULT@SECLEVEL=1")
+    ftps = FTP_TLS(context=context)
+    ftps.connect(ftp_host, 21)
+    ftps.login(ftp_user, ftp_pass)
+    ftps.prot_p()
+    ftps.cwd(remote_dir)
 
-    if not themes:
-        print("No themes for today.")
-        return
+    upload_file(ftps, "index.html", "index.html")
+    upload_file(ftps, "feed.xml", "feed.xml")
 
-    haikus = []
-    for theme in themes:
-        print(f"Generating haiku for: {theme}")
-        haiku = generate_haiku(theme)
-        hashtag = f"Happy #{theme.replace(' ', '')}" if not theme.startswith("Birthday") else f"#Happy{theme.replace(' ', '')}"
-        haikus.append(f"{haiku}\n<br>{hashtag} from @ClamBakeSanta")
+    ftps.cwd("archives")
+    for filename in [f"{today_str}.html", "index.html"]:
+        upload_file(ftps, f"archives/{filename}", filename)
 
-    Path("archives").mkdir(exist_ok=True)
-
-    archive_file = f"archives/{full_date}.html"
-    archive_html = format_html(full_date, haikus)
-    save_html(archive_html, archive_file)
-
-    index_html = format_html("Today", haikus)
-    save_html(index_html, "index.html")
-
-    archive_links = []
-    for file in sorted(Path("archives").glob("*.html")):
-        name = file.stem
-        archive_links.append(f'<li><a href="{file.name}">{name}</a></li>')
-    archive_index = f"<html><body><h1>Archives</h1><ul>{''.join(archive_links)}</ul></body></html>"
-    save_html(archive_index, "archives/index.html")
-
-    print("📁 Local files before upload:", os.listdir('.'))
-    print("📁 Archives directory:", os.listdir('archives'))
-
-    upload_via_ftp("index.html", "htdocs/ClamBakeSanta/index.html")
-    upload_via_ftp(archive_file, f"htdocs/ClamBakeSanta/archives/{full_date}.html")
-    upload_via_ftp("archives/index.html", "htdocs/ClamBakeSanta/archives/index.html")
-
-    print("✅ Website content generated and uploaded.")
-
-if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        print("❌ Unhandled Exception:", e)
-        import traceback
-        traceback.print_exc()
-        exit(1)
+    ftps.quit()
+except Exception as e:
+    print(f"❌ Unhandled FTP Exception: {e}")
