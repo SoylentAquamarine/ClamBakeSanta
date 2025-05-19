@@ -82,7 +82,7 @@ def main():
 
     # Update index.html
     index_html = format_html("Today", haikus)
-    save_html("index.html", index_html)
+    save_html(index_html, "index.html")
 
     # Build archives/index.html
     archive_links = []
