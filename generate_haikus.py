@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 from pathlib import Path
-from ftplib import FTP
+from ftplib import FTP_TLS
 from openai import OpenAI
 
 # Load API and FTP credentials from environment
@@ -58,26 +58,29 @@ def upload_via_ftp(file_path, remote_path):
             print(f"❌ File does not exist: {file_path}")
             return
 
-        with FTP(FTP_HOST) as ftp:
-            print("🔌 Connecting to FTP...")
-            ftp.login(FTP_USER, FTP_PASS)
-            print("✅ FTP login successful.")
-            print("📂 Current FTP working directory:", ftp.pwd())
-            print("📄 FTP directory contents:")
-            ftp.retrlines('LIST')
+        print(f"🌐 Connecting to FTP_TLS at {FTP_HOST} as {FTP_USER}")
+        ftp = FTP_TLS()
+        ftp.connect(FTP_HOST, 21)
+        ftp.login(FTP_USER, FTP_PASS)
+        ftp.prot_p()  # Secure data connection
+        print("✅ FTP_TLS login successful.")
+        print("📂 Current FTP directory:", ftp.pwd())
+        ftp.retrlines('LIST')
 
-            try:
-                ftp.mkd('htdocs/ClamBakeSanta/archives')
-                print("📁 Created 'archives' directory.")
-            except Exception as e:
-                print("ℹ️ 'archives' may already exist:", e)
+        try:
+            ftp.mkd('htdocs/ClamBakeSanta/archives')
+            print("📁 Created 'archives' directory.")
+        except Exception as e:
+            print("ℹ️ 'archives' may already exist:", e)
 
-            print(f"⬆️ Uploading {file_path} to {remote_path}")
-            with open(file_path, 'rb') as f:
-                ftp.storbinary(f'STOR {remote_path}', f)
-            print("✅ Upload complete.")
+        print(f"⬆️ Uploading {file_path} to {remote_path}")
+        with open(file_path, 'rb') as f:
+            ftp.storbinary(f'STOR {remote_path}', f)
+        print("✅ Upload complete.")
+        ftp.quit()
+
     except Exception as e:
-        print("❌ FTP upload failed:", e)
+        print("❌ FTP_TLS upload failed:", e)
         raise
 
 def main():
