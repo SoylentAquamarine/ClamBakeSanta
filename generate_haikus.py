@@ -113,9 +113,10 @@ def main():
     print("📁 Local files before upload:", os.listdir('.'))
     print("📁 Archives directory:", os.listdir('archives'))
 
-    upload_via_ftp("index.html", "index.html")
-    upload_via_ftp(archive_file, f"archives/{full_date}.html")
-    upload_via_ftp("archives/index.html", "archives/index.html")
+upload_via_ftp("index.html", "htdocs/ClamBakeSanta/index.html")
+upload_via_ftp(archive_file, f"htdocs/ClamBakeSanta/archives/{full_date}.html")
+upload_via_ftp("archives/index.html", "htdocs/ClamBakeSanta/archives/index.html")
+
 
     print("✅ Website content generated and uploaded.")
 
