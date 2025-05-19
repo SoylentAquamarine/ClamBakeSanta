@@ -54,6 +54,10 @@ def save_html(content, path):
 
 def upload_via_ftp(file_path, remote_path):
     try:
+        if not os.path.exists(file_path):
+            print(f"❌ File does not exist: {file_path}")
+            return
+
         with FTP(FTP_HOST) as ftp:
             print("🔌 Connecting to FTP...")
             ftp.login(FTP_USER, FTP_PASS)
@@ -63,8 +67,8 @@ def upload_via_ftp(file_path, remote_path):
             except Exception as e:
                 print("ℹ️ Could not create archives dir (probably exists):", e)
 
+            print(f"⬆️ Uploading {file_path} to {remote_path}")
             with open(file_path, 'rb') as f:
-                print(f"⬆️ Uploading {file_path} to {remote_path}")
                 ftp.storbinary(f'STOR {remote_path}', f)
             print("✅ Upload complete.")
     except Exception as e:
@@ -104,6 +108,10 @@ def main():
         archive_links.append(f'<li><a href="{file.name}">{name}</a></li>')
     archive_index = f"<html><body><h1>Archives</h1><ul>{''.join(archive_links)}</ul></body></html>"
     save_html(archive_index, "archives/index.html")
+
+    # Debug local file list
+    print("📁 Local files before upload:", os.listdir('.'))
+    print("📁 Archives directory:", os.listdir('archives'))
 
     # Upload via FTP
     upload_via_ftp("index.html", "index.html")
