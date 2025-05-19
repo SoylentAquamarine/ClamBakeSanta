@@ -12,9 +12,9 @@ FTP_PASS = os.getenv("FTP_PASS")
 
 # Get today's date info
 now = datetime.now()
-month = now.strftime("%B").lower()         # e.g., 'may'
-day_key = now.strftime("%m-%d")            # e.g., '05-18'
-full_date = now.strftime("%Y-%m-%d")       # e.g., '2025-05-18'
+month = now.strftime("%B").lower()
+day_key = now.strftime("%m-%d")
+full_date = now.strftime("%Y-%m-%d")
 
 def load_themes(month, day_key):
     themes = []
@@ -62,10 +62,15 @@ def upload_via_ftp(file_path, remote_path):
             print("🔌 Connecting to FTP...")
             ftp.login(FTP_USER, FTP_PASS)
             print("✅ FTP login successful.")
+            print("📂 Current FTP working directory:", ftp.pwd())
+            print("📄 FTP directory contents:")
+            ftp.retrlines('LIST')
+
             try:
-                ftp.mkd('archives')  # Optional: create folder if missing
+                ftp.mkd('archives')
+                print("📁 Created 'archives' directory.")
             except Exception as e:
-                print("ℹ️ Could not create archives dir (probably exists):", e)
+                print("ℹ️ 'archives' may already exist:", e)
 
             print(f"⬆️ Uploading {file_path} to {remote_path}")
             with open(file_path, 'rb') as f:
@@ -89,19 +94,15 @@ def main():
         hashtag = f"Happy #{theme.replace(' ', '')}" if not theme.startswith("Birthday") else f"#Happy{theme.replace(' ', '')}"
         haikus.append(f"{haiku}\n<br>{hashtag} from @ClamBakeSanta")
 
-    # Ensure archive folder exists
     Path("archives").mkdir(exist_ok=True)
 
-    # Save today's archive
     archive_file = f"archives/{full_date}.html"
     archive_html = format_html(full_date, haikus)
     save_html(archive_html, archive_file)
 
-    # Update index.html
     index_html = format_html("Today", haikus)
     save_html(index_html, "index.html")
 
-    # Build archives/index.html
     archive_links = []
     for file in sorted(Path("archives").glob("*.html")):
         name = file.stem
@@ -109,11 +110,9 @@ def main():
     archive_index = f"<html><body><h1>Archives</h1><ul>{''.join(archive_links)}</ul></body></html>"
     save_html(archive_index, "archives/index.html")
 
-    # Debug local file list
     print("📁 Local files before upload:", os.listdir('.'))
     print("📁 Archives directory:", os.listdir('archives'))
 
-    # Upload via FTP
     upload_via_ftp("index.html", "index.html")
     upload_via_ftp(archive_file, f"archives/{full_date}.html")
     upload_via_ftp("archives/index.html", "archives/index.html")
