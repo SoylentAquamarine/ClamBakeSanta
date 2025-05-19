@@ -53,10 +53,23 @@ def save_html(content, path):
         f.write(content)
 
 def upload_via_ftp(file_path, remote_path):
-    with FTP(FTP_HOST) as ftp:
-        ftp.login(FTP_USER, FTP_PASS)
-        with open(file_path, 'rb') as f:
-            ftp.storbinary(f'STOR {remote_path}', f)
+    try:
+        with FTP(FTP_HOST) as ftp:
+            print("🔌 Connecting to FTP...")
+            ftp.login(FTP_USER, FTP_PASS)
+            print("✅ FTP login successful.")
+            try:
+                ftp.mkd('archives')  # Optional: create folder if missing
+            except Exception as e:
+                print("ℹ️ Could not create archives dir (probably exists):", e)
+
+            with open(file_path, 'rb') as f:
+                print(f"⬆️ Uploading {file_path} to {remote_path}")
+                ftp.storbinary(f'STOR {remote_path}', f)
+            print("✅ Upload complete.")
+    except Exception as e:
+        print("❌ FTP upload failed:", e)
+        raise
 
 def main():
     themes = load_themes(month, day_key)
@@ -92,26 +105,12 @@ def main():
     archive_index = f"<html><body><h1>Archives</h1><ul>{''.join(archive_links)}</ul></body></html>"
     save_html(archive_index, "archives/index.html")
 
+    # Upload via FTP
+    upload_via_ftp("index.html", "index.html")
+    upload_via_ftp(archive_file, f"archives/{full_date}.html")
+    upload_via_ftp("archives/index.html", "archives/index.html")
 
-    def upload_via_ftp(file_path, remote_path):
-    try:
-        with FTP(FTP_HOST) as ftp:
-            print("🔌 Connecting to FTP...")
-            ftp.login(FTP_USER, FTP_PASS)
-            print("✅ FTP login successful.")
-            try:
-                ftp.mkd('archives')  # Optional: create folder if missing
-            except Exception as e:
-                print("ℹ️ Could not create archives dir (probably exists):", e)
-
-            with open(file_path, 'rb') as f:
-                print(f"⬆️ Uploading {file_path} to {remote_path}")
-                ftp.storbinary(f'STOR {remote_path}', f)
-            print("✅ Upload complete.")
-    except Exception as e:
-        print("❌ FTP upload failed:", e)
-        raise
-
+    print("✅ Website content generated and uploaded.")
 
 if __name__ == "__main__":
     try:
@@ -121,4 +120,3 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
         exit(1)
-    
