@@ -1,32 +1,30 @@
-name: Deploy Daily Haikus
+name: Deploy Haikus
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs at 08:00 UTC daily
-  workflow_dispatch:     # Allows manual trigger
+    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC (4:00 AM Eastern)
+  workflow_dispatch:
 
 jobs:
-  build-and-upload:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install openai python-dotenv
+    - name: Install dependencies
+      run: pip install -r requirements.txt
 
-      - name: Run haiku generator
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USER: ${{ secrets.FTP_USER }}
-          FTP_PASS: ${{ secrets.FTP_PASS }}
-        run: python generate_haikus.py
+    - name: Run haiku generator
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        FTP_HOST: ${{ secrets.FTP_HOST }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASS: ${{ secrets.FTP_PASS }}
+      run: python generate_haikus.py
