@@ -1,6 +1,7 @@
 import os
 from datetime import datetime
 from pathlib import Path
+import ssl
 from ftplib import FTP_TLS
 from openai import OpenAI
 
@@ -59,10 +60,15 @@ def upload_via_ftp(file_path, remote_path):
             return
 
         print(f"🌐 Connecting to FTP_TLS at {FTP_HOST} as {FTP_USER}")
-        ftp = FTP_TLS()
+
+        # Use relaxed SSL context to support weak DH keys
+        context = ssl.create_default_context()
+        context.set_ciphers("DEFAULT:@SECLEVEL=1")
+
+        ftp = FTP_TLS(context=context)
         ftp.connect(FTP_HOST, 21)
         ftp.login(FTP_USER, FTP_PASS)
-        ftp.prot_p()  # Secure data connection
+        ftp.prot_p()
         print("✅ FTP_TLS login successful.")
         print("📂 Current FTP directory:", ftp.pwd())
         ftp.retrlines('LIST')
@@ -75,7 +81,7 @@ def upload_via_ftp(file_path, remote_path):
 
         print(f"⬆️ Uploading {file_path} to {remote_path}")
         with open(file_path, 'rb') as f:
-            ftp.storbinary(f'STOR {remote_path}', f)
+            ftp.storbinary(f'STOR ' + remote_path, f)
         print("✅ Upload complete.")
         ftp.quit()
 
