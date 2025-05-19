@@ -90,7 +90,8 @@ def main():
         name = file.stem
         archive_links.append(f'<li><a href="{file.name}">{name}</a></li>')
     archive_index = f"<html><body><h1>Archives</h1><ul>{''.join(archive_links)}</ul></body></html>"
-    save_html("archives/index.html", archive_index)
+    save_html(archive_index, "archives/index.html")
+
 
     # Upload via FTP
     upload_via_ftp("index.html", "index.html")
