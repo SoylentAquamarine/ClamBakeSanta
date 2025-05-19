@@ -1,2 +1,45 @@
-- name: Test FTP env vars
-  run: python test_ftp_env.py
+name: Test FTP Environment Variables
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-env:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Create test_ftp_env.py
+        run: |
+          echo "import os" > test_ftp_env.py
+          echo "print('🔎 Checking FTP environment variables...\\n')" >> test_ftp_env.py
+          echo "ftp_host = os.getenv('FTP_HOST')" >> test_ftp_env.py
+          echo "ftp_user = os.getenv('FTP_USER')" >> test_ftp_env.py
+          echo "ftp_pass = os.getenv('FTP_PASS')" >> test_ftp_env.py
+          echo "if not ftp_host:" >> test_ftp_env.py
+          echo "    print('❌ FTP_HOST is not set.')" >> test_ftp_env.py
+          echo "else:" >> test_ftp_env.py
+          echo "    print(f'✅ FTP_HOST = {ftp_host}')" >> test_ftp_env.py
+          echo "if not ftp_user:" >> test_ftp_env.py
+          echo "    print('❌ FTP_USER is not set.')" >> test_ftp_env.py
+          echo "else:" >> test_ftp_env.py
+          echo "    print(f'✅ FTP_USER = {ftp_user}')" >> test_ftp_env.py
+          echo "if not ftp_pass:" >> test_ftp_env.py
+          echo "    print('❌ FTP_PASS is not set.')" >> test_ftp_env.py
+          echo "else:" >> test_ftp_env.py
+          echo "    print('✅ FTP_PASS is set (not displayed for security)')" >> test_ftp_env.py
+          echo "print('\\n✅ Environment variable check complete.')" >> test_ftp_env.py
+
+      - name: Run FTP env test
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: python test_ftp_env.py
