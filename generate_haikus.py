@@ -13,10 +13,10 @@ FTP_PASS = os.getenv("FTP_PASS")
 # Get today's date info
 now = datetime.now()
 month = now.strftime("%B").lower()         # e.g., 'may'
-day = now.strftime("%d")                   # e.g., '18'
+day_key = now.strftime("%m-%d")            # e.g., '05-18'
 full_date = now.strftime("%Y-%m-%d")       # e.g., '2025-05-18'
 
-def load_themes(month, day):
+def load_themes(month, day_key):
     themes = []
     for category in ["celebritybirthday", "randomholiday"]:
         file_path = f"{month}_{category}.txt"
@@ -27,12 +27,11 @@ def load_themes(month, day):
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
                 print(f"Checking line: {line.strip()}")
-                if line.strip().startswith(f"{day}:"):
+                if line.strip().startswith(f"{day_key}:"):
                     print(f"✅ Matched line: {line.strip()}")
                     themes.extend(x.strip() for x in line.split(":", 1)[1].split(","))
     print("🎯 Final themes:", themes)
     return themes
-
 
 def generate_haiku(prompt):
     response = openai.ChatCompletion.create(
@@ -60,7 +59,7 @@ def upload_via_ftp(file_path, remote_path):
             ftp.storbinary(f'STOR {remote_path}', f)
 
 def main():
-    themes = load_themes(month, day)
+    themes = load_themes(month, day_key)
 
     if not themes:
         print("No themes for today.")
@@ -98,7 +97,7 @@ def main():
     upload_via_ftp(archive_file, f"archives/{full_date}.html")
     upload_via_ftp("archives/index.html", "archives/index.html")
 
-    print("Website content generated and uploaded.")
+    print("✅ Website content generated and uploaded.")
 
 if __name__ == "__main__":
     main()
