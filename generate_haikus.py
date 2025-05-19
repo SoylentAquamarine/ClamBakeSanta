@@ -2,20 +2,40 @@ import os
 from datetime import datetime
 from pathlib import Path
 from ftplib import FTP
-
-from days import themes  # your existing MM-DD dictionary
 import openai
 
-# Load env variables
+# Load API and FTP credentials from environment
 openai.api_key = os.getenv("OPENAI_API_KEY")
 FTP_HOST = os.getenv("FTP_HOST")
 FTP_USER = os.getenv("FTP_USER")
 FTP_PASS = os.getenv("FTP_PASS")
 
+# Get today's date info
+now = datetime.now()
+month = now.strftime("%B").lower()         # e.g., 'may'
+day = now.strftime("%d")                   # e.g., '18'
+full_date = now.strftime("%Y-%m-%d")       # e.g., '2025-05-18'
+
+def load_themes(month, day):
+    themes = []
+    for category in ["celebritybirthday", "randomholiday"]:
+        file_path = f"{month}_{category}.txt"
+        if not os.path.exists(file_path):
+            continue
+        with open(file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                if line.strip().startswith(f"{day}:"):
+                    # Get everything after the colon and split by commas
+                    themes.extend(x.strip() for x in line.split(":", 1)[1].split(","))
+    return themes
+
 def generate_haiku(prompt):
     response = openai.ChatCompletion.create(
         model="gpt-4",
-        messages=[{"role": "user", "content": f"Write a 3-line haiku about {prompt}, sensory, seasonal if possible. Do not use the name of the theme in the haiku."}]
+        messages=[{
+            "role": "user",
+            "content": f"Write a 3-line haiku about {prompt}, sensory and seasonal if possible. Do not use the theme name in the haiku."
+        }]
     )
     return response.choices[0].message.content.strip()
 
@@ -35,23 +55,23 @@ def upload_via_ftp(file_path, remote_path):
             ftp.storbinary(f'STOR {remote_path}', f)
 
 def main():
-    today = datetime.now().strftime("%m-%d")
-    full_date = datetime.now().strftime("%Y-%m-%d")
-    date_themes = themes.get(today, [])
+    themes = load_themes(month, day)
 
-    if not date_themes:
+    if not themes:
         print("No themes for today.")
         return
 
     haikus = []
-    for theme in date_themes:
+    for theme in themes:
+        print(f"Generating haiku for: {theme}")
         haiku = generate_haiku(theme)
-        haikus.append(f"{haiku}\n<br>Happy #{theme.replace(' ', '')} from @ClamBakeSanta")
+        hashtag = f"Happy #{theme.replace(' ', '')}" if not theme.startswith("Birthday") else f"#Happy{theme.replace(' ', '')}"
+        haikus.append(f"{haiku}\n<br>{hashtag} from @ClamBakeSanta")
 
-    # Create archive folder if needed
+    # Ensure archive folder exists
     Path("archives").mkdir(exist_ok=True)
 
-    # Save today's file
+    # Save today's archive
     archive_file = f"archives/{full_date}.html"
     archive_html = format_html(full_date, haikus)
     save_html(archive_html, archive_file)
@@ -60,7 +80,7 @@ def main():
     index_html = format_html("Today", haikus)
     save_html("index.html", index_html)
 
-    # Rebuild archives/index.html
+    # Build archives/index.html
     archive_links = []
     for file in sorted(Path("archives").glob("*.html")):
         name = file.stem
@@ -68,10 +88,11 @@ def main():
     archive_index = f"<html><body><h1>Archives</h1><ul>{''.join(archive_links)}</ul></body></html>"
     save_html("archives/index.html", archive_index)
 
-    # FTP Upload
+    # Upload via FTP
     upload_via_ftp("index.html", "index.html")
     upload_via_ftp(archive_file, f"archives/{full_date}.html")
     upload_via_ftp("archives/index.html", "archives/index.html")
+
     print("Website content generated and uploaded.")
 
 if __name__ == "__main__":
