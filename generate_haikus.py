@@ -2,10 +2,10 @@ import os
 from datetime import datetime
 from pathlib import Path
 from ftplib import FTP
-import openai
+from openai import OpenAI
 
 # Load API and FTP credentials from environment
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 FTP_HOST = os.getenv("FTP_HOST")
 FTP_USER = os.getenv("FTP_USER")
 FTP_PASS = os.getenv("FTP_PASS")
@@ -34,7 +34,7 @@ def load_themes(month, day_key):
     return themes
 
 def generate_haiku(prompt):
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4",
         messages=[{
             "role": "user",
