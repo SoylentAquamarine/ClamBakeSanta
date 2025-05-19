@@ -1,4 +1,4 @@
-name: Upload HTML to FTP
+name: Upload Haikus to FTP
 
 on:
   push:
