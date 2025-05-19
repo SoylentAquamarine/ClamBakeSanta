@@ -46,6 +46,7 @@ def generate_haiku(prompt):
 
 def format_html(date_str, haikus):
     header = f"<h1>Haikus for {date_str}</h1>\n"
+    link = '<p><a href="archives/index.html">🗂 View Archive</a></p>\n'
     body = "\n".join(f"<p>{h.replace('\n', '<br>')}</p>" for h in haikus)
     return f"<html><body>{header}{body}</body></html>"
 
