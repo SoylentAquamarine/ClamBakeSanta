@@ -80,12 +80,24 @@ with open(archive_path, "w") as f:
 
 # === Update Archive Index ===
 def update_archive_index():
-    links = []
-    for filename in sorted(os.listdir("archives")):
-        if filename.endswith(".html") and filename != "index.html":
-            date_str = filename.replace(".html", "")
-            links.append(f'<li><a href="{date_str}.html">{date_str}</a></li>')
-    html = f"<html><body><h1>Haiku Archives</h1><ul>{''.join(links)}</ul></body></html>"
+    archive_files = [
+        f for f in os.listdir("archives")
+        if f.endswith(".html") and f != "index.html"
+    ]
+    archive_files.sort(reverse=True)
+    links = [f'<li><a href="{filename}">{filename.replace(".html", "")}</a></li>' for filename in archive_files]
+
+    html = f"""<html>
+  <head><title>ClamBakeSanta Archives</title></head>
+  <body>
+    <h1>📚 Haiku Archive</h1>
+    <p><a href="../index.html">⬅ Back to Today’s Haikus</a></p>
+    <ul>
+      {''.join(links)}
+    </ul>
+  </body>
+</html>
+"""
     with open("archives/index.html", "w") as f:
         f.write(html)
 
