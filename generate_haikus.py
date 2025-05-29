@@ -22,7 +22,7 @@ mm_dd = today.strftime("%m-%d")
 def load_themes(filename):
     themes = []
     try:
-        with open(filename, "r") as f:
+        with open(filename, "r", encoding="utf-8") as f:
             for line in f:
                 if line.startswith(mm_dd):
                     parts = line.strip().split(":")
@@ -71,11 +71,11 @@ archive_path = f"archives/{today_str}.html"
 archive_html = format_html(today_str, haikus)
 
 # === Write Files Locally ===
-with open("index.html", "w") as f:
+with open("index.html", "w", encoding="utf-8") as f:
     f.write(index_html)
 
 os.makedirs("archives", exist_ok=True)
-with open(archive_path, "w") as f:
+with open(archive_path, "w", encoding="utf-8") as f:
     f.write(archive_html)
 
 # === Update Archive Index ===
@@ -98,7 +98,7 @@ def update_archive_index():
   </body>
 </html>
 """
-    with open("archives/index.html", "w") as f:
+    with open("archives/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
 update_archive_index()
@@ -120,8 +120,8 @@ def generate_rss_feed(haikus, date_str):
       ]]></description>
     </item>"""
 
-    rss = f"""<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+    rss = f"""<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
+<rss version=\"2.0\">
   <channel>
     <title>ClamBakeSanta Daily Haikus</title>
     <link>{base_url}</link>
@@ -131,7 +131,7 @@ def generate_rss_feed(haikus, date_str):
   </channel>
 </rss>
 """
-    with open("feed.xml", "w") as f:
+    with open("feed.xml", "w", encoding="utf-8") as f:
         f.write(rss)
 
 generate_rss_feed(haikus, today_str)
