@@ -1,4 +1,4 @@
-name: Generate and Deploy Haikus
+name: Daily Haiku Deploy
 
 on:
   schedule:
@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Checkout Repo
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -18,21 +18,23 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pip install openai
 
-      - name: Run haiku generator
+      - name: Run Haiku Generator
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASS: ${{ secrets.FTP_PASS }}
-        run: python generate_haikus.py
+        run: |
+          mkdir -p docs/archives
+          python generate_haikus.py
 
-      - name: Commit and push generated files
+      - name: Commit and Push to GitHub Pages
         run: |
           git config user.name "ClamBakeSantaBot"
           git config user.email "bot@example.com"
           git add docs/
-          git commit -m "🤖 Daily haiku update"
-          git push
+          git commit -m "Daily haiku update"
+          git push origin main
