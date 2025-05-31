@@ -1,34 +1,36 @@
 name: Daily Haiku Deploy
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 8 * * *"  # Runs daily at 8:00 UTC (4am Eastern)
+    - cron: '0 8 * * *'  # Runs every day at 08:00 UTC (4am ET)
+  workflow_dispatch:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install openai
+    - name: Install dependencies
+      run: pip install openai
 
-      - name: Run haiku generator
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python generate_haikus.py
+    - name: Run haiku generator
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: python generate_haikus.py
 
-      - name: Commit generated files
-        run: |
-          git config --global user.name "ClamBakeSantaBot"
-          git config --global user.email "bot@example.com"
-          git add docs/
-          git commit -m "Update haiku output" || echo "Nothing to commit"
-          git push
+    - name: Commit and push generated files
+      run: |
+        git config user.name "ClamBakeSantaBot"
+        git config user.email "bot@example.com"
+        git add docs/*
+        git add docs/archives/*
+        git commit -m "Update daily haiku and RSS feed" || echo "Nothing to commit"
+        git push origin main
