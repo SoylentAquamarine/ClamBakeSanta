@@ -1,42 +1,168 @@
-name: Daily Haiku Deploy
+import os
+import datetime
+import openai
+from ftplib import FTP_TLS, error_perm
+import ssl
 
-on:
-  schedule:
-    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC (4:00 AM Eastern)
-  workflow_dispatch:
+# Setup OpenAI client
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+# Get today's date
+today = datetime.date.today()
+month_str = today.strftime("%B").lower()
+date_str = today.strftime("%Y-%m-%d")
+md_str = today.strftime("%m-%d")
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: false  # 🔑 disables default token
+# File paths
+index_path = "index.html"
+archive_dir = "archives"
+archive_path = f"{archive_dir}/{date_str}.html"
+rss_path = "feed.xml"
+archive_index_path = f"{archive_dir}/index.html"
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+# Ensure archive directory exists
+os.makedirs(archive_dir, exist_ok=True)
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+# Load holiday themes
+def load_themes():
+    themes = []
+    for tfile in [f"{month_str}_celebritybirthday.txt", f"{month_str}_randomholiday.txt"]:
+        if not os.path.exists(tfile):
+            continue
+        with open(tfile, "r", encoding="utf-8") as f:
+            for line in f:
+                if line.startswith(md_str):
+                    _, data = line.strip().split(":", 1)
+                    themes.extend([item.strip() for item in data.split(",")])
+    return themes
 
-      - name: Run haiku generator
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: python generate_haikus.py
+# Generate a haiku using OpenAI
+def generate_haiku(theme):
+    prompt = f"Write a seasonal haiku about {theme} in 5-7-5 format."
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-4o",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=60,
+            temperature=0.7,
+        )
+        haiku = response.choices[0].message.content.strip()
+        tag = f"#Happy{theme.replace(' ', '')}" if theme.lower().startswith("birthday") else f"#Happy{theme.replace(' ', '')}"
+        return f"{haiku}\nHappy {tag} from @ClamBakeSanta"
+    except Exception as e:
+        print(f"❌ OpenAI error for '{theme}': {e}")
+        return f"(failed to generate haiku for {theme})"
 
-      - name: Push changes back to GitHub
-        run: |
-          git config user.name "ClamBakeSantaBot"
-          git config user.email "bot@clambakesanta.local"
-          git add .
-          git commit -m "Daily haiku update" || echo "Nothing to commit"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git main
+# Format HTML for display
+def format_html(date_str, haikus):
+    header = f"<h1>Haikus for {date_str}</h1>\n"
+    link = '<p><a href="archives/index.html">🗂 View Archive</a></p>\n'
+    body = "\n".join(f"<p>{h.replace('\n', '<br>')}</p>" for h in haikus)
+    return f"<html><body>{header}{link}{body}</body></html>"
+
+# Generate RSS XML
+def format_rss(haikus, date_str):
+    items = ""
+    for h in haikus:
+        items += f"""
+  <item>
+    <title>Haiku for {date_str}</title>
+    <description><![CDATA[{h}]]></description>
+    <pubDate>{today.strftime("%a, %d %b %Y 00:00:00 GMT")}</pubDate>
+    <guid>https://steve.lovestoblog.com/ClamBakeSanta/archives/{date_str}.html</guid>
+    <link>https://steve.lovestoblog.com/ClamBakeSanta/archives/{date_str}.html</link>
+  </item>"""
+    return f"""<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+  <title>ClamBakeSanta Daily Haikus</title>
+  <link>https://steve.lovestoblog.com/ClamBakeSanta/</link>
+  <description>Daily haikus for holidays and celebrity birthdays</description>
+  <language>en-us</language>{items}
+</channel>
+</rss>"""
+
+# Update archive index
+def update_archive_index():
+    files = sorted(
+        [f for f in os.listdir(archive_dir) if f.endswith(".html") and f != "index.html"],
+        reverse=True,
+    )
+    links = "\n".join(
+        f'<li><a href="{f}">{f.replace(".html", "")}</a></li>' for f in files
+    )
+    content = f"<html><body><h1>Haiku Archive</h1><ul>{links}</ul></body></html>"
+    with open(archive_index_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+# Upload files via FTPS
+def upload_via_ftps(files):
+    host = os.getenv("FTP_HOST")
+    user = os.getenv("FTP_USERNAME")
+    passwd = os.getenv("FTP_PASSWORD")
+
+    if not host or not user or not passwd:
+        print("❌ FTP credentials are missing. Skipping upload.")
+        return
+
+    try:
+        ftps = FTP_TLS()
+        ftps.ssl_version = ssl.PROTOCOL_TLS
+        ftps.context = ssl.create_default_context()
+        ftps.context.set_ciphers("DEFAULT:@SECLEVEL=1")
+        ftps.connect(host, 21)
+        ftps.login(user, passwd)
+        ftps.prot_p()
+        print(f"✅ Connected to {host} as {user}")
+
+        ftps.cwd("/htdocs/ClamBakeSanta")
+        print(f"📁 Remote working directory: {ftps.pwd()}")
+        print(f"📄 Remote file list: {ftps.nlst()}")
+
+        # Create archives dir if needed
+        if "archives" not in ftps.nlst():
+            ftps.mkd("archives")
+
+        for file in files:
+            remote_path = file
+            if file.startswith("archives/"):
+                ftps.cwd("/htdocs/ClamBakeSanta/archives")
+                remote_path = file.split("/", 1)[-1]
+            else:
+                ftps.cwd("/htdocs/ClamBakeSanta")
+
+            with open(file, "rb") as f:
+                ftps.storbinary(f"STOR {remote_path}", f)
+                print(f"✅ Uploaded {file}")
+
+        ftps.quit()
+        print("✅ FTP session closed.")
+    except Exception as e:
+        print(f"❌ Unhandled FTP Exception: {e}")
+
+# Main logic
+def main():
+    themes = load_themes()
+    if not themes:
+        print("No holidays for today.")
+        return
+
+    haikus = [generate_haiku(t) for t in themes]
+
+    # Write files
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(format_html(date_str, haikus))
+
+    with open(archive_path, "w", encoding="utf-8") as f:
+        f.write(format_html(date_str, haikus))
+
+    with open(rss_path, "w", encoding="utf-8") as f:
+        f.write(format_rss(haikus, date_str))
+
+    update_archive_index()
+
+    # Upload everything
+    upload_via_ftps([index_path, archive_path, archive_index_path, rss_path])
+
+if __name__ == "__main__":
+    main()
