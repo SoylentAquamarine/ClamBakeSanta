@@ -1,12 +1,12 @@
 name: Daily Haiku Deploy
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC (4:00 AM Eastern)
+  workflow_dispatch:
 
 jobs:
-  generate-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,21 +16,25 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install openai
-
-      - name: Set OpenAI API key
-        run: echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run haiku generator
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: python generate_haikus.py
 
-      - name: Commit and push docs folder
+      - name: Push changes back to GitHub
         run: |
           git config user.name "ClamBakeSantaBot"
-          git config user.email "stephen.pleasants@gmail.com"
-          git add docs/
-          git commit -m "Update GitHub Pages content" || echo "No changes to commit"
-          git push
+          git config user.email "bot@clambakesanta.local"
+          git add .
+          git commit -m "Daily haiku update" || echo "Nothing to commit"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git main
