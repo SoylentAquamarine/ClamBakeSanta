@@ -2,165 +2,115 @@ import os
 import datetime
 from openai import OpenAI
 from ftplib import FTP_TLS
-import ssl
+from pathlib import Path
 
 client = OpenAI()
 
-# === Configuration ===
-ftp_host = os.getenv("FTP_HOST")
-ftp_user = os.getenv("FTP_USER")
-ftp_pass = os.getenv("FTP_PASS")
-remote_dir = "/htdocs/ClamBakeSanta/"
-base_url = "https://steve.lovestoblog.com/ClamBakeSanta/"
+# === File paths for GitHub Pages ===
+BASE_DIR = Path(__file__).resolve().parent
+DOCS_DIR = BASE_DIR / "docs"
+ARCHIVES_DIR = DOCS_DIR / "archives"
+INDEX_HTML = DOCS_DIR / "index.html"
+ARCHIVE_INDEX = ARCHIVES_DIR / "index.html"
+RSS_FEED = DOCS_DIR / "feed.xml"
 
-today = datetime.date.today()
-today_str = today.strftime("%Y-%m-%d")
-month = today.strftime("%B").lower()
-mm_dd = today.strftime("%m-%d")
-
-# === Load Holiday Data ===
-def load_themes(filename):
+# === Load holiday data ===
+def load_themes():
+    month = datetime.datetime.now().strftime("%B").lower()
+    day_code = datetime.datetime.now().strftime("%m-%d")
     themes = []
-    try:
-        with open(filename, "r", encoding="utf-8") as f:
-            for line in f:
-                if line.startswith(mm_dd):
-                    parts = line.strip().split(":")
-                    if len(parts) > 1:
-                        items = parts[1].split(",")
-                        themes.extend([item.strip() for item in items])
-    except Exception as e:
-        print(f"Error loading {filename}: {e}")
+
+    for category in ["celebritybirthday", "randomholiday"]:
+        file_path = BASE_DIR / f"{month}_{category}.txt"
+        if file_path.exists():
+            with open(file_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.startswith(day_code):
+                        _, items = line.strip().split(":", 1)
+                        themes.extend(item.strip() for item in items.split(","))
     return themes
 
-celebs = load_themes(f"{month}_celebritybirthday.txt")
-holidays = load_themes(f"{month}_randomholiday.txt")
-themes = holidays + celebs
-
-# === Generate Haikus ===
+# === Generate haiku with OpenAI ===
 def generate_haiku(theme):
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": "Write a haiku (5-7-5) about the given theme. Do not mention the theme name directly. Use vivid, sensory language."},
-                {"role": "user", "content": f"{theme}"}
-            ]
-        )
-        poem = response.choices[0].message.content.strip()
-        if "birthday" in theme.lower():
-            hashtag = "#HappyBirthday" + theme.replace("Birthday ", "").replace(" ", "")
-        else:
-            hashtag = "Happy #" + theme.replace(" ", "").replace("'", "")
-        return f"{poem}\n\n{hashtag} from @ClamBakeSanta"
-    except Exception as e:
-        print(f"❌ Failed to generate haiku for {theme}: {e}")
-        return None
+    prompt = f"Write a seasonal haiku in 5-7-5 form about: {theme}"
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=60,
+        temperature=0.7
+    )
+    haiku = response.choices[0].message.content.strip()
+    return f"{haiku}\nHappy #{format_hashtag(theme)} from @ClamBakeSanta"
 
-haikus = [generate_haiku(theme) for theme in themes if generate_haiku(theme)]
+def format_hashtag(theme):
+    if theme.lower().startswith("birthday"):
+        name = theme.replace("Birthday ", "").replace(" ", "")
+        return f"HappyBirthday{name}"
+    else:
+        return theme.replace(" ", "").replace("'", "")
 
-# === HTML Generation ===
+# === Save HTML ===
 def format_html(date_str, haikus):
     header = f"<h1>Haikus for {date_str}</h1>\n"
-    link = f'<p><a href="{base_url}archives/index.html">🗂 View Archive</a> | <a href="{base_url}feed.xml">📡 RSS Feed</a></p>\n'
+    link = '<p><a href="archives/index.html">🗂 View Archive</a></p>\n'
     body = "\n".join(f"<p>{h.replace('\n', '<br>')}</p>" for h in haikus)
     return f"<html><body>{header}{link}{body}</body></html>"
 
-index_html = format_html(today_str, haikus)
-archive_path = f"archives/{today_str}.html"
-archive_html = format_html(today_str, haikus)
-
-# === Write Files Locally ===
-with open("index.html", "w", encoding="utf-8") as f:
-    f.write(index_html)
-
-os.makedirs("archives", exist_ok=True)
-with open(archive_path, "w", encoding="utf-8") as f:
-    f.write(archive_html)
-
-# === Update Archive Index ===
 def update_archive_index():
-    archive_files = [
-        f for f in os.listdir("archives")
-        if f.endswith(".html") and f != "index.html"
-    ]
-    archive_files.sort(reverse=True)
-    links = [f'<li><a href="{filename}">{filename.replace(".html", "")}</a></li>' for filename in archive_files]
+    links = []
+    for file in sorted(ARCHIVES_DIR.glob("*.html"), reverse=True):
+        if file.name != "index.html":
+            date_str = file.stem
+            links.append(f'<li><a href="{date_str}.html">{date_str}</a></li>')
+    content = "<html><body><h1>Archive Index</h1><ul>" + "\n".join(links) + "</ul></body></html>"
+    ARCHIVE_INDEX.write_text(content, encoding="utf-8")
 
-    html = f"""<html>
-  <head><title>ClamBakeSanta Archives</title></head>
-  <body>
-    <h1>📚 Haiku Archive</h1>
-    <p><a href="../index.html">⬅ Back to Today’s Haikus</a></p>
-    <ul>
-      {''.join(links)}
-    </ul>
-  </body>
-</html>
-"""
-    with open("archives/index.html", "w", encoding="utf-8") as f:
-        f.write(html)
+# === Generate RSS Feed ===
+def update_rss(haikus, date_str):
+    items = ""
+    for h in haikus:
+        items += f"""
+        <item>
+            <title>Haiku for {date_str}</title>
+            <description><![CDATA[{h.replace('\n', '<br>')}]]></description>
+            <pubDate>{date_str}</pubDate>
+            <guid>https://steve.lovestoblog.com/ClamBakeSanta/archives/{date_str}.html</guid>
+            <link>https://steve.lovestoblog.com/ClamBakeSanta/archives/{date_str}.html</link>
+        </item>
+        """
 
-update_archive_index()
+    feed = f"""<?xml version="1.0"?>
+    <rss version="2.0">
+    <channel>
+        <title>Clam Bake Santa</title>
+        <link>https://steve.lovestoblog.com/ClamBakeSanta/</link>
+        <description>Daily haikus from @ClamBakeSanta</description>
+        {items}
+    </channel>
+    </rss>
+    """
+    RSS_FEED.write_text(feed, encoding="utf-8")
 
-# === Generate feed.xml ===
-def generate_rss_feed(haikus, date_str):
-    pub_date = today.strftime("%a, %d %b %Y 04:00:00 +0000")
-    rss_items = ""
-    for theme, haiku in zip(themes, haikus):
-        title = theme
-        desc = haiku.replace("\n", "<br>")
-        rss_items += f"""
-    <item>
-      <title>{title}</title>
-      <link>{base_url}archives/{date_str}.html</link>
-      <pubDate>{pub_date}</pubDate>
-      <description><![CDATA[
-        {desc}
-      ]]></description>
-    </item>"""
+# === MAIN ===
+def main():
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    themes = load_themes()
+    if not themes:
+        print("No themes for today.")
+        return
 
-    rss = f"""<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
-<rss version=\"2.0\">
-  <channel>
-    <title>ClamBakeSanta Daily Haikus</title>
-    <link>{base_url}</link>
-    <description>Daily haikus celebrating holidays and birthdays</description>
-    <language>en-us</language>
-    <lastBuildDate>{pub_date}</lastBuildDate>{rss_items}
-  </channel>
-</rss>
-"""
-    with open("feed.xml", "w", encoding="utf-8") as f:
-        f.write(rss)
+    DOCS_DIR.mkdir(exist_ok=True)
+    ARCHIVES_DIR.mkdir(parents=True, exist_ok=True)
 
-generate_rss_feed(haikus, today_str)
+    haikus = [generate_haiku(theme) for theme in themes]
 
-# === Upload Files via FTP ===
-def upload_file(ftp, local_path, remote_path):
-    try:
-        with open(local_path, "rb") as f:
-            ftp.storbinary(f"STOR {remote_path}", f)
-            print(f"✅ Uploaded {local_path} to {remote_path}")
-    except Exception as e:
-        print(f"❌ FTP upload failed for {local_path}: {e}")
+    INDEX_HTML.write_text(format_html(today, haikus), encoding="utf-8")
+    archive_file = ARCHIVES_DIR / f"{today}.html"
+    archive_file.write_text(format_html(today, haikus), encoding="utf-8")
+    update_archive_index()
+    update_rss(haikus, today)
 
-try:
-    context = ssl.create_default_context()
-    context.set_ciphers("DEFAULT@SECLEVEL=1")
-    ftps = FTP_TLS(context=context)
-    ftps.connect(ftp_host, 21)
-    ftps.login(ftp_user, ftp_pass)
-    ftps.prot_p()
-    ftps.cwd(remote_dir)
+    print(f"✅ Generated {len(haikus)} haikus for {today}")
 
-    upload_file(ftps, "index.html", "index.html")
-    upload_file(ftps, "feed.xml", "feed.xml")
-
-    ftps.cwd("archives")
-    for filename in [f"{today_str}.html", "index.html"]:
-        upload_file(ftps, f"archives/{filename}", filename)
-
-    ftps.quit()
-except Exception as e:
-    print(f"❌ Unhandled FTP Exception: {e}")
+if __name__ == "__main__":
+    main()
