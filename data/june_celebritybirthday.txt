@@ -1,0 +1,15 @@
+# June Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+06-01: Birthday Marilyn Monroe
+06-02: Birthday Thomas Hardy
+06-05: Birthday Federico Garcia Lorca
+06-08: Birthday Frank Lloyd Wright
+06-10: Birthday Maurice Sendak
+06-12: Birthday Anne Frank
+06-14: Birthday Harriet Beecher Stowe
+06-22: Birthday Octavia Butler
+06-23: Birthday Alan Turing
+06-25: Birthday George Orwell
+06-27: Birthday Helen Keller
+06-28: Birthday Jean-Jacques Rousseau

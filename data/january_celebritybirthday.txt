@@ -1,0 +1,14 @@
+# January Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+01-01: Birthday J.D. Salinger
+01-08: Birthday Elvis Presley
+01-11: Birthday Alexander Hamilton
+01-14: Birthday Albert Schweitzer
+01-15: Birthday Martin Luther King Jr
+01-17: Birthday Benjamin Franklin
+01-19: Birthday Dolly Parton, Birthday Edgar Allan Poe
+01-22: Birthday Lord Byron
+01-27: Birthday Wolfgang Amadeus Mozart
+01-29: Birthday Anton Chekhov
+01-30: Birthday Franklin Delano Roosevelt

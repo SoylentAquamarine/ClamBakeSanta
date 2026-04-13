@@ -1,0 +1,18 @@
+# June Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+06-01: National Hazelnut Cake Day, World Milk Day
+06-03: National Egg Day, Repeat Day
+06-04: National Cheese Day, Old Maid's Day
+06-07: National Chocolate Ice Cream Day, World Food Safety Day
+06-08: World Oceans Day, National Best Friends Day
+06-11: National Corn on the Cob Day, National Herbs and Spices Day
+06-13: National Weed Your Garden Day, Sewing Machine Day
+06-15: National Strawberry Shortcake Day, Smile Power Day
+06-18: International Picnic Day, National Splurge Day
+06-20: National Ice Cream Soda Day, World Refugee Day
+06-21: Summer Solstice, National Daylight Appreciation Day
+06-23: National Pink Flamingo Day, National Hydration Day
+06-26: National Chocolate Pudding Day, National Canoe Day
+06-28: National Tapioca Day, Paul Bunyan Day
+06-30: National Meteor Watch Day, Social Media Day

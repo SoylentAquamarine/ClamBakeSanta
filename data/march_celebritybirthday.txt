@@ -1,0 +1,13 @@
+# March Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+03-02: Birthday Dr. Seuss
+03-06: Birthday Michelangelo
+03-07: Birthday Luther Burbank
+03-09: Birthday Amerigo Vespucci
+03-14: Birthday Albert Einstein, Birthday Harriet Tubman
+03-15: Birthday Ruth Bader Ginsburg
+03-21: Birthday Johann Sebastian Bach
+03-25: Birthday Arturo Toscanini
+03-26: Birthday Diana Ross
+03-30: Birthday Vincent van Gogh

@@ -1,0 +1,21 @@
+# November Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+11-01: National Cook for Your Pets Day, World Vegan Day
+11-03: National Sandwich Day, National Housewife's Day
+11-06: National Nachos Day, Saxophone Day
+11-07: National Bittersweet Chocolate with Almonds Day, Notary Public Day
+11-09: National Scrapple Day, Go to an Art Museum Day
+11-11: Veterans Day, National Sundae Day
+11-13: National Indian Pudding Day, World Kindness Day
+11-15: America Recycles Day, National Raisin Bran Cereal Day
+11-16: National Fast Food Day, International Day for Tolerance
+11-17: National Baklava Day, National Hiking Day
+11-19: National Carbonated Beverage with Caffeine Day, World Toilet Day
+11-21: National Stuffing Day, World Hello Day
+11-22: National Cranberry Relish Day, Go for a Ride Day
+11-25: National Parfait Day
+11-27: National Bavarian Cream Pie Day, Electric Eel Day
+11-28: National French Onion Soup Day, Red Planet Day
+11-29: National Lemon Cream Pie Day, Square Dance Day
+11-30: National Mason Jar Day, Stay Home Because You Are Well Day

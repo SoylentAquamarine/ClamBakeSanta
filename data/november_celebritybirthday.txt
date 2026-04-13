@@ -1,0 +1,13 @@
+# November Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+11-01: Birthday Stephen Crane
+11-07: Birthday Marie Curie, Birthday Albert Camus
+11-09: Birthday Carl Sagan
+11-11: Birthday Fyodor Dostoevsky, Birthday Kurt Vonnegut
+11-13: Birthday Robert Louis Stevenson
+11-18: Birthday Louis Daguerre
+11-19: Birthday Indira Gandhi
+11-21: Birthday Voltaire
+11-22: Birthday George Eliot
+11-30: Birthday Mark Twain, Birthday Winston Churchill

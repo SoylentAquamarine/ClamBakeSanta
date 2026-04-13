@@ -1,0 +1,14 @@
+# October Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+10-02: Birthday Mahatma Gandhi
+10-04: Birthday Buster Keaton
+10-07: Birthday Desmond Tutu
+10-09: Birthday John Lennon
+10-10: Birthday Giuseppe Verdi, Birthday Thelonious Monk
+10-14: Birthday Dwight D. Eisenhower
+10-16: Birthday Oscar Wilde, Birthday Eugene O'Neill
+10-22: Birthday Franz Liszt
+10-25: Birthday Pablo Picasso
+10-26: Birthday Mahalia Jackson
+10-29: Birthday Winona Ryder

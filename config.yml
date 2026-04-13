@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ClamBakeSanta — Framework Configuration
+#
+# This file drives the entire system. No business logic is hardcoded.
+# Swap engines, add adapters, change schedule — all from here.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Identity ──────────────────────────────────────────────────────────────────
+site_title: "Clam Bake Santa"
+site_base_url: "https://soylentaquamarine.github.io/clambakesanta"
+timezone: "America/New_York"
+
+# ── Active source plugin ──────────────────────────────────────────────────────
+# Produces the Event that drives each run.
+# Swap to "manual_trigger" or "system_metrics" to change input behavior.
+source: daily_holidays
+
+# ── Active engine plugin ──────────────────────────────────────────────────────
+# Transforms the Event into a Result.
+# Swap to a different engine to completely change what the system produces.
+# The framework doesn't care — as long as it returns a Result.
+engine: clambakesanta
+
+# ── Active adapter plugins ────────────────────────────────────────────────────
+# Each adapter publishes the Result independently.
+# Comment out any adapter to disable it. Add new ones to extend output channels.
+# Adapters that lack their required environment variables skip silently.
+adapters:
+  - github_pages    # Always on — writes static site to docs/
+  - mastodon        # Requires MASTODON_INSTANCE_URL + MASTODON_ACCESS_TOKEN secrets
+  - discord         # Requires DISCORD_WEBHOOK_URL secret
+
+# ── AI engine settings ────────────────────────────────────────────────────────
+ai:
+  # GitHub Models is free — uses GITHUB_TOKEN auto-injected in Actions.
+  # Override CBS_AI_BASE_URL + CBS_AI_KEY env vars to swap to any provider.
+  model: gpt-4o-mini
+
+# ── Paths ─────────────────────────────────────────────────────────────────────
+data_dir: data          # Holiday/birthday .txt files
+output_dir: docs        # GitHub Pages serves this directory
+state_dir: state        # Run log and deduplication store
+
+# ── Plugin modules ────────────────────────────────────────────────────────────
+# Importing these modules causes @register() decorators to fire.
+# Add a new plugin module path here to make it available.
+plugin_modules:
+  - plugins.sources.daily_holidays
+  - plugins.engines.clambakesanta
+  - plugins.adapters.github_pages
+  - plugins.adapters.discord
+  - plugins.adapters.mastodon_adapter

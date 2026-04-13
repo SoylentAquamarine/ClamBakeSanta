@@ -1,0 +1,11 @@
+# ClamBakeSanta dependencies
+# Kept intentionally minimal for fast GitHub Actions installs.
+
+# OpenAI-compatible SDK (used for GitHub Models — free with GITHUB_TOKEN)
+openai>=1.0.0
+
+# HTTP client (Discord webhook + Mastodon API posts)
+requests>=2.31.0
+
+# Config file parsing
+pyyaml>=6.0

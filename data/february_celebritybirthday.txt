@@ -1,0 +1,14 @@
+# February Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+02-01: Birthday Langston Hughes, Birthday Clark Gable
+02-04: Birthday Rosa Parks
+02-06: Birthday Babe Ruth
+02-07: Birthday Charles Dickens, Birthday Eubie Blake
+02-08: Birthday Jules Verne
+02-11: Birthday Thomas Edison
+02-12: Birthday Charles Darwin, Birthday Abraham Lincoln
+02-14: Birthday Frederick Douglass
+02-17: Birthday Marian Anderson
+02-22: Birthday George Washington
+02-26: Birthday Levi Strauss

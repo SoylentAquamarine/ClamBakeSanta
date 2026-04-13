@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Clam Bake Santa</title>
+    <link>https://soylentaquamarine.github.io/clambakesanta/</link>
+    <description>Daily haikus celebrating holidays and birthdays. Updated every morning.</description>
+    <language>en-us</language>
+    <!-- Items will be added automatically by the daily GitHub Actions workflow -->
+  </channel>
+</rss>

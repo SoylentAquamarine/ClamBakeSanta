@@ -1,0 +1,18 @@
+# August Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+08-01: National Raspberry Cream Pie Day, World Wide Web Day
+08-03: National Watermelon Day, National Grab Some Nuts Day
+08-05: National Oyster Day, International Beer Day
+08-06: National Root Beer Float Day, Fresh Breath Day
+08-08: National Zucchini Day, Sneak Some Zucchini onto Your Neighbor's Porch Day
+08-10: National Lazy Day, National S'mores Day
+08-12: National Julienne Fries Day, International Youth Day
+08-15: National Lemon Meringue Pie Day, National Relaxation Day
+08-17: National Thrift Shop Day, National Vanilla Custard Day
+08-19: National Soft Ice Cream Day, World Photo Day
+08-22: National Eat a Peach Day, Be An Angel Day
+08-24: National Waffle Day, International Strange Music Day
+08-25: National Banana Split Day, Whiskey Sour Day
+08-28: National Cherry Turnovers Day, Race Your Mouse Around the Icons Day
+08-30: National Toasted Marshmallow Day, Frankenstein Day

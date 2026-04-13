@@ -1,0 +1,20 @@
+# March Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+03-01: National Peanut Butter Lover's Day, World Compliment Day
+03-03: World Wildlife Day, National Mulled Wine Day
+03-04: National Grammar Day, National Pound Cake Day
+03-06: National Oreo Cookie Day, Dentist's Day
+03-08: International Women's Day, National Peanut Cluster Day
+03-10: National Mario Day, Pack Your Lunch Day
+03-12: National Plant a Flower Day, Alfred Hitchcock Day
+03-14: National Pi Day, International Napping Day
+03-17: Saint Patrick's Day, National Corned Beef and Cabbage Day
+03-19: National Let's Laugh Day, National Poultry Day
+03-20: First Day of Spring, National Ravioli Day
+03-22: World Water Day, National Goof Off Day
+03-23: National Puppy Day, National Chip and Dip Day
+03-25: International Waffle Day, Tolkien Reading Day
+03-27: National Spanish Paella Day, World Theatre Day
+03-28: National Something on a Stick Day, Weed Appreciation Day
+03-31: National Tater Day, World Backup Day

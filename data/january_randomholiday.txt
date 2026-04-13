@@ -1,0 +1,20 @@
+# January Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+01-01: New Year's Day, National Bloody Mary Day
+01-02: National Science Fiction Day, World Introvert Day
+01-03: National Chocolate Covered Cherry Day, Festival of Sleep Day
+01-04: National Spaghetti Day, Trivia Day
+01-06: National Bean Day, Cuddle Up Day
+01-08: National English Toffee Day, Bubble Bath Day
+01-10: National Bittersweet Chocolate Day, Houseplant Appreciation Day
+01-12: National Marzipan Day, National Hot Tea Day
+01-15: National Bagel Day, Hat Day
+01-17: National Hot Buttered Rum Day, Ditch New Year's Resolutions Day
+01-19: National Popcorn Day, Good Memory Day
+01-20: National Cheese Lovers Day, Penguin Awareness Day
+01-21: National Granola Bar Day, National Hug Day
+01-24: National Peanut Butter Day, Compliment Day
+01-27: National Chocolate Cake Day, Punch the Clock Day
+01-28: National Blueberry Pancake Day, Fun at Work Day
+01-31: National Backwards Day, Hot Chocolate Day

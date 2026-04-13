@@ -1,0 +1,14 @@
+# May Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+05-01: Birthday Mother Jones
+05-05: Birthday Nellie Bly
+05-11: Birthday Irving Berlin
+05-12: Birthday Florence Nightingale
+05-14: Birthday George Lucas
+05-19: Birthday Malcolm X
+05-22: Birthday Arthur Conan Doyle
+05-23: Birthday Margaret Fuller
+05-25: Birthday Ralph Waldo Emerson
+05-29: Birthday John F. Kennedy
+05-30: Birthday Benny Goodman

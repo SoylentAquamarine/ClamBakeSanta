@@ -1,0 +1,65 @@
+name: Daily Haiku Generation
+
+# ─────────────────────────────────────────────────────────────────────────────
+# This workflow runs once per day, generates haikus, commits the output
+# back to the repo, and GitHub Pages serves the result automatically.
+#
+# Required GitHub Secrets (Settings → Secrets and variables → Actions):
+#   MASTODON_INSTANCE_URL   — e.g. https://mastodon.social  (optional)
+#   MASTODON_ACCESS_TOKEN   — from your Mastodon app settings (optional)
+#   DISCORD_WEBHOOK_URL     — from Discord channel settings  (optional)
+#
+# GITHUB_TOKEN is automatic — no setup needed. It's used for:
+#   - The free GitHub Models AI API
+#   - Committing the generated files back to the repo
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # Daily at 12:00 UTC (8:00 AM Eastern)
+  workflow_dispatch:        # Allow manual runs from GitHub Actions UI
+
+permissions:
+  contents: write           # Needed to commit generated files back to repo
+  models: read              # Needed to call GitHub Models AI API
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # Full history so git log works correctly
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate haikus
+        env:
+          # GITHUB_TOKEN is auto-injected — powers the free AI API call
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional social posting — skipped gracefully if not set
+          MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python run.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name  "ClamBakeSantaBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/ state/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit — already ran today."
+          else
+            git commit -m "🦪 Daily haiku update $(date -u '+%Y-%m-%d')"
+            git push
+          fi

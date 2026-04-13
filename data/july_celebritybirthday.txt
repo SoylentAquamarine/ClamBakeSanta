@@ -1,0 +1,14 @@
+# July Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+07-04: Birthday Nathaniel Hawthorne
+07-06: Birthday Frida Kahlo
+07-09: Birthday Nikola Tesla
+07-10: Birthday Camille Pissarro
+07-11: Birthday John Quincy Adams
+07-12: Birthday Henry David Thoreau, Birthday Pablo Neruda
+07-18: Birthday Nelson Mandela
+07-22: Birthday Gregor Mendel
+07-25: Birthday Walter Payton
+07-26: Birthday George Bernard Shaw
+07-28: Birthday Beatrix Potter

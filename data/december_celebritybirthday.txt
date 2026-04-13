@@ -1,0 +1,15 @@
+# December Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+12-05: Birthday Walt Disney
+12-07: Birthday Willa Cather
+12-10: Birthday Emily Dickinson
+12-12: Birthday Frank Sinatra, Birthday Edvard Munch
+12-16: Birthday Ludwig van Beethoven, Birthday Jane Austen
+12-17: Birthday Arthur C. Clarke
+12-21: Birthday Benjamin Disraeli
+12-22: Birthday Giacomo Puccini
+12-25: Birthday Humphrey Bogart, Birthday Isaac Newton
+12-26: Birthday Henry Miller
+12-27: Birthday Louis Pasteur, Birthday Johannes Kepler
+12-28: Birthday Denzel Washington

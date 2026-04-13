@@ -1,0 +1,14 @@
+# September Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+09-02: Birthday Keanu Reeves
+09-08: Birthday Antonin Dvorak
+09-12: Birthday Jesse Owens
+09-15: Birthday Agatha Christie
+09-16: Birthday B.B. King
+09-17: Birthday Hank Williams
+09-22: Birthday Michael Faraday
+09-25: Birthday William Faulkner
+09-26: Birthday George Gershwin
+09-28: Birthday Confucius
+09-30: Birthday Truman Capote

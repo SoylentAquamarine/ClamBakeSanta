@@ -1,0 +1,20 @@
+# December Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+12-01: National Pie Day, World AIDS Day
+12-04: National Cookie Day, National Sock Day
+12-06: National Miners' Day, Gazpacho Day
+12-07: National Cotton Candy Day, Pearl Harbor Remembrance Day
+12-10: National Lager Day, Human Rights Day
+12-12: National Cocoa Day, National Violin Day
+12-13: National Ice Cream Day, National Popcorn String Day
+12-16: National Chocolate Covered Anything Day
+12-18: National Roast Suckling Pig Day, Answer the Telephone Like Buddy the Elf Day
+12-21: Winter Solstice, National Crossword Puzzle Day
+12-22: National Date Nut Bread Day, Humbug Day
+12-25: Christmas Day, National Pumpkin Pie Day
+12-26: Kwanzaa begins, National Candy Cane Day
+12-27: National Fruitcake Day, National Make Cut-Out Snowflakes Day
+12-28: National Card Playing Day, National Chocolate Candy Day
+12-30: Festival of Enormous Changes at the Last Minute
+12-31: New Year's Eve, National Champagne Day

@@ -1,0 +1,15 @@
+# April Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+04-02: Birthday Hans Christian Andersen
+04-03: Birthday Jane Goodall
+04-07: Birthday Billie Holiday
+04-13: Birthday Thomas Jefferson
+04-15: Birthday Leonardo da Vinci
+04-16: Birthday Charlie Chaplin
+04-22: Birthday Immanuel Kant
+04-23: Birthday William Shakespeare
+04-26: Birthday John James Audubon
+04-27: Birthday Ulysses S. Grant
+04-28: Birthday Harper Lee
+04-30: Birthday Ella Fitzgerald

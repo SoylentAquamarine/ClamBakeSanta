@@ -1,0 +1,16 @@
+# August Celebrity Birthdays
+# Format: MM-DD: Birthday Firstname Lastname
+
+08-01: Birthday Herman Melville
+08-04: Birthday Barack Obama
+08-06: Birthday Alfred Lord Tennyson
+08-09: Birthday Whitney Houston
+08-12: Birthday William Blake
+08-13: Birthday Annie Oakley
+08-15: Birthday Julia Child
+08-19: Birthday Coco Chanel
+08-22: Birthday Claude Debussy
+08-24: Birthday Jorge Luis Borges
+08-26: Birthday Mother Teresa
+08-28: Birthday Leo Tolstoy
+08-30: Birthday Mary Shelley

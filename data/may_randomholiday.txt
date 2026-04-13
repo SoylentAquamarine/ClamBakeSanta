@@ -1,0 +1,21 @@
+# May Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+05-01: May Day, National Macaroon Day
+05-02: National Truffle Day, National Ferret Day
+05-04: Star Wars Day, National Candied Orange Peel Day
+05-05: Cinco de Mayo, National Oyster Day
+05-06: National Beverage Day, National Nurse's Day
+05-08: National Coconut Cream Pie Day, No Socks Day
+05-09: National Butterscotch Brownie Day, National Lost Sock Memorial Day
+05-11: Eat What You Want Day, Twilight Zone Day
+05-12: Mother's Day, National Nutty Fudge Day
+05-15: National Chocolate Chip Day, International Day of Families
+05-17: National Cherry Cobbler Day, World Baking Day
+05-20: National Quiche Lorraine Day, Rescue Dog Day
+05-22: National Vanilla Pudding Day, International Sherlock Holmes Day
+05-24: National Escargot Day, Brother's Day
+05-25: National Wine Day, National Tap Dance Day
+05-27: National Grape Popsicle Day, Sun Screen Day
+05-28: National Brisket Day, National Hamburger Day
+05-31: National Macaroon Day, World No Tobacco Day

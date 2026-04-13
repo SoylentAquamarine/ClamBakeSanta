@@ -1,0 +1,19 @@
+# September Random Holidays
+# Format: MM-DD: Theme One, Theme Two
+
+09-01: National No Rhyme Nor Reason Day, Emma M. Nutt Day
+09-03: National Skyscraper Day, Welsh Rarebit Day
+09-05: National Cheese Pizza Day, International Day of Charity
+09-09: National Teddy Bear Day, National Wiener Schnitzel Day
+09-12: National Video Games Day, National Chocolate Milkshake Day
+09-13: National Peanut Day, International Chocolate Day
+09-15: National Linguine Day, Make a Hat Day
+09-17: National Apple Dumpling Day, Constitution Day
+09-19: Talk Like a Pirate Day, National Butterscotch Pudding Day
+09-21: International Day of Peace, National Pecan Cookie Day
+09-22: First Day of Autumn, National White Chocolate Day
+09-24: National Cherries Jubilee Day, Punctuation Day
+09-26: National Pancake Day, Johnny Appleseed Day
+09-28: National Strawberry Cream Pie Day, Ask a Stupid Question Day
+09-29: National Coffee Day, Goose Day
+09-30: National Chewing Gum Day, International Podcast Day
