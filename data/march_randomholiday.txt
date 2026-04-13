@@ -2,19 +2,33 @@
 # Format: MM-DD: Theme One, Theme Two
 
 03-01: National Peanut Butter Lover's Day, World Compliment Day
+03-02: National Dr. Seuss Day, Read Across America Day
 03-03: World Wildlife Day, National Mulled Wine Day
 03-04: National Grammar Day, National Pound Cake Day
+03-05: National Cheese Doodle Day, Multiple Personality Day
 03-06: National Oreo Cookie Day, Dentist's Day
+03-07: National Cereal Day, Be Heard Day
 03-08: International Women's Day, National Peanut Cluster Day
+03-09: National Meatball Day, Get Over It Day
 03-10: National Mario Day, Pack Your Lunch Day
+03-11: National Oatmeal Nut Waffle Day, Johnny Appleseed Day
 03-12: National Plant a Flower Day, Alfred Hitchcock Day
-03-14: National Pi Day, International Napping Day
+03-13: National Coconut Torte Day, Napping Day
+03-14: National Pi Day, International Potato Chip Day
+03-15: National Pears Helene Day, World Consumer Rights Day
+03-16: National Artichoke Hearts Day, Freedom of Information Day
 03-17: Saint Patrick's Day, National Corned Beef and Cabbage Day
+03-18: National Corn Dog Day, Supreme Sacrifice Day
 03-19: National Let's Laugh Day, National Poultry Day
 03-20: First Day of Spring, National Ravioli Day
+03-21: National California Strawberry Day, World Poetry Day
 03-22: World Water Day, National Goof Off Day
 03-23: National Puppy Day, National Chip and Dip Day
+03-24: National Chocolate Covered Raisins Day, National Cheesesteak Day
 03-25: International Waffle Day, Tolkien Reading Day
+03-26: National Nougat Day, Make Up Your Own Holiday Day
 03-27: National Spanish Paella Day, World Theatre Day
 03-28: National Something on a Stick Day, Weed Appreciation Day
+03-29: National Lemon Chiffon Cake Day, National Mom and Pop Business Owners Day
+03-30: National Turkey Neck Soup Day, I Am in Control Day
 03-31: National Tater Day, World Backup Day

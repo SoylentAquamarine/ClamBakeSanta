@@ -1,14 +1,33 @@
 # September Celebrity Birthdays
 # Format: MM-DD: Birthday Firstname Lastname
 
+09-01: Birthday Lily Tomlin, Birthday Edgar Rice Burroughs
 09-02: Birthday Keanu Reeves
+09-03: Birthday Louis Sullivan
+09-04: Birthday Richard Wright
+09-05: Birthday Freddie Mercury
+09-06: Birthday Jane Addams
+09-07: Birthday Grandma Moses
 09-08: Birthday Antonin Dvorak
-09-12: Birthday Jesse Owens
-09-15: Birthday Agatha Christie
+09-09: Birthday Leo Tolstoy
+09-10: Birthday Arnold Palmer
+09-11: Birthday O. Henry
+09-12: Birthday Jesse Owens, Birthday H.L. Mencken
+09-13: Birthday Roald Dahl, Birthday Sherwood Anderson
+09-14: Birthday Alexander von Humboldt
+09-15: Birthday Agatha Christie, Birthday James Fenimore Cooper
 09-16: Birthday B.B. King
 09-17: Birthday Hank Williams
+09-18: Birthday Samuel Johnson
+09-19: Birthday William Golding
+09-20: Birthday Upton Sinclair
+09-21: Birthday H.G. Wells, Birthday Stephen King
 09-22: Birthday Michael Faraday
-09-25: Birthday William Faulkner
-09-26: Birthday George Gershwin
-09-28: Birthday Confucius
-09-30: Birthday Truman Capote
+09-23: Birthday Ray Charles
+09-24: Birthday F. Scott Fitzgerald
+09-25: Birthday William Faulkner, Birthday Dmitri Shostakovich
+09-26: Birthday George Gershwin, Birthday Olivia Newton-John
+09-27: Birthday Louis Andriessen
+09-28: Birthday Confucius, Birthday Michelangelo Antonioni
+09-29: Birthday Miguel de Cervantes
+09-30: Birthday Truman Capote, Birthday Elie Wiesel

@@ -2,13 +2,30 @@
 # Format: MM-DD: Birthday Firstname Lastname
 
 02-01: Birthday Langston Hughes, Birthday Clark Gable
-02-04: Birthday Rosa Parks
+02-02: Birthday James Joyce, Birthday Ayn Rand
+02-03: Birthday Felix Mendelssohn, Birthday Gertrude Stein
+02-04: Birthday Rosa Parks, Birthday Charles Lindbergh
+02-05: Birthday Hank Aaron
 02-06: Birthday Babe Ruth
-02-07: Birthday Charles Dickens, Birthday Eubie Blake
+02-07: Birthday Charles Dickens, Birthday Laura Ingalls Wilder
 02-08: Birthday Jules Verne
-02-11: Birthday Thomas Edison
-02-12: Birthday Charles Darwin, Birthday Abraham Lincoln
+02-09: Birthday Carole King, Birthday Alice Walker
+02-10: Birthday Bertolt Brecht
+02-11: Birthday Thomas Edison, Birthday Toni Morrison
+02-12: Birthday Abraham Lincoln, Birthday Charles Darwin
+02-13: Birthday Grant Wood
 02-14: Birthday Frederick Douglass
-02-17: Birthday Marian Anderson
-02-22: Birthday George Washington
-02-26: Birthday Levi Strauss
+02-15: Birthday Galileo Galilei, Birthday Susan B. Anthony
+02-16: Birthday Edgar Bergen
+02-17: Birthday Michael Jordan, Birthday Marian Anderson
+02-18: Birthday Yoko Ono
+02-19: Birthday Nicolaus Copernicus
+02-20: Birthday Ansel Adams, Birthday Sidney Poitier
+02-21: Birthday Nina Simone, Birthday Anais Nin
+02-22: Birthday George Washington, Birthday Frederic Chopin
+02-23: Birthday W.E.B. Du Bois
+02-24: Birthday Winslow Homer
+02-25: Birthday Renoir, Birthday George Harrison
+02-26: Birthday Victor Hugo, Birthday Johnny Cash
+02-27: Birthday John Steinbeck, Birthday Elizabeth Taylor
+02-28: Birthday Linus Pauling

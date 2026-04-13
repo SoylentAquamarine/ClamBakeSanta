@@ -1,15 +1,34 @@
 # December Celebrity Birthdays
 # Format: MM-DD: Birthday Firstname Lastname
 
-12-05: Birthday Walt Disney
+12-01: Birthday Rex Stout
+12-02: Birthday Georges Seurat, Birthday Maria Callas
+12-03: Birthday Joseph Conrad
+12-04: Birthday Wassily Kandinsky, Birthday Rainer Maria Rilke
+12-05: Birthday Walt Disney, Birthday Christina Rossetti
+12-06: Birthday Joyce Kilmer
 12-07: Birthday Willa Cather
+12-08: Birthday Eli Whitney, Birthday Diego Rivera
+12-09: Birthday John Milton, Birthday Hermione Norris
 12-10: Birthday Emily Dickinson
+12-11: Birthday Hector Berlioz, Birthday Carlo Ponti
 12-12: Birthday Frank Sinatra, Birthday Edvard Munch
+12-13: Birthday Heinrich Heine, Birthday Dick Van Dyke
+12-14: Birthday Tycho Brahe
+12-15: Birthday Gustave Eiffel, Birthday Edna O'Brien
 12-16: Birthday Ludwig van Beethoven, Birthday Jane Austen
 12-17: Birthday Arthur C. Clarke
-12-21: Birthday Benjamin Disraeli
+12-18: Birthday Ty Cobb, Birthday Paul Klee
+12-19: Birthday Edith Piaf
+12-20: Birthday Harvey Firestone
+12-21: Birthday Benjamin Disraeli, Birthday Frank Zappa
 12-22: Birthday Giacomo Puccini
+12-23: Birthday Chet Baker
+12-24: Birthday Matthew Arnold, Birthday Ava Gardner
 12-25: Birthday Humphrey Bogart, Birthday Isaac Newton
-12-26: Birthday Henry Miller
+12-26: Birthday Henry Miller, Birthday Jean Toomer
 12-27: Birthday Louis Pasteur, Birthday Johannes Kepler
-12-28: Birthday Denzel Washington
+12-28: Birthday Woodrow Wilson, Birthday Maggie Smith
+12-29: Birthday Pablo Casals, Birthday Madame de Pompadour
+12-30: Birthday Tiger Woods, Birthday Rudyard Kipling
+12-31: Birthday Henri Matisse, Birthday Elizabeth Arden

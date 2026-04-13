@@ -2,13 +2,33 @@
 # Format: MM-DD: Birthday Firstname Lastname
 
 01-01: Birthday J.D. Salinger
-01-08: Birthday Elvis Presley
+01-02: Birthday Isaac Asimov
+01-03: Birthday J.R.R. Tolkien
+01-04: Birthday Isaac Newton
+01-05: Birthday Umberto Eco
+01-06: Birthday Khalil Gibran
+01-07: Birthday Nikola Tesla
+01-08: Birthday Elvis Presley, Birthday Stephen Hawking
+01-09: Birthday Simone de Beauvoir
+01-10: Birthday Rod Stewart
 01-11: Birthday Alexander Hamilton
+01-12: Birthday Jack London
+01-13: Birthday Horatio Alger
 01-14: Birthday Albert Schweitzer
 01-15: Birthday Martin Luther King Jr
-01-17: Birthday Benjamin Franklin
-01-19: Birthday Dolly Parton, Birthday Edgar Allan Poe
+01-16: Birthday Ethel Merman
+01-17: Birthday Benjamin Franklin, Birthday Muhammad Ali
+01-18: Birthday A.A. Milne, Birthday Cary Grant
+01-19: Birthday Edgar Allan Poe, Birthday Dolly Parton
+01-20: Birthday Federico Fellini
+01-21: Birthday Leadbelly
 01-22: Birthday Lord Byron
-01-27: Birthday Wolfgang Amadeus Mozart
-01-29: Birthday Anton Chekhov
-01-30: Birthday Franklin Delano Roosevelt
+01-23: Birthday Edouard Manet
+01-24: Birthday Ernest Borgnine
+01-25: Birthday Robert Burns, Birthday Virginia Woolf
+01-26: Birthday Paul Newman
+01-27: Birthday Wolfgang Amadeus Mozart, Birthday Lewis Carroll
+01-28: Birthday Jackson Pollock
+01-29: Birthday Anton Chekhov, Birthday Oprah Winfrey
+01-30: Birthday Franklin Roosevelt
+01-31: Birthday Franz Schubert, Birthday Jackie Robinson

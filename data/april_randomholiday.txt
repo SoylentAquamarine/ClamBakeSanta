@@ -1,20 +1,33 @@
 # April Random Holidays
 # Format: MM-DD: Theme One, Theme Two
 
-04-01: April Fool's Day, National Sourdough Bread Day
+04-01: April Fools Day, National Sourdough Bread Day
 04-02: National Peanut Butter and Jelly Day, World Autism Awareness Day
+04-03: National Chocolate Mousse Day, Find a Rainbow Day
 04-04: National Cordon Bleu Day, World Rat Day
+04-05: National Caramel Day, Go for Broke Day
 04-06: National Caramel Popcorn Day, Sorry Charlie Day
 04-07: World Health Day, National Beer Day
-04-09: National Chinese Almond Cookie Day, Winston Churchill Day
+04-08: National Empanada Day, Draw a Picture of a Bird Day
+04-09: National Chinese Almond Cookie Day, Unicorn Day
+04-10: National Cinnamon Crescent Day, Golfer's Day
 04-11: National Pet Day, National Cheese Fondue Day
 04-12: National Grilled Cheese Day, International Plant Appreciation Day
+04-13: National Peach Cobbler Day, Scrabble Day
 04-14: National Pecan Day, Look Up at the Sky Day
+04-15: National Glazed Spiral Ham Day, Tax Day
 04-16: National Eggs Benedict Day, National Librarian Day
-04-18: National Animal Crackers Day, International Day for Monuments
+04-17: National Cheese Ball Day, Blah Blah Blah Day
+04-18: National Animal Crackers Day, National Linzer Torte Day
+04-19: National Garlic Day, National Hummus Day
 04-20: National Cheddar Fries Day, Look-Alike Day
+04-21: National Chocolate Covered Cashews Day, World Creativity and Innovation Day
 04-22: Earth Day, National Jellybean Day
 04-23: National Cherry Cheesecake Day, World Book Day
-04-25: National Zucchini Bread Day, World Penguin Day
+04-24: National Pigs in a Blanket Day, World Day of Veterinary Medicine
+04-25: World Penguin Day, National Zucchini Bread Day
+04-26: National Pretzel Day, National Richter Scale Day
+04-27: National Prime Rib Day, World Tapir Day
 04-28: National Blueberry Pie Day, National Superhero Day
-04-30: National Oatmeal Cookie Day, Adopt a Shelter Pet Day
+04-29: National Shrimp Scampi Day, World Dance Day
+04-30: International Jazz Day, National Oatmeal Cookie Day

@@ -1,13 +1,33 @@
 # November Celebrity Birthdays
 # Format: MM-DD: Birthday Firstname Lastname
 
-11-01: Birthday Stephen Crane
+11-01: Birthday Stephen Crane, Birthday Aishwarya Rai
+11-02: Birthday Burt Lancaster
+11-03: Birthday Bronislaw Malinowski
+11-04: Birthday Will Rogers
+11-05: Birthday Vivien Leigh, Birthday Roy Rogers
+11-06: Birthday John Philip Sousa
 11-07: Birthday Marie Curie, Birthday Albert Camus
-11-09: Birthday Carl Sagan
+11-08: Birthday Hermann Rorschach
+11-09: Birthday Carl Sagan, Birthday Ivan Turgenev
+11-10: Birthday Martin Luther
 11-11: Birthday Fyodor Dostoevsky, Birthday Kurt Vonnegut
+11-12: Birthday Auguste Rodin, Birthday Elizabeth Cady Stanton
 11-13: Birthday Robert Louis Stevenson
-11-18: Birthday Louis Daguerre
-11-19: Birthday Indira Gandhi
+11-14: Birthday Claude Monet, Birthday Aaron Copland
+11-15: Birthday Georgia O'Keeffe, Birthday William Herschel
+11-16: Birthday W.C. Handy
+11-17: Birthday Danny DeVito
+11-18: Birthday Louis Daguerre, Birthday Alan Shepard
+11-19: Birthday Indira Gandhi, Birthday James Garfield
+11-20: Birthday Edwin Hubble
 11-21: Birthday Voltaire
 11-22: Birthday George Eliot
+11-23: Birthday Billy the Kid
+11-24: Birthday Toulouse-Lautrec, Birthday Scott Joplin
+11-25: Birthday Andrew Carnegie, Birthday Joe DiMaggio
+11-26: Birthday Charles Schulz, Birthday Tina Turner
+11-27: Birthday Jimi Hendrix, Birthday Bruce Lee
+11-28: Birthday William Blake, Birthday Friedrich Engels
+11-29: Birthday C.S. Lewis, Birthday Louisa May Alcott
 11-30: Birthday Mark Twain, Birthday Winston Churchill

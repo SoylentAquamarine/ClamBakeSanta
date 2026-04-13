@@ -1,14 +1,34 @@
 # October Celebrity Birthdays
 # Format: MM-DD: Birthday Firstname Lastname
 
-10-02: Birthday Mahatma Gandhi
+10-01: Birthday Walter Matthau
+10-02: Birthday Mahatma Gandhi, Birthday Groucho Marx
+10-03: Birthday Thomas Wolfe
 10-04: Birthday Buster Keaton
+10-05: Birthday Chester A. Arthur
+10-06: Birthday George Westinghouse
 10-07: Birthday Desmond Tutu
+10-08: Birthday Eddie Rickenbacker
 10-09: Birthday John Lennon
 10-10: Birthday Giuseppe Verdi, Birthday Thelonious Monk
+10-11: Birthday Eleanor Roosevelt
+10-12: Birthday Luciano Pavarotti
+10-13: Birthday Nipsey Russell
 10-14: Birthday Dwight D. Eisenhower
+10-15: Birthday Virgil, Birthday Nietzsche
 10-16: Birthday Oscar Wilde, Birthday Eugene O'Neill
+10-17: Birthday Arthur Miller
+10-18: Birthday Wynton Marsalis
+10-19: Birthday John le Carre
+10-20: Birthday Arthur Rimbaud
+10-21: Birthday Samuel Taylor Coleridge
 10-22: Birthday Franz Liszt
-10-25: Birthday Pablo Picasso
+10-23: Birthday Pele
+10-24: Birthday Kevin Kline
+10-25: Birthday Pablo Picasso, Birthday Johann Strauss II
 10-26: Birthday Mahalia Jackson
-10-29: Birthday Winona Ryder
+10-27: Birthday Theodore Roosevelt
+10-28: Birthday Erasmus of Rotterdam
+10-29: Birthday James Boswell
+10-30: Birthday John Adams
+10-31: Birthday John Keats, Birthday Jan Vermeer

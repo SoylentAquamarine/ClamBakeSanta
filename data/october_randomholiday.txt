@@ -2,18 +2,33 @@
 # Format: MM-DD: Theme One, Theme Two
 
 10-01: International Coffee Day, National Homemade Cookies Day
+10-02: National Fried Scallops Day, World Farm Animals Day
 10-03: National Caramel Custard Day, National Techies Day
 10-04: National Taco Day, World Animal Day
+10-05: National Apple Betty Day, World Teachers Day
+10-06: National Noodle Day, Mad Hatter Day
 10-07: World Smile Day, National Frappe Day
 10-08: National Fluffernutter Day, American Tag Day
+10-09: National Moldy Cheese Day, World Post Day
 10-10: World Mental Health Day, National Cake Decorating Day
-10-11: It's My Party Day, National Sausage Pizza Day
+10-11: National Sausage Pizza Day, It's My Party Day
+10-12: National Gumbo Day, World Arthritis Day
+10-13: National Yorkshire Pudding Day, National Train Your Brain Day
 10-14: National Dessert Day, National Pumpkin Pie Day
+10-15: National Cheese Curd Day, Global Handwashing Day
 10-16: World Food Day, National Liqueur Day
+10-17: National Pasta Day, National Mulligan Day
+10-18: National Chocolate Cupcake Day, World Menopause Day
 10-19: National Seafood Bisque Day, Evaluate Your Life Day
+10-20: National Brandied Fruit Day, International Chefs Day
 10-21: National Pumpkin Cheesecake Day, National Apple Day
+10-22: National Nut Day, International Stuttering Awareness Day
+10-23: National Boston Cream Pie Day, National Mole Day
 10-24: National Bologna Day, World Tripe Day
-10-25: National Greasy Food Day, Frankenstein Friday
+10-25: National Greasy Food Day, World Pasta Day
+10-26: National Mincemeat Pie Day, National Pumpkin Day
+10-27: National American Beer Day, National Black Cat Day
 10-28: National Chocolate Day, Make a Difference Day
+10-29: National Cat Day, National Oatmeal Day
 10-30: National Candy Corn Day, Mischief Night
 10-31: Halloween, National Caramel Apple Day

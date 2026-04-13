@@ -1,13 +1,34 @@
 # March Celebrity Birthdays
 # Format: MM-DD: Birthday Firstname Lastname
 
-03-02: Birthday Dr. Seuss
+03-01: Birthday Frederic Chopin
+03-02: Birthday Theodore Seuss Geisel
+03-03: Birthday Alexander Graham Bell
+03-04: Birthday Antonio Vivaldi
+03-05: Birthday Rosa Parks
 03-06: Birthday Michelangelo
 03-07: Birthday Luther Burbank
+03-08: Birthday Oliver Wendell Holmes
 03-09: Birthday Amerigo Vespucci
-03-14: Birthday Albert Einstein, Birthday Harriet Tubman
-03-15: Birthday Ruth Bader Ginsburg
-03-21: Birthday Johann Sebastian Bach
-03-25: Birthday Arturo Toscanini
-03-26: Birthday Diana Ross
-03-30: Birthday Vincent van Gogh
+03-10: Birthday Harriet Tubman
+03-11: Birthday Douglas Adams
+03-12: Birthday Liza Minnelli
+03-13: Birthday Percival Lowell
+03-14: Birthday Albert Einstein
+03-15: Birthday Andrew Jackson
+03-16: Birthday James Madison
+03-17: Birthday Nat King Cole
+03-18: Birthday Wilfred Owen
+03-19: Birthday David Livingstone
+03-20: Birthday Ovid
+03-21: Birthday Johann Sebastian Bach, Birthday Modest Mussorgsky
+03-22: Birthday Marcel Marceau
+03-23: Birthday Erich Fromm
+03-24: Birthday Harry Houdini
+03-25: Birthday Arturo Toscanini, Birthday Elton John
+03-26: Birthday Diana Ross, Birthday Tennessee Williams
+03-27: Birthday Ludwig Mies van der Rohe
+03-28: Birthday Maxim Gorky
+03-29: Birthday John Tyler
+03-30: Birthday Vincent van Gogh, Birthday Francisco Goya
+03-31: Birthday Cesar Chavez, Birthday Rene Descartes

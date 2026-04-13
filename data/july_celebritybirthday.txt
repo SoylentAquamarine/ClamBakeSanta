@@ -1,14 +1,34 @@
 # July Celebrity Birthdays
 # Format: MM-DD: Birthday Firstname Lastname
 
-07-04: Birthday Nathaniel Hawthorne
-07-06: Birthday Frida Kahlo
+07-01: Birthday George Sand, Birthday Olivia de Havilland
+07-02: Birthday Hermann Hesse
+07-03: Birthday Franz Kafka
+07-04: Birthday Nathaniel Hawthorne, Birthday Stephen Foster
+07-05: Birthday P.T. Barnum
+07-06: Birthday Frida Kahlo, Birthday Sylvester Stallone
+07-07: Birthday Marc Chagall
+07-08: Birthday Percy Bysshe Shelley
 07-09: Birthday Nikola Tesla
 07-10: Birthday Camille Pissarro
 07-11: Birthday John Quincy Adams
 07-12: Birthday Henry David Thoreau, Birthday Pablo Neruda
+07-13: Birthday Wole Soyinka
+07-14: Birthday Woody Guthrie
+07-15: Birthday Rembrandt van Rijn
+07-16: Birthday Ginger Rogers
+07-17: Birthday James Cagney
 07-18: Birthday Nelson Mandela
+07-19: Birthday Edgar Degas
+07-20: Birthday Cormac McCarthy
+07-21: Birthday Ernest Hemingway
 07-22: Birthday Gregor Mendel
+07-23: Birthday Raymond Chandler
+07-24: Birthday Alexandre Dumas
 07-25: Birthday Walter Payton
-07-26: Birthday George Bernard Shaw
-07-28: Birthday Beatrix Potter
+07-26: Birthday George Bernard Shaw, Birthday Carl Jung
+07-27: Birthday Bugs Bunny
+07-28: Birthday Beatrix Potter, Birthday Gerard Manley Hopkins
+07-29: Birthday William Wilberforce
+07-30: Birthday Emily Bronte, Birthday Henry Ford
+07-31: Birthday Milton Friedman, Birthday Primo Levi

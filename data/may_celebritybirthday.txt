@@ -2,13 +2,33 @@
 # Format: MM-DD: Birthday Firstname Lastname
 
 05-01: Birthday Mother Jones
-05-05: Birthday Nellie Bly
-05-11: Birthday Irving Berlin
+05-02: Birthday Bing Crosby
+05-03: Birthday Golda Meir
+05-04: Birthday Audrey Hepburn
+05-05: Birthday Nellie Bly, Birthday Soren Kierkegaard
+05-06: Birthday Sigmund Freud
+05-07: Birthday Johannes Brahms, Birthday Robert Browning
+05-08: Birthday Harry Truman
+05-09: Birthday James L. Brooks
+05-10: Birthday Donovan
+05-11: Birthday Irving Berlin, Birthday Salvador Dali
 05-12: Birthday Florence Nightingale
+05-13: Birthday Stevie Wonder
 05-14: Birthday George Lucas
+05-15: Birthday L. Frank Baum
+05-16: Birthday Liberace
+05-17: Birthday Ayaan Hirsi Ali
+05-18: Birthday Bertrand Russell
 05-19: Birthday Malcolm X
-05-22: Birthday Arthur Conan Doyle
+05-20: Birthday Honoré de Balzac
+05-21: Birthday Fats Waller
+05-22: Birthday Arthur Conan Doyle, Birthday Richard Wagner
 05-23: Birthday Margaret Fuller
+05-24: Birthday Bob Dylan
 05-25: Birthday Ralph Waldo Emerson
+05-26: Birthday John Wayne
+05-27: Birthday Rachel Carson
+05-28: Birthday Ian Fleming
 05-29: Birthday John F. Kennedy
-05-30: Birthday Benny Goodman
+05-30: Birthday Benny Goodman, Birthday Mel Blanc
+05-31: Birthday Walt Whitman, Birthday Clint Eastwood

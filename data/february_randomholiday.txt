@@ -1,20 +1,31 @@
 # February Random Holidays
 # Format: MM-DD: Theme One, Theme Two
 
-02-01: National Dark Chocolate Day, National Freedom Day
-02-02: Groundhog Day, National Tater Tot Day
-02-04: World Cancer Day, Thank a Mailman Day
-02-05: National Weatherperson's Day, National Chocolate Fondue Day
-02-07: National Send a Card to a Friend Day, Ballet Day
-02-09: National Pizza Day, National Read in the Bathtub Day
-02-11: National Make a Friend Day, Inventors Day
-02-13: World Radio Day, National Tortellini Day
-02-14: Valentine's Day, National Cream-Filled Chocolates Day
-02-15: National Gumdrop Day, National Hippo Day
-02-17: National Random Acts of Kindness Day, National Cafe au Lait Day
+02-01: National Dark Chocolate Day, National Freedom Day, Bubble Gum Day
+02-02: Groundhog Day, National Tater Tot Day, Crepe Day
+02-03: National Carrot Cake Day, Feed the Birds Day
+02-04: National Stuffed Mushroom Day, Homemade Soup Day
+02-05: National Nutella Day, Weatherperson's Day
+02-06: National Frozen Yogurt Day, Lame Duck Day
+02-07: National Send a Card to a Friend Day, National Fettuccine Alfredo Day
+02-08: Kite Flying Day, Boy Scout Day
+02-09: National Pizza Day, Read in the Bathtub Day
+02-10: National Cream Cheese Brownie Day, Flannel Day
+02-11: White T-Shirt Day, National Peppermint Patty Day
+02-12: National Plum Pudding Day, Lost Penny Day
+02-13: National Tortellini Day, Galentine's Day
+02-14: Valentine's Day, National Chocolate Day, Heart Day
+02-15: National Gumdrop Day, National Singles Awareness Day
+02-16: National Almond Day, Do a Grouch a Favor Day
+02-17: National Cafe Au Lait Day, Random Act of Kindness Day
 02-18: National Drink Wine Day, Pluto Day
-02-20: National Muffin Day, Love Your Pet Day
-02-22: National Margarita Day, Be Humble Day
+02-19: National Chocolate Mint Day, Lash Day
+02-20: National Cherry Pie Day, Love Your Pet Day
+02-21: National Sticky Bun Day, Card Reading Day
+02-22: National Margarita Day, Walking the Dog Day
+02-23: National Banana Bread Day, National Dog Biscuit Day
+02-24: National Tortilla Chip Day, Inconvenience Yourself Day
+02-25: National Clam Chowder Day, National Chocolate Covered Nuts Day
 02-26: National Pistachio Day, Tell a Fairy Tale Day
-02-27: National Strawberry Day, No Brainer Day
-02-28: National Chocolate Souffle Day, Rare Disease Day
+02-27: International Polar Bear Day, National Strawberry Day
+02-28: National Chocolate Souffle Day, National Floral Design Day

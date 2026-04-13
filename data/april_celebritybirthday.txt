@@ -1,15 +1,33 @@
 # April Celebrity Birthdays
 # Format: MM-DD: Birthday Firstname Lastname
 
+04-01: Birthday Lon Chaney
 04-02: Birthday Hans Christian Andersen
-04-03: Birthday Jane Goodall
+04-03: Birthday Jane Goodall, Birthday Washington Irving
+04-04: Birthday Maya Angelou
+04-05: Birthday Booker T. Washington
+04-06: Birthday Andre Previn
 04-07: Birthday Billie Holiday
+04-08: Birthday Ilya Repin
+04-09: Birthday Charles Baudelaire
+04-10: Birthday Joseph Pulitzer
+04-11: Birthday Percy Lavon Julian
+04-12: Birthday Herbie Hancock
 04-13: Birthday Thomas Jefferson
-04-15: Birthday Leonardo da Vinci
+04-14: Birthday Loretta Lynn
+04-15: Birthday Leonardo da Vinci, Birthday Henry James
 04-16: Birthday Charlie Chaplin
+04-17: Birthday Isak Dinesen
+04-18: Birthday Clarence Darrow
+04-19: Birthday Glenn T. Seaborg
+04-20: Birthday Joan Miro
+04-21: Birthday Charlotte Bronte
 04-22: Birthday Immanuel Kant
-04-23: Birthday William Shakespeare
+04-23: Birthday William Shakespeare, Birthday James Buchanan
+04-24: Birthday Anthony Trollope
+04-25: Birthday Ella Fitzgerald
 04-26: Birthday John James Audubon
-04-27: Birthday Ulysses S. Grant
+04-27: Birthday Ralph Waldo Emerson, Birthday Samuel Morse
 04-28: Birthday Harper Lee
-04-30: Birthday Ella Fitzgerald
+04-29: Birthday Duke Ellington, Birthday William Randolph Hearst
+04-30: Birthday Walter Lantz
