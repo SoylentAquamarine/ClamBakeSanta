@@ -32,7 +32,7 @@ from framework.adapters.base import BaseAdapter
 from framework.models import Result
 
 MAX_TOOT_LENGTH = 500  # Mastodon standard limit
-POST_DELAY_SECONDS = 2  # Polite pause between toots
+POST_DELAY_SECONDS = 60  # 1 minute between toots — staggers posts throughout the morning
 
 
 def _format_toot(rec: dict, date_str: str) -> str:

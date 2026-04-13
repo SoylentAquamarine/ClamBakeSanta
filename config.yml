@@ -26,9 +26,9 @@ engine: clambakesanta
 # Comment out any adapter to disable it. Add new ones to extend output channels.
 # Adapters that lack their required environment variables skip silently.
 adapters:
-  - github_pages    # Always on — writes static site to docs/
-  - mastodon        # Requires MASTODON_INSTANCE_URL + MASTODON_ACCESS_TOKEN secrets
-  - discord         # Requires DISCORD_WEBHOOK_URL secret
+  - mastodon        # Posts each haiku 1 minute apart. Requires MASTODON_INSTANCE_URL + MASTODON_ACCESS_TOKEN secrets
+  - github_pages    # Updates site AFTER all Mastodon posts complete
+  - discord         # Posts a summary after site is updated. Requires DISCORD_WEBHOOK_URL secret
 
 # ── AI engine settings ────────────────────────────────────────────────────────
 ai:
