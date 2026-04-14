@@ -1,6 +1,7 @@
 {
   "completed_dates": [
-    "2026-04-13"
+    "2026-04-13",
+    "2026-04-14"
   ],
   "runs": [
     {
@@ -13,6 +14,17 @@
         "Birthday Thomas Jefferson"
       ],
       "content_preview": "Golden peaches warm, Cinnamon swirls fill the air, Sweet joy in each bite. Happy #NationalPeachCobblerDay from @ClamBake"
+    },
+    {
+      "date": "2026-04-14",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-14T12:47:54.958561+00:00",
+      "themes": [
+        "National Pecan Day",
+        "Look Up at the Sky Day",
+        "Birthday Loretta Lynn"
+      ],
+      "content_preview": "Crunchy, sweet delight, Golden brown in warm sunshine, Nuts dance in delight. Happy #NationalPecanDay from @ClamBakeSant"
     }
   ]
 }
