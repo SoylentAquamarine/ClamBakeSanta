@@ -7,6 +7,8 @@ name: Daily Haiku Generation
 # Required GitHub Secrets (Settings → Secrets and variables → Actions):
 #   MASTODON_INSTANCE_URL   — e.g. https://mastodon.social  (optional)
 #   MASTODON_ACCESS_TOKEN   — from your Mastodon app settings (optional)
+#   BLUESKY_HANDLE          — e.g. clambakesanta.bsky.social (optional)
+#   BLUESKY_APP_PASSWORD    — from Bluesky Settings → App Passwords (optional)
 #   DISCORD_WEBHOOK_URL     — from Discord channel settings  (optional)
 #
 # GITHUB_TOKEN is automatic — no setup needed. It's used for:
@@ -49,6 +51,8 @@ jobs:
           # Optional social posting — skipped gracefully if not set
           MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python run.py
 
