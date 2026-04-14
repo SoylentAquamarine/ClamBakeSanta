@@ -41,7 +41,10 @@ def _format_toot(rec: dict, date_str: str) -> str:
     # Last line is the hashtag line, rest is the poem
     poem = "\n".join(lines[:-1])
     hashtag_line = lines[-1] if lines else ""
-    toot = f"🦪 {poem}\n\n{hashtag_line}\n\n#{date_str.replace('-', '')} #haiku #ClamBakeSanta"
+    # Build an event-specific hashtag (e.g. #HappyScrabbleDay, #HappyBirthdayThomasJefferson)
+    tag = rec.get("tag", "")
+    event_tag = tag if tag.lower().startswith("happybirthday") else f"Happy{tag}"
+    toot = f"{poem}\n\n{hashtag_line}\n\n#{date_str.replace('-', '')} #{event_tag} #ClamBakeSanta"
     return toot[:MAX_TOOT_LENGTH]
 
 

@@ -108,7 +108,9 @@ def _page(title: str, body: str, site_title: str, base_url: str) -> str:
 </head>
 <body>
   <header>
-    <h1>🦪 {safe_site}</h1>
+    <img src="{base_url}/santa_clambake.png" alt="Santa at a clam bake"
+         style="width:180px;height:180px;object-fit:cover;border-radius:50%;margin-bottom:1rem;display:block;margin-left:auto;margin-right:auto;">
+    <h1>{safe_site}</h1>
     <p>Daily haikus for today's holidays and birthdays</p>
   </header>
   <nav>
@@ -131,7 +133,12 @@ def _render_haiku_cards(haiku_records: list[dict]) -> str:
         return '<p class="empty">🌊 The tide is quiet today. No holidays found.</p>'
     parts = []
     for rec in haiku_records:
-        theme = html_lib.escape(rec["theme"])
+        raw_theme = rec["theme"]
+        # Prefix birthday themes with "Happy" so the card reads "HAPPY BIRTHDAY ..."
+        display_theme = (
+            f"Happy {raw_theme}" if raw_theme.lower().startswith("birthday") else raw_theme
+        )
+        theme = html_lib.escape(display_theme)
         lines = rec["haiku"].split("\n")
         # Last line is the hashtag line
         hashtag_line = html_lib.escape(lines[-1]) if lines else ""
