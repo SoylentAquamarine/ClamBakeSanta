@@ -28,6 +28,7 @@ engine: clambakesanta
 adapters:
   - mastodon        # Posts each haiku 1 minute apart. Requires MASTODON_INSTANCE_URL + MASTODON_ACCESS_TOKEN secrets
   - bluesky         # Posts each haiku 1 minute apart. Requires BLUESKY_HANDLE + BLUESKY_APP_PASSWORD secrets
+  - tumblr          # Posts each haiku 1 minute apart. Requires TUMBLR_CONSUMER_KEY/SECRET + TUMBLR_OAUTH_TOKEN/SECRET
   - github_pages    # Updates site AFTER all social posts complete
   - discord         # Posts a summary after site is updated. Requires DISCORD_WEBHOOK_URL secret
 
@@ -52,3 +53,4 @@ plugin_modules:
   - plugins.adapters.discord
   - plugins.adapters.mastodon_adapter
   - plugins.adapters.bluesky
+  - plugins.adapters.tumblr

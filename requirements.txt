@@ -4,8 +4,11 @@
 # OpenAI-compatible SDK (used for GitHub Models — free with GITHUB_TOKEN)
 openai>=1.0.0
 
-# HTTP client (Discord webhook + Mastodon API posts)
+# HTTP client (Discord webhook + Mastodon + Bluesky API posts)
 requests>=2.31.0
+
+# OAuth1 signing (Tumblr API)
+requests-oauthlib>=1.3.0
 
 # Config file parsing
 pyyaml>=6.0
