@@ -1,6 +1,10 @@
-# 🦪 ClamBakeSanta
+<div align="center">
+  <img src="docs/santa_clambake.png" alt="ClamBakeSanta" width="180" style="border-radius:50%">
+
+# ClamBakeSanta
 
 > *One bot. One ocean. Infinite holidays.*
+</div>
 
 A fully automated daily haiku generator — and a demonstration of a reusable,
 plugin-based automation framework built entirely on free infrastructure.
