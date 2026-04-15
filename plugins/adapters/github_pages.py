@@ -241,14 +241,30 @@ class GitHubPagesAdapter(BaseAdapter):
                 pub = dt.strftime("%a, %d %b %Y 12:00:00 +0000")
             except ValueError:
                 pub = ""
-            # Pull first haiku text from the archive file for description
+            # Pull ALL haiku cards from the archive file for description
             try:
-                raw_html = p.read_text(encoding="utf-8")
                 import re
-                m = re.search(r'class="haiku-text">(.*?)</div>', raw_html, re.S)
-                desc_text = re.sub(r"<[^>]+>", "", m.group(1)).strip() if m else ""
+                raw_html = p.read_text(encoding="utf-8")
+                # Extract each card: theme heading + poem lines + hashtag line
+                cards = re.findall(
+                    r'<div class="haiku-card">(.*?)</div>\s*</div>',
+                    raw_html, re.S
+                )
+                card_blocks = []
+                for card in cards:
+                    theme_m = re.search(r'<h2[^>]*>(.*?)</h2>', card, re.S)
+                    poem_m  = re.search(r'class="haiku-text">(.*?)</div>', card, re.S)
+                    tag_m   = re.search(r'class="hashtag">(.*?)</div>', card, re.S)
+                    theme_t = re.sub(r"<[^>]+>", "", theme_m.group(1)).strip() if theme_m else ""
+                    poem_t  = re.sub(r"<[^>]+>", "", poem_m.group(1)).strip()  if poem_m  else ""
+                    tag_t   = re.sub(r"<[^>]+>", "", tag_m.group(1)).strip()   if tag_m   else ""
+                    # poem uses white-space:pre-line so newlines are literal \n
+                    poem_t  = poem_t.replace("\n", " / ")
+                    block = f"<p><strong>{theme_t}</strong><br>{poem_t}<br><em>{tag_t}</em></p>"
+                    card_blocks.append(block)
+                desc_html = "\n".join(card_blocks) if card_blocks else ""
             except Exception:
-                desc_text = ""
+                desc_html = ""
 
             items_xml.append(
                 f"  <item>\n"
@@ -256,7 +272,7 @@ class GitHubPagesAdapter(BaseAdapter):
                 f"    <link>{html_lib.escape(link)}</link>\n"
                 f"    <guid isPermaLink=\"true\">{html_lib.escape(link)}</guid>\n"
                 f"    <pubDate>{pub}</pubDate>\n"
-                f"    <description><![CDATA[{desc_text}]]></description>\n"
+                f"    <description><![CDATA[{desc_html}]]></description>\n"
                 f"  </item>"
             )
 
