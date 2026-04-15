@@ -5,23 +5,36 @@
 A fully automated daily haiku generator — and a demonstration of a reusable,
 plugin-based automation framework built entirely on free infrastructure.
 
-**Live site:** https://soylentaquamarine.github.io/clambakesanta/
-**RSS feed:** https://soylentaquamarine.github.io/clambakesanta/feed.xml
+---
+
+## Find ClamBakeSanta Everywhere
+
+| Platform | Link |
+|---|---|
+| 🌐 **Website** | https://soylentaquamarine.github.io/ClamBakeSanta |
+| 📡 **RSS Feed** | https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml |
+| 🐘 **Mastodon** | https://mastodon.social/@ClamBakeSanta |
+| 🦋 **Bluesky** | https://bsky.app/profile/clambakesanta.bsky.social |
+| 📝 **Tumblr** | https://www.tumblr.com/clambakesanta |
+| ✈️ **Telegram** | https://t.me/clambakesanta |
+| 🤖 **Reddit** | https://reddit.com/u/TheClamBakeSanta |
+| 📧 **Email list** | Send SUBSCRIBE to clamsbakesanta@gmail.com |
 
 ---
 
 ## What It Does
 
-Every morning at 8:00 AM Eastern, a GitHub Actions workflow:
+Every morning, a GitHub Actions workflow:
 
 1. Reads today's holidays and birthdays from curated data files
 2. Calls a free AI model (GitHub Models / GPT-4o-mini) to write fresh haikus
-3. Commits the generated HTML directly back to this repo
-4. GitHub Pages serves the updated site within minutes
-5. Optionally posts to Mastodon and/or Discord
+3. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, and Telegram** (staggered 1 minute apart)
+4. Sends a daily digest email to all subscribers
+5. Updates the **GitHub Pages** site and **RSS feed**
+6. Commits everything back to the repo
 
-The result is a self-updating website and RSS feed that requires zero
-daily maintenance and costs exactly **$0.00** to operate.
+The result is a fully self-updating multi-platform content pipeline that requires
+zero daily maintenance and costs exactly **$0.00** to operate.
 
 ---
 
@@ -38,16 +51,21 @@ or any other automated content pipeline.
 │                                                                   │
 │  ┌──────────┐    ┌──────────┐    ┌──────────────────────────┐   │
 │  │  SOURCE  │───▶│  ENGINE  │───▶│        ADAPTERS          │   │
-│  │  plugin  │    │  plugin  │    │  github_pages            │   │
-│  └──────────┘    └──────────┘    │  mastodon                │   │
-│       │               │          │  discord                  │   │
-│   Produces          Transforms   └──────────────────────────┘   │
-│   an Event         Event into            │                        │
-│                      a Result            ▼                        │
-│                                   ┌──────────┐                   │
-│                                   │  STATE   │                   │
-│                                   │  store   │                   │
-│                                   └──────────┘                   │
+│  │  plugin  │    │  plugin  │    │  mastodon                │   │
+│  └──────────┘    └──────────┘    │  bluesky                 │   │
+│       │               │          │  tumblr                  │   │
+│   Produces          Transforms   │  telegram                │   │
+│   an Event         Event into    │  email_list              │   │
+│                      a Result    │  github_pages            │   │
+│                                  │  discord                 │   │
+│                                  └──────────────────────────┘   │
+│                                            │                      │
+│                                            ▼                      │
+│                                   ┌──────────────┐               │
+│                                   │    STATE     │               │
+│                                   │  run_log +   │               │
+│                                   │ subscribers  │               │
+│                                   └──────────────┘               │
 └──────────────────────────────────────────────────────────────────┘
 
 Event → Engine → Result → Adapters → State
@@ -59,7 +77,7 @@ Event → Engine → Result → Adapters → State
 |---|---|---|
 | **Source** | Produces a standardized Event | `daily_holidays` reads today's data files |
 | **Engine** | Transforms Event → Result (no I/O) | `clambakesanta` calls AI, returns haikus |
-| **Adapters** | Publish Result to output channels | `github_pages`, `mastodon`, `discord` |
+| **Adapters** | Publish Result to output channels | `mastodon`, `bluesky`, `github_pages`, etc. |
 | **State** | Deduplication + audit trail | `state/run_log.json` committed to repo |
 
 ### Key Design Principles
@@ -68,6 +86,7 @@ Event → Engine → Result → Adapters → State
 - **Plugin registry.** New plugins self-register via `@register()` decorator — no core changes needed.
 - **Graceful degradation.** Missing credentials → adapter skips silently. One failed adapter never stops others.
 - **Config-driven.** Swap engines, add adapters, change channels — all from `config.yml`, no code changes.
+- **Adapter ordering matters.** Social posts go out first, site updates last — controlled by order in `config.yml`.
 
 ---
 
@@ -91,8 +110,12 @@ clambakesanta/
 │   ├── engines/
 │   │   └── clambakesanta.py    # Calls AI → produces haiku Result
 │   └── adapters/
+│       ├── mastodon_adapter.py # Posts to Mastodon
+│       ├── bluesky.py          # Posts to Bluesky
+│       ├── tumblr.py           # Posts to Tumblr
+│       ├── telegram.py         # Posts to Telegram channel
+│       ├── email_list.py       # SUBSCRIBE/UNSUBSCRIBE + daily digest
 │       ├── github_pages.py     # Writes docs/ HTML + RSS
-│       ├── mastodon_adapter.py # Posts toots to Mastodon
 │       └── discord.py          # Posts to Discord webhook
 │
 ├── data/                       # Your editorial control layer
@@ -102,18 +125,20 @@ clambakesanta/
 │
 ├── docs/                       # GitHub Pages root (auto-generated daily)
 │   ├── index.html              # Today's haikus
+│   ├── santa_clambake.png      # Site logo
 │   ├── feed.xml                # RSS 2.0 feed
 │   └── archives/               # One HTML file per day, forever
 │
 ├── state/
-│   └── run_log.json            # Dedup log + human-readable run history
+│   ├── run_log.json            # Dedup log + human-readable run history
+│   └── subscribers.json        # Email mailing list
 │
 ├── .github/workflows/
-│   └── daily.yml               # Cron job: runs every morning at 8 AM ET
+│   └── daily.yml               # Cron job: runs every morning at 5 AM ET
 │
 ├── config.yml                  # All configuration — no hardcoded values
 ├── run.py                      # Entry point (python run.py)
-└── requirements.txt            # openai, requests, pyyaml
+└── requirements.txt            # openai, requests, pyyaml, requests-oauthlib
 ```
 
 ---
@@ -144,14 +169,16 @@ The AI prompt also includes an explicit safety instruction:
 |---|---|---|
 | AI haiku generation | GitHub Models (GPT-4o-mini via `GITHUB_TOKEN`) | **Free** |
 | Daily scheduling | GitHub Actions (cron) | **Free** (public repo) |
-| Website hosting | GitHub Pages | **Free** |
+| Website + archive | GitHub Pages | **Free** |
 | RSS feed | Static file served by Pages | **Free** |
-| Mastodon posting | Mastodon API (public instance) | **Free** |
+| Mastodon posting | Mastodon API | **Free** |
+| Bluesky posting | AT Protocol API | **Free** |
+| Tumblr posting | Tumblr OAuth API | **Free** |
+| Telegram posting | Telegram Bot API | **Free** |
+| Email mailing list | Gmail SMTP/IMAP | **Free** |
+| Reddit posting | Reddit API (PRAW) | **Free** |
 | Discord posting | Discord webhook | **Free** |
 | **Total** | | **$0.00 / month** |
-
-GitHub Models uses the `GITHUB_TOKEN` that is automatically injected into
-every Actions run. No API key to manage, no billing to set up.
 
 ---
 
@@ -159,7 +186,7 @@ every Actions run. No API key to manage, no billing to set up.
 
 ### 1. Fork or create the repository
 
-Create a new repo named `clambakesanta` on your GitHub account.
+Create a new repo named `ClamBakeSanta` on your GitHub account.
 
 ### 2. Enable GitHub Pages
 
@@ -168,16 +195,26 @@ Create a new repo named `clambakesanta` on your GitHub account.
 ### 3. Update config.yml
 
 ```yaml
-site_base_url: "https://YOUR-USERNAME.github.io/clambakesanta"
+site_base_url: "https://YOUR-USERNAME.github.io/ClamBakeSanta"
 ```
 
-### 4. Add optional secrets (Settings → Secrets and variables → Actions)
+### 4. Add secrets (Settings → Secrets and variables → Actions)
 
 | Secret | Required for |
 |---|---|
-| `MASTODON_INSTANCE_URL` | Mastodon posting (e.g. `https://mastodon.social`) |
-| `MASTODON_ACCESS_TOKEN` | Mastodon posting |
-| `DISCORD_WEBHOOK_URL` | Discord posting |
+| `MASTODON_INSTANCE_URL` | Mastodon (e.g. `https://mastodon.social`) |
+| `MASTODON_ACCESS_TOKEN` | Mastodon |
+| `BLUESKY_HANDLE` | Bluesky (e.g. `yourbot.bsky.social`) |
+| `BLUESKY_APP_PASSWORD` | Bluesky |
+| `TUMBLR_CONSUMER_KEY` | Tumblr |
+| `TUMBLR_CONSUMER_SECRET` | Tumblr |
+| `TUMBLR_OAUTH_TOKEN` | Tumblr |
+| `TUMBLR_OAUTH_SECRET` | Tumblr |
+| `TELEGRAM_BOT_TOKEN` | Telegram |
+| `TELEGRAM_CHANNEL` | Telegram (e.g. `@yourchannel`) |
+| `GMAIL_ADDRESS` | Email mailing list |
+| `GMAIL_APP_PASSWORD` | Email mailing list |
+| `DISCORD_WEBHOOK_URL` | Discord |
 
 > `GITHUB_TOKEN` is automatic — no setup needed.
 
@@ -185,63 +222,50 @@ site_base_url: "https://YOUR-USERNAME.github.io/clambakesanta"
 
 `Actions → Daily Haiku Generation → Run workflow`
 
-The site will update within 2 minutes of the workflow completing.
+### 6. Subscribe to the email list
 
-### 6. Customize your holidays
-
-Edit any file in `data/` directly in the GitHub web UI.
-Format: `MM-DD: Theme One, Theme Two`
+Send any email to the configured Gmail address with **SUBSCRIBE** in the subject.
+Send **UNSUBSCRIBE** to stop.
 
 ---
 
 ## Extending the Framework
 
-### Add a new output channel (e.g. Bluesky)
+### Add a new output channel in 3 steps
 
 ```python
-# plugins/adapters/bluesky.py
+# plugins/adapters/newplatform.py
 from framework.registry import register
 from framework.adapters.base import BaseAdapter
 from framework.models import Result
 
-@register("adapters", "bluesky")
-class BlueskyAdapter(BaseAdapter):
+@register("adapters", "newplatform")
+class NewPlatformAdapter(BaseAdapter):
     def publish(self, result: Result) -> bool:
         # your posting logic here
         return True
 ```
 
-Then add `bluesky` to the `adapters` list in `config.yml` and
-`plugins.adapters.bluesky` to `plugin_modules`. That's it —
-no other files change.
+1. Create the file above
+2. Add `newplatform` to `adapters:` in `config.yml`
+3. Add `plugins.adapters.newplatform` to `plugin_modules:` in `config.yml`
 
-### Add a new engine (e.g. system monitor)
-
-```python
-# plugins/engines/system_monitor.py
-from framework.registry import register
-from framework.engines.base import BaseEngine
-from framework.models import Event, Result
-
-@register("engines", "system_monitor")
-class SystemMonitorEngine(BaseEngine):
-    def process(self, event: Event) -> Result:
-        # check CPU, disk, memory...
-        return Result(event=event, engine_id="system_monitor", content="All systems OK")
-```
-
-Change `engine: system_monitor` in `config.yml`. Done.
+No other files change. The framework discovers and runs it automatically.
 
 ---
 
 ## Tech Stack
 
-- **Python 3.11** — framework and plugins
-- **GitHub Actions** — scheduling and execution
-- **GitHub Models** — free AI via `GITHUB_TOKEN` (GPT-4o-mini)
+- **Python 3.11** — framework and all plugins
+- **GitHub Actions** — scheduling and execution (free, public repo)
+- **GitHub Models** — free AI inference via `GITHUB_TOKEN` (GPT-4o-mini)
 - **GitHub Pages** — static site hosting from `docs/`
-- **Mastodon API** — free social posting
-- **RSS 2.0** — feed for any RSS reader
+- **Mastodon API** — ActivityPub social network
+- **Bluesky AT Protocol** — decentralized social network
+- **Tumblr OAuth API** — blogging platform
+- **Telegram Bot API** — channel messaging
+- **Gmail SMTP/IMAP** — email mailing list
+- **RSS 2.0** — universal feed standard
 
 ---
 
