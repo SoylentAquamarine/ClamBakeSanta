@@ -1,7 +1,8 @@
 {
   "completed_dates": [
     "2026-04-13",
-    "2026-04-14"
+    "2026-04-14",
+    "2026-04-15"
   ],
   "runs": [
     {
@@ -25,6 +26,18 @@
         "Birthday Loretta Lynn"
       ],
       "content_preview": "Crunchy, sweet delight, Golden brown in warm sunshine, Nuts dance in delight. Happy #NationalPecanDay from @ClamBakeSant"
+    },
+    {
+      "date": "2026-04-15",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-15T13:04:22.049433+00:00",
+      "themes": [
+        "National Glazed Spiral Ham Day",
+        "Tax Day",
+        "Birthday Leonardo da Vinci",
+        "Birthday Henry James"
+      ],
+      "content_preview": "Amber glaze glistens, Spices dance in warm delight, Savor every bite. Happy #NationalGlazedSpiralHamDay from @ClamBakeSa"
     }
   ]
 }
