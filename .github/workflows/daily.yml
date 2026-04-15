@@ -18,7 +18,7 @@ name: Daily Haiku Generation
 
 on:
   schedule:
-    - cron: '0 12 * * *'   # Daily at 12:00 UTC (8:00 AM Eastern)
+    - cron: '0 9 * * *'    # Daily at 09:00 UTC (5:00 AM Eastern)
   workflow_dispatch:        # Allow manual runs from GitHub Actions UI
 
 permissions:
