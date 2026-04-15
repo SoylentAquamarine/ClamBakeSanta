@@ -90,16 +90,25 @@ def _process_subscriptions(gmail_address: str, app_password: str) -> dict:
     try:
         mail = imaplib.IMAP4_SSL(IMAP_HOST)
         mail.login(gmail_address, app_password)
-        mail.select("inbox")
 
-        # Search for unread emails
-        _, msg_ids = mail.search(None, "UNSEEN")
+        # Check both inbox and spam so no subscription requests are missed
+        all_msg_ids = []
+        for folder in ("inbox", "[Gmail]/Spam"):
+            try:
+                mail.select(folder)
+                _, msg_ids = mail.search(None, "UNSEEN")
+                all_msg_ids.extend(msg_ids[0].split())
+            except Exception:
+                pass  # folder may not exist, skip it
+
+        # Re-select inbox as working folder for marking read
+        mail.select("inbox")
 
         with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
             smtp.starttls()
             smtp.login(gmail_address, app_password)
 
-            for msg_id in msg_ids[0].split():
+            for msg_id in all_msg_ids:
                 _, msg_data = mail.fetch(msg_id, "(RFC822)")
                 raw = msg_data[0][1]
                 parsed = email_lib.message_from_bytes(raw)
