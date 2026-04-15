@@ -13,16 +13,17 @@ plugin-based automation framework built entirely on free infrastructure.
 
 ## Find ClamBakeSanta Everywhere
 
-| Platform | Link |
-|---|---|
-| 🌐 **Website** | https://soylentaquamarine.github.io/ClamBakeSanta |
-| 📡 **RSS Feed** | https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml |
-| 🐘 **Mastodon** | https://mastodon.social/@ClamBakeSanta |
-| 🦋 **Bluesky** | https://bsky.app/profile/clambakesanta.bsky.social |
-| 📝 **Tumblr** | https://www.tumblr.com/clambakesanta |
-| ✈️ **Telegram** | https://t.me/clambakesanta |
-| 🤖 **Reddit** | https://reddit.com/u/TheClamBakeSanta |
-| 📧 **Email list** | Send SUBSCRIBE to clamsbakesanta@gmail.com |
+<table>
+<tr><th>Platform</th><th>Link</th></tr>
+<tr><td>🌐 <strong>Website</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta" target="_blank">soylentaquamarine.github.io/ClamBakeSanta</a></td></tr>
+<tr><td>📡 <strong>RSS Feed</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml" target="_blank">ClamBakeSanta/feed.xml</a></td></tr>
+<tr><td>🐘 <strong>Mastodon</strong></td><td><a href="https://mastodon.social/@ClamBakeSanta" target="_blank">@ClamBakeSanta@mastodon.social</a></td></tr>
+<tr><td>🦋 <strong>Bluesky</strong></td><td><a href="https://bsky.app/profile/clambakesanta.bsky.social" target="_blank">@clambakesanta.bsky.social</a></td></tr>
+<tr><td>📝 <strong>Tumblr</strong></td><td><a href="https://www.tumblr.com/clambakesanta" target="_blank">tumblr.com/clambakesanta</a></td></tr>
+<tr><td>✈️ <strong>Telegram</strong></td><td><a href="https://t.me/clambakesanta" target="_blank">t.me/clambakesanta</a></td></tr>
+<tr><td>🤖 <strong>Reddit</strong></td><td><a href="https://reddit.com/u/TheClamBakeSanta" target="_blank">u/TheClamBakeSanta</a></td></tr>
+<tr><td>📧 <strong>Email list</strong></td><td>Send SUBSCRIBE to <a href="mailto:clamsbakesanta@gmail.com">clamsbakesanta@gmail.com</a></td></tr>
+</table>
 
 ---
 
