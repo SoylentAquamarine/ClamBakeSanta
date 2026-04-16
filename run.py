@@ -59,15 +59,16 @@ def main() -> int:
         return 0
 
     failed = summary.get("adapters_failed", [])
-    if failed:
-        log.error("Some adapters failed: %s", failed)
-        return 1
+    ok = summary.get("adapters_ok", [])
 
-    log.info(
-        "Done — %s | adapters OK: %s",
-        summary["date"],
-        summary.get("adapters_ok", []),
-    )
+    if failed:
+        log.warning("Some adapters failed (content was still generated): %s", failed)
+
+    log.info("Done — %s | OK: %s | Failed: %s", summary["date"], ok, [f[0] for f in failed])
+
+    # Only fail the workflow if NO adapters succeeded at all
+    if failed and not ok:
+        return 1
     return 0
 
 
