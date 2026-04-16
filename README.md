@@ -15,31 +15,57 @@ plugin-based automation framework built entirely on free infrastructure.
 
 <table>
 <tr><th>Platform</th><th>Link</th></tr>
-<tr><td>🌐 <strong>Website</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta" target="_blank">soylentaquamarine.github.io/ClamBakeSanta</a></td></tr>
-<tr><td>📡 <strong>RSS Feed</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml" target="_blank">ClamBakeSanta/feed.xml</a></td></tr>
-<tr><td>🐘 <strong>Mastodon</strong></td><td><a href="https://mastodon.social/@ClamBakeSanta" target="_blank">@ClamBakeSanta@mastodon.social</a></td></tr>
-<tr><td>🦋 <strong>Bluesky</strong></td><td><a href="https://bsky.app/profile/clambakesanta.bsky.social" target="_blank">@clambakesanta.bsky.social</a></td></tr>
-<tr><td>📝 <strong>Tumblr</strong></td><td><a href="https://www.tumblr.com/clambakesanta" target="_blank">tumblr.com/clambakesanta</a></td></tr>
-<tr><td>✈️ <strong>Telegram</strong></td><td><a href="https://t.me/clambakesanta" target="_blank">t.me/clambakesanta</a></td></tr>
-<tr><td>🤖 <strong>Reddit</strong></td><td><a href="https://reddit.com/u/TheClamBakeSanta" target="_blank">u/TheClamBakeSanta</a></td></tr>
-<tr><td>📧 <strong>Email list</strong></td><td>Send SUBSCRIBE to <a href="mailto:clamsbakesanta@gmail.com">clamsbakesanta@gmail.com</a></td></tr>
+<tr><td>🌐 <strong>Website</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta">soylentaquamarine.github.io/ClamBakeSanta</a></td></tr>
+<tr><td>📡 <strong>RSS Feed</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml">ClamBakeSanta/feed.xml</a></td></tr>
+<tr><td>🐘 <strong>Mastodon</strong></td><td><a href="https://mastodon.social/@ClamBakeSanta">@ClamBakeSanta@mastodon.social</a></td></tr>
+<tr><td>🦋 <strong>Bluesky</strong></td><td><a href="https://bsky.app/profile/clambakesanta.bsky.social">@clambakesanta.bsky.social</a></td></tr>
+<tr><td>📝 <strong>Tumblr</strong></td><td><a href="https://www.tumblr.com/clambakesanta">tumblr.com/clambakesanta</a></td></tr>
+<tr><td>✈️ <strong>Telegram</strong></td><td><a href="https://t.me/clambakesanta">t.me/clambakesanta</a></td></tr>
+<tr><td>🤖 <strong>Reddit</strong></td><td><a href="https://reddit.com/u/TheClamBakeSanta">u/TheClamBakeSanta on r/haiku</a></td></tr>
+<tr><td>📧 <strong>Email list</strong></td><td>Send SUBSCRIBE to <a href="mailto:clambakesanta@gmail.com">clambakesanta@gmail.com</a></td></tr>
 </table>
 
 ---
 
 ## What It Does
 
-Every morning, a GitHub Actions workflow:
+Every morning at 5 AM ET, two GitHub Actions workflows run:
 
+**4 AM ET — Check Subscriptions (`check_subscriptions.yml`)**
+- Reads the Gmail inbox for SUBSCRIBE / UNSUBSCRIBE emails
+- Updates the subscriber list (`state/subscribers.json`)
+- Sends confirmation replies via Gmail SMTP
+- Commits the updated list so the main run has the freshest data
+
+**5 AM ET — Daily Haiku Generation (`daily.yml`)**
 1. Reads today's holidays and birthdays from curated data files
-2. Calls a free AI model (GitHub Models / GPT-4o-mini) to write fresh haikus
-3. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, and Telegram** (staggered 1 minute apart)
-4. Sends a daily digest email to all subscribers
-5. Updates the **GitHub Pages** site and **RSS feed**
-6. Commits everything back to the repo
+2. Calls a free AI model (GitHub Models / GPT-4o-mini) to write one haiku per theme
+3. **Saves the haikus to `state/haiku_cache.json`** so every adapter uses the same poems
+4. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, Telegram, and Reddit** (staggered 1 minute apart)
+5. Sends the daily digest email to all subscribers
+6. Updates the **GitHub Pages** website and **RSS feed**
+7. Posts a summary to Discord
+8. Commits all state back to the repo
 
 The result is a fully self-updating multi-platform content pipeline that requires
 zero daily maintenance and costs exactly **$0.00** to operate.
+
+---
+
+## Haiku Caching
+
+After the AI generates haikus each morning, they are saved to `state/haiku_cache.json`.
+Any subsequent run that same day — whether a re-run, a `--force` run, or a per-adapter
+test — reads from the cache instead of calling the AI again.
+
+This means **every adapter always posts the same poems on a given day**, no matter
+how many times workflows are triggered. The cache is committed to the repo alongside
+the run log.
+
+To force fresh AI generation (overwrite today's cache):
+```
+python run.py --force --regenerate
+```
 
 ---
 
@@ -51,29 +77,29 @@ can be repurposed for monitoring alerts, scheduled reports, AI newsletters,
 or any other automated content pipeline.
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                     FRAMEWORK (framework/)                        │
-│                                                                   │
-│  ┌──────────┐    ┌──────────┐    ┌──────────────────────────┐   │
-│  │  SOURCE  │───▶│  ENGINE  │───▶│        ADAPTERS          │   │
-│  │  plugin  │    │  plugin  │    │  mastodon                │   │
-│  └──────────┘    └──────────┘    │  bluesky                 │   │
-│       │               │          │  tumblr                  │   │
-│   Produces          Transforms   │  telegram                │   │
-│   an Event         Event into    │  email_list              │   │
-│                      a Result    │  github_pages            │   │
-│                                  │  discord                 │   │
-│                                  └──────────────────────────┘   │
-│                                            │                      │
-│                                            ▼                      │
-│                                   ┌──────────────┐               │
-│                                   │    STATE     │               │
-│                                   │  run_log +   │               │
-│                                   │ subscribers  │               │
-│                                   └──────────────┘               │
-└──────────────────────────────────────────────────────────────────┘
-
-Event → Engine → Result → Adapters → State
+┌──────────────────────────────────────────────────────────────────────┐
+│                      FRAMEWORK (framework/)                           │
+│                                                                       │
+│  ┌──────────┐   ┌─────────────────┐   ┌──────────────────────────┐  │
+│  │  SOURCE  │──▶│  ENGINE / CACHE │──▶│        ADAPTERS          │  │
+│  │  plugin  │   │  plugin         │   │  mastodon                │  │
+│  └──────────┘   └─────────────────┘   │  bluesky                 │  │
+│       │                │              │  tumblr                  │  │
+│   Produces         Transforms or      │  telegram                │  │
+│   an Event         loads from cache   │  email_list              │  │
+│                                       │  reddit                  │  │
+│                                       │  github_pages            │  │
+│                                       │  discord                 │  │
+│                                       └──────────────────────────┘  │
+│                                                  │                    │
+│                                                  ▼                    │
+│                                    ┌─────────────────────┐           │
+│                                    │        STATE        │           │
+│                                    │  run_log.json       │           │
+│                                    │  haiku_cache.json   │           │
+│                                    │  subscribers.json   │           │
+│                                    └─────────────────────┘           │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ### The Four Layers
@@ -81,9 +107,9 @@ Event → Engine → Result → Adapters → State
 | Layer | Responsibility | Example |
 |---|---|---|
 | **Source** | Produces a standardized Event | `daily_holidays` reads today's data files |
-| **Engine** | Transforms Event → Result (no I/O) | `clambakesanta` calls AI, returns haikus |
+| **Engine** | Transforms Event → Result (or loads cache) | `clambakesanta` calls AI, caches haikus |
 | **Adapters** | Publish Result to output channels | `mastodon`, `bluesky`, `github_pages`, etc. |
-| **State** | Deduplication + audit trail | `state/run_log.json` committed to repo |
+| **State** | Deduplication + audit trail + cache | `state/run_log.json`, `state/haiku_cache.json` |
 
 ### Key Design Principles
 
@@ -92,6 +118,7 @@ Event → Engine → Result → Adapters → State
 - **Graceful degradation.** Missing credentials → adapter skips silently. One failed adapter never stops others.
 - **Config-driven.** Swap engines, add adapters, change channels — all from `config.yml`, no code changes.
 - **Adapter ordering matters.** Social posts go out first, site updates last — controlled by order in `config.yml`.
+- **Consistent daily content.** Haiku cache ensures all adapters use identical poems even across multiple runs.
 
 ---
 
@@ -103,7 +130,7 @@ clambakesanta/
 ├── framework/                  # Core framework — zero business logic
 │   ├── models.py               # Event and Result dataclasses (the contracts)
 │   ├── registry.py             # Plugin registry (@register decorator)
-│   ├── runner.py               # Execution loop: source→engine→adapters→state
+│   ├── runner.py               # Execution loop: source→engine/cache→adapters→state
 │   ├── sources/base.py         # BaseSource abstract class
 │   ├── engines/base.py         # BaseEngine abstract class
 │   ├── adapters/base.py        # BaseAdapter abstract class
@@ -115,13 +142,14 @@ clambakesanta/
 │   ├── engines/
 │   │   └── clambakesanta.py    # Calls AI → produces haiku Result
 │   └── adapters/
-│       ├── mastodon_adapter.py # Posts to Mastodon
-│       ├── bluesky.py          # Posts to Bluesky
-│       ├── tumblr.py           # Posts to Tumblr
-│       ├── telegram.py         # Posts to Telegram channel
-│       ├── email_list.py       # SUBSCRIBE/UNSUBSCRIBE + daily digest
+│       ├── mastodon_adapter.py # Posts each haiku to Mastodon
+│       ├── bluesky.py          # Posts each haiku to Bluesky
+│       ├── tumblr.py           # Posts each haiku to Tumblr
+│       ├── telegram.py         # Posts each haiku to Telegram channel
+│       ├── email_list.py       # Sends daily digest to subscribers
+│       ├── reddit.py           # Posts each haiku to r/haiku
 │       ├── github_pages.py     # Writes docs/ HTML + RSS
-│       └── discord.py          # Posts to Discord webhook
+│       └── discord.py          # Posts summary to Discord webhook
 │
 ├── data/                       # Your editorial control layer
 │   ├── january_randomholiday.txt
@@ -136,14 +164,25 @@ clambakesanta/
 │
 ├── state/
 │   ├── run_log.json            # Dedup log + human-readable run history
+│   ├── haiku_cache.json        # Today's haikus — shared across all adapters
 │   └── subscribers.json        # Email mailing list
 │
 ├── .github/workflows/
-│   └── daily.yml               # Cron job: runs every morning at 5 AM ET
+│   ├── daily.yml               # Main cron: 5 AM ET — generate + publish everywhere
+│   ├── check_subscriptions.yml # Sub cron: 4 AM ET — process SUBSCRIBE/UNSUBSCRIBE emails
+│   ├── test_mastodon.yml       # Manual: re-post today's cached haikus to Mastodon
+│   ├── test_bluesky.yml        # Manual: re-post today's cached haikus to Bluesky
+│   ├── test_tumblr.yml         # Manual: re-post today's cached haikus to Tumblr
+│   ├── test_telegram.yml       # Manual: re-post today's cached haikus to Telegram
+│   ├── test_email_list.yml     # Manual: re-send today's digest to email subscribers
+│   ├── test_reddit.yml         # Manual: re-post today's cached haikus to Reddit
+│   ├── test_discord.yml        # Manual: re-post today's cached haikus to Discord
+│   └── test_github_pages.yml   # Manual: rebuild site from today's cached haikus
 │
+├── check_subscriptions.py      # Standalone SUBSCRIBE/UNSUBSCRIBE processor
 ├── config.yml                  # All configuration — no hardcoded values
-├── run.py                      # Entry point (python run.py)
-└── requirements.txt            # openai, requests, pyyaml, requests-oauthlib
+├── run.py                      # Entry point (python run.py [--force] [--regenerate] [--adapter X])
+└── requirements.txt            # openai, requests, pyyaml, requests-oauthlib, praw
 ```
 
 ---
@@ -219,6 +258,10 @@ site_base_url: "https://YOUR-USERNAME.github.io/ClamBakeSanta"
 | `TELEGRAM_CHANNEL` | Telegram (e.g. `@yourchannel`) |
 | `GMAIL_ADDRESS` | Email mailing list |
 | `GMAIL_APP_PASSWORD` | Email mailing list |
+| `REDDIT_CLIENT_ID` | Reddit |
+| `REDDIT_CLIENT_SECRET` | Reddit |
+| `REDDIT_USERNAME` | Reddit (e.g. `TheClamBakeSanta`) |
+| `REDDIT_PASSWORD` | Reddit |
 | `DISCORD_WEBHOOK_URL` | Discord |
 
 > `GITHUB_TOKEN` is automatic — no setup needed.
@@ -231,6 +274,24 @@ site_base_url: "https://YOUR-USERNAME.github.io/ClamBakeSanta"
 
 Send any email to the configured Gmail address with **SUBSCRIBE** in the subject.
 Send **UNSUBSCRIBE** to stop.
+
+---
+
+## Per-Adapter Testing
+
+Each adapter has its own manual workflow under **Actions**. These use the
+day's cached haikus so you always get the same poems, never fresh AI generation:
+
+| Workflow | What it does |
+|---|---|
+| `Test — Mastodon` | Re-posts today's haikus to Mastodon |
+| `Test — Bluesky` | Re-posts today's haikus to Bluesky |
+| `Test — Tumblr` | Re-posts today's haikus to Tumblr |
+| `Test — Telegram` | Re-posts today's haikus to Telegram |
+| `Test — Email List` | Re-sends today's digest to all subscribers |
+| `Test — Reddit` | Re-posts today's haikus to r/haiku |
+| `Test — Discord` | Re-posts today's summary to Discord |
+| `Test — GitHub Pages` | Rebuilds site from today's cached haikus |
 
 ---
 
@@ -270,6 +331,7 @@ No other files change. The framework discovers and runs it automatically.
 - **Tumblr OAuth API** — blogging platform
 - **Telegram Bot API** — channel messaging
 - **Gmail SMTP/IMAP** — email mailing list
+- **PRAW** — Python Reddit API Wrapper
 - **RSS 2.0** — universal feed standard
 
 ---
