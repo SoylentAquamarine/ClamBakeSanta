@@ -52,7 +52,7 @@ def _haiku_title(haiku_text: str) -> str:
     We only use the first 3.
     """
     lines = [ln.strip() for ln in haiku_text.strip().splitlines() if ln.strip()]
-    poem_lines = lines[:3]   # drop the hashtag line
+    poem_lines = [ln.rstrip(",") for ln in lines[:3]]   # drop hashtag line, strip trailing commas
     return " / ".join(poem_lines)
 
 
