@@ -62,17 +62,28 @@ def main():
     new_subs    = 0
     new_unsubs  = 0
 
-    # ── Verify SMTP credentials first ────────────────────────────────────────
-    try:
-        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
-            smtp.ehlo()
-            smtp.login(gmail_address, app_password)
-        print("SMTP credentials: OK")
-    except Exception as exc:
-        print(f"SMTP credentials: FAILED — {exc}")
-        raise
+    # ── Verify SMTP credentials first (try SSL port 465, fallback to 587) ───
+    smtp_ok = False
+    for port, use_ssl in [(465, True), (587, False)]:
+        try:
+            if use_ssl:
+                with smtplib.SMTP_SSL(SMTP_HOST, port) as smtp:
+                    smtp.ehlo()
+                    smtp.login(gmail_address, app_password)
+            else:
+                with smtplib.SMTP(SMTP_HOST, port) as smtp:
+                    smtp.ehlo()
+                    smtp.starttls()
+                    smtp.ehlo()
+                    smtp.login(gmail_address, app_password)
+            print(f"SMTP credentials: OK (port {port})")
+            smtp_ok = True
+            break
+        except Exception as exc:
+            print(f"SMTP port {port}: FAILED — {exc}")
+
+    if not smtp_ok:
+        raise Exception("SMTP authentication failed on all ports")
 
     try:
         # ── IMAP: read inbox ──────────────────────────────────────────────────
@@ -91,9 +102,7 @@ def main():
         mail.select("inbox")
 
         # ── SMTP: send confirmation replies ──────────────────────────────────
-        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
+        with smtplib.SMTP_SSL(SMTP_HOST, 465) as smtp:
             smtp.ehlo()
             smtp.login(gmail_address, app_password)
 
