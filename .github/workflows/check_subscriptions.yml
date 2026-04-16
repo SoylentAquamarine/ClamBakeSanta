@@ -1,0 +1,56 @@
+name: Check Subscriptions
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Runs one hour before the main Daily Haiku Generation workflow.
+# Processes SUBSCRIBE / UNSUBSCRIBE emails from the Gmail inbox,
+# sends confirmation replies, and commits the updated subscriber list
+# so the main run has the freshest list when it fires.
+#
+# Schedule:  08:00 UTC = 4:00 AM Eastern (main run is 09:00 UTC / 5 AM ET)
+#
+# Required secrets (same as main workflow):
+#   GMAIL_ADDRESS       — clamsbakesanta@gmail.com
+#   GMAIL_APP_PASSWORD  — 16-char app password
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: '0 8 * * *'    # Daily at 08:00 UTC (4:00 AM Eastern)
+  workflow_dispatch:        # Allow manual runs for testing
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests-oauthlib pyyaml
+
+      - name: Process subscriptions
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python check_subscriptions.py
+
+      - name: Commit updated subscriber list
+        run: |
+          git config user.name  "ClamBakeSantaBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/subscribers.json
+          if git diff --cached --quiet; then
+            echo "No subscription changes."
+          else
+            git commit -m "📧 Subscription update $(date -u '+%Y-%m-%d %H:%M')"
+            git push
+          fi

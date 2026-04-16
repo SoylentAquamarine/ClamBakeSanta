@@ -277,13 +277,10 @@ class EmailListAdapter(BaseAdapter):
         if not gmail_address or not app_password:
             return False  # Not configured — skip silently
 
-        # ── Step 1: Process subscriptions ────────────────────────────────────
-        sub_stats = _process_subscriptions(gmail_address, app_password)
-        print(f"  Email: +{sub_stats['new_subs']} subs, "
-              f"-{sub_stats['new_unsubs']} unsubs, "
-              f"{sub_stats['total']} total")
+        # Subscriptions are managed by check_subscriptions.yml which runs
+        # 1 hour before this workflow. This adapter only sends the daily digest.
 
-        # ── Step 2: Send daily haikus to all subscribers ──────────────────────
+        # ── Send daily haikus to all subscribers ──────────────────────────────
         subscribers = _load_subscribers().get("subscribers", [])
         if not subscribers:
             return True  # No subscribers yet — that's fine
