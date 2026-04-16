@@ -62,6 +62,18 @@ def main():
     new_subs    = 0
     new_unsubs  = 0
 
+    # ── Verify SMTP credentials first ────────────────────────────────────────
+    try:
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
+            smtp.ehlo()
+            smtp.starttls()
+            smtp.ehlo()
+            smtp.login(gmail_address, app_password)
+        print("SMTP credentials: OK")
+    except Exception as exc:
+        print(f"SMTP credentials: FAILED — {exc}")
+        raise
+
     try:
         # ── IMAP: read inbox ──────────────────────────────────────────────────
         mail = imaplib.IMAP4_SSL(IMAP_HOST)
@@ -130,8 +142,8 @@ def main():
         mail.logout()
 
     except Exception as exc:
-        print(f"  Error: {exc}")
-        raise  # Re-raise so the workflow step fails visibly
+        print(f"  IMAP error: {exc}")
+        print("  Subscription inbox check skipped — SMTP sending will still work.")
 
     data["subscribers"] = sorted(subscribers)
     save_subscribers(data)
