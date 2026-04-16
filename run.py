@@ -41,6 +41,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="ClamBakeSanta automation runner")
     parser.add_argument("--config", default="config.yml", help="Path to config file")
     parser.add_argument("--force", action="store_true", help="Run even if already ran today")
+    parser.add_argument("--regenerate", action="store_true", help="Force fresh AI generation (overwrites today's haiku cache)")
     parser.add_argument("--date", default=None, help="Override date (YYYY-MM-DD) for testing")
     parser.add_argument("--adapter", default=None, help="Test a single adapter only (skips all others)")
     args = parser.parse_args()
@@ -58,7 +59,7 @@ def main() -> int:
         config["adapters"] = [args.adapter]
 
     from framework.runner import run
-    summary = run(config, force=args.force)
+    summary = run(config, force=args.force, regenerate=args.regenerate)
 
     if summary.get("skipped"):
         log.info("Skipped — already ran for %s. Use --force to override.", summary["date"])
