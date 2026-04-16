@@ -2,7 +2,7 @@
 email_list — Adapter plugin.
 
 Daily mailer — sends today's haikus to every confirmed subscriber
-via Brevo transactional email API (free tier: 300 emails/day).
+via Gmail SMTP.
 
 SUBSCRIBE/UNSUBSCRIBE processing is handled by check_subscriptions.py,
 which runs one hour before this workflow via check_subscriptions.yml.
@@ -11,32 +11,31 @@ Subscriber list lives in state/subscribers.json and is committed back
 to the repo by the workflow after each run — no database needed.
 
 Setup (one-time):
-  1. Create a free Brevo account at brevo.com
-  2. Senders & IPs → Senders → Add a Sender
-       Name:  Clam Bake Santa
-       Email: clamsbakesanta@gmail.com
-  3. Verify the sender by clicking the link emailed to clamsbakesanta@gmail.com
-  4. SMTP & API → API Keys → Generate a new API key → copy it
-  5. Add two GitHub Secrets:
-       GMAIL_ADDRESS  = clamsbakesanta@gmail.com   (used as FROM address)
-       BREVO_API_KEY  = (the API key from step 4)
-  6. Add "email_list" to adapters in config.yml
+  1. Create a Gmail account for ClamBakeSanta
+  2. Enable 2-Factor Authentication
+  3. Generate an App Password (Google Account → Security → App Passwords)
+  4. Add two GitHub Secrets:
+       GMAIL_ADDRESS      = clambakesanta@gmail.com
+       GMAIL_APP_PASSWORD = (16-char app password, no spaces)
+  5. Add "email_list" to adapters in config.yml
 
 If either secret is missing, this adapter skips silently.
 """
 from __future__ import annotations
 import json
 import os
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from pathlib import Path
-
-import requests
 
 from framework.registry import register
 from framework.adapters.base import BaseAdapter
 from framework.models import Result
 
 SUBSCRIBERS_FILE = Path("state/subscribers.json")
-BREVO_SEND_URL = "https://api.brevo.com/v3/smtp/email"
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587
 
 
 def _load_subscribers() -> dict:
@@ -47,28 +46,21 @@ def _load_subscribers() -> dict:
 
 
 def _send_email(
-    brevo_key: str,
+    smtp: smtplib.SMTP,
     from_addr: str,
     to_addr: str,
     subject: str,
     html_body: str,
     text_body: str,
 ) -> None:
-    """Send a single email via Brevo transactional API."""
-    resp = requests.post(
-        BREVO_SEND_URL,
-        headers={"api-key": brevo_key, "Content-Type": "application/json"},
-        json={
-            "sender":      {"name": "Clam Bake Santa", "email": from_addr},
-            "to":          [{"email": to_addr}],
-            "subject":     subject,
-            "htmlContent": html_body,
-            "textContent": text_body,
-        },
-        timeout=30,
-    )
-    resp.raise_for_status()
-
+    """Send a single email via Gmail SMTP."""
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = f"Clam Bake Santa <{from_addr}>"
+    msg["To"] = to_addr
+    msg.attach(MIMEText(text_body, "plain"))
+    msg.attach(MIMEText(html_body, "html"))
+    smtp.sendmail(from_addr, to_addr, msg.as_string())
 
 
 def _build_daily_email(haiku_records: list[dict], date_str: str,
@@ -178,21 +170,20 @@ def _farewell_text(email: str) -> str:
 @register("adapters", "email_list")
 class EmailListAdapter(BaseAdapter):
     """
-    Sends the daily haiku digest to all confirmed subscribers via Brevo.
-    Skips gracefully if GMAIL_ADDRESS or BREVO_API_KEY are not configured.
-
-    Subscription management (SUBSCRIBE/UNSUBSCRIBE) is handled by
-    check_subscriptions.py, which runs one hour before this workflow.
+    Sends the daily haiku digest to all confirmed subscribers via Gmail SMTP.
+    Skips gracefully if Gmail credentials are not configured.
     """
 
     def publish(self, result: Result) -> bool:
         gmail_address = os.environ.get("GMAIL_ADDRESS", "").strip()
-        brevo_key     = os.environ.get("BREVO_API_KEY", "").strip()
+        app_password  = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
 
-        if not gmail_address or not brevo_key:
+        if not gmail_address or not app_password:
             return False  # Not configured — skip silently
 
-        # ── Send daily haikus to all subscribers ──────────────────────────────
+        # Subscriptions are managed by check_subscriptions.yml which runs
+        # 1 hour before this workflow. This adapter only sends the daily digest.
+
         subscribers = _load_subscribers().get("subscribers", [])
         if not subscribers:
             print("  Email: no subscribers yet — skipping send")
@@ -210,14 +201,23 @@ class EmailListAdapter(BaseAdapter):
 
         sent = 0
         errors = 0
-        for addr in subscribers:
-            try:
-                _send_email(brevo_key, gmail_address, addr,
-                            subject, html_body, text_body)
-                sent += 1
-            except Exception as exc:
-                print(f"  Failed to send to {addr}: {exc}")
-                errors += 1
+        try:
+            with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
+                smtp.ehlo()
+                smtp.starttls()
+                smtp.ehlo()
+                smtp.login(gmail_address, app_password)
+                for addr in subscribers:
+                    try:
+                        _send_email(smtp, gmail_address, addr,
+                                    subject, html_body, text_body)
+                        sent += 1
+                    except Exception as exc:
+                        print(f"  Failed to send to {addr}: {exc}")
+                        errors += 1
+        except Exception as exc:
+            print(f"  Email send error: {exc}")
+            return False
 
         print(f"  Email: sent to {sent} subscriber(s), {errors} error(s)")
-        return errors == 0 or sent > 0
+        return True
