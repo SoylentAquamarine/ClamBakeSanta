@@ -105,7 +105,9 @@ def _process_subscriptions(gmail_address: str, app_password: str) -> dict:
         mail.select("inbox")
 
         with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
+            smtp.ehlo()
             smtp.starttls()
+            smtp.ehlo()
             smtp.login(gmail_address, app_password)
 
             for msg_id in all_msg_ids:
@@ -300,7 +302,9 @@ class EmailListAdapter(BaseAdapter):
         errors = 0
         try:
             with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
+                smtp.ehlo()
                 smtp.starttls()
+                smtp.ehlo()
                 smtp.login(gmail_address, app_password)
                 for addr in subscribers:
                     try:
