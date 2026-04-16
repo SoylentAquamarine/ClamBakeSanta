@@ -1,47 +1,42 @@
 """
 email_list — Adapter plugin.
 
-Two jobs in one:
-  1. SUBSCRIBE/UNSUBSCRIBE processor — checks Gmail inbox via IMAP for
-     emails with SUBSCRIBE or UNSUBSCRIBE in the subject, updates
-     state/subscribers.json, and sends a confirmation reply.
+Daily mailer — sends today's haikus to every confirmed subscriber
+via Brevo transactional email API (free tier: 300 emails/day).
 
-  2. Daily mailer — sends today's haikus to every confirmed subscriber
-     via Gmail SMTP.
+SUBSCRIBE/UNSUBSCRIBE processing is handled by check_subscriptions.py,
+which runs one hour before this workflow via check_subscriptions.yml.
 
 Subscriber list lives in state/subscribers.json and is committed back
 to the repo by the workflow after each run — no database needed.
 
 Setup (one-time):
-  1. Create a Gmail account for ClamBakeSanta
-  2. Enable 2-Factor Authentication
-  3. Generate an App Password (Google Account → Security → App Passwords)
-  4. Add two GitHub Secrets:
-       GMAIL_ADDRESS      = clamsbakesanta@gmail.com
-       GMAIL_APP_PASSWORD = (16-char app password, no spaces)
-  5. Add "email_list" to adapters in config.yml
+  1. Create a free Brevo account at brevo.com
+  2. Senders & IPs → Senders → Add a Sender
+       Name:  Clam Bake Santa
+       Email: clamsbakesanta@gmail.com
+  3. Verify the sender by clicking the link emailed to clamsbakesanta@gmail.com
+  4. SMTP & API → API Keys → Generate a new API key → copy it
+  5. Add two GitHub Secrets:
+       GMAIL_ADDRESS  = clamsbakesanta@gmail.com   (used as FROM address)
+       BREVO_API_KEY  = (the API key from step 4)
+  6. Add "email_list" to adapters in config.yml
 
 If either secret is missing, this adapter skips silently.
 """
 from __future__ import annotations
-import imaplib
 import json
 import os
-import smtplib
-import email as email_lib
-from datetime import datetime
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 from pathlib import Path
+
+import requests
 
 from framework.registry import register
 from framework.adapters.base import BaseAdapter
 from framework.models import Result
 
 SUBSCRIBERS_FILE = Path("state/subscribers.json")
-SMTP_HOST = "smtp.gmail.com"
-SMTP_PORT = 587
-IMAP_HOST = "imap.gmail.com"
+BREVO_SEND_URL = "https://api.brevo.com/v3/smtp/email"
 
 
 def _load_subscribers() -> dict:
@@ -51,112 +46,29 @@ def _load_subscribers() -> dict:
     return {"subscribers": []}
 
 
-def _save_subscribers(data: dict) -> None:
-    """Save subscriber list to state file."""
-    SUBSCRIBERS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    SUBSCRIBERS_FILE.write_text(
-        json.dumps(data, indent=2), encoding="utf-8"
-    )
-
-
 def _send_email(
-    smtp: smtplib.SMTP,
+    brevo_key: str,
     from_addr: str,
     to_addr: str,
     subject: str,
     html_body: str,
     text_body: str,
 ) -> None:
-    """Send a single email."""
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"] = f"Clam Bake Santa <{from_addr}>"
-    msg["To"] = to_addr
-    msg.attach(MIMEText(text_body, "plain"))
-    msg.attach(MIMEText(html_body, "html"))
-    smtp.sendmail(from_addr, to_addr, msg.as_string())
+    """Send a single email via Brevo transactional API."""
+    resp = requests.post(
+        BREVO_SEND_URL,
+        headers={"api-key": brevo_key, "Content-Type": "application/json"},
+        json={
+            "sender":      {"name": "Clam Bake Santa", "email": from_addr},
+            "to":          [{"email": to_addr}],
+            "subject":     subject,
+            "htmlContent": html_body,
+            "textContent": text_body,
+        },
+        timeout=30,
+    )
+    resp.raise_for_status()
 
-
-def _process_subscriptions(gmail_address: str, app_password: str) -> dict:
-    """
-    Check Gmail inbox for SUBSCRIBE/UNSUBSCRIBE emails.
-    Returns dict with counts of new subs/unsubs.
-    """
-    data = _load_subscribers()
-    subscribers = set(data.get("subscribers", []))
-    new_subs = 0
-    new_unsubs = 0
-
-    try:
-        mail = imaplib.IMAP4_SSL(IMAP_HOST)
-        mail.login(gmail_address, app_password)
-
-        # Check both inbox and spam so no subscription requests are missed
-        all_msg_ids = []
-        for folder in ("inbox", "[Gmail]/Spam"):
-            try:
-                mail.select(folder)
-                _, msg_ids = mail.search(None, "UNSEEN")
-                all_msg_ids.extend(msg_ids[0].split())
-            except Exception:
-                pass  # folder may not exist, skip it
-
-        # Re-select inbox as working folder for marking read
-        mail.select("inbox")
-
-        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
-            smtp.ehlo()
-            smtp.login(gmail_address, app_password)
-
-            for msg_id in all_msg_ids:
-                _, msg_data = mail.fetch(msg_id, "(RFC822)")
-                raw = msg_data[0][1]
-                parsed = email_lib.message_from_bytes(raw)
-
-                subject = parsed.get("Subject", "").upper()
-                sender = email_lib.utils.parseaddr(parsed.get("From", ""))[1].lower()
-
-                if not sender:
-                    continue
-
-                if "SUBSCRIBE" in subject and "UNSUBSCRIBE" not in subject:
-                    if sender not in subscribers:
-                        subscribers.add(sender)
-                        new_subs += 1
-                        # Send confirmation
-                        _send_email(
-                            smtp, gmail_address, sender,
-                            "You're subscribed to Clam Bake Santa 🦪",
-                            _confirm_html(sender),
-                            _confirm_text(sender),
-                        )
-
-                elif "UNSUBSCRIBE" in subject:
-                    if sender in subscribers:
-                        subscribers.discard(sender)
-                        new_unsubs += 1
-                        # Send farewell
-                        _send_email(
-                            smtp, gmail_address, sender,
-                            "You've unsubscribed from Clam Bake Santa",
-                            _farewell_html(sender),
-                            _farewell_text(sender),
-                        )
-
-                # Mark as read
-                mail.store(msg_id, "+FLAGS", "\\Seen")
-
-        mail.logout()
-
-    except Exception as exc:
-        print(f"  Email subscription check error: {exc}")
-
-    data["subscribers"] = sorted(subscribers)
-    _save_subscribers(data)
-    return {"new_subs": new_subs, "new_unsubs": new_unsubs,
-            "total": len(subscribers)}
 
 
 def _build_daily_email(haiku_records: list[dict], date_str: str,
@@ -266,24 +178,25 @@ def _farewell_text(email: str) -> str:
 @register("adapters", "email_list")
 class EmailListAdapter(BaseAdapter):
     """
-    Processes SUBSCRIBE/UNSUBSCRIBE requests and sends daily haiku emails.
-    Skips gracefully if Gmail credentials are not configured.
+    Sends the daily haiku digest to all confirmed subscribers via Brevo.
+    Skips gracefully if GMAIL_ADDRESS or BREVO_API_KEY are not configured.
+
+    Subscription management (SUBSCRIBE/UNSUBSCRIBE) is handled by
+    check_subscriptions.py, which runs one hour before this workflow.
     """
 
     def publish(self, result: Result) -> bool:
         gmail_address = os.environ.get("GMAIL_ADDRESS", "").strip()
-        app_password = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
+        brevo_key     = os.environ.get("BREVO_API_KEY", "").strip()
 
-        if not gmail_address or not app_password:
+        if not gmail_address or not brevo_key:
             return False  # Not configured — skip silently
-
-        # Subscriptions are managed by check_subscriptions.yml which runs
-        # 1 hour before this workflow. This adapter only sends the daily digest.
 
         # ── Send daily haikus to all subscribers ──────────────────────────────
         subscribers = _load_subscribers().get("subscribers", [])
         if not subscribers:
-            return True  # No subscribers yet — that's fine
+            print("  Email: no subscribers yet — skipping send")
+            return True
 
         haiku_records = result.metadata.get("haikus", [])
         if not haiku_records:
@@ -297,23 +210,14 @@ class EmailListAdapter(BaseAdapter):
 
         sent = 0
         errors = 0
-        try:
-            with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
-                smtp.ehlo()
-                smtp.starttls()
-                smtp.ehlo()
-                smtp.login(gmail_address, app_password)
-                for addr in subscribers:
-                    try:
-                        _send_email(smtp, gmail_address, addr,
-                                    subject, html_body, text_body)
-                        sent += 1
-                    except Exception as exc:
-                        print(f"  Failed to send to {addr}: {exc}")
-                        errors += 1
-        except Exception as exc:
-            print(f"  Email send error: {exc}")
-            return False
+        for addr in subscribers:
+            try:
+                _send_email(brevo_key, gmail_address, addr,
+                            subject, html_body, text_body)
+                sent += 1
+            except Exception as exc:
+                print(f"  Failed to send to {addr}: {exc}")
+                errors += 1
 
-        print(f"  Email: sent to {sent} subscribers, {errors} errors")
-        return True
+        print(f"  Email: sent to {sent} subscriber(s), {errors} error(s)")
+        return errors == 0 or sent > 0

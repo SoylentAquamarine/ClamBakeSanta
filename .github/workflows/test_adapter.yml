@@ -66,6 +66,7 @@ jobs:
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           CBS_TEST_ADAPTER: ${{ github.event.inputs.adapter }}
         run: python run.py --force --adapter ${{ github.event.inputs.adapter }}

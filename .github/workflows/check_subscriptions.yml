@@ -41,6 +41,7 @@ jobs:
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
         run: python check_subscriptions.py
 
       - name: Commit updated subscriber list
