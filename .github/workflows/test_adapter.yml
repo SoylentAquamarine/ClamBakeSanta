@@ -1,0 +1,84 @@
+name: Test Individual Adapter
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Manual-only workflow for testing a single adapter in isolation.
+# Never runs on a schedule — trigger from Actions UI only.
+#
+# Usage:
+#   Actions → Test Individual Adapter → Run workflow → pick adapter
+#
+# This runs the full pipeline (source → engine → adapters) but only
+# activates ONE adapter. All others are skipped.
+# Uses --force so it always runs even if today already ran.
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  workflow_dispatch:
+    inputs:
+      adapter:
+        description: 'Which adapter to test?'
+        required: true
+        type: choice
+        options:
+          - mastodon
+          - bluesky
+          - tumblr
+          - telegram
+          - email_list
+          - github_pages
+          - discord
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Test adapter — ${{ github.event.inputs.adapter }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          TUMBLR_CONSUMER_KEY: ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_OAUTH_TOKEN: ${{ secrets.TUMBLR_OAUTH_TOKEN }}
+          TUMBLR_OAUTH_SECRET: ${{ secrets.TUMBLR_OAUTH_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          CBS_TEST_ADAPTER: ${{ github.event.inputs.adapter }}
+        run: python run.py --force --adapter ${{ github.event.inputs.adapter }}
+
+      - name: Commit generated files (github_pages only)
+        if: github.event.inputs.adapter == 'github_pages'
+        run: |
+          git config user.name  "ClamBakeSantaBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/ state/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "🧪 Test run — github_pages adapter"
+            git push
+          fi

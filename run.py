@@ -42,6 +42,7 @@ def main() -> int:
     parser.add_argument("--config", default="config.yml", help="Path to config file")
     parser.add_argument("--force", action="store_true", help="Run even if already ran today")
     parser.add_argument("--date", default=None, help="Override date (YYYY-MM-DD) for testing")
+    parser.add_argument("--adapter", default=None, help="Test a single adapter only (skips all others)")
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -50,6 +51,11 @@ def main() -> int:
     if args.date:
         config["_date_override"] = args.date
         log.info("Date override: %s", args.date)
+
+    # Single-adapter test mode — override the adapters list in config
+    if args.adapter:
+        log.info("TEST MODE — running only adapter: %s", args.adapter)
+        config["adapters"] = [args.adapter]
 
     from framework.runner import run
     summary = run(config, force=args.force)
