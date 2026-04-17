@@ -22,6 +22,7 @@ plugin-based automation framework built entirely on free infrastructure.
 <tr><td>📝 <strong>Tumblr</strong></td><td><a href="https://www.tumblr.com/clambakesanta">tumblr.com/clambakesanta</a></td></tr>
 <tr><td>✈️ <strong>Telegram</strong></td><td><a href="https://t.me/clambakesanta">t.me/clambakesanta</a></td></tr>
 <tr><td>🤖 <strong>Reddit</strong></td><td><a href="https://reddit.com/u/TheClamBakeSanta">u/TheClamBakeSanta on r/haiku</a></td></tr>
+<tr><td>📰 <strong>WordPress</strong></td><td><a href="https://clambakesanta.wordpress.com">clambakesanta.wordpress.com</a></td></tr>
 <tr><td>📧 <strong>Email list</strong></td><td>Send SUBSCRIBE to <a href="mailto:clambakesanta@gmail.com">clambakesanta@gmail.com</a></td></tr>
 </table>
 
@@ -39,23 +40,24 @@ Every morning at 5 AM ET, two GitHub Actions workflows run:
 
 **5 AM ET — Daily Haiku Generation (`daily.yml`)**
 1. Reads today's holidays and birthdays from curated data files
-2. Loads the last 7 days of `state/haiku_log.json` — passes recent opening phrases to the AI to avoid repetition
+2. Loads the last 7 days of `state/haiku_log/recent.json` — passes recent opening phrases to the AI to avoid repetition
 3. Calls a free AI model (GitHub Models / GPT-4o-mini) to write one haiku per theme
-4. **Saves the haikus to `state/haiku_cache.json`** so every adapter uses the same poems; appends to `state/haiku_log.json`
-5. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, Telegram, and Reddit** (staggered 1 minute apart); **saves post IDs to `state/post_ids.json`** for engagement tracking
-6. Sends the daily digest email to all subscribers
-7. Updates the **GitHub Pages** website and **RSS feed**
-8. Posts a summary to Discord
-9. Commits all state back to the repo
+4. **Saves the haikus to `state/haiku_cache.json`** so every adapter uses the same poems; appends to `state/haiku_log/YYYY-MM-DD.json`
+5. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, Telegram, and Reddit** (staggered 1 minute apart); **saves post IDs to `state/post_ids/YYYY-MM-DD.json`** for engagement tracking
+6. Posts a daily digest to **WordPress.com** (all haikus combined in one styled blog entry)
+7. Sends the daily digest email to all subscribers
+8. Updates the **GitHub Pages** website and **RSS feed**
+9. Posts a summary to Discord
+10. Commits all state back to the repo
 
 **6 PM ET — Check Engagement (`check_engagement.yml`)**
-- Reads `state/post_ids.json` and queries Mastodon, Bluesky, and Reddit APIs for current metrics
+- Reads `state/post_ids/summary.json` and queries Mastodon, Bluesky, and Reddit APIs for current metrics
 - Computes engagement score: **likes + 2× shares/boosts + 3× replies/comments**
-- Saves results to `state/engagement.json`
+- Saves results to `state/engagement/YYYY-MM-DD.json`; rebuilds `state/engagement/summary.json`
 - Commits the updated engagement data
 
 **9 AM ET Sundays — Weekly Report (`weekly_report.yml`)**
-- Compiles the last 7 days of `state/engagement.json`
+- Compiles the last 7 days from `state/engagement/summary.json`
 - Ranks haikus by cross-platform engagement score
 - Emails a formatted HTML report to `REPORT_EMAIL` with top performers, platform leaders, and trend vs. prior week
 

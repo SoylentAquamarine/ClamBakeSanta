@@ -209,25 +209,33 @@ def main():
 
     config = load_config()
 
-    # Import stores after config is known (they need config for paths)
-    from framework.post_store      import load_summary as load_post_ids
+    # These imports happen here (not at the top) so the framework path is
+    # always resolved relative to the project root, regardless of how the
+    # script is invoked.
+    from framework.post_store       import load_summary as load_post_ids
     from framework.engagement_store import load_day, save_day
     from framework.haiku_log        import build_index
 
-    post_ids    = load_post_ids(config)
+    # post_ids is a rolling 7-day dict of { date_str: { tag: { platform: {...} } } }
+    # It was written by the adapters immediately after each post went live.
+    post_ids = load_post_ids(config)
+
+    # Build a lookup from tag → {theme, haiku} so we can populate engagement
+    # records with the full haiku text for the weekly report.
     haiku_index = build_index(config)
 
     if not post_ids:
         print("No post IDs found — run the daily workflow first.")
         return
 
-    # Authenticate platform clients once
+    # Authenticate with each platform once up front.
+    # If credentials are missing, these return None and we skip that platform.
     bsky_session  = _bluesky_session()
     reddit_client = _reddit_client()
 
     now = datetime.now(timezone.utc).isoformat()
 
-    # Determine which dates to check
+    # Work out which dates fall within the requested window.
     today      = date.today()
     check_from = today - timedelta(days=args.days)
     dates_to_check = sorted(
@@ -243,12 +251,19 @@ def main():
           f"{', '.join(dates_to_check)}")
 
     for date_str in dates_to_check:
-        day_posts   = post_ids[date_str]          # { tag: { platform: {...} } }
-        day_data    = load_day(config, date_str)  # existing engagement (may be empty)
-        changed     = False
+        # day_posts  = which post IDs we published on this date, per platform
+        # day_data   = any engagement numbers we already fetched on a prior run
+        #              (we update in place rather than overwriting from scratch,
+        #               so numbers always reflect the latest fetch)
+        day_posts = post_ids[date_str]          # { tag: { platform: {id, url} } }
+        day_data  = load_day(config, date_str)  # { tag: { theme, platforms, score... } }
+        changed   = False
 
         for tag, platforms in day_posts.items():
-            meta  = haiku_index.get(tag, {})
+            # Look up the original haiku text so the engagement record is self-contained
+            meta = haiku_index.get(tag, {})
+
+            # Create the entry if this tag hasn't been seen yet
             entry = day_data.setdefault(tag, {
                 "theme":        meta.get("theme", tag),
                 "haiku":        meta.get("haiku", ""),
@@ -258,7 +273,9 @@ def main():
             })
             plat_results = entry.setdefault("platforms", {})
 
-            # --- Mastodon ---
+            # ── Mastodon ──────────────────────────────────────────────────────
+            # Reads favourites_count, reblogs_count, replies_count from the
+            # status endpoint.  Returns None if the post was deleted or 404.
             if "mastodon" in platforms:
                 result = check_mastodon(platforms["mastodon"])
                 if result:
@@ -269,7 +286,9 @@ def main():
                           f"❤️{result['likes']} 🔁{result['boosts']} "
                           f"💬{result['replies']}")
 
-            # --- Bluesky ---
+            # ── Bluesky ───────────────────────────────────────────────────────
+            # Uses app.bsky.feed.getPosts with the AT-URI stored at publish time.
+            # Returns None if the session expired or the post doesn't exist.
             if "bluesky" in platforms and bsky_session:
                 result = check_bluesky(platforms["bluesky"], bsky_session)
                 if result:
@@ -280,7 +299,9 @@ def main():
                           f"❤️{result['likes']} 🔁{result['reposts']} "
                           f"💬{result['replies']}")
 
-            # --- Reddit ---
+            # ── Reddit ────────────────────────────────────────────────────────
+            # PRAW fetches the submission by ID.  Note: Reddit's "score" is
+            # upvotes minus downvotes, so a heavily-downvoted post can go negative.
             if "reddit" in platforms and reddit_client:
                 result = check_reddit(platforms["reddit"], reddit_client)
                 if result:
@@ -290,14 +311,14 @@ def main():
                           f"score={result['score']}  "
                           f"⬆️{result['upvotes']} 💬{result['comments']}")
 
-            # Recompute total across all platforms
-            entry["total_score"]  = sum(
-                p.get("score", 0) for p in plat_results.values()
-            )
+            # Roll up per-platform scores into a single cross-platform total.
+            # This is what the weekly report sorts by.
+            entry["total_score"]  = sum(p.get("score", 0) for p in plat_results.values())
             entry["last_checked"] = now
 
         if changed:
-            # Write day file + rebuild summary.json atomically
+            # Write the updated day file and immediately rebuild summary.json
+            # so the weekly report always reads current data.
             save_day(config, date_str, day_data)
             print(f"  → state/engagement/{date_str}.json updated")
 
