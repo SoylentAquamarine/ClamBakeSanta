@@ -16,7 +16,7 @@ plugin-based automation framework built entirely on free infrastructure.
 <table>
 <tr><th>Platform</th><th>Link</th></tr>
 <tr><td>🌐 <strong>Website</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta">soylentaquamarine.github.io/ClamBakeSanta</a></td></tr>
-<tr><td>📡 <strong>RSS Feed</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml">ClamBakeSanta/feed.xml</a></td></tr>
+<tr><td>📡 <strong>RSS Feed</strong></td><td><a href="https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml">https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml</a></td></tr>
 <tr><td>🐘 <strong>Mastodon</strong></td><td><a href="https://mastodon.social/@ClamBakeSanta">@ClamBakeSanta@mastodon.social</a></td></tr>
 <tr><td>🦋 <strong>Bluesky</strong></td><td><a href="https://bsky.app/profile/clambakesanta.bsky.social">@clambakesanta.bsky.social</a></td></tr>
 <tr><td>📝 <strong>Tumblr</strong></td><td><a href="https://www.tumblr.com/clambakesanta">tumblr.com/clambakesanta</a></td></tr>
