@@ -30,8 +30,8 @@ from framework.models import Result
 API_BASE = "https://public-api.wordpress.com/rest/v1.1"
 
 
-def _build_post(haiku_records: list[dict], date_str: str, base_url: str) -> tuple[str, str]:
-    """Return (title, html_content) for the WordPress post."""
+def _build_post(haiku_records: list[dict], date_str: str, base_url: str) -> tuple[str, str, str]:
+    """Return (title, html_content, excerpt) for the WordPress post."""
     title = f"Clam Bake Santa — {date_str}"
 
     sections = ""
@@ -62,7 +62,19 @@ def _build_post(haiku_records: list[dict], date_str: str, base_url: str) -> tupl
         f'Subscribe to the email list: send SUBSCRIBE to clambakesanta@gmail.com</p>'
     )
 
-    return title, sections + footer
+    # Clean plain-text excerpt for the WordPress blog index page
+    excerpt_lines = []
+    for rec in haiku_records:
+        theme = rec.get("theme", "")
+        display_theme = (
+            f"Happy {theme}" if theme.lower().startswith("birthday") else theme
+        )
+        lines = rec["haiku"].split("\n")
+        poem_lines = [ln.rstrip(",") for ln in lines[:3]]
+        excerpt_lines.append(f"{display_theme}: {' / '.join(poem_lines)}")
+    excerpt = "\n".join(excerpt_lines)
+
+    return title, sections + footer, excerpt
 
 
 @register("adapters", "wordpress")
@@ -84,7 +96,7 @@ class WordPressAdapter(BaseAdapter):
             return True
 
         base_url = self.config.get("site_base_url", "").rstrip("/")
-        title, content = _build_post(haiku_records, result.event.date_str, base_url)
+        title, content, excerpt = _build_post(haiku_records, result.event.date_str, base_url)
 
         try:
             resp = requests.post(
@@ -96,6 +108,7 @@ class WordPressAdapter(BaseAdapter):
                 json={
                     "title":   title,
                     "content": content,
+                    "excerpt": excerpt,
                     "status":  "publish",
                     "tags":    ["haiku", "poetry", "daily", "ClamBakeSanta"],
                     "format":  "standard",
