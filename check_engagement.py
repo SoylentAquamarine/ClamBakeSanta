@@ -2,44 +2,26 @@
 """
 check_engagement.py
 
-Fetches current engagement metrics for every tracked post and saves them
-to state/engagement.json.
+Fetches current engagement metrics for every tracked post and writes them
+to partitioned day files under state/engagement/.
+
+State layout:
+  state/post_ids/YYYY-MM-DD.json    ← written by adapters after each post
+  state/post_ids/summary.json       ← rolling 7-day index (auto-rebuilt)
+  state/engagement/YYYY-MM-DD.json  ← engagement metrics per day
+  state/engagement/summary.json     ← rolling 7-day summary (auto-rebuilt)
 
 Engagement score formula:
-    score = (likes / favourites / upvotes)
-          + (2 × shares / boosts / reblogs / reposts)
-          + (3 × comments / replies)
-
-This gives extra weight to shares (they extend reach) and even more to
-replies (they indicate genuine conversation).
+    score = likes
+          + (2 × shares / boosts / reposts)
+          + (3 × replies / comments)
 
 Platforms checked:
-  - Mastodon   — via instance REST API (favourites, reblogs, replies)
-  - Bluesky    — via AT Protocol app.bsky.feed.getPosts (likeCount, repostCount, replyCount)
-  - Reddit     — via PRAW (score = upvotes−downvotes, num_comments)
+  - Mastodon   — favourites_count, reblogs_count, replies_count
+  - Bluesky    — likeCount, repostCount, replyCount
+  - Reddit     — score (upvotes − downvotes), num_comments
 
-Run daily via GitHub Actions (check_engagement.yml).
 Skips any platform whose credentials are not configured.
-
-Output: state/engagement.json
-  {
-    "2026-04-17": {
-      "NationalHaikuDay": {
-        "theme":   "National Haiku Day",
-        "haiku":   "...",
-        "platforms": {
-          "mastodon": {"id": "...", "url": "...", "likes": 4, "boosts": 1,
-                       "replies": 0, "score": 6},
-          "bluesky":  {"uri": "...", "likes": 2, "reposts": 0,
-                       "replies": 1, "score": 5},
-          "reddit":   {"id": "...", "url": "...", "upvotes": 3,
-                       "comments": 2, "score": 9}
-        },
-        "total_score":  20,
-        "last_checked": "2026-04-18T06:00:00+00:00"
-      }
-    }
-  }
 
 Usage:
     python check_engagement.py [--days N]   # default: check last 3 days
@@ -47,14 +29,14 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import os
 import pathlib
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import requests
 import yaml
+
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
@@ -65,43 +47,24 @@ def load_config() -> dict:
     return {}
 
 
-def _state_dir(config: dict) -> pathlib.Path:
-    d = pathlib.Path(config.get("state_dir", "state"))
-    d.mkdir(parents=True, exist_ok=True)
-    return d
-
-
-def _load_json(path: pathlib.Path) -> dict | list:
-    if not path.exists():
-        return {}
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return {}
-
-
-def _save_json(path: pathlib.Path, data) -> None:
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
-
-
-# ── Engagement score formula ──────────────────────────────────────────────────
+# ── Engagement score ──────────────────────────────────────────────────────────
 
 def compute_score(likes: int = 0, shares: int = 0, replies: int = 0) -> int:
     """
     score = likes + (2 × shares) + (3 × replies)
 
-    Shares extend reach → weight 2.
-    Replies signal real conversation → weight 3.
+    Shares extend reach → ×2.
+    Replies signal real conversation → ×3.
     """
-    return likes + (2 * shares) + (3 * replies)
+    return int(likes) + (2 * int(shares)) + (3 * int(replies))
 
 
 # ── Mastodon ──────────────────────────────────────────────────────────────────
 
 def check_mastodon(post_info: dict) -> dict | None:
-    instance_url  = os.environ.get("MASTODON_INSTANCE_URL", "").rstrip("/")
-    access_token  = os.environ.get("MASTODON_ACCESS_TOKEN", "").strip()
-    post_id       = post_info.get("id", "")
+    instance_url = os.environ.get("MASTODON_INSTANCE_URL", "").rstrip("/")
+    access_token = os.environ.get("MASTODON_ACCESS_TOKEN", "").strip()
+    post_id      = post_info.get("id", "")
 
     if not instance_url or not access_token or not post_id:
         return None
@@ -136,6 +99,7 @@ def check_mastodon(post_info: dict) -> dict | None:
 
 BLUESKY_API = "https://bsky.social/xrpc"
 
+
 def _bluesky_session() -> dict | None:
     handle   = os.environ.get("BLUESKY_HANDLE", "").strip()
     password = os.environ.get("BLUESKY_APP_PASSWORD", "").strip()
@@ -158,7 +122,6 @@ def check_bluesky(post_info: dict, session: dict) -> dict | None:
     uri = post_info.get("uri", "")
     if not uri:
         return None
-
     try:
         resp = requests.get(
             f"{BLUESKY_API}/app.bsky.feed.getPosts",
@@ -218,14 +181,13 @@ def check_reddit(post_info: dict, reddit) -> dict | None:
         return None
     try:
         sub      = reddit.submission(id=post_id)
-        upvotes  = sub.score          # net score (upvotes − downvotes)
+        upvotes  = sub.score
         comments = sub.num_comments
         return {
             "id":       post_id,
             "url":      post_info.get("url", ""),
             "upvotes":  upvotes,
             "comments": comments,
-            # Reddit has no shares; comments get ×3 weight
             "score":    compute_score(upvotes, 0, comments),
         }
     except Exception as exc:
@@ -233,37 +195,30 @@ def check_reddit(post_info: dict, reddit) -> dict | None:
         return None
 
 
-# ── Haiku metadata lookup ─────────────────────────────────────────────────────
-
-def _build_haiku_index(config: dict) -> dict:
-    """Return { tag: {"theme": ..., "haiku": ...} } from the haiku log."""
-    from framework.haiku_log import load_log
-    index = {}
-    for entry in load_log(config):
-        index[entry.get("tag", "")] = {
-            "theme": entry.get("theme", ""),
-            "haiku": entry.get("haiku", ""),
-            "date":  entry.get("date", ""),
-        }
-    return index
-
-
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch engagement metrics for tracked posts")
-    parser.add_argument("--days", type=int, default=3,
-                        help="How many days back to check (default: 3)")
+    parser = argparse.ArgumentParser(
+        description="Fetch engagement metrics for tracked posts"
+    )
+    parser.add_argument(
+        "--days", type=int, default=3,
+        help="How many days back to check (default: 3)"
+    )
     args = parser.parse_args()
 
-    config      = load_config()
-    state_dir   = _state_dir(config)
-    post_ids    = _load_json(state_dir / "post_ids.json")
-    engagement  = _load_json(state_dir / "engagement.json")
-    haiku_index = _build_haiku_index(config)
+    config = load_config()
+
+    # Import stores after config is known (they need config for paths)
+    from framework.post_store      import load_summary as load_post_ids
+    from framework.engagement_store import load_day, save_day
+    from framework.haiku_log        import build_index
+
+    post_ids    = load_post_ids(config)
+    haiku_index = build_index(config)
 
     if not post_ids:
-        print("No post IDs found in state/post_ids.json — nothing to check.")
+        print("No post IDs found — run the daily workflow first.")
         return
 
     # Authenticate platform clients once
@@ -273,34 +228,34 @@ def main():
     now = datetime.now(timezone.utc).isoformat()
 
     # Determine which dates to check
-    from datetime import date, timedelta
     today      = date.today()
     check_from = today - timedelta(days=args.days)
-    dates_to_check = [
+    dates_to_check = sorted(
         d for d in post_ids
         if check_from <= date.fromisoformat(d) <= today
-    ]
+    )
 
     if not dates_to_check:
         print(f"No posts found in the last {args.days} day(s).")
         return
 
-    print(f"Checking engagement for {len(dates_to_check)} date(s): {', '.join(sorted(dates_to_check))}")
+    print(f"Checking engagement for {len(dates_to_check)} date(s): "
+          f"{', '.join(dates_to_check)}")
 
-    for date_str in sorted(dates_to_check):
-        day_posts    = post_ids[date_str]           # { tag: { platform: {...} } }
-        day_results  = engagement.setdefault(date_str, {})
+    for date_str in dates_to_check:
+        day_posts   = post_ids[date_str]          # { tag: { platform: {...} } }
+        day_data    = load_day(config, date_str)  # existing engagement (may be empty)
+        changed     = False
 
         for tag, platforms in day_posts.items():
-            meta    = haiku_index.get(tag, {})
-            entry   = day_results.setdefault(tag, {
+            meta  = haiku_index.get(tag, {})
+            entry = day_data.setdefault(tag, {
                 "theme":        meta.get("theme", tag),
                 "haiku":        meta.get("haiku", ""),
                 "platforms":    {},
                 "total_score":  0,
                 "last_checked": now,
             })
-
             plat_results = entry.setdefault("platforms", {})
 
             # --- Mastodon ---
@@ -308,33 +263,45 @@ def main():
                 result = check_mastodon(platforms["mastodon"])
                 if result:
                     plat_results["mastodon"] = result
-                    print(f"  {date_str} {tag} mastodon: score={result['score']} "
-                          f"(❤️{result['likes']} 🔁{result['boosts']} 💬{result['replies']})")
+                    changed = True
+                    print(f"  {date_str} [{tag}] mastodon  "
+                          f"score={result['score']}  "
+                          f"❤️{result['likes']} 🔁{result['boosts']} "
+                          f"💬{result['replies']}")
 
             # --- Bluesky ---
             if "bluesky" in platforms and bsky_session:
                 result = check_bluesky(platforms["bluesky"], bsky_session)
                 if result:
                     plat_results["bluesky"] = result
-                    print(f"  {date_str} {tag} bluesky: score={result['score']} "
-                          f"(❤️{result['likes']} 🔁{result['reposts']} 💬{result['replies']})")
+                    changed = True
+                    print(f"  {date_str} [{tag}] bluesky   "
+                          f"score={result['score']}  "
+                          f"❤️{result['likes']} 🔁{result['reposts']} "
+                          f"💬{result['replies']}")
 
             # --- Reddit ---
             if "reddit" in platforms and reddit_client:
                 result = check_reddit(platforms["reddit"], reddit_client)
                 if result:
                     plat_results["reddit"] = result
-                    print(f"  {date_str} {tag} reddit: score={result['score']} "
-                          f"(⬆️{result['upvotes']} 💬{result['comments']})")
+                    changed = True
+                    print(f"  {date_str} [{tag}] reddit    "
+                          f"score={result['score']}  "
+                          f"⬆️{result['upvotes']} 💬{result['comments']}")
 
-            # Recompute total score across all platforms
+            # Recompute total across all platforms
             entry["total_score"]  = sum(
                 p.get("score", 0) for p in plat_results.values()
             )
             entry["last_checked"] = now
 
-    _save_json(state_dir / "engagement.json", engagement)
-    print(f"\nEngagement data saved → {state_dir / 'engagement.json'}")
+        if changed:
+            # Write day file + rebuild summary.json atomically
+            save_day(config, date_str, day_data)
+            print(f"  → state/engagement/{date_str}.json updated")
+
+    print("\nDone.")
 
 
 if __name__ == "__main__":

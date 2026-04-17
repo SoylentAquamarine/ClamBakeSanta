@@ -196,8 +196,9 @@ clambakesanta/
 │   ├── models.py               # Event and Result dataclasses (the contracts)
 │   ├── registry.py             # Plugin registry (@register decorator)
 │   ├── runner.py               # Execution loop: source→engine/cache→adapters→state
-│   ├── haiku_log.py            # Long-term haiku history + anti-repetition helpers
-│   ├── post_store.py           # Saves post IDs/URLs returned by adapter APIs
+│   ├── haiku_log.py            # Partitioned haiku history + anti-repetition helpers
+│   ├── post_store.py           # Partitioned post IDs/URLs per platform
+│   ├── engagement_store.py     # Partitioned engagement metrics + 7-day summary
 │   ├── sources/base.py         # BaseSource abstract class
 │   ├── engines/base.py         # BaseEngine abstract class
 │   ├── adapters/base.py        # BaseAdapter abstract class
@@ -232,10 +233,16 @@ clambakesanta/
 ├── state/
 │   ├── run_log.json            # Dedup log + human-readable run history
 │   ├── haiku_cache.json        # Today's haikus — shared across all adapters
-│   ├── haiku_log.json          # Full history of every haiku ever generated
-│   ├── post_ids.json           # Per-platform post IDs/URLs for engagement tracking
-│   ├── engagement.json         # Daily engagement metrics + computed scores
-│   └── subscribers.json        # Email mailing list
+│   ├── subscribers.json        # Email mailing list
+│   ├── haiku_log/
+│   │   ├── 2026-04-17.json     # One file per day — every haiku ever generated
+│   │   └── recent.json         # Rolling 7-day summary (auto-rebuilt, fast access)
+│   ├── post_ids/
+│   │   ├── 2026-04-17.json     # Per-platform post IDs/URLs for one day
+│   │   └── summary.json        # Rolling 7-day index (auto-rebuilt)
+│   └── engagement/
+│       ├── 2026-04-17.json     # Engagement metrics for one day
+│       └── summary.json        # Rolling 7-day summary (auto-rebuilt, fast access)
 │
 ├── .github/workflows/
 │   ├── daily.yml               # Main cron: 5 AM ET — generate + publish everywhere

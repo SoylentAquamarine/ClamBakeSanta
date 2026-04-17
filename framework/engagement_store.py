@@ -1,26 +1,35 @@
 """
-Post ID / URL store — partitioned by date.
+Engagement store — partitioned by date.
 
 Directory layout:
-  state/post_ids/
-    2026-04-17.json   ← one file per day: { tag: { platform: {id, url, ...} } }
+  state/engagement/
+    2026-04-17.json   ← one file per day: { tag: { theme, haiku, platforms, total_score, ... } }
     2026-04-16.json
     ...
     summary.json      ← rolling 7-day merged view rebuilt after every write
-                        (fast-access file used by check_engagement.py)
+                        (fast-access file used by weekly_report.py)
 
 Day-file format:
   {
     "NationalHaikuDay": {
-      "mastodon": {"id": "112345678", "url": "https://mastodon.social/..."},
-      "bluesky":  {"uri": "at://did:plc:.../app.bsky.feed.post/...", "cid": "..."},
-      "reddit":   {"id": "abc123", "url": "https://redd.it/abc123"}
+      "theme":   "National Haiku Day",
+      "haiku":   "...",
+      "platforms": {
+        "mastodon": {"id": "...", "url": "...", "likes": 4,
+                     "boosts": 1, "replies": 0, "score": 6},
+        "bluesky":  {"uri": "...", "likes": 2, "reposts": 0,
+                     "replies": 1, "score": 5},
+        "reddit":   {"id": "...", "url": "...", "upvotes": 3,
+                     "comments": 2, "score": 9}
+      },
+      "total_score":  20,
+      "last_checked": "2026-04-18T06:00:00+00:00"
     }
   }
 
-Migration:  if the old flat state/post_ids.json exists, it is split into
+Migration:  if the old flat state/engagement.json exists, it is split into
             per-day files automatically on the first call, then renamed to
-            post_ids.json.migrated so the migration never runs twice.
+            engagement.json.migrated so the migration never runs twice.
 """
 from __future__ import annotations
 
@@ -34,7 +43,7 @@ SUMMARY_DAYS = 7   # how many days to include in summary.json
 # ── Internal helpers ──────────────────────────────────────────────────────────
 
 def _store_dir(config: dict) -> pathlib.Path:
-    d = pathlib.Path(config.get("state_dir", "state")) / "post_ids"
+    d = pathlib.Path(config.get("state_dir", "state")) / "engagement"
     d.mkdir(parents=True, exist_ok=True)
     return d
 
@@ -69,10 +78,10 @@ def _parse_date(date_str: str) -> date:
 
 def _migrate_flat(config: dict) -> None:
     """
-    One-time migration: split state/post_ids.json into per-day files.
+    One-time migration: split state/engagement.json into per-day files.
     Renames the old file to .json.migrated so this runs only once.
     """
-    old = pathlib.Path(config.get("state_dir", "state")) / "post_ids.json"
+    old = pathlib.Path(config.get("state_dir", "state")) / "engagement.json"
     if not old.exists():
         return
     try:
@@ -86,15 +95,15 @@ def _migrate_flat(config: dict) -> None:
                 count += 1
         _rebuild_summary(config)
         old.rename(old.with_suffix(".json.migrated"))
-        print(f"[post_store] Migrated {count} day(s) of post IDs → post_ids/")
+        print(f"[engagement_store] Migrated {count} day(s) of engagement → engagement/")
     except Exception as exc:
-        print(f"[post_store] Migration warning: {exc}")
+        print(f"[engagement_store] Migration warning: {exc}")
 
 
 def _rebuild_summary(config: dict, days: int = SUMMARY_DAYS) -> dict:
     """
     Rebuild summary.json from the last `days` day files.
-    Returns the rebuilt summary dict { date_str: { tag: { platform: {...} } } }.
+    Returns { date_str: { tag: {...} } }.
     """
     store_dir = _store_dir(config)
     today     = date.today()
@@ -115,34 +124,25 @@ def _rebuild_summary(config: dict, days: int = SUMMARY_DAYS) -> dict:
 
 # ── Public API ────────────────────────────────────────────────────────────────
 
-def save_post_id(
-    config:   dict,
-    date_str: str,
-    tag:      str,
-    platform: str,
-    data:     dict,
-) -> None:
-    """
-    Save a post identifier for one haiku on one platform, then rebuild
-    summary.json.
+def load_day(config: dict, date_str: str) -> dict:
+    """Return { tag: {...} } for a specific date."""
+    _migrate_flat(config)
+    return _read(_day_file(config, date_str), {})
 
-    Parameters
-    ----------
-    date_str : run date, e.g. "2026-04-17"
-    tag      : haiku tag key, e.g. "NationalHaikuDay"
-    platform : "mastodon" | "bluesky" | "reddit" | ...
-    data     : dict of platform-specific IDs/URLs returned by the API
+
+def save_day(config: dict, date_str: str, data: dict) -> None:
+    """
+    Overwrite the engagement data for a specific date, then rebuild
+    summary.json so the weekly report always reads fresh data.
     """
     _migrate_flat(config)
-    day_data = _read(_day_file(config, date_str), {})
-    day_data.setdefault(tag, {})[platform] = data
-    _write(_day_file(config, date_str), day_data)
+    _write(_day_file(config, date_str), data)
     _rebuild_summary(config)
 
 
 def load_summary(config: dict, days: int = SUMMARY_DAYS) -> dict:
     """
-    Return the rolling summary (last `days` days) — fast path.
+    Return { date_str: { tag: {...} } } for the last `days` days — fast path.
     Rebuilds from day files if summary.json doesn't exist yet.
     """
     _migrate_flat(config)
@@ -152,18 +152,21 @@ def load_summary(config: dict, days: int = SUMMARY_DAYS) -> dict:
     return data
 
 
-def load_day(config: dict, date_str: str) -> dict:
-    """Return { tag: { platform: {...} } } for a specific date."""
+def load_range(config: dict, start: date, end: date) -> dict:
+    """
+    Return engagement data for all dates in [start, end).
+    Reads individual day files — used by weekly_report when --weeks > 1.
+    """
     _migrate_flat(config)
-    return _read(_day_file(config, date_str), {})
-
-
-# Backward-compat alias used by check_engagement.py
-def load_post_ids(config: dict) -> dict:
-    """Alias for load_summary — returns last 7 days."""
-    return load_summary(config)
-
-
-def get_posts_for_date(config: dict, date_str: str) -> dict:
-    """Alias for load_day."""
-    return load_day(config, date_str)
+    result: dict = {}
+    store_dir = _store_dir(config)
+    for p in sorted(store_dir.glob("????-??-??.json"), key=lambda x: x.stem):
+        d = _parse_date(p.stem)
+        if d < start:
+            continue
+        if d >= end:
+            break
+        data = _read(p, {})
+        if isinstance(data, dict):
+            result[p.stem] = data
+    return result

@@ -335,22 +335,27 @@ def main():
                         help="How many weeks back to report on (default: 1)")
     args = parser.parse_args()
 
-    config     = load_config()
-    state_dir  = _state_dir(config)
-    engagement = _load_json(state_dir / "engagement.json")
+    config = load_config()
 
-    if not engagement:
-        print("No engagement data yet — run check_engagement.py first.")
-        sys.exit(0)
+    from framework.engagement_store import load_summary, load_range
 
     today      = date.today()
-    # Always report on the last complete 7-day window
     week_end   = today
     week_start = week_end - timedelta(weeks=args.weeks)
 
     # Prior week for trend comparison
     prior_end   = week_start
     prior_start = prior_end - timedelta(weeks=1)
+
+    # Use the fast summary file for 1-week reports; scan day files for longer windows
+    if args.weeks <= 1:
+        engagement = load_summary(config)
+    else:
+        engagement = load_range(config, prior_start, week_end)
+
+    if not engagement:
+        print("No engagement data yet — run check_engagement.py first.")
+        sys.exit(0)
 
     week_records  = collect_week(engagement, week_start, week_end)
     prior_records = collect_week(engagement, prior_start, prior_end)
