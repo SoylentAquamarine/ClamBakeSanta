@@ -430,17 +430,35 @@ No other files change. The framework discovers and runs it automatically.
 
 ## Tech Stack
 
-- **Python 3.11** — framework and all plugins
-- **GitHub Actions** — scheduling and execution (free, public repo)
-- **GitHub Models** — free AI inference via `GITHUB_TOKEN` (GPT-4o-mini)
-- **GitHub Pages** — static site hosting from `docs/`
-- **Mastodon API** — ActivityPub social network
-- **Bluesky AT Protocol** — decentralized social network
-- **Tumblr OAuth API** — blogging platform
-- **Telegram Bot API** — channel messaging
-- **Gmail SMTP/IMAP** — email mailing list
-- **PRAW** — Python Reddit API Wrapper
-- **RSS 2.0** — universal feed standard
+### Infrastructure
+| Component | Technology | Auth method |
+|---|---|---|
+| Scheduling & execution | GitHub Actions (cron + manual dispatch) | `GITHUB_TOKEN` — automatic |
+| AI haiku generation | GitHub Models API (GPT-4o-mini) | `GITHUB_TOKEN` — automatic |
+| Static site + archive | GitHub Pages (served from `docs/`) | `GITHUB_TOKEN` — automatic |
+| Language | Python 3.11 | — |
+
+### Publishing connectors
+
+| Platform | API / Library | Auth method | What it posts |
+|---|---|---|---|
+| **Mastodon** | Mastodon REST API v1 (`/api/v1/statuses`) | Bearer token — OAuth 2.0 app password created in Mastodon Preferences → Development | One toot per haiku |
+| **Bluesky** | AT Protocol (`com.atproto.repo.createRecord`) | App Password — created in Bluesky Settings → Privacy and Security | One post per haiku with rich-text facets for hashtags |
+| **Tumblr** | Tumblr OAuth API v2 (`/v2/blog/{id}/posts`) | OAuth 1.0a — Consumer Key + Secret + OAuth Token + Secret from Tumblr Developer Portal | One post per haiku |
+| **Telegram** | Telegram Bot API (`sendMessage`) | Bot token — created via @BotFather | One message per haiku to a channel |
+| **Reddit** | PRAW (Python Reddit API Wrapper) | OAuth 2.0 script app — Client ID + Secret + Username + Password | One text post per haiku to r/haiku |
+| **WordPress.com** | WordPress.com REST API v1.1 (`/sites/{id}/posts/new`) | OAuth 2.0 Bearer token — authorized via `developer.wordpress.com/apps` with `global` scope | One styled blog post per day (all haikus combined) |
+| **Discord** | Discord Webhook (`POST webhook_url`) | Webhook URL — created in Discord channel settings | One summary message per day |
+| **Email list** | Gmail SMTP (`smtp.gmail.com:587` + STARTTLS) | Gmail App Password — created in Google Account → Security → App Passwords | Daily digest to all subscribers |
+| **RSS feed** | Static XML file served by GitHub Pages | None — file write only | Rolling 30-day feed rebuilt daily |
+
+### Engagement tracking connectors
+
+| Platform | API endpoint | Metrics fetched |
+|---|---|---|
+| **Mastodon** | `GET /api/v1/statuses/{id}` | `favourites_count`, `reblogs_count`, `replies_count` |
+| **Bluesky** | `GET app.bsky.feed.getPosts?uris={uri}` | `likeCount`, `repostCount`, `replyCount` |
+| **Reddit** | PRAW `reddit.submission(id=…)` | `score` (upvotes − downvotes), `num_comments` |
 
 ---
 

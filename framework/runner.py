@@ -1,11 +1,18 @@
 """
-Main execution loop.
+Main execution loop — the only place that wires all four layers together.
 
-Flow:
-  Source → Engine (or cache) → Adapters → State
+Pipeline
+--------
+  Source  ──► validate_event ──► Engine (or cache) ──► validate_result ──► Adapters ──► State
+       produces Event                 transforms                  publishes
 
-The runner is the only place that knows about all four layers.
-It wires them together but contains zero business logic itself.
+The runner contains ZERO business logic.  It knows:
+  - how to load plugins
+  - how to call each layer in the right order
+  - how to validate the hand-off between layers
+  - how to record the outcome in state
+
+Everything else lives in plugins.
 
 Haiku caching
 -------------
@@ -14,6 +21,14 @@ On any subsequent run for the same date (re-runs, --force, adapter tests)
 the engine is skipped and the cached haikus are used instead.
 This ensures every adapter always uses the same poems for a given day.
 Use --regenerate (run.py) to force fresh AI generation and overwrite the cache.
+
+Schema validation
+-----------------
+validate_event()  is called right after the source produces an Event.
+validate_result() is called right after the engine produces a Result,
+                  and again as a guard immediately before each adapter runs.
+A ValidationError from either check is treated as a hard failure — the run
+stops rather than posting corrupt or incomplete content to any platform.
 """
 from __future__ import annotations
 import importlib
@@ -26,6 +41,7 @@ from .registry import get_plugin
 from .state.json_store import JsonStateStore
 from .models import Event, Result
 from .haiku_log import append_haikus
+from .validation import validate_event, validate_result, ValidationError
 
 log = logging.getLogger(__name__)
 
@@ -121,11 +137,21 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
     state = JsonStateStore(config.get("state_dir", "state"))
 
     # ── 1. SOURCE ─────────────────────────────────────────────────────────────
+    # Ask the source plugin "what is happening today?"
+    # It reads data files and returns a standardized Event object.
     source_id = config["source"]
-    source = get_plugin("sources", source_id)(config)
-    event = source.produce()
+    source    = get_plugin("sources", source_id)(config)
+    event     = source.produce()
 
-    # Deduplication: skip if already ran for this date
+    # Guard: make sure the source gave us a well-formed Event before we proceed.
+    # A bad Event (missing date, wrong type, etc.) means nothing downstream works.
+    try:
+        validate_event(event)
+    except ValidationError as exc:
+        raise RuntimeError(str(exc)) from exc
+
+    # Deduplication: if we already ran successfully for this date, bail out early
+    # unless --force was passed.  This prevents double-posting on re-runs.
     if not force and state.already_ran_today(event.date_str):
         log.info("Already ran for %s — skipping. Pass --force to override.", event.date_str)
         return {"date": event.date_str, "skipped": True}
@@ -134,27 +160,54 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
     log.info("Themes found: %s", event.payload.get("themes", []))
 
     # ── 2. ENGINE (or cache) ──────────────────────────────────────────────────
+    # The engine turns the Event into a Result (e.g. calls the AI to write haikus).
+    # If we already ran today, we load the cached Result instead of calling the AI
+    # again — this keeps all adapters using exactly the same poems.
     engine_id = config["engine"]
-    cache = None if regenerate else _load_cache(config, event.date_str)
+    cache     = None if regenerate else _load_cache(config, event.date_str)
 
     if cache:
+        # Happy path on re-runs: skip the AI call, use what we already generated.
         result = _result_from_cache(event, engine_id, cache)
         log.info("Using cached haikus for %s (%d item(s)) — skipping AI call",
                  event.date_str, len(result.metadata.get("haikus", [])))
     else:
+        # Fresh run: ask the engine to do its work.
         engine = get_plugin("engines", engine_id)(config)
         result = engine.process(event)
         haiku_count = len(result.metadata.get("haikus", []))
         log.info("Engine '%s' produced %d item(s)", engine_id, haiku_count)
+        # Save to today's cache so any re-run/adapter test uses the same poems.
         _save_cache(config, result)
-        # Persist to long-term haiku log (used for anti-repetition + reporting)
+        # Also append to the long-term log used for anti-repetition and reporting.
         append_haikus(config, event.date_str, result.metadata.get("haikus", []))
 
+    # Guard: make sure the engine (or cache restore) gave us a valid Result.
+    # An invalid Result here means we'd post garbage to every platform — stop now.
+    try:
+        validate_result(result)
+    except ValidationError as exc:
+        raise RuntimeError(str(exc)) from exc
+
     # ── 3. ADAPTERS ───────────────────────────────────────────────────────────
+    # Run each output channel in the order listed in config.yml.
+    # Adapters are independent — one failure never stops the others.
+    # Missing credentials → the adapter returns False (skipped silently).
     adapters_ok: list[str] = []
     adapters_failed: list[tuple[str, str]] = []
 
     for adapter_id in config.get("adapters", []):
+        # Paranoia check: validate the result hasn't been accidentally mutated
+        # between adapters.  This should never fail, but if it does, we want
+        # a clear error rather than a silent bad post.
+        try:
+            validate_result(result)
+        except ValidationError as exc:
+            msg = f"Result corrupted before adapter '{adapter_id}': {exc}"
+            adapters_failed.append((adapter_id, msg))
+            log.error(msg)
+            continue
+
         try:
             adapter = get_plugin("adapters", adapter_id)(config)
             success = adapter.publish(result)
@@ -162,7 +215,8 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
                 adapters_ok.append(adapter_id)
                 log.info("Adapter '%s': OK", adapter_id)
             else:
-                log.info("Adapter '%s': SKIPPED (returned False)", adapter_id)
+                log.info("Adapter '%s': SKIPPED (returned False — likely missing credentials)",
+                         adapter_id)
         except Exception as exc:
             adapters_failed.append((adapter_id, str(exc)))
             log.error("Adapter '%s' FAILED: %s", adapter_id, exc)

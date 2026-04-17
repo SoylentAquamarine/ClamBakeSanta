@@ -25,6 +25,60 @@ import re
 from framework.registry import register
 from framework.engines.base import BaseEngine
 from framework.models import Event, Result
+from framework.validation import register_metadata_validator
+
+# ── Metadata schema validator ────────────────────────────────────────────────
+# This runs automatically inside the runner after process() returns.
+# It describes exactly what this engine promises to put in Result.metadata
+# and loudly rejects any Result that doesn't match — catching bugs before
+# they silently reach any publishing adapter.
+@register_metadata_validator("clambakesanta")
+def _validate_metadata(metadata: dict) -> list[str]:
+    """
+    Every ClamBakeSanta Result must have:
+      metadata["haikus"]  — list of dicts, each with str fields theme/haiku/tag
+      metadata["themes"]  — list of strings (the raw theme names)
+      metadata["date"]    — YYYY-MM-DD string matching the run date
+    """
+    errors: list[str] = []
+
+    # ── haikus list ───────────────────────────────────────────────────────────
+    haikus = metadata.get("haikus")
+    if not isinstance(haikus, list):
+        errors.append("metadata['haikus'] must be a list")
+    else:
+        for i, rec in enumerate(haikus):
+            if not isinstance(rec, dict):
+                errors.append(f"haikus[{i}] must be a dict, got {type(rec).__name__}")
+                continue
+            for key in ("theme", "haiku", "tag"):
+                if not isinstance(rec.get(key), str):
+                    errors.append(
+                        f"haikus[{i}]['{key}'] must be a str, "
+                        f"got {type(rec.get(key)).__name__}"
+                    )
+            # Each haiku should have at least 2 non-empty lines (poem + hashtag)
+            lines = [ln for ln in rec.get("haiku", "").split("\n") if ln.strip()]
+            if len(lines) < 2:
+                errors.append(
+                    f"haikus[{i}]['haiku'] must have at least 2 lines, got {len(lines)}"
+                )
+
+    # ── themes list ───────────────────────────────────────────────────────────
+    themes = metadata.get("themes")
+    if not isinstance(themes, list):
+        errors.append("metadata['themes'] must be a list")
+    elif any(not isinstance(t, str) for t in themes):
+        errors.append("every entry in metadata['themes'] must be a string")
+
+    # ── date string ───────────────────────────────────────────────────────────
+    import re
+    date_val = metadata.get("date")
+    if not date_val or not re.match(r"^\d{4}-\d{2}-\d{2}$", str(date_val)):
+        errors.append(f"metadata['date'] must match YYYY-MM-DD, got {date_val!r}")
+
+    return errors
+
 
 # ── Safety system prompt ────────────────────────────────────────────────────
 # This travels with every single API call. Adjust here if needed.
