@@ -295,6 +295,28 @@ day's cached haikus so you always get the same poems, never fresh AI generation:
 
 ---
 
+## Adding a New Platform — Sync Checklist
+
+When adding a new adapter or changing any platform links, update **all** of these:
+
+| What to update | Where | How |
+|---|---|---|
+| Platform links table | `README.md` | Edit directly |
+| Architecture diagram | `README.md` | Edit directly |
+| Zero-cost table | `README.md` | Edit directly |
+| Secrets table | `README.md` | Edit directly |
+| About page content | `content/about.html` | Edit, then run workflow below |
+| All about pages (WordPress etc.) | Auto-pushed | **Actions → Update About Pages** |
+| `config.yml` adapters list | `config.yml` | Add adapter name + module |
+| Per-adapter test workflow | `.github/workflows/test_X.yml` | Create new file |
+| Daily workflow secrets | `.github/workflows/daily.yml` | Add env var |
+
+> **Quick rule:** Edit `content/about.html` for anything link/platform related,
+> then trigger **Actions → Update About Pages** to push it everywhere at once.
+> Edit `README.md` separately for the full technical detail.
+
+---
+
 ## Extending the Framework
 
 ### Add a new output channel in 3 steps

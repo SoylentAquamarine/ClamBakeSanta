@@ -1,0 +1,27 @@
+name: Update About Pages
+
+# Run this whenever you add a new platform, change any links,
+# or update content/about.html.
+# It pushes the canonical about content to all connected platforms.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install requests
+      - name: Push about content to all platforms
+        env:
+          WORDPRESS_TOKEN: ${{ secrets.WORDPRESS_TOKEN }}
+          WORDPRESS_BLOG_ID: ${{ secrets.WORDPRESS_BLOG_ID }}
+        run: python update_about.py
