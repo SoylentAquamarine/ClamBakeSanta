@@ -121,7 +121,19 @@ class BlueskyAdapter(BaseAdapter):
 
         for rec in haiku_records:
             text = _format_post(rec, result.event.date_str)
-            _post_record(session, text)
+            resp_data = _post_record(session, text)
+            # Save post URI/CID for engagement tracking
+            try:
+                from framework.post_store import save_post_id
+                save_post_id(
+                    self.config,
+                    result.event.date_str,
+                    rec.get("tag", ""),
+                    "bluesky",
+                    {"uri": resp_data.get("uri", ""), "cid": resp_data.get("cid", "")},
+                )
+            except Exception:
+                pass
             posted += 1
             if posted < len(haiku_records):
                 time.sleep(POST_DELAY_SECONDS)

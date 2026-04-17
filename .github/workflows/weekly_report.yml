@@ -1,0 +1,39 @@
+name: Weekly Report
+
+# Emails the weekly engagement report every Sunday morning.
+# Also available as a manual trigger.
+
+on:
+  schedule:
+    - cron: '0 13 * * 0'   # 1 PM UTC = 9 AM ET, every Sunday
+  workflow_dispatch:
+    inputs:
+      weeks:
+        description: 'How many weeks to cover (default: 1)'
+        required: false
+        default: '1'
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Send weekly report
+        env:
+          GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          REPORT_EMAIL:       ${{ secrets.REPORT_EMAIL }}
+        run: |
+          WEEKS="${{ github.event.inputs.weeks || '1' }}"
+          python weekly_report.py --weeks "$WEEKS"

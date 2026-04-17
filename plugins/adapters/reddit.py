@@ -123,6 +123,18 @@ class RedditAdapter(BaseAdapter):
             try:
                 submission = subreddit.submit(title=title, selftext=body)
                 print(f"  Reddit posted: {submission.shortlink}  [{rec['theme']}]")
+                # Save post ID/URL for engagement tracking
+                try:
+                    from framework.post_store import save_post_id
+                    save_post_id(
+                        self.config,
+                        result.event.date_str,
+                        rec.get("tag", ""),
+                        "reddit",
+                        {"id": submission.id, "url": submission.shortlink},
+                    )
+                except Exception:
+                    pass
                 posted += 1
             except Exception as exc:
                 print(f"  Reddit post failed [{rec['theme']}]: {exc}")

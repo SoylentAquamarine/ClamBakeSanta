@@ -1,0 +1,55 @@
+name: Check Engagement
+
+# Runs once a day in the early evening ET to give posts time to collect
+# likes/boosts/replies before we snapshot the numbers.
+# Also available as a manual trigger any time.
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 10 PM UTC = 6 PM ET (after a day's worth of reactions)
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'How many days back to check (default: 3)'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch engagement metrics
+        env:
+          MASTODON_INSTANCE_URL:  ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN:  ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          BLUESKY_HANDLE:         ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD:   ${{ secrets.BLUESKY_APP_PASSWORD }}
+          REDDIT_CLIENT_ID:       ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET:   ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME:        ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD:        ${{ secrets.REDDIT_PASSWORD }}
+        run: |
+          DAYS="${{ github.event.inputs.days || '3' }}"
+          python check_engagement.py --days "$DAYS"
+
+      - name: Commit updated engagement data
+        run: |
+          git config user.name  "ClamBakeSanta Bot"
+          git config user.email "clambakesanta@gmail.com"
+          git add state/engagement.json
+          git diff --staged --quiet || git commit -m "chore: update engagement data $(date -u +%Y-%m-%d)"
+          git push

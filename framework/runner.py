@@ -25,6 +25,7 @@ from datetime import datetime, timezone
 from .registry import get_plugin
 from .state.json_store import JsonStateStore
 from .models import Event, Result
+from .haiku_log import append_haikus
 
 log = logging.getLogger(__name__)
 
@@ -146,6 +147,8 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
         haiku_count = len(result.metadata.get("haikus", []))
         log.info("Engine '%s' produced %d item(s)", engine_id, haiku_count)
         _save_cache(config, result)
+        # Persist to long-term haiku log (used for anti-repetition + reporting)
+        append_haikus(config, event.date_str, result.metadata.get("haikus", []))
 
     # ── 3. ADAPTERS ───────────────────────────────────────────────────────────
     adapters_ok: list[str] = []

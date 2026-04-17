@@ -46,7 +46,7 @@ def _hashtag(theme: str) -> str:
     return "".join(w.capitalize() for w in words)
 
 
-def _make_prompt(theme: str) -> str:
+def _make_prompt(theme: str, avoid_phrases: list[str] | None = None) -> str:
     tag = _hashtag(theme)
     is_birthday = theme.lower().startswith("birthday ")
     closing = (
@@ -54,10 +54,17 @@ def _make_prompt(theme: str) -> str:
         if is_birthday
         else f"Happy #{tag} from @ClamBakeSanta"
     )
+    avoid_block = ""
+    if avoid_phrases:
+        # Show up to 14 recent openers so the model picks genuinely fresh imagery
+        listed = ", ".join(f'"{p}"' for p in avoid_phrases[:14])
+        avoid_block = (
+            f"\nFor variety, avoid starting with opening words or images similar to: {listed}."
+        )
     return (
         f'Write a single three-line haiku in natural 5-7-5 syllable style.\n'
         f'Theme: "{theme}"\n'
-        f"Use sensory detail and vivid imagery. Keep it warm and celebratory.\n"
+        f"Use sensory detail and vivid imagery. Keep it warm and celebratory.{avoid_block}\n"
         f'End with exactly this line: "{closing}"\n'
         f"Output only the 4 lines, nothing else."
     )
@@ -84,9 +91,17 @@ class ClamBakeSantaEngine(BaseEngine):
                 metadata={"haikus": [], "themes": [], "date": event.date_str},
             )
 
+        # Load recent opening phrases to guide the model toward fresh imagery
+        avoid = self._recent_openers()
+        if avoid:
+            import logging
+            logging.getLogger(__name__).info(
+                "Anti-repetition: avoiding %d recent phrase(s)", len(avoid)
+            )
+
         haiku_records: list[dict] = []
         for theme in themes:
-            haiku_text = self._generate(theme)
+            haiku_text = self._generate(theme, avoid)
             haiku_records.append({
                 "theme": theme,
                 "haiku": haiku_text,
@@ -106,7 +121,15 @@ class ClamBakeSantaEngine(BaseEngine):
             },
         )
 
-    def _generate(self, theme: str) -> str:
+    def _recent_openers(self) -> list[str]:
+        """Return opening lines from the last 7 days of haiku history."""
+        try:
+            from framework.haiku_log import opening_phrases
+            return opening_phrases(self.config, days=7)
+        except Exception:
+            return []
+
+    def _generate(self, theme: str, avoid_phrases: list[str] | None = None) -> str:
         """Call the AI API and return 4 lines of haiku text."""
         try:
             from openai import OpenAI
@@ -134,7 +157,7 @@ class ClamBakeSantaEngine(BaseEngine):
                 model=model,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": _make_prompt(theme)},
+                    {"role": "user", "content": _make_prompt(theme, avoid_phrases)},
                 ],
                 temperature=0.85,
                 max_tokens=120,

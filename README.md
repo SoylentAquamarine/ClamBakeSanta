@@ -39,16 +39,28 @@ Every morning at 5 AM ET, two GitHub Actions workflows run:
 
 **5 AM ET — Daily Haiku Generation (`daily.yml`)**
 1. Reads today's holidays and birthdays from curated data files
-2. Calls a free AI model (GitHub Models / GPT-4o-mini) to write one haiku per theme
-3. **Saves the haikus to `state/haiku_cache.json`** so every adapter uses the same poems
-4. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, Telegram, and Reddit** (staggered 1 minute apart)
-5. Sends the daily digest email to all subscribers
-6. Updates the **GitHub Pages** website and **RSS feed**
-7. Posts a summary to Discord
-8. Commits all state back to the repo
+2. Loads the last 7 days of `state/haiku_log.json` — passes recent opening phrases to the AI to avoid repetition
+3. Calls a free AI model (GitHub Models / GPT-4o-mini) to write one haiku per theme
+4. **Saves the haikus to `state/haiku_cache.json`** so every adapter uses the same poems; appends to `state/haiku_log.json`
+5. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, Telegram, and Reddit** (staggered 1 minute apart); **saves post IDs to `state/post_ids.json`** for engagement tracking
+6. Sends the daily digest email to all subscribers
+7. Updates the **GitHub Pages** website and **RSS feed**
+8. Posts a summary to Discord
+9. Commits all state back to the repo
 
-The result is a fully self-updating multi-platform content pipeline that requires
-zero daily maintenance and costs exactly **$0.00** to operate.
+**6 PM ET — Check Engagement (`check_engagement.yml`)**
+- Reads `state/post_ids.json` and queries Mastodon, Bluesky, and Reddit APIs for current metrics
+- Computes engagement score: **likes + 2× shares/boosts + 3× replies/comments**
+- Saves results to `state/engagement.json`
+- Commits the updated engagement data
+
+**9 AM ET Sundays — Weekly Report (`weekly_report.yml`)**
+- Compiles the last 7 days of `state/engagement.json`
+- Ranks haikus by cross-platform engagement score
+- Emails a formatted HTML report to `REPORT_EMAIL` with top performers, platform leaders, and trend vs. prior week
+
+The result is a fully self-updating multi-platform content pipeline with a built-in
+analytics feedback loop — zero daily maintenance, costs exactly **$0.00** to operate.
 
 ---
 
@@ -69,6 +81,49 @@ python run.py --force --regenerate
 
 ---
 
+## Analytics & Feedback Loop
+
+ClamBakeSanta is a **self-improving content engine**. Every post is tracked, every
+reaction counted, and the results feed back into future content generation.
+
+### Anti-Repetition
+Before the AI writes today's haikus, the engine loads the opening lines from the
+**last 7 days** of `state/haiku_log.json` and adds them to the prompt:
+
+> *"For variety, avoid starting with opening words or images similar to: 'Golden yolks glisten', 'Crisp autumn breezes', …"*
+
+This keeps the imagery fresh week over week while maintaining the overall style.
+
+### Engagement Tracking
+Each time Mastodon, Bluesky, or Reddit publish a post, the API response is saved
+to `state/post_ids.json`. Every evening at 6 PM ET, `check_engagement.py` queries
+each platform and records:
+
+| Metric | Weight in score |
+|---|---|
+| Likes / favourites / upvotes | × 1 |
+| Shares / boosts / reposts | × 2 |
+| Replies / comments | × 3 |
+
+```
+score = likes + (2 × shares) + (3 × replies)
+```
+
+Replies get the highest weight — they signal a genuine emotional response, not just
+a passive tap.
+
+### Weekly Report
+Every Sunday morning a formatted HTML email lands in your inbox with:
+- Total posts + total engagement score for the week
+- Trend vs. the prior week (↑ / ↓ %)
+- Top 5 haikus ranked by cross-platform score
+- Per-platform leader (best Mastodon, Bluesky, Reddit post)
+- Full ranked table of every haiku this week
+
+Required secret: **`REPORT_EMAIL`** — the address to receive the report.
+
+---
+
 ## Architecture
 
 ClamBakeSanta is built as a **modular, plugin-based automation framework**.
@@ -82,12 +137,13 @@ or any other automated content pipeline.
 │                                                                       │
 │  ┌──────────┐   ┌─────────────────┐   ┌──────────────────────────┐  │
 │  │  SOURCE  │──▶│  ENGINE / CACHE │──▶│        ADAPTERS          │  │
-│  │  plugin  │   │  plugin         │   │  mastodon                │  │
-│  └──────────┘   └─────────────────┘   │  bluesky                 │  │
-│       │                │              │  tumblr                  │  │
-│   Produces         Transforms or      │  telegram                │  │
-│   an Event         loads from cache   │  email_list              │  │
-│                                       │  reddit                  │  │
+│  │  plugin  │   │  plugin         │   │  mastodon ──────────────┐│  │
+│  └──────────┘   └─────────────────┘   │  bluesky  ──────────────┤│  │
+│       │                │              │  tumblr                  ││  │
+│   Produces         Transforms or      │  telegram                ││  │
+│   an Event         loads from cache   │  email_list              ││  │
+│                    ↕ haiku_log.json   │  reddit   ──────────────┘│  │
+│                    (anti-repetition)  │  wordpress               │  │
 │                                       │  github_pages            │  │
 │                                       │  discord                 │  │
 │                                       └──────────────────────────┘  │
@@ -97,8 +153,17 @@ or any other automated content pipeline.
 │                                    │        STATE        │           │
 │                                    │  run_log.json       │           │
 │                                    │  haiku_cache.json   │           │
+│                                    │  haiku_log.json     │◀── long-term memory │
+│                                    │  post_ids.json      │◀── per-post IDs     │
+│                                    │  engagement.json    │◀── daily metrics    │
 │                                    │  subscribers.json   │           │
 │                                    └─────────────────────┘           │
+│                                                  │                    │
+│                                    ┌─────────────▼───────────┐       │
+│                                    │   ANALYTICS LOOP        │       │
+│                                    │  check_engagement.py    │       │
+│                                    │  weekly_report.py       │       │
+│                                    └─────────────────────────┘       │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -131,6 +196,8 @@ clambakesanta/
 │   ├── models.py               # Event and Result dataclasses (the contracts)
 │   ├── registry.py             # Plugin registry (@register decorator)
 │   ├── runner.py               # Execution loop: source→engine/cache→adapters→state
+│   ├── haiku_log.py            # Long-term haiku history + anti-repetition helpers
+│   ├── post_store.py           # Saves post IDs/URLs returned by adapter APIs
 │   ├── sources/base.py         # BaseSource abstract class
 │   ├── engines/base.py         # BaseEngine abstract class
 │   ├── adapters/base.py        # BaseAdapter abstract class
@@ -165,6 +232,9 @@ clambakesanta/
 ├── state/
 │   ├── run_log.json            # Dedup log + human-readable run history
 │   ├── haiku_cache.json        # Today's haikus — shared across all adapters
+│   ├── haiku_log.json          # Full history of every haiku ever generated
+│   ├── post_ids.json           # Per-platform post IDs/URLs for engagement tracking
+│   ├── engagement.json         # Daily engagement metrics + computed scores
 │   └── subscribers.json        # Email mailing list
 │
 ├── .github/workflows/
@@ -177,9 +247,13 @@ clambakesanta/
 │   ├── test_email_list.yml     # Manual: re-send today's digest to email subscribers
 │   ├── test_reddit.yml         # Manual: re-post today's cached haikus to Reddit
 │   ├── test_discord.yml        # Manual: re-post today's cached haikus to Discord
-│   └── test_github_pages.yml   # Manual: rebuild site from today's cached haikus
+│   ├── test_github_pages.yml   # Manual: rebuild site from today's cached haikus
+│   ├── check_engagement.yml    # Daily 6 PM ET: fetch likes/boosts/replies per post
+│   └── weekly_report.yml       # Sunday 9 AM ET: email weekly stats to REPORT_EMAIL
 │
 ├── check_subscriptions.py      # Standalone SUBSCRIBE/UNSUBSCRIBE processor
+├── check_engagement.py         # Fetches engagement metrics; saves state/engagement.json
+├── weekly_report.py            # Emails weekly stats report to REPORT_EMAIL
 ├── config.yml                  # All configuration — no hardcoded values
 ├── run.py                      # Entry point (python run.py [--force] [--regenerate] [--adapter X])
 └── requirements.txt            # openai, requests, pyyaml, requests-oauthlib, praw
@@ -263,6 +337,7 @@ site_base_url: "https://YOUR-USERNAME.github.io/ClamBakeSanta"
 | `REDDIT_USERNAME` | Reddit (e.g. `TheClamBakeSanta`) |
 | `REDDIT_PASSWORD` | Reddit |
 | `DISCORD_WEBHOOK_URL` | Discord |
+| `REPORT_EMAIL` | Weekly stats report recipient (your email) |
 
 > `GITHUB_TOKEN` is automatic — no setup needed.
 
@@ -292,6 +367,8 @@ day's cached haikus so you always get the same poems, never fresh AI generation:
 | `Test — Reddit` | Re-posts today's haikus to r/haiku |
 | `Test — Discord` | Re-posts today's summary to Discord |
 | `Test — GitHub Pages` | Rebuilds site from today's cached haikus |
+| `Check Engagement` | Fetches metrics for the last 3 days of posts |
+| `Weekly Report` | Sends a report email immediately (manual test) |
 
 ---
 
@@ -310,6 +387,8 @@ When adding a new adapter or changing any platform links, update **all** of thes
 | `config.yml` adapters list | `config.yml` | Add adapter name + module |
 | Per-adapter test workflow | `.github/workflows/test_X.yml` | Create new file |
 | Daily workflow secrets | `.github/workflows/daily.yml` | Add env var |
+| Engagement checker | `check_engagement.py` | Add platform-specific fetch function |
+| Engagement workflow secrets | `.github/workflows/check_engagement.yml` | Add env var |
 
 > **Quick rule:** Edit `content/about.html` for anything link/platform related,
 > then trigger **Actions → Update About Pages** to push it everywhere at once.

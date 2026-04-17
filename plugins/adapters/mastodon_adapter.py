@@ -82,6 +82,19 @@ class MastodonAdapter(BaseAdapter):
                 timeout=15,
             )
             resp.raise_for_status()
+            resp_data = resp.json()
+            # Save post ID/URL for engagement tracking
+            try:
+                from framework.post_store import save_post_id
+                save_post_id(
+                    self.config,
+                    result.event.date_str,
+                    rec.get("tag", ""),
+                    "mastodon",
+                    {"id": resp_data.get("id", ""), "url": resp_data.get("url", "")},
+                )
+            except Exception:
+                pass
             posted += 1
             if posted < len(haiku_records):
                 time.sleep(POST_DELAY_SECONDS)  # Be polite to the instance
