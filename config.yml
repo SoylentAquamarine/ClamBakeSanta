@@ -32,6 +32,7 @@ adapters:
   - telegram        # Posts each haiku 1 minute apart. Requires TELEGRAM_BOT_TOKEN + TELEGRAM_CHANNEL secrets
   - email_list      # Processes SUBSCRIBE/UNSUBSCRIBE emails and sends daily haiku digest. Requires GMAIL_ADDRESS + GMAIL_APP_PASSWORD
   - reddit          # Posts each haiku to r/haiku. Requires REDDIT_CLIENT_ID/SECRET + REDDIT_USERNAME/PASSWORD
+  - wordpress       # Posts daily digest to WordPress.com. Requires WORDPRESS_TOKEN + WORDPRESS_BLOG_ID
   - github_pages    # Updates site AFTER all social posts complete
   - discord         # Posts a summary after site is updated. Requires DISCORD_WEBHOOK_URL secret
 
@@ -60,3 +61,4 @@ plugin_modules:
   - plugins.adapters.telegram
   - plugins.adapters.email_list
   - plugins.adapters.reddit
+  - plugins.adapters.wordpress

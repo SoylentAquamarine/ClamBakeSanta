@@ -65,6 +65,8 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
           REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
+          WORDPRESS_TOKEN: ${{ secrets.WORDPRESS_TOKEN }}
+          WORDPRESS_BLOG_ID: ${{ secrets.WORDPRESS_BLOG_ID }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python run.py
 
