@@ -1,0 +1,32 @@
+{
+  "NationalCheeseBallDay": {
+    "mastodon": {
+      "id": "116419524055066781",
+      "url": "https://mastodon.social/@ClamBakeSanta/116419524055066781"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop3t4j3f2c",
+      "cid": "bafyreibgdcln6ts2fkag7byvb7zi4ec2tn4e6wx6dkyeee2cs4zxr3iuay"
+    }
+  },
+  "BlahBlahBlahDay": {
+    "mastodon": {
+      "id": "116419528010866173",
+      "url": "https://mastodon.social/@ClamBakeSanta/116419528010866173"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop5n4eld2r",
+      "cid": "bafyreid6bvmiraoymmrxl4e5m7vlktkl6xkeug5f7pv45t6l3bzy5vfhv4"
+    }
+  },
+  "HappyBirthdayIsakDinesen": {
+    "mastodon": {
+      "id": "116419531974296627",
+      "url": "https://mastodon.social/@ClamBakeSanta/116419531974296627"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop7gxjmq2u",
+      "cid": "bafyreigffmvm47yalyyuerqkxxivhqrapr4zv7r6fs2amr7rd42bdh75ei"
+    }
+  }
+}

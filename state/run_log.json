@@ -3,7 +3,8 @@
     "2026-04-13",
     "2026-04-14",
     "2026-04-15",
-    "2026-04-16"
+    "2026-04-16",
+    "2026-04-17"
   ],
   "runs": [
     {
@@ -50,6 +51,17 @@
         "Birthday Charlie Chaplin"
       ],
       "content_preview": "Golden yolks glisten, Creamy hollandaise cascades, Brunch joy on our plates. Happy #NationalEggsBenedictDay from @ClamBa"
+    },
+    {
+      "date": "2026-04-17",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-17T10:24:14.610242+00:00",
+      "themes": [
+        "National Cheese Ball Day",
+        "Blah Blah Blah Day",
+        "Birthday Isak Dinesen"
+      ],
+      "content_preview": "Creamy globes of joy, Crackers crunch in bright delight, Shared laughter abounds. Happy #NationalCheeseBallDay from @Cla"
     }
   ]
 }
