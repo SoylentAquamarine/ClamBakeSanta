@@ -24,39 +24,14 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import os
-import pathlib
 import smtplib
 import sys
 from datetime import date, datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-import yaml
-
-
-# ── Config ────────────────────────────────────────────────────────────────────
-
-def load_config() -> dict:
-    cfg_path = pathlib.Path("config.yml")
-    if cfg_path.exists():
-        return yaml.safe_load(cfg_path.read_text(encoding="utf-8")) or {}
-    return {}
-
-
-def _state_dir(config: dict) -> pathlib.Path:
-    return pathlib.Path(config.get("state_dir", "state"))
-
-
-def _load_json(path: pathlib.Path) -> dict:
-    if not path.exists():
-        return {}
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-        return data if isinstance(data, dict) else {}
-    except (json.JSONDecodeError, OSError):
-        return {}
+from framework.config import load_config
 
 
 # ── Data compilation ──────────────────────────────────────────────────────────

@@ -72,7 +72,6 @@ def _validate_metadata(metadata: dict) -> list[str]:
         errors.append("every entry in metadata['themes'] must be a string")
 
     # ── date string ───────────────────────────────────────────────────────────
-    import re
     date_val = metadata.get("date")
     if not date_val or not re.match(r"^\d{4}-\d{2}-\d{2}$", str(date_val)):
         errors.append(f"metadata['date'] must match YYYY-MM-DD, got {date_val!r}")

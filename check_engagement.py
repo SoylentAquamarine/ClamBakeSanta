@@ -35,16 +35,8 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 
 import requests
-import yaml
 
-
-# ── Config ────────────────────────────────────────────────────────────────────
-
-def load_config() -> dict:
-    cfg_path = pathlib.Path("config.yml")
-    if cfg_path.exists():
-        return yaml.safe_load(cfg_path.read_text(encoding="utf-8")) or {}
-    return {}
+from framework.config import load_config
 
 
 # ── Engagement score ──────────────────────────────────────────────────────────
@@ -100,7 +92,7 @@ def check_mastodon(post_info: dict) -> dict | None:
 BLUESKY_API = "https://bsky.social/xrpc"
 
 
-def _bluesky_session() -> dict | None:
+def _create_bluesky_session() -> dict | None:
     handle   = os.environ.get("BLUESKY_HANDLE", "").strip()
     password = os.environ.get("BLUESKY_APP_PASSWORD", "").strip()
     if not handle or not password:
@@ -151,7 +143,7 @@ def check_bluesky(post_info: dict, session: dict) -> dict | None:
 
 # ── Reddit ────────────────────────────────────────────────────────────────────
 
-def _reddit_client():
+def _create_reddit_client():
     try:
         import praw
     except ImportError:
@@ -230,8 +222,8 @@ def main():
 
     # Authenticate with each platform once up front.
     # If credentials are missing, these return None and we skip that platform.
-    bsky_session  = _bluesky_session()
-    reddit_client = _reddit_client()
+    bsky_session  = _create_bluesky_session()
+    reddit_client = _create_reddit_client()
 
     now = datetime.now(timezone.utc).isoformat()
 

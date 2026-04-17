@@ -31,7 +31,11 @@ import json
 import pathlib
 from datetime import date, datetime, timedelta, timezone
 
-SUMMARY_DAYS = 7   # how many days to include in recent.json
+SUMMARY_DAYS = 7
+
+# Per-process migration cache — avoids checking for the old flat file on every
+# read/write once we know the migration has already run.
+_migrated: set[str] = set()
 
 
 # ── Internal helpers ──────────────────────────────────────────────────────────
@@ -51,11 +55,9 @@ def _recent_file(config: dict) -> pathlib.Path:
 
 
 def _read(path: pathlib.Path, default):
-    if not path.exists():
-        return default
     try:
         return json.loads(path.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
         return default
 
 
@@ -74,9 +76,16 @@ def _migrate_flat(config: dict) -> None:
     """
     One-time migration: split state/haiku_log.json into per-day files.
     Renames the old file to .json.migrated so this runs only once.
+    Uses a per-process in-memory cache so the filesystem check only happens
+    once per process, not on every read/write call.
     """
-    old = pathlib.Path(config.get("state_dir", "state")) / "haiku_log.json"
+    state_key = config.get("state_dir", "state")
+    if state_key in _migrated:
+        return
+
+    old = pathlib.Path(state_key) / "haiku_log.json"
     if not old.exists():
+        _migrated.add(state_key)
         return
     try:
         entries = _read(old, [])
@@ -90,6 +99,7 @@ def _migrate_flat(config: dict) -> None:
             _write(_day_file(config, date_str), day_entries)
         _rebuild_recent(config)
         old.rename(old.with_suffix(".json.migrated"))
+        _migrated.add(state_key)
         print(f"[haiku_log] Migrated {len(entries)} entries across "
               f"{len(by_date)} day(s) → haiku_log/")
     except Exception as exc:
