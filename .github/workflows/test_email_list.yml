@@ -19,6 +19,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Send email digest (today's cached haikus)
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python run.py --force --adapter email_list

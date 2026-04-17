@@ -19,6 +19,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Post to WordPress (today's cached haikus)
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORDPRESS_TOKEN: ${{ secrets.WORDPRESS_TOKEN }}
           WORDPRESS_BLOG_ID: ${{ secrets.WORDPRESS_BLOG_ID }}
         run: python run.py --force --adapter wordpress

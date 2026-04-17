@@ -19,6 +19,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Post to Telegram (today's cached haikus)
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
         run: python run.py --force --adapter telegram
