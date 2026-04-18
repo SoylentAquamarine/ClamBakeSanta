@@ -4,7 +4,8 @@
     "2026-04-14",
     "2026-04-15",
     "2026-04-16",
-    "2026-04-17"
+    "2026-04-17",
+    "2026-04-18"
   ],
   "runs": [
     {
@@ -62,6 +63,17 @@
         "Birthday Isak Dinesen"
       ],
       "content_preview": "Creamy globes of joy, Crackers crunch in bright delight, Shared laughter abounds. Happy #NationalCheeseBallDay from @Cla"
+    },
+    {
+      "date": "2026-04-18",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-18T09:58:29.053715+00:00",
+      "themes": [
+        "National Animal Crackers Day",
+        "National Linzer Torte Day",
+        "Birthday Clarence Darrow"
+      ],
+      "content_preview": "Crunchy, sweet delight, Colorful critters dance bright, Joy in every bite. Happy #NationalAnimalCrackersDay from @ClamBa"
     }
   ]
 }

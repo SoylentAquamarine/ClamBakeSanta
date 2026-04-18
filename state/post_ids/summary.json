@@ -1,4 +1,24 @@
 {
+  "2026-04-18": {
+    "NationalAnimalCrackersDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr64p3e7q2w",
+        "cid": "bafyreiaxjxeib64pkiw6f46o2xe5e4ht5ke7nrww5lrc6kj3scjl6lebza"
+      }
+    },
+    "NationalLinzerTorteDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr66ikm7e2i",
+        "cid": "bafyreihp6ihzg5phtsthms7jrnimm3brbpuoh5dzuyhkz4kckm25ycqoa4"
+      }
+    },
+    "HappyBirthdayClarenceDarrow": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr6aceu2y2e",
+        "cid": "bafyreicwlnffyhcgwkgl66wefuym5ikh2z7di474oz2rttcj7tfnbhlrie"
+      }
+    }
+  },
   "2026-04-17": {
     "NationalCheeseBallDay": {
       "mastodon": {
