@@ -10,7 +10,8 @@ Setup (one-time, ~5 minutes):
      Recommended: mastodon.social or fosstodon.org
   2. Go to: Preferences → Development → New Application
      - Name: ClamBakeSanta
-     - Scopes: write:statuses  (that's all we need)
+     - Scopes: write:statuses, read:statuses
+       (write to post; read to fetch engagement metrics)
   3. Click Submit, then copy "Your access token"
   4. Add two GitHub Secrets:
        MASTODON_INSTANCE_URL  = https://mastodon.social  (your instance)
