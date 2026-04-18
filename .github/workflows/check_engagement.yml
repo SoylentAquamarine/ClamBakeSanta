@@ -50,6 +50,6 @@ jobs:
         run: |
           git config user.name  "ClamBakeSanta Bot"
           git config user.email "clambakesanta@gmail.com"
-          git add state/engagement.json
+          git add state/engagement/
           git diff --staged --quiet || git commit -m "chore: update engagement data $(date -u +%Y-%m-%d)"
           git push
