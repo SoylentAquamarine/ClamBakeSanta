@@ -1,4 +1,51 @@
 {
+  "2026-04-18": {
+    "NationalAnimalCrackersDay": {
+      "theme": "National Animal Crackers Day",
+      "haiku": "Crunchy, sweet delight,\nColorful critters dance bright,\nJoy in every bite.\nHappy #NationalAnimalCrackersDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr64p3e7q2w",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-18T22:26:38.319001+00:00"
+    },
+    "NationalLinzerTorteDay": {
+      "theme": "National Linzer Torte Day",
+      "haiku": "Golden pastry crust,\nRaspberry jewels tucked inside,\nSweet hugs of delight.\nHappy #NationalLinzerTorteDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr66ikm7e2i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-18T22:26:38.319001+00:00"
+    },
+    "HappyBirthdayClarenceDarrow": {
+      "theme": "Birthday Clarence Darrow",
+      "haiku": "Candles softly glow,\nLaughter dances in the air,\nJoy wraps around hearts.\n#HappyBirthdayClarenceDarrow from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr6aceu2y2e",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-18T22:26:38.319001+00:00"
+    }
+  },
   "2026-04-17": {
     "NationalCheeseBallDay": {
       "theme": "National Cheese Ball Day",
@@ -21,7 +68,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-18T01:29:15.865480+00:00"
+      "last_checked": "2026-04-18T22:26:38.319001+00:00"
     },
     "BlahBlahBlahDay": {
       "theme": "Blah Blah Blah Day",
@@ -44,7 +91,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-18T01:29:15.865480+00:00"
+      "last_checked": "2026-04-18T22:26:38.319001+00:00"
     },
     "HappyBirthdayIsakDinesen": {
       "theme": "Birthday Isak Dinesen",
@@ -67,7 +114,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-18T01:29:15.865480+00:00"
+      "last_checked": "2026-04-18T22:26:38.319001+00:00"
     }
   }
 }
