@@ -1,0 +1,71 @@
+{
+  "NationalCheeseBallDay": {
+    "theme": "National Cheese Ball Day",
+    "haiku": "Creamy globes of joy,\nCrackers crunch in bright delight,\nShared laughter abounds.\nHappy #NationalCheeseBallDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116419524055066781",
+        "url": "https://mastodon.social/@ClamBakeSanta/116419524055066781",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop3t4j3f2c",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-04-18T01:29:15.865480+00:00"
+  },
+  "BlahBlahBlahDay": {
+    "theme": "Blah Blah Blah Day",
+    "haiku": "Bright balloons dancing,\nLaughter sparkles in the air,\nJoy blooms everywhere.\nHappy #BlahBlahBlahDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116419528010866173",
+        "url": "https://mastodon.social/@ClamBakeSanta/116419528010866173",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop5n4eld2r",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-04-18T01:29:15.865480+00:00"
+  },
+  "HappyBirthdayIsakDinesen": {
+    "theme": "Birthday Isak Dinesen",
+    "haiku": "Candles flicker bright,\nLaughter spills like autumn leaves,\nJoy wraps around hearts.\n#HappyBirthdayIsakDinesen from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116419531974296627",
+        "url": "https://mastodon.social/@ClamBakeSanta/116419531974296627",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop7gxjmq2u",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-04-18T01:29:15.865480+00:00"
+  }
+}
