@@ -5,7 +5,8 @@
     "2026-04-15",
     "2026-04-16",
     "2026-04-17",
-    "2026-04-18"
+    "2026-04-18",
+    "2026-04-19"
   ],
   "runs": [
     {
@@ -74,6 +75,17 @@
         "Birthday Clarence Darrow"
       ],
       "content_preview": "Crunchy, sweet delight, Colorful critters dance bright, Joy in every bite. Happy #NationalAnimalCrackersDay from @ClamBa"
+    },
+    {
+      "date": "2026-04-19",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-19T09:57:32.788461+00:00",
+      "themes": [
+        "National Garlic Day",
+        "National Hummus Day",
+        "Birthday Glenn T. Seaborg"
+      ],
+      "content_preview": "Golden cloves unite, Sizzling in a pan of cheer, Aromas embrace. Happy #NationalGarlicDay from @ClamBakeSanta  Chickpeas"
     }
   ]
 }
