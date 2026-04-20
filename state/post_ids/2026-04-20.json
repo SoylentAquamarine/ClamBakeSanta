@@ -1,0 +1,20 @@
+{
+  "NationalCheddarFriesDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjwcfiynw42s",
+      "cid": "bafyreify3mnljge7lkd3r64ur4wagbskua2oltc2huhizwguhymcqb44yy"
+    }
+  },
+  "LookAlikeDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjwchcfm3o2q",
+      "cid": "bafyreigyzmufhjkv6ezb2ddtmttjoi6eebc2te3fpp3zfj36gef6rv4pf4"
+    }
+  },
+  "HappyBirthdayJoanMiro": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjwcj3tbqw2q",
+      "cid": "bafyreibvgei5iwmtaq3qwutlnr7pigpuffopbiurpcqbevsea5slaltnbu"
+    }
+  }
+}

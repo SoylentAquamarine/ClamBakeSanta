@@ -6,7 +6,8 @@
     "2026-04-16",
     "2026-04-17",
     "2026-04-18",
-    "2026-04-19"
+    "2026-04-19",
+    "2026-04-20"
   ],
   "runs": [
     {
@@ -86,6 +87,17 @@
         "Birthday Glenn T. Seaborg"
       ],
       "content_preview": "Golden cloves unite, Sizzling in a pan of cheer, Aromas embrace. Happy #NationalGarlicDay from @ClamBakeSanta  Chickpeas"
+    },
+    {
+      "date": "2026-04-20",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-20T10:58:17.637520+00:00",
+      "themes": [
+        "National Cheddar Fries Day",
+        "Look-Alike Day",
+        "Birthday Joan Miro"
+      ],
+      "content_preview": "Warm cheese drapes like sun, Crisp fries join in harmony, Savory smiles bloom bright. Happy #NationalCheddarFriesDay fro"
     }
   ]
 }
