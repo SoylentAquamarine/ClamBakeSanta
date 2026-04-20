@@ -1,4 +1,51 @@
 {
+  "2026-04-20": {
+    "NationalCheddarFriesDay": {
+      "theme": "National Cheddar Fries Day",
+      "haiku": "Warm cheese drapes like sun,\nCrisp fries join in harmony,\nSavory smiles bloom bright.\nHappy #NationalCheddarFriesDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjwcfiynw42s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
+    },
+    "LookAlikeDay": {
+      "theme": "Look-Alike Day",
+      "haiku": "Mirrors of laughter,\nIdentical smiles abound,\nJoyful hearts align.\nHappy #LookAlikeDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjwchcfm3o2q",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
+    },
+    "HappyBirthdayJoanMiro": {
+      "theme": "Birthday Joan Miro",
+      "haiku": "Colorful swirls bloom,\nPaintbrush whispers joyous dreams,\nLaughter fills the air.\n#HappyBirthdayJoanMiro from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjwcj3tbqw2q",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
+    }
+  },
   "2026-04-19": {
     "NationalGarlicDay": {
       "theme": "National Garlic Day",
@@ -13,7 +60,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     },
     "NationalHummusDay": {
       "theme": "National Hummus Day",
@@ -28,7 +75,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     },
     "HappyBirthdayGlennTSeaborg": {
       "theme": "Birthday Glenn T. Seaborg",
@@ -43,7 +90,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     }
   },
   "2026-04-18": {
@@ -60,7 +107,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     },
     "NationalLinzerTorteDay": {
       "theme": "National Linzer Torte Day",
@@ -75,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     },
     "HappyBirthdayClarenceDarrow": {
       "theme": "Birthday Clarence Darrow",
@@ -90,7 +137,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     }
   },
   "2026-04-17": {
@@ -115,7 +162,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     },
     "BlahBlahBlahDay": {
       "theme": "Blah Blah Blah Day",
@@ -138,7 +185,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     },
     "HappyBirthdayIsakDinesen": {
       "theme": "Birthday Isak Dinesen",
@@ -161,7 +208,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-19T22:27:46.429763+00:00"
+      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     }
   }
 }
