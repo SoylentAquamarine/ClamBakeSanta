@@ -7,7 +7,8 @@
     "2026-04-17",
     "2026-04-18",
     "2026-04-19",
-    "2026-04-20"
+    "2026-04-20",
+    "2026-04-21"
   ],
   "runs": [
     {
@@ -98,6 +99,17 @@
         "Birthday Joan Miro"
       ],
       "content_preview": "Warm cheese drapes like sun, Crisp fries join in harmony, Savory smiles bloom bright. Happy #NationalCheddarFriesDay fro"
+    },
+    {
+      "date": "2026-04-21",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-21T10:26:34.832862+00:00",
+      "themes": [
+        "National Chocolate Covered Cashews Day",
+        "World Creativity and Innovation Day",
+        "Birthday Charlotte Bronte"
+      ],
+      "content_preview": "Silken chocolate drapes, Cashews nestled in sweet dreams, Joy melts with each bite. Happy #NationalChocolateCoveredCashe"
     }
   ]
 }
