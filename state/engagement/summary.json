@@ -1,4 +1,51 @@
 {
+  "2026-04-22": {
+    "EarthDay": {
+      "theme": "Earth Day",
+      "haiku": "Gentle breezes hum,\nPetals swirl in sunlit fields,\nNature’s joy awakes.\nHappy #EarthDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk3blsdzrg2l",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
+    },
+    "NationalJellybeanDay": {
+      "theme": "National Jellybean Day",
+      "haiku": "Rainbow jewels cascade,\nSugary whispers of cheer,\nHearts bounce with each taste.\nHappy #NationalJellybeanDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk3bnms4nx2i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
+    },
+    "HappyBirthdayImmanuelKant": {
+      "theme": "Birthday Immanuel Kant",
+      "haiku": "Rich thoughts weave like silk,\nPages turn with quiet joy,\nCheers echo through time.\n#HappyBirthdayImmanuelKant from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk3bpgdtda2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
+    }
+  },
   "2026-04-21": {
     "NationalChocolateCoveredCashewsDay": {
       "theme": "National Chocolate Covered Cashews Day",
@@ -13,7 +60,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     },
     "WorldCreativityAndInnovationDay": {
       "theme": "World Creativity and Innovation Day",
@@ -28,7 +75,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     },
     "HappyBirthdayCharlotteBronte": {
       "theme": "Birthday Charlotte Bronte",
@@ -43,7 +90,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     }
   },
   "2026-04-20": {
@@ -60,7 +107,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     },
     "LookAlikeDay": {
       "theme": "Look-Alike Day",
@@ -75,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     },
     "HappyBirthdayJoanMiro": {
       "theme": "Birthday Joan Miro",
@@ -90,7 +137,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     }
   },
   "2026-04-19": {
@@ -107,7 +154,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     },
     "NationalHummusDay": {
       "theme": "National Hummus Day",
@@ -122,7 +169,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     },
     "HappyBirthdayGlennTSeaborg": {
       "theme": "Birthday Glenn T. Seaborg",
@@ -137,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-21T22:32:53.895818+00:00"
+      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     }
   },
   "2026-04-18": {
