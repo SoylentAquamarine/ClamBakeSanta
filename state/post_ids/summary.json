@@ -1,4 +1,24 @@
 {
+  "2026-04-22": {
+    "EarthDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk3blsdzrg2l",
+        "cid": "bafyreicgkm3y6xmc5dbrr7esqyhfnadcdgxehwl3hkuohe76yjb26vftbe"
+      }
+    },
+    "NationalJellybeanDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk3bnms4nx2i",
+        "cid": "bafyreig6as5yvdv2ioydz2g2ecxvex5qbptahgdg3hcq63t5ecx5vhfvra"
+      }
+    },
+    "HappyBirthdayImmanuelKant": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk3bpgdtda2s",
+        "cid": "bafyreigp62tnwqdoaswh6s7ejwiwrgz6pyyzmnmjttwiq5weivmmodvcqy"
+      }
+    }
+  },
   "2026-04-21": {
     "NationalChocolateCoveredCashewsDay": {
       "bluesky": {

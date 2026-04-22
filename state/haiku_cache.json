@@ -1,27 +1,27 @@
 {
-  "date": "2026-04-21",
+  "date": "2026-04-22",
   "haikus": [
     {
-      "theme": "National Chocolate Covered Cashews Day",
-      "haiku": "Silken chocolate drapes,\nCashews nestled in sweet dreams,\nJoy melts with each bite.\nHappy #NationalChocolateCoveredCashewsDay from @ClamBakeSanta",
-      "tag": "NationalChocolateCoveredCashewsDay"
+      "theme": "Earth Day",
+      "haiku": "Gentle breezes hum,\nPetals swirl in sunlit fields,\nNature’s joy awakes.\nHappy #EarthDay from @ClamBakeSanta",
+      "tag": "EarthDay"
     },
     {
-      "theme": "World Creativity and Innovation Day",
-      "haiku": "Brush strokes fill the air,\nColors swirling, stories bloom,\nDreams ignite like stars.\nHappy #WorldCreativityAndInnovationDay from @ClamBakeSanta",
-      "tag": "WorldCreativityAndInnovationDay"
+      "theme": "National Jellybean Day",
+      "haiku": "Rainbow jewels cascade,\nSugary whispers of cheer,\nHearts bounce with each taste.\nHappy #NationalJellybeanDay from @ClamBakeSanta",
+      "tag": "NationalJellybeanDay"
     },
     {
-      "theme": "Birthday Charlotte Bronte",
-      "haiku": "Pages gently turn,\nWhispers of wild moors in bloom,\nInk flows like warm tea.\n#HappyBirthdayCharlotteBronte from @ClamBakeSanta",
-      "tag": "HappyBirthdayCharlotteBronte"
+      "theme": "Birthday Immanuel Kant",
+      "haiku": "Rich thoughts weave like silk,\nPages turn with quiet joy,\nCheers echo through time.\n#HappyBirthdayImmanuelKant from @ClamBakeSanta",
+      "tag": "HappyBirthdayImmanuelKant"
     }
   ],
   "themes": [
-    "National Chocolate Covered Cashews Day",
-    "World Creativity and Innovation Day",
-    "Birthday Charlotte Bronte"
+    "Earth Day",
+    "National Jellybean Day",
+    "Birthday Immanuel Kant"
   ],
-  "content": "Silken chocolate drapes,\nCashews nestled in sweet dreams,\nJoy melts with each bite.\nHappy #NationalChocolateCoveredCashewsDay from @ClamBakeSanta\n\nBrush strokes fill the air,\nColors swirling, stories bloom,\nDreams ignite like stars.\nHappy #WorldCreativityAndInnovationDay from @ClamBakeSanta\n\nPages gently turn,\nWhispers of wild moors in bloom,\nInk flows like warm tea.\n#HappyBirthdayCharlotteBronte from @ClamBakeSanta",
-  "saved_at": "2026-04-21T10:20:19.658114+00:00"
+  "content": "Gentle breezes hum,\nPetals swirl in sunlit fields,\nNature’s joy awakes.\nHappy #EarthDay from @ClamBakeSanta\n\nRainbow jewels cascade,\nSugary whispers of cheer,\nHearts bounce with each taste.\nHappy #NationalJellybeanDay from @ClamBakeSanta\n\nRich thoughts weave like silk,\nPages turn with quiet joy,\nCheers echo through time.\n#HappyBirthdayImmanuelKant from @ClamBakeSanta",
+  "saved_at": "2026-04-22T10:21:01.811463+00:00"
 }

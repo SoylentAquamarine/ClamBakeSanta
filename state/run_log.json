@@ -8,7 +8,8 @@
     "2026-04-18",
     "2026-04-19",
     "2026-04-20",
-    "2026-04-21"
+    "2026-04-21",
+    "2026-04-22"
   ],
   "runs": [
     {
@@ -110,6 +111,17 @@
         "Birthday Charlotte Bronte"
       ],
       "content_preview": "Silken chocolate drapes, Cashews nestled in sweet dreams, Joy melts with each bite. Happy #NationalChocolateCoveredCashe"
+    },
+    {
+      "date": "2026-04-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-22T10:27:14.370515+00:00",
+      "themes": [
+        "Earth Day",
+        "National Jellybean Day",
+        "Birthday Immanuel Kant"
+      ],
+      "content_preview": "Gentle breezes hum, Petals swirl in sunlit fields, Nature’s joy awakes. Happy #EarthDay from @ClamBakeSanta  Rainbow jew"
     }
   ]
 }
