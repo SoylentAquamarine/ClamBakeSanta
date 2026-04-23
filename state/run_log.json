@@ -9,7 +9,8 @@
     "2026-04-19",
     "2026-04-20",
     "2026-04-21",
-    "2026-04-22"
+    "2026-04-22",
+    "2026-04-23"
   ],
   "runs": [
     {
@@ -122,6 +123,18 @@
         "Birthday Immanuel Kant"
       ],
       "content_preview": "Gentle breezes hum, Petals swirl in sunlit fields, Nature’s joy awakes. Happy #EarthDay from @ClamBakeSanta  Rainbow jew"
+    },
+    {
+      "date": "2026-04-23",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-23T10:32:06.889041+00:00",
+      "themes": [
+        "National Cherry Cheesecake Day",
+        "World Book Day",
+        "Birthday William Shakespeare",
+        "Birthday James Buchanan"
+      ],
+      "content_preview": "Juicy red jewels gleam, Creamy clouds on a plate, Forks meet blissful dreams. Happy #NationalCherryCheesecakeDay from @C"
     }
   ]
 }

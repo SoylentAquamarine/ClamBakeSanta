@@ -1,4 +1,30 @@
 {
+  "2026-04-23": {
+    "NationalCherryCheesecakeDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5s66wiwx2x",
+        "cid": "bafyreiekayrbbxhykrohi3b4gon7q5hsh2zuq7hg2kgys66qkf2uuqbt7u"
+      }
+    },
+    "WorldBookDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5s7yjhjh2c",
+        "cid": "bafyreidtwvaoti7bltwvk5r5mye4l5ccv63tdbanx332s7ujnxbr4uucnq"
+      }
+    },
+    "HappyBirthdayWilliamShakespeare": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5sbrwo752s",
+        "cid": "bafyreic4se3zmkbtgui65pvwtolrellq5hbme6yjxffcdq7thtui5z2x74"
+      }
+    },
+    "HappyBirthdayJamesBuchanan": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5sdljaj324",
+        "cid": "bafyreiglwmht5wbwglycuvfr5jrlk7sma7it73pohtnkq4meevxrev6qxy"
+      }
+    }
+  },
   "2026-04-22": {
     "EarthDay": {
       "bluesky": {

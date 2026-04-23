@@ -1,27 +1,33 @@
 {
-  "date": "2026-04-22",
+  "date": "2026-04-23",
   "haikus": [
     {
-      "theme": "Earth Day",
-      "haiku": "Gentle breezes hum,\nPetals swirl in sunlit fields,\nNature’s joy awakes.\nHappy #EarthDay from @ClamBakeSanta",
-      "tag": "EarthDay"
+      "theme": "National Cherry Cheesecake Day",
+      "haiku": "Juicy red jewels gleam,\nCreamy clouds on a plate,\nForks meet blissful dreams.\nHappy #NationalCherryCheesecakeDay from @ClamBakeSanta",
+      "tag": "NationalCherryCheesecakeDay"
     },
     {
-      "theme": "National Jellybean Day",
-      "haiku": "Rainbow jewels cascade,\nSugary whispers of cheer,\nHearts bounce with each taste.\nHappy #NationalJellybeanDay from @ClamBakeSanta",
-      "tag": "NationalJellybeanDay"
+      "theme": "World Book Day",
+      "haiku": "Pages turn like leaves,\nWhispers of adventure,\nWorlds awaken wide.\nHappy #WorldBookDay from @ClamBakeSanta",
+      "tag": "WorldBookDay"
     },
     {
-      "theme": "Birthday Immanuel Kant",
-      "haiku": "Rich thoughts weave like silk,\nPages turn with quiet joy,\nCheers echo through time.\n#HappyBirthdayImmanuelKant from @ClamBakeSanta",
-      "tag": "HappyBirthdayImmanuelKant"
+      "theme": "Birthday William Shakespeare",
+      "haiku": "Quills dance on parchment,\nInk spills tales like summer rain,\nJoy in every word.\n#HappyBirthdayWilliamShakespeare from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamShakespeare"
+    },
+    {
+      "theme": "Birthday James Buchanan",
+      "haiku": "Whispers of the breeze,\nLaughter blooms like wildflowers,\nJoy fills every heart.\n#HappyBirthdayJamesBuchanan from @ClamBakeSanta",
+      "tag": "HappyBirthdayJamesBuchanan"
     }
   ],
   "themes": [
-    "Earth Day",
-    "National Jellybean Day",
-    "Birthday Immanuel Kant"
+    "National Cherry Cheesecake Day",
+    "World Book Day",
+    "Birthday William Shakespeare",
+    "Birthday James Buchanan"
   ],
-  "content": "Gentle breezes hum,\nPetals swirl in sunlit fields,\nNature’s joy awakes.\nHappy #EarthDay from @ClamBakeSanta\n\nRainbow jewels cascade,\nSugary whispers of cheer,\nHearts bounce with each taste.\nHappy #NationalJellybeanDay from @ClamBakeSanta\n\nRich thoughts weave like silk,\nPages turn with quiet joy,\nCheers echo through time.\n#HappyBirthdayImmanuelKant from @ClamBakeSanta",
-  "saved_at": "2026-04-22T10:21:01.811463+00:00"
+  "content": "Juicy red jewels gleam,\nCreamy clouds on a plate,\nForks meet blissful dreams.\nHappy #NationalCherryCheesecakeDay from @ClamBakeSanta\n\nPages turn like leaves,\nWhispers of adventure,\nWorlds awaken wide.\nHappy #WorldBookDay from @ClamBakeSanta\n\nQuills dance on parchment,\nInk spills tales like summer rain,\nJoy in every word.\n#HappyBirthdayWilliamShakespeare from @ClamBakeSanta\n\nWhispers of the breeze,\nLaughter blooms like wildflowers,\nJoy fills every heart.\n#HappyBirthdayJamesBuchanan from @ClamBakeSanta",
+  "saved_at": "2026-04-23T10:22:57.784154+00:00"
 }
