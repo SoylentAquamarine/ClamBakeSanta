@@ -10,7 +10,8 @@
     "2026-04-20",
     "2026-04-21",
     "2026-04-22",
-    "2026-04-23"
+    "2026-04-23",
+    "2026-04-24"
   ],
   "runs": [
     {
@@ -135,6 +136,17 @@
         "Birthday James Buchanan"
       ],
       "content_preview": "Juicy red jewels gleam, Creamy clouds on a plate, Forks meet blissful dreams. Happy #NationalCherryCheesecakeDay from @C"
+    },
+    {
+      "date": "2026-04-24",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-24T10:31:45.691494+00:00",
+      "themes": [
+        "National Pigs in a Blanket Day",
+        "World Day of Veterinary Medicine",
+        "Birthday Anthony Trollope"
+      ],
+      "content_preview": "Savory hugs wrapped tight, Porky treasures snug in dough, Warm bites spark delight. Happy #NationalPigsInABlanketDay fro"
     }
   ]
 }

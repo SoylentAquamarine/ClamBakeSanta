@@ -1,33 +1,27 @@
 {
-  "date": "2026-04-23",
+  "date": "2026-04-24",
   "haikus": [
     {
-      "theme": "National Cherry Cheesecake Day",
-      "haiku": "Juicy red jewels gleam,\nCreamy clouds on a plate,\nForks meet blissful dreams.\nHappy #NationalCherryCheesecakeDay from @ClamBakeSanta",
-      "tag": "NationalCherryCheesecakeDay"
+      "theme": "National Pigs in a Blanket Day",
+      "haiku": "Savory hugs wrapped tight,\nPorky treasures snug in dough,\nWarm bites spark delight.\nHappy #NationalPigsInABlanketDay from @ClamBakeSanta",
+      "tag": "NationalPigsInABlanketDay"
     },
     {
-      "theme": "World Book Day",
-      "haiku": "Pages turn like leaves,\nWhispers of adventure,\nWorlds awaken wide.\nHappy #WorldBookDay from @ClamBakeSanta",
-      "tag": "WorldBookDay"
+      "theme": "World Day of Veterinary Medicine",
+      "haiku": "Gentle paws embraced,\nHealing hands weave love's soft thread,\nWhiskers twitch with joy.\nHappy #WorldDayOfVeterinaryMedicine from @ClamBakeSanta",
+      "tag": "WorldDayOfVeterinaryMedicine"
     },
     {
-      "theme": "Birthday William Shakespeare",
-      "haiku": "Quills dance on parchment,\nInk spills tales like summer rain,\nJoy in every word.\n#HappyBirthdayWilliamShakespeare from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamShakespeare"
-    },
-    {
-      "theme": "Birthday James Buchanan",
-      "haiku": "Whispers of the breeze,\nLaughter blooms like wildflowers,\nJoy fills every heart.\n#HappyBirthdayJamesBuchanan from @ClamBakeSanta",
-      "tag": "HappyBirthdayJamesBuchanan"
+      "theme": "Birthday Anthony Trollope",
+      "haiku": "Pages turn like leaves,\nInk and dreams on parchment flow,\nCelebrations bright!\n#HappyBirthdayAnthonyTrollope from @ClamBakeSanta",
+      "tag": "HappyBirthdayAnthonyTrollope"
     }
   ],
   "themes": [
-    "National Cherry Cheesecake Day",
-    "World Book Day",
-    "Birthday William Shakespeare",
-    "Birthday James Buchanan"
+    "National Pigs in a Blanket Day",
+    "World Day of Veterinary Medicine",
+    "Birthday Anthony Trollope"
   ],
-  "content": "Juicy red jewels gleam,\nCreamy clouds on a plate,\nForks meet blissful dreams.\nHappy #NationalCherryCheesecakeDay from @ClamBakeSanta\n\nPages turn like leaves,\nWhispers of adventure,\nWorlds awaken wide.\nHappy #WorldBookDay from @ClamBakeSanta\n\nQuills dance on parchment,\nInk spills tales like summer rain,\nJoy in every word.\n#HappyBirthdayWilliamShakespeare from @ClamBakeSanta\n\nWhispers of the breeze,\nLaughter blooms like wildflowers,\nJoy fills every heart.\n#HappyBirthdayJamesBuchanan from @ClamBakeSanta",
-  "saved_at": "2026-04-23T10:22:57.784154+00:00"
+  "content": "Savory hugs wrapped tight,\nPorky treasures snug in dough,\nWarm bites spark delight.\nHappy #NationalPigsInABlanketDay from @ClamBakeSanta\n\nGentle paws embraced,\nHealing hands weave love's soft thread,\nWhiskers twitch with joy.\nHappy #WorldDayOfVeterinaryMedicine from @ClamBakeSanta\n\nPages turn like leaves,\nInk and dreams on parchment flow,\nCelebrations bright!\n#HappyBirthdayAnthonyTrollope from @ClamBakeSanta",
+  "saved_at": "2026-04-24T10:25:33.337916+00:00"
 }
