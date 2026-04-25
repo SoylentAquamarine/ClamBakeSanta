@@ -1,0 +1,47 @@
+{
+  "WorldPenguinDay": {
+    "theme": "World Penguin Day",
+    "haiku": "Waddling in the snow,\nLittle tuxedos rejoice,\nJoyful hearts unite.\nHappy #WorldPenguinDay from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrlnpydq2g",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-04-25T22:29:07.534743+00:00"
+  },
+  "NationalZucchiniBreadDay": {
+    "theme": "National Zucchini Bread Day",
+    "haiku": "Sun-kissed gardens sway,\nZucchini's harvest whispers,\nBaking dreams arise.\nHappy #NationalZucchiniBreadDay from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrnh37kg2i",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-04-25T22:29:07.534743+00:00"
+  },
+  "HappyBirthdayEllaFitzgerald": {
+    "theme": "Birthday Ella Fitzgerald",
+    "haiku": "Notes like silk arise,\nVelvet nights wrapped in moonlight,\nJoy dances and sings.\n#HappyBirthdayEllaFitzgerald from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrpaquxx2s",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-04-25T22:29:07.534743+00:00"
+  }
+}

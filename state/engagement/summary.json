@@ -1,4 +1,51 @@
 {
+  "2026-04-25": {
+    "WorldPenguinDay": {
+      "theme": "World Penguin Day",
+      "haiku": "Waddling in the snow,\nLittle tuxedos rejoice,\nJoyful hearts unite.\nHappy #WorldPenguinDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrlnpydq2g",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
+    },
+    "NationalZucchiniBreadDay": {
+      "theme": "National Zucchini Bread Day",
+      "haiku": "Sun-kissed gardens sway,\nZucchini's harvest whispers,\nBaking dreams arise.\nHappy #NationalZucchiniBreadDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrnh37kg2i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
+    },
+    "HappyBirthdayEllaFitzgerald": {
+      "theme": "Birthday Ella Fitzgerald",
+      "haiku": "Notes like silk arise,\nVelvet nights wrapped in moonlight,\nJoy dances and sings.\n#HappyBirthdayEllaFitzgerald from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrpaquxx2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
+    }
+  },
   "2026-04-24": {
     "NationalPigsInABlanketDay": {
       "theme": "National Pigs in a Blanket Day",
@@ -13,7 +60,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     },
     "WorldDayOfVeterinaryMedicine": {
       "theme": "World Day of Veterinary Medicine",
@@ -28,7 +75,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     },
     "HappyBirthdayAnthonyTrollope": {
       "theme": "Birthday Anthony Trollope",
@@ -43,7 +90,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     }
   },
   "2026-04-23": {
@@ -60,7 +107,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     },
     "WorldBookDay": {
       "theme": "World Book Day",
@@ -75,7 +122,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     },
     "HappyBirthdayWilliamShakespeare": {
       "theme": "Birthday William Shakespeare",
@@ -90,7 +137,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     },
     "HappyBirthdayJamesBuchanan": {
       "theme": "Birthday James Buchanan",
@@ -105,7 +152,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     }
   },
   "2026-04-22": {
@@ -122,7 +169,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     },
     "NationalJellybeanDay": {
       "theme": "National Jellybean Day",
@@ -137,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     },
     "HappyBirthdayImmanuelKant": {
       "theme": "Birthday Immanuel Kant",
@@ -152,7 +199,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-24T22:33:41.204314+00:00"
+      "last_checked": "2026-04-25T22:29:07.534743+00:00"
     }
   },
   "2026-04-21": {
@@ -341,77 +388,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-04-21T22:32:53.895818+00:00"
-    }
-  },
-  "2026-04-17": {
-    "NationalCheeseBallDay": {
-      "theme": "National Cheese Ball Day",
-      "haiku": "Creamy globes of joy,\nCrackers crunch in bright delight,\nShared laughter abounds.\nHappy #NationalCheeseBallDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116419524055066781",
-          "url": "https://mastodon.social/@ClamBakeSanta/116419524055066781",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop3t4j3f2c",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-20T22:36:21.791838+00:00"
-    },
-    "BlahBlahBlahDay": {
-      "theme": "Blah Blah Blah Day",
-      "haiku": "Bright balloons dancing,\nLaughter sparkles in the air,\nJoy blooms everywhere.\nHappy #BlahBlahBlahDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116419528010866173",
-          "url": "https://mastodon.social/@ClamBakeSanta/116419528010866173",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop5n4eld2r",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-20T22:36:21.791838+00:00"
-    },
-    "HappyBirthdayIsakDinesen": {
-      "theme": "Birthday Isak Dinesen",
-      "haiku": "Candles flicker bright,\nLaughter spills like autumn leaves,\nJoy wraps around hearts.\n#HappyBirthdayIsakDinesen from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116419531974296627",
-          "url": "https://mastodon.social/@ClamBakeSanta/116419531974296627",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop7gxjmq2u",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-20T22:36:21.791838+00:00"
     }
   }
 }
