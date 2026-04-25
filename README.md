@@ -471,3 +471,61 @@ MIT — fork it, adapt it, build your own bot on top of it.
 ---
 
 *Built by Stephen Pleasants · [@SoylentAquamarine](https://github.com/SoylentAquamarine)*
+
+---
+
+## Changelog
+
+### 2026-04-17
+
+- Fixed RSS feed link to use full URL in platform table
+- Code quality cleanup pass (simplify review)
+- Added WordPress to platform table; corrected partitioned state file paths in README
+
+### 2026-04-17 — Analytics, partitioned state, weekly report
+
+- **Analytics feedback loop**: haiku log (`state/haiku_log/`), engagement tracking (`state/engagement/`), weekly report workflow (`weekly_report.yml`)
+- **Partitioned state files**: daily haiku logs and engagement data now stored by date with a rolling 7-day `recent.json` summary; prevents unbounded file growth
+- **Schema validation**: added JSON schema checks at every stage boundary in the daily workflow — fails fast on malformed data before downstream adapters run
+- Full tech stack documentation added to README
+
+### 2026-04-16 — Reddit, WordPress, email improvements, per-adapter tests
+
+- **Reddit adapter**: posts daily haikus to r/haiku via the Reddit API (`u/TheClamBakeSanta`)
+- **WordPress.com adapter**: publishes a daily digest blog entry (all haikus combined in one styled post)
+- **Haiku caching**: haikus generated once and saved to `state/haiku_cache.json`; all adapters consume the same poems — no duplicate AI calls
+- **Per-adapter test workflows**: each platform adapter has its own GitHub Actions workflow for isolated testing
+- Added canonical about page system with cross-platform sync checklist
+- Added clean excerpt to WordPress posts for index page display
+- Fixed email adapter: now checks spam folder for SUBSCRIBE emails
+- Fixed SMTP connection: added `ehlo()` calls before and after STARTTLS; tested SSL port 465 vs 587
+- Separated subscription management (`check_subscriptions.yml`) from daily send (`daily.yml`)
+- Fixed: don't fail the full workflow when only some adapters fail — log errors and continue
+- Fixed: strip trailing commas from haiku lines in RSS and Reddit posts
+- Added `GITHUB_TOKEN` to all per-adapter test workflows
+
+### 2026-04-15 — Email list, Telegram, RSS fix
+
+- **Email mailing list adapter**: users send SUBSCRIBE to clambakesanta@gmail.com; daily digest sent via Gmail SMTP
+- **Telegram adapter**: posts daily haikus to t.me/clambakesanta
+- Fixed RSS feed to include all haikus and all hashtags per day (was only including first haiku)
+- Shifted cron schedule to 5 AM Eastern (09:00 UTC)
+- Added santa_clambake.png to README header for consistent branding
+- Updated README with all platform links and social handles
+- Made platform links open in new tab
+
+### 2026-04-14 — Bluesky, Tumblr adapters
+
+- **Bluesky adapter**: posts to @clambakesanta.bsky.social
+- **Tumblr adapter**: posts to tumblr.com/clambakesanta
+- Fixed `site_base_url` casing: `clambakesanta` → `ClamBakeSanta`
+- Improved post formatting, titles, and site branding across all adapters
+
+### 2026-04-13 — Initial release
+
+- **Initial commit**: ClamBakeSanta automation framework
+- Daily haiku generation via GitHub Models (GPT-4o-mini) — free, no API key billing
+- Posts to Mastodon (@ClamBakeSanta@mastodon.social) and GitHub Pages website
+- RSS feed at `soylentaquamarine.github.io/ClamBakeSanta/feed.xml`
+- Expanded holiday/birthday data files: full coverage for all 365 days
+- Stagger Mastodon posts 1 minute apart; update GitHub Pages site after last post
