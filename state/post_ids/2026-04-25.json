@@ -1,0 +1,20 @@
+{
+  "WorldPenguinDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrlnpydq2g",
+      "cid": "bafyreifeqrgnzk6mfacm7h4pwnu4k36hkqamstle7vphgglzbekxg64guy"
+    }
+  },
+  "NationalZucchiniBreadDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrnh37kg2i",
+      "cid": "bafyreica5lnbr7257vjhfek2wphzd6je72pdy75gbtqmj7zfqpwkwm7q3m"
+    }
+  },
+  "HappyBirthdayEllaFitzgerald": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrpaquxx2s",
+      "cid": "bafyreib5ocl6bgplofe3j7brmmhfsgpuiz4klaruiig6myvc6bq7dr27pm"
+    }
+  }
+}

@@ -1,4 +1,24 @@
 {
+  "2026-04-25": {
+    "WorldPenguinDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrlnpydq2g",
+        "cid": "bafyreifeqrgnzk6mfacm7h4pwnu4k36hkqamstle7vphgglzbekxg64guy"
+      }
+    },
+    "NationalZucchiniBreadDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrnh37kg2i",
+        "cid": "bafyreica5lnbr7257vjhfek2wphzd6je72pdy75gbtqmj7zfqpwkwm7q3m"
+      }
+    },
+    "HappyBirthdayEllaFitzgerald": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrpaquxx2s",
+        "cid": "bafyreib5ocl6bgplofe3j7brmmhfsgpuiz4klaruiig6myvc6bq7dr27pm"
+      }
+    }
+  },
   "2026-04-24": {
     "NationalPigsInABlanketDay": {
       "bluesky": {
@@ -142,38 +162,6 @@
       "bluesky": {
         "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr6aceu2y2e",
         "cid": "bafyreicwlnffyhcgwkgl66wefuym5ikh2z7di474oz2rttcj7tfnbhlrie"
-      }
-    }
-  },
-  "2026-04-17": {
-    "NationalCheeseBallDay": {
-      "mastodon": {
-        "id": "116419524055066781",
-        "url": "https://mastodon.social/@ClamBakeSanta/116419524055066781"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop3t4j3f2c",
-        "cid": "bafyreibgdcln6ts2fkag7byvb7zi4ec2tn4e6wx6dkyeee2cs4zxr3iuay"
-      }
-    },
-    "BlahBlahBlahDay": {
-      "mastodon": {
-        "id": "116419528010866173",
-        "url": "https://mastodon.social/@ClamBakeSanta/116419528010866173"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop5n4eld2r",
-        "cid": "bafyreid6bvmiraoymmrxl4e5m7vlktkl6xkeug5f7pv45t6l3bzy5vfhv4"
-      }
-    },
-    "HappyBirthdayIsakDinesen": {
-      "mastodon": {
-        "id": "116419531974296627",
-        "url": "https://mastodon.social/@ClamBakeSanta/116419531974296627"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjop7gxjmq2u",
-        "cid": "bafyreigffmvm47yalyyuerqkxxivhqrapr4zv7r6fs2amr7rd42bdh75ei"
       }
     }
   }

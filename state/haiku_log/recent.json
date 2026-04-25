@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-04-17",
-    "theme": "National Cheese Ball Day",
-    "haiku": "Creamy globes of joy,\nCrackers crunch in bright delight,\nShared laughter abounds.\nHappy #NationalCheeseBallDay from @ClamBakeSanta",
-    "tag": "NationalCheeseBallDay",
-    "logged_at": "2026-04-17T10:15:59.942447+00:00"
-  },
-  {
-    "date": "2026-04-17",
-    "theme": "Blah Blah Blah Day",
-    "haiku": "Bright balloons dancing,\nLaughter sparkles in the air,\nJoy blooms everywhere.\nHappy #BlahBlahBlahDay from @ClamBakeSanta",
-    "tag": "BlahBlahBlahDay",
-    "logged_at": "2026-04-17T10:15:59.942447+00:00"
-  },
-  {
-    "date": "2026-04-17",
-    "theme": "Birthday Isak Dinesen",
-    "haiku": "Candles flicker bright,\nLaughter spills like autumn leaves,\nJoy wraps around hearts.\n#HappyBirthdayIsakDinesen from @ClamBakeSanta",
-    "tag": "HappyBirthdayIsakDinesen",
-    "logged_at": "2026-04-17T10:15:59.942447+00:00"
-  },
-  {
     "date": "2026-04-18",
     "theme": "National Animal Crackers Day",
     "haiku": "Crunchy, sweet delight,\nColorful critters dance bright,\nJoy in every bite.\nHappy #NationalAnimalCrackersDay from @ClamBakeSanta",
@@ -152,5 +131,26 @@
     "haiku": "Whispers of the breeze,\nLaughter blooms like wildflowers,\nJoy fills every heart.\n#HappyBirthdayJamesBuchanan from @ClamBakeSanta",
     "tag": "HappyBirthdayJamesBuchanan",
     "logged_at": "2026-04-23T10:22:57.784552+00:00"
+  },
+  {
+    "date": "2026-04-24",
+    "theme": "National Pigs in a Blanket Day",
+    "haiku": "Savory hugs wrapped tight,\nPorky treasures snug in dough,\nWarm bites spark delight.\nHappy #NationalPigsInABlanketDay from @ClamBakeSanta",
+    "tag": "NationalPigsInABlanketDay",
+    "logged_at": "2026-04-24T10:25:33.338360+00:00"
+  },
+  {
+    "date": "2026-04-24",
+    "theme": "World Day of Veterinary Medicine",
+    "haiku": "Gentle paws embraced,\nHealing hands weave love's soft thread,\nWhiskers twitch with joy.\nHappy #WorldDayOfVeterinaryMedicine from @ClamBakeSanta",
+    "tag": "WorldDayOfVeterinaryMedicine",
+    "logged_at": "2026-04-24T10:25:33.338360+00:00"
+  },
+  {
+    "date": "2026-04-24",
+    "theme": "Birthday Anthony Trollope",
+    "haiku": "Pages turn like leaves,\nInk and dreams on parchment flow,\nCelebrations bright!\n#HappyBirthdayAnthonyTrollope from @ClamBakeSanta",
+    "tag": "HappyBirthdayAnthonyTrollope",
+    "logged_at": "2026-04-24T10:25:33.338360+00:00"
   }
 ]

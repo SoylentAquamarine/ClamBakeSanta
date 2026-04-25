@@ -11,7 +11,8 @@
     "2026-04-21",
     "2026-04-22",
     "2026-04-23",
-    "2026-04-24"
+    "2026-04-24",
+    "2026-04-25"
   ],
   "runs": [
     {
@@ -147,6 +148,17 @@
         "Birthday Anthony Trollope"
       ],
       "content_preview": "Savory hugs wrapped tight, Porky treasures snug in dough, Warm bites spark delight. Happy #NationalPigsInABlanketDay fro"
+    },
+    {
+      "date": "2026-04-25",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-25T10:02:06.617387+00:00",
+      "themes": [
+        "World Penguin Day",
+        "National Zucchini Bread Day",
+        "Birthday Ella Fitzgerald"
+      ],
+      "content_preview": "Waddling in the snow, Little tuxedos rejoice, Joyful hearts unite. Happy #WorldPenguinDay from @ClamBakeSanta  Sun-kisse"
     }
   ]
 }
