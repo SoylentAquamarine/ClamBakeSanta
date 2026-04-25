@@ -476,6 +476,11 @@ MIT — fork it, adapt it, build your own bot on top of it.
 
 ## Changelog
 
+### 2026-04-25
+
+**GitHub Pages**
+- Verified and active: [soylentaquamarine.github.io/ClamBakeSanta](https://soylentaquamarine.github.io/ClamBakeSanta/)
+
 ### 2026-04-17
 
 - Fixed RSS feed link to use full URL in platform table
