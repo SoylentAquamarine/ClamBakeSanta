@@ -1,0 +1,20 @@
+{
+  "NationalPretzelDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkfc2hfq5s2s",
+      "cid": "bafyreihehjaaadq67qup66uj4z2zeygg3yfcp5mr7tieq2obm2mghmdb5m"
+    }
+  },
+  "NationalRichterScaleDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkfc4ar4sk2c",
+      "cid": "bafyreihkw42plssiysqk5uag6jujoew6uybri47jtho5mppyikgk35qjce"
+    }
+  },
+  "HappyBirthdayJohnJamesAudubon": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkfc622yki2c",
+      "cid": "bafyreialzo6euhno2tvduddorkrqk735qji7tkwhalsrgnyrtwlvmmnn3u"
+    }
+  }
+}

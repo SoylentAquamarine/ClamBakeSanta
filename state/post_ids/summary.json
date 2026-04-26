@@ -1,4 +1,24 @@
 {
+  "2026-04-26": {
+    "NationalPretzelDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkfc2hfq5s2s",
+        "cid": "bafyreihehjaaadq67qup66uj4z2zeygg3yfcp5mr7tieq2obm2mghmdb5m"
+      }
+    },
+    "NationalRichterScaleDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkfc4ar4sk2c",
+        "cid": "bafyreihkw42plssiysqk5uag6jujoew6uybri47jtho5mppyikgk35qjce"
+      }
+    },
+    "HappyBirthdayJohnJamesAudubon": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkfc622yki2c",
+        "cid": "bafyreialzo6euhno2tvduddorkrqk735qji7tkwhalsrgnyrtwlvmmnn3u"
+      }
+    }
+  },
   "2026-04-25": {
     "WorldPenguinDay": {
       "bluesky": {
@@ -142,26 +162,6 @@
       "bluesky": {
         "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjtonjnptw24",
         "cid": "bafyreihz2jgpsl3vwr5o43g2xasan7asr53xc4q3vbnd6hbzc67o3y2kfe"
-      }
-    }
-  },
-  "2026-04-18": {
-    "NationalAnimalCrackersDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr64p3e7q2w",
-        "cid": "bafyreiaxjxeib64pkiw6f46o2xe5e4ht5ke7nrww5lrc6kj3scjl6lebza"
-      }
-    },
-    "NationalLinzerTorteDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr66ikm7e2i",
-        "cid": "bafyreihp6ihzg5phtsthms7jrnimm3brbpuoh5dzuyhkz4kckm25ycqoa4"
-      }
-    },
-    "HappyBirthdayClarenceDarrow": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjr6aceu2y2e",
-        "cid": "bafyreicwlnffyhcgwkgl66wefuym5ikh2z7di474oz2rttcj7tfnbhlrie"
       }
     }
   }

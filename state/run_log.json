@@ -12,7 +12,8 @@
     "2026-04-22",
     "2026-04-23",
     "2026-04-24",
-    "2026-04-25"
+    "2026-04-25",
+    "2026-04-26"
   ],
   "runs": [
     {
@@ -159,6 +160,17 @@
         "Birthday Ella Fitzgerald"
       ],
       "content_preview": "Waddling in the snow, Little tuxedos rejoice, Joyful hearts unite. Happy #WorldPenguinDay from @ClamBakeSanta  Sun-kisse"
+    },
+    {
+      "date": "2026-04-26",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-26T10:02:01.548880+00:00",
+      "themes": [
+        "National Pretzel Day",
+        "National Richter Scale Day",
+        "Birthday John James Audubon"
+      ],
+      "content_preview": "Twisted dough delights, Salted smiles and warm embraces, Crunch and chew unite. Happy #NationalPretzelDay from @ClamBake"
     }
   ]
 }

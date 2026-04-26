@@ -1,27 +1,27 @@
 {
-  "date": "2026-04-25",
+  "date": "2026-04-26",
   "haikus": [
     {
-      "theme": "World Penguin Day",
-      "haiku": "Waddling in the snow,\nLittle tuxedos rejoice,\nJoyful hearts unite.\nHappy #WorldPenguinDay from @ClamBakeSanta",
-      "tag": "WorldPenguinDay"
+      "theme": "National Pretzel Day",
+      "haiku": "Twisted dough delights,\nSalted smiles and warm embraces,\nCrunch and chew unite.\nHappy #NationalPretzelDay from @ClamBakeSanta",
+      "tag": "NationalPretzelDay"
     },
     {
-      "theme": "National Zucchini Bread Day",
-      "haiku": "Sun-kissed gardens sway,\nZucchini's harvest whispers,\nBaking dreams arise.\nHappy #NationalZucchiniBreadDay from @ClamBakeSanta",
-      "tag": "NationalZucchiniBreadDay"
+      "theme": "National Richter Scale Day",
+      "haiku": "Tremors bring us near,\nNature's heartbeat pulses strong,\nTogether we sway.\nHappy #NationalRichterScaleDay from @ClamBakeSanta",
+      "tag": "NationalRichterScaleDay"
     },
     {
-      "theme": "Birthday Ella Fitzgerald",
-      "haiku": "Notes like silk arise,\nVelvet nights wrapped in moonlight,\nJoy dances and sings.\n#HappyBirthdayEllaFitzgerald from @ClamBakeSanta",
-      "tag": "HappyBirthdayEllaFitzgerald"
+      "theme": "Birthday John James Audubon",
+      "haiku": "Feathers dance in flight,\nNature's canvas comes alive,\nJoy in every brush.\n#HappyBirthdayJohnJamesAudubon from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnJamesAudubon"
     }
   ],
   "themes": [
-    "World Penguin Day",
-    "National Zucchini Bread Day",
-    "Birthday Ella Fitzgerald"
+    "National Pretzel Day",
+    "National Richter Scale Day",
+    "Birthday John James Audubon"
   ],
-  "content": "Waddling in the snow,\nLittle tuxedos rejoice,\nJoyful hearts unite.\nHappy #WorldPenguinDay from @ClamBakeSanta\n\nSun-kissed gardens sway,\nZucchini's harvest whispers,\nBaking dreams arise.\nHappy #NationalZucchiniBreadDay from @ClamBakeSanta\n\nNotes like silk arise,\nVelvet nights wrapped in moonlight,\nJoy dances and sings.\n#HappyBirthdayEllaFitzgerald from @ClamBakeSanta",
-  "saved_at": "2026-04-25T09:55:54.814087+00:00"
+  "content": "Twisted dough delights,\nSalted smiles and warm embraces,\nCrunch and chew unite.\nHappy #NationalPretzelDay from @ClamBakeSanta\n\nTremors bring us near,\nNature's heartbeat pulses strong,\nTogether we sway.\nHappy #NationalRichterScaleDay from @ClamBakeSanta\n\nFeathers dance in flight,\nNature's canvas comes alive,\nJoy in every brush.\n#HappyBirthdayJohnJamesAudubon from @ClamBakeSanta",
+  "saved_at": "2026-04-26T09:55:51.061245+00:00"
 }
