@@ -1,0 +1,4 @@
+# State files are owned by GitHub Actions — on conflict, keep both sides (union merge)
+# This prevents a local push from wiping bot-written log entries
+state/**/*.json  merge=union
+state/**/*.txt   merge=union
