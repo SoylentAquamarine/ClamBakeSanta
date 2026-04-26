@@ -481,18 +481,15 @@ MIT — fork it, adapt it, build your own bot on top of it.
 **GitHub Pages**
 - Verified and active: [soylentaquamarine.github.io/ClamBakeSanta](https://soylentaquamarine.github.io/ClamBakeSanta/)
 
-### 2026-04-17
-
-- Fixed RSS feed link to use full URL in platform table
-- Code quality cleanup pass (simplify review)
-- Added WordPress to platform table; corrected partitioned state file paths in README
-
 ### 2026-04-17 — Analytics, partitioned state, weekly report
 
 - **Analytics feedback loop**: haiku log (`state/haiku_log/`), engagement tracking (`state/engagement/`), weekly report workflow (`weekly_report.yml`)
 - **Partitioned state files**: daily haiku logs and engagement data now stored by date with a rolling 7-day `recent.json` summary; prevents unbounded file growth
 - **Schema validation**: added JSON schema checks at every stage boundary in the daily workflow — fails fast on malformed data before downstream adapters run
 - Full tech stack documentation added to README
+- Fixed RSS feed link to use full URL in platform table
+- Code quality cleanup pass (simplify review)
+- Added WordPress to platform table; corrected partitioned state file paths in README
 
 ### 2026-04-16 — Reddit, WordPress, email improvements, per-adapter tests
 
