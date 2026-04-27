@@ -1,27 +1,33 @@
 {
-  "date": "2026-04-26",
+  "date": "2026-04-27",
   "haikus": [
     {
-      "theme": "National Pretzel Day",
-      "haiku": "Twisted dough delights,\nSalted smiles and warm embraces,\nCrunch and chew unite.\nHappy #NationalPretzelDay from @ClamBakeSanta",
-      "tag": "NationalPretzelDay"
+      "theme": "National Prime Rib Day",
+      "haiku": "Beef aromas rise,\nSizzling dreams on the grill glow,\nGather ‘round, taste joy.\nHappy #NationalPrimeRibDay from @ClamBakeSanta",
+      "tag": "NationalPrimeRibDay"
     },
     {
-      "theme": "National Richter Scale Day",
-      "haiku": "Tremors bring us near,\nNature's heartbeat pulses strong,\nTogether we sway.\nHappy #NationalRichterScaleDay from @ClamBakeSanta",
-      "tag": "NationalRichterScaleDay"
+      "theme": "World Tapir Day",
+      "haiku": "Gentle giants roam,\nMuddy banks and leafy greens,\nNature's quiet grace.\nHappy #WorldTapirDay from @ClamBakeSanta",
+      "tag": "WorldTapirDay"
     },
     {
-      "theme": "Birthday John James Audubon",
-      "haiku": "Feathers dance in flight,\nNature's canvas comes alive,\nJoy in every brush.\n#HappyBirthdayJohnJamesAudubon from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnJamesAudubon"
+      "theme": "Birthday Ralph Waldo Emerson",
+      "haiku": "Cedar trees stand tall,\nEchoes of wisdom ring clear,\nNature’s voice calls bright.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta",
+      "tag": "HappyBirthdayRalphWaldoEmerson"
+    },
+    {
+      "theme": "Birthday Samuel Morse",
+      "haiku": "Candles flicker bright,\nNotes of joy in the air sing,\nMorse's spark ignites.\n#HappyBirthdaySamuelMorse from @ClamBakeSanta",
+      "tag": "HappyBirthdaySamuelMorse"
     }
   ],
   "themes": [
-    "National Pretzel Day",
-    "National Richter Scale Day",
-    "Birthday John James Audubon"
+    "National Prime Rib Day",
+    "World Tapir Day",
+    "Birthday Ralph Waldo Emerson",
+    "Birthday Samuel Morse"
   ],
-  "content": "Twisted dough delights,\nSalted smiles and warm embraces,\nCrunch and chew unite.\nHappy #NationalPretzelDay from @ClamBakeSanta\n\nTremors bring us near,\nNature's heartbeat pulses strong,\nTogether we sway.\nHappy #NationalRichterScaleDay from @ClamBakeSanta\n\nFeathers dance in flight,\nNature's canvas comes alive,\nJoy in every brush.\n#HappyBirthdayJohnJamesAudubon from @ClamBakeSanta",
-  "saved_at": "2026-04-26T09:55:51.061245+00:00"
+  "content": "Beef aromas rise,\nSizzling dreams on the grill glow,\nGather ‘round, taste joy.\nHappy #NationalPrimeRibDay from @ClamBakeSanta\n\nGentle giants roam,\nMuddy banks and leafy greens,\nNature's quiet grace.\nHappy #WorldTapirDay from @ClamBakeSanta\n\nCedar trees stand tall,\nEchoes of wisdom ring clear,\nNature’s voice calls bright.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta\n\nCandles flicker bright,\nNotes of joy in the air sing,\nMorse's spark ignites.\n#HappyBirthdaySamuelMorse from @ClamBakeSanta",
+  "saved_at": "2026-04-27T11:08:02.387189+00:00"
 }

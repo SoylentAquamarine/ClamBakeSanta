@@ -1,4 +1,30 @@
 {
+  "2026-04-27": {
+    "NationalPrimeRibDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwki3x4q2s",
+        "cid": "bafyreihhepaqvofxvzylbpeplfw7lj6pjisah5sqkuauox444kqfjw7dba"
+      }
+    },
+    "WorldTapirDay": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwmc5sy72h",
+        "cid": "bafyreidzl2ykitrxdyxyo2ypfloywvg6sqpdba4v7lzvloib5wn6dtf7om"
+      }
+    },
+    "HappyBirthdayRalphWaldoEmerson": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwo3rpi72l",
+        "cid": "bafyreiaukqwjd7r4lzvrvqueasyysptjipohn6vdzep35ni3qmqa6esvde"
+      }
+    },
+    "HappyBirthdaySamuelMorse": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwpvf2tl2i",
+        "cid": "bafyreibpwuomn4trxwlq4osrfcrusnyahqlpjgyrcdwq34cld4wbe5szxa"
+      }
+    }
+  },
   "2026-04-26": {
     "NationalPretzelDay": {
       "bluesky": {
@@ -142,26 +168,6 @@
       "bluesky": {
         "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjwcj3tbqw2q",
         "cid": "bafyreibvgei5iwmtaq3qwutlnr7pigpuffopbiurpcqbevsea5slaltnbu"
-      }
-    }
-  },
-  "2026-04-19": {
-    "NationalGarlicDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjtojwgrgl2s",
-        "cid": "bafyreibf7dznqruguvoqacz7g52ffosvfg2v3ni3ck27uy7nrwd3d76s5m"
-      }
-    },
-    "NationalHummusDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjtolq5qwv24",
-        "cid": "bafyreih6mec3c64lbjts2qg5lzi7nqjsav3kes5h64zzpy3jfnulgvhboe"
-      }
-    },
-    "HappyBirthdayGlennTSeaborg": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjtonjnptw24",
-        "cid": "bafyreihz2jgpsl3vwr5o43g2xasan7asr53xc4q3vbnd6hbzc67o3y2kfe"
       }
     }
   }

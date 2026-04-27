@@ -13,7 +13,8 @@
     "2026-04-23",
     "2026-04-24",
     "2026-04-25",
-    "2026-04-26"
+    "2026-04-26",
+    "2026-04-27"
   ],
   "runs": [
     {
@@ -171,6 +172,18 @@
         "Birthday John James Audubon"
       ],
       "content_preview": "Twisted dough delights, Salted smiles and warm embraces, Crunch and chew unite. Happy #NationalPretzelDay from @ClamBake"
+    },
+    {
+      "date": "2026-04-27",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-27T11:17:13.198028+00:00",
+      "themes": [
+        "National Prime Rib Day",
+        "World Tapir Day",
+        "Birthday Ralph Waldo Emerson",
+        "Birthday Samuel Morse"
+      ],
+      "content_preview": "Beef aromas rise, Sizzling dreams on the grill glow, Gather ‘round, taste joy. Happy #NationalPrimeRibDay from @ClamBake"
     }
   ]
 }

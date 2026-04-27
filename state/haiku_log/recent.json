@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-04-19",
-    "theme": "National Garlic Day",
-    "haiku": "Golden cloves unite,\nSizzling in a pan of cheer,\nAromas embrace.\nHappy #NationalGarlicDay from @ClamBakeSanta",
-    "tag": "NationalGarlicDay",
-    "logged_at": "2026-04-19T09:51:19.457734+00:00"
-  },
-  {
-    "date": "2026-04-19",
-    "theme": "National Hummus Day",
-    "haiku": "Chickpeas whirl and blend,\nGarlic whispers through the bowl,\nDipped in joy we share.\nHappy #NationalHummusDay from @ClamBakeSanta",
-    "tag": "NationalHummusDay",
-    "logged_at": "2026-04-19T09:51:19.457734+00:00"
-  },
-  {
-    "date": "2026-04-19",
-    "theme": "Birthday Glenn T. Seaborg",
-    "haiku": "Waves of laughter swell,\nGifts wrapped in sparkling dreams,\nJoy's sweet song abounds.\n#HappyBirthdayGlennTSeaborg from @ClamBakeSanta",
-    "tag": "HappyBirthdayGlennTSeaborg",
-    "logged_at": "2026-04-19T09:51:19.457734+00:00"
-  },
-  {
     "date": "2026-04-20",
     "theme": "National Cheddar Fries Day",
     "haiku": "Warm cheese drapes like sun,\nCrisp fries join in harmony,\nSavory smiles bloom bright.\nHappy #NationalCheddarFriesDay from @ClamBakeSanta",
@@ -152,5 +131,26 @@
     "haiku": "Notes like silk arise,\nVelvet nights wrapped in moonlight,\nJoy dances and sings.\n#HappyBirthdayEllaFitzgerald from @ClamBakeSanta",
     "tag": "HappyBirthdayEllaFitzgerald",
     "logged_at": "2026-04-25T09:55:54.814502+00:00"
+  },
+  {
+    "date": "2026-04-26",
+    "theme": "National Pretzel Day",
+    "haiku": "Twisted dough delights,\nSalted smiles and warm embraces,\nCrunch and chew unite.\nHappy #NationalPretzelDay from @ClamBakeSanta",
+    "tag": "NationalPretzelDay",
+    "logged_at": "2026-04-26T09:55:51.061680+00:00"
+  },
+  {
+    "date": "2026-04-26",
+    "theme": "National Richter Scale Day",
+    "haiku": "Tremors bring us near,\nNature's heartbeat pulses strong,\nTogether we sway.\nHappy #NationalRichterScaleDay from @ClamBakeSanta",
+    "tag": "NationalRichterScaleDay",
+    "logged_at": "2026-04-26T09:55:51.061680+00:00"
+  },
+  {
+    "date": "2026-04-26",
+    "theme": "Birthday John James Audubon",
+    "haiku": "Feathers dance in flight,\nNature's canvas comes alive,\nJoy in every brush.\n#HappyBirthdayJohnJamesAudubon from @ClamBakeSanta",
+    "tag": "HappyBirthdayJohnJamesAudubon",
+    "logged_at": "2026-04-26T09:55:51.061680+00:00"
   }
 ]
