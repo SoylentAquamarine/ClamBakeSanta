@@ -1,4 +1,66 @@
 {
+  "2026-04-27": {
+    "NationalPrimeRibDay": {
+      "theme": "National Prime Rib Day",
+      "haiku": "Beef aromas rise,\nSizzling dreams on the grill glow,\nGather ‘round, taste joy.\nHappy #NationalPrimeRibDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwki3x4q2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
+    },
+    "WorldTapirDay": {
+      "theme": "World Tapir Day",
+      "haiku": "Gentle giants roam,\nMuddy banks and leafy greens,\nNature's quiet grace.\nHappy #WorldTapirDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwmc5sy72h",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
+    },
+    "HappyBirthdayRalphWaldoEmerson": {
+      "theme": "Birthday Ralph Waldo Emerson",
+      "haiku": "Cedar trees stand tall,\nEchoes of wisdom ring clear,\nNature’s voice calls bright.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwo3rpi72l",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
+    },
+    "HappyBirthdaySamuelMorse": {
+      "theme": "Birthday Samuel Morse",
+      "haiku": "Candles flicker bright,\nNotes of joy in the air sing,\nMorse's spark ignites.\n#HappyBirthdaySamuelMorse from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwpvf2tl2i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
+    }
+  },
   "2026-04-26": {
     "NationalPretzelDay": {
       "theme": "National Pretzel Day",
@@ -13,7 +75,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     },
     "NationalRichterScaleDay": {
       "theme": "National Richter Scale Day",
@@ -28,7 +90,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     },
     "HappyBirthdayJohnJamesAudubon": {
       "theme": "Birthday John James Audubon",
@@ -43,7 +105,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     }
   },
   "2026-04-25": {
@@ -60,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     },
     "NationalZucchiniBreadDay": {
       "theme": "National Zucchini Bread Day",
@@ -75,7 +137,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     },
     "HappyBirthdayEllaFitzgerald": {
       "theme": "Birthday Ella Fitzgerald",
@@ -90,7 +152,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     }
   },
   "2026-04-24": {
@@ -107,7 +169,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     },
     "WorldDayOfVeterinaryMedicine": {
       "theme": "World Day of Veterinary Medicine",
@@ -122,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     },
     "HappyBirthdayAnthonyTrollope": {
       "theme": "Birthday Anthony Trollope",
@@ -137,7 +199,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
+      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     }
   },
   "2026-04-23": {
@@ -341,53 +403,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-04-23T22:37:07.773172+00:00"
-    }
-  },
-  "2026-04-19": {
-    "NationalGarlicDay": {
-      "theme": "National Garlic Day",
-      "haiku": "Golden cloves unite,\nSizzling in a pan of cheer,\nAromas embrace.\nHappy #NationalGarlicDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjtojwgrgl2s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-22T22:40:42.221495+00:00"
-    },
-    "NationalHummusDay": {
-      "theme": "National Hummus Day",
-      "haiku": "Chickpeas whirl and blend,\nGarlic whispers through the bowl,\nDipped in joy we share.\nHappy #NationalHummusDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjtolq5qwv24",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-22T22:40:42.221495+00:00"
-    },
-    "HappyBirthdayGlennTSeaborg": {
-      "theme": "Birthday Glenn T. Seaborg",
-      "haiku": "Waves of laughter swell,\nGifts wrapped in sparkling dreams,\nJoy's sweet song abounds.\n#HappyBirthdayGlennTSeaborg from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mjtonjnptw24",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-22T22:40:42.221495+00:00"
     }
   }
 }
