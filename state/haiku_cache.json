@@ -1,33 +1,27 @@
 {
-  "date": "2026-04-27",
+  "date": "2026-04-28",
   "haikus": [
     {
-      "theme": "National Prime Rib Day",
-      "haiku": "Beef aromas rise,\nSizzling dreams on the grill glow,\nGather ‘round, taste joy.\nHappy #NationalPrimeRibDay from @ClamBakeSanta",
-      "tag": "NationalPrimeRibDay"
+      "theme": "National Blueberry Pie Day",
+      "haiku": "Warm crust hugs sweet blue,\nFields burst forth with laughter's cheer,\nA slice of pure joy.\nHappy #NationalBlueberryPieDay from @ClamBakeSanta",
+      "tag": "NationalBlueberryPieDay"
     },
     {
-      "theme": "World Tapir Day",
-      "haiku": "Gentle giants roam,\nMuddy banks and leafy greens,\nNature's quiet grace.\nHappy #WorldTapirDay from @ClamBakeSanta",
-      "tag": "WorldTapirDay"
+      "theme": "National Superhero Day",
+      "haiku": "Capes flutter like dreams,\nLaughter sparks in sunlit skies,\nHeroes rise with hope.\nHappy #NationalSuperheroDay from @ClamBakeSanta",
+      "tag": "NationalSuperheroDay"
     },
     {
-      "theme": "Birthday Ralph Waldo Emerson",
-      "haiku": "Cedar trees stand tall,\nEchoes of wisdom ring clear,\nNature’s voice calls bright.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta",
-      "tag": "HappyBirthdayRalphWaldoEmerson"
-    },
-    {
-      "theme": "Birthday Samuel Morse",
-      "haiku": "Candles flicker bright,\nNotes of joy in the air sing,\nMorse's spark ignites.\n#HappyBirthdaySamuelMorse from @ClamBakeSanta",
-      "tag": "HappyBirthdaySamuelMorse"
+      "theme": "Birthday Harper Lee",
+      "haiku": "Sunlight spills like gold,\nLaughter twirls through the air,\nJoy blooms in each heart.\n#HappyBirthdayHarperLee from @ClamBakeSanta",
+      "tag": "HappyBirthdayHarperLee"
     }
   ],
   "themes": [
-    "National Prime Rib Day",
-    "World Tapir Day",
-    "Birthday Ralph Waldo Emerson",
-    "Birthday Samuel Morse"
+    "National Blueberry Pie Day",
+    "National Superhero Day",
+    "Birthday Harper Lee"
   ],
-  "content": "Beef aromas rise,\nSizzling dreams on the grill glow,\nGather ‘round, taste joy.\nHappy #NationalPrimeRibDay from @ClamBakeSanta\n\nGentle giants roam,\nMuddy banks and leafy greens,\nNature's quiet grace.\nHappy #WorldTapirDay from @ClamBakeSanta\n\nCedar trees stand tall,\nEchoes of wisdom ring clear,\nNature’s voice calls bright.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta\n\nCandles flicker bright,\nNotes of joy in the air sing,\nMorse's spark ignites.\n#HappyBirthdaySamuelMorse from @ClamBakeSanta",
-  "saved_at": "2026-04-27T11:08:02.387189+00:00"
+  "content": "Warm crust hugs sweet blue,\nFields burst forth with laughter's cheer,\nA slice of pure joy.\nHappy #NationalBlueberryPieDay from @ClamBakeSanta\n\nCapes flutter like dreams,\nLaughter sparks in sunlit skies,\nHeroes rise with hope.\nHappy #NationalSuperheroDay from @ClamBakeSanta\n\nSunlight spills like gold,\nLaughter twirls through the air,\nJoy blooms in each heart.\n#HappyBirthdayHarperLee from @ClamBakeSanta",
+  "saved_at": "2026-04-28T11:07:25.187983+00:00"
 }

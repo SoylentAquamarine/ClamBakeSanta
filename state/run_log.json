@@ -14,7 +14,8 @@
     "2026-04-24",
     "2026-04-25",
     "2026-04-26",
-    "2026-04-27"
+    "2026-04-27",
+    "2026-04-28"
   ],
   "runs": [
     {
@@ -184,6 +185,17 @@
         "Birthday Samuel Morse"
       ],
       "content_preview": "Beef aromas rise, Sizzling dreams on the grill glow, Gather ‘round, taste joy. Happy #NationalPrimeRibDay from @ClamBake"
+    },
+    {
+      "date": "2026-04-28",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-28T11:13:31.826592+00:00",
+      "themes": [
+        "National Blueberry Pie Day",
+        "National Superhero Day",
+        "Birthday Harper Lee"
+      ],
+      "content_preview": "Warm crust hugs sweet blue, Fields burst forth with laughter's cheer, A slice of pure joy. Happy #NationalBlueberryPieDa"
     }
   ]
 }
