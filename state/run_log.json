@@ -15,7 +15,8 @@
     "2026-04-25",
     "2026-04-26",
     "2026-04-27",
-    "2026-04-28"
+    "2026-04-28",
+    "2026-04-29"
   ],
   "runs": [
     {
@@ -196,6 +197,18 @@
         "Birthday Harper Lee"
       ],
       "content_preview": "Warm crust hugs sweet blue, Fields burst forth with laughter's cheer, A slice of pure joy. Happy #NationalBlueberryPieDa"
+    },
+    {
+      "date": "2026-04-29",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-29T11:08:26.721056+00:00",
+      "themes": [
+        "National Shrimp Scampi Day",
+        "World Dance Day",
+        "Birthday Duke Ellington",
+        "Birthday William Randolph Hearst"
+      ],
+      "content_preview": "Garlic scents perfume, Butter glistens, shrimp twirl bright, Feasts of joy unite. Happy #NationalShrimpScampiDay from @C"
     }
   ]
 }

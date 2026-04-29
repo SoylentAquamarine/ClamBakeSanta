@@ -1,27 +1,33 @@
 {
-  "date": "2026-04-28",
+  "date": "2026-04-29",
   "haikus": [
     {
-      "theme": "National Blueberry Pie Day",
-      "haiku": "Warm crust hugs sweet blue,\nFields burst forth with laughter's cheer,\nA slice of pure joy.\nHappy #NationalBlueberryPieDay from @ClamBakeSanta",
-      "tag": "NationalBlueberryPieDay"
+      "theme": "National Shrimp Scampi Day",
+      "haiku": "Garlic scents perfume,\nButter glistens, shrimp twirl bright,\nFeasts of joy unite.\nHappy #NationalShrimpScampiDay from @ClamBakeSanta",
+      "tag": "NationalShrimpScampiDay"
     },
     {
-      "theme": "National Superhero Day",
-      "haiku": "Capes flutter like dreams,\nLaughter sparks in sunlit skies,\nHeroes rise with hope.\nHappy #NationalSuperheroDay from @ClamBakeSanta",
-      "tag": "NationalSuperheroDay"
+      "theme": "World Dance Day",
+      "haiku": "Feet tap on warm ground,\nColors swirl in joyous flight,\nLaughter fills the air.\nHappy #WorldDanceDay from @ClamBakeSanta",
+      "tag": "WorldDanceDay"
     },
     {
-      "theme": "Birthday Harper Lee",
-      "haiku": "Sunlight spills like gold,\nLaughter twirls through the air,\nJoy blooms in each heart.\n#HappyBirthdayHarperLee from @ClamBakeSanta",
-      "tag": "HappyBirthdayHarperLee"
+      "theme": "Birthday Duke Ellington",
+      "haiku": "Saxophones whisper,\nChocolate cake and laughter,\nMoonlight on the keys.\n#HappyBirthdayDukeEllington from @ClamBakeSanta",
+      "tag": "HappyBirthdayDukeEllington"
+    },
+    {
+      "theme": "Birthday William Randolph Hearst",
+      "haiku": "Candles softly glow,\nLaughter wraps the warm evening,\nDreams take flight on wings.\n#HappyBirthdayWilliamRandolphHearst from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamRandolphHearst"
     }
   ],
   "themes": [
-    "National Blueberry Pie Day",
-    "National Superhero Day",
-    "Birthday Harper Lee"
+    "National Shrimp Scampi Day",
+    "World Dance Day",
+    "Birthday Duke Ellington",
+    "Birthday William Randolph Hearst"
   ],
-  "content": "Warm crust hugs sweet blue,\nFields burst forth with laughter's cheer,\nA slice of pure joy.\nHappy #NationalBlueberryPieDay from @ClamBakeSanta\n\nCapes flutter like dreams,\nLaughter sparks in sunlit skies,\nHeroes rise with hope.\nHappy #NationalSuperheroDay from @ClamBakeSanta\n\nSunlight spills like gold,\nLaughter twirls through the air,\nJoy blooms in each heart.\n#HappyBirthdayHarperLee from @ClamBakeSanta",
-  "saved_at": "2026-04-28T11:07:25.187983+00:00"
+  "content": "Garlic scents perfume,\nButter glistens, shrimp twirl bright,\nFeasts of joy unite.\nHappy #NationalShrimpScampiDay from @ClamBakeSanta\n\nFeet tap on warm ground,\nColors swirl in joyous flight,\nLaughter fills the air.\nHappy #WorldDanceDay from @ClamBakeSanta\n\nSaxophones whisper,\nChocolate cake and laughter,\nMoonlight on the keys.\n#HappyBirthdayDukeEllington from @ClamBakeSanta\n\nCandles softly glow,\nLaughter wraps the warm evening,\nDreams take flight on wings.\n#HappyBirthdayWilliamRandolphHearst from @ClamBakeSanta",
+  "saved_at": "2026-04-29T10:59:12.234800+00:00"
 }

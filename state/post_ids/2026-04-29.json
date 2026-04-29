@@ -1,0 +1,26 @@
+{
+  "NationalShrimpScampiDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmwyjdkms2a",
+      "cid": "bafyreihh272yoi2jk3hov5nmetwitcnh6xlt342jkfrmpwxrnqpy65ldua"
+    }
+  },
+  "WorldDanceDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmx2ctnob2s",
+      "cid": "bafyreiac4uj4sgo7xgxijybacdnpagp4ncnlwrihe5r2actymcnlt6lluq"
+    }
+  },
+  "HappyBirthdayDukeEllington": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmx44dlrt2u",
+      "cid": "bafyreih5zuouu6c2nnpka3ze3ds23oscy3kolxcnbd6jrujtkrd7ad3z5e"
+    }
+  },
+  "HappyBirthdayWilliamRandolphHearst": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmx5vtgim2q",
+      "cid": "bafyreihzyjva7v3wjk3rgfivioxx4e72vwh4xy3tm4qbtmvrev2bkouwy4"
+    }
+  }
+}
