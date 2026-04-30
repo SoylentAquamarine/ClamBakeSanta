@@ -1,33 +1,27 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-04-30",
   "haikus": [
     {
-      "theme": "National Shrimp Scampi Day",
-      "haiku": "Garlic scents perfume,\nButter glistens, shrimp twirl bright,\nFeasts of joy unite.\nHappy #NationalShrimpScampiDay from @ClamBakeSanta",
-      "tag": "NationalShrimpScampiDay"
+      "theme": "International Jazz Day",
+      "haiku": "Saxophones shimmer,\nRhythms pulse in warm twilight,\nHearts sway, spirits rise.\nHappy #InternationalJazzDay from @ClamBakeSanta",
+      "tag": "InternationalJazzDay"
     },
     {
-      "theme": "World Dance Day",
-      "haiku": "Feet tap on warm ground,\nColors swirl in joyous flight,\nLaughter fills the air.\nHappy #WorldDanceDay from @ClamBakeSanta",
-      "tag": "WorldDanceDay"
+      "theme": "National Oatmeal Cookie Day",
+      "haiku": "Warm cookies beckon,\nSpices swirl in the oven,\nNuts and chocolate dance.\nHappy #NationalOatmealCookieDay from @ClamBakeSanta",
+      "tag": "NationalOatmealCookieDay"
     },
     {
-      "theme": "Birthday Duke Ellington",
-      "haiku": "Saxophones whisper,\nChocolate cake and laughter,\nMoonlight on the keys.\n#HappyBirthdayDukeEllington from @ClamBakeSanta",
-      "tag": "HappyBirthdayDukeEllington"
-    },
-    {
-      "theme": "Birthday William Randolph Hearst",
-      "haiku": "Candles softly glow,\nLaughter wraps the warm evening,\nDreams take flight on wings.\n#HappyBirthdayWilliamRandolphHearst from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamRandolphHearst"
+      "theme": "Birthday Walter Lantz",
+      "haiku": "Laughter fills the air,\nColors burst like joyous blooms,\nCake's sweet warmth surrounds.\n#HappyBirthdayWalterLantz from @ClamBakeSanta",
+      "tag": "HappyBirthdayWalterLantz"
     }
   ],
   "themes": [
-    "National Shrimp Scampi Day",
-    "World Dance Day",
-    "Birthday Duke Ellington",
-    "Birthday William Randolph Hearst"
+    "International Jazz Day",
+    "National Oatmeal Cookie Day",
+    "Birthday Walter Lantz"
   ],
-  "content": "Garlic scents perfume,\nButter glistens, shrimp twirl bright,\nFeasts of joy unite.\nHappy #NationalShrimpScampiDay from @ClamBakeSanta\n\nFeet tap on warm ground,\nColors swirl in joyous flight,\nLaughter fills the air.\nHappy #WorldDanceDay from @ClamBakeSanta\n\nSaxophones whisper,\nChocolate cake and laughter,\nMoonlight on the keys.\n#HappyBirthdayDukeEllington from @ClamBakeSanta\n\nCandles softly glow,\nLaughter wraps the warm evening,\nDreams take flight on wings.\n#HappyBirthdayWilliamRandolphHearst from @ClamBakeSanta",
-  "saved_at": "2026-04-29T10:59:12.234800+00:00"
+  "content": "Saxophones shimmer,\nRhythms pulse in warm twilight,\nHearts sway, spirits rise.\nHappy #InternationalJazzDay from @ClamBakeSanta\n\nWarm cookies beckon,\nSpices swirl in the oven,\nNuts and chocolate dance.\nHappy #NationalOatmealCookieDay from @ClamBakeSanta\n\nLaughter fills the air,\nColors burst like joyous blooms,\nCake's sweet warmth surrounds.\n#HappyBirthdayWalterLantz from @ClamBakeSanta",
+  "saved_at": "2026-04-30T10:58:12.939309+00:00"
 }

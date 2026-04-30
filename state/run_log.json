@@ -16,7 +16,8 @@
     "2026-04-26",
     "2026-04-27",
     "2026-04-28",
-    "2026-04-29"
+    "2026-04-29",
+    "2026-04-30"
   ],
   "runs": [
     {
@@ -209,6 +210,17 @@
         "Birthday William Randolph Hearst"
       ],
       "content_preview": "Garlic scents perfume, Butter glistens, shrimp twirl bright, Feasts of joy unite. Happy #NationalShrimpScampiDay from @C"
+    },
+    {
+      "date": "2026-04-30",
+      "engine": "clambakesanta",
+      "timestamp": "2026-04-30T11:04:24.416161+00:00",
+      "themes": [
+        "International Jazz Day",
+        "National Oatmeal Cookie Day",
+        "Birthday Walter Lantz"
+      ],
+      "content_preview": "Saxophones shimmer, Rhythms pulse in warm twilight, Hearts sway, spirits rise. Happy #InternationalJazzDay from @ClamBak"
     }
   ]
 }
