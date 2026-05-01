@@ -1,4 +1,51 @@
 {
+  "2026-05-01": {
+    "MayDay": {
+      "theme": "May Day",
+      "haiku": "Blossoms paint the air,\nLaughter twirls through the soft breeze,\nTogether we bloom.\nHappy #MayDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkrvztx7v22g",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+    },
+    "NationalMacaroonDay": {
+      "theme": "National Macaroon Day",
+      "haiku": "Coconut clouds rise,\nSweet almond whispers beckon,\nJoy in every bite.\nHappy #NationalMacaroonDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkrw3nhhw22c",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+    },
+    "HappyBirthdayMotherJones": {
+      "theme": "Birthday Mother Jones",
+      "haiku": "Laughter fills the air,\nCake and dreams in every bite,\nJoyous hearts unite.\n#HappyBirthdayMotherJones from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkrw5gwow724",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+    }
+  },
   "2026-04-30": {
     "InternationalJazzDay": {
       "theme": "International Jazz Day",
@@ -13,7 +60,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     },
     "NationalOatmealCookieDay": {
       "theme": "National Oatmeal Cookie Day",
@@ -28,7 +75,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     },
     "HappyBirthdayWalterLantz": {
       "theme": "Birthday Walter Lantz",
@@ -43,7 +90,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     }
   },
   "2026-04-29": {
@@ -60,7 +107,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     },
     "WorldDanceDay": {
       "theme": "World Dance Day",
@@ -75,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     },
     "HappyBirthdayDukeEllington": {
       "theme": "Birthday Duke Ellington",
@@ -90,7 +137,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     },
     "HappyBirthdayWilliamRandolphHearst": {
       "theme": "Birthday William Randolph Hearst",
@@ -105,7 +152,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     }
   },
   "2026-04-28": {
@@ -122,7 +169,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     },
     "NationalSuperheroDay": {
       "theme": "National Superhero Day",
@@ -137,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     },
     "HappyBirthdayHarperLee": {
       "theme": "Birthday Harper Lee",
@@ -152,7 +199,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-04-30T22:44:14.342830+00:00"
+      "last_checked": "2026-05-01T22:42:04.499643+00:00"
     }
   },
   "2026-04-27": {
@@ -356,68 +403,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-04-27T22:42:33.540628+00:00"
-    }
-  },
-  "2026-04-23": {
-    "NationalCherryCheesecakeDay": {
-      "theme": "National Cherry Cheesecake Day",
-      "haiku": "Juicy red jewels gleam,\nCreamy clouds on a plate,\nForks meet blissful dreams.\nHappy #NationalCherryCheesecakeDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5s66wiwx2x",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
-    },
-    "WorldBookDay": {
-      "theme": "World Book Day",
-      "haiku": "Pages turn like leaves,\nWhispers of adventure,\nWorlds awaken wide.\nHappy #WorldBookDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5s7yjhjh2c",
-          "likes": 1,
-          "reposts": 0,
-          "replies": 0,
-          "score": 1
-        }
-      },
-      "total_score": 1,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
-    },
-    "HappyBirthdayWilliamShakespeare": {
-      "theme": "Birthday William Shakespeare",
-      "haiku": "Quills dance on parchment,\nInk spills tales like summer rain,\nJoy in every word.\n#HappyBirthdayWilliamShakespeare from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5sbrwo752s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
-    },
-    "HappyBirthdayJamesBuchanan": {
-      "theme": "Birthday James Buchanan",
-      "haiku": "Whispers of the breeze,\nLaughter blooms like wildflowers,\nJoy fills every heart.\n#HappyBirthdayJamesBuchanan from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mk5sdljaj324",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-26T22:30:26.731393+00:00"
     }
   }
 }
