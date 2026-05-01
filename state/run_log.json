@@ -17,7 +17,8 @@
     "2026-04-27",
     "2026-04-28",
     "2026-04-29",
-    "2026-04-30"
+    "2026-04-30",
+    "2026-05-01"
   ],
   "runs": [
     {
@@ -221,6 +222,17 @@
         "Birthday Walter Lantz"
       ],
       "content_preview": "Saxophones shimmer, Rhythms pulse in warm twilight, Hearts sway, spirits rise. Happy #InternationalJazzDay from @ClamBak"
+    },
+    {
+      "date": "2026-05-01",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-01T10:31:34.657727+00:00",
+      "themes": [
+        "May Day",
+        "National Macaroon Day",
+        "Birthday Mother Jones"
+      ],
+      "content_preview": "Blossoms paint the air, Laughter twirls through the soft breeze, Together we bloom. Happy #MayDay from @ClamBakeSanta  C"
     }
   ]
 }

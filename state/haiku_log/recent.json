@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-04-23",
-    "theme": "National Cherry Cheesecake Day",
-    "haiku": "Juicy red jewels gleam,\nCreamy clouds on a plate,\nForks meet blissful dreams.\nHappy #NationalCherryCheesecakeDay from @ClamBakeSanta",
-    "tag": "NationalCherryCheesecakeDay",
-    "logged_at": "2026-04-23T10:22:57.784552+00:00"
-  },
-  {
-    "date": "2026-04-23",
-    "theme": "World Book Day",
-    "haiku": "Pages turn like leaves,\nWhispers of adventure,\nWorlds awaken wide.\nHappy #WorldBookDay from @ClamBakeSanta",
-    "tag": "WorldBookDay",
-    "logged_at": "2026-04-23T10:22:57.784552+00:00"
-  },
-  {
-    "date": "2026-04-23",
-    "theme": "Birthday William Shakespeare",
-    "haiku": "Quills dance on parchment,\nInk spills tales like summer rain,\nJoy in every word.\n#HappyBirthdayWilliamShakespeare from @ClamBakeSanta",
-    "tag": "HappyBirthdayWilliamShakespeare",
-    "logged_at": "2026-04-23T10:22:57.784552+00:00"
-  },
-  {
-    "date": "2026-04-23",
-    "theme": "Birthday James Buchanan",
-    "haiku": "Whispers of the breeze,\nLaughter blooms like wildflowers,\nJoy fills every heart.\n#HappyBirthdayJamesBuchanan from @ClamBakeSanta",
-    "tag": "HappyBirthdayJamesBuchanan",
-    "logged_at": "2026-04-23T10:22:57.784552+00:00"
-  },
-  {
     "date": "2026-04-24",
     "theme": "National Pigs in a Blanket Day",
     "haiku": "Savory hugs wrapped tight,\nPorky treasures snug in dough,\nWarm bites spark delight.\nHappy #NationalPigsInABlanketDay from @ClamBakeSanta",
@@ -166,5 +138,26 @@
     "haiku": "Candles softly glow,\nLaughter wraps the warm evening,\nDreams take flight on wings.\n#HappyBirthdayWilliamRandolphHearst from @ClamBakeSanta",
     "tag": "HappyBirthdayWilliamRandolphHearst",
     "logged_at": "2026-04-29T10:59:12.235171+00:00"
+  },
+  {
+    "date": "2026-04-30",
+    "theme": "International Jazz Day",
+    "haiku": "Saxophones shimmer,\nRhythms pulse in warm twilight,\nHearts sway, spirits rise.\nHappy #InternationalJazzDay from @ClamBakeSanta",
+    "tag": "InternationalJazzDay",
+    "logged_at": "2026-04-30T10:58:12.939717+00:00"
+  },
+  {
+    "date": "2026-04-30",
+    "theme": "National Oatmeal Cookie Day",
+    "haiku": "Warm cookies beckon,\nSpices swirl in the oven,\nNuts and chocolate dance.\nHappy #NationalOatmealCookieDay from @ClamBakeSanta",
+    "tag": "NationalOatmealCookieDay",
+    "logged_at": "2026-04-30T10:58:12.939717+00:00"
+  },
+  {
+    "date": "2026-04-30",
+    "theme": "Birthday Walter Lantz",
+    "haiku": "Laughter fills the air,\nColors burst like joyous blooms,\nCake's sweet warmth surrounds.\n#HappyBirthdayWalterLantz from @ClamBakeSanta",
+    "tag": "HappyBirthdayWalterLantz",
+    "logged_at": "2026-04-30T10:58:12.939717+00:00"
   }
 ]

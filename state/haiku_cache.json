@@ -1,27 +1,27 @@
 {
-  "date": "2026-04-30",
+  "date": "2026-05-01",
   "haikus": [
     {
-      "theme": "International Jazz Day",
-      "haiku": "Saxophones shimmer,\nRhythms pulse in warm twilight,\nHearts sway, spirits rise.\nHappy #InternationalJazzDay from @ClamBakeSanta",
-      "tag": "InternationalJazzDay"
+      "theme": "May Day",
+      "haiku": "Blossoms paint the air,\nLaughter twirls through the soft breeze,\nTogether we bloom.\nHappy #MayDay from @ClamBakeSanta",
+      "tag": "MayDay"
     },
     {
-      "theme": "National Oatmeal Cookie Day",
-      "haiku": "Warm cookies beckon,\nSpices swirl in the oven,\nNuts and chocolate dance.\nHappy #NationalOatmealCookieDay from @ClamBakeSanta",
-      "tag": "NationalOatmealCookieDay"
+      "theme": "National Macaroon Day",
+      "haiku": "Coconut clouds rise,\nSweet almond whispers beckon,\nJoy in every bite.\nHappy #NationalMacaroonDay from @ClamBakeSanta",
+      "tag": "NationalMacaroonDay"
     },
     {
-      "theme": "Birthday Walter Lantz",
-      "haiku": "Laughter fills the air,\nColors burst like joyous blooms,\nCake's sweet warmth surrounds.\n#HappyBirthdayWalterLantz from @ClamBakeSanta",
-      "tag": "HappyBirthdayWalterLantz"
+      "theme": "Birthday Mother Jones",
+      "haiku": "Laughter fills the air,\nCake and dreams in every bite,\nJoyous hearts unite.\n#HappyBirthdayMotherJones from @ClamBakeSanta",
+      "tag": "HappyBirthdayMotherJones"
     }
   ],
   "themes": [
-    "International Jazz Day",
-    "National Oatmeal Cookie Day",
-    "Birthday Walter Lantz"
+    "May Day",
+    "National Macaroon Day",
+    "Birthday Mother Jones"
   ],
-  "content": "Saxophones shimmer,\nRhythms pulse in warm twilight,\nHearts sway, spirits rise.\nHappy #InternationalJazzDay from @ClamBakeSanta\n\nWarm cookies beckon,\nSpices swirl in the oven,\nNuts and chocolate dance.\nHappy #NationalOatmealCookieDay from @ClamBakeSanta\n\nLaughter fills the air,\nColors burst like joyous blooms,\nCake's sweet warmth surrounds.\n#HappyBirthdayWalterLantz from @ClamBakeSanta",
-  "saved_at": "2026-04-30T10:58:12.939309+00:00"
+  "content": "Blossoms paint the air,\nLaughter twirls through the soft breeze,\nTogether we bloom.\nHappy #MayDay from @ClamBakeSanta\n\nCoconut clouds rise,\nSweet almond whispers beckon,\nJoy in every bite.\nHappy #NationalMacaroonDay from @ClamBakeSanta\n\nLaughter fills the air,\nCake and dreams in every bite,\nJoyous hearts unite.\n#HappyBirthdayMotherJones from @ClamBakeSanta",
+  "saved_at": "2026-05-01T10:25:22.022888+00:00"
 }
