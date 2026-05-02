@@ -3,106 +3,171 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Clam Bake Santa</title>
+  <title>Clam Bake Santa — Daily Haiku Bot</title>
   <style>
     :root {
       --bg: #fdfaf5;
       --card: #ffffff;
       --accent: #2c6e49;
+      --accent2: #1a4731;
       --text: #1a1a2e;
       --muted: #666;
       --border: #e0d9cc;
+      --tag-bg: #eef6f0;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background: var(--bg);
       color: var(--text);
       font-family: Georgia, 'Times New Roman', serif;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
       line-height: 1.7;
     }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
     header {
       text-align: center;
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
+      padding: 4rem 1.5rem 3rem;
       border-bottom: 2px solid var(--border);
+      background: linear-gradient(180deg, #f5f0e8 0%, var(--bg) 100%);
     }
-    header h1 { font-size: 2rem; color: var(--accent); }
-    header p { color: var(--muted); font-style: italic; margin-top: 0.3rem; }
-    nav { margin: 1rem 0; text-align: center; }
-    nav a {
-      color: var(--accent);
-      text-decoration: none;
-      margin: 0 0.8rem;
-      font-family: Arial, sans-serif;
-      font-size: 0.9rem;
+    header img {
+      width: 160px; height: 160px; border-radius: 50%;
+      object-fit: cover; display: block;
+      margin: 0 auto 1.5rem;
+      border: 3px solid var(--border);
     }
-    nav a:hover { text-decoration: underline; }
-    .haiku-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.5rem;
-      margin: 1.5rem 0;
+    header h1 { font-size: 2.6rem; color: var(--accent2); letter-spacing: -0.5px; }
+    header p.tagline { font-style: italic; color: var(--muted); margin-top: 0.4rem; font-size: 1.1rem; }
+    nav {
+      margin-top: 1.5rem;
+      display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;
+      font-family: Arial, sans-serif; font-size: 0.9rem;
     }
-    .haiku-card h2 {
-      font-size: 1rem;
-      color: var(--muted);
-      font-family: Arial, sans-serif;
-      margin-bottom: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .haiku-text {
-      font-size: 1.15rem;
-      white-space: pre-line;
-      line-height: 2;
-    }
-    .hashtag { color: var(--accent); font-size: 0.9rem; margin-top: 0.5rem; font-family: Arial, sans-serif; }
-    .empty { text-align: center; color: var(--muted); padding: 3rem 0; font-style: italic; }
-    ul.archive-list { list-style: none; }
-    ul.archive-list li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
-    ul.archive-list a { color: var(--accent); text-decoration: none; font-family: Arial, sans-serif; }
-    ul.archive-list a:hover { text-decoration: underline; }
-    footer {
-      margin-top: 3rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.85rem;
-      font-family: Arial, sans-serif;
-    }
+    nav a { background: var(--accent); color: #fff; padding: 0.45rem 1.2rem; border-radius: 24px; font-weight: 600; }
+    nav a:hover { background: var(--accent2); text-decoration: none; }
+    nav a.outline { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+    nav a.outline:hover { background: var(--tag-bg); }
+
+    section { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; border-bottom: 1px solid var(--border); }
+    section:last-of-type { border-bottom: none; }
+    h2 { font-size: 1.4rem; color: var(--accent2); margin-bottom: 1.2rem; }
+    p { margin-bottom: 0.9rem; }
+    p:last-child { margin-bottom: 0; }
+
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1.2rem; }
+    .feat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; }
+    .feat .icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+    .feat h3 { font-size: 0.95rem; font-family: Arial, sans-serif; margin-bottom: 0.4rem; }
+    .feat p { font-size: 0.875rem; color: var(--muted); font-family: Arial, sans-serif; margin: 0; }
+
+    .adapter-list { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; font-family: Arial, sans-serif; }
+    .adapter-tag { background: var(--tag-bg); border: 1px solid var(--border); border-radius: 6px; padding: 0.35rem 0.85rem; font-size: 0.85rem; color: var(--accent2); font-weight: 600; }
+
+    table { width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 0.88rem; margin-top: 1rem; }
+    th { background: var(--tag-bg); color: var(--accent2); padding: 0.6rem 1rem; text-align: left; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    td { padding: 0.55rem 1rem; border-bottom: 1px solid var(--border); }
+    tr:last-child td { border-bottom: none; }
+    code { font-family: 'Courier New', monospace; font-size: 0.85em; background: var(--tag-bg); padding: 0.1rem 0.3rem; border-radius: 3px; }
+
+    .blueprints { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+    .bp-link { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.7rem 1.2rem; font-family: Arial, sans-serif; font-size: 0.88rem; color: var(--accent); font-weight: 600; }
+    .bp-link:hover { background: var(--tag-bg); text-decoration: none; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; border-top: 2px solid var(--border); color: var(--muted); font-size: 0.85rem; font-family: Arial, sans-serif; }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://soylentaquamarine.github.io/ClamBakeSanta/santa_clambake.png" alt="Santa at a clam bake"
-         style="width:180px;height:180px;object-fit:cover;border-radius:50%;margin-bottom:1rem;display:block;margin-left:auto;margin-right:auto;">
-    <h1>Clam Bake Santa</h1>
-    <p>Daily haikus for today's holidays and birthdays</p>
-  </header>
+
+<header>
+  <img src="santa_clambake.png" alt="Santa at a clam bake">
+  <h1>Clam Bake Santa</h1>
+  <p class="tagline">Daily haikus celebrating today's holidays and birthdays</p>
   <nav>
-    <a href="https://soylentaquamarine.github.io/ClamBakeSanta/">Home</a>
-    <a href="https://soylentaquamarine.github.io/ClamBakeSanta/archives/">Archive</a>
-    <a href="https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml">RSS Feed</a>
+    <a href="daily.html">Today's Haiku</a>
+    <a href="archives/">Archive</a>
+    <a class="outline" href="feed.xml">RSS Feed</a>
+    <a class="outline" href="https://github.com/SoylentAquamarine/ClamBakeSanta">GitHub</a>
   </nav>
-  <p style='text-align:center;color:var(--muted);font-family:Arial,sans-serif;margin-bottom:1rem'>2026-05-02</p>
-<div class="haiku-card"><h2>National Truffle Day</h2><div class="haiku-text">Earth&#x27;s hidden jewels gleam,
-Rich and earthy whispers swirl,
-Joy in every bite.</div><div class="hashtag">Happy #NationalTruffleDay from @ClamBakeSanta</div></div>
-<div class="haiku-card"><h2>National Ferret Day</h2><div class="haiku-text">Soft fur twirls and plays,
-Joyful leaps in sunlit nooks,
-Whiskers twitch with glee.</div><div class="hashtag">Happy #NationalFerretDay from @ClamBakeSanta</div></div>
-<div class="haiku-card"><h2>Happy Birthday Bing Crosby</h2><div class="haiku-text">Laughter fills the room,
-Velvet voices intertwine,
-Joy&#x27;s sweet serenade.</div><div class="hashtag">#HappyBirthdayBingCrosby from @ClamBakeSanta</div></div>
-  <footer>
-    © 2026 Clam Bake Santa &nbsp;·&nbsp;
-    Powered by GitHub Actions + GitHub Models &nbsp;·&nbsp;
-    <a href="https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml" style="color:inherit">RSS</a>
-  </footer>
+</header>
+
+<section>
+  <h2>What is this?</h2>
+  <p>Every morning, GitHub Actions wakes up, reads today's holidays and celebrity birthdays from curated data files, calls a free AI to write three haikus, and publishes the results here — and to nine social platforms — automatically. Zero human intervention. Zero cost.</p>
+  <p>It's also a demonstration of a reusable, plugin-based automation framework: the AI engine, input sources, and output channels are all independently swappable by editing a single config file.</p>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <div class="features">
+    <div class="feat">
+      <div class="icon">📅</div>
+      <h3>Curated data files</h3>
+      <p>Holidays and birthdays are read from hand-curated .txt files. You control every subject the AI writes about.</p>
+    </div>
+    <div class="feat">
+      <div class="icon">🤖</div>
+      <h3>Free AI generation</h3>
+      <p>GitHub Models (gpt-4o-mini) generates three haikus per day using the GITHUB_TOKEN — no API key purchase required.</p>
+    </div>
+    <div class="feat">
+      <div class="icon">🔌</div>
+      <h3>Plugin architecture</h3>
+      <p>Sources, engines, and adapters are swappable plugins. Add a new output channel without touching framework code.</p>
+    </div>
+    <div class="feat">
+      <div class="icon">🛡️</div>
+      <h3>Idempotent pipeline</h3>
+      <p>Haikus are cached by date. Re-runs and adapter retries always use the same poems — no double-posting.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Published to 9 platforms</h2>
+  <p>Each adapter runs independently — one failure never stops the others. Missing credentials cause a silent skip.</p>
+  <div class="adapter-list">
+    <span class="adapter-tag">Mastodon</span>
+    <span class="adapter-tag">Bluesky</span>
+    <span class="adapter-tag">Tumblr</span>
+    <span class="adapter-tag">Telegram</span>
+    <span class="adapter-tag">Email list</span>
+    <span class="adapter-tag">Reddit (r/haiku)</span>
+    <span class="adapter-tag">WordPress</span>
+    <span class="adapter-tag">GitHub Pages</span>
+    <span class="adapter-tag">Discord</span>
+  </div>
+</section>
+
+<section>
+  <h2>Tech stack</h2>
+  <table>
+    <tr><th>Component</th><th>Technology</th></tr>
+    <tr><td>Language</td><td>Python 3</td></tr>
+    <tr><td>Scheduling</td><td>GitHub Actions (cron, daily 8 AM ET)</td></tr>
+    <tr><td>AI engine</td><td>GitHub Models — gpt-4o-mini (free, uses <code>GITHUB_TOKEN</code>)</td></tr>
+    <tr><td>Static site</td><td>GitHub Pages (serves <code>docs/</code>)</td></tr>
+    <tr><td>Configuration</td><td>PyYAML — <code>config.yml</code> drives the entire pipeline</td></tr>
+    <tr><td>Cost</td><td>$0.00</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>Developer documentation</h2>
+  <p>These blueprints are the authoritative system design. All code changes must be reflected here.</p>
+  <div class="blueprints">
+    <a class="bp-link" href="blueprints/system-overview.html">System Overview</a>
+    <a class="bp-link" href="blueprints/data-pipeline.html">Data Pipeline</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Clam Bake Santa &nbsp;·&nbsp;
+  Powered by GitHub Actions + GitHub Models + GitHub Pages &nbsp;·&nbsp;
+  <a href="feed.xml" style="color:inherit">RSS</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/SoylentAquamarine/ClamBakeSanta" style="color:inherit">GitHub</a>
+</footer>
+
 </body>
 </html>
