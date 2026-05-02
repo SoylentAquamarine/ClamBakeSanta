@@ -18,7 +18,8 @@
     "2026-04-28",
     "2026-04-29",
     "2026-04-30",
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "runs": [
     {
@@ -233,6 +234,17 @@
         "Birthday Mother Jones"
       ],
       "content_preview": "Blossoms paint the air, Laughter twirls through the soft breeze, Together we bloom. Happy #MayDay from @ClamBakeSanta  C"
+    },
+    {
+      "date": "2026-05-02",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-02T10:06:27.832524+00:00",
+      "themes": [
+        "National Truffle Day",
+        "National Ferret Day",
+        "Birthday Bing Crosby"
+      ],
+      "content_preview": "Earth's hidden jewels gleam, Rich and earthy whispers swirl, Joy in every bite. Happy #NationalTruffleDay from @ClamBake"
     }
   ]
 }

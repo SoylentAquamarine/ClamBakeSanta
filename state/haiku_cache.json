@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-01",
+  "date": "2026-05-02",
   "haikus": [
     {
-      "theme": "May Day",
-      "haiku": "Blossoms paint the air,\nLaughter twirls through the soft breeze,\nTogether we bloom.\nHappy #MayDay from @ClamBakeSanta",
-      "tag": "MayDay"
+      "theme": "National Truffle Day",
+      "haiku": "Earth's hidden jewels gleam,\nRich and earthy whispers swirl,\nJoy in every bite.\nHappy #NationalTruffleDay from @ClamBakeSanta",
+      "tag": "NationalTruffleDay"
     },
     {
-      "theme": "National Macaroon Day",
-      "haiku": "Coconut clouds rise,\nSweet almond whispers beckon,\nJoy in every bite.\nHappy #NationalMacaroonDay from @ClamBakeSanta",
-      "tag": "NationalMacaroonDay"
+      "theme": "National Ferret Day",
+      "haiku": "Soft fur twirls and plays,\nJoyful leaps in sunlit nooks,\nWhiskers twitch with glee.\nHappy #NationalFerretDay from @ClamBakeSanta",
+      "tag": "NationalFerretDay"
     },
     {
-      "theme": "Birthday Mother Jones",
-      "haiku": "Laughter fills the air,\nCake and dreams in every bite,\nJoyous hearts unite.\n#HappyBirthdayMotherJones from @ClamBakeSanta",
-      "tag": "HappyBirthdayMotherJones"
+      "theme": "Birthday Bing Crosby",
+      "haiku": "Laughter fills the room,\nVelvet voices intertwine,\nJoy's sweet serenade.\n#HappyBirthdayBingCrosby from @ClamBakeSanta",
+      "tag": "HappyBirthdayBingCrosby"
     }
   ],
   "themes": [
-    "May Day",
-    "National Macaroon Day",
-    "Birthday Mother Jones"
+    "National Truffle Day",
+    "National Ferret Day",
+    "Birthday Bing Crosby"
   ],
-  "content": "Blossoms paint the air,\nLaughter twirls through the soft breeze,\nTogether we bloom.\nHappy #MayDay from @ClamBakeSanta\n\nCoconut clouds rise,\nSweet almond whispers beckon,\nJoy in every bite.\nHappy #NationalMacaroonDay from @ClamBakeSanta\n\nLaughter fills the air,\nCake and dreams in every bite,\nJoyous hearts unite.\n#HappyBirthdayMotherJones from @ClamBakeSanta",
-  "saved_at": "2026-05-01T10:25:22.022888+00:00"
+  "content": "Earth's hidden jewels gleam,\nRich and earthy whispers swirl,\nJoy in every bite.\nHappy #NationalTruffleDay from @ClamBakeSanta\n\nSoft fur twirls and plays,\nJoyful leaps in sunlit nooks,\nWhiskers twitch with glee.\nHappy #NationalFerretDay from @ClamBakeSanta\n\nLaughter fills the room,\nVelvet voices intertwine,\nJoy's sweet serenade.\n#HappyBirthdayBingCrosby from @ClamBakeSanta",
+  "saved_at": "2026-05-02T10:00:04.169125+00:00"
 }

@@ -1,0 +1,20 @@
+{
+  "NationalTruffleDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf3vh3ks2s",
+      "cid": "bafyreihrymrl2ontlhacrtbd5z7rn5fzyz54gozrh6b5w5avvrsf7d2mry"
+    }
+  },
+  "NationalFerretDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf5p46hh2s",
+      "cid": "bafyreifjpfb3eh3jproj3q472sd7briusdaxtz7csmwlogstodeclxe6t4"
+    }
+  },
+  "HappyBirthdayBingCrosby": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf7iqcvg2c",
+      "cid": "bafyreicmu2bmbc4fupp4sk7s7ypji6mibhu6rq65baxqowrzoudqrrbu6a"
+    }
+  }
+}
