@@ -1,53 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>System Overview — ClamBakeSanta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>System Overview — Clam Bake Santa</title>
   <style>
     :root {
-      --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a;
-      --accent: #4ecdc4; --text: #e2e8f0; --muted: #8892a4;
-      --code-bg: #090c13; --th-bg: #141720;
+      --bg: #fdfaf5;
+      --card: #ffffff;
+      --accent: #2c6e49;
+      --accent2: #1a4731;
+      --text: #1a1a2e;
+      --muted: #666;
+      --border: #e0d9cc;
+      --tag-bg: #eef6f0;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+    body { background: var(--bg); color: var(--text); font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.6rem 2rem; font-size: 0.82rem; color: var(--muted); }
-    .topbar a { color: var(--muted); } .topbar a:hover { color: var(--accent); } .topbar span { margin: 0 0.4rem; }
-    header { padding: 2.5rem 2rem 2rem; border-bottom: 1px solid var(--border); }
-    header h1 { font-size: 1.9rem; font-weight: 700; color: var(--accent); }
-    header p.meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
-    main { max-width: 860px; margin: 0 auto; padding: 2rem; }
-    h2 { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
-    h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin: 1.5rem 0 0.6rem; }
-    p { margin-bottom: 0.85rem; } p:last-child { margin-bottom: 0; }
-    ul, ol { margin: 0.5rem 0 0.85rem 1.4rem; } li { margin-bottom: 0.35rem; }
-    table { width: 100%; border-collapse: collapse; margin: 0.8rem 0 1rem; font-size: 0.88rem; }
-    th { background: var(--th-bg); color: var(--accent); padding: 0.55rem 1rem; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid var(--border); }
-    td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--border); }
-    tr:last-child td { border-bottom: none; } tr:hover td { background: #1e2130; }
-    code { font-family: 'Courier New', Consolas, monospace; font-size: 0.85em; background: var(--code-bg); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 3px; color: var(--accent); }
-    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; overflow-x: auto; margin: 0.8rem 0 1rem; }
-    pre code { background: none; border: none; padding: 0; font-size: 0.87rem; color: #c3cfe8; }
-    blockquote { border-left: 3px solid var(--accent); margin: 1rem 0; padding: 0.6rem 1rem; color: var(--muted); font-style: italic; background: var(--surface); border-radius: 0 6px 6px 0; }
-    footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.82rem; text-align: center; }
+
+    header {
+      text-align: center;
+      padding: 4rem 1.5rem 3rem;
+      border-bottom: 2px solid var(--border);
+      background: linear-gradient(180deg, #f5f0e8 0%, var(--bg) 100%);
+    }
+    header img {
+      width: 120px; height: 120px; border-radius: 50%;
+      object-fit: cover; display: block;
+      margin: 0 auto 1.2rem;
+      border: 3px solid var(--border);
+    }
+    header h1 { font-size: 2rem; color: var(--accent2); letter-spacing: -0.5px; }
+    header p.sub { font-style: italic; color: var(--muted); margin-top: 0.3rem; font-size: 0.95rem; }
+    nav {
+      margin-top: 1.2rem;
+      display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;
+      font-family: Arial, sans-serif; font-size: 0.85rem;
+    }
+    nav a { background: var(--accent); color: #fff; padding: 0.4rem 1rem; border-radius: 24px; font-weight: 600; }
+    nav a:hover { background: var(--accent2); text-decoration: none; }
+    nav a.outline { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+    nav a.outline:hover { background: var(--tag-bg); }
+
+    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+    h2 { font-size: 1.3rem; color: var(--accent2); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--border); }
+    h3 { font-size: 1rem; font-weight: bold; color: var(--text); margin: 1.5rem 0 0.5rem; font-family: Arial, sans-serif; }
+    p { margin-bottom: 0.9rem; } p:last-child { margin-bottom: 0; }
+    ul, ol { margin: 0.5rem 0 0.9rem 1.4rem; } li { margin-bottom: 0.35rem; }
+
+    table { width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 0.88rem; margin: 0.8rem 0 1rem; }
+    th { background: var(--tag-bg); color: var(--accent2); padding: 0.55rem 1rem; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f5f5ef; }
+
+    code { font-family: 'Courier New', monospace; font-size: 0.85em; background: var(--tag-bg); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 3px; color: var(--accent2); }
+    pre { background: var(--tag-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; overflow-x: auto; margin: 0.8rem 0 1rem; }
+    pre code { background: none; border: none; padding: 0; font-size: 0.85rem; color: var(--text); }
+
+    blockquote { border-left: 3px solid var(--accent); margin: 1rem 0; padding: 0.6rem 1rem; color: var(--muted); font-style: italic; background: var(--tag-bg); border-radius: 0 6px 6px 0; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; border-top: 2px solid var(--border); color: var(--muted); font-size: 0.85rem; font-family: Arial, sans-serif; margin-top: 2rem; }
   </style>
 </head>
 <body>
 
-<div class="topbar">
-  <a href="../index.html">ClamBakeSanta</a>
-  <span>/</span>
-  <a href="../index.html">Docs</a>
-  <span>/</span>
-  System Overview
-</div>
-
 <header>
-  <h1>System Overview — ClamBakeSanta</h1>
-  <p class="meta">Blueprint · Last updated 2026-05-02</p>
+  <img src="../santa_clambake.png" alt="Santa at a clam bake">
+  <h1>System Overview</h1>
+  <p class="sub">Clam Bake Santa — Blueprint</p>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../daily.html">Today's Haiku</a>
+    <a href="../archives/">Archive</a>
+    <a class="outline" href="data-pipeline.html">Data Pipeline →</a>
+  </nav>
 </header>
 
 <main>
@@ -84,7 +114,7 @@
   </ul>
 
   <h3>Layer 3: Adapters (9 output channels)</h3>
-  <p>Each adapter independently publishes the <code>Result</code> to a platform. One adapter failing never stops the others. Missing credentials cause a silent skip (returns <code>False</code>). Active adapters are listed in <code>config.yml: adapters:</code>.</p>
+  <p>Each adapter independently publishes the <code>Result</code> to a platform. One adapter failing never stops the others. Missing credentials cause a silent skip (returns <code>False</code>).</p>
   <table>
     <tr><th>Adapter</th><th>Platform</th><th>Notes</th></tr>
     <tr><td><code>mastodon</code></td><td>Mastodon</td><td>1 post per haiku, 1 minute apart</td></tr>
@@ -103,7 +133,6 @@
 
   <h2>Plugin System</h2>
   <p>Plugins self-register via <code>@register()</code> decorators when their modules are imported. The framework imports all plugin modules listed in <code>config.yml: plugin_modules:</code> at startup. Adding a new plugin = add its module path to <code>plugin_modules</code>. The framework's <code>get_plugin('adapters', 'my_adapter')</code> looks up the registered class.</p>
-  <p>Core plugin interfaces in <code>framework/</code>:</p>
   <ul>
     <li><code>framework/adapters/base.py</code> — <code>BaseAdapter</code> with <code>publish(result) → bool</code></li>
     <li><code>framework/engines/base.py</code> — <code>BaseEngine</code> with <code>process(event) → Result</code></li>
@@ -144,7 +173,6 @@
   <p>24 files total (2 per month × 12 months). The curated data is the safety layer — the AI never writes about anything not in these files.</p>
 
   <h2>Static Site Output</h2>
-  <p>The <code>docs/</code> directory is served by GitHub Pages. The <code>github_pages</code> adapter writes to it on every run.</p>
   <table>
     <tr><th>File</th><th>Contents</th></tr>
     <tr><td><code>docs/index.html</code></td><td>Permanent project homepage (static — not overwritten by the bot)</td></tr>
@@ -166,6 +194,12 @@
 
 </main>
 
-<footer>Blueprint · ClamBakeSanta · <a href="../index.html">← Back to docs</a></footer>
+<footer>
+  © 2026 Clam Bake Santa &nbsp;·&nbsp;
+  <a href="../index.html" style="color:inherit">← Back to home</a>
+  &nbsp;·&nbsp;
+  <a href="data-pipeline.html" style="color:inherit">Data Pipeline →</a>
+</footer>
+
 </body>
 </html>

@@ -1,52 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data Pipeline — ClamBakeSanta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Pipeline — Clam Bake Santa</title>
   <style>
     :root {
-      --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a;
-      --accent: #4ecdc4; --text: #e2e8f0; --muted: #8892a4;
-      --code-bg: #090c13; --th-bg: #141720;
+      --bg: #fdfaf5;
+      --card: #ffffff;
+      --accent: #2c6e49;
+      --accent2: #1a4731;
+      --text: #1a1a2e;
+      --muted: #666;
+      --border: #e0d9cc;
+      --tag-bg: #eef6f0;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+    body { background: var(--bg); color: var(--text); font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.6rem 2rem; font-size: 0.82rem; color: var(--muted); }
-    .topbar a { color: var(--muted); } .topbar a:hover { color: var(--accent); } .topbar span { margin: 0 0.4rem; }
-    header { padding: 2.5rem 2rem 2rem; border-bottom: 1px solid var(--border); }
-    header h1 { font-size: 1.9rem; font-weight: 700; color: var(--accent); }
-    header p.meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
-    main { max-width: 860px; margin: 0 auto; padding: 2rem; }
-    h2 { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
-    h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin: 1.5rem 0 0.6rem; }
-    p { margin-bottom: 0.85rem; } p:last-child { margin-bottom: 0; }
-    ul, ol { margin: 0.5rem 0 0.85rem 1.4rem; } li { margin-bottom: 0.35rem; }
-    table { width: 100%; border-collapse: collapse; margin: 0.8rem 0 1rem; font-size: 0.88rem; }
-    th { background: var(--th-bg); color: var(--accent); padding: 0.55rem 1rem; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid var(--border); }
-    td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--border); }
-    tr:last-child td { border-bottom: none; } tr:hover td { background: #1e2130; }
-    code { font-family: 'Courier New', Consolas, monospace; font-size: 0.85em; background: var(--code-bg); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 3px; color: var(--accent); }
-    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; overflow-x: auto; margin: 0.8rem 0 1rem; }
-    pre code { background: none; border: none; padding: 0; font-size: 0.87rem; color: #c3cfe8; }
-    footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.82rem; text-align: center; }
+
+    header {
+      text-align: center;
+      padding: 4rem 1.5rem 3rem;
+      border-bottom: 2px solid var(--border);
+      background: linear-gradient(180deg, #f5f0e8 0%, var(--bg) 100%);
+    }
+    header img {
+      width: 120px; height: 120px; border-radius: 50%;
+      object-fit: cover; display: block;
+      margin: 0 auto 1.2rem;
+      border: 3px solid var(--border);
+    }
+    header h1 { font-size: 2rem; color: var(--accent2); letter-spacing: -0.5px; }
+    header p.sub { font-style: italic; color: var(--muted); margin-top: 0.3rem; font-size: 0.95rem; }
+    nav {
+      margin-top: 1.2rem;
+      display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;
+      font-family: Arial, sans-serif; font-size: 0.85rem;
+    }
+    nav a { background: var(--accent); color: #fff; padding: 0.4rem 1rem; border-radius: 24px; font-weight: 600; }
+    nav a:hover { background: var(--accent2); text-decoration: none; }
+    nav a.outline { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+    nav a.outline:hover { background: var(--tag-bg); }
+
+    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+    h2 { font-size: 1.3rem; color: var(--accent2); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--border); }
+    h3 { font-size: 1rem; font-weight: bold; color: var(--text); margin: 1.5rem 0 0.5rem; font-family: Arial, sans-serif; }
+    p { margin-bottom: 0.9rem; } p:last-child { margin-bottom: 0; }
+    ul, ol { margin: 0.5rem 0 0.9rem 1.4rem; } li { margin-bottom: 0.35rem; }
+
+    table { width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 0.88rem; margin: 0.8rem 0 1rem; }
+    th { background: var(--tag-bg); color: var(--accent2); padding: 0.55rem 1rem; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f5f5ef; }
+
+    code { font-family: 'Courier New', monospace; font-size: 0.85em; background: var(--tag-bg); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 3px; color: var(--accent2); }
+    pre { background: var(--tag-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; overflow-x: auto; margin: 0.8rem 0 1rem; }
+    pre code { background: none; border: none; padding: 0; font-size: 0.85rem; color: var(--text); }
+
+    footer { text-align: center; padding: 2rem 1.5rem; border-top: 2px solid var(--border); color: var(--muted); font-size: 0.85rem; font-family: Arial, sans-serif; margin-top: 2rem; }
   </style>
 </head>
 <body>
 
-<div class="topbar">
-  <a href="../index.html">ClamBakeSanta</a>
-  <span>/</span>
-  <a href="../index.html">Docs</a>
-  <span>/</span>
-  Data Pipeline
-</div>
-
 <header>
-  <h1>Data Pipeline — ClamBakeSanta</h1>
-  <p class="meta">Blueprint · Last updated 2026-05-02</p>
+  <img src="../santa_clambake.png" alt="Santa at a clam bake">
+  <h1>Data Pipeline</h1>
+  <p class="sub">Clam Bake Santa — Blueprint</p>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../daily.html">Today's Haiku</a>
+    <a href="../archives/">Archive</a>
+    <a class="outline" href="system-overview.html">← System Overview</a>
+  </nav>
 </header>
 
 <main>
@@ -111,12 +140,12 @@ class Event:
   <h2>Step 3: Deduplication Check</h2>
   <pre><code>if not force and state.already_ran_today(event.date_str):
     return {"date": ..., "skipped": True}</code></pre>
-  <p><code>JsonStateStore.already_ran_today()</code> reads <code>state/run_log.json</code> and checks for a successful run on <code>date_str</code>. If found, the run returns early. Override with <code>--force</code> (CLI) or <code>force=True</code> (programmatic). Used by adapter test workflows that need to run outside the daily deduplication window.</p>
+  <p><code>JsonStateStore.already_ran_today()</code> reads <code>state/run_log.json</code> and checks for a successful run on <code>date_str</code>. If found, the run returns early. Override with <code>--force</code> (CLI) or <code>force=True</code> (programmatic).</p>
 
   <h2>Step 4a: Haiku Cache Check</h2>
   <pre><code>cache = None if regenerate else _load_cache(config, event.date_str)</code></pre>
   <p><strong>Cache hit:</strong> <code>haiku_cache.json</code> exists and its <code>"date"</code> field matches <code>event.date_str</code>. The engine is skipped entirely — <code>_result_from_cache()</code> reconstructs a <code>Result</code> from the cached data.</p>
-  <p><strong>Cache miss:</strong> No cache file, wrong date, or <code>--regenerate</code> flag passed. Engine runs normally.</p>
+  <p><strong>Cache miss:</strong> No cache file, wrong date, or <code>--regenerate</code> flag. Engine runs normally.</p>
   <p><strong>Why cache exists:</strong> All adapters for a given day must use the same haikus. If the pipeline reruns (e.g., an adapter failed and the workflow was re-triggered), the cache ensures every platform gets identical poems rather than AI-regenerated ones that would differ.</p>
   <p><strong>Haiku cache schema</strong> (<code>state/haiku_cache.json</code>):</p>
   <pre><code>{
@@ -147,7 +176,7 @@ class Result:
 
   <h2>Step 5: <code>validate_result()</code></h2>
   <p><strong>File:</strong> <code>framework/validation.py</code></p>
-  <p>Checks the <code>Result</code> before any adapter runs. Raises <code>ValidationError</code> on empty/missing <code>content</code>, missing/malformed <code>metadata</code>, or missing <code>haikus</code> list in metadata. Called <strong>once</strong> after the engine/cache step (hard stop), then called <strong>again</strong> at the start of each adapter loop iteration (paranoia check).</p>
+  <p>Checks the <code>Result</code> before any adapter runs. Raises <code>ValidationError</code> on empty/missing <code>content</code>, missing/malformed <code>metadata</code>, or missing <code>haikus</code> list. Called <strong>once</strong> after the engine/cache step (hard stop), then called <strong>again</strong> at the start of each adapter loop iteration (paranoia check).</p>
 
   <h2>Step 6: Adapter Loop</h2>
   <pre><code>for adapter_id in config["adapters"]:
@@ -170,7 +199,6 @@ class Result:
   <p><code>JsonStateStore.record_run()</code> appends the run record to <code>state/run_log.json</code>. Future runs on the same date will see <code>already_ran_today()</code> return <code>True</code>, preventing double-posting.</p>
 
   <h2>Run Summary</h2>
-  <p>The <code>run()</code> function returns:</p>
   <pre><code>{
     "date": "2026-05-02",
     "engine": "clambakesanta",
@@ -201,6 +229,12 @@ class Result:
 
 </main>
 
-<footer>Blueprint · ClamBakeSanta · <a href="../index.html">← Back to docs</a></footer>
+<footer>
+  © 2026 Clam Bake Santa &nbsp;·&nbsp;
+  <a href="../index.html" style="color:inherit">← Back to home</a>
+  &nbsp;·&nbsp;
+  <a href="system-overview.html" style="color:inherit">← System Overview</a>
+</footer>
+
 </body>
 </html>
