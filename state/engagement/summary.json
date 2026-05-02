@@ -1,4 +1,51 @@
 {
+  "2026-05-02": {
+    "NationalTruffleDay": {
+      "theme": "National Truffle Day",
+      "haiku": "Earth's hidden jewels gleam,\nRich and earthy whispers swirl,\nJoy in every bite.\nHappy #NationalTruffleDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf3vh3ks2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+    },
+    "NationalFerretDay": {
+      "theme": "National Ferret Day",
+      "haiku": "Soft fur twirls and plays,\nJoyful leaps in sunlit nooks,\nWhiskers twitch with glee.\nHappy #NationalFerretDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf5p46hh2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+    },
+    "HappyBirthdayBingCrosby": {
+      "theme": "Birthday Bing Crosby",
+      "haiku": "Laughter fills the room,\nVelvet voices intertwine,\nJoy's sweet serenade.\n#HappyBirthdayBingCrosby from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf7iqcvg2c",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+    }
+  },
   "2026-05-01": {
     "MayDay": {
       "theme": "May Day",
@@ -13,7 +60,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     },
     "NationalMacaroonDay": {
       "theme": "National Macaroon Day",
@@ -28,7 +75,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     },
     "HappyBirthdayMotherJones": {
       "theme": "Birthday Mother Jones",
@@ -43,7 +90,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     }
   },
   "2026-04-30": {
@@ -60,7 +107,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     },
     "NationalOatmealCookieDay": {
       "theme": "National Oatmeal Cookie Day",
@@ -75,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     },
     "HappyBirthdayWalterLantz": {
       "theme": "Birthday Walter Lantz",
@@ -90,7 +137,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     }
   },
   "2026-04-29": {
@@ -107,7 +154,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     },
     "WorldDanceDay": {
       "theme": "World Dance Day",
@@ -122,7 +169,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     },
     "HappyBirthdayDukeEllington": {
       "theme": "Birthday Duke Ellington",
@@ -137,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     },
     "HappyBirthdayWilliamRandolphHearst": {
       "theme": "Birthday William Randolph Hearst",
@@ -152,7 +199,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-01T22:42:04.499643+00:00"
+      "last_checked": "2026-05-02T22:32:27.956767+00:00"
     }
   },
   "2026-04-28": {
@@ -356,53 +403,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-04-28T22:48:54.796716+00:00"
-    }
-  },
-  "2026-04-24": {
-    "NationalPigsInABlanketDay": {
-      "theme": "National Pigs in a Blanket Day",
-      "haiku": "Savory hugs wrapped tight,\nPorky treasures snug in dough,\nWarm bites spark delight.\nHappy #NationalPigsInABlanketDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkacrqlt5d24",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-27T22:42:33.540628+00:00"
-    },
-    "WorldDayOfVeterinaryMedicine": {
-      "theme": "World Day of Veterinary Medicine",
-      "haiku": "Gentle paws embraced,\nHealing hands weave love's soft thread,\nWhiskers twitch with joy.\nHappy #WorldDayOfVeterinaryMedicine from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkactk2vd72s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-27T22:42:33.540628+00:00"
-    },
-    "HappyBirthdayAnthonyTrollope": {
-      "theme": "Birthday Anthony Trollope",
-      "haiku": "Pages turn like leaves,\nInk and dreams on parchment flow,\nCelebrations bright!\n#HappyBirthdayAnthonyTrollope from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkacvdjj5w2s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-27T22:42:33.540628+00:00"
     }
   }
 }
