@@ -36,13 +36,14 @@
     header p.sub { font-style: italic; color: var(--muted); margin-top: 0.3rem; font-size: 0.95rem; }
     nav {
       margin-top: 1.2rem;
-      display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;
+      display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap;
       font-family: Arial, sans-serif; font-size: 0.85rem;
     }
-    nav a { background: var(--accent); color: #fff; padding: 0.4rem 1rem; border-radius: 24px; font-weight: 600; }
-    nav a:hover { background: var(--accent2); text-decoration: none; }
-    nav a.outline { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
-    nav a.outline:hover { background: var(--tag-bg); }
+    nav a { background: transparent; color: var(--accent); border: 1px solid var(--border); padding: 0.35rem 1rem; border-radius: 24px; font-weight: 500; }
+    nav a:hover { border-color: var(--accent); background: var(--tag-bg); text-decoration: none; }
+    nav a.home { background: var(--accent); color: #fff; border-color: var(--accent); }
+    nav a.home:hover { background: var(--accent2); }
+    nav a.current { background: var(--accent2); color: #fff; border-color: var(--accent2); font-weight: 700; cursor: default; }
 
     main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
 
@@ -73,10 +74,9 @@
   <h1>System Overview</h1>
   <p class="sub">Clam Bake Santa — Blueprint</p>
   <nav>
-    <a href="../index.html">Home</a>
-    <a href="../daily.html">Today's Haiku</a>
-    <a href="../archives/">Archive</a>
-    <a class="outline" href="data-pipeline.html">Data Pipeline →</a>
+    <a class="home" href="../index.html">← Home</a>
+    <a class="current">System Overview</a>
+    <a href="data-pipeline.html">Data Pipeline</a>
   </nav>
 </header>
 
