@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Overview — ClamBakeSanta</title>
+  <style>
+    :root {
+      --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a;
+      --accent: #4ecdc4; --text: #e2e8f0; --muted: #8892a4;
+      --code-bg: #090c13; --th-bg: #141720;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.6rem 2rem; font-size: 0.82rem; color: var(--muted); }
+    .topbar a { color: var(--muted); } .topbar a:hover { color: var(--accent); } .topbar span { margin: 0 0.4rem; }
+    header { padding: 2.5rem 2rem 2rem; border-bottom: 1px solid var(--border); }
+    header h1 { font-size: 1.9rem; font-weight: 700; color: var(--accent); }
+    header p.meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 2rem; }
+    h2 { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+    h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin: 1.5rem 0 0.6rem; }
+    p { margin-bottom: 0.85rem; } p:last-child { margin-bottom: 0; }
+    ul, ol { margin: 0.5rem 0 0.85rem 1.4rem; } li { margin-bottom: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; margin: 0.8rem 0 1rem; font-size: 0.88rem; }
+    th { background: var(--th-bg); color: var(--accent); padding: 0.55rem 1rem; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid var(--border); }
+    td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--border); }
+    tr:last-child td { border-bottom: none; } tr:hover td { background: #1e2130; }
+    code { font-family: 'Courier New', Consolas, monospace; font-size: 0.85em; background: var(--code-bg); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 3px; color: var(--accent); }
+    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; overflow-x: auto; margin: 0.8rem 0 1rem; }
+    pre code { background: none; border: none; padding: 0; font-size: 0.87rem; color: #c3cfe8; }
+    blockquote { border-left: 3px solid var(--accent); margin: 1rem 0; padding: 0.6rem 1rem; color: var(--muted); font-style: italic; background: var(--surface); border-radius: 0 6px 6px 0; }
+    footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.82rem; text-align: center; }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="../index.html">ClamBakeSanta</a>
+  <span>/</span>
+  <a href="../index.html">Docs</a>
+  <span>/</span>
+  System Overview
+</div>
+
+<header>
+  <h1>System Overview — ClamBakeSanta</h1>
+  <p class="meta">Blueprint · Last updated 2026-05-02</p>
+</header>
+
+<main>
+
+  <h2>Purpose</h2>
+  <p>ClamBakeSanta is a fully automated daily haiku bot that operates without human intervention. Every morning it reads today's holidays and celebrity birthdays from curated data files, calls a free AI model to write three haikus, then publishes them to nine social platforms and a static website. The system is built entirely on free infrastructure: GitHub Actions, GitHub Models, and GitHub Pages. Zero cost. Zero manual steps.</p>
+  <blockquote>Beyond the haiku output, this project is a demonstration of a reusable, plugin-based automation framework — the AI engine, output channels, and input sources are all independently swappable via <code>config.yml</code>.</blockquote>
+
+  <h2>Tech Stack</h2>
+  <table>
+    <tr><th>Component</th><th>Technology</th></tr>
+    <tr><td>Language</td><td>Python 3</td></tr>
+    <tr><td>Configuration</td><td>PyYAML (<code>config.yml</code>)</td></tr>
+    <tr><td>Scheduling</td><td>GitHub Actions (cron, daily at 8 AM ET)</td></tr>
+    <tr><td>AI Engine</td><td>GitHub Models API (<code>gpt-4o-mini</code>), free tier, authenticated via <code>GITHUB_TOKEN</code></td></tr>
+    <tr><td>Static site</td><td>GitHub Pages (serves <code>docs/</code> directory)</td></tr>
+    <tr><td>State storage</td><td>JSON files in <code>state/</code> directory (machine-managed)</td></tr>
+  </table>
+
+  <h2>Core Architecture</h2>
+  <p>The entire system is driven by <code>config.yml</code>. No business logic is hardcoded in the framework. Each layer is swappable by changing the config — you can replace the AI engine, add output channels, or change the input source without modifying framework code.</p>
+  <pre><code>Source → validate_event → Engine (or cache) → validate_result → Adapters (×N) → State</code></pre>
+
+  <h3>Layer 1: Source</h3>
+  <p>Produces an <code>Event</code> object describing what is happening today. The active source is set by <code>config.yml: source: daily_holidays</code>.</p>
+  <ul>
+    <li><strong><code>daily_holidays</code></strong> plugin (<code>plugins/sources/daily_holidays.py</code>): Reads <code>data/{month}_randomholiday.txt</code> and <code>data/{month}_celebritybirthday.txt</code>. Returns an <code>Event</code> with <code>date_str</code> and <code>payload.themes</code> (list of strings).</li>
+  </ul>
+
+  <h3>Layer 2: Engine</h3>
+  <p>Transforms the <code>Event</code> into a <code>Result</code>. The active engine is set by <code>config.yml: engine: clambakesanta</code>.</p>
+  <ul>
+    <li><strong><code>clambakesanta</code></strong> plugin (<code>plugins/engines/clambakesanta.py</code>): Calls GitHub Models (<code>gpt-4o-mini</code>) with a structured prompt that includes today's themes. Generates 3 haikus. Returns a <code>Result</code> with formatted <code>content</code> and <code>metadata.haikus</code> + <code>metadata.themes</code>.</li>
+  </ul>
+
+  <h3>Layer 3: Adapters (9 output channels)</h3>
+  <p>Each adapter independently publishes the <code>Result</code> to a platform. One adapter failing never stops the others. Missing credentials cause a silent skip (returns <code>False</code>). Active adapters are listed in <code>config.yml: adapters:</code>.</p>
+  <table>
+    <tr><th>Adapter</th><th>Platform</th><th>Notes</th></tr>
+    <tr><td><code>mastodon</code></td><td>Mastodon</td><td>1 post per haiku, 1 minute apart</td></tr>
+    <tr><td><code>bluesky</code></td><td>Bluesky</td><td>1 post per haiku, 1 minute apart</td></tr>
+    <tr><td><code>tumblr</code></td><td>Tumblr</td><td>1 post per haiku, 1 minute apart</td></tr>
+    <tr><td><code>telegram</code></td><td>Telegram</td><td>1 post per haiku, 1 minute apart</td></tr>
+    <tr><td><code>email_list</code></td><td>Gmail subscribers</td><td>Daily digest email</td></tr>
+    <tr><td><code>reddit</code></td><td>r/haiku</td><td>One post per day</td></tr>
+    <tr><td><code>wordpress</code></td><td>WordPress.com</td><td>Daily digest post</td></tr>
+    <tr><td><code>github_pages</code></td><td>GitHub Pages</td><td>Updates <code>docs/daily.html</code> and archive</td></tr>
+    <tr><td><code>discord</code></td><td>Discord</td><td>Summary message after site updates</td></tr>
+  </table>
+
+  <h3>Layer 4: State</h3>
+  <p>After all adapters run, <code>state.record_run(result)</code> marks today as complete. Prevents double-posting on re-runs.</p>
+
+  <h2>Plugin System</h2>
+  <p>Plugins self-register via <code>@register()</code> decorators when their modules are imported. The framework imports all plugin modules listed in <code>config.yml: plugin_modules:</code> at startup. Adding a new plugin = add its module path to <code>plugin_modules</code>. The framework's <code>get_plugin('adapters', 'my_adapter')</code> looks up the registered class.</p>
+  <p>Core plugin interfaces in <code>framework/</code>:</p>
+  <ul>
+    <li><code>framework/adapters/base.py</code> — <code>BaseAdapter</code> with <code>publish(result) → bool</code></li>
+    <li><code>framework/engines/base.py</code> — <code>BaseEngine</code> with <code>process(event) → Result</code></li>
+    <li><code>framework/sources/base.py</code> — <code>BaseSource</code> with <code>produce() → Event</code></li>
+  </ul>
+
+  <h2>State Management</h2>
+  <p>The <code>state/</code> directory is entirely machine-managed. <strong>Never manually edit these files.</strong></p>
+  <table>
+    <tr><th>File / Dir</th><th>Contents</th><th>Purpose</th></tr>
+    <tr><td><code>haiku_cache.json</code></td><td><code>{ date, haikus, themes, content, saved_at }</code></td><td>Today's haikus — prevents AI re-call on reruns</td></tr>
+    <tr><td><code>run_log.json</code></td><td>Array of completed run records</td><td>Deduplication — <code>already_ran_today()</code> check</td></tr>
+    <tr><td><code>haiku_log/</code></td><td>Long-term haiku history files</td><td>Anti-repetition; weekly report source</td></tr>
+    <tr><td><code>engagement/</code></td><td>Per-platform engagement metrics</td><td>Tracked by <code>check_engagement.py</code></td></tr>
+    <tr><td><code>post_ids/</code></td><td>Per-platform post IDs</td><td>Deduplication and future reference</td></tr>
+    <tr><td><code>subscribers.json</code></td><td>Email subscriber list</td><td>Managed by <code>email_list</code> adapter</td></tr>
+  </table>
+  <p>The <code>.gitattributes</code> file configures a union merge driver for <code>state/**/*.json</code> — on any git merge conflict, both sides are appended rather than one side overwriting the other. This protects automated bot commits from being lost during developer pushes.</p>
+
+  <h2>GitHub Workflows</h2>
+  <table>
+    <tr><th>Workflow file</th><th>Schedule</th><th>Purpose</th></tr>
+    <tr><td><code>daily.yml</code></td><td>Cron: 8 AM ET daily</td><td>Main pipeline run</td></tr>
+    <tr><td><code>check_engagement.yml</code></td><td>Scheduled</td><td>Monitor platform engagement</td></tr>
+    <tr><td><code>check_subscriptions.yml</code></td><td>Scheduled</td><td>Validate email subscriptions</td></tr>
+    <tr><td><code>update_about_pages.yml</code></td><td>Triggered</td><td>Rebuild static about pages</td></tr>
+    <tr><td><code>weekly_report.yml</code></td><td>Cron: weekly</td><td>Generate weekly summary</td></tr>
+    <tr><td><code>test_adapter.yml</code></td><td>Manual</td><td>Generic adapter test</td></tr>
+    <tr><td><code>test_mastodon.yml</code> … <code>test_wordpress.yml</code></td><td>Manual</td><td>Individual adapter tests (9 total)</td></tr>
+  </table>
+
+  <h2>Data Files</h2>
+  <p>All subjects the AI writes about are controlled by curated text files in <code>data/</code>:</p>
+  <ul>
+    <li><code>data/{month}_randomholiday.txt</code> — Random/quirky holidays for each month</li>
+    <li><code>data/{month}_celebritybirthday.txt</code> — Celebrity birthdays for each month</li>
+  </ul>
+  <p>24 files total (2 per month × 12 months). The curated data is the safety layer — the AI never writes about anything not in these files.</p>
+
+  <h2>Static Site Output</h2>
+  <p>The <code>docs/</code> directory is served by GitHub Pages. The <code>github_pages</code> adapter writes to it on every run.</p>
+  <table>
+    <tr><th>File</th><th>Contents</th></tr>
+    <tr><td><code>docs/index.html</code></td><td>Permanent project homepage (static — not overwritten by the bot)</td></tr>
+    <tr><td><code>docs/daily.html</code></td><td>Today's haikus (updated daily by the bot)</td></tr>
+    <tr><td><code>docs/archives/YYYY-MM-DD.html</code></td><td>Permanent per-day archive pages</td></tr>
+    <tr><td><code>docs/archives/index.html</code></td><td>Auto-updated archive index</td></tr>
+    <tr><td><code>docs/feed.xml</code></td><td>RSS 2.0 feed (last 30 days)</td></tr>
+  </table>
+
+  <h2>Ancillary Scripts</h2>
+  <table>
+    <tr><th>Script</th><th>Purpose</th></tr>
+    <tr><td><code>run.py</code></td><td>CLI entrypoint: <code>--force</code>, <code>--regenerate</code>, <code>--adapter</code> flags</td></tr>
+    <tr><td><code>check_engagement.py</code></td><td>Standalone engagement tracker</td></tr>
+    <tr><td><code>check_subscriptions.py</code></td><td>Standalone subscription checker</td></tr>
+    <tr><td><code>update_about.py</code></td><td>Rebuild about/profile pages</td></tr>
+    <tr><td><code>weekly_report.py</code></td><td>Generate and post weekly report</td></tr>
+  </table>
+
+</main>
+
+<footer>Blueprint · ClamBakeSanta · <a href="../index.html">← Back to docs</a></footer>
+</body>
+</html>

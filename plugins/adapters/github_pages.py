@@ -4,7 +4,8 @@ github_pages — Adapter plugin.
 Writes static HTML and RSS to docs/ so GitHub Pages can serve the site.
 
 Produces / updates:
-  docs/index.html               — today's haikus (home page)
+  docs/daily.html               — today's haikus (replaces index.html so the
+                                  static project homepage can live at index.html)
   docs/archives/YYYY-MM-DD.html — permanent per-day archive page
   docs/archives/index.html      — auto-updated list of all archive links
   docs/feed.xml                 — RSS 2.0 feed (last 30 days)
@@ -115,6 +116,7 @@ def _page(title: str, body: str, site_title: str, base_url: str) -> str:
   </header>
   <nav>
     <a href="{base_url}/">Home</a>
+    <a href="{base_url}/daily.html">Today</a>
     <a href="{base_url}/archives/">Archive</a>
     <a href="{base_url}/feed.xml">RSS Feed</a>
   </nav>
@@ -170,11 +172,11 @@ class GitHubPagesAdapter(BaseAdapter):
         date_str = result.event.date_str
         haiku_records = result.metadata.get("haikus", [])
 
-        # ── index.html ────────────────────────────────────────────────────────
+        # ── daily.html ────────────────────────────────────────────────────────
         cards = _render_haiku_cards(haiku_records)
         date_label = html_lib.escape(date_str)
         body = f"<p style='text-align:center;color:var(--muted);font-family:Arial,sans-serif;margin-bottom:1rem'>{date_label}</p>\n{cards}"
-        (out_dir / "index.html").write_text(
+        (out_dir / "daily.html").write_text(
             _page(site_title, body, site_title, base_url),
             encoding="utf-8",
         )

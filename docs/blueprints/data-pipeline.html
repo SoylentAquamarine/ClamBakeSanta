@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Pipeline — ClamBakeSanta</title>
+  <style>
+    :root {
+      --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a;
+      --accent: #4ecdc4; --text: #e2e8f0; --muted: #8892a4;
+      --code-bg: #090c13; --th-bg: #141720;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.6rem 2rem; font-size: 0.82rem; color: var(--muted); }
+    .topbar a { color: var(--muted); } .topbar a:hover { color: var(--accent); } .topbar span { margin: 0 0.4rem; }
+    header { padding: 2.5rem 2rem 2rem; border-bottom: 1px solid var(--border); }
+    header h1 { font-size: 1.9rem; font-weight: 700; color: var(--accent); }
+    header p.meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 2rem; }
+    h2 { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+    h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin: 1.5rem 0 0.6rem; }
+    p { margin-bottom: 0.85rem; } p:last-child { margin-bottom: 0; }
+    ul, ol { margin: 0.5rem 0 0.85rem 1.4rem; } li { margin-bottom: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; margin: 0.8rem 0 1rem; font-size: 0.88rem; }
+    th { background: var(--th-bg); color: var(--accent); padding: 0.55rem 1rem; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid var(--border); }
+    td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--border); }
+    tr:last-child td { border-bottom: none; } tr:hover td { background: #1e2130; }
+    code { font-family: 'Courier New', Consolas, monospace; font-size: 0.85em; background: var(--code-bg); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 3px; color: var(--accent); }
+    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; overflow-x: auto; margin: 0.8rem 0 1rem; }
+    pre code { background: none; border: none; padding: 0; font-size: 0.87rem; color: #c3cfe8; }
+    footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.82rem; text-align: center; }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="../index.html">ClamBakeSanta</a>
+  <span>/</span>
+  <a href="../index.html">Docs</a>
+  <span>/</span>
+  Data Pipeline
+</div>
+
+<header>
+  <h1>Data Pipeline — ClamBakeSanta</h1>
+  <p class="meta">Blueprint · Last updated 2026-05-02</p>
+</header>
+
+<main>
+
+  <h2>Pipeline Overview</h2>
+  <p>The framework executes a strict linear pipeline with validation gates between every layer. The runner (<code>framework/runner.py</code>) contains zero business logic — it only knows how to wire the layers together and validate hand-offs.</p>
+  <pre><code>Source
+  │
+  ▼
+validate_event()          ← hard stop if invalid
+  │
+  ▼
+Deduplication check       ← skip if already ran today (unless --force)
+  │
+  ▼
+Haiku cache check         ← load cache if exists for today (unless --regenerate)
+  │              │
+  │              └── Cache hit → _result_from_cache()
+  │
+  ▼ Cache miss
+Engine.process(event)     ← calls AI; returns Result
+  │
+  ├── _save_cache()       ← write haiku_cache.json
+  └── append_haikus()     ← append to long-term haiku_log/
+  │
+  ▼
+validate_result()         ← hard stop if invalid
+  │
+  ▼ (for each adapter in config order)
+┌─────────────────────────────────────────┐
+│  validate_result() [paranoia check]     │
+│  adapter.publish(result)                │
+│  → True  : adapters_ok.append()        │
+│  → False : skipped (no credentials)    │
+│  → raise : adapters_failed.append()    │
+│  (continues to next adapter regardless)│
+└─────────────────────────────────────────┘
+  │
+  ▼
+state.record_run(result)  ← mark today as done in run_log.json
+  │
+  ▼
+Return summary dict</code></pre>
+
+  <h2>Step 1: Source — <code>daily_holidays</code> Plugin</h2>
+  <p><strong>File:</strong> <code>plugins/sources/daily_holidays.py</code></p>
+  <p>The source reads two text files for the current month and finds entries matching today's date, assembling a <code>themes</code> list. Returns an <code>Event</code> object.</p>
+  <ul>
+    <li><code>data/{month}_randomholiday.txt</code> — quirky/observational holidays</li>
+    <li><code>data/{month}_celebritybirthday.txt</code> — celebrity birthdays</li>
+  </ul>
+  <p><strong><code>Event</code> schema</strong> (<code>framework/models.py</code>):</p>
+  <pre><code>@dataclass
+class Event:
+    date_str: str          # ISO format: "YYYY-MM-DD"
+    payload: dict          # { "themes": ["National Cookie Day", "Sammy Davis Jr birthday"] }</code></pre>
+
+  <h2>Step 2: <code>validate_event()</code></h2>
+  <p><strong>File:</strong> <code>framework/validation.py</code></p>
+  <p>Checks the <code>Event</code> before anything downstream runs. Raises <code>ValidationError</code> on missing/empty <code>date_str</code>, wrong type for <code>payload</code>, or missing <code>themes</code> key. A <code>ValidationError</code> here is a <strong>hard failure</strong> — the run stops immediately, no adapter is called.</p>
+
+  <h2>Step 3: Deduplication Check</h2>
+  <pre><code>if not force and state.already_ran_today(event.date_str):
+    return {"date": ..., "skipped": True}</code></pre>
+  <p><code>JsonStateStore.already_ran_today()</code> reads <code>state/run_log.json</code> and checks for a successful run on <code>date_str</code>. If found, the run returns early. Override with <code>--force</code> (CLI) or <code>force=True</code> (programmatic). Used by adapter test workflows that need to run outside the daily deduplication window.</p>
+
+  <h2>Step 4a: Haiku Cache Check</h2>
+  <pre><code>cache = None if regenerate else _load_cache(config, event.date_str)</code></pre>
+  <p><strong>Cache hit:</strong> <code>haiku_cache.json</code> exists and its <code>"date"</code> field matches <code>event.date_str</code>. The engine is skipped entirely — <code>_result_from_cache()</code> reconstructs a <code>Result</code> from the cached data.</p>
+  <p><strong>Cache miss:</strong> No cache file, wrong date, or <code>--regenerate</code> flag passed. Engine runs normally.</p>
+  <p><strong>Why cache exists:</strong> All adapters for a given day must use the same haikus. If the pipeline reruns (e.g., an adapter failed and the workflow was re-triggered), the cache ensures every platform gets identical poems rather than AI-regenerated ones that would differ.</p>
+  <p><strong>Haiku cache schema</strong> (<code>state/haiku_cache.json</code>):</p>
+  <pre><code>{
+  "date": "2026-05-02",
+  "haikus": ["5-7-5 poem...", "5-7-5 poem...", "5-7-5 poem..."],
+  "themes": ["National Cookie Day", "Sammy Davis Jr birthday"],
+  "content": "Full formatted text of all haikus",
+  "saved_at": "2026-05-02T13:00:00Z"
+}</code></pre>
+
+  <h2>Step 4b: Engine — <code>clambakesanta</code> Plugin (Cache Miss)</h2>
+  <p><strong>File:</strong> <code>plugins/engines/clambakesanta.py</code></p>
+  <ol>
+    <li>Takes <code>event.payload["themes"]</code> from the <code>Event</code>.</li>
+    <li>Constructs a prompt instructing <code>gpt-4o-mini</code> to write 3 haikus, one per theme, in 5-7-5 syllable structure.</li>
+    <li>Calls GitHub Models API (<code>GITHUB_TOKEN</code> injected automatically by Actions).</li>
+    <li>Parses the response into individual haikus.</li>
+    <li>Returns a <code>Result</code> object.</li>
+  </ol>
+  <p><strong><code>Result</code> schema</strong> (<code>framework/models.py</code>):</p>
+  <pre><code>@dataclass
+class Result:
+    event: Event
+    engine_id: str          # "clambakesanta"
+    content: str            # Full formatted output (all haikus combined)
+    metadata: dict          # { "haikus": [...], "themes": [...], "date": "YYYY-MM-DD" }</code></pre>
+  <p>After the engine returns: <code>_save_cache()</code> writes <code>state/haiku_cache.json</code> and <code>append_haikus()</code> appends to <code>state/haiku_log/</code> for anti-repetition and weekly reporting.</p>
+
+  <h2>Step 5: <code>validate_result()</code></h2>
+  <p><strong>File:</strong> <code>framework/validation.py</code></p>
+  <p>Checks the <code>Result</code> before any adapter runs. Raises <code>ValidationError</code> on empty/missing <code>content</code>, missing/malformed <code>metadata</code>, or missing <code>haikus</code> list in metadata. Called <strong>once</strong> after the engine/cache step (hard stop), then called <strong>again</strong> at the start of each adapter loop iteration (paranoia check).</p>
+
+  <h2>Step 6: Adapter Loop</h2>
+  <pre><code>for adapter_id in config["adapters"]:
+    validate_result(result)                         # paranoia check
+    adapter = get_plugin("adapters", adapter_id)(config)
+    success = adapter.publish(result)</code></pre>
+
+  <p><strong><code>adapter.publish(result)</code> return contract:</strong></p>
+  <table>
+    <tr><th>Return value</th><th>Meaning</th></tr>
+    <tr><td><code>True</code></td><td>Posted successfully → <code>adapters_ok</code></td></tr>
+    <tr><td><code>False</code></td><td>Skipped — missing credentials or env vars</td></tr>
+    <tr><td><code>raise Exception</code></td><td>Adapter failed → <code>adapters_failed</code> with error string</td></tr>
+  </table>
+  <p><strong>Isolation:</strong> Each adapter is fully independent. An exception from one is caught, logged, and added to <code>adapters_failed</code>. The loop continues to the next adapter. A failing Discord adapter never stops Mastodon or GitHub Pages.</p>
+  <p><strong>Missing credentials:</strong> Each adapter checks for its required env vars and returns <code>False</code> immediately if any are absent. The runner logs this as "SKIPPED" — not an error.</p>
+
+  <h2>Step 7: State Recording</h2>
+  <pre><code>state.record_run(result)</code></pre>
+  <p><code>JsonStateStore.record_run()</code> appends the run record to <code>state/run_log.json</code>. Future runs on the same date will see <code>already_ran_today()</code> return <code>True</code>, preventing double-posting.</p>
+
+  <h2>Run Summary</h2>
+  <p>The <code>run()</code> function returns:</p>
+  <pre><code>{
+    "date": "2026-05-02",
+    "engine": "clambakesanta",
+    "adapters_ok": ["mastodon", "bluesky", "github_pages"],
+    "adapters_failed": [("discord", "Webhook 403 Forbidden")],
+    "skipped": False,
+}</code></pre>
+
+  <h2>CLI Flags (<code>run.py</code>)</h2>
+  <table>
+    <tr><th>Flag</th><th>Effect</th></tr>
+    <tr><td><code>--force</code></td><td>Skip deduplication check; run even if already ran today</td></tr>
+    <tr><td><code>--regenerate</code></td><td>Bypass haiku cache; force fresh AI generation</td></tr>
+    <tr><td><code>--adapter NAME</code></td><td>Run only the specified adapter (still uses cache if available)</td></tr>
+  </table>
+
+  <h2>Schema Invariants</h2>
+  <table>
+    <tr><th>Contract</th><th>Enforced by</th></tr>
+    <tr><td><code>Event.date_str</code> is non-empty ISO date</td><td><code>validate_event()</code></td></tr>
+    <tr><td><code>Event.payload["themes"]</code> is a non-empty list</td><td><code>validate_event()</code></td></tr>
+    <tr><td><code>Result.content</code> is non-empty string</td><td><code>validate_result()</code></td></tr>
+    <tr><td><code>Result.metadata["haikus"]</code> is a list</td><td><code>validate_result()</code></td></tr>
+    <tr><td>All adapters for a date use the same haikus</td><td><code>haiku_cache.json</code> keyed by date</td></tr>
+    <tr><td>No double-posting on the same date</td><td><code>run_log.json</code> + <code>already_ran_today()</code></td></tr>
+    <tr><td><code>state/</code> files never manually edited</td><td><code>.gitattributes</code> + documentation</td></tr>
+  </table>
+
+</main>
+
+<footer>Blueprint · ClamBakeSanta · <a href="../index.html">← Back to docs</a></footer>
+</body>
+</html>
