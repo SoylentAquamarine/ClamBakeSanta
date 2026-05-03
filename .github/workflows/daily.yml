@@ -74,7 +74,12 @@ jobs:
           WORDPRESS_TOKEN: ${{ secrets.WORDPRESS_TOKEN }}
           WORDPRESS_BLOG_ID: ${{ secrets.WORDPRESS_BLOG_ID }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python run.py ${{ inputs.force == 'true' && '--force' || '' }}
+        run: |
+          if [ "${{ inputs.force }}" = "true" ]; then
+            python run.py --force
+          else
+            python run.py
+          fi
 
       - name: Commit generated files
         run: |
