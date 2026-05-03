@@ -1,0 +1,47 @@
+{
+  "NationalRaspberryTartDay": {
+    "theme": "National Raspberry Tart Day",
+    "haiku": "Ripe berries nestle,\nCrimson jewels on soft cream,\nJoyful bites awake.\nHappy #NationalRaspberryTartDay from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkwvz6vfnp2x",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-03T22:33:09.660971+00:00"
+  },
+  "NationalTwoDifferentColoredShoesDay": {
+    "theme": "National Two Different Colored Shoes Day",
+    "haiku": "Colors clash in cheer,\nLaces tie in joyful knots,\nSteps dance with delight.\nHappy #NationalTwoDifferentColoredShoesDay from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkww2yboi42q",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-03T22:33:09.660971+00:00"
+  },
+  "HappyBirthdayGoldaMeir": {
+    "theme": "Birthday Golda Meir",
+    "haiku": "Laughter fills the air,\nCake adorned with bright candles,\nJoy wrapped in warm hugs.\n#HappyBirthdayGoldaMeir from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkww4rnrtw2u",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-03T22:33:09.660971+00:00"
+  }
+}

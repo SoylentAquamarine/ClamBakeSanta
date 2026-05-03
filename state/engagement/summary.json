@@ -1,4 +1,51 @@
 {
+  "2026-05-03": {
+    "NationalRaspberryTartDay": {
+      "theme": "National Raspberry Tart Day",
+      "haiku": "Ripe berries nestle,\nCrimson jewels on soft cream,\nJoyful bites awake.\nHappy #NationalRaspberryTartDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkwvz6vfnp2x",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
+    },
+    "NationalTwoDifferentColoredShoesDay": {
+      "theme": "National Two Different Colored Shoes Day",
+      "haiku": "Colors clash in cheer,\nLaces tie in joyful knots,\nSteps dance with delight.\nHappy #NationalTwoDifferentColoredShoesDay from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkww2yboi42q",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
+    },
+    "HappyBirthdayGoldaMeir": {
+      "theme": "Birthday Golda Meir",
+      "haiku": "Laughter fills the air,\nCake adorned with bright candles,\nJoy wrapped in warm hugs.\n#HappyBirthdayGoldaMeir from @ClamBakeSanta",
+      "platforms": {
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkww4rnrtw2u",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
+    }
+  },
   "2026-05-02": {
     "NationalTruffleDay": {
       "theme": "National Truffle Day",
@@ -13,7 +60,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     },
     "NationalFerretDay": {
       "theme": "National Ferret Day",
@@ -28,7 +75,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     },
     "HappyBirthdayBingCrosby": {
       "theme": "Birthday Bing Crosby",
@@ -43,7 +90,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     }
   },
   "2026-05-01": {
@@ -60,7 +107,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     },
     "NationalMacaroonDay": {
       "theme": "National Macaroon Day",
@@ -75,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     },
     "HappyBirthdayMotherJones": {
       "theme": "Birthday Mother Jones",
@@ -90,7 +137,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     }
   },
   "2026-04-30": {
@@ -107,7 +154,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     },
     "NationalOatmealCookieDay": {
       "theme": "National Oatmeal Cookie Day",
@@ -122,7 +169,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     },
     "HappyBirthdayWalterLantz": {
       "theme": "Birthday Walter Lantz",
@@ -137,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-02T22:32:27.956767+00:00"
+      "last_checked": "2026-05-03T22:33:09.660971+00:00"
     }
   },
   "2026-04-29": {
@@ -356,53 +403,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-04-29T22:51:07.463694+00:00"
-    }
-  },
-  "2026-04-25": {
-    "WorldPenguinDay": {
-      "theme": "World Penguin Day",
-      "haiku": "Waddling in the snow,\nLittle tuxedos rejoice,\nJoyful hearts unite.\nHappy #WorldPenguinDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrlnpydq2g",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-28T22:48:54.796716+00:00"
-    },
-    "NationalZucchiniBreadDay": {
-      "theme": "National Zucchini Bread Day",
-      "haiku": "Sun-kissed gardens sway,\nZucchini's harvest whispers,\nBaking dreams arise.\nHappy #NationalZucchiniBreadDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrnh37kg2i",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-28T22:48:54.796716+00:00"
-    },
-    "HappyBirthdayEllaFitzgerald": {
-      "theme": "Birthday Ella Fitzgerald",
-      "haiku": "Notes like silk arise,\nVelvet nights wrapped in moonlight,\nJoy dances and sings.\n#HappyBirthdayEllaFitzgerald from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkcrpaquxx2s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-04-28T22:48:54.796716+00:00"
     }
   }
 }
