@@ -121,27 +121,27 @@ def _haiku_card(rec: dict, rank: int, show_date: bool = True) -> str:
         plat_details.append(f"{emoji} {detail} (score {score})")
 
     plat_html = "  ·  ".join(plat_details) if plat_details else "no data yet"
-    date_line = f'<div style="color:{_PALETTE["muted"]};font-size:0.8rem;">{rec["date"]}</div>' if show_date else ""
+    date_line = f'<div style="color:{_PALETTE['muted']};font-size:0.8rem;">{rec["date"]}</div>' if show_date else ""
 
     return f"""
-<div style="margin:1.2rem 0;padding:1.2rem 1.5rem;background:{_PALETTE["light_bg"]};
-            border-left:4px solid {_PALETTE["green"]};border-radius:4px;">
+<div style="margin:1.2rem 0;padding:1.2rem 1.5rem;background:{_PALETTE['light_bg']};
+            border-left:4px solid {_PALETTE['green']};border-radius:4px;">
   <div style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.4rem;">
     <span style="font-size:1.1rem;">{medal}</span>
-    <strong style="color:{_PALETTE["green"]};">{theme}</strong>
+    <strong style="color:{_PALETTE['green']};">{theme}</strong>
     <span style="margin-left:auto;font-weight:bold;font-size:1.1rem;">⭐ {rec["total_score"]}</span>
   </div>
   {date_line}
-  <p style="margin:0.5rem 0;font-family:Georgia,serif;font-size:1rem;line-height:1.9;color:{_PALETTE["text"]};">
+  <p style="margin:0.5rem 0;font-family:Georgia,serif;font-size:1rem;line-height:1.9;color:{_PALETTE['text']};">
     {poem}
   </p>
-  <div style="font-size:0.82rem;color:{_PALETTE["muted"]};">{plat_html}</div>
+  <div style="font-size:0.82rem;color:{_PALETTE['muted']};">{plat_html}</div>
 </div>"""
 
 
 def _section(title: str, content: str) -> str:
     return f"""
-<h2 style="color:{_PALETTE["green"]};border-bottom:2px solid {_PALETTE["border"]};
+<h2 style="color:{_PALETTE['green']};border-bottom:2px solid {_PALETTE['border']};
            padding-bottom:0.3rem;margin-top:2rem;">{title}</h2>
 {content}"""
 
@@ -161,10 +161,10 @@ def build_html_report(
     if prior_total > 0:
         pct = ((total_score - prior_total) / prior_total) * 100
         trend = f"{'↑' if pct >= 0 else '↓'} {abs(pct):.0f}% vs prior week"
-        trend_color = _PALETTE["green"] if pct >= 0 else "#c0392b"
+        trend_color = _PALETTE['green'] if pct >= 0 else "#c0392b"
     else:
         trend = "First week with data"
-        trend_color = _PALETTE["muted"]
+        trend_color = _PALETTE['muted']
 
     # Top 5
     top5_html = "".join(_haiku_card(r, i) for i, r in enumerate(week_records[:5]))
@@ -190,7 +190,7 @@ def build_html_report(
   <td style="padding:0.4rem 0.8rem;">{r["date"]}</td>
   <td style="padding:0.4rem 0.8rem;">{r["theme"]}</td>
   <td style="padding:0.4rem 0.8rem;text-align:center;font-weight:bold;">{r["total_score"]}</td>
-  <td style="padding:0.4rem 0.8rem;font-size:0.85rem;color:{_PALETTE["muted"]};">
+  <td style="padding:0.4rem 0.8rem;font-size:0.85rem;color:{_PALETTE['muted']};">
     {"  ·  ".join(
         f'{_PLATFORM_EMOJI.get(p,"")}{r["platforms"][p].get("score",0)}'
         for p in r["platforms"]
@@ -205,41 +205,41 @@ def build_html_report(
 <title>ClamBakeSanta Weekly Report</title>
 </head>
 <body style="font-family:system-ui,sans-serif;max-width:680px;margin:0 auto;
-             padding:1.5rem;color:{_PALETTE["text"]};">
+             padding:1.5rem;color:{_PALETTE['text']};">
 
 <div style="text-align:center;margin-bottom:1.5rem;">
   <img src="https://clambakesanta.files.wordpress.com/2026/04/santa_clambake.jpg"
        alt="ClamBakeSanta" style="width:80px;height:80px;border-radius:50%;object-fit:cover;">
-  <h1 style="color:{_PALETTE["green"]};margin:0.5rem 0 0;">ClamBakeSanta Weekly Report</h1>
-  <p style="color:{_PALETTE["muted"]};margin:0.2rem 0;">
+  <h1 style="color:{_PALETTE['green']};margin:0.5rem 0 0;">ClamBakeSanta Weekly Report</h1>
+  <p style="color:{_PALETTE['muted']};margin:0.2rem 0;">
     {week_start.strftime('%B %d')} – {(week_end - timedelta(days=1)).strftime('%B %d, %Y')}
   </p>
 </div>
 
 {_section("📊 Week at a Glance", f"""
 <div style="display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0;">
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE["light_bg"]};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE["border"]};">
-    <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE["green"]};">{total_posts}</div>
-    <div style="font-size:0.85rem;color:{_PALETTE["muted"]};">haikus posted</div>
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
+              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
+    <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE['green']};">{total_posts}</div>
+    <div style="font-size:0.85rem;color:{_PALETTE['muted']};">haikus posted</div>
   </div>
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE["light_bg"]};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE["border"]};">
-    <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE["green"]};">{total_score}</div>
-    <div style="font-size:0.85rem;color:{_PALETTE["muted"]};">total engagement</div>
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
+              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
+    <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE['green']};">{total_score}</div>
+    <div style="font-size:0.85rem;color:{_PALETTE['muted']};">total engagement</div>
   </div>
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE["light_bg"]};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE["border"]};">
-    <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE["green"]};">{len(active_plats)}</div>
-    <div style="font-size:0.85rem;color:{_PALETTE["muted"]};">active platforms</div>
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
+              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
+    <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE['green']};">{len(active_plats)}</div>
+    <div style="font-size:0.85rem;color:{_PALETTE['muted']};">active platforms</div>
   </div>
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE["light_bg"]};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE["border"]};">
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
+              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
     <div style="font-size:1.2rem;font-weight:bold;color:{trend_color};">{trend}</div>
-    <div style="font-size:0.85rem;color:{_PALETTE["muted"]};">engagement trend</div>
+    <div style="font-size:0.85rem;color:{_PALETTE['muted']};">engagement trend</div>
   </div>
 </div>
-<p style="font-size:0.82rem;color:{_PALETTE["muted"]};">
+<p style="font-size:0.82rem;color:{_PALETTE['muted']};">
   Score formula: ❤️ likes&nbsp;+&nbsp;2×&nbsp;🔁 shares/boosts/reposts&nbsp;+&nbsp;3×&nbsp;💬 replies/comments
 </p>""")}
 
@@ -250,7 +250,7 @@ def build_html_report(
 {_section("📋 Full Rankings", f"""
 <table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
   <thead>
-    <tr style="background:{_PALETTE["green"]};color:white;">
+    <tr style="background:{_PALETTE['green']};color:white;">
       <th style="padding:0.5rem 0.8rem;text-align:left;">#</th>
       <th style="padding:0.5rem 0.8rem;text-align:left;">Date</th>
       <th style="padding:0.5rem 0.8rem;text-align:left;">Theme</th>
@@ -261,9 +261,9 @@ def build_html_report(
   <tbody>{table_rows}</tbody>
 </table>""")}
 
-<hr style="border:none;border-top:1px solid {_PALETTE["border"]};margin:2rem 0;">
-<p style="text-align:center;color:{_PALETTE["muted"]};font-size:0.85rem;">
-  <a href="{site_url}" style="color:{_PALETTE["green"]};">Visit ClamBakeSanta</a> ·
+<hr style="border:none;border-top:1px solid {_PALETTE['border']};margin:2rem 0;">
+<p style="text-align:center;color:{_PALETTE['muted']};font-size:0.85rem;">
+  <a href="{site_url}" style="color:{_PALETTE['green']};">Visit ClamBakeSanta</a> ·
   Generated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}
 </p>
 
