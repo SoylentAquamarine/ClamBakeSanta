@@ -472,6 +472,12 @@ No other files change. The framework discovers and runs it automatically.
 
 ## Changelog
 
+### 2026-05-03 — Weekly report fix, force dispatch, Mastodon restored
+
+- Fixed `weekly_report.py` syntax error: double-quoted dict keys inside triple-double-quoted f-strings are invalid in Python 3.11 (Actions runtime) — replaced all 34 occurrences with single quotes
+- Added `force` boolean input to `daily.yml` workflow dispatch so manual runs can override the already-ran-today guard without editing code
+- Mastodon access token refreshed — adapter posting again after 401 Unauthorized failures
+
 ### 2026-04-25
 
 **GitHub Pages**
