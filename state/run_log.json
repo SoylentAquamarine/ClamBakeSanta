@@ -19,7 +19,8 @@
     "2026-04-29",
     "2026-04-30",
     "2026-05-01",
-    "2026-05-02"
+    "2026-05-02",
+    "2026-05-03"
   ],
   "runs": [
     {
@@ -245,6 +246,17 @@
         "Birthday Bing Crosby"
       ],
       "content_preview": "Earth's hidden jewels gleam, Rich and earthy whispers swirl, Joy in every bite. Happy #NationalTruffleDay from @ClamBake"
+    },
+    {
+      "date": "2026-05-03",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-03T10:14:29.971041+00:00",
+      "themes": [
+        "National Raspberry Tart Day",
+        "National Two Different Colored Shoes Day",
+        "Birthday Golda Meir"
+      ],
+      "content_preview": "Ripe berries nestle, Crimson jewels on soft cream, Joyful bites awake. Happy #NationalRaspberryTartDay from @ClamBakeSan"
     }
   ]
 }

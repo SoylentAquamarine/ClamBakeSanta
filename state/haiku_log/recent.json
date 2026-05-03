@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-04-25",
-    "theme": "World Penguin Day",
-    "haiku": "Waddling in the snow,\nLittle tuxedos rejoice,\nJoyful hearts unite.\nHappy #WorldPenguinDay from @ClamBakeSanta",
-    "tag": "WorldPenguinDay",
-    "logged_at": "2026-04-25T09:55:54.814502+00:00"
-  },
-  {
-    "date": "2026-04-25",
-    "theme": "National Zucchini Bread Day",
-    "haiku": "Sun-kissed gardens sway,\nZucchini's harvest whispers,\nBaking dreams arise.\nHappy #NationalZucchiniBreadDay from @ClamBakeSanta",
-    "tag": "NationalZucchiniBreadDay",
-    "logged_at": "2026-04-25T09:55:54.814502+00:00"
-  },
-  {
-    "date": "2026-04-25",
-    "theme": "Birthday Ella Fitzgerald",
-    "haiku": "Notes like silk arise,\nVelvet nights wrapped in moonlight,\nJoy dances and sings.\n#HappyBirthdayEllaFitzgerald from @ClamBakeSanta",
-    "tag": "HappyBirthdayEllaFitzgerald",
-    "logged_at": "2026-04-25T09:55:54.814502+00:00"
-  },
-  {
     "date": "2026-04-26",
     "theme": "National Pretzel Day",
     "haiku": "Twisted dough delights,\nSalted smiles and warm embraces,\nCrunch and chew unite.\nHappy #NationalPretzelDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Laughter fills the air,\nCake and dreams in every bite,\nJoyous hearts unite.\n#HappyBirthdayMotherJones from @ClamBakeSanta",
     "tag": "HappyBirthdayMotherJones",
     "logged_at": "2026-05-01T10:25:22.023274+00:00"
+  },
+  {
+    "date": "2026-05-02",
+    "theme": "National Truffle Day",
+    "haiku": "Earth's hidden jewels gleam,\nRich and earthy whispers swirl,\nJoy in every bite.\nHappy #NationalTruffleDay from @ClamBakeSanta",
+    "tag": "NationalTruffleDay",
+    "logged_at": "2026-05-02T10:00:04.169515+00:00"
+  },
+  {
+    "date": "2026-05-02",
+    "theme": "National Ferret Day",
+    "haiku": "Soft fur twirls and plays,\nJoyful leaps in sunlit nooks,\nWhiskers twitch with glee.\nHappy #NationalFerretDay from @ClamBakeSanta",
+    "tag": "NationalFerretDay",
+    "logged_at": "2026-05-02T10:00:04.169515+00:00"
+  },
+  {
+    "date": "2026-05-02",
+    "theme": "Birthday Bing Crosby",
+    "haiku": "Laughter fills the room,\nVelvet voices intertwine,\nJoy's sweet serenade.\n#HappyBirthdayBingCrosby from @ClamBakeSanta",
+    "tag": "HappyBirthdayBingCrosby",
+    "logged_at": "2026-05-02T10:00:04.169515+00:00"
   }
 ]
