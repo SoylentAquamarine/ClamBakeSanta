@@ -20,6 +20,12 @@ on:
   schedule:
     - cron: '0 9 * * *'    # Daily at 09:00 UTC (5:00 AM Eastern)
   workflow_dispatch:        # Allow manual runs from GitHub Actions UI
+    inputs:
+      force:
+        description: 'Force run even if already ran today'
+        required: false
+        default: 'false'
+        type: boolean
 
 permissions:
   contents: write           # Needed to commit generated files back to repo
@@ -68,7 +74,7 @@ jobs:
           WORDPRESS_TOKEN: ${{ secrets.WORDPRESS_TOKEN }}
           WORDPRESS_BLOG_ID: ${{ secrets.WORDPRESS_BLOG_ID }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python run.py
+        run: python run.py ${{ inputs.force == 'true' && '--force' || '' }}
 
       - name: Commit generated files
         run: |
