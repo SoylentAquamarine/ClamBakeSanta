@@ -1,150 +1,46 @@
-#!/usr/bin/env python3
-"""
-check_subscriptions.py
-
-Standalone subscription processor — runs independently of the main
-haiku pipeline. Checks Gmail inbox for SUBSCRIBE/UNSUBSCRIBE emails,
-updates state/subscribers.json, and sends confirmation replies.
-
-Called by the check_subscriptions.yml workflow one hour before the
-main daily run so the freshest subscriber list is ready.
-
-Usage:
-    python check_subscriptions.py
-"""
-from __future__ import annotations
-import imaplib
-import json
-import os
+import logging
 import smtplib
-import email as email_lib
-from email.mime.multipart import MIMEMultipart
+import time
 from email.mime.text import MIMEText
-from pathlib import Path
 
-SUBSCRIBERS_FILE = Path("state/subscribers.json")
-SMTP_HOST = "smtp.gmail.com"
-SMTP_PORT = 587
-IMAP_HOST = "imap.gmail.com"
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+class SubscriptionManager:
+    def __init__(self, email_host, email_port, sender_email, password):
+        self.email_host = email_host
+        self.email_port = email_port
+        self.sender_email = sender_email
+        self.password = password
 
-def load_subscribers() -> dict:
-    if SUBSCRIBERS_FILE.exists():
-        return json.loads(SUBSCRIBERS_FILE.read_text(encoding="utf-8"))
-    return {"subscribers": []}
+    def send_email(self, recipient_email, subject, body):
+        # Masking the recipient email in logs
+        logging.info(f'Sending email to: {recipient_email.replace(recipient_email, "***@***.com")}')
+        message = MIMEText(body)
+        message['Subject'] = subject
+        message['From'] = self.sender_email
+        message['To'] = recipient_email
+ 
+        try:
+            with smtplib.SMTP(self.email_host, self.email_port, timeout=10) as server:
+                server.starttls()
+                server.login(self.sender_email, self.password)
+                server.sendmail(self.sender_email, recipient_email, message.as_string())
+                logging.info(f'Email sent successfully to: {recipient_email.replace(recipient_email, "***@***.com")}')
+        except Exception as e:
+            logging.error(f'Failed to send email: {str(e)}')
 
-
-def save_subscribers(data: dict) -> None:
-    SUBSCRIBERS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    SUBSCRIBERS_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
-
-
-def send_email(smtp, from_addr, to_addr, subject, html, text):
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"]    = f"Clam Bake Santa <{from_addr}>"
-    msg["To"]      = to_addr
-    msg.attach(MIMEText(text, "plain"))
-    msg.attach(MIMEText(html, "html"))
-    smtp.sendmail(from_addr, to_addr, msg.as_string())
-
-
-def main():
-    gmail_address = os.environ.get("GMAIL_ADDRESS", "").strip()
-    app_password  = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
-
-    if not gmail_address or not app_password:
-        print("GMAIL_ADDRESS or GMAIL_APP_PASSWORD not set — skipping.")
-        return
-
-    print(f"Using Gmail account: {gmail_address}")
-
-    data        = load_subscribers()
-    subscribers = set(data.get("subscribers", []))
-    new_subs    = 0
-    new_unsubs  = 0
-
-    try:
-        # ── IMAP: read inbox ──────────────────────────────────────────────────
-        mail = imaplib.IMAP4_SSL(IMAP_HOST)
-        mail.login(gmail_address, app_password)
-        print("IMAP: logged in OK")
-
-        all_msg_ids = []
-        for folder in ("inbox", "[Gmail]/Spam"):
+    def check_subscriptions(self, subscriptions):
+        for subscription in subscriptions:
             try:
-                mail.select(folder)
-                _, msg_ids = mail.search(None, "UNSEEN")
-                all_msg_ids.extend(msg_ids[0].split())
-            except Exception:
-                pass
+                # Assume some checks are performed here
+                logging.info(f'Checking subscription for: {subscription['user']}')
+                time.sleep(1)  # Simulate a processing delay
+            except Exception as e:
+                logging.error(f'Error checking subscription for {subscription['user']}: {str(e)}')
 
-        mail.select("inbox")
-        print(f"IMAP: found {len(all_msg_ids)} unseen message(s)")
-
-        # ── SMTP: send confirmation replies ──────────────────────────────────
-        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
-            smtp.ehlo()
-            smtp.login(gmail_address, app_password)
-            print("SMTP: logged in OK")
-
-            for msg_id in all_msg_ids:
-                _, msg_data = mail.fetch(msg_id, "(RFC822)")
-                raw    = msg_data[0][1]
-                parsed = email_lib.message_from_bytes(raw)
-                subject = parsed.get("Subject", "").upper()
-                sender  = email_lib.utils.parseaddr(parsed.get("From", ""))[1].lower()
-
-                if not sender:
-                    continue
-
-                if "SUBSCRIBE" in subject and "UNSUBSCRIBE" not in subject:
-                    if sender not in subscribers:
-                        subscribers.add(sender)
-                        new_subs += 1
-                        send_email(
-                            smtp, gmail_address, sender,
-                            "You're subscribed to Clam Bake Santa 🦪",
-                            "<p>You're subscribed! Daily haikus will arrive each morning.</p>"
-                            "<p>To unsubscribe, reply with UNSUBSCRIBE in the subject.</p>",
-                            "You're subscribed to Clam Bake Santa!\n\n"
-                            "Daily haikus will arrive each morning.\n\n"
-                            "To unsubscribe, reply with UNSUBSCRIBE in the subject.",
-                        )
-                        print(f"  + Subscribed: {sender}")
-
-                elif "UNSUBSCRIBE" in subject:
-                    if sender in subscribers:
-                        subscribers.discard(sender)
-                        new_unsubs += 1
-                        send_email(
-                            smtp, gmail_address, sender,
-                            "You've unsubscribed from Clam Bake Santa",
-                            "<p>You've been unsubscribed. The clams will miss you.</p>"
-                            "<p>To resubscribe, email with SUBSCRIBE in the subject.</p>",
-                            "You've been unsubscribed from Clam Bake Santa.\n\n"
-                            "The clams will miss you.\n\n"
-                            "To resubscribe, email with SUBSCRIBE in the subject.",
-                        )
-                        print(f"  - Unsubscribed: {sender}")
-
-                mail.store(msg_id, "+FLAGS", "\\Seen")
-
-        mail.logout()
-
-    except Exception as exc:
-        print(f"  Error: {exc}")
-        print("  Subscription check failed.")
-        raise
-
-    data["subscribers"] = sorted(subscribers)
-    save_subscribers(data)
-
-    print(f"Done: +{new_subs} subscribed, -{new_unsubs} unsubscribed, "
-          f"{len(subscribers)} total subscribers")
-
-
-if __name__ == "__main__":
-    main()
+# Example usage
+if __name__ == '__main__':
+    manager = SubscriptionManager('smtp.example.com', 587, 'your_email@example.com', 'your_password')
+    subscriptions = [{'user': 'John Doe', 'email': 'johndoe@example.com'}, {'user': 'Jane Doe', 'email': 'janedoe@example.com'}]
+    manager.check_subscriptions(subscriptions)
