@@ -1,0 +1,32 @@
+{
+  "StarWarsDay": {
+    "mastodon": {
+      "id": "116515985756546976",
+      "url": "https://mastodon.social/@ClamBakeSanta/116515985756546976"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkzjvjs2y32s",
+      "cid": "bafyreid4vc5pynsf2kkkdj5dyv5zcopfheqgftaa7ksn3wceu32iwpvaqe"
+    }
+  },
+  "NationalCandiedOrangePeelDay": {
+    "mastodon": {
+      "id": "116515989723016422",
+      "url": "https://mastodon.social/@ClamBakeSanta/116515989723016422"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkzjxdgazq2s",
+      "cid": "bafyreicsy77xzgcbcwferlobitn3qh34i6cxp2gyy6rnkq2mdbfoltwoby"
+    }
+  },
+  "HappyBirthdayAudreyHepburn": {
+    "mastodon": {
+      "id": "116515993683706480",
+      "url": "https://mastodon.social/@ClamBakeSanta/116515993683706480"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkzjz4ycve2a",
+      "cid": "bafyreihdtkx3qgpkg6u6e2pxlxf73belw3xervzpkr6546vpfsbshnnnz4"
+    }
+  }
+}

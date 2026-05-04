@@ -20,7 +20,8 @@
     "2026-04-30",
     "2026-05-01",
     "2026-05-02",
-    "2026-05-03"
+    "2026-05-03",
+    "2026-05-04"
   ],
   "runs": [
     {
@@ -257,6 +258,17 @@
         "Birthday Golda Meir"
       ],
       "content_preview": "Ripe berries nestle, Crimson jewels on soft cream, Joyful bites awake. Happy #NationalRaspberryTartDay from @ClamBakeSan"
+    },
+    {
+      "date": "2026-05-04",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-04T11:15:38.116348+00:00",
+      "themes": [
+        "Star Wars Day",
+        "National Candied Orange Peel Day",
+        "Birthday Audrey Hepburn"
+      ],
+      "content_preview": "Galaxies abound, Lightsabers dance in starlight, Joy ignites the night. Happy #StarWarsDay from @ClamBakeSanta  Zesty pe"
     }
   ]
 }

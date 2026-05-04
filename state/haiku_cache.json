@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-03",
+  "date": "2026-05-04",
   "haikus": [
     {
-      "theme": "National Raspberry Tart Day",
-      "haiku": "Ripe berries nestle,\nCrimson jewels on soft cream,\nJoyful bites awake.\nHappy #NationalRaspberryTartDay from @ClamBakeSanta",
-      "tag": "NationalRaspberryTartDay"
+      "theme": "Star Wars Day",
+      "haiku": "Galaxies abound,\nLightsabers dance in starlight,\nJoy ignites the night.\nHappy #StarWarsDay from @ClamBakeSanta",
+      "tag": "StarWarsDay"
     },
     {
-      "theme": "National Two Different Colored Shoes Day",
-      "haiku": "Colors clash in cheer,\nLaces tie in joyful knots,\nSteps dance with delight.\nHappy #NationalTwoDifferentColoredShoesDay from @ClamBakeSanta",
-      "tag": "NationalTwoDifferentColoredShoesDay"
+      "theme": "National Candied Orange Peel Day",
+      "haiku": "Zesty peels delight,\nSugared sunlight dances bright,\nJoy in every bite.\nHappy #NationalCandiedOrangePeelDay from @ClamBakeSanta",
+      "tag": "NationalCandiedOrangePeelDay"
     },
     {
-      "theme": "Birthday Golda Meir",
-      "haiku": "Laughter fills the air,\nCake adorned with bright candles,\nJoy wrapped in warm hugs.\n#HappyBirthdayGoldaMeir from @ClamBakeSanta",
-      "tag": "HappyBirthdayGoldaMeir"
+      "theme": "Birthday Audrey Hepburn",
+      "haiku": "Silken gowns twirl bright,\nChampagne bubbles dance with cheer,\nTimeless grace ignites.\n#HappyBirthdayAudreyHepburn from @ClamBakeSanta",
+      "tag": "HappyBirthdayAudreyHepburn"
     }
   ],
   "themes": [
-    "National Raspberry Tart Day",
-    "National Two Different Colored Shoes Day",
-    "Birthday Golda Meir"
+    "Star Wars Day",
+    "National Candied Orange Peel Day",
+    "Birthday Audrey Hepburn"
   ],
-  "content": "Ripe berries nestle,\nCrimson jewels on soft cream,\nJoyful bites awake.\nHappy #NationalRaspberryTartDay from @ClamBakeSanta\n\nColors clash in cheer,\nLaces tie in joyful knots,\nSteps dance with delight.\nHappy #NationalTwoDifferentColoredShoesDay from @ClamBakeSanta\n\nLaughter fills the air,\nCake adorned with bright candles,\nJoy wrapped in warm hugs.\n#HappyBirthdayGoldaMeir from @ClamBakeSanta",
-  "saved_at": "2026-05-03T10:08:18.730666+00:00"
+  "content": "Galaxies abound,\nLightsabers dance in starlight,\nJoy ignites the night.\nHappy #StarWarsDay from @ClamBakeSanta\n\nZesty peels delight,\nSugared sunlight dances bright,\nJoy in every bite.\nHappy #NationalCandiedOrangePeelDay from @ClamBakeSanta\n\nSilken gowns twirl bright,\nChampagne bubbles dance with cheer,\nTimeless grace ignites.\n#HappyBirthdayAudreyHepburn from @ClamBakeSanta",
+  "saved_at": "2026-05-04T11:07:28.499112+00:00"
 }
