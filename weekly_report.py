@@ -121,7 +121,7 @@ def _haiku_card(rec: dict, rank: int, show_date: bool = True) -> str:
         plat_details.append(f"{emoji} {detail} (score {score})")
 
     plat_html = "  ·  ".join(plat_details) if plat_details else "no data yet"
-    date_line = f'<div style="color:{_PALETTE['muted']};font-size:0.8rem;">{rec["date"]}</div>' if show_date else ""
+    date_line = f'<div style="color:{_PALETTE["muted"]};font-size:0.8rem;">{rec["date"]}</div>' if show_date else ""
 
     return f"""
 <div style="margin:1.2rem 0;padding:1.2rem 1.5rem;background:{_PALETTE['light_bg']};
