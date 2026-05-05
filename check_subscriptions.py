@@ -15,7 +15,7 @@ class SubscriptionManager:
 
     def send_email(self, recipient_email, subject, body):
         # Masking the recipient email in logs
-        logging.info(f'Sending email to: {recipient_email.replace(recipient_email, "***@***.com")}')
+        logging.info(f"Sending email to: {recipient_email.replace(recipient_email, "***@***.com")}")
         message = MIMEText(body)
         message['Subject'] = subject
         message['From'] = self.sender_email
@@ -34,10 +34,10 @@ class SubscriptionManager:
         for subscription in subscriptions:
             try:
                 # Assume some checks are performed here
-                logging.info(f'Checking subscription for: {subscription['user']}')
+                logging.info(f"Checking subscription for: {subscription['user']}")
                 time.sleep(1)  # Simulate a processing delay
             except Exception as e:
-                logging.error(f'Error checking subscription for {subscription['user']}: {str(e)}')
+                logging.error(f"Error checking subscription for {subscription['user']}: {str(e)}")
 
 # Example usage
 if __name__ == '__main__':
