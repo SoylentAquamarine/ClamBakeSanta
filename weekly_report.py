@@ -216,7 +216,7 @@ def build_html_report(
   </p>
 </div>
 
-{_section("📊 Week at a Glance", f"""
+_section("📊 Week at a Glance", f"""
 <div style="display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0;">
   <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
     <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE['green']};">{total_posts}</div>
@@ -237,13 +237,13 @@ def build_html_report(
 </div>
 <p style="font-size:0.82rem;color:{_PALETTE['muted']};">
   Score formula: "❤️ likes&nbsp;+&nbsp;2×&nbsp;🔁 shares/boosts/reposts&nbsp;+&nbsp;3×&nbsp;💬 replies/comments"
-</p>""")}
+</p>""")
 
-{_section("🏆 Top 5 Haikus This Week", top5_html)}
+_section("🏆 Top 5 Haikus This Week", top5_html)
 
-{_section("🏅 Platform Leaders", plat_leader_html or "<p>Not enough data yet.</p>")}
+_section("🏅 Platform Leaders", plat_leader_html or "<p>Not enough data yet.</p>")
 
-{_section("📋 Full Rankings", f"""
+_section("📋 Full Rankings", f"""
 <table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
   <thead>
     <tr style="background:{_PALETTE['green']};color:white;">
@@ -255,7 +255,7 @@ def build_html_report(
     </tr>
   </thead>
   <tbody>{table_rows}</tbody>
-</table>""")}
+</table>""")
 
 <hr style="border:none;border-top:1px solid {_PALETTE['border']};margin:2rem 0;">
 <p style="text-align:center;color:{_PALETTE['muted']};font-size:0.85rem;">
