@@ -26,7 +26,7 @@ class SubscriptionManager:
                 server.starttls()
                 server.login(self.sender_email, self.password)
                 server.sendmail(self.sender_email, recipient_email, message.as_string())
-                logging.info(f'Email sent successfully to: {recipient_email.replace(recipient_email, '***@***.com')}')
+                logging.info(f"Email sent successfully to: {recipient_email.replace(recipient_email, '***@***.com')}")
         except Exception as e:
             logging.error(f'Failed to send email: {str(e)}')
 
