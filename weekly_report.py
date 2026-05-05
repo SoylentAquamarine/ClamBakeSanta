@@ -236,7 +236,7 @@ def build_html_report(
   </div>
 </div>
 <p style="font-size:0.82rem;color:{_PALETTE['muted']};">
-  Score formula: ❤️ likes&nbsp;+&nbsp;2×&nbsp;🔁 shares/boosts/reposts&nbsp;+&nbsp;3×&nbsp;💬 replies/comments
+  Score formula: "❤️ likes&nbsp;+&nbsp;2×&nbsp;🔁 shares/boosts/reposts&nbsp;+&nbsp;3×&nbsp;💬 replies/comments"
 </p>""")}
 
 {_section("🏆 Top 5 Haikus This Week", top5_html)}
