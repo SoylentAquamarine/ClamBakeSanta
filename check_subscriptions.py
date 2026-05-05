@@ -15,7 +15,7 @@ class SubscriptionManager:
 
     def send_email(self, recipient_email, subject, body):
         # Masking the recipient email in logs
-        logging.info(f"Sending email to: {recipient_email.replace(recipient_email, "***@***.com")}")
+        logging.info(f"Sending email to: {recipient_email.replace(recipient_email, '***@***.com')}")
         message = MIMEText(body)
         message['Subject'] = subject
         message['From'] = self.sender_email
@@ -26,7 +26,7 @@ class SubscriptionManager:
                 server.starttls()
                 server.login(self.sender_email, self.password)
                 server.sendmail(self.sender_email, recipient_email, message.as_string())
-                logging.info(f'Email sent successfully to: {recipient_email.replace(recipient_email, "***@***.com")}')
+                logging.info(f'Email sent successfully to: {recipient_email.replace(recipient_email, '***@***.com')}')
         except Exception as e:
             logging.error(f'Failed to send email: {str(e)}')
 
