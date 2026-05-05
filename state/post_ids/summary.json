@@ -1,4 +1,46 @@
 {
+  "2026-05-05": {
+    "CincoDeMayo": {
+      "mastodon": {
+        "id": "116521575935356939",
+        "url": "https://mastodon.social/@ClamBakeSanta/116521575935356939"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zfhivi324",
+        "cid": "bafyreic62yeeo6irgr5e5pm5agerury5v7oqtoyuiegzx4c6j7f4mtp3qi"
+      }
+    },
+    "NationalOysterDay": {
+      "mastodon": {
+        "id": "116521579923810350",
+        "url": "https://mastodon.social/@ClamBakeSanta/116521579923810350"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zhb3idb2s",
+        "cid": "bafyreidf7eawi4s66obzyeek77mtj6hmd5ymdtmfdftmfhrko232cqcupy"
+      }
+    },
+    "HappyBirthdayNellieBly": {
+      "mastodon": {
+        "id": "116521583884623641",
+        "url": "https://mastodon.social/@ClamBakeSanta/116521583884623641"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zj2jlir2c",
+        "cid": "bafyreifyjiuc747v23ofsqx5froi4ytnmavfqlrxvqvfcj2svi6kinxhk4"
+      }
+    },
+    "HappyBirthdaySorenKierkegaard": {
+      "mastodon": {
+        "id": "116521587860857933",
+        "url": "https://mastodon.social/@ClamBakeSanta/116521587860857933"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zku4vzc2l",
+        "cid": "bafyreighxuk2tvqvtbp4h6jmimdsav3rifzyo6joksqqwzlhvc7rh2yuka"
+      }
+    }
+  },
   "2026-05-04": {
     "StarWarsDay": {
       "mastodon": {
@@ -154,32 +196,6 @@
       "bluesky": {
         "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkkh3ults52i",
         "cid": "bafyreigwsqiuoaoqrwiv2fmdfvn6p5or3tbjrp6jltmfgqyhc3gkc2gydq"
-      }
-    }
-  },
-  "2026-04-27": {
-    "NationalPrimeRibDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwki3x4q2s",
-        "cid": "bafyreihhepaqvofxvzylbpeplfw7lj6pjisah5sqkuauox444kqfjw7dba"
-      }
-    },
-    "WorldTapirDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwmc5sy72h",
-        "cid": "bafyreidzl2ykitrxdyxyo2ypfloywvg6sqpdba4v7lzvloib5wn6dtf7om"
-      }
-    },
-    "HappyBirthdayRalphWaldoEmerson": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwo3rpi72l",
-        "cid": "bafyreiaukqwjd7r4lzvrvqueasyysptjipohn6vdzep35ni3qmqa6esvde"
-      }
-    },
-    "HappyBirthdaySamuelMorse": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkhwpvf2tl2i",
-        "cid": "bafyreibpwuomn4trxwlq4osrfcrusnyahqlpjgyrcdwq34cld4wbe5szxa"
       }
     }
   }

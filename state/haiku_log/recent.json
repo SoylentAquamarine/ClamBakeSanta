@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-04-27",
-    "theme": "National Prime Rib Day",
-    "haiku": "Beef aromas rise,\nSizzling dreams on the grill glow,\nGather ‘round, taste joy.\nHappy #NationalPrimeRibDay from @ClamBakeSanta",
-    "tag": "NationalPrimeRibDay",
-    "logged_at": "2026-04-27T11:08:02.387549+00:00"
-  },
-  {
-    "date": "2026-04-27",
-    "theme": "World Tapir Day",
-    "haiku": "Gentle giants roam,\nMuddy banks and leafy greens,\nNature's quiet grace.\nHappy #WorldTapirDay from @ClamBakeSanta",
-    "tag": "WorldTapirDay",
-    "logged_at": "2026-04-27T11:08:02.387549+00:00"
-  },
-  {
-    "date": "2026-04-27",
-    "theme": "Birthday Ralph Waldo Emerson",
-    "haiku": "Cedar trees stand tall,\nEchoes of wisdom ring clear,\nNature’s voice calls bright.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta",
-    "tag": "HappyBirthdayRalphWaldoEmerson",
-    "logged_at": "2026-04-27T11:08:02.387549+00:00"
-  },
-  {
-    "date": "2026-04-27",
-    "theme": "Birthday Samuel Morse",
-    "haiku": "Candles flicker bright,\nNotes of joy in the air sing,\nMorse's spark ignites.\n#HappyBirthdaySamuelMorse from @ClamBakeSanta",
-    "tag": "HappyBirthdaySamuelMorse",
-    "logged_at": "2026-04-27T11:08:02.387549+00:00"
-  },
-  {
     "date": "2026-04-28",
     "theme": "National Blueberry Pie Day",
     "haiku": "Warm crust hugs sweet blue,\nFields burst forth with laughter's cheer,\nA slice of pure joy.\nHappy #NationalBlueberryPieDay from @ClamBakeSanta",
@@ -159,5 +131,26 @@
     "haiku": "Laughter fills the air,\nCake adorned with bright candles,\nJoy wrapped in warm hugs.\n#HappyBirthdayGoldaMeir from @ClamBakeSanta",
     "tag": "HappyBirthdayGoldaMeir",
     "logged_at": "2026-05-03T10:08:18.731050+00:00"
+  },
+  {
+    "date": "2026-05-04",
+    "theme": "Star Wars Day",
+    "haiku": "Galaxies abound,\nLightsabers dance in starlight,\nJoy ignites the night.\nHappy #StarWarsDay from @ClamBakeSanta",
+    "tag": "StarWarsDay",
+    "logged_at": "2026-05-04T11:07:28.499497+00:00"
+  },
+  {
+    "date": "2026-05-04",
+    "theme": "National Candied Orange Peel Day",
+    "haiku": "Zesty peels delight,\nSugared sunlight dances bright,\nJoy in every bite.\nHappy #NationalCandiedOrangePeelDay from @ClamBakeSanta",
+    "tag": "NationalCandiedOrangePeelDay",
+    "logged_at": "2026-05-04T11:07:28.499497+00:00"
+  },
+  {
+    "date": "2026-05-04",
+    "theme": "Birthday Audrey Hepburn",
+    "haiku": "Silken gowns twirl bright,\nChampagne bubbles dance with cheer,\nTimeless grace ignites.\n#HappyBirthdayAudreyHepburn from @ClamBakeSanta",
+    "tag": "HappyBirthdayAudreyHepburn",
+    "logged_at": "2026-05-04T11:07:28.499497+00:00"
   }
 ]

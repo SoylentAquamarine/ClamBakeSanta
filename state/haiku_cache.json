@@ -1,27 +1,33 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "haikus": [
     {
-      "theme": "Star Wars Day",
-      "haiku": "Galaxies abound,\nLightsabers dance in starlight,\nJoy ignites the night.\nHappy #StarWarsDay from @ClamBakeSanta",
-      "tag": "StarWarsDay"
+      "theme": "Cinco de Mayo",
+      "haiku": "Bright papel picado,\nMargaritas swirl and dance,\nSpicy bites delight.\nHappy #CincoDeMayo from @ClamBakeSanta",
+      "tag": "CincoDeMayo"
     },
     {
-      "theme": "National Candied Orange Peel Day",
-      "haiku": "Zesty peels delight,\nSugared sunlight dances bright,\nJoy in every bite.\nHappy #NationalCandiedOrangePeelDay from @ClamBakeSanta",
-      "tag": "NationalCandiedOrangePeelDay"
+      "theme": "National Oyster Day",
+      "haiku": "Salty kisses sway,\nShells open like summer sun,\nJoy on every plate.\nHappy #NationalOysterDay from @ClamBakeSanta",
+      "tag": "NationalOysterDay"
     },
     {
-      "theme": "Birthday Audrey Hepburn",
-      "haiku": "Silken gowns twirl bright,\nChampagne bubbles dance with cheer,\nTimeless grace ignites.\n#HappyBirthdayAudreyHepburn from @ClamBakeSanta",
-      "tag": "HappyBirthdayAudreyHepburn"
+      "theme": "Birthday Nellie Bly",
+      "haiku": "Joyful voices cheer,\nCupcakes swirl in frosted hues,\nAdventures await!\n#HappyBirthdayNellieBly from @ClamBakeSanta",
+      "tag": "HappyBirthdayNellieBly"
+    },
+    {
+      "theme": "Birthday Soren Kierkegaard",
+      "haiku": "Bright thoughts dance like leaves,\nIn autumn's crisp embrace,\nJoy blooms in the heart.\n#HappyBirthdaySorenKierkegaard from @ClamBakeSanta",
+      "tag": "HappyBirthdaySorenKierkegaard"
     }
   ],
   "themes": [
-    "Star Wars Day",
-    "National Candied Orange Peel Day",
-    "Birthday Audrey Hepburn"
+    "Cinco de Mayo",
+    "National Oyster Day",
+    "Birthday Nellie Bly",
+    "Birthday Soren Kierkegaard"
   ],
-  "content": "Galaxies abound,\nLightsabers dance in starlight,\nJoy ignites the night.\nHappy #StarWarsDay from @ClamBakeSanta\n\nZesty peels delight,\nSugared sunlight dances bright,\nJoy in every bite.\nHappy #NationalCandiedOrangePeelDay from @ClamBakeSanta\n\nSilken gowns twirl bright,\nChampagne bubbles dance with cheer,\nTimeless grace ignites.\n#HappyBirthdayAudreyHepburn from @ClamBakeSanta",
-  "saved_at": "2026-05-04T11:07:28.499112+00:00"
+  "content": "Bright papel picado,\nMargaritas swirl and dance,\nSpicy bites delight.\nHappy #CincoDeMayo from @ClamBakeSanta\n\nSalty kisses sway,\nShells open like summer sun,\nJoy on every plate.\nHappy #NationalOysterDay from @ClamBakeSanta\n\nJoyful voices cheer,\nCupcakes swirl in frosted hues,\nAdventures await!\n#HappyBirthdayNellieBly from @ClamBakeSanta\n\nBright thoughts dance like leaves,\nIn autumn's crisp embrace,\nJoy blooms in the heart.\n#HappyBirthdaySorenKierkegaard from @ClamBakeSanta",
+  "saved_at": "2026-05-05T10:49:07.819931+00:00"
 }
