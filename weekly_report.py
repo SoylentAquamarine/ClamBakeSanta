@@ -127,24 +127,30 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url)
     for i, r in enumerate(week_records):
         table += f"<tr><td>{i+1}</td><td>{r['date']}</td><td>{r['theme']}</td><td>{r['total_score']}</td></tr>"
 
+    stats_section = section("Stats", f"""
+<p>Posts: {total_posts}</p>
+<p>Score: {total_score}</p>
+<p>Platforms: {len(active_plats)}</p>
+<p>{trend}</p>
+""")
+
+    top5_section = section("Top 5", top5)
+    leaders_section = section("Leaders", leaders)
+    all_section = section("All", f"<table>{table}</table>")
+
     return f"""
 <html>
 <body style="font-family:system-ui;max-width:700px;margin:auto;">
 
 <h1>Weekly Report</h1>
 
-{section("Stats", f"""
-<p>Posts: {total_posts}</p>
-<p>Score: {total_score}</p>
-<p>Platforms: {len(active_plats)}</p>
-<p>{trend}</p>
-""")}
+{stats_section}
 
-{section("Top 5", top5)}
+{top5_section}
 
-{section("Leaders", leaders)}
+{leaders_section}
 
-{section("All", f"<table>{table}</table>")}
+{all_section}
 
 <hr>
 <p><a href="{site_url}">Site</a></p>
@@ -152,7 +158,6 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url)
 </body>
 </html>
 """
-
 
 # ── Email ─────────────────────────────────────────────────────────────────────
 
