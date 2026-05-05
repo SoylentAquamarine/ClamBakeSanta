@@ -218,23 +218,19 @@ def build_html_report(
 
 {_section("📊 Week at a Glance", f"""
 <div style="display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0;">
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
     <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE['green']};">{total_posts}</div>
     <div style="font-size:0.85rem;color:{_PALETTE['muted']};">haikus posted</div>
   </div>
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
     <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE['green']};">{total_score}</div>
     <div style="font-size:0.85rem;color:{_PALETTE['muted']};">total engagement</div>
   </div>
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
     <div style="font-size:1.8rem;font-weight:bold;color:{_PALETTE['green']};">{len(active_plats)}</div>
     <div style="font-size:0.85rem;color:{_PALETTE['muted']};">active platforms</div>
   </div>
-  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};
-              border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
+  <div style="flex:1;min-width:130px;padding:1rem;background:{_PALETTE['light_bg']};border-radius:8px;text-align:center;border:1px solid {_PALETTE['border']};">
     <div style="font-size:1.2rem;font-weight:bold;color:{trend_color};">{trend}</div>
     <div style="font-size:0.85rem;color:{_PALETTE['muted']};">engagement trend</div>
   </div>
