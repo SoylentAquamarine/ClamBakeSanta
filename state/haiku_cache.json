@@ -1,33 +1,27 @@
 {
-  "date": "2026-05-05",
+  "date": "2026-05-06",
   "haikus": [
     {
-      "theme": "Cinco de Mayo",
-      "haiku": "Bright papel picado,\nMargaritas swirl and dance,\nSpicy bites delight.\nHappy #CincoDeMayo from @ClamBakeSanta",
-      "tag": "CincoDeMayo"
+      "theme": "National Beverage Day",
+      "haiku": "Chilled glasses clink bright,\nFizzy bubbles dance with joy,\nCheers to flavors bold!\nHappy #NationalBeverageDay from @ClamBakeSanta",
+      "tag": "NationalBeverageDay"
     },
     {
-      "theme": "National Oyster Day",
-      "haiku": "Salty kisses sway,\nShells open like summer sun,\nJoy on every plate.\nHappy #NationalOysterDay from @ClamBakeSanta",
-      "tag": "NationalOysterDay"
+      "theme": "No Homework Day",
+      "haiku": "Sunshine spills like gold,\nChildren's giggles dance like sparks,\nJoyful plans unfold.\nHappy #NoHomeworkDay from @ClamBakeSanta",
+      "tag": "NoHomeworkDay"
     },
     {
-      "theme": "Birthday Nellie Bly",
-      "haiku": "Joyful voices cheer,\nCupcakes swirl in frosted hues,\nAdventures await!\n#HappyBirthdayNellieBly from @ClamBakeSanta",
-      "tag": "HappyBirthdayNellieBly"
-    },
-    {
-      "theme": "Birthday Soren Kierkegaard",
-      "haiku": "Bright thoughts dance like leaves,\nIn autumn's crisp embrace,\nJoy blooms in the heart.\n#HappyBirthdaySorenKierkegaard from @ClamBakeSanta",
-      "tag": "HappyBirthdaySorenKierkegaard"
+      "theme": "Birthday Sigmund Freud",
+      "haiku": "Bright candles dancing,\nThoughts weave through sweetened moments,\nJoy wrapped in silence.\n#HappyBirthdaySigmundFreud from @ClamBakeSanta",
+      "tag": "HappyBirthdaySigmundFreud"
     }
   ],
   "themes": [
-    "Cinco de Mayo",
-    "National Oyster Day",
-    "Birthday Nellie Bly",
-    "Birthday Soren Kierkegaard"
+    "National Beverage Day",
+    "No Homework Day",
+    "Birthday Sigmund Freud"
   ],
-  "content": "Bright papel picado,\nMargaritas swirl and dance,\nSpicy bites delight.\nHappy #CincoDeMayo from @ClamBakeSanta\n\nSalty kisses sway,\nShells open like summer sun,\nJoy on every plate.\nHappy #NationalOysterDay from @ClamBakeSanta\n\nJoyful voices cheer,\nCupcakes swirl in frosted hues,\nAdventures await!\n#HappyBirthdayNellieBly from @ClamBakeSanta\n\nBright thoughts dance like leaves,\nIn autumn's crisp embrace,\nJoy blooms in the heart.\n#HappyBirthdaySorenKierkegaard from @ClamBakeSanta",
-  "saved_at": "2026-05-05T10:49:07.819931+00:00"
+  "content": "Chilled glasses clink bright,\nFizzy bubbles dance with joy,\nCheers to flavors bold!\nHappy #NationalBeverageDay from @ClamBakeSanta\n\nSunshine spills like gold,\nChildren's giggles dance like sparks,\nJoyful plans unfold.\nHappy #NoHomeworkDay from @ClamBakeSanta\n\nBright candles dancing,\nThoughts weave through sweetened moments,\nJoy wrapped in silence.\n#HappyBirthdaySigmundFreud from @ClamBakeSanta",
+  "saved_at": "2026-05-06T11:09:23.404451+00:00"
 }

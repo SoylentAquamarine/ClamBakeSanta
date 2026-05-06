@@ -22,7 +22,8 @@
     "2026-05-02",
     "2026-05-03",
     "2026-05-04",
-    "2026-05-05"
+    "2026-05-05",
+    "2026-05-06"
   ],
   "runs": [
     {
@@ -282,6 +283,17 @@
         "Birthday Soren Kierkegaard"
       ],
       "content_preview": "Bright papel picado, Margaritas swirl and dance, Spicy bites delight. Happy #CincoDeMayo from @ClamBakeSanta  Salty kiss"
+    },
+    {
+      "date": "2026-05-06",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-06T11:17:36.288071+00:00",
+      "themes": [
+        "National Beverage Day",
+        "No Homework Day",
+        "Birthday Sigmund Freud"
+      ],
+      "content_preview": "Chilled glasses clink bright, Fizzy bubbles dance with joy, Cheers to flavors bold! Happy #NationalBeverageDay from @Cla"
     }
   ]
 }
