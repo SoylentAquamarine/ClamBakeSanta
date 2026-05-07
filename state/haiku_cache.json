@@ -1,27 +1,33 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-07",
   "haikus": [
     {
-      "theme": "National Beverage Day",
-      "haiku": "Chilled glasses clink bright,\nFizzy bubbles dance with joy,\nCheers to flavors bold!\nHappy #NationalBeverageDay from @ClamBakeSanta",
-      "tag": "NationalBeverageDay"
+      "theme": "National Roast Leg of Lamb Day",
+      "haiku": "Herbs dance in warm breeze,\nSucculent scents weave through time,\nFeasts shared, hearts aglow.\nHappy #NationalRoastLegOfLambDay from @ClamBakeSanta",
+      "tag": "NationalRoastLegOfLambDay"
     },
     {
-      "theme": "No Homework Day",
-      "haiku": "Sunshine spills like gold,\nChildren's giggles dance like sparks,\nJoyful plans unfold.\nHappy #NoHomeworkDay from @ClamBakeSanta",
-      "tag": "NoHomeworkDay"
+      "theme": "World Password Day",
+      "haiku": "Keys unlock the glow,\nColorful codes dance in light,\nSecure joy we share.\nHappy #WorldPasswordDay from @ClamBakeSanta",
+      "tag": "WorldPasswordDay"
     },
     {
-      "theme": "Birthday Sigmund Freud",
-      "haiku": "Bright candles dancing,\nThoughts weave through sweetened moments,\nJoy wrapped in silence.\n#HappyBirthdaySigmundFreud from @ClamBakeSanta",
-      "tag": "HappyBirthdaySigmundFreud"
+      "theme": "Birthday Johannes Brahms",
+      "haiku": "Melody's embrace,\nNotes like stars in evening light,\nJoyful hearts unite.\n#HappyBirthdayJohannesBrahms from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohannesBrahms"
+    },
+    {
+      "theme": "Birthday Robert Browning",
+      "haiku": "Sunlight through the leaves,\nWords dance on the gentle breeze,\nJoy in every verse.\n#HappyBirthdayRobertBrowning from @ClamBakeSanta",
+      "tag": "HappyBirthdayRobertBrowning"
     }
   ],
   "themes": [
-    "National Beverage Day",
-    "No Homework Day",
-    "Birthday Sigmund Freud"
+    "National Roast Leg of Lamb Day",
+    "World Password Day",
+    "Birthday Johannes Brahms",
+    "Birthday Robert Browning"
   ],
-  "content": "Chilled glasses clink bright,\nFizzy bubbles dance with joy,\nCheers to flavors bold!\nHappy #NationalBeverageDay from @ClamBakeSanta\n\nSunshine spills like gold,\nChildren's giggles dance like sparks,\nJoyful plans unfold.\nHappy #NoHomeworkDay from @ClamBakeSanta\n\nBright candles dancing,\nThoughts weave through sweetened moments,\nJoy wrapped in silence.\n#HappyBirthdaySigmundFreud from @ClamBakeSanta",
-  "saved_at": "2026-05-06T11:09:23.404451+00:00"
+  "content": "Herbs dance in warm breeze,\nSucculent scents weave through time,\nFeasts shared, hearts aglow.\nHappy #NationalRoastLegOfLambDay from @ClamBakeSanta\n\nKeys unlock the glow,\nColorful codes dance in light,\nSecure joy we share.\nHappy #WorldPasswordDay from @ClamBakeSanta\n\nMelody's embrace,\nNotes like stars in evening light,\nJoyful hearts unite.\n#HappyBirthdayJohannesBrahms from @ClamBakeSanta\n\nSunlight through the leaves,\nWords dance on the gentle breeze,\nJoy in every verse.\n#HappyBirthdayRobertBrowning from @ClamBakeSanta",
+  "saved_at": "2026-05-07T11:11:40.930520+00:00"
 }

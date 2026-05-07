@@ -1,4 +1,46 @@
 {
+  "2026-05-07": {
+    "NationalRoastLegOfLambDay": {
+      "mastodon": {
+        "id": "116532989211154042",
+        "url": "https://mastodon.social/@ClamBakeSanta/116532989211154042"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlb3ln6yzj2g",
+        "cid": "bafyreihwyvcw6byxubjl44w42oqwafucfrynomdiuulsevnrt272ame5i4"
+      }
+    },
+    "WorldPasswordDay": {
+      "mastodon": {
+        "id": "116532993174482507",
+        "url": "https://mastodon.social/@ClamBakeSanta/116532993174482507"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlb3ngn6xm2h",
+        "cid": "bafyreiazl7y75wuzdpfb64a47jwj4cqute2p5vozrkotcaj4r7ofwx7huy"
+      }
+    },
+    "HappyBirthdayJohannesBrahms": {
+      "mastodon": {
+        "id": "116532997145565655",
+        "url": "https://mastodon.social/@ClamBakeSanta/116532997145565655"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlb3pa7gac2h",
+        "cid": "bafyreigaubvu4ydnin62uo37n53rzrfnbzmetktk76vilwhsixs3tou67m"
+      }
+    },
+    "HappyBirthdayRobertBrowning": {
+      "mastodon": {
+        "id": "116533001159613334",
+        "url": "https://mastodon.social/@ClamBakeSanta/116533001159613334"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlb3qzt65p2h",
+        "cid": "bafyreigve25vga6xksiekxb35sssw5zd4yme34xqahjzhbe7givoarfzuq"
+      }
+    }
+  },
   "2026-05-06": {
     "NationalBeverageDay": {
       "mastodon": {
@@ -182,32 +224,6 @@
       "bluesky": {
         "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkphjagyt52s",
         "cid": "bafyreifit7nurccvbysgohyfqmwssuqwrue4ysiywejah7exfzccrpy7ri"
-      }
-    }
-  },
-  "2026-04-29": {
-    "NationalShrimpScampiDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmwyjdkms2a",
-        "cid": "bafyreihh272yoi2jk3hov5nmetwitcnh6xlt342jkfrmpwxrnqpy65ldua"
-      }
-    },
-    "WorldDanceDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmx2ctnob2s",
-        "cid": "bafyreiac4uj4sgo7xgxijybacdnpagp4ncnlwrihe5r2actymcnlt6lluq"
-      }
-    },
-    "HappyBirthdayDukeEllington": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmx44dlrt2u",
-        "cid": "bafyreih5zuouu6c2nnpka3ze3ds23oscy3kolxcnbd6jrujtkrd7ad3z5e"
-      }
-    },
-    "HappyBirthdayWilliamRandolphHearst": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkmx5vtgim2q",
-        "cid": "bafyreihzyjva7v3wjk3rgfivioxx4e72vwh4xy3tm4qbtmvrev2bkouwy4"
       }
     }
   }

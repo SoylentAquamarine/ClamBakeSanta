@@ -23,7 +23,8 @@
     "2026-05-03",
     "2026-05-04",
     "2026-05-05",
-    "2026-05-06"
+    "2026-05-06",
+    "2026-05-07"
   ],
   "runs": [
     {
@@ -294,6 +295,18 @@
         "Birthday Sigmund Freud"
       ],
       "content_preview": "Chilled glasses clink bright, Fizzy bubbles dance with joy, Cheers to flavors bold! Happy #NationalBeverageDay from @Cla"
+    },
+    {
+      "date": "2026-05-07",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-07T11:23:58.348061+00:00",
+      "themes": [
+        "National Roast Leg of Lamb Day",
+        "World Password Day",
+        "Birthday Johannes Brahms",
+        "Birthday Robert Browning"
+      ],
+      "content_preview": "Herbs dance in warm breeze, Succulent scents weave through time, Feasts shared, hearts aglow. Happy #NationalRoastLegOfL"
     }
   ]
 }
