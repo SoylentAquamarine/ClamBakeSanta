@@ -1,33 +1,27 @@
 {
-  "date": "2026-05-07",
+  "date": "2026-05-08",
   "haikus": [
     {
-      "theme": "National Roast Leg of Lamb Day",
-      "haiku": "Herbs dance in warm breeze,\nSucculent scents weave through time,\nFeasts shared, hearts aglow.\nHappy #NationalRoastLegOfLambDay from @ClamBakeSanta",
-      "tag": "NationalRoastLegOfLambDay"
+      "theme": "National Coconut Cream Pie Day",
+      "haiku": "Creamy sweetness swirls,\nCrisp crust cradles joy within,\nWhipped clouds dance on top.\nHappy #NationalCoconutCreamPieDay from @ClamBakeSanta",
+      "tag": "NationalCoconutCreamPieDay"
     },
     {
-      "theme": "World Password Day",
-      "haiku": "Keys unlock the glow,\nColorful codes dance in light,\nSecure joy we share.\nHappy #WorldPasswordDay from @ClamBakeSanta",
-      "tag": "WorldPasswordDay"
+      "theme": "No Socks Day",
+      "haiku": "Sunbeams on bare feet,\nCool grass tickles joyfully,\nFreedom in each step.\nHappy #NoSocksDay from @ClamBakeSanta",
+      "tag": "NoSocksDay"
     },
     {
-      "theme": "Birthday Johannes Brahms",
-      "haiku": "Melody's embrace,\nNotes like stars in evening light,\nJoyful hearts unite.\n#HappyBirthdayJohannesBrahms from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohannesBrahms"
-    },
-    {
-      "theme": "Birthday Robert Browning",
-      "haiku": "Sunlight through the leaves,\nWords dance on the gentle breeze,\nJoy in every verse.\n#HappyBirthdayRobertBrowning from @ClamBakeSanta",
-      "tag": "HappyBirthdayRobertBrowning"
+      "theme": "Birthday Harry Truman",
+      "haiku": "Candles gently glow,\nEchoing tales of laughter,\nJoyful hearts unite.\n#HappyBirthdayHarryTruman from @ClamBakeSanta",
+      "tag": "HappyBirthdayHarryTruman"
     }
   ],
   "themes": [
-    "National Roast Leg of Lamb Day",
-    "World Password Day",
-    "Birthday Johannes Brahms",
-    "Birthday Robert Browning"
+    "National Coconut Cream Pie Day",
+    "No Socks Day",
+    "Birthday Harry Truman"
   ],
-  "content": "Herbs dance in warm breeze,\nSucculent scents weave through time,\nFeasts shared, hearts aglow.\nHappy #NationalRoastLegOfLambDay from @ClamBakeSanta\n\nKeys unlock the glow,\nColorful codes dance in light,\nSecure joy we share.\nHappy #WorldPasswordDay from @ClamBakeSanta\n\nMelody's embrace,\nNotes like stars in evening light,\nJoyful hearts unite.\n#HappyBirthdayJohannesBrahms from @ClamBakeSanta\n\nSunlight through the leaves,\nWords dance on the gentle breeze,\nJoy in every verse.\n#HappyBirthdayRobertBrowning from @ClamBakeSanta",
-  "saved_at": "2026-05-07T11:11:40.930520+00:00"
+  "content": "Creamy sweetness swirls,\nCrisp crust cradles joy within,\nWhipped clouds dance on top.\nHappy #NationalCoconutCreamPieDay from @ClamBakeSanta\n\nSunbeams on bare feet,\nCool grass tickles joyfully,\nFreedom in each step.\nHappy #NoSocksDay from @ClamBakeSanta\n\nCandles gently glow,\nEchoing tales of laughter,\nJoyful hearts unite.\n#HappyBirthdayHarryTruman from @ClamBakeSanta",
+  "saved_at": "2026-05-08T10:26:58.791060+00:00"
 }

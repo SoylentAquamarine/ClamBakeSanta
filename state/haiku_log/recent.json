@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-04-30",
-    "theme": "International Jazz Day",
-    "haiku": "Saxophones shimmer,\nRhythms pulse in warm twilight,\nHearts sway, spirits rise.\nHappy #InternationalJazzDay from @ClamBakeSanta",
-    "tag": "InternationalJazzDay",
-    "logged_at": "2026-04-30T10:58:12.939717+00:00"
-  },
-  {
-    "date": "2026-04-30",
-    "theme": "National Oatmeal Cookie Day",
-    "haiku": "Warm cookies beckon,\nSpices swirl in the oven,\nNuts and chocolate dance.\nHappy #NationalOatmealCookieDay from @ClamBakeSanta",
-    "tag": "NationalOatmealCookieDay",
-    "logged_at": "2026-04-30T10:58:12.939717+00:00"
-  },
-  {
-    "date": "2026-04-30",
-    "theme": "Birthday Walter Lantz",
-    "haiku": "Laughter fills the air,\nColors burst like joyous blooms,\nCake's sweet warmth surrounds.\n#HappyBirthdayWalterLantz from @ClamBakeSanta",
-    "tag": "HappyBirthdayWalterLantz",
-    "logged_at": "2026-04-30T10:58:12.939717+00:00"
-  },
-  {
     "date": "2026-05-01",
     "theme": "May Day",
     "haiku": "Blossoms paint the air,\nLaughter twirls through the soft breeze,\nTogether we bloom.\nHappy #MayDay from @ClamBakeSanta",
@@ -152,5 +131,33 @@
     "haiku": "Bright candles dancing,\nThoughts weave through sweetened moments,\nJoy wrapped in silence.\n#HappyBirthdaySigmundFreud from @ClamBakeSanta",
     "tag": "HappyBirthdaySigmundFreud",
     "logged_at": "2026-05-06T11:09:23.404909+00:00"
+  },
+  {
+    "date": "2026-05-07",
+    "theme": "National Roast Leg of Lamb Day",
+    "haiku": "Herbs dance in warm breeze,\nSucculent scents weave through time,\nFeasts shared, hearts aglow.\nHappy #NationalRoastLegOfLambDay from @ClamBakeSanta",
+    "tag": "NationalRoastLegOfLambDay",
+    "logged_at": "2026-05-07T11:11:40.930876+00:00"
+  },
+  {
+    "date": "2026-05-07",
+    "theme": "World Password Day",
+    "haiku": "Keys unlock the glow,\nColorful codes dance in light,\nSecure joy we share.\nHappy #WorldPasswordDay from @ClamBakeSanta",
+    "tag": "WorldPasswordDay",
+    "logged_at": "2026-05-07T11:11:40.930876+00:00"
+  },
+  {
+    "date": "2026-05-07",
+    "theme": "Birthday Johannes Brahms",
+    "haiku": "Melody's embrace,\nNotes like stars in evening light,\nJoyful hearts unite.\n#HappyBirthdayJohannesBrahms from @ClamBakeSanta",
+    "tag": "HappyBirthdayJohannesBrahms",
+    "logged_at": "2026-05-07T11:11:40.930876+00:00"
+  },
+  {
+    "date": "2026-05-07",
+    "theme": "Birthday Robert Browning",
+    "haiku": "Sunlight through the leaves,\nWords dance on the gentle breeze,\nJoy in every verse.\n#HappyBirthdayRobertBrowning from @ClamBakeSanta",
+    "tag": "HappyBirthdayRobertBrowning",
+    "logged_at": "2026-05-07T11:11:40.930876+00:00"
   }
 ]

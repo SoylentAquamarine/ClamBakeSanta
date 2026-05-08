@@ -24,7 +24,8 @@
     "2026-05-04",
     "2026-05-05",
     "2026-05-06",
-    "2026-05-07"
+    "2026-05-07",
+    "2026-05-08"
   ],
   "runs": [
     {
@@ -307,6 +308,17 @@
         "Birthday Robert Browning"
       ],
       "content_preview": "Herbs dance in warm breeze, Succulent scents weave through time, Feasts shared, hearts aglow. Happy #NationalRoastLegOfL"
+    },
+    {
+      "date": "2026-05-08",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-08T10:35:10.197459+00:00",
+      "themes": [
+        "National Coconut Cream Pie Day",
+        "No Socks Day",
+        "Birthday Harry Truman"
+      ],
+      "content_preview": "Creamy sweetness swirls, Crisp crust cradles joy within, Whipped clouds dance on top. Happy #NationalCoconutCreamPieDay "
     }
   ]
 }

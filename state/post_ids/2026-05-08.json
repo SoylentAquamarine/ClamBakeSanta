@@ -1,0 +1,32 @@
+{
+  "NationalCoconutCreamPieDay": {
+    "mastodon": {
+      "id": "116538475765371988",
+      "url": "https://mastodon.social/@ClamBakeSanta/116538475765371988"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mldjiskeur2h",
+      "cid": "bafyreidpfee2ofidfbg324vckn2uys6ksg4qezaoxmgpdyyqgdullpb5vy"
+    }
+  },
+  "NoSocksDay": {
+    "mastodon": {
+      "id": "116538479741286872",
+      "url": "https://mastodon.social/@ClamBakeSanta/116538479741286872"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mldjklxqrj2h",
+      "cid": "bafyreihewar3jhjjglvbzhr6aiy5w6gittjo4k2l2tsaqasirlyeznvz74"
+    }
+  },
+  "HappyBirthdayHarryTruman": {
+    "mastodon": {
+      "id": "116538483703969636",
+      "url": "https://mastodon.social/@ClamBakeSanta/116538483703969636"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mldjmffhw22l",
+      "cid": "bafyreiecb6vmbwe6eqlhd6sqfca7zkobzmpfr5alxs3br7beo73tasjbgm"
+    }
+  }
+}
