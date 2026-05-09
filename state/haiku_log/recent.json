@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-01",
-    "theme": "May Day",
-    "haiku": "Blossoms paint the air,\nLaughter twirls through the soft breeze,\nTogether we bloom.\nHappy #MayDay from @ClamBakeSanta",
-    "tag": "MayDay",
-    "logged_at": "2026-05-01T10:25:22.023274+00:00"
-  },
-  {
-    "date": "2026-05-01",
-    "theme": "National Macaroon Day",
-    "haiku": "Coconut clouds rise,\nSweet almond whispers beckon,\nJoy in every bite.\nHappy #NationalMacaroonDay from @ClamBakeSanta",
-    "tag": "NationalMacaroonDay",
-    "logged_at": "2026-05-01T10:25:22.023274+00:00"
-  },
-  {
-    "date": "2026-05-01",
-    "theme": "Birthday Mother Jones",
-    "haiku": "Laughter fills the air,\nCake and dreams in every bite,\nJoyous hearts unite.\n#HappyBirthdayMotherJones from @ClamBakeSanta",
-    "tag": "HappyBirthdayMotherJones",
-    "logged_at": "2026-05-01T10:25:22.023274+00:00"
-  },
-  {
     "date": "2026-05-02",
     "theme": "National Truffle Day",
     "haiku": "Earth's hidden jewels gleam,\nRich and earthy whispers swirl,\nJoy in every bite.\nHappy #NationalTruffleDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Sunlight through the leaves,\nWords dance on the gentle breeze,\nJoy in every verse.\n#HappyBirthdayRobertBrowning from @ClamBakeSanta",
     "tag": "HappyBirthdayRobertBrowning",
     "logged_at": "2026-05-07T11:11:40.930876+00:00"
+  },
+  {
+    "date": "2026-05-08",
+    "theme": "National Coconut Cream Pie Day",
+    "haiku": "Creamy sweetness swirls,\nCrisp crust cradles joy within,\nWhipped clouds dance on top.\nHappy #NationalCoconutCreamPieDay from @ClamBakeSanta",
+    "tag": "NationalCoconutCreamPieDay",
+    "logged_at": "2026-05-08T10:26:58.791392+00:00"
+  },
+  {
+    "date": "2026-05-08",
+    "theme": "No Socks Day",
+    "haiku": "Sunbeams on bare feet,\nCool grass tickles joyfully,\nFreedom in each step.\nHappy #NoSocksDay from @ClamBakeSanta",
+    "tag": "NoSocksDay",
+    "logged_at": "2026-05-08T10:26:58.791392+00:00"
+  },
+  {
+    "date": "2026-05-08",
+    "theme": "Birthday Harry Truman",
+    "haiku": "Candles gently glow,\nEchoing tales of laughter,\nJoyful hearts unite.\n#HappyBirthdayHarryTruman from @ClamBakeSanta",
+    "tag": "HappyBirthdayHarryTruman",
+    "logged_at": "2026-05-08T10:26:58.791392+00:00"
   }
 ]

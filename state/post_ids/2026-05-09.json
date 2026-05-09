@@ -1,0 +1,32 @@
+{
+  "NationalButterscotchBrownieDay": {
+    "mastodon": {
+      "id": "116544065093329475",
+      "url": "https://mastodon.social/@ClamBakeSanta/116544065093329475"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlfywkhzs42h",
+      "cid": "bafyreicpdmnu65xqqx7kxebqnj2xiye5ou37rmdk26wx64lnis3tvir25u"
+    }
+  },
+  "NationalLostSockMemorialDay": {
+    "mastodon": {
+      "id": "116544069058606630",
+      "url": "https://mastodon.social/@ClamBakeSanta/116544069058606630"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlfyye6r5424",
+      "cid": "bafyreiaf52g7x24hlav5f3ivfqfoix6v2hq4av4vbrorti2chedgxhdrsm"
+    }
+  },
+  "HappyBirthdayJamesLBrooks": {
+    "mastodon": {
+      "id": "116544073043125836",
+      "url": "https://mastodon.social/@ClamBakeSanta/116544073043125836"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlfz25pupb2s",
+      "cid": "bafyreigiwjyq2765ix5cux4cz2gknumdu3u6fmbxt6dvdmtbdtvgff2hnm"
+    }
+  }
+}
