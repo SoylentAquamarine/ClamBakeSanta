@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-09",
+  "date": "2026-05-10",
   "haikus": [
     {
-      "theme": "National Butterscotch Brownie Day",
-      "haiku": "Warm, gooey treasures,\nCaramel swirls kiss chocolate,\nNuts crunch, sweet dreams bloom.\nHappy #NationalButterscotchBrownieDay from @ClamBakeSanta",
-      "tag": "NationalButterscotchBrownieDay"
+      "theme": "National Shrimp Day",
+      "haiku": "Bubbling pots of joy,\nTender shrimp sizzle and pop,\nGarlic whispers spice.\nHappy #NationalShrimpDay from @ClamBakeSanta",
+      "tag": "NationalShrimpDay"
     },
     {
-      "theme": "National Lost Sock Memorial Day",
-      "haiku": "Whirls of fabric spin,\nMismatched dreams in cozy nooks,\nA dance of warmth grows.\nHappy #NationalLostSockMemorialDay from @ClamBakeSanta",
-      "tag": "NationalLostSockMemorialDay"
+      "theme": "Clean Up Your Room Day",
+      "haiku": "Sunlight spills like joy,\nDust bunnies take their last bow,\nFresh scents fill the air.\nHappy #CleanUpYourRoomDay from @ClamBakeSanta",
+      "tag": "CleanUpYourRoomDay"
     },
     {
-      "theme": "Birthday James L. Brooks",
-      "haiku": "Candles flicker warm,\nJoyful echoes weave through time,\nCake and dreams take flight.\n#HappyBirthdayJamesLBrooks from @ClamBakeSanta",
-      "tag": "HappyBirthdayJamesLBrooks"
+      "theme": "Birthday Donovan",
+      "haiku": "Chocolate cake towers,\nSprinkles rain like confetti,\nBalloons float on dreams.\n#HappyBirthdayDonovan from @ClamBakeSanta",
+      "tag": "HappyBirthdayDonovan"
     }
   ],
   "themes": [
-    "National Butterscotch Brownie Day",
-    "National Lost Sock Memorial Day",
-    "Birthday James L. Brooks"
+    "National Shrimp Day",
+    "Clean Up Your Room Day",
+    "Birthday Donovan"
   ],
-  "content": "Warm, gooey treasures,\nCaramel swirls kiss chocolate,\nNuts crunch, sweet dreams bloom.\nHappy #NationalButterscotchBrownieDay from @ClamBakeSanta\n\nWhirls of fabric spin,\nMismatched dreams in cozy nooks,\nA dance of warmth grows.\nHappy #NationalLostSockMemorialDay from @ClamBakeSanta\n\nCandles flicker warm,\nJoyful echoes weave through time,\nCake and dreams take flight.\n#HappyBirthdayJamesLBrooks from @ClamBakeSanta",
-  "saved_at": "2026-05-09T10:08:25.526016+00:00"
+  "content": "Bubbling pots of joy,\nTender shrimp sizzle and pop,\nGarlic whispers spice.\nHappy #NationalShrimpDay from @ClamBakeSanta\n\nSunlight spills like joy,\nDust bunnies take their last bow,\nFresh scents fill the air.\nHappy #CleanUpYourRoomDay from @ClamBakeSanta\n\nChocolate cake towers,\nSprinkles rain like confetti,\nBalloons float on dreams.\n#HappyBirthdayDonovan from @ClamBakeSanta",
+  "saved_at": "2026-05-10T10:18:19.016379+00:00"
 }

@@ -26,7 +26,8 @@
     "2026-05-06",
     "2026-05-07",
     "2026-05-08",
-    "2026-05-09"
+    "2026-05-09",
+    "2026-05-10"
   ],
   "runs": [
     {
@@ -331,6 +332,17 @@
         "Birthday James L. Brooks"
       ],
       "content_preview": "Warm, gooey treasures, Caramel swirls kiss chocolate, Nuts crunch, sweet dreams bloom. Happy #NationalButterscotchBrowni"
+    },
+    {
+      "date": "2026-05-10",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-10T10:26:31.523837+00:00",
+      "themes": [
+        "National Shrimp Day",
+        "Clean Up Your Room Day",
+        "Birthday Donovan"
+      ],
+      "content_preview": "Bubbling pots of joy, Tender shrimp sizzle and pop, Garlic whispers spice. Happy #NationalShrimpDay from @ClamBakeSanta "
     }
   ]
 }

@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-02",
-    "theme": "National Truffle Day",
-    "haiku": "Earth's hidden jewels gleam,\nRich and earthy whispers swirl,\nJoy in every bite.\nHappy #NationalTruffleDay from @ClamBakeSanta",
-    "tag": "NationalTruffleDay",
-    "logged_at": "2026-05-02T10:00:04.169515+00:00"
-  },
-  {
-    "date": "2026-05-02",
-    "theme": "National Ferret Day",
-    "haiku": "Soft fur twirls and plays,\nJoyful leaps in sunlit nooks,\nWhiskers twitch with glee.\nHappy #NationalFerretDay from @ClamBakeSanta",
-    "tag": "NationalFerretDay",
-    "logged_at": "2026-05-02T10:00:04.169515+00:00"
-  },
-  {
-    "date": "2026-05-02",
-    "theme": "Birthday Bing Crosby",
-    "haiku": "Laughter fills the room,\nVelvet voices intertwine,\nJoy's sweet serenade.\n#HappyBirthdayBingCrosby from @ClamBakeSanta",
-    "tag": "HappyBirthdayBingCrosby",
-    "logged_at": "2026-05-02T10:00:04.169515+00:00"
-  },
-  {
     "date": "2026-05-03",
     "theme": "National Raspberry Tart Day",
     "haiku": "Ripe berries nestle,\nCrimson jewels on soft cream,\nJoyful bites awake.\nHappy #NationalRaspberryTartDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Candles gently glow,\nEchoing tales of laughter,\nJoyful hearts unite.\n#HappyBirthdayHarryTruman from @ClamBakeSanta",
     "tag": "HappyBirthdayHarryTruman",
     "logged_at": "2026-05-08T10:26:58.791392+00:00"
+  },
+  {
+    "date": "2026-05-09",
+    "theme": "National Butterscotch Brownie Day",
+    "haiku": "Warm, gooey treasures,\nCaramel swirls kiss chocolate,\nNuts crunch, sweet dreams bloom.\nHappy #NationalButterscotchBrownieDay from @ClamBakeSanta",
+    "tag": "NationalButterscotchBrownieDay",
+    "logged_at": "2026-05-09T10:08:25.526443+00:00"
+  },
+  {
+    "date": "2026-05-09",
+    "theme": "National Lost Sock Memorial Day",
+    "haiku": "Whirls of fabric spin,\nMismatched dreams in cozy nooks,\nA dance of warmth grows.\nHappy #NationalLostSockMemorialDay from @ClamBakeSanta",
+    "tag": "NationalLostSockMemorialDay",
+    "logged_at": "2026-05-09T10:08:25.526443+00:00"
+  },
+  {
+    "date": "2026-05-09",
+    "theme": "Birthday James L. Brooks",
+    "haiku": "Candles flicker warm,\nJoyful echoes weave through time,\nCake and dreams take flight.\n#HappyBirthdayJamesLBrooks from @ClamBakeSanta",
+    "tag": "HappyBirthdayJamesLBrooks",
+    "logged_at": "2026-05-09T10:08:25.526443+00:00"
   }
 ]

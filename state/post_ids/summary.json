@@ -1,4 +1,36 @@
 {
+  "2026-05-10": {
+    "NationalShrimpDay": {
+      "mastodon": {
+        "id": "116549766305580710",
+        "url": "https://mastodon.social/@ClamBakeSanta/116549766305580710"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlijx4x3m72s",
+        "cid": "bafyreiglfezdyl6r5n55sdmbhd5yv2qtwndr4jdca3nobeksx4w5t3juom"
+      }
+    },
+    "CleanUpYourRoomDay": {
+      "mastodon": {
+        "id": "116549770263421871",
+        "url": "https://mastodon.social/@ClamBakeSanta/116549770263421871"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlijywc66d2i",
+        "cid": "bafyreievrfcfclsshehjwu6k36je57y737de43nsartddjn6dute4k5oga"
+      }
+    },
+    "HappyBirthdayDonovan": {
+      "mastodon": {
+        "id": "116549774220507359",
+        "url": "https://mastodon.social/@ClamBakeSanta/116549774220507359"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlik2pmy2x2s",
+        "cid": "bafyreidrw55cti4ah7eqikt5ac2iobrvqms5ywrhyzo62xviphbxbj6cqy"
+      }
+    }
+  },
   "2026-05-09": {
     "NationalButterscotchBrownieDay": {
       "mastodon": {
@@ -228,26 +260,6 @@
       "bluesky": {
         "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkww4rnrtw2u",
         "cid": "bafyreieu3hpg5g67oyun2lanc552wbhj2yllmns2i725udty7f2azcop6y"
-      }
-    }
-  },
-  "2026-05-02": {
-    "NationalTruffleDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf3vh3ks2s",
-        "cid": "bafyreihrymrl2ontlhacrtbd5z7rn5fzyz54gozrh6b5w5avvrsf7d2mry"
-      }
-    },
-    "NationalFerretDay": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf5p46hh2s",
-        "cid": "bafyreifjpfb3eh3jproj3q472sd7briusdaxtz7csmwlogstodeclxe6t4"
-      }
-    },
-    "HappyBirthdayBingCrosby": {
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkuf7iqcvg2c",
-        "cid": "bafyreicmu2bmbc4fupp4sk7s7ypji6mibhu6rq65baxqowrzoudqrrbu6a"
       }
     }
   }
