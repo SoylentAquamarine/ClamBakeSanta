@@ -27,7 +27,8 @@
     "2026-05-07",
     "2026-05-08",
     "2026-05-09",
-    "2026-05-10"
+    "2026-05-10",
+    "2026-05-11"
   ],
   "runs": [
     {
@@ -343,6 +344,18 @@
         "Birthday Donovan"
       ],
       "content_preview": "Bubbling pots of joy, Tender shrimp sizzle and pop, Garlic whispers spice. Happy #NationalShrimpDay from @ClamBakeSanta "
+    },
+    {
+      "date": "2026-05-11",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-11T12:25:49.975456+00:00",
+      "themes": [
+        "Eat What You Want Day",
+        "Twilight Zone Day",
+        "Birthday Irving Berlin",
+        "Birthday Salvador Dali"
+      ],
+      "content_preview": "Strawberries aglow, Warm chocolate cascades down, Laughter fills the room. Happy #EatWhatYouWantDay from @ClamBakeSanta "
     }
   ]
 }

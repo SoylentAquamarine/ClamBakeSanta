@@ -1,0 +1,42 @@
+{
+  "EatWhatYouWantDay": {
+    "mastodon": {
+      "id": "116555881664672756",
+      "url": "https://mastodon.social/@ClamBakeSanta/116555881664672756"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllavvx65z2q",
+      "cid": "bafyreicf2fmzieivj5o4kdmrejmdtiibapxdxyegd2dpb3shar54nqaspa"
+    }
+  },
+  "TwilightZoneDay": {
+    "mastodon": {
+      "id": "116555885626051873",
+      "url": "https://mastodon.social/@ClamBakeSanta/116555885626051873"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllaxpfz2f2u",
+      "cid": "bafyreigqfti37ffo55urc566tfgs2ekazdg33vmpvzvnz67jsmd25k6kue"
+    }
+  },
+  "HappyBirthdayIrvingBerlin": {
+    "mastodon": {
+      "id": "116555889610308744",
+      "url": "https://mastodon.social/@ClamBakeSanta/116555889610308744"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllaziyb2w2s",
+      "cid": "bafyreicdp2r5kw2vqwvmikp7pcfinswnnbqac7fpwibqddc5bj2zgwre7e"
+    }
+  },
+  "HappyBirthdaySalvadorDali": {
+    "mastodon": {
+      "id": "116555893590168824",
+      "url": "https://mastodon.social/@ClamBakeSanta/116555893590168824"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllb3cq3542g",
+      "cid": "bafyreialtoouitdmxrayvbwt2dkzuogca3u6kbqbwqhzhbumzbymgr3jza"
+    }
+  }
+}

@@ -1,27 +1,33 @@
 {
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "haikus": [
     {
-      "theme": "National Shrimp Day",
-      "haiku": "Bubbling pots of joy,\nTender shrimp sizzle and pop,\nGarlic whispers spice.\nHappy #NationalShrimpDay from @ClamBakeSanta",
-      "tag": "NationalShrimpDay"
+      "theme": "Eat What You Want Day",
+      "haiku": "Strawberries aglow,\nWarm chocolate cascades down,\nLaughter fills the room.\nHappy #EatWhatYouWantDay from @ClamBakeSanta",
+      "tag": "EatWhatYouWantDay"
     },
     {
-      "theme": "Clean Up Your Room Day",
-      "haiku": "Sunlight spills like joy,\nDust bunnies take their last bow,\nFresh scents fill the air.\nHappy #CleanUpYourRoomDay from @ClamBakeSanta",
-      "tag": "CleanUpYourRoomDay"
+      "theme": "Twilight Zone Day",
+      "haiku": "Whispers of starlight,\nTwinkling dreams in soft twilight,\nTime's gentle embrace.\nHappy #TwilightZoneDay from @ClamBakeSanta",
+      "tag": "TwilightZoneDay"
     },
     {
-      "theme": "Birthday Donovan",
-      "haiku": "Chocolate cake towers,\nSprinkles rain like confetti,\nBalloons float on dreams.\n#HappyBirthdayDonovan from @ClamBakeSanta",
-      "tag": "HappyBirthdayDonovan"
+      "theme": "Birthday Irving Berlin",
+      "haiku": "Balloons drift skyward,\nLaughter weaves through sweet cake scents,\nSongs bloom like spring’s heart.\n#HappyBirthdayIrvingBerlin from @ClamBakeSanta",
+      "tag": "HappyBirthdayIrvingBerlin"
+    },
+    {
+      "theme": "Birthday Salvador Dali",
+      "haiku": "Swirls of dreamlike hues,\nMelting clocks in soft twilight,\nArt blooms in delight.\n#HappyBirthdaySalvadorDali from @ClamBakeSanta",
+      "tag": "HappyBirthdaySalvadorDali"
     }
   ],
   "themes": [
-    "National Shrimp Day",
-    "Clean Up Your Room Day",
-    "Birthday Donovan"
+    "Eat What You Want Day",
+    "Twilight Zone Day",
+    "Birthday Irving Berlin",
+    "Birthday Salvador Dali"
   ],
-  "content": "Bubbling pots of joy,\nTender shrimp sizzle and pop,\nGarlic whispers spice.\nHappy #NationalShrimpDay from @ClamBakeSanta\n\nSunlight spills like joy,\nDust bunnies take their last bow,\nFresh scents fill the air.\nHappy #CleanUpYourRoomDay from @ClamBakeSanta\n\nChocolate cake towers,\nSprinkles rain like confetti,\nBalloons float on dreams.\n#HappyBirthdayDonovan from @ClamBakeSanta",
-  "saved_at": "2026-05-10T10:18:19.016379+00:00"
+  "content": "Strawberries aglow,\nWarm chocolate cascades down,\nLaughter fills the room.\nHappy #EatWhatYouWantDay from @ClamBakeSanta\n\nWhispers of starlight,\nTwinkling dreams in soft twilight,\nTime's gentle embrace.\nHappy #TwilightZoneDay from @ClamBakeSanta\n\nBalloons drift skyward,\nLaughter weaves through sweet cake scents,\nSongs bloom like spring’s heart.\n#HappyBirthdayIrvingBerlin from @ClamBakeSanta\n\nSwirls of dreamlike hues,\nMelting clocks in soft twilight,\nArt blooms in delight.\n#HappyBirthdaySalvadorDali from @ClamBakeSanta",
+  "saved_at": "2026-05-11T12:13:32.040981+00:00"
 }

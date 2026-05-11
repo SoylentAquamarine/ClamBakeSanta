@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-03",
-    "theme": "National Raspberry Tart Day",
-    "haiku": "Ripe berries nestle,\nCrimson jewels on soft cream,\nJoyful bites awake.\nHappy #NationalRaspberryTartDay from @ClamBakeSanta",
-    "tag": "NationalRaspberryTartDay",
-    "logged_at": "2026-05-03T10:08:18.731050+00:00"
-  },
-  {
-    "date": "2026-05-03",
-    "theme": "National Two Different Colored Shoes Day",
-    "haiku": "Colors clash in cheer,\nLaces tie in joyful knots,\nSteps dance with delight.\nHappy #NationalTwoDifferentColoredShoesDay from @ClamBakeSanta",
-    "tag": "NationalTwoDifferentColoredShoesDay",
-    "logged_at": "2026-05-03T10:08:18.731050+00:00"
-  },
-  {
-    "date": "2026-05-03",
-    "theme": "Birthday Golda Meir",
-    "haiku": "Laughter fills the air,\nCake adorned with bright candles,\nJoy wrapped in warm hugs.\n#HappyBirthdayGoldaMeir from @ClamBakeSanta",
-    "tag": "HappyBirthdayGoldaMeir",
-    "logged_at": "2026-05-03T10:08:18.731050+00:00"
-  },
-  {
     "date": "2026-05-04",
     "theme": "Star Wars Day",
     "haiku": "Galaxies abound,\nLightsabers dance in starlight,\nJoy ignites the night.\nHappy #StarWarsDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Candles flicker warm,\nJoyful echoes weave through time,\nCake and dreams take flight.\n#HappyBirthdayJamesLBrooks from @ClamBakeSanta",
     "tag": "HappyBirthdayJamesLBrooks",
     "logged_at": "2026-05-09T10:08:25.526443+00:00"
+  },
+  {
+    "date": "2026-05-10",
+    "theme": "National Shrimp Day",
+    "haiku": "Bubbling pots of joy,\nTender shrimp sizzle and pop,\nGarlic whispers spice.\nHappy #NationalShrimpDay from @ClamBakeSanta",
+    "tag": "NationalShrimpDay",
+    "logged_at": "2026-05-10T10:18:19.016821+00:00"
+  },
+  {
+    "date": "2026-05-10",
+    "theme": "Clean Up Your Room Day",
+    "haiku": "Sunlight spills like joy,\nDust bunnies take their last bow,\nFresh scents fill the air.\nHappy #CleanUpYourRoomDay from @ClamBakeSanta",
+    "tag": "CleanUpYourRoomDay",
+    "logged_at": "2026-05-10T10:18:19.016821+00:00"
+  },
+  {
+    "date": "2026-05-10",
+    "theme": "Birthday Donovan",
+    "haiku": "Chocolate cake towers,\nSprinkles rain like confetti,\nBalloons float on dreams.\n#HappyBirthdayDonovan from @ClamBakeSanta",
+    "tag": "HappyBirthdayDonovan",
+    "logged_at": "2026-05-10T10:18:19.016821+00:00"
   }
 ]
