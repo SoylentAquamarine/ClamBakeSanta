@@ -1,4 +1,98 @@
 {
+  "2026-05-11": {
+    "EatWhatYouWantDay": {
+      "theme": "Eat What You Want Day",
+      "haiku": "Strawberries aglow,\nWarm chocolate cascades down,\nLaughter fills the room.\nHappy #EatWhatYouWantDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116555881664672756",
+          "url": "https://mastodon.social/@ClamBakeSanta/116555881664672756",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllavvx65z2q",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
+    },
+    "TwilightZoneDay": {
+      "theme": "Twilight Zone Day",
+      "haiku": "Whispers of starlight,\nTwinkling dreams in soft twilight,\nTime's gentle embrace.\nHappy #TwilightZoneDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116555885626051873",
+          "url": "https://mastodon.social/@ClamBakeSanta/116555885626051873",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllaxpfz2f2u",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
+    },
+    "HappyBirthdayIrvingBerlin": {
+      "theme": "Birthday Irving Berlin",
+      "haiku": "Balloons drift skyward,\nLaughter weaves through sweet cake scents,\nSongs bloom like spring’s heart.\n#HappyBirthdayIrvingBerlin from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116555889610308744",
+          "url": "https://mastodon.social/@ClamBakeSanta/116555889610308744",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllaziyb2w2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
+    },
+    "HappyBirthdaySalvadorDali": {
+      "theme": "Birthday Salvador Dali",
+      "haiku": "Swirls of dreamlike hues,\nMelting clocks in soft twilight,\nArt blooms in delight.\n#HappyBirthdaySalvadorDali from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116555893590168824",
+          "url": "https://mastodon.social/@ClamBakeSanta/116555893590168824",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mllb3cq3542g",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
+    }
+  },
   "2026-05-10": {
     "NationalShrimpDay": {
       "theme": "National Shrimp Day",
@@ -21,7 +115,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     },
     "CleanUpYourRoomDay": {
       "theme": "Clean Up Your Room Day",
@@ -44,7 +138,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     },
     "HappyBirthdayDonovan": {
       "theme": "Birthday Donovan",
@@ -67,7 +161,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     }
   },
   "2026-05-09": {
@@ -92,7 +186,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     },
     "NationalLostSockMemorialDay": {
       "theme": "National Lost Sock Memorial Day",
@@ -115,7 +209,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     },
     "HappyBirthdayJamesLBrooks": {
       "theme": "Birthday James L. Brooks",
@@ -138,7 +232,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     }
   },
   "2026-05-08": {
@@ -163,7 +257,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     },
     "NoSocksDay": {
       "theme": "No Socks Day",
@@ -186,7 +280,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     },
     "HappyBirthdayHarryTruman": {
       "theme": "Birthday Harry Truman",
@@ -209,7 +303,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-10T22:38:45.718187+00:00"
+      "last_checked": "2026-05-11T22:46:46.680454+00:00"
     }
   },
   "2026-05-07": {
@@ -540,53 +634,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-05-07T22:54:34.706712+00:00"
-    }
-  },
-  "2026-05-03": {
-    "NationalRaspberryTartDay": {
-      "theme": "National Raspberry Tart Day",
-      "haiku": "Ripe berries nestle,\nCrimson jewels on soft cream,\nJoyful bites awake.\nHappy #NationalRaspberryTartDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkwvz6vfnp2x",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-06T22:41:52.047930+00:00"
-    },
-    "NationalTwoDifferentColoredShoesDay": {
-      "theme": "National Two Different Colored Shoes Day",
-      "haiku": "Colors clash in cheer,\nLaces tie in joyful knots,\nSteps dance with delight.\nHappy #NationalTwoDifferentColoredShoesDay from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkww2yboi42q",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-06T22:41:52.047930+00:00"
-    },
-    "HappyBirthdayGoldaMeir": {
-      "theme": "Birthday Golda Meir",
-      "haiku": "Laughter fills the air,\nCake adorned with bright candles,\nJoy wrapped in warm hugs.\n#HappyBirthdayGoldaMeir from @ClamBakeSanta",
-      "platforms": {
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mkww4rnrtw2u",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-06T22:41:52.047930+00:00"
     }
   }
 }
