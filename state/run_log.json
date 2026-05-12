@@ -28,7 +28,8 @@
     "2026-05-08",
     "2026-05-09",
     "2026-05-10",
-    "2026-05-11"
+    "2026-05-11",
+    "2026-05-12"
   ],
   "runs": [
     {
@@ -356,6 +357,17 @@
         "Birthday Salvador Dali"
       ],
       "content_preview": "Strawberries aglow, Warm chocolate cascades down, Laughter fills the room. Happy #EatWhatYouWantDay from @ClamBakeSanta "
+    },
+    {
+      "date": "2026-05-12",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-12T11:31:14.785623+00:00",
+      "themes": [
+        "Mother's Day",
+        "National Nutty Fudge Day",
+        "Birthday Florence Nightingale"
+      ],
+      "content_preview": "Petals softly fall, Warm hugs wrapped in fragrant air, Laughter fills the day. Happy #MotherSDay from @ClamBakeSanta  Ri"
     }
   ]
 }

@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-04",
-    "theme": "Star Wars Day",
-    "haiku": "Galaxies abound,\nLightsabers dance in starlight,\nJoy ignites the night.\nHappy #StarWarsDay from @ClamBakeSanta",
-    "tag": "StarWarsDay",
-    "logged_at": "2026-05-04T11:07:28.499497+00:00"
-  },
-  {
-    "date": "2026-05-04",
-    "theme": "National Candied Orange Peel Day",
-    "haiku": "Zesty peels delight,\nSugared sunlight dances bright,\nJoy in every bite.\nHappy #NationalCandiedOrangePeelDay from @ClamBakeSanta",
-    "tag": "NationalCandiedOrangePeelDay",
-    "logged_at": "2026-05-04T11:07:28.499497+00:00"
-  },
-  {
-    "date": "2026-05-04",
-    "theme": "Birthday Audrey Hepburn",
-    "haiku": "Silken gowns twirl bright,\nChampagne bubbles dance with cheer,\nTimeless grace ignites.\n#HappyBirthdayAudreyHepburn from @ClamBakeSanta",
-    "tag": "HappyBirthdayAudreyHepburn",
-    "logged_at": "2026-05-04T11:07:28.499497+00:00"
-  },
-  {
     "date": "2026-05-05",
     "theme": "Cinco de Mayo",
     "haiku": "Bright papel picado,\nMargaritas swirl and dance,\nSpicy bites delight.\nHappy #CincoDeMayo from @ClamBakeSanta",
@@ -159,5 +138,33 @@
     "haiku": "Chocolate cake towers,\nSprinkles rain like confetti,\nBalloons float on dreams.\n#HappyBirthdayDonovan from @ClamBakeSanta",
     "tag": "HappyBirthdayDonovan",
     "logged_at": "2026-05-10T10:18:19.016821+00:00"
+  },
+  {
+    "date": "2026-05-11",
+    "theme": "Eat What You Want Day",
+    "haiku": "Strawberries aglow,\nWarm chocolate cascades down,\nLaughter fills the room.\nHappy #EatWhatYouWantDay from @ClamBakeSanta",
+    "tag": "EatWhatYouWantDay",
+    "logged_at": "2026-05-11T12:13:32.041403+00:00"
+  },
+  {
+    "date": "2026-05-11",
+    "theme": "Twilight Zone Day",
+    "haiku": "Whispers of starlight,\nTwinkling dreams in soft twilight,\nTime's gentle embrace.\nHappy #TwilightZoneDay from @ClamBakeSanta",
+    "tag": "TwilightZoneDay",
+    "logged_at": "2026-05-11T12:13:32.041403+00:00"
+  },
+  {
+    "date": "2026-05-11",
+    "theme": "Birthday Irving Berlin",
+    "haiku": "Balloons drift skyward,\nLaughter weaves through sweet cake scents,\nSongs bloom like spring’s heart.\n#HappyBirthdayIrvingBerlin from @ClamBakeSanta",
+    "tag": "HappyBirthdayIrvingBerlin",
+    "logged_at": "2026-05-11T12:13:32.041403+00:00"
+  },
+  {
+    "date": "2026-05-11",
+    "theme": "Birthday Salvador Dali",
+    "haiku": "Swirls of dreamlike hues,\nMelting clocks in soft twilight,\nArt blooms in delight.\n#HappyBirthdaySalvadorDali from @ClamBakeSanta",
+    "tag": "HappyBirthdaySalvadorDali",
+    "logged_at": "2026-05-11T12:13:32.041403+00:00"
   }
 ]
