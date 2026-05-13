@@ -1,4 +1,75 @@
 {
+  "2026-05-13": {
+    "NationalApplePieDay": {
+      "theme": "National Apple Pie Day",
+      "haiku": "Spiced whispers of fall,\nCrust cradles warmth, laughter swells,\nApples dance with cheer.\nHappy #NationalApplePieDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116567044339116985",
+          "url": "https://mastodon.social/@ClamBakeSanta/116567044339116985",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlq7ic5qv42s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
+    },
+    "LeprechaunDay": {
+      "theme": "Leprechaun Day",
+      "haiku": "Emerald fields gleam,\nLaughter twirls on crisp spring air,\nJoyful hearts unite.\nHappy #LeprechaunDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116567048320486898",
+          "url": "https://mastodon.social/@ClamBakeSanta/116567048320486898",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlq7k3i6zm2c",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
+    },
+    "HappyBirthdayStevieWonder": {
+      "theme": "Birthday Stevie Wonder",
+      "haiku": "Laughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116567052287278149",
+          "url": "https://mastodon.social/@ClamBakeSanta/116567052287278149",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlq7lv2ute2h",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
+    }
+  },
   "2026-05-12": {
     "MotherSDay": {
       "theme": "Mother's Day",
@@ -21,7 +92,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     },
     "NationalNuttyFudgeDay": {
       "theme": "National Nutty Fudge Day",
@@ -44,7 +115,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     },
     "HappyBirthdayFlorenceNightingale": {
       "theme": "Birthday Florence Nightingale",
@@ -67,7 +138,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     }
   },
   "2026-05-11": {
@@ -92,7 +163,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     },
     "TwilightZoneDay": {
       "theme": "Twilight Zone Day",
@@ -115,7 +186,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     },
     "HappyBirthdayIrvingBerlin": {
       "theme": "Birthday Irving Berlin",
@@ -138,7 +209,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     },
     "HappyBirthdaySalvadorDali": {
       "theme": "Birthday Salvador Dali",
@@ -161,7 +232,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     }
   },
   "2026-05-10": {
@@ -186,7 +257,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     },
     "CleanUpYourRoomDay": {
       "theme": "Clean Up Your Room Day",
@@ -209,7 +280,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     },
     "HappyBirthdayDonovan": {
       "theme": "Birthday Donovan",
@@ -232,7 +303,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
+      "last_checked": "2026-05-13T22:59:11.332091+00:00"
     }
   },
   "2026-05-09": {
@@ -540,100 +611,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-05-09T22:35:25.327262+00:00"
-    }
-  },
-  "2026-05-05": {
-    "CincoDeMayo": {
-      "theme": "Cinco de Mayo",
-      "haiku": "Bright papel picado,\nMargaritas swirl and dance,\nSpicy bites delight.\nHappy #CincoDeMayo from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116521575935356939",
-          "url": "https://mastodon.social/@ClamBakeSanta/116521575935356939",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zfhivi324",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-08T22:48:37.212379+00:00"
-    },
-    "NationalOysterDay": {
-      "theme": "National Oyster Day",
-      "haiku": "Salty kisses sway,\nShells open like summer sun,\nJoy on every plate.\nHappy #NationalOysterDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116521579923810350",
-          "url": "https://mastodon.social/@ClamBakeSanta/116521579923810350",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zhb3idb2s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-08T22:48:37.212379+00:00"
-    },
-    "HappyBirthdayNellieBly": {
-      "theme": "Birthday Nellie Bly",
-      "haiku": "Joyful voices cheer,\nCupcakes swirl in frosted hues,\nAdventures await!\n#HappyBirthdayNellieBly from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116521583884623641",
-          "url": "https://mastodon.social/@ClamBakeSanta/116521583884623641",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zj2jlir2c",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-08T22:48:37.212379+00:00"
-    },
-    "HappyBirthdaySorenKierkegaard": {
-      "theme": "Birthday Soren Kierkegaard",
-      "haiku": "Bright thoughts dance like leaves,\nIn autumn's crisp embrace,\nJoy blooms in the heart.\n#HappyBirthdaySorenKierkegaard from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116521587860857933",
-          "url": "https://mastodon.social/@ClamBakeSanta/116521587860857933",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3ml3zku4vzc2l",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-08T22:48:37.212379+00:00"
     }
   }
 }
