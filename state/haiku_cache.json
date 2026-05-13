@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-12",
+  "date": "2026-05-13",
   "haikus": [
     {
-      "theme": "Mother's Day",
-      "haiku": "Petals softly fall,\nWarm hugs wrapped in fragrant air,\nLaughter fills the day.\nHappy #MotherSDay from @ClamBakeSanta",
-      "tag": "MotherSDay"
+      "theme": "National Apple Pie Day",
+      "haiku": "Spiced whispers of fall,\nCrust cradles warmth, laughter swells,\nApples dance with cheer.\nHappy #NationalApplePieDay from @ClamBakeSanta",
+      "tag": "NationalApplePieDay"
     },
     {
-      "theme": "National Nutty Fudge Day",
-      "haiku": "Rich chocolate whispers,\nNuts crunch in a warm embrace,\nSweet dreams melt in joy.\nHappy #NationalNuttyFudgeDay from @ClamBakeSanta",
-      "tag": "NationalNuttyFudgeDay"
+      "theme": "Leprechaun Day",
+      "haiku": "Emerald fields gleam,\nLaughter twirls on crisp spring air,\nJoyful hearts unite.\nHappy #LeprechaunDay from @ClamBakeSanta",
+      "tag": "LeprechaunDay"
     },
     {
-      "theme": "Birthday Florence Nightingale",
-      "haiku": "Whispers of kind hearts,\nPetals bloom in soft night air,\nHealing hands unite.\n#HappyBirthdayFlorenceNightingale from @ClamBakeSanta",
-      "tag": "HappyBirthdayFlorenceNightingale"
+      "theme": "Birthday Stevie Wonder",
+      "haiku": "Laughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
+      "tag": "HappyBirthdayStevieWonder"
     }
   ],
   "themes": [
-    "Mother's Day",
-    "National Nutty Fudge Day",
-    "Birthday Florence Nightingale"
+    "National Apple Pie Day",
+    "Leprechaun Day",
+    "Birthday Stevie Wonder"
   ],
-  "content": "Petals softly fall,\nWarm hugs wrapped in fragrant air,\nLaughter fills the day.\nHappy #MotherSDay from @ClamBakeSanta\n\nRich chocolate whispers,\nNuts crunch in a warm embrace,\nSweet dreams melt in joy.\nHappy #NationalNuttyFudgeDay from @ClamBakeSanta\n\nWhispers of kind hearts,\nPetals bloom in soft night air,\nHealing hands unite.\n#HappyBirthdayFlorenceNightingale from @ClamBakeSanta",
-  "saved_at": "2026-05-12T11:23:00.357172+00:00"
+  "content": "Spiced whispers of fall,\nCrust cradles warmth, laughter swells,\nApples dance with cheer.\nHappy #NationalApplePieDay from @ClamBakeSanta\n\nEmerald fields gleam,\nLaughter twirls on crisp spring air,\nJoyful hearts unite.\nHappy #LeprechaunDay from @ClamBakeSanta\n\nLaughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
+  "saved_at": "2026-05-13T11:32:20.977698+00:00"
 }

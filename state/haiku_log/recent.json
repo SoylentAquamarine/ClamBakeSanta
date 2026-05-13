@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-05-05",
-    "theme": "Cinco de Mayo",
-    "haiku": "Bright papel picado,\nMargaritas swirl and dance,\nSpicy bites delight.\nHappy #CincoDeMayo from @ClamBakeSanta",
-    "tag": "CincoDeMayo",
-    "logged_at": "2026-05-05T10:49:07.820323+00:00"
-  },
-  {
-    "date": "2026-05-05",
-    "theme": "National Oyster Day",
-    "haiku": "Salty kisses sway,\nShells open like summer sun,\nJoy on every plate.\nHappy #NationalOysterDay from @ClamBakeSanta",
-    "tag": "NationalOysterDay",
-    "logged_at": "2026-05-05T10:49:07.820323+00:00"
-  },
-  {
-    "date": "2026-05-05",
-    "theme": "Birthday Nellie Bly",
-    "haiku": "Joyful voices cheer,\nCupcakes swirl in frosted hues,\nAdventures await!\n#HappyBirthdayNellieBly from @ClamBakeSanta",
-    "tag": "HappyBirthdayNellieBly",
-    "logged_at": "2026-05-05T10:49:07.820323+00:00"
-  },
-  {
-    "date": "2026-05-05",
-    "theme": "Birthday Soren Kierkegaard",
-    "haiku": "Bright thoughts dance like leaves,\nIn autumn's crisp embrace,\nJoy blooms in the heart.\n#HappyBirthdaySorenKierkegaard from @ClamBakeSanta",
-    "tag": "HappyBirthdaySorenKierkegaard",
-    "logged_at": "2026-05-05T10:49:07.820323+00:00"
-  },
-  {
     "date": "2026-05-06",
     "theme": "National Beverage Day",
     "haiku": "Chilled glasses clink bright,\nFizzy bubbles dance with joy,\nCheers to flavors bold!\nHappy #NationalBeverageDay from @ClamBakeSanta",
@@ -166,5 +138,26 @@
     "haiku": "Swirls of dreamlike hues,\nMelting clocks in soft twilight,\nArt blooms in delight.\n#HappyBirthdaySalvadorDali from @ClamBakeSanta",
     "tag": "HappyBirthdaySalvadorDali",
     "logged_at": "2026-05-11T12:13:32.041403+00:00"
+  },
+  {
+    "date": "2026-05-12",
+    "theme": "Mother's Day",
+    "haiku": "Petals softly fall,\nWarm hugs wrapped in fragrant air,\nLaughter fills the day.\nHappy #MotherSDay from @ClamBakeSanta",
+    "tag": "MotherSDay",
+    "logged_at": "2026-05-12T11:23:00.357571+00:00"
+  },
+  {
+    "date": "2026-05-12",
+    "theme": "National Nutty Fudge Day",
+    "haiku": "Rich chocolate whispers,\nNuts crunch in a warm embrace,\nSweet dreams melt in joy.\nHappy #NationalNuttyFudgeDay from @ClamBakeSanta",
+    "tag": "NationalNuttyFudgeDay",
+    "logged_at": "2026-05-12T11:23:00.357571+00:00"
+  },
+  {
+    "date": "2026-05-12",
+    "theme": "Birthday Florence Nightingale",
+    "haiku": "Whispers of kind hearts,\nPetals bloom in soft night air,\nHealing hands unite.\n#HappyBirthdayFlorenceNightingale from @ClamBakeSanta",
+    "tag": "HappyBirthdayFlorenceNightingale",
+    "logged_at": "2026-05-12T11:23:00.357571+00:00"
   }
 ]
