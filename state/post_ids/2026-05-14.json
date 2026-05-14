@@ -1,0 +1,32 @@
+{
+  "NationalButtermilkBiscuitDay": {
+    "mastodon": {
+      "id": "116572641031687917",
+      "url": "https://mastodon.social/@ClamBakeSanta/116572641031687917"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlsozgzakg2s",
+      "cid": "bafyreif7hdlvze6jz6zvubhduge6a6fmu3mrw4xt5mqgkpicztcmxanp2a"
+    }
+  },
+  "DanceLikeAChickenDay": {
+    "mastodon": {
+      "id": "116572645046629320",
+      "url": "https://mastodon.social/@ClamBakeSanta/116572645046629320"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlsp3aojv32a",
+      "cid": "bafyreidbpgdgp4nloxrwjtjrfr3qztxeeoieav2mlvsjq4zyldtz6bu4ga"
+    }
+  },
+  "HappyBirthdayGeorgeLucas": {
+    "mastodon": {
+      "id": "116572649120037805",
+      "url": "https://mastodon.social/@ClamBakeSanta/116572649120037805"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlsp5262li2u",
+      "cid": "bafyreiegrbvi3tqiciqwevgv3vpg76rurl7ie6lunb5rb6azadwiibk3oy"
+    }
+  }
+}

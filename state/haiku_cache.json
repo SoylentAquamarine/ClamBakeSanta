@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "haikus": [
     {
-      "theme": "National Apple Pie Day",
-      "haiku": "Spiced whispers of fall,\nCrust cradles warmth, laughter swells,\nApples dance with cheer.\nHappy #NationalApplePieDay from @ClamBakeSanta",
-      "tag": "NationalApplePieDay"
+      "theme": "National Buttermilk Biscuit Day",
+      "haiku": "Flour clouds softly rise,\nGolden biscuits crown the table,\nButter dreams melt slow.\nHappy #NationalButtermilkBiscuitDay from @ClamBakeSanta",
+      "tag": "NationalButtermilkBiscuitDay"
     },
     {
-      "theme": "Leprechaun Day",
-      "haiku": "Emerald fields gleam,\nLaughter twirls on crisp spring air,\nJoyful hearts unite.\nHappy #LeprechaunDay from @ClamBakeSanta",
-      "tag": "LeprechaunDay"
+      "theme": "Dance Like a Chicken Day",
+      "haiku": "Feathers flutter bright,\nLaughter spills like grain at noon,\nJoyful hops abound.\nHappy #DanceLikeAChickenDay from @ClamBakeSanta",
+      "tag": "DanceLikeAChickenDay"
     },
     {
-      "theme": "Birthday Stevie Wonder",
-      "haiku": "Laughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
-      "tag": "HappyBirthdayStevieWonder"
+      "theme": "Birthday George Lucas",
+      "haiku": "Stars twinkle like dreams,\nGalaxies of delight,\nJoyous tales take flight.\n#HappyBirthdayGeorgeLucas from @ClamBakeSanta",
+      "tag": "HappyBirthdayGeorgeLucas"
     }
   ],
   "themes": [
-    "National Apple Pie Day",
-    "Leprechaun Day",
-    "Birthday Stevie Wonder"
+    "National Buttermilk Biscuit Day",
+    "Dance Like a Chicken Day",
+    "Birthday George Lucas"
   ],
-  "content": "Spiced whispers of fall,\nCrust cradles warmth, laughter swells,\nApples dance with cheer.\nHappy #NationalApplePieDay from @ClamBakeSanta\n\nEmerald fields gleam,\nLaughter twirls on crisp spring air,\nJoyful hearts unite.\nHappy #LeprechaunDay from @ClamBakeSanta\n\nLaughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
-  "saved_at": "2026-05-13T11:32:20.977698+00:00"
+  "content": "Flour clouds softly rise,\nGolden biscuits crown the table,\nButter dreams melt slow.\nHappy #NationalButtermilkBiscuitDay from @ClamBakeSanta\n\nFeathers flutter bright,\nLaughter spills like grain at noon,\nJoyful hops abound.\nHappy #DanceLikeAChickenDay from @ClamBakeSanta\n\nStars twinkle like dreams,\nGalaxies of delight,\nJoyous tales take flight.\n#HappyBirthdayGeorgeLucas from @ClamBakeSanta",
+  "saved_at": "2026-05-14T11:15:39.463823+00:00"
 }

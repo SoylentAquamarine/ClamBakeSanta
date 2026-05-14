@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-06",
-    "theme": "National Beverage Day",
-    "haiku": "Chilled glasses clink bright,\nFizzy bubbles dance with joy,\nCheers to flavors bold!\nHappy #NationalBeverageDay from @ClamBakeSanta",
-    "tag": "NationalBeverageDay",
-    "logged_at": "2026-05-06T11:09:23.404909+00:00"
-  },
-  {
-    "date": "2026-05-06",
-    "theme": "No Homework Day",
-    "haiku": "Sunshine spills like gold,\nChildren's giggles dance like sparks,\nJoyful plans unfold.\nHappy #NoHomeworkDay from @ClamBakeSanta",
-    "tag": "NoHomeworkDay",
-    "logged_at": "2026-05-06T11:09:23.404909+00:00"
-  },
-  {
-    "date": "2026-05-06",
-    "theme": "Birthday Sigmund Freud",
-    "haiku": "Bright candles dancing,\nThoughts weave through sweetened moments,\nJoy wrapped in silence.\n#HappyBirthdaySigmundFreud from @ClamBakeSanta",
-    "tag": "HappyBirthdaySigmundFreud",
-    "logged_at": "2026-05-06T11:09:23.404909+00:00"
-  },
-  {
     "date": "2026-05-07",
     "theme": "National Roast Leg of Lamb Day",
     "haiku": "Herbs dance in warm breeze,\nSucculent scents weave through time,\nFeasts shared, hearts aglow.\nHappy #NationalRoastLegOfLambDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Whispers of kind hearts,\nPetals bloom in soft night air,\nHealing hands unite.\n#HappyBirthdayFlorenceNightingale from @ClamBakeSanta",
     "tag": "HappyBirthdayFlorenceNightingale",
     "logged_at": "2026-05-12T11:23:00.357571+00:00"
+  },
+  {
+    "date": "2026-05-13",
+    "theme": "National Apple Pie Day",
+    "haiku": "Spiced whispers of fall,\nCrust cradles warmth, laughter swells,\nApples dance with cheer.\nHappy #NationalApplePieDay from @ClamBakeSanta",
+    "tag": "NationalApplePieDay",
+    "logged_at": "2026-05-13T11:32:20.978104+00:00"
+  },
+  {
+    "date": "2026-05-13",
+    "theme": "Leprechaun Day",
+    "haiku": "Emerald fields gleam,\nLaughter twirls on crisp spring air,\nJoyful hearts unite.\nHappy #LeprechaunDay from @ClamBakeSanta",
+    "tag": "LeprechaunDay",
+    "logged_at": "2026-05-13T11:32:20.978104+00:00"
+  },
+  {
+    "date": "2026-05-13",
+    "theme": "Birthday Stevie Wonder",
+    "haiku": "Laughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
+    "tag": "HappyBirthdayStevieWonder",
+    "logged_at": "2026-05-13T11:32:20.978104+00:00"
   }
 ]
