@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-05-07",
-    "theme": "National Roast Leg of Lamb Day",
-    "haiku": "Herbs dance in warm breeze,\nSucculent scents weave through time,\nFeasts shared, hearts aglow.\nHappy #NationalRoastLegOfLambDay from @ClamBakeSanta",
-    "tag": "NationalRoastLegOfLambDay",
-    "logged_at": "2026-05-07T11:11:40.930876+00:00"
-  },
-  {
-    "date": "2026-05-07",
-    "theme": "World Password Day",
-    "haiku": "Keys unlock the glow,\nColorful codes dance in light,\nSecure joy we share.\nHappy #WorldPasswordDay from @ClamBakeSanta",
-    "tag": "WorldPasswordDay",
-    "logged_at": "2026-05-07T11:11:40.930876+00:00"
-  },
-  {
-    "date": "2026-05-07",
-    "theme": "Birthday Johannes Brahms",
-    "haiku": "Melody's embrace,\nNotes like stars in evening light,\nJoyful hearts unite.\n#HappyBirthdayJohannesBrahms from @ClamBakeSanta",
-    "tag": "HappyBirthdayJohannesBrahms",
-    "logged_at": "2026-05-07T11:11:40.930876+00:00"
-  },
-  {
-    "date": "2026-05-07",
-    "theme": "Birthday Robert Browning",
-    "haiku": "Sunlight through the leaves,\nWords dance on the gentle breeze,\nJoy in every verse.\n#HappyBirthdayRobertBrowning from @ClamBakeSanta",
-    "tag": "HappyBirthdayRobertBrowning",
-    "logged_at": "2026-05-07T11:11:40.930876+00:00"
-  },
-  {
     "date": "2026-05-08",
     "theme": "National Coconut Cream Pie Day",
     "haiku": "Creamy sweetness swirls,\nCrisp crust cradles joy within,\nWhipped clouds dance on top.\nHappy #NationalCoconutCreamPieDay from @ClamBakeSanta",
@@ -159,5 +131,26 @@
     "haiku": "Laughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
     "tag": "HappyBirthdayStevieWonder",
     "logged_at": "2026-05-13T11:32:20.978104+00:00"
+  },
+  {
+    "date": "2026-05-14",
+    "theme": "National Buttermilk Biscuit Day",
+    "haiku": "Flour clouds softly rise,\nGolden biscuits crown the table,\nButter dreams melt slow.\nHappy #NationalButtermilkBiscuitDay from @ClamBakeSanta",
+    "tag": "NationalButtermilkBiscuitDay",
+    "logged_at": "2026-05-14T11:15:39.464256+00:00"
+  },
+  {
+    "date": "2026-05-14",
+    "theme": "Dance Like a Chicken Day",
+    "haiku": "Feathers flutter bright,\nLaughter spills like grain at noon,\nJoyful hops abound.\nHappy #DanceLikeAChickenDay from @ClamBakeSanta",
+    "tag": "DanceLikeAChickenDay",
+    "logged_at": "2026-05-14T11:15:39.464256+00:00"
+  },
+  {
+    "date": "2026-05-14",
+    "theme": "Birthday George Lucas",
+    "haiku": "Stars twinkle like dreams,\nGalaxies of delight,\nJoyous tales take flight.\n#HappyBirthdayGeorgeLucas from @ClamBakeSanta",
+    "tag": "HappyBirthdayGeorgeLucas",
+    "logged_at": "2026-05-14T11:15:39.464256+00:00"
   }
 ]

@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "haikus": [
     {
-      "theme": "National Buttermilk Biscuit Day",
-      "haiku": "Flour clouds softly rise,\nGolden biscuits crown the table,\nButter dreams melt slow.\nHappy #NationalButtermilkBiscuitDay from @ClamBakeSanta",
-      "tag": "NationalButtermilkBiscuitDay"
+      "theme": "National Chocolate Chip Day",
+      "haiku": "Oven's warmth invites,\nChips melt like laughter shared,\nBatches joyfully rise.\nHappy #NationalChocolateChipDay from @ClamBakeSanta",
+      "tag": "NationalChocolateChipDay"
     },
     {
-      "theme": "Dance Like a Chicken Day",
-      "haiku": "Feathers flutter bright,\nLaughter spills like grain at noon,\nJoyful hops abound.\nHappy #DanceLikeAChickenDay from @ClamBakeSanta",
-      "tag": "DanceLikeAChickenDay"
+      "theme": "International Day of Families",
+      "haiku": "Laughter fills the air,\nColorful blooms intertwine,\nHearts gather like stars.\nHappy #InternationalDayOfFamilies from @ClamBakeSanta",
+      "tag": "InternationalDayOfFamilies"
     },
     {
-      "theme": "Birthday George Lucas",
-      "haiku": "Stars twinkle like dreams,\nGalaxies of delight,\nJoyous tales take flight.\n#HappyBirthdayGeorgeLucas from @ClamBakeSanta",
-      "tag": "HappyBirthdayGeorgeLucas"
+      "theme": "Birthday L. Frank Baum",
+      "haiku": "Pages dance with dreams,\nMunchkin laughter fills the air,\nEmerald fields shine.\n#HappyBirthdayLFrankBaum from @ClamBakeSanta",
+      "tag": "HappyBirthdayLFrankBaum"
     }
   ],
   "themes": [
-    "National Buttermilk Biscuit Day",
-    "Dance Like a Chicken Day",
-    "Birthday George Lucas"
+    "National Chocolate Chip Day",
+    "International Day of Families",
+    "Birthday L. Frank Baum"
   ],
-  "content": "Flour clouds softly rise,\nGolden biscuits crown the table,\nButter dreams melt slow.\nHappy #NationalButtermilkBiscuitDay from @ClamBakeSanta\n\nFeathers flutter bright,\nLaughter spills like grain at noon,\nJoyful hops abound.\nHappy #DanceLikeAChickenDay from @ClamBakeSanta\n\nStars twinkle like dreams,\nGalaxies of delight,\nJoyous tales take flight.\n#HappyBirthdayGeorgeLucas from @ClamBakeSanta",
-  "saved_at": "2026-05-14T11:15:39.463823+00:00"
+  "content": "Oven's warmth invites,\nChips melt like laughter shared,\nBatches joyfully rise.\nHappy #NationalChocolateChipDay from @ClamBakeSanta\n\nLaughter fills the air,\nColorful blooms intertwine,\nHearts gather like stars.\nHappy #InternationalDayOfFamilies from @ClamBakeSanta\n\nPages dance with dreams,\nMunchkin laughter fills the air,\nEmerald fields shine.\n#HappyBirthdayLFrankBaum from @ClamBakeSanta",
+  "saved_at": "2026-05-15T11:23:24.554154+00:00"
 }

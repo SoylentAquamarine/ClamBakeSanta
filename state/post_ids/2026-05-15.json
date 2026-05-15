@@ -1,0 +1,32 @@
+{
+  "NationalChocolateChipDay": {
+    "mastodon": {
+      "id": "116578333833343986",
+      "url": "https://mastodon.social/@ClamBakeSanta/116578333833343986"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlv7w6bbca2a",
+      "cid": "bafyreigjpabuvgk2f5qbpcu7vtzvohi7xs3or52xefz4avjy6yc5jjlszq"
+    }
+  },
+  "InternationalDayOfFamilies": {
+    "mastodon": {
+      "id": "116578337795273920",
+      "url": "https://mastodon.social/@ClamBakeSanta/116578337795273920"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlv7xxpru724",
+      "cid": "bafyreif4jo2nxfmkxz466fcufzprcnaxcoeemwn4lm3elg6rllsicpbnbe"
+    }
+  },
+  "HappyBirthdayLFrankBaum": {
+    "mastodon": {
+      "id": "116578341752961071",
+      "url": "https://mastodon.social/@ClamBakeSanta/116578341752961071"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlv7zreliy2a",
+      "cid": "bafyreiacunqfoe5b3y65m7uqy2otlsbm6dk67ng2ger7nsfuomylhmojs4"
+    }
+  }
+}

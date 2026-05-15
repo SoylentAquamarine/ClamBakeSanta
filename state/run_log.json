@@ -31,7 +31,8 @@
     "2026-05-11",
     "2026-05-12",
     "2026-05-13",
-    "2026-05-14"
+    "2026-05-14",
+    "2026-05-15"
   ],
   "runs": [
     {
@@ -392,6 +393,17 @@
         "Birthday George Lucas"
       ],
       "content_preview": "Flour clouds softly rise, Golden biscuits crown the table, Butter dreams melt slow. Happy #NationalButtermilkBiscuitDay "
+    },
+    {
+      "date": "2026-05-15",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-15T11:31:41.016626+00:00",
+      "themes": [
+        "National Chocolate Chip Day",
+        "International Day of Families",
+        "Birthday L. Frank Baum"
+      ],
+      "content_preview": "Oven's warmth invites, Chips melt like laughter shared, Batches joyfully rise. Happy #NationalChocolateChipDay from @Cla"
     }
   ]
 }
