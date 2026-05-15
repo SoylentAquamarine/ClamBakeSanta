@@ -1,0 +1,71 @@
+{
+  "NationalChocolateChipDay": {
+    "theme": "National Chocolate Chip Day",
+    "haiku": "Oven's warmth invites,\nChips melt like laughter shared,\nBatches joyfully rise.\nHappy #NationalChocolateChipDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116578333833343986",
+        "url": "https://mastodon.social/@ClamBakeSanta/116578333833343986",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlv7w6bbca2a",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-15T22:47:13.225957+00:00"
+  },
+  "InternationalDayOfFamilies": {
+    "theme": "International Day of Families",
+    "haiku": "Laughter fills the air,\nColorful blooms intertwine,\nHearts gather like stars.\nHappy #InternationalDayOfFamilies from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116578337795273920",
+        "url": "https://mastodon.social/@ClamBakeSanta/116578337795273920",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlv7xxpru724",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-15T22:47:13.225957+00:00"
+  },
+  "HappyBirthdayLFrankBaum": {
+    "theme": "Birthday L. Frank Baum",
+    "haiku": "Pages dance with dreams,\nMunchkin laughter fills the air,\nEmerald fields shine.\n#HappyBirthdayLFrankBaum from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116578341752961071",
+        "url": "https://mastodon.social/@ClamBakeSanta/116578341752961071",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlv7zreliy2a",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-15T22:47:13.225957+00:00"
+  }
+}
