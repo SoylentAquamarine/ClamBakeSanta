@@ -1,0 +1,71 @@
+{
+  "NationalBarbecueDay": {
+    "theme": "National Barbecue Day",
+    "haiku": "Sizzling on the grill,\nSavory smoke fills the air,\nLaughter dances near.\nHappy #NationalBarbecueDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116583743844075798",
+        "url": "https://mastodon.social/@ClamBakeSanta/116583743844075798",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmsdb7cw2a",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-16T22:38:12.717961+00:00"
+  },
+  "SeaMonkeyDay": {
+    "theme": "Sea Monkey Day",
+    "haiku": "Tiny swimmers dance,\nIn saltwater’s warm embrace,\nJoyful leaps and splashes.\nHappy #SeaMonkeyDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116583747808703417",
+        "url": "https://mastodon.social/@ClamBakeSanta/116583747808703417",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmu4mvzw2s",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-16T22:38:12.717961+00:00"
+  },
+  "HappyBirthdayLiberace": {
+    "theme": "Birthday Liberace",
+    "haiku": "Glistening sequins,\nLaughter dances on soft notes,\nCake like sweet sunshine.\n#HappyBirthdayLiberace from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116583751762645243",
+        "url": "https://mastodon.social/@ClamBakeSanta/116583751762645243",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmvw2nn72g",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-16T22:38:12.717961+00:00"
+  }
+}
