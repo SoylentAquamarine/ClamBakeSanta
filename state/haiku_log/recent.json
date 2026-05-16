@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-08",
-    "theme": "National Coconut Cream Pie Day",
-    "haiku": "Creamy sweetness swirls,\nCrisp crust cradles joy within,\nWhipped clouds dance on top.\nHappy #NationalCoconutCreamPieDay from @ClamBakeSanta",
-    "tag": "NationalCoconutCreamPieDay",
-    "logged_at": "2026-05-08T10:26:58.791392+00:00"
-  },
-  {
-    "date": "2026-05-08",
-    "theme": "No Socks Day",
-    "haiku": "Sunbeams on bare feet,\nCool grass tickles joyfully,\nFreedom in each step.\nHappy #NoSocksDay from @ClamBakeSanta",
-    "tag": "NoSocksDay",
-    "logged_at": "2026-05-08T10:26:58.791392+00:00"
-  },
-  {
-    "date": "2026-05-08",
-    "theme": "Birthday Harry Truman",
-    "haiku": "Candles gently glow,\nEchoing tales of laughter,\nJoyful hearts unite.\n#HappyBirthdayHarryTruman from @ClamBakeSanta",
-    "tag": "HappyBirthdayHarryTruman",
-    "logged_at": "2026-05-08T10:26:58.791392+00:00"
-  },
-  {
     "date": "2026-05-09",
     "theme": "National Butterscotch Brownie Day",
     "haiku": "Warm, gooey treasures,\nCaramel swirls kiss chocolate,\nNuts crunch, sweet dreams bloom.\nHappy #NationalButterscotchBrownieDay from @ClamBakeSanta",
@@ -152,5 +131,26 @@
     "haiku": "Stars twinkle like dreams,\nGalaxies of delight,\nJoyous tales take flight.\n#HappyBirthdayGeorgeLucas from @ClamBakeSanta",
     "tag": "HappyBirthdayGeorgeLucas",
     "logged_at": "2026-05-14T11:15:39.464256+00:00"
+  },
+  {
+    "date": "2026-05-15",
+    "theme": "National Chocolate Chip Day",
+    "haiku": "Oven's warmth invites,\nChips melt like laughter shared,\nBatches joyfully rise.\nHappy #NationalChocolateChipDay from @ClamBakeSanta",
+    "tag": "NationalChocolateChipDay",
+    "logged_at": "2026-05-15T11:23:24.554489+00:00"
+  },
+  {
+    "date": "2026-05-15",
+    "theme": "International Day of Families",
+    "haiku": "Laughter fills the air,\nColorful blooms intertwine,\nHearts gather like stars.\nHappy #InternationalDayOfFamilies from @ClamBakeSanta",
+    "tag": "InternationalDayOfFamilies",
+    "logged_at": "2026-05-15T11:23:24.554489+00:00"
+  },
+  {
+    "date": "2026-05-15",
+    "theme": "Birthday L. Frank Baum",
+    "haiku": "Pages dance with dreams,\nMunchkin laughter fills the air,\nEmerald fields shine.\n#HappyBirthdayLFrankBaum from @ClamBakeSanta",
+    "tag": "HappyBirthdayLFrankBaum",
+    "logged_at": "2026-05-15T11:23:24.554489+00:00"
   }
 ]

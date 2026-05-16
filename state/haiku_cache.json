@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-16",
   "haikus": [
     {
-      "theme": "National Chocolate Chip Day",
-      "haiku": "Oven's warmth invites,\nChips melt like laughter shared,\nBatches joyfully rise.\nHappy #NationalChocolateChipDay from @ClamBakeSanta",
-      "tag": "NationalChocolateChipDay"
+      "theme": "National Barbecue Day",
+      "haiku": "Sizzling on the grill,\nSavory smoke fills the air,\nLaughter dances near.\nHappy #NationalBarbecueDay from @ClamBakeSanta",
+      "tag": "NationalBarbecueDay"
     },
     {
-      "theme": "International Day of Families",
-      "haiku": "Laughter fills the air,\nColorful blooms intertwine,\nHearts gather like stars.\nHappy #InternationalDayOfFamilies from @ClamBakeSanta",
-      "tag": "InternationalDayOfFamilies"
+      "theme": "Sea Monkey Day",
+      "haiku": "Tiny swimmers dance,\nIn saltwater’s warm embrace,\nJoyful leaps and splashes.\nHappy #SeaMonkeyDay from @ClamBakeSanta",
+      "tag": "SeaMonkeyDay"
     },
     {
-      "theme": "Birthday L. Frank Baum",
-      "haiku": "Pages dance with dreams,\nMunchkin laughter fills the air,\nEmerald fields shine.\n#HappyBirthdayLFrankBaum from @ClamBakeSanta",
-      "tag": "HappyBirthdayLFrankBaum"
+      "theme": "Birthday Liberace",
+      "haiku": "Glistening sequins,\nLaughter dances on soft notes,\nCake like sweet sunshine.\n#HappyBirthdayLiberace from @ClamBakeSanta",
+      "tag": "HappyBirthdayLiberace"
     }
   ],
   "themes": [
-    "National Chocolate Chip Day",
-    "International Day of Families",
-    "Birthday L. Frank Baum"
+    "National Barbecue Day",
+    "Sea Monkey Day",
+    "Birthday Liberace"
   ],
-  "content": "Oven's warmth invites,\nChips melt like laughter shared,\nBatches joyfully rise.\nHappy #NationalChocolateChipDay from @ClamBakeSanta\n\nLaughter fills the air,\nColorful blooms intertwine,\nHearts gather like stars.\nHappy #InternationalDayOfFamilies from @ClamBakeSanta\n\nPages dance with dreams,\nMunchkin laughter fills the air,\nEmerald fields shine.\n#HappyBirthdayLFrankBaum from @ClamBakeSanta",
-  "saved_at": "2026-05-15T11:23:24.554154+00:00"
+  "content": "Sizzling on the grill,\nSavory smoke fills the air,\nLaughter dances near.\nHappy #NationalBarbecueDay from @ClamBakeSanta\n\nTiny swimmers dance,\nIn saltwater’s warm embrace,\nJoyful leaps and splashes.\nHappy #SeaMonkeyDay from @ClamBakeSanta\n\nGlistening sequins,\nLaughter dances on soft notes,\nCake like sweet sunshine.\n#HappyBirthdayLiberace from @ClamBakeSanta",
+  "saved_at": "2026-05-16T10:19:14.587121+00:00"
 }

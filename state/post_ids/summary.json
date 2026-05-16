@@ -1,4 +1,36 @@
 {
+  "2026-05-16": {
+    "NationalBarbecueDay": {
+      "mastodon": {
+        "id": "116583743844075798",
+        "url": "https://mastodon.social/@ClamBakeSanta/116583743844075798"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmsdb7cw2a",
+        "cid": "bafyreidziosfpotm2677k4q42ha4ps4fses3llld2pjivbra3ebhmsgjd4"
+      }
+    },
+    "SeaMonkeyDay": {
+      "mastodon": {
+        "id": "116583747808703417",
+        "url": "https://mastodon.social/@ClamBakeSanta/116583747808703417"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmu4mvzw2s",
+        "cid": "bafyreibsgk2lximflrys4y772zff2bbwi66tkdkdfbmdc463d6u2b2gody"
+      }
+    },
+    "HappyBirthdayLiberace": {
+      "mastodon": {
+        "id": "116583751762645243",
+        "url": "https://mastodon.social/@ClamBakeSanta/116583751762645243"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmvw2nn72g",
+        "cid": "bafyreibg425o4xs3y4d633kwxybh4h2fmw5beed546irjuvx5s6kgzysyy"
+      }
+    }
+  },
   "2026-05-15": {
     "NationalChocolateChipDay": {
       "mastodon": {
@@ -230,38 +262,6 @@
       "bluesky": {
         "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlfz25pupb2s",
         "cid": "bafyreigiwjyq2765ix5cux4cz2gknumdu3u6fmbxt6dvdmtbdtvgff2hnm"
-      }
-    }
-  },
-  "2026-05-08": {
-    "NationalCoconutCreamPieDay": {
-      "mastodon": {
-        "id": "116538475765371988",
-        "url": "https://mastodon.social/@ClamBakeSanta/116538475765371988"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mldjiskeur2h",
-        "cid": "bafyreidpfee2ofidfbg324vckn2uys6ksg4qezaoxmgpdyyqgdullpb5vy"
-      }
-    },
-    "NoSocksDay": {
-      "mastodon": {
-        "id": "116538479741286872",
-        "url": "https://mastodon.social/@ClamBakeSanta/116538479741286872"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mldjklxqrj2h",
-        "cid": "bafyreihewar3jhjjglvbzhr6aiy5w6gittjo4k2l2tsaqasirlyeznvz74"
-      }
-    },
-    "HappyBirthdayHarryTruman": {
-      "mastodon": {
-        "id": "116538483703969636",
-        "url": "https://mastodon.social/@ClamBakeSanta/116538483703969636"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mldjmffhw22l",
-        "cid": "bafyreiecb6vmbwe6eqlhd6sqfca7zkobzmpfr5alxs3br7beo73tasjbgm"
       }
     }
   }
