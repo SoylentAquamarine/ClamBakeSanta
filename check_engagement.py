@@ -251,6 +251,7 @@ def check_wordpress(post_info: dict) -> dict | None:
     headers = {"Authorization": f"Bearer {token}"}
     try:
         # Post metadata: likes and comments
+        # Post metadata: comments (the post object is also our 404 sentinel)
         post_resp = requests.get(
             f"{WP_API}/sites/{blog_id}/posts/{post_id}",
             headers=headers,
@@ -260,8 +261,21 @@ def check_wordpress(post_info: dict) -> dict | None:
             return None
         post_resp.raise_for_status()
         post_data = post_resp.json()
-        likes    = post_data.get("like_count", 0)
         comments = post_data.get("discussion", {}).get("comment_count", 0)
+
+        # Likes: dedicated endpoint returns live `found` count; more reliable
+        # than `like_count` on the post object which can lag after creation.
+        likes = 0
+        try:
+            likes_resp = requests.get(
+                f"{WP_API}/sites/{blog_id}/posts/{post_id}/likes",
+                headers=headers,
+                timeout=15,
+            )
+            likes_resp.raise_for_status()
+            likes = likes_resp.json().get("found", 0)
+        except Exception:
+            likes = post_data.get("like_count", 0)  # fallback to post object
 
         # Stats: page views (separate endpoint)
         views = 0
