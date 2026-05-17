@@ -20,7 +20,7 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-05-16T22:38:12.717961+00:00"
+    "last_checked": "2026-05-17T22:44:52.132479+00:00"
   },
   "InternationalDayOfFamilies": {
     "theme": "International Day of Families",
@@ -43,7 +43,7 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-05-16T22:38:12.717961+00:00"
+    "last_checked": "2026-05-17T22:44:52.132479+00:00"
   },
   "HappyBirthdayLFrankBaum": {
     "theme": "Birthday L. Frank Baum",
@@ -66,6 +66,13 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-05-16T22:38:12.717961+00:00"
+    "last_checked": "2026-05-17T22:44:52.132479+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-05-17T22:44:52.132479+00:00"
   }
 }

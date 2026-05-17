@@ -1,4 +1,82 @@
 {
+  "2026-05-17": {
+    "NationalCherryCobblerDay": {
+      "theme": "National Cherry Cobbler Day",
+      "haiku": "Crimson fruit cascades,\nGolden crust enfolds delight,\nSweet warmth fills the air.\nHappy #NationalCherryCobblerDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116589426422759525",
+          "url": "https://mastodon.social/@ClamBakeSanta/116589426422759525",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mm25ki3ax62s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
+    },
+    "WorldBakingDay": {
+      "theme": "World Baking Day",
+      "haiku": "Warm oven’s embrace,\nGolden crusts and sweet aromas,\nJoy kneads through our hands.\nHappy #WorldBakingDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116589430384930493",
+          "url": "https://mastodon.social/@ClamBakeSanta/116589430384930493",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mm25mbg6352c",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
+    },
+    "HappyBirthdayAyaanHirsiAli": {
+      "theme": "Birthday Ayaan Hirsi Ali",
+      "haiku": "Candles flicker bright,\nLaughter dances through the night,\nJoy like confetti.\n#HappyBirthdayAyaanHirsiAli from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116589434369758839",
+          "url": "https://mastodon.social/@ClamBakeSanta/116589434369758839",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mm25o2ppve2h",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {},
+      "total_score": 0,
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
+    }
+  },
   "2026-05-16": {
     "NationalBarbecueDay": {
       "theme": "National Barbecue Day",
@@ -21,7 +99,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     },
     "SeaMonkeyDay": {
       "theme": "Sea Monkey Day",
@@ -44,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     },
     "HappyBirthdayLiberace": {
       "theme": "Birthday Liberace",
@@ -67,7 +145,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {},
+      "total_score": 0,
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     }
   },
   "2026-05-15": {
@@ -92,7 +177,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     },
     "InternationalDayOfFamilies": {
       "theme": "International Day of Families",
@@ -115,7 +200,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     },
     "HappyBirthdayLFrankBaum": {
       "theme": "Birthday L. Frank Baum",
@@ -138,7 +223,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {},
+      "total_score": 0,
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     }
   },
   "2026-05-14": {
@@ -163,7 +255,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     },
     "DanceLikeAChickenDay": {
       "theme": "Dance Like a Chicken Day",
@@ -186,7 +278,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     },
     "HappyBirthdayGeorgeLucas": {
       "theme": "Birthday George Lucas",
@@ -209,7 +301,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-16T22:38:12.717961+00:00"
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {},
+      "total_score": 0,
+      "last_checked": "2026-05-17T22:44:52.132479+00:00"
     }
   },
   "2026-05-13": {
@@ -517,77 +616,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-05-13T22:59:11.332091+00:00"
-    }
-  },
-  "2026-05-09": {
-    "NationalButterscotchBrownieDay": {
-      "theme": "National Butterscotch Brownie Day",
-      "haiku": "Warm, gooey treasures,\nCaramel swirls kiss chocolate,\nNuts crunch, sweet dreams bloom.\nHappy #NationalButterscotchBrownieDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116544065093329475",
-          "url": "https://mastodon.social/@ClamBakeSanta/116544065093329475",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlfywkhzs42h",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
-    },
-    "NationalLostSockMemorialDay": {
-      "theme": "National Lost Sock Memorial Day",
-      "haiku": "Whirls of fabric spin,\nMismatched dreams in cozy nooks,\nA dance of warmth grows.\nHappy #NationalLostSockMemorialDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116544069058606630",
-          "url": "https://mastodon.social/@ClamBakeSanta/116544069058606630",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlfyye6r5424",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
-    },
-    "HappyBirthdayJamesLBrooks": {
-      "theme": "Birthday James L. Brooks",
-      "haiku": "Candles flicker warm,\nJoyful echoes weave through time,\nCake and dreams take flight.\n#HappyBirthdayJamesLBrooks from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116544073043125836",
-          "url": "https://mastodon.social/@ClamBakeSanta/116544073043125836",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlfz25pupb2s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-12T22:53:31.270416+00:00"
     }
   }
 }
