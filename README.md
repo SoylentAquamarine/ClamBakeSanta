@@ -472,6 +472,16 @@ No other files change. The framework discovers and runs it automatically.
 
 ## Changelog
 
+### 2026-05-17 — Haiku validation, engagement expansion, broadcast tool
+
+- **5-7-5 syllable validation**: added `framework/haiku_validator.py` using the CMU Pronouncing Dictionary (`pronouncing` package) with a vowel-cluster heuristic fallback. The engine now retries up to 5 times on a syllable mismatch, logging `expected 5-7-5, got X-Y-Z` on each failure. A hard gate in `runner.py` blocks cache writes and adapter posts if validation still fails after all retries.
+- **Standalone validator**: `scripts/validate_haiku.py` — validates `state/haiku_cache.json` and includes built-in test cases (`--test` flag). Added as an explicit step in `daily.yml` after generation as belt-and-suspenders.
+- **Engagement tracking expanded**: Tumblr (note_count), WordPress (live like count via `/posts/{id}/likes` endpoint + views + comments), and Telegram (message_id saved; Bot API has no retroactive stats endpoint). Post IDs are now saved by all three adapters after every publish.
+- **WordPress likes fix**: switched from `like_count` on the post object (stale at creation) to the dedicated `/likes` endpoint which returns a live count.
+- **WordPress post ID backfill**: `scripts/backfill_wordpress_posts.py` — one-time script that queries WP.com for all past posts, matches by title, and writes IDs to `state/post_ids/`. Triggered via `backfill_wordpress.yml` workflow; historical like data now available for all 31 days since launch.
+- **All-time engagement report**: `weekly_report.py` now accepts `--all-time` and `--days N` flags. `report.yml` workflow triggers manually and emails the report. WordPress platform leaders added to report output.
+- **Broadcast tool**: `scripts/broadcast.py` posts arbitrary title + message to all platforms (Mastodon, Bluesky, Reddit, Tumblr, Telegram, WordPress, email subscribers). `broadcast.yml` workflow accepts title and message as inputs — multiline messages handled safely via temp file. Used to send the syllable-fix status update to all followers.
+
 ### 2026-05-03 — Weekly report fix, force dispatch, Mastodon restored
 
 - Fixed `weekly_report.py` syntax error: double-quoted dict keys inside triple-double-quoted f-strings are invalid in Python 3.11 (Actions runtime) — replaced all 34 occurrences with single quotes
