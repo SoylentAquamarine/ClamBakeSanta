@@ -103,7 +103,7 @@ def section(title, body):
 
 # ── Report builder ────────────────────────────────────────────────────────────
 
-def build_html_report(week_records, week_start, week_end, prior_total, site_url):
+def build_html_report(week_records, week_start, week_end, prior_total, site_url, title="Weekly Report"):
 
     total_posts = len(week_records)
     total_score = sum(r["total_score"] for r in week_records)
@@ -113,12 +113,14 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url)
         pct = ((total_score - prior_total) / prior_total) * 100
         trend = f"{'↑' if pct >= 0 else '↓'} {abs(pct):.0f}% vs prior week"
     else:
-        trend = "First week"
+        trend = "First week" if total_posts else "No data"
+
+    date_range = f"{week_start} → {week_end}"
 
     top5 = "".join(haiku_card(r, i) for i, r in enumerate(week_records[:5]))
 
     leaders = ""
-    for plat in ["mastodon", "bluesky", "reddit"]:
+    for plat in ["mastodon", "bluesky", "reddit", "tumblr", "wordpress"]:
         lead = platform_leader(week_records, plat)
         if lead:
             leaders += f"<div><b>{plat}</b>: {lead['theme']}</div>"
@@ -128,6 +130,7 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url)
         table += f"<tr><td>{i+1}</td><td>{r['date']}</td><td>{r['theme']}</td><td>{r['total_score']}</td></tr>"
 
     stats_section = section("Stats", f"""
+<p>Date range: {date_range}</p>
 <p>Posts: {total_posts}</p>
 <p>Score: {total_score}</p>
 <p>Platforms: {len(active_plats)}</p>
@@ -142,7 +145,7 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url)
 <html>
 <body style="font-family:system-ui;max-width:700px;margin:auto;">
 
-<h1>Weekly Report</h1>
+<h1>{title}</h1>
 
 {stats_section}
 
@@ -184,24 +187,49 @@ def send_email(subject, html):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate and email haiku engagement report")
+    parser.add_argument(
+        "--all-time", action="store_true",
+        help="Report on all available data instead of just the last 7 days",
+    )
+    parser.add_argument(
+        "--days", type=int, default=7,
+        help="Number of days to include (default: 7, ignored if --all-time)",
+    )
+    args = parser.parse_args()
+
     config = load_config()
-    from framework.engagement_store import load_summary
 
     today = date.today()
-    week_start = today - timedelta(days=7)
 
-    engagement = load_summary(config)
-    week_records = collect_week(engagement, week_start, today)
+    if args.all_time:
+        from framework.engagement_store import load_range
+        # Use a far-past start date to catch all available day files
+        start = date(2020, 1, 1)
+        engagement = load_range(config, start, today + timedelta(days=1))
+        title   = f"All-Time Report (through {today})"
+        subject = f"ClamBakeSanta All-Time Report — {today}"
+    else:
+        from framework.engagement_store import load_summary
+        start = today - timedelta(days=args.days)
+        engagement = load_summary(config, days=args.days)
+        title   = f"{args.days}-Day Report ({start} → {today})"
+        subject = f"ClamBakeSanta {args.days}-Day Report — {today}"
+
+    records = collect_week(engagement, start, today + timedelta(days=1))
 
     html = build_html_report(
-        week_records,
-        week_start,
+        records,
+        start,
         today,
         0,
-        config.get("site_base_url", "")
+        config.get("site_base_url", ""),
+        title=title,
     )
 
-    send_email("Weekly Report", html)
+    send_email(subject, html)
 
 
 if __name__ == "__main__":

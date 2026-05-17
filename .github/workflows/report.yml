@@ -1,0 +1,68 @@
+name: Engagement Report
+
+# Run manually from the GitHub Actions UI.
+# Fetches fresh engagement metrics then emails the report.
+
+on:
+  workflow_dispatch:
+    inputs:
+      all_time:
+        description: 'Report all-time data (true) or last N days (false)'
+        required: false
+        default: 'true'
+        type: boolean
+      days:
+        description: 'Days to check/report (ignored when all_time=true)'
+        required: false
+        default: '31'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch engagement metrics
+        env:
+          MASTODON_INSTANCE_URL:  ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN:  ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          BLUESKY_HANDLE:         ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD:   ${{ secrets.BLUESKY_APP_PASSWORD }}
+          REDDIT_CLIENT_ID:       ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET:   ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME:        ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD:        ${{ secrets.REDDIT_PASSWORD }}
+          TUMBLR_CONSUMER_KEY:    ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_OAUTH_TOKEN:     ${{ secrets.TUMBLR_OAUTH_TOKEN }}
+          TUMBLR_OAUTH_SECRET:    ${{ secrets.TUMBLR_OAUTH_SECRET }}
+          WORDPRESS_TOKEN:        ${{ secrets.WORDPRESS_TOKEN }}
+          WORDPRESS_BLOG_ID:      ${{ secrets.WORDPRESS_BLOG_ID }}
+        run: python check_engagement.py --days ${{ inputs.days }}
+
+      - name: Email report
+        env:
+          GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          REPORT_EMAIL:       ${{ secrets.REPORT_EMAIL }}
+        run: |
+          if [ "${{ inputs.all_time }}" = "true" ]; then
+            python weekly_report.py --all-time
+          else
+            python weekly_report.py --days ${{ inputs.days }}
+          fi

@@ -20,6 +20,10 @@ Platforms checked:
   - Mastodon   — favourites_count, reblogs_count, replies_count
   - Bluesky    — likeCount, repostCount, replyCount
   - Reddit     — score (upvotes − downvotes), num_comments
+  - Tumblr     — note_count (likes + reblogs combined)
+  - WordPress  — like_count, comment_count, views (two API calls)
+  - Telegram   — message_id saved but Bot API has no per-message stats endpoint;
+                 engagement metrics are not available without webhook integration.
 
 Skips any platform whose credentials are not configured.
 
@@ -187,6 +191,104 @@ def check_reddit(post_info: dict, reddit) -> dict | None:
         return None
 
 
+# ── Tumblr ───────────────────────────────────────────────────────────────────
+
+TUMBLR_API = "https://api.tumblr.com/v2"
+
+
+def _tumblr_auth() -> object | None:
+    """Return an OAuth1 object if all four Tumblr credentials are present."""
+    consumer_key    = os.environ.get("TUMBLR_CONSUMER_KEY", "").strip()
+    consumer_secret = os.environ.get("TUMBLR_CONSUMER_SECRET", "").strip()
+    oauth_token     = os.environ.get("TUMBLR_OAUTH_TOKEN", "").strip()
+    oauth_secret    = os.environ.get("TUMBLR_OAUTH_SECRET", "").strip()
+    if not all([consumer_key, consumer_secret, oauth_token, oauth_secret]):
+        return None
+    from requests_oauthlib import OAuth1
+    return OAuth1(consumer_key, consumer_secret, oauth_token, oauth_secret)
+
+
+def check_tumblr(post_info: dict, auth: object) -> dict | None:
+    post_id   = post_info.get("id", "")
+    blog_name = post_info.get("blog_name", "")
+    if not post_id or not blog_name or not auth:
+        return None
+    try:
+        resp = requests.get(
+            f"{TUMBLR_API}/blog/{blog_name}/posts",
+            auth=auth,
+            params={"id": post_id},
+            timeout=15,
+        )
+        if resp.status_code == 404:
+            return None
+        resp.raise_for_status()
+        posts = resp.json().get("response", {}).get("posts", [])
+        if not posts:
+            return None
+        notes = posts[0].get("note_count", 0)
+        return {
+            "id":    post_id,
+            "notes": notes,
+            "score": notes,  # no breakdown available without the /notes endpoint
+        }
+    except Exception as exc:
+        print(f"  Tumblr check failed ({post_id}): {exc}", file=sys.stderr)
+        return None
+
+
+# ── WordPress ─────────────────────────────────────────────────────────────────
+
+WP_API = "https://public-api.wordpress.com/rest/v1.1"
+
+
+def check_wordpress(post_info: dict) -> dict | None:
+    token   = os.environ.get("WORDPRESS_TOKEN", "").strip()
+    blog_id = os.environ.get("WORDPRESS_BLOG_ID", "").strip()
+    post_id = post_info.get("id", "")
+    if not token or not blog_id or not post_id:
+        return None
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        # Post metadata: likes and comments
+        post_resp = requests.get(
+            f"{WP_API}/sites/{blog_id}/posts/{post_id}",
+            headers=headers,
+            timeout=15,
+        )
+        if post_resp.status_code == 404:
+            return None
+        post_resp.raise_for_status()
+        post_data = post_resp.json()
+        likes    = post_data.get("like_count", 0)
+        comments = post_data.get("discussion", {}).get("comment_count", 0)
+
+        # Stats: page views (separate endpoint)
+        views = 0
+        try:
+            stats_resp = requests.get(
+                f"{WP_API}/sites/{blog_id}/stats/post/{post_id}",
+                headers=headers,
+                timeout=15,
+            )
+            stats_resp.raise_for_status()
+            views = stats_resp.json().get("views", 0)
+        except Exception:
+            pass  # views are a bonus — don't fail the whole check if stats 404
+
+        return {
+            "id":       post_id,
+            "url":      post_info.get("url", ""),
+            "views":    views,
+            "likes":    likes,
+            "comments": comments,
+            "score":    compute_score(likes, 0, comments),
+        }
+    except Exception as exc:
+        print(f"  WordPress check failed ({post_id}): {exc}", file=sys.stderr)
+        return None
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -222,8 +324,9 @@ def main():
 
     # Authenticate with each platform once up front.
     # If credentials are missing, these return None and we skip that platform.
-    bsky_session  = _create_bluesky_session()
-    reddit_client = _create_reddit_client()
+    bsky_session   = _create_bluesky_session()
+    reddit_client  = _create_reddit_client()
+    tumblr_auth    = _tumblr_auth()
 
     now = datetime.now(timezone.utc).isoformat()
 
@@ -302,6 +405,36 @@ def main():
                     print(f"  {date_str} [{tag}] reddit    "
                           f"score={result['score']}  "
                           f"⬆️{result['upvotes']} 💬{result['comments']}")
+
+            # ── Tumblr ────────────────────────────────────────────────────────
+            # note_count is a combined total of likes, reblogs, and replies.
+            # A breakdown requires paginating the /notes endpoint; skipped for now.
+            if "tumblr" in platforms and tumblr_auth:
+                result = check_tumblr(platforms["tumblr"], tumblr_auth)
+                if result:
+                    plat_results["tumblr"] = result
+                    changed = True
+                    print(f"  {date_str} [{tag}] tumblr    "
+                          f"score={result['score']}  "
+                          f"📝{result['notes']} notes")
+
+            # ── WordPress ─────────────────────────────────────────────────────
+            # One combined post per day, keyed under the synthetic "_wp_daily" tag.
+            # Fetches likes and comments from the post endpoint, views from stats.
+            if "wordpress" in platforms:
+                result = check_wordpress(platforms["wordpress"])
+                if result:
+                    plat_results["wordpress"] = result
+                    changed = True
+                    print(f"  {date_str} [{tag}] wordpress "
+                          f"score={result['score']}  "
+                          f"👁️{result['views']} ❤️{result['likes']} "
+                          f"💬{result['comments']}")
+
+            # ── Telegram ──────────────────────────────────────────────────────
+            # Message ID is saved by the adapter but the Telegram Bot API has no
+            # endpoint to query per-message view or reaction counts after posting.
+            # Engagement metrics for Telegram require webhook-based tracking.
 
             # Roll up per-platform scores into a single cross-platform total.
             # This is what the weekly report sorts by.

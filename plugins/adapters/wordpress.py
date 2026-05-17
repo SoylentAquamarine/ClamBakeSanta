@@ -116,8 +116,20 @@ class WordPressAdapter(BaseAdapter):
                 timeout=30,
             )
             resp.raise_for_status()
-            post_url = resp.json().get("URL", "")
+            post_data = resp.json()
+            post_url = post_data.get("URL", "")
+            post_id  = str(post_data.get("ID", ""))
             print(f"  WordPress: published → {post_url}")
+            if post_id:
+                from framework.post_store import save_post_id
+                # WordPress is one combined post per day, keyed by a synthetic tag.
+                save_post_id(
+                    self.config,
+                    result.event.date_str,
+                    "_wp_daily",
+                    "wordpress",
+                    {"id": post_id, "url": post_url},
+                )
             return True
         except Exception as exc:
             print(f"  WordPress error: {exc}")

@@ -19,8 +19,12 @@ Safety design:
 """
 from __future__ import annotations
 import html
+import logging
 import os
 import re
+
+_log = logging.getLogger(__name__)
+_MAX_RETRIES = 5
 
 from framework.registry import register
 from framework.engines.base import BaseEngine
@@ -115,8 +119,11 @@ def _make_prompt(theme: str, avoid_phrases: list[str] | None = None) -> str:
             f"\nFor variety, avoid starting with opening words or images similar to: {listed}."
         )
     return (
-        f'Write a single three-line haiku in natural 5-7-5 syllable style.\n'
+        f'Write a single three-line haiku with EXACTLY 5-7-5 syllables.\n'
         f'Theme: "{theme}"\n'
+        f"Count every syllable carefully before finalizing each line. "
+        f"Prefer short, common words with unambiguous syllable counts. "
+        f"Avoid contractions, hyphenated words, or words with irregular pronunciation. "
         f"Use sensory detail and vivid imagery. Keep it warm and celebratory.{avoid_block}\n"
         f'End with exactly this line: "{closing}"\n'
         f"Output only the 4 lines, nothing else."
@@ -147,10 +154,7 @@ class ClamBakeSantaEngine(BaseEngine):
         # Load recent opening phrases to guide the model toward fresh imagery
         avoid = self._recent_openers()
         if avoid:
-            import logging
-            logging.getLogger(__name__).info(
-                "Anti-repetition: avoiding %d recent phrase(s)", len(avoid)
-            )
+            _log.info("Anti-repetition: avoiding %d recent phrase(s)", len(avoid))
 
         haiku_records: list[dict] = []
         for theme in themes:
@@ -183,7 +187,14 @@ class ClamBakeSantaEngine(BaseEngine):
             return []
 
     def _generate(self, theme: str, avoid_phrases: list[str] | None = None) -> str:
-        """Call the AI API and return 4 lines of haiku text."""
+        """
+        Call the AI API and return 4 lines of haiku text validated as 5-7-5.
+
+        Retries up to _MAX_RETRIES times on syllable mismatches, logging each
+        failure as "expected 5-7-5, got X-Y-Z". Raises ValueError if no valid
+        haiku is produced — this causes the GitHub Action to fail before any
+        adapter posts.
+        """
         try:
             from openai import OpenAI
         except ImportError:
@@ -192,6 +203,8 @@ class ClamBakeSantaEngine(BaseEngine):
                 f"{theme}\n"
                 f"Happy #{_hashtag(theme)} from @ClamBakeSanta"
             )
+
+        from framework.haiku_validator import validate_haiku
 
         # GitHub Models endpoint — free with GITHUB_TOKEN (auto-injected in Actions)
         # Override with CBS_AI_BASE_URL / CBS_AI_KEY to use any other provider
@@ -203,25 +216,45 @@ class ClamBakeSantaEngine(BaseEngine):
             or os.environ.get("GITHUB_TOKEN", "")
         )
         model = self.config.get("ai", {}).get("model", "gpt-4o-mini")
-
         client = OpenAI(base_url=base_url, api_key=api_key)
-        try:
-            resp = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": _make_prompt(theme, avoid_phrases)},
-                ],
-                temperature=0.85,
-                max_tokens=120,
-            )
-            raw = resp.choices[0].message.content.strip()
-            lines = [ln.rstrip() for ln in raw.splitlines() if ln.strip()]
-            return "\n".join(lines[:4])
-        except Exception as exc:
-            # Graceful fallback — never crash the whole run over one haiku
-            return (
-                f"(generation error: {exc})\n"
-                f"{theme}\n"
-                f"Happy #{_hashtag(theme)} from @ClamBakeSanta"
-            )
+
+        last_counts: list[int] = []
+        for attempt in range(1, _MAX_RETRIES + 1):
+            try:
+                resp = client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user",   "content": _make_prompt(theme, avoid_phrases)},
+                    ],
+                    temperature=0.85,
+                    max_tokens=120,
+                )
+                raw = resp.choices[0].message.content.strip()
+                lines = [ln.rstrip() for ln in raw.splitlines() if ln.strip()]
+                haiku_text = "\n".join(lines[:4])
+
+                valid, counts = validate_haiku(haiku_text)
+                if valid:
+                    if attempt > 1:
+                        _log.info("Valid haiku on attempt %d/%d | theme=%r", attempt, _MAX_RETRIES, theme)
+                    return haiku_text
+
+                last_counts = counts
+                got = "-".join(str(c) for c in counts) if counts else "unknown"
+                _log.warning(
+                    "Syllable mismatch (attempt %d/%d): expected 5-7-5, got %s | theme=%r",
+                    attempt, _MAX_RETRIES, got, theme,
+                )
+            except Exception as exc:
+                _log.error("API error (attempt %d/%d) | theme=%r: %s", attempt, _MAX_RETRIES, theme, exc)
+                if attempt == _MAX_RETRIES:
+                    raise RuntimeError(
+                        f"AI API failed after {_MAX_RETRIES} attempts for theme {theme!r}: {exc}"
+                    ) from exc
+
+        got = "-".join(str(c) for c in last_counts) if last_counts else "unknown"
+        raise ValueError(
+            f"Could not generate a valid 5-7-5 haiku for {theme!r} "
+            f"after {_MAX_RETRIES} attempts (last syllable counts: {got})"
+        )

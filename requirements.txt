@@ -15,3 +15,6 @@ praw>=7.7.0
 
 # Config file parsing
 pyyaml>=6.0
+
+# CMU Pronouncing Dictionary — syllable counting for haiku 5-7-5 validation
+pronouncing>=0.4.2

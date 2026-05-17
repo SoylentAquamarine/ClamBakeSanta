@@ -42,6 +42,7 @@ from .state.json_store import JsonStateStore
 from .models import Event, Result
 from .haiku_log import append_haikus
 from .validation import validate_event, validate_result, ValidationError
+from .haiku_validator import validate_haiku as _syllable_validate
 
 log = logging.getLogger(__name__)
 
@@ -177,6 +178,22 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
         result = engine.process(event)
         haiku_count = len(result.metadata.get("haikus", []))
         log.info("Engine '%s' produced %d item(s)", engine_id, haiku_count)
+
+        # Hard syllable-count gate — must pass before cache write or any adapter runs.
+        _syllable_errors: list[str] = []
+        for _rec in result.metadata.get("haikus", []):
+            _ok, _counts = _syllable_validate(_rec.get("haiku", ""))
+            if not _ok:
+                _got = "-".join(str(c) for c in _counts) if _counts else "unknown"
+                _syllable_errors.append(
+                    f"  {_rec.get('theme')!r}: expected 5-7-5, got {_got}"
+                )
+        if _syllable_errors:
+            raise RuntimeError(
+                "Syllable validation failed — aborting before cache write or posting:\n"
+                + "\n".join(_syllable_errors)
+            )
+
         # Save to today's cache so any re-run/adapter test uses the same poems.
         _save_cache(config, result)
         # Also append to the long-term log used for anti-repetition and reporting.

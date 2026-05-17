@@ -99,6 +99,8 @@ class TumblrAdapter(BaseAdapter):
         blog_name = _get_blog_name(auth)
         posted = 0
 
+        from framework.post_store import save_post_id
+
         for rec in haiku_records:
             fields = _format_post(rec, result.event.date_str)
             resp = requests.post(
@@ -114,6 +116,15 @@ class TumblrAdapter(BaseAdapter):
                 timeout=15,
             )
             resp.raise_for_status()
+            post_id = str(resp.json().get("response", {}).get("id", ""))
+            if post_id:
+                save_post_id(
+                    self.config,
+                    result.event.date_str,
+                    rec.get("tag", ""),
+                    "tumblr",
+                    {"id": post_id, "blog_name": blog_name},
+                )
             posted += 1
             if posted < len(haiku_records):
                 time.sleep(POST_DELAY_SECONDS)

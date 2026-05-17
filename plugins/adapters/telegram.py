@@ -96,10 +96,24 @@ class TelegramAdapter(BaseAdapter):
         if not haiku_records:
             return False
 
+        from framework.post_store import save_post_id
+
         posted = 0
         for rec in haiku_records:
             text = _format_message(rec, result.event.date_str)
-            _send_message(token, channel, text)
+            data = _send_message(token, channel, text)
+            message_id = str(data.get("result", {}).get("message_id", ""))
+            if message_id:
+                # Telegram Bot API has no endpoint to query per-message view/reaction
+                # counts after the fact, so we save the ID for reference only.
+                # Engagement metrics for Telegram are not collected.
+                save_post_id(
+                    self.config,
+                    result.event.date_str,
+                    rec.get("tag", ""),
+                    "telegram",
+                    {"id": message_id, "channel": channel},
+                )
             posted += 1
             if posted < len(haiku_records):
                 time.sleep(POST_DELAY_SECONDS)
