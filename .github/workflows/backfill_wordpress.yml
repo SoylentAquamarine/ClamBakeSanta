@@ -1,0 +1,70 @@
+name: Backfill WordPress Post IDs
+
+# One-time run to populate state/post_ids/ with historical WordPress post IDs,
+# then immediately fetch engagement and email the all-time report.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to commit the updated state/post_ids/ files
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Backfill WordPress post IDs
+        env:
+          WORDPRESS_TOKEN:  ${{ secrets.WORDPRESS_TOKEN }}
+          WORDPRESS_BLOG_ID: ${{ secrets.WORDPRESS_BLOG_ID }}
+        run: python scripts/backfill_wordpress_posts.py
+
+      - name: Commit backfilled post IDs
+        run: |
+          git config user.name  "ClamBakeSantaBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/post_ids/
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "chore: backfill WordPress post IDs into state/post_ids/"
+            git push
+          fi
+
+      - name: Fetch engagement metrics
+        env:
+          MASTODON_INSTANCE_URL:  ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN:  ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          BLUESKY_HANDLE:         ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD:   ${{ secrets.BLUESKY_APP_PASSWORD }}
+          REDDIT_CLIENT_ID:       ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET:   ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME:        ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD:        ${{ secrets.REDDIT_PASSWORD }}
+          TUMBLR_CONSUMER_KEY:    ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_OAUTH_TOKEN:     ${{ secrets.TUMBLR_OAUTH_TOKEN }}
+          TUMBLR_OAUTH_SECRET:    ${{ secrets.TUMBLR_OAUTH_SECRET }}
+          WORDPRESS_TOKEN:        ${{ secrets.WORDPRESS_TOKEN }}
+          WORDPRESS_BLOG_ID:      ${{ secrets.WORDPRESS_BLOG_ID }}
+        run: python check_engagement.py --days 31
+
+      - name: Email all-time report
+        env:
+          GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          REPORT_EMAIL:       ${{ secrets.REPORT_EMAIL }}
+        run: python weekly_report.py --all-time
