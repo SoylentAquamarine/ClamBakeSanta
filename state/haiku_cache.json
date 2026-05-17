@@ -1,27 +1,27 @@
 {
-  "date": "2026-05-16",
+  "date": "2026-05-17",
   "haikus": [
     {
-      "theme": "National Barbecue Day",
-      "haiku": "Sizzling on the grill,\nSavory smoke fills the air,\nLaughter dances near.\nHappy #NationalBarbecueDay from @ClamBakeSanta",
-      "tag": "NationalBarbecueDay"
+      "theme": "National Cherry Cobbler Day",
+      "haiku": "Crimson fruit cascades,\nGolden crust enfolds delight,\nSweet warmth fills the air.\nHappy #NationalCherryCobblerDay from @ClamBakeSanta",
+      "tag": "NationalCherryCobblerDay"
     },
     {
-      "theme": "Sea Monkey Day",
-      "haiku": "Tiny swimmers dance,\nIn saltwater’s warm embrace,\nJoyful leaps and splashes.\nHappy #SeaMonkeyDay from @ClamBakeSanta",
-      "tag": "SeaMonkeyDay"
+      "theme": "World Baking Day",
+      "haiku": "Warm oven’s embrace,\nGolden crusts and sweet aromas,\nJoy kneads through our hands.\nHappy #WorldBakingDay from @ClamBakeSanta",
+      "tag": "WorldBakingDay"
     },
     {
-      "theme": "Birthday Liberace",
-      "haiku": "Glistening sequins,\nLaughter dances on soft notes,\nCake like sweet sunshine.\n#HappyBirthdayLiberace from @ClamBakeSanta",
-      "tag": "HappyBirthdayLiberace"
+      "theme": "Birthday Ayaan Hirsi Ali",
+      "haiku": "Candles flicker bright,\nLaughter dances through the night,\nJoy like confetti.\n#HappyBirthdayAyaanHirsiAli from @ClamBakeSanta",
+      "tag": "HappyBirthdayAyaanHirsiAli"
     }
   ],
   "themes": [
-    "National Barbecue Day",
-    "Sea Monkey Day",
-    "Birthday Liberace"
+    "National Cherry Cobbler Day",
+    "World Baking Day",
+    "Birthday Ayaan Hirsi Ali"
   ],
-  "content": "Sizzling on the grill,\nSavory smoke fills the air,\nLaughter dances near.\nHappy #NationalBarbecueDay from @ClamBakeSanta\n\nTiny swimmers dance,\nIn saltwater’s warm embrace,\nJoyful leaps and splashes.\nHappy #SeaMonkeyDay from @ClamBakeSanta\n\nGlistening sequins,\nLaughter dances on soft notes,\nCake like sweet sunshine.\n#HappyBirthdayLiberace from @ClamBakeSanta",
-  "saved_at": "2026-05-16T10:19:14.587121+00:00"
+  "content": "Crimson fruit cascades,\nGolden crust enfolds delight,\nSweet warmth fills the air.\nHappy #NationalCherryCobblerDay from @ClamBakeSanta\n\nWarm oven’s embrace,\nGolden crusts and sweet aromas,\nJoy kneads through our hands.\nHappy #WorldBakingDay from @ClamBakeSanta\n\nCandles flicker bright,\nLaughter dances through the night,\nJoy like confetti.\n#HappyBirthdayAyaanHirsiAli from @ClamBakeSanta",
+  "saved_at": "2026-05-17T10:24:23.683069+00:00"
 }

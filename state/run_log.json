@@ -33,7 +33,8 @@
     "2026-05-13",
     "2026-05-14",
     "2026-05-15",
-    "2026-05-16"
+    "2026-05-16",
+    "2026-05-17"
   ],
   "runs": [
     {
@@ -416,6 +417,17 @@
         "Birthday Liberace"
       ],
       "content_preview": "Sizzling on the grill, Savory smoke fills the air, Laughter dances near. Happy #NationalBarbecueDay from @ClamBakeSanta "
+    },
+    {
+      "date": "2026-05-17",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-17T10:32:36.399294+00:00",
+      "themes": [
+        "National Cherry Cobbler Day",
+        "World Baking Day",
+        "Birthday Ayaan Hirsi Ali"
+      ],
+      "content_preview": "Crimson fruit cascades, Golden crust enfolds delight, Sweet warmth fills the air. Happy #NationalCherryCobblerDay from @"
     }
   ]
 }
