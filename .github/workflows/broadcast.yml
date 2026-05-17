@@ -1,0 +1,68 @@
+name: Broadcast Message
+
+# Send a custom message to all configured ClamBakeSanta platforms.
+# Skips any platform whose credentials are not set.
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Post title (used by WordPress, Reddit, email subject — optional)'
+        required: false
+        default: ''
+        type: string
+      message:
+        description: 'Message body — posted to all platforms'
+        required: true
+        type: string
+      subreddit:
+        description: 'Reddit subreddit to post to'
+        required: false
+        default: 'ClamBakeSanta'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  broadcast:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Broadcast message
+        env:
+          MASTODON_INSTANCE_URL:  ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN:  ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          BLUESKY_HANDLE:         ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD:   ${{ secrets.BLUESKY_APP_PASSWORD }}
+          REDDIT_CLIENT_ID:       ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET:   ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME:        ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD:        ${{ secrets.REDDIT_PASSWORD }}
+          TUMBLR_CONSUMER_KEY:    ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_OAUTH_TOKEN:     ${{ secrets.TUMBLR_OAUTH_TOKEN }}
+          TUMBLR_OAUTH_SECRET:    ${{ secrets.TUMBLR_OAUTH_SECRET }}
+          TELEGRAM_BOT_TOKEN:     ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL:       ${{ secrets.TELEGRAM_CHANNEL }}
+          WORDPRESS_TOKEN:        ${{ secrets.WORDPRESS_TOKEN }}
+          WORDPRESS_BLOG_ID:      ${{ secrets.WORDPRESS_BLOG_ID }}
+          GMAIL_ADDRESS:          ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD:     ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          python scripts/broadcast.py \
+            --title "${{ inputs.title }}" \
+            --message "${{ inputs.message }}" \
+            --subreddit "${{ inputs.subreddit }}"
