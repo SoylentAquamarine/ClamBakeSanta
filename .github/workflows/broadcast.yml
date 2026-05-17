@@ -41,6 +41,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Write message to file
+        env:
+          BROADCAST_MESSAGE: ${{ inputs.message }}
+        run: printf '%s' "$BROADCAST_MESSAGE" > /tmp/broadcast_message.txt
+
       - name: Broadcast message
         env:
           MASTODON_INSTANCE_URL:  ${{ secrets.MASTODON_INSTANCE_URL }}
@@ -64,5 +69,5 @@ jobs:
         run: |
           python scripts/broadcast.py \
             --title "${{ inputs.title }}" \
-            --message "${{ inputs.message }}" \
+            --message-file /tmp/broadcast_message.txt \
             --subreddit "${{ inputs.subreddit }}"
