@@ -13,7 +13,7 @@ timezone: "America/New_York"
 # ── Active source plugin ──────────────────────────────────────────────────────
 # Produces the Event that drives each run.
 # Swap to "manual_trigger" or "system_metrics" to change input behavior.
-source: daily_holidays
+source: daily_themes
 
 # ── Active engine plugin ──────────────────────────────────────────────────────
 # Transforms the Event into a Result.
@@ -42,6 +42,10 @@ ai:
   # Override CBS_AI_BASE_URL + CBS_AI_KEY env vars to swap to any provider.
   model: gpt-4o-mini
 
+# ── Theme caps ────────────────────────────────────────────────────────────────
+max_haikus_per_day:    6   # hard cap: holidays + birthdays + celestial combined
+max_celestial_per_day: 4   # celestial backfill cap (even when schedule is empty)
+
 # ── Fallback themes ───────────────────────────────────────────────────────────
 # Used when every scheduled theme hits writer's block.
 # One is chosen at random so the bot never goes silent.
@@ -64,6 +68,7 @@ state_dir: state        # Run log and deduplication store
 # Add a new plugin module path here to make it available.
 plugin_modules:
   - plugins.sources.daily_holidays
+  - plugins.sources.daily_themes
   - plugins.engines.clambakesanta
   - plugins.adapters.github_pages
   - plugins.adapters.discord

@@ -1,0 +1,42 @@
+# Ephemeral holiday rules — holidays whose dates shift year to year.
+# Format: ORDINAL WEEKDAY of MONTH: Holiday Name
+# ORDINAL: 1st, 2nd, 3rd, 4th, 5th, last
+# WEEKDAY: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+# MONTH:   January through December
+#
+# Add or remove entries freely. The generator reads this file on the 1st
+# of each month and produces data/ephemeral/YYYY-MM.txt with exact dates.
+
+# ── January ───────────────────────────────────────────────────────────────────
+3rd Monday of January: Martin Luther King Jr. Day
+
+# ── February ──────────────────────────────────────────────────────────────────
+3rd Monday of February: Presidents Day
+
+# ── March ─────────────────────────────────────────────────────────────────────
+2nd Sunday of March: Daylight Saving Time Begins
+
+# ── April ─────────────────────────────────────────────────────────────────────
+
+# ── May ───────────────────────────────────────────────────────────────────────
+2nd Sunday of May: Mother's Day
+last Monday of May: Memorial Day
+
+# ── June ──────────────────────────────────────────────────────────────────────
+3rd Sunday of June: Father's Day
+
+# ── July ──────────────────────────────────────────────────────────────────────
+
+# ── August ────────────────────────────────────────────────────────────────────
+
+# ── September ─────────────────────────────────────────────────────────────────
+1st Monday of September: Labor Day
+
+# ── October ───────────────────────────────────────────────────────────────────
+2nd Monday of October: Columbus Day
+
+# ── November ──────────────────────────────────────────────────────────────────
+1st Sunday of November: Daylight Saving Time Ends
+4th Thursday of November: Thanksgiving Day
+
+# ── December ──────────────────────────────────────────────────────────────────

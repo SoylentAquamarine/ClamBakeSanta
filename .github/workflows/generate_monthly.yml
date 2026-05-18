@@ -1,0 +1,73 @@
+name: Generate Monthly Data
+
+# Runs on the 1st of each month (before the daily run) to produce:
+#   data/ephemeral/YYYY-MM.txt  — variable-date holidays
+#   data/celestial/YYYY-MM.txt  — moon phases, meteor showers, zodiac, seasons
+#
+# Also available as a manual trigger — use 'bootstrap' mode on first deploy
+# to generate files for the current month and next month at once.
+
+on:
+  schedule:
+    - cron: '0 7 1 * *'    # 07:00 UTC on the 1st (2 hrs before daily run)
+  workflow_dispatch:
+    inputs:
+      month:
+        description: 'Generate specific month (YYYY-MM). Leave blank for next month.'
+        required: false
+        default: ''
+      bootstrap:
+        description: 'Generate current month AND next month (for first deploy)'
+        required: false
+        default: 'false'
+        type: boolean
+      force:
+        description: 'Overwrite existing files'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install ephem pyyaml
+
+      - name: Generate data files
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.month }}" ]; then
+            ARGS="--month ${{ inputs.month }}"
+          elif [ "${{ inputs.bootstrap }}" = "true" ]; then
+            ARGS="--bootstrap"
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          python scripts/generate_monthly_data.py $ARGS
+
+      - name: Commit generated files
+        run: |
+          git config user.name  "ClamBakeSantaBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ephemeral/ data/celestial/
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "chore: generate monthly data $(date -u '+%Y-%m')"
+            git push
+          fi
