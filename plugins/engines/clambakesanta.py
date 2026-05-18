@@ -206,10 +206,13 @@ class ClamBakeSantaEngine(BaseEngine):
                 )
 
         if not haiku_records:
-            _log.error("Writer's block on ALL themes — nothing to post today.")
-        else:
-            _log.info("Generated %d/%d haiku(s) — %d writer's block",
-                      len(haiku_records), len(themes), len(writers_block_themes))
+            _log.warning("Writer's block on ALL themes — generating fallback haiku.")
+            haiku_records = self._generate_fallback(
+                event.date_str, avoid, writers_block_themes, writers_block_log
+            )
+
+        _log.info("Generated %d/%d haiku(s) — %d writer's block",
+                  len(haiku_records), len(themes), len(writers_block_themes))
 
         content = "\n\n".join(r["haiku"] for r in haiku_records)
 
@@ -224,6 +227,71 @@ class ClamBakeSantaEngine(BaseEngine):
                 "date":          event.date_str,
             },
         )
+
+    # Fallback themes used when every scheduled theme hits writer's block.
+    # Override via config.yml key "fallback_themes".
+    _FALLBACK_THEMES = [
+        "The Beauty of Each Day",
+        "Simple Joys",
+        "Nature's Wonder",
+        "A Moment of Peace",
+        "The Changing Seasons",
+        "Gratitude",
+        "Small Miracles",
+    ]
+
+    def _generate_fallback(
+        self,
+        date_str: str,
+        avoid: list[str],
+        writers_block_themes: list[dict],
+        wb_log,
+    ) -> list[dict]:
+        """
+        Generate one haiku from a random fallback theme.
+
+        Called only when every scheduled theme hit writer's block.
+        If the fallback also hits writer's block, use the last raw attempt
+        rather than going completely silent.
+        """
+        import random
+        fallback_pool = self.config.get("fallback_themes", self._FALLBACK_THEMES)
+        theme = random.choice(fallback_pool)
+        tag   = _hashtag(theme)
+        _log.info("Fallback theme selected: %r", theme)
+
+        try:
+            haiku_text, counts = self._generate(theme, avoid)
+            _log.info("Fallback haiku OK [5-7-5] theme=%r", theme)
+            return [{
+                "theme":           theme,
+                "haiku":           haiku_text,
+                "tag":             tag,
+                "syllable_counts": counts,
+                "valid_syllables": True,
+                "fallback":        True,
+            }]
+        except WritersBlock as wb:
+            # Extremely unlikely — log it and use the last raw attempt.
+            _log.error("Fallback theme also hit writer's block — using last raw attempt.")
+            writers_block_themes.append({"theme": theme, "tag": tag,
+                                         "attempts": len(wb.attempts), "fallback": True})
+            wb_log.append(self.config, date_str, theme, tag, wb.attempts)
+
+            if wb.attempts:
+                last_text   = wb.attempts[-1]["text"]
+                last_counts = wb.attempts[-1]["counts"]
+                return [{
+                    "theme":           theme,
+                    "haiku":           last_text,
+                    "tag":             tag,
+                    "syllable_counts": last_counts,
+                    "valid_syllables": False,
+                    "fallback":        True,
+                }]
+            # Nothing at all — return empty and let the runner handle it.
+            _log.error("No fallback haiku available — run will commit with no content.")
+            return []
 
     def _recent_openers(self) -> list[str]:
         """Return opening lines from the last 7 days of haiku history."""

@@ -42,6 +42,18 @@ ai:
   # Override CBS_AI_BASE_URL + CBS_AI_KEY env vars to swap to any provider.
   model: gpt-4o-mini
 
+# ── Fallback themes ───────────────────────────────────────────────────────────
+# Used when every scheduled theme hits writer's block.
+# One is chosen at random so the bot never goes silent.
+fallback_themes:
+  - "The Beauty of Each Day"
+  - "Simple Joys"
+  - "Nature's Wonder"
+  - "A Moment of Peace"
+  - "The Changing Seasons"
+  - "Gratitude"
+  - "Small Miracles"
+
 # ── Paths ─────────────────────────────────────────────────────────────────────
 data_dir: data          # Holiday/birthday .txt files
 output_dir: docs        # GitHub Pages serves this directory
