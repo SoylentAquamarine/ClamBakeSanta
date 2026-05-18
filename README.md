@@ -136,6 +136,43 @@ Required secret: **`REPORT_EMAIL`** — the address to receive the report.
 
 ---
 
+## Diagrams
+
+Interactive Mermaid diagrams — click any to open the rendered view on GitHub.
+
+<table>
+<tr>
+  <td><a href="diagrams/architecture.md">🗺️ <strong>System Architecture</strong></a></td>
+  <td>Full system: data layer → source → engine → adapters → state</td>
+</tr>
+<tr>
+  <td><a href="diagrams/daily-workflow-sequence.md">🔄 <strong>Daily Workflow Sequence</strong></a></td>
+  <td>Step-by-step sequence of a complete daily run</td>
+</tr>
+<tr>
+  <td><a href="diagrams/theme-selection.md">🎯 <strong>Theme Selection Logic</strong></a></td>
+  <td>Priority order and hard caps for choosing today's haiku subjects</td>
+</tr>
+<tr>
+  <td><a href="diagrams/writers-block.md">✏️ <strong>Writer's Block Handling</strong></a></td>
+  <td>Per-theme retry loop, isolation, and fallback haiku</td>
+</tr>
+<tr>
+  <td><a href="diagrams/workflow-schedule.md">🗓️ <strong>Workflow Schedule</strong></a></td>
+  <td>When each GitHub Actions workflow runs (Gantt + reference table)</td>
+</tr>
+<tr>
+  <td><a href="diagrams/state-files.md">🗄️ <strong>State File Map</strong></a></td>
+  <td>What lives in <code>state/</code>, what creates it, and retention policy</td>
+</tr>
+<tr>
+  <td><a href="diagrams/data-generation.md">🌙 <strong>Monthly Data Generation</strong></a></td>
+  <td>How ephemeral holiday and celestial event files are produced</td>
+</tr>
+</table>
+
+---
+
 ## Architecture
 
 ClamBakeSanta is built as a **modular, plugin-based automation framework**.
