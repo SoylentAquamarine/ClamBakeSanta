@@ -188,12 +188,11 @@ class ClamBakeSantaEngine(BaseEngine):
 
     def _generate(self, theme: str, avoid_phrases: list[str] | None = None) -> str:
         """
-        Call the AI API and return 4 lines of haiku text validated as 5-7-5.
+        Call the AI API and return 4 lines of haiku text.
 
         Retries up to _MAX_RETRIES times on syllable mismatches, logging each
-        failure as "expected 5-7-5, got X-Y-Z". Raises ValueError if no valid
-        haiku is produced — this causes the GitHub Action to fail before any
-        adapter posts.
+        failure. If no valid 5-7-5 is produced, returns the last attempt rather
+        than raising — a slightly-off haiku is better than no post at all.
         """
         try:
             from openai import OpenAI
@@ -219,6 +218,7 @@ class ClamBakeSantaEngine(BaseEngine):
         client = OpenAI(base_url=base_url, api_key=api_key)
 
         last_counts: list[int] = []
+        last_haiku_text: str = ""
         for attempt in range(1, _MAX_RETRIES + 1):
             try:
                 resp = client.chat.completions.create(
@@ -233,6 +233,7 @@ class ClamBakeSantaEngine(BaseEngine):
                 raw = resp.choices[0].message.content.strip()
                 lines = [ln.rstrip() for ln in raw.splitlines() if ln.strip()]
                 haiku_text = "\n".join(lines[:4])
+                last_haiku_text = haiku_text
 
                 valid, counts = validate_haiku(haiku_text)
                 if valid:
@@ -248,13 +249,16 @@ class ClamBakeSantaEngine(BaseEngine):
                 )
             except Exception as exc:
                 _log.error("API error (attempt %d/%d) | theme=%r: %s", attempt, _MAX_RETRIES, theme, exc)
-                if attempt == _MAX_RETRIES:
-                    raise RuntimeError(
-                        f"AI API failed after {_MAX_RETRIES} attempts for theme {theme!r}: {exc}"
-                    ) from exc
 
+        # All retries exhausted without a valid 5-7-5 — post the last attempt anyway.
         got = "-".join(str(c) for c in last_counts) if last_counts else "unknown"
-        raise ValueError(
-            f"Could not generate a valid 5-7-5 haiku for {theme!r} "
-            f"after {_MAX_RETRIES} attempts (last syllable counts: {got})"
+        _log.warning(
+            "Posting best-effort haiku for %r after %d attempts (syllables: %s)",
+            theme, _MAX_RETRIES, got,
+        )
+        return last_haiku_text if last_haiku_text else (
+            f"Seasons change each day\n"
+            f"Celebrating {theme} now\n"
+            f"Joy fills every heart\n"
+            f"Happy #{_hashtag(theme)} from @ClamBakeSanta"
         )

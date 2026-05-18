@@ -8,10 +8,10 @@ on:
     - cron: '0 13 * * 0'   # 1 PM UTC = 9 AM ET, every Sunday
   workflow_dispatch:
     inputs:
-      weeks:
-        description: 'How many weeks to cover (default: 1)'
+      days:
+        description: 'How many days to cover (default: 7)'
         required: false
-        default: '1'
+        default: '7'
 
 permissions:
   contents: read
@@ -35,5 +35,5 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           REPORT_EMAIL:       ${{ secrets.REPORT_EMAIL }}
         run: |
-          WEEKS="${{ github.event.inputs.weeks || '1' }}"
-          python weekly_report.py --weeks "$WEEKS"
+          DAYS="${{ github.event.inputs.days || '7' }}"
+          python weekly_report.py --days "$DAYS"

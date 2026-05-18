@@ -179,20 +179,17 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
         haiku_count = len(result.metadata.get("haikus", []))
         log.info("Engine '%s' produced %d item(s)", engine_id, haiku_count)
 
-        # Hard syllable-count gate — must pass before cache write or any adapter runs.
-        _syllable_errors: list[str] = []
+        # Syllable-count check — logs warnings but never blocks posting.
+        # GPT-4o-mini can't reliably hit 5-7-5 every time; failing here would
+        # mean no post at all, which is worse than a slightly off haiku.
         for _rec in result.metadata.get("haikus", []):
             _ok, _counts = _syllable_validate(_rec.get("haiku", ""))
             if not _ok:
                 _got = "-".join(str(c) for c in _counts) if _counts else "unknown"
-                _syllable_errors.append(
-                    f"  {_rec.get('theme')!r}: expected 5-7-5, got {_got}"
+                log.warning(
+                    "Syllable mismatch (posting anyway): theme=%r expected 5-7-5, got %s",
+                    _rec.get("theme"), _got,
                 )
-        if _syllable_errors:
-            raise RuntimeError(
-                "Syllable validation failed — aborting before cache write or posting:\n"
-                + "\n".join(_syllable_errors)
-            )
 
         # Save to today's cache so any re-run/adapter test uses the same poems.
         _save_cache(config, result)
