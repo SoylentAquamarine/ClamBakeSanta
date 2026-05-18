@@ -524,6 +524,8 @@ No other files change. The framework discovers and runs it automatically.
 | **Mastodon** | `GET /api/v1/statuses/{id}` | `favourites_count`, `reblogs_count`, `replies_count` |
 | **Bluesky** | `GET app.bsky.feed.getPosts?uris={uri}` | `likeCount`, `repostCount`, `replyCount` |
 | **Reddit** | PRAW `reddit.submission(id=…)` | `score` (upvotes − downvotes), `num_comments` |
+| **WordPress.com** | `GET /sites/{id}/posts/{post_id}/likes` | `found` (live like count); views + comments via post object |
+| **Tumblr** | `GET /v2/blog/{id}/posts/{post_id}` | `note_count` (likes + reblogs combined) |
 
 ---
 
