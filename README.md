@@ -38,17 +38,27 @@ Every morning at 5 AM ET, two GitHub Actions workflows run:
 - Sends confirmation replies via Gmail SMTP
 - Commits the updated list so the main run has the freshest data
 
+**7 AM UTC 1st of Month — Generate Monthly Data (`generate_monthly.yml`)**
+- Generates `data/ephemeral/YYYY-MM.txt` — variable-date holidays (Mother's Day, Thanksgiving, etc.) computed from rules in `data/ephemeral_rules.txt`
+- Generates `data/celestial/YYYY-MM.txt` — moon phases, meteor showers, zodiac ingress, equinoxes/solstices computed via the `ephem` library
+- Runs 2 hours before the daily cron; if files are missing mid-month the daily run auto-generates them on the spot as a fallback
+
 **5 AM ET — Daily Haiku Generation (`daily.yml`)**
-1. Reads today's holidays and birthdays from curated data files
+1. Selects today's themes using priority order (hard cap: 6 per day):
+   - Fixed holidays from curated data files (highest priority)
+   - Ephemeral holidays (Mother's Day, Thanksgiving, etc. — auto-generated dates)
+   - Celebrity birthdays from curated data files
+   - Celestial events backfill (moon phases, meteor showers, zodiac — up to 4, only if total < 6)
 2. Loads the last 7 days of `state/haiku_log/recent.json` — passes recent opening phrases to the AI to avoid repetition
-3. Calls a free AI model (GitHub Models / GPT-4o-mini) to write one haiku per theme
-4. **Saves the haikus to `state/haiku_cache.json`** so every adapter uses the same poems; appends to `state/haiku_log/YYYY-MM-DD.json`
-5. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, Telegram, and Reddit** (staggered 1 minute apart); **saves post IDs to `state/post_ids/YYYY-MM-DD.json`** for engagement tracking
-6. Posts a daily digest to **WordPress.com** (all haikus combined in one styled blog entry)
-7. Sends the daily digest email to all subscribers
-8. Updates the **GitHub Pages** website and **RSS feed**
-9. Posts a summary to Discord
-10. Commits all state back to the repo
+3. Calls a free AI model (GitHub Models / GPT-4o-mini) to write one haiku per theme; validates 5-7-5 syllable count with up to 5 retries
+4. **Writer's block handling**: if a theme fails all retries it is skipped and logged to `state/writers_block/`; other themes are unaffected. If every theme hits writer's block a random fallback haiku is generated.
+5. **Saves the haikus to `state/haiku_cache.json`** so every adapter uses the same poems; appends to `state/haiku_log/YYYY-MM-DD.json`; saves run summary to `state/run_log/YYYY-MM-DD.json`
+6. Posts each haiku individually to **Mastodon, Bluesky, Tumblr, Telegram, and Reddit** (staggered 1 minute apart); **saves post IDs to `state/post_ids/YYYY-MM-DD.json`** for engagement tracking
+7. Posts a daily digest to **WordPress.com** (all haikus combined in one styled blog entry)
+8. Sends the daily digest email to all subscribers
+9. Updates the **GitHub Pages** website and **RSS feed**
+10. Posts a summary to Discord
+11. Commits all state back to the repo
 
 **6 PM ET — Check Engagement (`check_engagement.yml`)**
 - Reads `state/post_ids/summary.json` and queries Mastodon, Bluesky, and Reddit APIs for current metrics
@@ -173,7 +183,7 @@ or any other automated content pipeline.
 
 | Layer | Responsibility | Example |
 |---|---|---|
-| **Source** | Produces a standardized Event | `daily_holidays` reads today's data files |
+| **Source** | Produces a standardized Event | `daily_themes` selects today's themes with priority/cap logic |
 | **Engine** | Transforms Event → Result (or loads cache) | `clambakesanta` calls AI, caches haikus |
 | **Adapters** | Publish Result to output channels | `mastodon`, `bluesky`, `github_pages`, etc. |
 | **State** | Deduplication + audit trail + cache | `state/run_log.json`, `state/haiku_cache.json` |
@@ -199,6 +209,8 @@ clambakesanta/
 │   ├── registry.py             # Plugin registry (@register decorator)
 │   ├── runner.py               # Execution loop: source→engine/cache→adapters→state
 │   ├── haiku_log.py            # Partitioned haiku history + anti-repetition helpers
+│   ├── run_log.py              # Rolling daily run summaries (30-day retention)
+│   ├── writers_block_log.py    # Rolling per-day writer's block attempt log (30-day retention)
 │   ├── post_store.py           # Partitioned post IDs/URLs per platform
 │   ├── engagement_store.py     # Partitioned engagement metrics + 7-day summary
 │   ├── sources/base.py         # BaseSource abstract class
@@ -208,9 +220,10 @@ clambakesanta/
 │
 ├── plugins/                    # All business logic lives here
 │   ├── sources/
-│   │   └── daily_holidays.py   # Reads data files → produces Event
+│   │   ├── daily_themes.py     # Priority/cap theme selection (holidays→birthdays→celestial)
+│   │   └── daily_holidays.py   # Legacy source (inactive — daily_themes is now active)
 │   ├── engines/
-│   │   └── clambakesanta.py    # Calls AI → produces haiku Result
+│   │   └── clambakesanta.py    # Calls AI → validates 5-7-5 → produces haiku Result
 │   └── adapters/
 │       ├── mastodon_adapter.py # Posts each haiku to Mastodon
 │       ├── bluesky.py          # Posts each haiku to Bluesky
@@ -224,7 +237,12 @@ clambakesanta/
 ├── data/                       # Your editorial control layer
 │   ├── january_randomholiday.txt
 │   ├── january_celebritybirthday.txt
-│   └── ... (24 files total, one per month per type)
+│   ├── ... (24 files total, one per month per type)
+│   ├── ephemeral_rules.txt     # Human-editable: "4th Thursday of November: Thanksgiving"
+│   ├── ephemeral/              # Auto-generated: variable-date holidays by month
+│   │   └── YYYY-MM.txt
+│   └── celestial/              # Auto-generated: moon phases, meteors, zodiac by month
+│       └── YYYY-MM.txt
 │
 ├── docs/                       # GitHub Pages root (auto-generated daily)
 │   ├── index.html              # Today's haikus
@@ -233,22 +251,30 @@ clambakesanta/
 │   └── archives/               # One HTML file per day, forever
 │
 ├── state/
-│   ├── run_log.json            # Dedup log + human-readable run history
 │   ├── haiku_cache.json        # Today's haikus — shared across all adapters
 │   ├── subscribers.json        # Email mailing list
 │   ├── haiku_log/
-│   │   ├── 2026-04-17.json     # One file per day — every haiku ever generated
+│   │   ├── YYYY-MM-DD.json     # One file per day — every haiku ever generated
 │   │   └── recent.json         # Rolling 7-day summary (auto-rebuilt, fast access)
+│   ├── run_log/
+│   │   └── YYYY-MM-DD.json     # Daily run summary: themes, haikus posted, writer's block, adapter results
+│   ├── writers_block/
+│   │   └── YYYY-MM-DD.json     # Failed haiku attempts for analysis (text + syllable counts)
 │   ├── post_ids/
-│   │   ├── 2026-04-17.json     # Per-platform post IDs/URLs for one day
+│   │   ├── YYYY-MM-DD.json     # Per-platform post IDs/URLs for one day
 │   │   └── summary.json        # Rolling 7-day index (auto-rebuilt)
 │   └── engagement/
-│       ├── 2026-04-17.json     # Engagement metrics for one day
+│       ├── YYYY-MM-DD.json     # Engagement metrics for one day
 │       └── summary.json        # Rolling 7-day summary (auto-rebuilt, fast access)
+│
+├── scripts/
+│   ├── generate_monthly_data.py  # Generates ephemeral + celestial data files via ephem
+│   └── broadcast.py              # Posts a custom message to all platforms at once
 │
 ├── .github/workflows/
 │   ├── daily.yml               # Main cron: 5 AM ET — generate + publish everywhere
 │   ├── check_subscriptions.yml # Sub cron: 4 AM ET — process SUBSCRIBE/UNSUBSCRIBE emails
+│   ├── generate_monthly.yml    # 1st of month 7 AM UTC: generate next month's data files
 │   ├── test_mastodon.yml       # Manual: re-post today's cached haikus to Mastodon
 │   ├── test_bluesky.yml        # Manual: re-post today's cached haikus to Bluesky
 │   ├── test_tumblr.yml         # Manual: re-post today's cached haikus to Tumblr
@@ -261,11 +287,11 @@ clambakesanta/
 │   └── weekly_report.yml       # Sunday 9 AM ET: email weekly stats to REPORT_EMAIL
 │
 ├── check_subscriptions.py      # Standalone SUBSCRIBE/UNSUBSCRIBE processor
-├── check_engagement.py         # Fetches engagement metrics; saves state/engagement.json
+├── check_engagement.py         # Fetches engagement metrics; saves state/engagement/
 ├── weekly_report.py            # Emails weekly stats report to REPORT_EMAIL
 ├── config.yml                  # All configuration — no hardcoded values
 ├── run.py                      # Entry point (python run.py [--force] [--regenerate] [--adapter X])
-└── requirements.txt            # openai, requests, pyyaml, requests-oauthlib, praw
+└── requirements.txt            # openai, requests, pyyaml, requests-oauthlib, praw, ephem
 ```
 
 ---
@@ -471,6 +497,17 @@ No other files change. The framework discovers and runs it automatically.
 ---
 
 ## Changelog
+
+### 2026-05-18 — Celestial events, ephemeral holidays, writer's block handling, priority caps
+
+- **Writer's block handling**: per-theme isolation — if one haiku fails 5-7-5 validation after 5 retries it is skipped and logged; other themes continue unaffected. All failed attempts (text + syllable counts) saved to `state/writers_block/YYYY-MM-DD.json` for analysis. If every theme hits writer's block a random fallback haiku is generated so the bot never goes silent.
+- **Rolling run log**: `state/run_log/YYYY-MM-DD.json` captures themes found, haikus posted, writer's block events, and per-adapter success/failure for every run. Auto-pruned to 30 days.
+- **Priority/cap system**: hard cap of 6 haikus per day. Fixed holidays first, then ephemeral holidays, then celebrity birthdays, then celestial backfill (max 4). Controlled by `max_haikus_per_day` and `max_celestial_per_day` in `config.yml`.
+- **Celestial events**: moon phases (New, First Quarter, Full, Last Quarter), zodiac sign ingress, 8 annual meteor showers, equinoxes and solstices — calculated via the `ephem` library; correct geocentric ecliptic longitude used for zodiac (not heliocentric).
+- **Ephemeral holidays**: variable-date holidays (Mother's Day, Thanksgiving, DST changes, etc.) computed from human-editable rules in `data/ephemeral_rules.txt` using nth-weekday math. No more hardcoding dates that shift each year.
+- **Auto-generated monthly data files**: `scripts/generate_monthly_data.py` produces `data/ephemeral/YYYY-MM.txt` and `data/celestial/YYYY-MM.txt`. The `generate_monthly.yml` workflow runs on the 1st of each month to pre-generate the next month's files. If files are missing mid-month the daily source plugin generates them on the spot as a self-healing fallback.
+- **`daily_themes` source plugin** replaces `daily_holidays` as the active source; combines all four data sources with the priority/cap logic.
+- **Removed redundant validate step** from `daily.yml` — syllable validation now happens inside the engine before any post is made, not as a post-hoc workflow step.
 
 ### 2026-05-17 — Haiku validation, engagement expansion, broadcast tool
 
