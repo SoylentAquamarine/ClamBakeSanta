@@ -130,14 +130,29 @@ def _make_prompt(theme: str, avoid_phrases: list[str] | None = None) -> str:
     )
 
 
+class WritersBlock(Exception):
+    """Raised when the AI cannot produce a valid 5-7-5 after all retries."""
+    def __init__(self, theme: str, tag: str, attempts: list[dict]):
+        self.theme    = theme
+        self.tag      = tag
+        self.attempts = attempts  # [{"text": str, "counts": list[int]}, ...]
+        super().__init__(
+            f"Writer's block on {theme!r} — no valid 5-7-5 after {len(attempts)} attempt(s)"
+        )
+
+
 @register("engines", "clambakesanta")
 class ClamBakeSantaEngine(BaseEngine):
     """
     Generates one haiku per theme using an AI language model.
 
     Result.content     : all haikus joined by double newline (ready to post)
-    Result.metadata    : {"haikus": [{"theme": str, "haiku": str, "tag": str}],
-                          "themes": [str], "date": str}
+    Result.metadata    : {"haikus": [{"theme": str, "haiku": str, "tag": str,
+                                      "syllable_counts": [int,int,int],
+                                      "valid_syllables": bool}],
+                          "themes": [str],
+                          "writers_block": [{"theme": str, "tag": str, "attempts": int}],
+                          "date": str}
     """
 
     def process(self, event: Event) -> Result:
@@ -148,7 +163,7 @@ class ClamBakeSantaEngine(BaseEngine):
                 event=event,
                 engine_id="clambakesanta",
                 content=f"No holidays found for {event.date_str}. Check your data files.",
-                metadata={"haikus": [], "themes": [], "date": event.date_str},
+                metadata={"haikus": [], "themes": [], "writers_block": [], "date": event.date_str},
             )
 
         # Load recent opening phrases to guide the model toward fresh imagery
@@ -156,14 +171,45 @@ class ClamBakeSantaEngine(BaseEngine):
         if avoid:
             _log.info("Anti-repetition: avoiding %d recent phrase(s)", len(avoid))
 
-        haiku_records: list[dict] = []
+        from framework.haiku_validator import validate_haiku
+        from framework import writers_block_log
+
+        haiku_records: list[dict]     = []
+        writers_block_themes: list[dict] = []
+
         for theme in themes:
-            haiku_text = self._generate(theme, avoid)
-            haiku_records.append({
-                "theme": theme,
-                "haiku": haiku_text,
-                "tag": _hashtag(theme),
-            })
+            tag = _hashtag(theme)
+            try:
+                haiku_text, counts = self._generate(theme, avoid)
+                valid = counts == [5, 7, 5]
+                haiku_records.append({
+                    "theme":           theme,
+                    "haiku":           haiku_text,
+                    "tag":             tag,
+                    "syllable_counts": counts,
+                    "valid_syllables": valid,
+                })
+                syllable_str = "-".join(str(c) for c in counts)
+                if valid:
+                    _log.info("Haiku OK  [5-7-5] theme=%r", theme)
+                else:
+                    _log.warning("Haiku posted with syllable mismatch [%s] theme=%r",
+                                 syllable_str, theme)
+
+            except WritersBlock as wb:
+                _log.warning("Writer's block — skipping theme=%r after %d attempt(s)",
+                             theme, len(wb.attempts))
+                writers_block_themes.append({"theme": theme, "tag": tag,
+                                             "attempts": len(wb.attempts)})
+                writers_block_log.append(
+                    self.config, event.date_str, theme, tag, wb.attempts
+                )
+
+        if not haiku_records:
+            _log.error("Writer's block on ALL themes — nothing to post today.")
+        else:
+            _log.info("Generated %d/%d haiku(s) — %d writer's block",
+                      len(haiku_records), len(themes), len(writers_block_themes))
 
         content = "\n\n".join(r["haiku"] for r in haiku_records)
 
@@ -172,9 +218,10 @@ class ClamBakeSantaEngine(BaseEngine):
             engine_id="clambakesanta",
             content=content,
             metadata={
-                "haikus": haiku_records,
-                "themes": themes,
-                "date": event.date_str,
+                "haikus":        haiku_records,
+                "themes":        themes,
+                "writers_block": writers_block_themes,
+                "date":          event.date_str,
             },
         )
 
@@ -186,22 +233,25 @@ class ClamBakeSantaEngine(BaseEngine):
         except Exception:
             return []
 
-    def _generate(self, theme: str, avoid_phrases: list[str] | None = None) -> str:
+    def _generate(
+        self, theme: str, avoid_phrases: list[str] | None = None
+    ) -> tuple[str, list[int]]:
         """
-        Call the AI API and return 4 lines of haiku text.
+        Call the AI API and return (haiku_text, syllable_counts).
 
-        Retries up to _MAX_RETRIES times on syllable mismatches, logging each
-        failure. If no valid 5-7-5 is produced, returns the last attempt rather
-        than raising — a slightly-off haiku is better than no post at all.
+        Retries up to _MAX_RETRIES times on syllable mismatches.  Every attempt
+        that gets a response is recorded (text + counts) for the writer's block log.
+        Raises WritersBlock if no valid 5-7-5 is produced after all retries.
         """
         try:
             from openai import OpenAI
         except ImportError:
-            return (
+            fallback = (
                 f"(openai package missing — run: pip install openai)\n"
                 f"{theme}\n"
                 f"Happy #{_hashtag(theme)} from @ClamBakeSanta"
             )
+            return fallback, []
 
         from framework.haiku_validator import validate_haiku
 
@@ -214,11 +264,11 @@ class ClamBakeSantaEngine(BaseEngine):
             os.environ.get("CBS_AI_KEY")
             or os.environ.get("GITHUB_TOKEN", "")
         )
-        model = self.config.get("ai", {}).get("model", "gpt-4o-mini")
+        model  = self.config.get("ai", {}).get("model", "gpt-4o-mini")
         client = OpenAI(base_url=base_url, api_key=api_key)
 
-        last_counts: list[int] = []
-        last_haiku_text: str = ""
+        attempts: list[dict] = []  # recorded for writers_block_log if all retries fail
+
         for attempt in range(1, _MAX_RETRIES + 1):
             try:
                 resp = client.chat.completions.create(
@@ -230,35 +280,28 @@ class ClamBakeSantaEngine(BaseEngine):
                     temperature=0.85,
                     max_tokens=120,
                 )
-                raw = resp.choices[0].message.content.strip()
+                raw   = resp.choices[0].message.content.strip()
                 lines = [ln.rstrip() for ln in raw.splitlines() if ln.strip()]
                 haiku_text = "\n".join(lines[:4])
-                last_haiku_text = haiku_text
 
                 valid, counts = validate_haiku(haiku_text)
+                attempts.append({"text": haiku_text, "counts": counts})
+
                 if valid:
                     if attempt > 1:
-                        _log.info("Valid haiku on attempt %d/%d | theme=%r", attempt, _MAX_RETRIES, theme)
-                    return haiku_text
+                        _log.info("Valid haiku on attempt %d/%d | theme=%r",
+                                  attempt, _MAX_RETRIES, theme)
+                    return haiku_text, counts
 
-                last_counts = counts
                 got = "-".join(str(c) for c in counts) if counts else "unknown"
                 _log.warning(
                     "Syllable mismatch (attempt %d/%d): expected 5-7-5, got %s | theme=%r",
                     attempt, _MAX_RETRIES, got, theme,
                 )
             except Exception as exc:
-                _log.error("API error (attempt %d/%d) | theme=%r: %s", attempt, _MAX_RETRIES, theme, exc)
+                _log.error("API error (attempt %d/%d) | theme=%r: %s",
+                           attempt, _MAX_RETRIES, theme, exc)
+                # No haiku_text to record — API didn't respond
 
-        # All retries exhausted without a valid 5-7-5 — post the last attempt anyway.
-        got = "-".join(str(c) for c in last_counts) if last_counts else "unknown"
-        _log.warning(
-            "Posting best-effort haiku for %r after %d attempts (syllables: %s)",
-            theme, _MAX_RETRIES, got,
-        )
-        return last_haiku_text if last_haiku_text else (
-            f"Seasons change each day\n"
-            f"Celebrating {theme} now\n"
-            f"Joy fills every heart\n"
-            f"Happy #{_hashtag(theme)} from @ClamBakeSanta"
-        )
+        # All retries exhausted — caller decides what to do (writer's block)
+        raise WritersBlock(theme, _hashtag(theme), attempts)

@@ -42,7 +42,7 @@ from .state.json_store import JsonStateStore
 from .models import Event, Result
 from .haiku_log import append_haikus
 from .validation import validate_event, validate_result, ValidationError
-from .haiku_validator import validate_haiku as _syllable_validate
+from . import run_log
 
 log = logging.getLogger(__name__)
 
@@ -155,46 +155,45 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
     # unless --force was passed.  This prevents double-posting on re-runs.
     if not force and state.already_ran_today(event.date_str):
         log.info("Already ran for %s — skipping. Pass --force to override.", event.date_str)
-        return {"date": event.date_str, "skipped": True}
+        return {"date": event.date_str, "skipped": True, "engine": config.get("engine", "")}
 
+    themes_found = event.payload.get("themes", [])
     log.info("Run starting | date=%s source=%s", event.date_str, source_id)
-    log.info("Themes found: %s", event.payload.get("themes", []))
+    log.info("Themes found (%d): %s", len(themes_found), themes_found)
 
     # ── 2. ENGINE (or cache) ──────────────────────────────────────────────────
-    # The engine turns the Event into a Result (e.g. calls the AI to write haikus).
-    # If we already ran today, we load the cached Result instead of calling the AI
-    # again — this keeps all adapters using exactly the same poems.
     engine_id = config["engine"]
     cache     = None if regenerate else _load_cache(config, event.date_str)
 
     if cache:
-        # Happy path on re-runs: skip the AI call, use what we already generated.
         result = _result_from_cache(event, engine_id, cache)
-        log.info("Using cached haikus for %s (%d item(s)) — skipping AI call",
-                 event.date_str, len(result.metadata.get("haikus", [])))
+        haiku_count = len(result.metadata.get("haikus", []))
+        log.info("Using cached haikus for %s (%d haiku(s)) — skipping AI call",
+                 event.date_str, haiku_count)
     else:
-        # Fresh run: ask the engine to do its work.
         engine = get_plugin("engines", engine_id)(config)
         result = engine.process(event)
-        haiku_count = len(result.metadata.get("haikus", []))
-        log.info("Engine '%s' produced %d item(s)", engine_id, haiku_count)
 
-        # Syllable-count check — logs warnings but never blocks posting.
-        # GPT-4o-mini can't reliably hit 5-7-5 every time; failing here would
-        # mean no post at all, which is worse than a slightly off haiku.
-        for _rec in result.metadata.get("haikus", []):
-            _ok, _counts = _syllable_validate(_rec.get("haiku", ""))
-            if not _ok:
-                _got = "-".join(str(c) for c in _counts) if _counts else "unknown"
-                log.warning(
-                    "Syllable mismatch (posting anyway): theme=%r expected 5-7-5, got %s",
-                    _rec.get("theme"), _got,
-                )
+        haikus          = result.metadata.get("haikus", [])
+        writers_block   = result.metadata.get("writers_block", [])
+        haiku_count     = len(haikus)
 
-        # Save to today's cache so any re-run/adapter test uses the same poems.
+        log.info("Engine '%s': %d/%d haiku(s) generated — %d writer's block",
+                 engine_id, haiku_count, len(themes_found), len(writers_block))
+
+        if writers_block:
+            for wb in writers_block:
+                log.warning("Writer's block: skipped theme=%r after %d attempt(s)",
+                            wb["theme"], wb["attempts"])
+
+        if not haikus:
+            log.error("No haikus generated — writer's block on all themes. "
+                      "Run will be marked complete to prevent re-posting attempts.")
+
+        # Save cache and haiku log (even if empty — marks the run as attempted).
         _save_cache(config, result)
-        # Also append to the long-term log used for anti-repetition and reporting.
-        append_haikus(config, event.date_str, result.metadata.get("haikus", []))
+        if haikus:
+            append_haikus(config, event.date_str, haikus)
 
     # Guard: make sure the engine (or cache restore) gave us a valid Result.
     # An invalid Result here means we'd post garbage to every platform — stop now.
@@ -238,12 +237,41 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
     # ── 4. STATE ──────────────────────────────────────────────────────────────
     state.record_run(result)
 
+    haiku_log_entries = [
+        {
+            "theme":           r.get("theme"),
+            "tag":             r.get("tag"),
+            "valid_syllables": r.get("valid_syllables", True),
+            "counts":          r.get("syllable_counts", []),
+        }
+        for r in result.metadata.get("haikus", [])
+    ]
+
     summary = {
-        "date": event.date_str,
-        "engine": engine_id,
-        "adapters_ok": adapters_ok,
+        "date":           event.date_str,
+        "engine":         engine_id,
+        "adapters_ok":    adapters_ok,
         "adapters_failed": adapters_failed,
-        "skipped": False,
+        "skipped":        False,
     }
-    log.info("Run complete: %s", summary)
+
+    run_log.append(config, {
+        "timestamp":       datetime.now(timezone.utc).isoformat(),
+        "date":            event.date_str,
+        "themes_found":    themes_found,
+        "haikus_posted":   haiku_log_entries,
+        "writers_block":   result.metadata.get("writers_block", []),
+        "adapters_ok":     adapters_ok,
+        "adapters_failed": [(a, e) for a, e in adapters_failed],
+        "skipped":         False,
+    })
+
+    if adapters_failed:
+        log.warning("Some adapters failed: %s", [a for a, _ in adapters_failed])
+    log.info("Run complete | date=%s haikus=%d writers_block=%d adapters_ok=%s",
+             event.date_str,
+             len(result.metadata.get("haikus", [])),
+             len(result.metadata.get("writers_block", [])),
+             adapters_ok)
+
     return summary
