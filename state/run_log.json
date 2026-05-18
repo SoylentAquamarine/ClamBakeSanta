@@ -34,7 +34,8 @@
     "2026-05-14",
     "2026-05-15",
     "2026-05-16",
-    "2026-05-17"
+    "2026-05-17",
+    "2026-05-18"
   ],
   "runs": [
     {
@@ -428,6 +429,17 @@
         "Birthday Ayaan Hirsi Ali"
       ],
       "content_preview": "Crimson fruit cascades, Golden crust enfolds delight, Sweet warmth fills the air. Happy #NationalCherryCobblerDay from @"
+    },
+    {
+      "date": "2026-05-18",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-18T14:30:10.319271+00:00",
+      "themes": [
+        "National Cheese Souffle Day",
+        "No Dirty Dishes Day",
+        "Birthday Bertrand Russell"
+      ],
+      "content_preview": "Golden cheese aglow, Puffing high with joy and warmth, Savory delight. Happy #NationalCheeseSouffleDay from @ClamBakeSan"
     }
   ]
 }

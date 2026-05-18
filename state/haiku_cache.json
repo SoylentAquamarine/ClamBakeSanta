@@ -1,27 +1,45 @@
 {
-  "date": "2026-05-17",
+  "date": "2026-05-18",
   "haikus": [
     {
-      "theme": "National Cherry Cobbler Day",
-      "haiku": "Crimson fruit cascades,\nGolden crust enfolds delight,\nSweet warmth fills the air.\nHappy #NationalCherryCobblerDay from @ClamBakeSanta",
-      "tag": "NationalCherryCobblerDay"
+      "theme": "National Cheese Souffle Day",
+      "haiku": "Golden cheese aglow,\nPuffing high with joy and warmth,\nSavory delight.\nHappy #NationalCheeseSouffleDay from @ClamBakeSanta",
+      "tag": "NationalCheeseSouffleDay",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
     },
     {
-      "theme": "World Baking Day",
-      "haiku": "Warm oven’s embrace,\nGolden crusts and sweet aromas,\nJoy kneads through our hands.\nHappy #WorldBakingDay from @ClamBakeSanta",
-      "tag": "WorldBakingDay"
+      "theme": "No Dirty Dishes Day",
+      "haiku": "Plates stack high with cheer,\nSunshine spills on clean table,\nLaughter fills the room.\nHappy #NoDirtyDishesDay from @ClamBakeSanta",
+      "tag": "NoDirtyDishesDay",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
     },
     {
-      "theme": "Birthday Ayaan Hirsi Ali",
-      "haiku": "Candles flicker bright,\nLaughter dances through the night,\nJoy like confetti.\n#HappyBirthdayAyaanHirsiAli from @ClamBakeSanta",
-      "tag": "HappyBirthdayAyaanHirsiAli"
+      "theme": "Birthday Bertrand Russell",
+      "haiku": "Candles flicker gold,\nJoyful voices sing aloud,\nTime to celebrate!\n#HappyBirthdayBertrandRussell from @ClamBakeSanta",
+      "tag": "HappyBirthdayBertrandRussell",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
     }
   ],
   "themes": [
-    "National Cherry Cobbler Day",
-    "World Baking Day",
-    "Birthday Ayaan Hirsi Ali"
+    "National Cheese Souffle Day",
+    "No Dirty Dishes Day",
+    "Birthday Bertrand Russell"
   ],
-  "content": "Crimson fruit cascades,\nGolden crust enfolds delight,\nSweet warmth fills the air.\nHappy #NationalCherryCobblerDay from @ClamBakeSanta\n\nWarm oven’s embrace,\nGolden crusts and sweet aromas,\nJoy kneads through our hands.\nHappy #WorldBakingDay from @ClamBakeSanta\n\nCandles flicker bright,\nLaughter dances through the night,\nJoy like confetti.\n#HappyBirthdayAyaanHirsiAli from @ClamBakeSanta",
-  "saved_at": "2026-05-17T10:24:23.683069+00:00"
+  "content": "Golden cheese aglow,\nPuffing high with joy and warmth,\nSavory delight.\nHappy #NationalCheeseSouffleDay from @ClamBakeSanta\n\nPlates stack high with cheer,\nSunshine spills on clean table,\nLaughter fills the room.\nHappy #NoDirtyDishesDay from @ClamBakeSanta\n\nCandles flicker gold,\nJoyful voices sing aloud,\nTime to celebrate!\n#HappyBirthdayBertrandRussell from @ClamBakeSanta",
+  "saved_at": "2026-05-18T14:30:10.296120+00:00"
 }
