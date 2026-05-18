@@ -12,13 +12,16 @@ Priority order (fills up to max_haikus_per_day = 6):
      └─ celestial backfill only when total < max_haikus_per_day
         and capped at max_celestial_per_day = 4
 
-If a generated file is missing for the current month the category is
-skipped silently — the daily run never fails because of a missing file.
+If a generated file is missing for the current month, the generator
+script is called automatically to create it before reading.
 """
 from __future__ import annotations
 
+import logging
 import pathlib
 import re
+import subprocess
+import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -26,10 +29,29 @@ from framework.registry import register
 from framework.sources.base import BaseSource
 from framework.models import Event
 
+log = logging.getLogger(__name__)
+
 MONTHS = [
     "january", "february", "march", "april", "may", "june",
     "july", "august", "september", "october", "november", "december",
 ]
+
+
+def _ensure_monthly_files(data_dir: pathlib.Path, yyyy_mm: str) -> None:
+    """Generate ephemeral and celestial files for yyyy_mm if either is missing."""
+    ephemeral_path = data_dir / "ephemeral" / f"{yyyy_mm}.txt"
+    celestial_path = data_dir / "celestial" / f"{yyyy_mm}.txt"
+    if ephemeral_path.exists() and celestial_path.exists():
+        return
+    log.info("Monthly data files missing for %s — generating now", yyyy_mm)
+    try:
+        script = pathlib.Path(__file__).resolve().parent.parent.parent / "scripts" / "generate_monthly_data.py"
+        subprocess.run(
+            [sys.executable, str(script), "--month", yyyy_mm],
+            check=True,
+        )
+    except Exception as exc:
+        log.warning("Could not auto-generate monthly data for %s: %s", yyyy_mm, exc)
 
 
 def _read_monthly_txt(path: pathlib.Path, mm_dd: str) -> list[str]:
@@ -81,6 +103,7 @@ class DailyThemesSource(BaseSource):
         month_name = MONTHS[now.month - 1]
 
         data_dir = pathlib.Path(cfg.get("data_dir", "data"))
+        _ensure_monthly_files(data_dir, yyyy_mm)
         themes: list[str] = []
 
         # ── 1. Fixed holidays ─────────────────────────────────────────────────
