@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-05-11",
-    "theme": "Eat What You Want Day",
-    "haiku": "Strawberries aglow,\nWarm chocolate cascades down,\nLaughter fills the room.\nHappy #EatWhatYouWantDay from @ClamBakeSanta",
-    "tag": "EatWhatYouWantDay",
-    "logged_at": "2026-05-11T12:13:32.041403+00:00"
-  },
-  {
-    "date": "2026-05-11",
-    "theme": "Twilight Zone Day",
-    "haiku": "Whispers of starlight,\nTwinkling dreams in soft twilight,\nTime's gentle embrace.\nHappy #TwilightZoneDay from @ClamBakeSanta",
-    "tag": "TwilightZoneDay",
-    "logged_at": "2026-05-11T12:13:32.041403+00:00"
-  },
-  {
-    "date": "2026-05-11",
-    "theme": "Birthday Irving Berlin",
-    "haiku": "Balloons drift skyward,\nLaughter weaves through sweet cake scents,\nSongs bloom like spring’s heart.\n#HappyBirthdayIrvingBerlin from @ClamBakeSanta",
-    "tag": "HappyBirthdayIrvingBerlin",
-    "logged_at": "2026-05-11T12:13:32.041403+00:00"
-  },
-  {
-    "date": "2026-05-11",
-    "theme": "Birthday Salvador Dali",
-    "haiku": "Swirls of dreamlike hues,\nMelting clocks in soft twilight,\nArt blooms in delight.\n#HappyBirthdaySalvadorDali from @ClamBakeSanta",
-    "tag": "HappyBirthdaySalvadorDali",
-    "logged_at": "2026-05-11T12:13:32.041403+00:00"
-  },
-  {
     "date": "2026-05-12",
     "theme": "Mother's Day",
     "haiku": "Petals softly fall,\nWarm hugs wrapped in fragrant air,\nLaughter fills the day.\nHappy #MotherSDay from @ClamBakeSanta",
@@ -152,5 +124,26 @@
     "haiku": "Candles flicker bright,\nLaughter dances through the night,\nJoy like confetti.\n#HappyBirthdayAyaanHirsiAli from @ClamBakeSanta",
     "tag": "HappyBirthdayAyaanHirsiAli",
     "logged_at": "2026-05-17T10:24:23.683458+00:00"
+  },
+  {
+    "date": "2026-05-18",
+    "theme": "National Cheese Souffle Day",
+    "haiku": "Golden cheese aglow,\nPuffing high with joy and warmth,\nSavory delight.\nHappy #NationalCheeseSouffleDay from @ClamBakeSanta",
+    "tag": "NationalCheeseSouffleDay",
+    "logged_at": "2026-05-18T14:30:10.296487+00:00"
+  },
+  {
+    "date": "2026-05-18",
+    "theme": "No Dirty Dishes Day",
+    "haiku": "Plates stack high with cheer,\nSunshine spills on clean table,\nLaughter fills the room.\nHappy #NoDirtyDishesDay from @ClamBakeSanta",
+    "tag": "NoDirtyDishesDay",
+    "logged_at": "2026-05-18T14:30:10.296487+00:00"
+  },
+  {
+    "date": "2026-05-18",
+    "theme": "Birthday Bertrand Russell",
+    "haiku": "Candles flicker gold,\nJoyful voices sing aloud,\nTime to celebrate!\n#HappyBirthdayBertrandRussell from @ClamBakeSanta",
+    "tag": "HappyBirthdayBertrandRussell",
+    "logged_at": "2026-05-18T14:30:10.296487+00:00"
   }
 ]

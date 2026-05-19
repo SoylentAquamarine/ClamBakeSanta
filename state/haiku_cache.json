@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-18",
+  "date": "2026-05-19",
   "haikus": [
     {
-      "theme": "National Cheese Souffle Day",
-      "haiku": "Golden cheese aglow,\nPuffing high with joy and warmth,\nSavory delight.\nHappy #NationalCheeseSouffleDay from @ClamBakeSanta",
-      "tag": "NationalCheeseSouffleDay",
+      "theme": "National Devil's Food Cake Day",
+      "haiku": "Velvet layers stack,\nFrosting swirls like moonlit cream,\nSweet joy in each bite.\nHappy #NationalDevilSFoodCakeDay from @ClamBakeSanta",
+      "tag": "NationalDevilSFoodCakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "No Dirty Dishes Day",
-      "haiku": "Plates stack high with cheer,\nSunshine spills on clean table,\nLaughter fills the room.\nHappy #NoDirtyDishesDay from @ClamBakeSanta",
-      "tag": "NoDirtyDishesDay",
+      "theme": "Frog Jumping Day",
+      "haiku": "Frogs leap with great joy,\nSplashing through the sunlit pond,\nNature sings with glee.\nHappy #FrogJumpingDay from @ClamBakeSanta",
+      "tag": "FrogJumpingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Bertrand Russell",
-      "haiku": "Candles flicker gold,\nJoyful voices sing aloud,\nTime to celebrate!\n#HappyBirthdayBertrandRussell from @ClamBakeSanta",
-      "tag": "HappyBirthdayBertrandRussell",
+      "theme": "Birthday Malcolm X",
+      "haiku": "Bright candles aglow,\nJoyful songs of love rise high,\nMoments bloom like spring.\n#HappyBirthdayMalcolmX from @ClamBakeSanta",
+      "tag": "HappyBirthdayMalcolmX",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Cheese Souffle Day",
-    "No Dirty Dishes Day",
-    "Birthday Bertrand Russell"
+    "National Devil's Food Cake Day",
+    "Frog Jumping Day",
+    "Birthday Malcolm X"
   ],
-  "content": "Golden cheese aglow,\nPuffing high with joy and warmth,\nSavory delight.\nHappy #NationalCheeseSouffleDay from @ClamBakeSanta\n\nPlates stack high with cheer,\nSunshine spills on clean table,\nLaughter fills the room.\nHappy #NoDirtyDishesDay from @ClamBakeSanta\n\nCandles flicker gold,\nJoyful voices sing aloud,\nTime to celebrate!\n#HappyBirthdayBertrandRussell from @ClamBakeSanta",
-  "saved_at": "2026-05-18T14:30:10.296120+00:00"
+  "content": "Velvet layers stack,\nFrosting swirls like moonlit cream,\nSweet joy in each bite.\nHappy #NationalDevilSFoodCakeDay from @ClamBakeSanta\n\nFrogs leap with great joy,\nSplashing through the sunlit pond,\nNature sings with glee.\nHappy #FrogJumpingDay from @ClamBakeSanta\n\nBright candles aglow,\nJoyful songs of love rise high,\nMoments bloom like spring.\n#HappyBirthdayMalcolmX from @ClamBakeSanta",
+  "saved_at": "2026-05-19T12:13:10.559453+00:00"
 }

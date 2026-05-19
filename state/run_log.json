@@ -35,7 +35,8 @@
     "2026-05-15",
     "2026-05-16",
     "2026-05-17",
-    "2026-05-18"
+    "2026-05-18",
+    "2026-05-19"
   ],
   "runs": [
     {
@@ -440,6 +441,17 @@
         "Birthday Bertrand Russell"
       ],
       "content_preview": "Golden cheese aglow, Puffing high with joy and warmth, Savory delight. Happy #NationalCheeseSouffleDay from @ClamBakeSan"
+    },
+    {
+      "date": "2026-05-19",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-19T12:21:24.822942+00:00",
+      "themes": [
+        "National Devil's Food Cake Day",
+        "Frog Jumping Day",
+        "Birthday Malcolm X"
+      ],
+      "content_preview": "Velvet layers stack, Frosting swirls like moonlit cream, Sweet joy in each bite. Happy #NationalDevilSFoodCakeDay from @"
     }
   ]
 }

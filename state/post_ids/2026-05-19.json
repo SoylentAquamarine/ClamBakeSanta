@@ -1,0 +1,62 @@
+{
+  "NationalDevilSFoodCakeDay": {
+    "mastodon": {
+      "id": "116601178744512234",
+      "url": "https://mastodon.social/@ClamBakeSanta/116601178744512234"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mm7ektaqhg2h",
+      "cid": "bafyreib2pvmduiqvhse5nnwqcy2qbt6dntrseabdwjldj6ppvxwjizyj3u"
+    },
+    "tumblr": {
+      "id": "817043114496753664",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "112",
+      "channel": "@clambakesanta"
+    }
+  },
+  "FrogJumpingDay": {
+    "mastodon": {
+      "id": "116601182705430122",
+      "url": "https://mastodon.social/@ClamBakeSanta/116601182705430122"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mm7emmorto2h",
+      "cid": "bafyreibsmznp5y6iahxjoulp7w75ugn2mxmw7v76x54ikubi5vq4p2lf5y"
+    },
+    "tumblr": {
+      "id": "817043177714450432",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "113",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayMalcolmX": {
+    "mastodon": {
+      "id": "116601186719024436",
+      "url": "https://mastodon.social/@ClamBakeSanta/116601186719024436"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mm7eofykfi2i",
+      "cid": "bafyreibimz26qsh3szfk7ydntasdjrj7dxlywtxzxoyo5idtel5prlderu"
+    },
+    "tumblr": {
+      "id": "817043241004318720",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "114",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "52",
+      "url": "https://clambakesanta.wordpress.com/2026/05/19/clam-bake-santa-2026-05-19/"
+    }
+  }
+}
