@@ -1,4 +1,82 @@
 {
+  "2026-05-20": {
+    "NationalQuicheLorraineDay": {
+      "theme": "National Quiche Lorraine Day",
+      "haiku": "Golden crust we share,\nCreamy dreams and cheese unite,\nJoyful bites delight.\nHappy #NationalQuicheLorraineDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116606753041686269",
+          "url": "https://mastodon.social/@ClamBakeSanta/116606753041686269",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmbtrqcolr2i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
+    },
+    "RescueDogDay": {
+      "theme": "Rescue Dog Day",
+      "haiku": "Paws patter with joy,\nEyes shine like morning sunlight,\nHearts unite as one.\nHappy #RescueDogDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116606757007169298",
+          "url": "https://mastodon.social/@ClamBakeSanta/116606757007169298",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmbttjrg5j2q",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
+    },
+    "HappyBirthdayHonordeBalzac": {
+      "theme": "Birthday Honoré de Balzac",
+      "haiku": "Golden pages turn,\nInk flows like a river's song,\nWords bloom, bright and free.\n#HappyBirthdayHonordeBalzac from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116606760987922786",
+          "url": "https://mastodon.social/@ClamBakeSanta/116606760987922786",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmbtvd74zo2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {},
+      "total_score": 0,
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
+    }
+  },
   "2026-05-19": {
     "NationalDevilSFoodCakeDay": {
       "theme": "National Devil's Food Cake Day",
@@ -21,7 +99,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     },
     "FrogJumpingDay": {
       "theme": "Frog Jumping Day",
@@ -44,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     },
     "HappyBirthdayMalcolmX": {
       "theme": "Birthday Malcolm X",
@@ -67,14 +145,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     }
   },
   "2026-05-17": {
@@ -99,7 +177,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     },
     "WorldBakingDay": {
       "theme": "World Baking Day",
@@ -122,7 +200,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     },
     "HappyBirthdayAyaanHirsiAli": {
       "theme": "Birthday Ayaan Hirsi Ali",
@@ -145,14 +223,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-05-19T22:57:57.799409+00:00"
+      "last_checked": "2026-05-20T23:06:26.207906+00:00"
     }
   },
   "2026-05-16": {
@@ -458,77 +536,6 @@
       },
       "total_score": 0,
       "last_checked": "2026-05-16T22:38:12.717961+00:00"
-    }
-  },
-  "2026-05-12": {
-    "MotherSDay": {
-      "theme": "Mother's Day",
-      "haiku": "Petals softly fall,\nWarm hugs wrapped in fragrant air,\nLaughter fills the day.\nHappy #MotherSDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116561345294452589",
-          "url": "https://mastodon.social/@ClamBakeSanta/116561345294452589",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlnoinnfhv2h",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-15T22:47:13.225957+00:00"
-    },
-    "NationalNuttyFudgeDay": {
-      "theme": "National Nutty Fudge Day",
-      "haiku": "Rich chocolate whispers,\nNuts crunch in a warm embrace,\nSweet dreams melt in joy.\nHappy #NationalNuttyFudgeDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116561349251309067",
-          "url": "https://mastodon.social/@ClamBakeSanta/116561349251309067",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlnokipmiv2i",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-15T22:47:13.225957+00:00"
-    },
-    "HappyBirthdayFlorenceNightingale": {
-      "theme": "Birthday Florence Nightingale",
-      "haiku": "Whispers of kind hearts,\nPetals bloom in soft night air,\nHealing hands unite.\n#HappyBirthdayFlorenceNightingale from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116561353218314136",
-          "url": "https://mastodon.social/@ClamBakeSanta/116561353218314136",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlnombzzkp2a",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-05-15T22:47:13.225957+00:00"
     }
   }
 }
