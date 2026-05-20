@@ -1,4 +1,66 @@
 {
+  "2026-05-20": {
+    "NationalQuicheLorraineDay": {
+      "mastodon": {
+        "id": "116606753041686269",
+        "url": "https://mastodon.social/@ClamBakeSanta/116606753041686269"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmbtrqcolr2i",
+        "cid": "bafyreiasydtmisje4sukoxrnsswwiwptmv5zospem3zhkqj24qecvh36ta"
+      },
+      "tumblr": {
+        "id": "817132303799255040",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "115",
+        "channel": "@clambakesanta"
+      }
+    },
+    "RescueDogDay": {
+      "mastodon": {
+        "id": "116606757007169298",
+        "url": "https://mastodon.social/@ClamBakeSanta/116606757007169298"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmbttjrg5j2q",
+        "cid": "bafyreifxy37yx4n6ds4gfduszf7o3fltizb67ol2tvrbwpcvzpv6kx64jy"
+      },
+      "tumblr": {
+        "id": "817132367825289216",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "116",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayHonordeBalzac": {
+      "mastodon": {
+        "id": "116606760987922786",
+        "url": "https://mastodon.social/@ClamBakeSanta/116606760987922786"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmbtvd74zo2s",
+        "cid": "bafyreiffxpcldxh3xkp76s7gm65rjd4savwibvxjxgv7hw4bskdtr7kn64"
+      },
+      "tumblr": {
+        "id": "817132431421407232",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "117",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "53",
+        "url": "https://clambakesanta.wordpress.com/2026/05/20/clam-bake-santa-2026-05-20/"
+      }
+    }
+  },
   "2026-05-19": {
     "NationalDevilSFoodCakeDay": {
       "mastodon": {
@@ -248,44 +310,6 @@
       "wordpress": {
         "id": "45",
         "url": "https://clambakesanta.wordpress.com/2026/05/13/clam-bake-santa-2026-05-13/"
-      }
-    }
-  },
-  "2026-05-12": {
-    "MotherSDay": {
-      "mastodon": {
-        "id": "116561345294452589",
-        "url": "https://mastodon.social/@ClamBakeSanta/116561345294452589"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlnoinnfhv2h",
-        "cid": "bafyreigmkx6zvr7fvfbwfvs5dyalvbcwpse2j4vm63ndt2kdjvvjskfqte"
-      }
-    },
-    "NationalNuttyFudgeDay": {
-      "mastodon": {
-        "id": "116561349251309067",
-        "url": "https://mastodon.social/@ClamBakeSanta/116561349251309067"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlnokipmiv2i",
-        "cid": "bafyreibaexw5db4eozbljnvzgbvlvg5hrywxp4wctr4rvsdg5drmvhpoee"
-      }
-    },
-    "HappyBirthdayFlorenceNightingale": {
-      "mastodon": {
-        "id": "116561353218314136",
-        "url": "https://mastodon.social/@ClamBakeSanta/116561353218314136"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlnombzzkp2a",
-        "cid": "bafyreicpgmrnqu7xmzazkh33obfmrhlepdqzckvpygadhuoj5imxc3ouei"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "44",
-        "url": "https://clambakesanta.wordpress.com/2026/05/12/clam-bake-santa-2026-05-12/"
       }
     }
   }

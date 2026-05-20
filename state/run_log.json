@@ -36,7 +36,8 @@
     "2026-05-16",
     "2026-05-17",
     "2026-05-18",
-    "2026-05-19"
+    "2026-05-19",
+    "2026-05-20"
   ],
   "runs": [
     {
@@ -452,6 +453,17 @@
         "Birthday Malcolm X"
       ],
       "content_preview": "Velvet layers stack, Frosting swirls like moonlit cream, Sweet joy in each bite. Happy #NationalDevilSFoodCakeDay from @"
+    },
+    {
+      "date": "2026-05-20",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-20T11:59:02.156629+00:00",
+      "themes": [
+        "National Quiche Lorraine Day",
+        "Rescue Dog Day",
+        "Birthday Honoré de Balzac"
+      ],
+      "content_preview": "Golden crust we share, Creamy dreams and cheese unite, Joyful bites delight. Happy #NationalQuicheLorraineDay from @Clam"
     }
   ]
 }
