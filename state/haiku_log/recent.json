@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-13",
-    "theme": "National Apple Pie Day",
-    "haiku": "Spiced whispers of fall,\nCrust cradles warmth, laughter swells,\nApples dance with cheer.\nHappy #NationalApplePieDay from @ClamBakeSanta",
-    "tag": "NationalApplePieDay",
-    "logged_at": "2026-05-13T11:32:20.978104+00:00"
-  },
-  {
-    "date": "2026-05-13",
-    "theme": "Leprechaun Day",
-    "haiku": "Emerald fields gleam,\nLaughter twirls on crisp spring air,\nJoyful hearts unite.\nHappy #LeprechaunDay from @ClamBakeSanta",
-    "tag": "LeprechaunDay",
-    "logged_at": "2026-05-13T11:32:20.978104+00:00"
-  },
-  {
-    "date": "2026-05-13",
-    "theme": "Birthday Stevie Wonder",
-    "haiku": "Laughter fills the air,\nColors swirl like joyful tunes,\nSweet cake dreams unfold.\n#HappyBirthdayStevieWonder from @ClamBakeSanta",
-    "tag": "HappyBirthdayStevieWonder",
-    "logged_at": "2026-05-13T11:32:20.978104+00:00"
-  },
-  {
     "date": "2026-05-14",
     "theme": "National Buttermilk Biscuit Day",
     "haiku": "Flour clouds softly rise,\nGolden biscuits crown the table,\nButter dreams melt slow.\nHappy #NationalButtermilkBiscuitDay from @ClamBakeSanta",
@@ -145,5 +124,26 @@
     "haiku": "Bright candles aglow,\nJoyful songs of love rise high,\nMoments bloom like spring.\n#HappyBirthdayMalcolmX from @ClamBakeSanta",
     "tag": "HappyBirthdayMalcolmX",
     "logged_at": "2026-05-19T12:13:10.559791+00:00"
+  },
+  {
+    "date": "2026-05-20",
+    "theme": "National Quiche Lorraine Day",
+    "haiku": "Golden crust we share,\nCreamy dreams and cheese unite,\nJoyful bites delight.\nHappy #NationalQuicheLorraineDay from @ClamBakeSanta",
+    "tag": "NationalQuicheLorraineDay",
+    "logged_at": "2026-05-20T11:50:47.606057+00:00"
+  },
+  {
+    "date": "2026-05-20",
+    "theme": "Rescue Dog Day",
+    "haiku": "Paws patter with joy,\nEyes shine like morning sunlight,\nHearts unite as one.\nHappy #RescueDogDay from @ClamBakeSanta",
+    "tag": "RescueDogDay",
+    "logged_at": "2026-05-20T11:50:47.606057+00:00"
+  },
+  {
+    "date": "2026-05-20",
+    "theme": "Birthday Honoré de Balzac",
+    "haiku": "Golden pages turn,\nInk flows like a river's song,\nWords bloom, bright and free.\n#HappyBirthdayHonordeBalzac from @ClamBakeSanta",
+    "tag": "HappyBirthdayHonordeBalzac",
+    "logged_at": "2026-05-20T11:50:47.606057+00:00"
   }
 ]

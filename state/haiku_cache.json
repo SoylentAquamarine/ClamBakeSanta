@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "haikus": [
     {
-      "theme": "National Quiche Lorraine Day",
-      "haiku": "Golden crust we share,\nCreamy dreams and cheese unite,\nJoyful bites delight.\nHappy #NationalQuicheLorraineDay from @ClamBakeSanta",
-      "tag": "NationalQuicheLorraineDay",
+      "theme": "National Strawberries and Cream Day",
+      "haiku": "Juicy berries shine,\nCreamy clouds of sweetness swirl,\nJoyful bites unite.\nHappy #NationalStrawberriesAndCreamDay from @ClamBakeSanta",
+      "tag": "NationalStrawberriesAndCreamDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Rescue Dog Day",
-      "haiku": "Paws patter with joy,\nEyes shine like morning sunlight,\nHearts unite as one.\nHappy #RescueDogDay from @ClamBakeSanta",
-      "tag": "RescueDogDay",
+      "theme": "National Memo Day",
+      "haiku": "Ink flows on paper,\nThoughts take flight like the spring breeze,\nMemories we share.\nHappy #NationalMemoDay from @ClamBakeSanta",
+      "tag": "NationalMemoDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Honoré de Balzac",
-      "haiku": "Golden pages turn,\nInk flows like a river's song,\nWords bloom, bright and free.\n#HappyBirthdayHonordeBalzac from @ClamBakeSanta",
-      "tag": "HappyBirthdayHonordeBalzac",
+      "theme": "Birthday Fats Waller",
+      "haiku": "Jazz notes swirl like dreams,\nCake icing glistens with joy,\nVoices rise in song.\n#HappyBirthdayFatsWaller from @ClamBakeSanta",
+      "tag": "HappyBirthdayFatsWaller",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Quiche Lorraine Day",
-    "Rescue Dog Day",
-    "Birthday Honoré de Balzac"
+    "National Strawberries and Cream Day",
+    "National Memo Day",
+    "Birthday Fats Waller"
   ],
-  "content": "Golden crust we share,\nCreamy dreams and cheese unite,\nJoyful bites delight.\nHappy #NationalQuicheLorraineDay from @ClamBakeSanta\n\nPaws patter with joy,\nEyes shine like morning sunlight,\nHearts unite as one.\nHappy #RescueDogDay from @ClamBakeSanta\n\nGolden pages turn,\nInk flows like a river's song,\nWords bloom, bright and free.\n#HappyBirthdayHonordeBalzac from @ClamBakeSanta",
-  "saved_at": "2026-05-20T11:50:47.605664+00:00"
+  "content": "Juicy berries shine,\nCreamy clouds of sweetness swirl,\nJoyful bites unite.\nHappy #NationalStrawberriesAndCreamDay from @ClamBakeSanta\n\nInk flows on paper,\nThoughts take flight like the spring breeze,\nMemories we share.\nHappy #NationalMemoDay from @ClamBakeSanta\n\nJazz notes swirl like dreams,\nCake icing glistens with joy,\nVoices rise in song.\n#HappyBirthdayFatsWaller from @ClamBakeSanta",
+  "saved_at": "2026-05-21T12:17:25.178758+00:00"
 }

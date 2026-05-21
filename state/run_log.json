@@ -37,7 +37,8 @@
     "2026-05-17",
     "2026-05-18",
     "2026-05-19",
-    "2026-05-20"
+    "2026-05-20",
+    "2026-05-21"
   ],
   "runs": [
     {
@@ -464,6 +465,17 @@
         "Birthday Honoré de Balzac"
       ],
       "content_preview": "Golden crust we share, Creamy dreams and cheese unite, Joyful bites delight. Happy #NationalQuicheLorraineDay from @Clam"
+    },
+    {
+      "date": "2026-05-21",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-21T12:25:37.024343+00:00",
+      "themes": [
+        "National Strawberries and Cream Day",
+        "National Memo Day",
+        "Birthday Fats Waller"
+      ],
+      "content_preview": "Juicy berries shine, Creamy clouds of sweetness swirl, Joyful bites unite. Happy #NationalStrawberriesAndCreamDay from @"
     }
   ]
 }
