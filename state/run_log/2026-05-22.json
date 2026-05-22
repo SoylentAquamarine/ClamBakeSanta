@@ -1,0 +1,77 @@
+[
+  {
+    "timestamp": "2026-05-22T12:03:50.123246+00:00",
+    "date": "2026-05-22",
+    "themes_found": [
+      "National Vanilla Pudding Day",
+      "Sherlock Holmes Day",
+      "Birthday Arthur Conan Doyle",
+      "Birthday Richard Wagner",
+      "Welcome to Gemini Season"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Vanilla Pudding Day",
+        "tag": "NationalVanillaPuddingDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Sherlock Holmes Day",
+        "tag": "SherlockHolmesDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Arthur Conan Doyle",
+        "tag": "HappyBirthdayArthurConanDoyle",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Richard Wagner",
+        "tag": "HappyBirthdayRichardWagner",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Welcome to Gemini Season",
+        "tag": "WelcomeToGeminiSeason",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

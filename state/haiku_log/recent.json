@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-14",
-    "theme": "National Buttermilk Biscuit Day",
-    "haiku": "Flour clouds softly rise,\nGolden biscuits crown the table,\nButter dreams melt slow.\nHappy #NationalButtermilkBiscuitDay from @ClamBakeSanta",
-    "tag": "NationalButtermilkBiscuitDay",
-    "logged_at": "2026-05-14T11:15:39.464256+00:00"
-  },
-  {
-    "date": "2026-05-14",
-    "theme": "Dance Like a Chicken Day",
-    "haiku": "Feathers flutter bright,\nLaughter spills like grain at noon,\nJoyful hops abound.\nHappy #DanceLikeAChickenDay from @ClamBakeSanta",
-    "tag": "DanceLikeAChickenDay",
-    "logged_at": "2026-05-14T11:15:39.464256+00:00"
-  },
-  {
-    "date": "2026-05-14",
-    "theme": "Birthday George Lucas",
-    "haiku": "Stars twinkle like dreams,\nGalaxies of delight,\nJoyous tales take flight.\n#HappyBirthdayGeorgeLucas from @ClamBakeSanta",
-    "tag": "HappyBirthdayGeorgeLucas",
-    "logged_at": "2026-05-14T11:15:39.464256+00:00"
-  },
-  {
     "date": "2026-05-15",
     "theme": "National Chocolate Chip Day",
     "haiku": "Oven's warmth invites,\nChips melt like laughter shared,\nBatches joyfully rise.\nHappy #NationalChocolateChipDay from @ClamBakeSanta",
@@ -145,5 +124,26 @@
     "haiku": "Golden pages turn,\nInk flows like a river's song,\nWords bloom, bright and free.\n#HappyBirthdayHonordeBalzac from @ClamBakeSanta",
     "tag": "HappyBirthdayHonordeBalzac",
     "logged_at": "2026-05-20T11:50:47.606057+00:00"
+  },
+  {
+    "date": "2026-05-21",
+    "theme": "National Strawberries and Cream Day",
+    "haiku": "Juicy berries shine,\nCreamy clouds of sweetness swirl,\nJoyful bites unite.\nHappy #NationalStrawberriesAndCreamDay from @ClamBakeSanta",
+    "tag": "NationalStrawberriesAndCreamDay",
+    "logged_at": "2026-05-21T12:17:25.179072+00:00"
+  },
+  {
+    "date": "2026-05-21",
+    "theme": "National Memo Day",
+    "haiku": "Ink flows on paper,\nThoughts take flight like the spring breeze,\nMemories we share.\nHappy #NationalMemoDay from @ClamBakeSanta",
+    "tag": "NationalMemoDay",
+    "logged_at": "2026-05-21T12:17:25.179072+00:00"
+  },
+  {
+    "date": "2026-05-21",
+    "theme": "Birthday Fats Waller",
+    "haiku": "Jazz notes swirl like dreams,\nCake icing glistens with joy,\nVoices rise in song.\n#HappyBirthdayFatsWaller from @ClamBakeSanta",
+    "tag": "HappyBirthdayFatsWaller",
+    "logged_at": "2026-05-21T12:17:25.179072+00:00"
   }
 ]

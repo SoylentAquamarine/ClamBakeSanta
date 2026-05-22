@@ -38,7 +38,8 @@
     "2026-05-18",
     "2026-05-19",
     "2026-05-20",
-    "2026-05-21"
+    "2026-05-21",
+    "2026-05-22"
   ],
   "runs": [
     {
@@ -476,6 +477,19 @@
         "Birthday Fats Waller"
       ],
       "content_preview": "Juicy berries shine, Creamy clouds of sweetness swirl, Joyful bites unite. Happy #NationalStrawberriesAndCreamDay from @"
+    },
+    {
+      "date": "2026-05-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-22T12:03:50.122683+00:00",
+      "themes": [
+        "National Vanilla Pudding Day",
+        "Sherlock Holmes Day",
+        "Birthday Arthur Conan Doyle",
+        "Birthday Richard Wagner",
+        "Welcome to Gemini Season"
+      ],
+      "content_preview": "Sweet cream swirls and shines, Velvet smooth, a soft delight, Taste of dreams divine. Happy #NationalVanillaPuddingDay f"
     }
   ]
 }

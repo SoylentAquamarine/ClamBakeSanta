@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "haikus": [
     {
-      "theme": "National Strawberries and Cream Day",
-      "haiku": "Juicy berries shine,\nCreamy clouds of sweetness swirl,\nJoyful bites unite.\nHappy #NationalStrawberriesAndCreamDay from @ClamBakeSanta",
-      "tag": "NationalStrawberriesAndCreamDay",
+      "theme": "National Vanilla Pudding Day",
+      "haiku": "Sweet cream swirls and shines,\nVelvet smooth, a soft delight,\nTaste of dreams divine.\nHappy #NationalVanillaPuddingDay from @ClamBakeSanta",
+      "tag": "NationalVanillaPuddingDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Memo Day",
-      "haiku": "Ink flows on paper,\nThoughts take flight like the spring breeze,\nMemories we share.\nHappy #NationalMemoDay from @ClamBakeSanta",
-      "tag": "NationalMemoDay",
+      "theme": "Sherlock Holmes Day",
+      "haiku": "Magnifying glass,\nWhispers of London fog swirl,\nMysteries unveiled.\nHappy #SherlockHolmesDay from @ClamBakeSanta",
+      "tag": "SherlockHolmesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Fats Waller",
-      "haiku": "Jazz notes swirl like dreams,\nCake icing glistens with joy,\nVoices rise in song.\n#HappyBirthdayFatsWaller from @ClamBakeSanta",
-      "tag": "HappyBirthdayFatsWaller",
+      "theme": "Birthday Arthur Conan Doyle",
+      "haiku": "Mysteries unfold,\nJoyful tales in twilight glow,\nLaughter fills the room.\n#HappyBirthdayArthurConanDoyle from @ClamBakeSanta",
+      "tag": "HappyBirthdayArthurConanDoyle",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Richard Wagner",
+      "haiku": "Melody in air,\nSunlight spills on the table,\nJoyful hearts unite.\n#HappyBirthdayRichardWagner from @ClamBakeSanta",
+      "tag": "HappyBirthdayRichardWagner",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Welcome to Gemini Season",
+      "haiku": "Bright blooms gently sway,\nWhispers of breezes play soft,\nStars laugh in the night.\nHappy #WelcomeToGeminiSeason from @ClamBakeSanta",
+      "tag": "WelcomeToGeminiSeason",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +58,12 @@
     }
   ],
   "themes": [
-    "National Strawberries and Cream Day",
-    "National Memo Day",
-    "Birthday Fats Waller"
+    "National Vanilla Pudding Day",
+    "Sherlock Holmes Day",
+    "Birthday Arthur Conan Doyle",
+    "Birthday Richard Wagner",
+    "Welcome to Gemini Season"
   ],
-  "content": "Juicy berries shine,\nCreamy clouds of sweetness swirl,\nJoyful bites unite.\nHappy #NationalStrawberriesAndCreamDay from @ClamBakeSanta\n\nInk flows on paper,\nThoughts take flight like the spring breeze,\nMemories we share.\nHappy #NationalMemoDay from @ClamBakeSanta\n\nJazz notes swirl like dreams,\nCake icing glistens with joy,\nVoices rise in song.\n#HappyBirthdayFatsWaller from @ClamBakeSanta",
-  "saved_at": "2026-05-21T12:17:25.178758+00:00"
+  "content": "Sweet cream swirls and shines,\nVelvet smooth, a soft delight,\nTaste of dreams divine.\nHappy #NationalVanillaPuddingDay from @ClamBakeSanta\n\nMagnifying glass,\nWhispers of London fog swirl,\nMysteries unveiled.\nHappy #SherlockHolmesDay from @ClamBakeSanta\n\nMysteries unfold,\nJoyful tales in twilight glow,\nLaughter fills the room.\n#HappyBirthdayArthurConanDoyle from @ClamBakeSanta\n\nMelody in air,\nSunlight spills on the table,\nJoyful hearts unite.\n#HappyBirthdayRichardWagner from @ClamBakeSanta\n\nBright blooms gently sway,\nWhispers of breezes play soft,\nStars laugh in the night.\nHappy #WelcomeToGeminiSeason from @ClamBakeSanta",
+  "saved_at": "2026-05-22T11:47:30.846807+00:00"
 }
