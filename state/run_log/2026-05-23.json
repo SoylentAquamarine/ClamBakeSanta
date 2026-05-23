@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-05-23T10:50:08.624630+00:00",
+    "date": "2026-05-23",
+    "themes_found": [
+      "National Taffy Day",
+      "Lucky Penny Day",
+      "Birthday Margaret Fuller",
+      "First Quarter Moon"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Taffy Day",
+        "tag": "NationalTaffyDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Lucky Penny Day",
+        "tag": "LuckyPennyDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Margaret Fuller",
+        "tag": "HappyBirthdayMargaretFuller",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "First Quarter Moon",
+        "tag": "FirstQuarterMoon",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

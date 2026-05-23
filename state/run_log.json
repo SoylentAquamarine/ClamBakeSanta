@@ -39,7 +39,8 @@
     "2026-05-19",
     "2026-05-20",
     "2026-05-21",
-    "2026-05-22"
+    "2026-05-22",
+    "2026-05-23"
   ],
   "runs": [
     {
@@ -490,6 +491,18 @@
         "Welcome to Gemini Season"
       ],
       "content_preview": "Sweet cream swirls and shines, Velvet smooth, a soft delight, Taste of dreams divine. Happy #NationalVanillaPuddingDay f"
+    },
+    {
+      "date": "2026-05-23",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-23T10:50:08.624105+00:00",
+      "themes": [
+        "National Taffy Day",
+        "Lucky Penny Day",
+        "Birthday Margaret Fuller",
+        "First Quarter Moon"
+      ],
+      "content_preview": "Chewy, sweet delight, Colors swirl like rainbows bright, Joy wrapped in each bite. Happy #NationalTaffyDay from @ClamBak"
     }
   ]
 }

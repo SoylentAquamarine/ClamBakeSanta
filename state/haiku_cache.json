@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-23",
   "haikus": [
     {
-      "theme": "National Vanilla Pudding Day",
-      "haiku": "Sweet cream swirls and shines,\nVelvet smooth, a soft delight,\nTaste of dreams divine.\nHappy #NationalVanillaPuddingDay from @ClamBakeSanta",
-      "tag": "NationalVanillaPuddingDay",
+      "theme": "National Taffy Day",
+      "haiku": "Chewy, sweet delight,\nColors swirl like rainbows bright,\nJoy wrapped in each bite.\nHappy #NationalTaffyDay from @ClamBakeSanta",
+      "tag": "NationalTaffyDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Sherlock Holmes Day",
-      "haiku": "Magnifying glass,\nWhispers of London fog swirl,\nMysteries unveiled.\nHappy #SherlockHolmesDay from @ClamBakeSanta",
-      "tag": "SherlockHolmesDay",
+      "theme": "Lucky Penny Day",
+      "haiku": "Copper shines like sun,\nChildren toss their wishes high,\nJoy springs from the ground.\nHappy #LuckyPennyDay from @ClamBakeSanta",
+      "tag": "LuckyPennyDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Arthur Conan Doyle",
-      "haiku": "Mysteries unfold,\nJoyful tales in twilight glow,\nLaughter fills the room.\n#HappyBirthdayArthurConanDoyle from @ClamBakeSanta",
-      "tag": "HappyBirthdayArthurConanDoyle",
+      "theme": "Birthday Margaret Fuller",
+      "haiku": "Joyful laughter rings,\nCake blooms with icing petals,\nBright wishes take flight.\n#HappyBirthdayMargaretFuller from @ClamBakeSanta",
+      "tag": "HappyBirthdayMargaretFuller",
       "syllable_counts": [
         5,
         7,
@@ -35,20 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Richard Wagner",
-      "haiku": "Melody in air,\nSunlight spills on the table,\nJoyful hearts unite.\n#HappyBirthdayRichardWagner from @ClamBakeSanta",
-      "tag": "HappyBirthdayRichardWagner",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Welcome to Gemini Season",
-      "haiku": "Bright blooms gently sway,\nWhispers of breezes play soft,\nStars laugh in the night.\nHappy #WelcomeToGeminiSeason from @ClamBakeSanta",
-      "tag": "WelcomeToGeminiSeason",
+      "theme": "First Quarter Moon",
+      "haiku": "Silver light spills down,\nCasting shadows on soft grass,\nWhispers of the night.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+      "tag": "FirstQuarterMoon",
       "syllable_counts": [
         5,
         7,
@@ -58,12 +47,11 @@
     }
   ],
   "themes": [
-    "National Vanilla Pudding Day",
-    "Sherlock Holmes Day",
-    "Birthday Arthur Conan Doyle",
-    "Birthday Richard Wagner",
-    "Welcome to Gemini Season"
+    "National Taffy Day",
+    "Lucky Penny Day",
+    "Birthday Margaret Fuller",
+    "First Quarter Moon"
   ],
-  "content": "Sweet cream swirls and shines,\nVelvet smooth, a soft delight,\nTaste of dreams divine.\nHappy #NationalVanillaPuddingDay from @ClamBakeSanta\n\nMagnifying glass,\nWhispers of London fog swirl,\nMysteries unveiled.\nHappy #SherlockHolmesDay from @ClamBakeSanta\n\nMysteries unfold,\nJoyful tales in twilight glow,\nLaughter fills the room.\n#HappyBirthdayArthurConanDoyle from @ClamBakeSanta\n\nMelody in air,\nSunlight spills on the table,\nJoyful hearts unite.\n#HappyBirthdayRichardWagner from @ClamBakeSanta\n\nBright blooms gently sway,\nWhispers of breezes play soft,\nStars laugh in the night.\nHappy #WelcomeToGeminiSeason from @ClamBakeSanta",
-  "saved_at": "2026-05-22T11:47:30.846807+00:00"
+  "content": "Chewy, sweet delight,\nColors swirl like rainbows bright,\nJoy wrapped in each bite.\nHappy #NationalTaffyDay from @ClamBakeSanta\n\nCopper shines like sun,\nChildren toss their wishes high,\nJoy springs from the ground.\nHappy #LuckyPennyDay from @ClamBakeSanta\n\nJoyful laughter rings,\nCake blooms with icing petals,\nBright wishes take flight.\n#HappyBirthdayMargaretFuller from @ClamBakeSanta\n\nSilver light spills down,\nCasting shadows on soft grass,\nWhispers of the night.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+  "saved_at": "2026-05-23T10:37:52.690445+00:00"
 }
