@@ -40,7 +40,8 @@
     "2026-05-20",
     "2026-05-21",
     "2026-05-22",
-    "2026-05-23"
+    "2026-05-23",
+    "2026-05-24"
   ],
   "runs": [
     {
@@ -503,6 +504,17 @@
         "First Quarter Moon"
       ],
       "content_preview": "Chewy, sweet delight, Colors swirl like rainbows bright, Joy wrapped in each bite. Happy #NationalTaffyDay from @ClamBak"
+    },
+    {
+      "date": "2026-05-24",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-24T10:51:26.945794+00:00",
+      "themes": [
+        "National Escargot Day",
+        "Brother's Day",
+        "Birthday Bob Dylan"
+      ],
+      "content_preview": "Garlic butter melts, Soft shells bask in moonlit glow, A feast on the plate. Happy #NationalEscargotDay from @ClamBakeSa"
     }
   ]
 }

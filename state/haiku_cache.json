@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-23",
+  "date": "2026-05-24",
   "haikus": [
     {
-      "theme": "National Taffy Day",
-      "haiku": "Chewy, sweet delight,\nColors swirl like rainbows bright,\nJoy wrapped in each bite.\nHappy #NationalTaffyDay from @ClamBakeSanta",
-      "tag": "NationalTaffyDay",
+      "theme": "National Escargot Day",
+      "haiku": "Garlic butter melts,\nSoft shells bask in moonlit glow,\nA feast on the plate.\nHappy #NationalEscargotDay from @ClamBakeSanta",
+      "tag": "NationalEscargotDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Lucky Penny Day",
-      "haiku": "Copper shines like sun,\nChildren toss their wishes high,\nJoy springs from the ground.\nHappy #LuckyPennyDay from @ClamBakeSanta",
-      "tag": "LuckyPennyDay",
+      "theme": "Brother's Day",
+      "haiku": "Laughter fills the air,\nHandshakes, hugs, and smiles unite,\nJoy blooms like springtime.\nHappy #BrotherSDay from @ClamBakeSanta",
+      "tag": "BrotherSDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Margaret Fuller",
-      "haiku": "Joyful laughter rings,\nCake blooms with icing petals,\nBright wishes take flight.\n#HappyBirthdayMargaretFuller from @ClamBakeSanta",
-      "tag": "HappyBirthdayMargaretFuller",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "First Quarter Moon",
-      "haiku": "Silver light spills down,\nCasting shadows on soft grass,\nWhispers of the night.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-      "tag": "FirstQuarterMoon",
+      "theme": "Birthday Bob Dylan",
+      "haiku": "Songs drift through the air,\nGuitars strum with warm laughter,\nJoy blooms in each note.\n#HappyBirthdayBobDylan from @ClamBakeSanta",
+      "tag": "HappyBirthdayBobDylan",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Taffy Day",
-    "Lucky Penny Day",
-    "Birthday Margaret Fuller",
-    "First Quarter Moon"
+    "National Escargot Day",
+    "Brother's Day",
+    "Birthday Bob Dylan"
   ],
-  "content": "Chewy, sweet delight,\nColors swirl like rainbows bright,\nJoy wrapped in each bite.\nHappy #NationalTaffyDay from @ClamBakeSanta\n\nCopper shines like sun,\nChildren toss their wishes high,\nJoy springs from the ground.\nHappy #LuckyPennyDay from @ClamBakeSanta\n\nJoyful laughter rings,\nCake blooms with icing petals,\nBright wishes take flight.\n#HappyBirthdayMargaretFuller from @ClamBakeSanta\n\nSilver light spills down,\nCasting shadows on soft grass,\nWhispers of the night.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-  "saved_at": "2026-05-23T10:37:52.690445+00:00"
+  "content": "Garlic butter melts,\nSoft shells bask in moonlit glow,\nA feast on the plate.\nHappy #NationalEscargotDay from @ClamBakeSanta\n\nLaughter fills the air,\nHandshakes, hugs, and smiles unite,\nJoy blooms like springtime.\nHappy #BrotherSDay from @ClamBakeSanta\n\nSongs drift through the air,\nGuitars strum with warm laughter,\nJoy blooms in each note.\n#HappyBirthdayBobDylan from @ClamBakeSanta",
+  "saved_at": "2026-05-24T10:43:14.554823+00:00"
 }

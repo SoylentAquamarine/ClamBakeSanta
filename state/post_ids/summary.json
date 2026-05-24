@@ -1,4 +1,66 @@
 {
+  "2026-05-24": {
+    "NationalEscargotDay": {
+      "mastodon": {
+        "id": "116629136674046046",
+        "url": "https://mastodon.social/@ClamBakeSanta/116629136674046046"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmlrum6nze2s",
+        "cid": "bafyreicfjdae3ufueckwtjtzjjk2rbdml7jk4wb3654r75toye6g57yq7i"
+      },
+      "tumblr": {
+        "id": "817490440449376256",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "130",
+        "channel": "@clambakesanta"
+      }
+    },
+    "BrotherSDay": {
+      "mastodon": {
+        "id": "116629140643318967",
+        "url": "https://mastodon.social/@ClamBakeSanta/116629140643318967"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmlrwfickd2s",
+        "cid": "bafyreif546trps5avou7tdbnucwvluot2cgxj4rzudgusxgndiz72dqafm"
+      },
+      "tumblr": {
+        "id": "817490503658504192",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "131",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayBobDylan": {
+      "mastodon": {
+        "id": "116629144617216392",
+        "url": "https://mastodon.social/@ClamBakeSanta/116629144617216392"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmlry6rsai2s",
+        "cid": "bafyreiblufi5v5h2o2fok2jdxaieggaeqphx3pepivcqrmgzjswfrwofmy"
+      },
+      "tumblr": {
+        "id": "817490566865682432",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "132",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "57",
+        "url": "https://clambakesanta.wordpress.com/2026/05/24/clam-bake-santa-2026-05-24/"
+      }
+    }
+  },
   "2026-05-23": {
     "NationalTaffyDay": {
       "mastodon": {
@@ -398,44 +460,6 @@
       "wordpress": {
         "id": "49",
         "url": "https://clambakesanta.wordpress.com/2026/05/17/clam-bake-santa-2026-05-17/"
-      }
-    }
-  },
-  "2026-05-16": {
-    "NationalBarbecueDay": {
-      "mastodon": {
-        "id": "116583743844075798",
-        "url": "https://mastodon.social/@ClamBakeSanta/116583743844075798"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmsdb7cw2a",
-        "cid": "bafyreidziosfpotm2677k4q42ha4ps4fses3llld2pjivbra3ebhmsgjd4"
-      }
-    },
-    "SeaMonkeyDay": {
-      "mastodon": {
-        "id": "116583747808703417",
-        "url": "https://mastodon.social/@ClamBakeSanta/116583747808703417"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmu4mvzw2s",
-        "cid": "bafyreibsgk2lximflrys4y772zff2bbwi66tkdkdfbmdc463d6u2b2gody"
-      }
-    },
-    "HappyBirthdayLiberace": {
-      "mastodon": {
-        "id": "116583751762645243",
-        "url": "https://mastodon.social/@ClamBakeSanta/116583751762645243"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mlxmvw2nn72g",
-        "cid": "bafyreibg425o4xs3y4d633kwxybh4h2fmw5beed546irjuvx5s6kgzysyy"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "48",
-        "url": "https://clambakesanta.wordpress.com/2026/05/16/clam-bake-santa-2026-05-16/"
       }
     }
   }
