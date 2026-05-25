@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-05-25T12:46:47.566459+00:00",
+    "date": "2026-05-25",
+    "themes_found": [
+      "National Wine Day",
+      "National Tap Dance Day",
+      "Memorial Day",
+      "Birthday Ralph Waldo Emerson"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Wine Day",
+        "tag": "NationalWineDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Tap Dance Day",
+        "tag": "NationalTapDanceDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Memorial Day",
+        "tag": "MemorialDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Ralph Waldo Emerson",
+        "tag": "HappyBirthdayRalphWaldoEmerson",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

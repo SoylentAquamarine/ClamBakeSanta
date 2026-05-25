@@ -41,7 +41,8 @@
     "2026-05-21",
     "2026-05-22",
     "2026-05-23",
-    "2026-05-24"
+    "2026-05-24",
+    "2026-05-25"
   ],
   "runs": [
     {
@@ -515,6 +516,18 @@
         "Birthday Bob Dylan"
       ],
       "content_preview": "Garlic butter melts, Soft shells bask in moonlit glow, A feast on the plate. Happy #NationalEscargotDay from @ClamBakeSa"
+    },
+    {
+      "date": "2026-05-25",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-25T12:46:47.565898+00:00",
+      "themes": [
+        "National Wine Day",
+        "National Tap Dance Day",
+        "Memorial Day",
+        "Birthday Ralph Waldo Emerson"
+      ],
+      "content_preview": "Grapes burst with sweet juice, Sunset hues in crystal glass, Laughter fills the air. Happy #NationalWineDay from @ClamBa"
     }
   ]
 }
