@@ -42,7 +42,8 @@
     "2026-05-22",
     "2026-05-23",
     "2026-05-24",
-    "2026-05-25"
+    "2026-05-25",
+    "2026-05-27"
   ],
   "runs": [
     {
@@ -528,6 +529,17 @@
         "Birthday Ralph Waldo Emerson"
       ],
       "content_preview": "Grapes burst with sweet juice, Sunset hues in crystal glass, Laughter fills the air. Happy #NationalWineDay from @ClamBa"
+    },
+    {
+      "date": "2026-05-27",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-27T12:31:08.975998+00:00",
+      "themes": [
+        "National Grape Popsicle Day",
+        "Sun Screen Day",
+        "Birthday Rachel Carson"
+      ],
+      "content_preview": "Grapes freeze in the sun, Violet dreams on my tongue, Chilled bliss, laughter hums. Happy #NationalGrapePopsicleDay from"
     }
   ]
 }

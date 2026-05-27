@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-27",
   "haikus": [
     {
-      "theme": "National Wine Day",
-      "haiku": "Grapes burst with sweet juice,\nSunset hues in crystal glass,\nLaughter fills the air.\nHappy #NationalWineDay from @ClamBakeSanta",
-      "tag": "NationalWineDay",
+      "theme": "National Grape Popsicle Day",
+      "haiku": "Grapes freeze in the sun,\nViolet dreams on my tongue,\nChilled bliss, laughter hums.\nHappy #NationalGrapePopsicleDay from @ClamBakeSanta",
+      "tag": "NationalGrapePopsicleDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Tap Dance Day",
-      "haiku": "Wooden floors resound,\nFeet fly like whispers of joy,\nRhythms twirl and leap.\nHappy #NationalTapDanceDay from @ClamBakeSanta",
-      "tag": "NationalTapDanceDay",
+      "theme": "Sun Screen Day",
+      "haiku": "Sunlight warms my skin,\nGentle waves embrace the shore,\nLaughter fills the air.\nHappy #SunScreenDay from @ClamBakeSanta",
+      "tag": "SunScreenDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Memorial Day",
-      "haiku": "Flags wave in the breeze,\nLaughter dances on warm air,\nSunshine hugs the day.\nHappy #MemorialDay from @ClamBakeSanta",
-      "tag": "MemorialDay",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Ralph Waldo Emerson",
-      "haiku": "Whispers of the woods,\nNature sings in soft sunlight,\nRalph's thoughts dance like leaves.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta",
-      "tag": "HappyBirthdayRalphWaldoEmerson",
+      "theme": "Birthday Rachel Carson",
+      "haiku": "Whispers in the leaves,\nNature's voice sings to us all,\nLife's dance in the breeze.\n#HappyBirthdayRachelCarson from @ClamBakeSanta",
+      "tag": "HappyBirthdayRachelCarson",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Wine Day",
-    "National Tap Dance Day",
-    "Memorial Day",
-    "Birthday Ralph Waldo Emerson"
+    "National Grape Popsicle Day",
+    "Sun Screen Day",
+    "Birthday Rachel Carson"
   ],
-  "content": "Grapes burst with sweet juice,\nSunset hues in crystal glass,\nLaughter fills the air.\nHappy #NationalWineDay from @ClamBakeSanta\n\nWooden floors resound,\nFeet fly like whispers of joy,\nRhythms twirl and leap.\nHappy #NationalTapDanceDay from @ClamBakeSanta\n\nFlags wave in the breeze,\nLaughter dances on warm air,\nSunshine hugs the day.\nHappy #MemorialDay from @ClamBakeSanta\n\nWhispers of the woods,\nNature sings in soft sunlight,\nRalph's thoughts dance like leaves.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta",
-  "saved_at": "2026-05-25T12:34:36.118427+00:00"
+  "content": "Grapes freeze in the sun,\nViolet dreams on my tongue,\nChilled bliss, laughter hums.\nHappy #NationalGrapePopsicleDay from @ClamBakeSanta\n\nSunlight warms my skin,\nGentle waves embrace the shore,\nLaughter fills the air.\nHappy #SunScreenDay from @ClamBakeSanta\n\nWhispers in the leaves,\nNature's voice sings to us all,\nLife's dance in the breeze.\n#HappyBirthdayRachelCarson from @ClamBakeSanta",
+  "saved_at": "2026-05-27T12:22:58.441637+00:00"
 }
