@@ -1,0 +1,55 @@
+[
+  {
+    "timestamp": "2026-05-28T12:39:17.289679+00:00",
+    "date": "2026-05-28",
+    "themes_found": [
+      "National Brisket Day",
+      "National Hamburger Day",
+      "Birthday Ian Fleming"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Brisket Day",
+        "tag": "NationalBrisketDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Hamburger Day",
+        "tag": "NationalHamburgerDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Ian Fleming",
+        "tag": "HappyBirthdayIanFleming",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

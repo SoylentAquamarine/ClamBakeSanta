@@ -1,0 +1,62 @@
+{
+  "NationalBrisketDay": {
+    "mastodon": {
+      "id": "116652209868582028",
+      "url": "https://mastodon.social/@ClamBakeSanta/116652209868582028"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmvzr4f5dn24",
+      "cid": "bafyreidz2xdsqjx6o7au3lgv6esjmfgdm3hguxpw4qfidg3qh5hglhjaxa"
+    },
+    "tumblr": {
+      "id": "817859612975955968",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "140",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalHamburgerDay": {
+    "mastodon": {
+      "id": "116652213895827827",
+      "url": "https://mastodon.social/@ClamBakeSanta/116652213895827827"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmvzsvrb7524",
+      "cid": "bafyreibr562urgae24bsjwjg3nfhrphmxpzxyf2qmc7jhim6euj3qtgxuq"
+    },
+    "tumblr": {
+      "id": "817859677068132352",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "141",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayIanFleming": {
+    "mastodon": {
+      "id": "116652217861666416",
+      "url": "https://mastodon.social/@ClamBakeSanta/116652217861666416"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmvzupa7ey2a",
+      "cid": "bafyreic6vhf3rtt3aqvv7zr4shv6ssaj66zyrvruk4gz3ygrd2n77xgpdu"
+    },
+    "tumblr": {
+      "id": "817859740559409152",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "142",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "60",
+      "url": "https://clambakesanta.wordpress.com/2026/05/28/clam-bake-santa-2026-05-28/"
+    }
+  }
+}

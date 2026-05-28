@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "haikus": [
     {
-      "theme": "National Grape Popsicle Day",
-      "haiku": "Grapes freeze in the sun,\nViolet dreams on my tongue,\nChilled bliss, laughter hums.\nHappy #NationalGrapePopsicleDay from @ClamBakeSanta",
-      "tag": "NationalGrapePopsicleDay",
+      "theme": "National Brisket Day",
+      "haiku": "Smoky scents arise,\nTender brisket, spice embraced,\nFeast of warmth and cheer.\nHappy #NationalBrisketDay from @ClamBakeSanta",
+      "tag": "NationalBrisketDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Sun Screen Day",
-      "haiku": "Sunlight warms my skin,\nGentle waves embrace the shore,\nLaughter fills the air.\nHappy #SunScreenDay from @ClamBakeSanta",
-      "tag": "SunScreenDay",
+      "theme": "National Hamburger Day",
+      "haiku": "Grilled patties sizzle,\nGolden buns embrace the warmth,\nKetchup rivers flow.\nHappy #NationalHamburgerDay from @ClamBakeSanta",
+      "tag": "NationalHamburgerDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Rachel Carson",
-      "haiku": "Whispers in the leaves,\nNature's voice sings to us all,\nLife's dance in the breeze.\n#HappyBirthdayRachelCarson from @ClamBakeSanta",
-      "tag": "HappyBirthdayRachelCarson",
+      "theme": "Birthday Ian Fleming",
+      "haiku": "Golden sunbeams glow,\nCrisp leaves dance on warm breezes,\nCheers rise, hearts unite.\n#HappyBirthdayIanFleming from @ClamBakeSanta",
+      "tag": "HappyBirthdayIanFleming",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Grape Popsicle Day",
-    "Sun Screen Day",
-    "Birthday Rachel Carson"
+    "National Brisket Day",
+    "National Hamburger Day",
+    "Birthday Ian Fleming"
   ],
-  "content": "Grapes freeze in the sun,\nViolet dreams on my tongue,\nChilled bliss, laughter hums.\nHappy #NationalGrapePopsicleDay from @ClamBakeSanta\n\nSunlight warms my skin,\nGentle waves embrace the shore,\nLaughter fills the air.\nHappy #SunScreenDay from @ClamBakeSanta\n\nWhispers in the leaves,\nNature's voice sings to us all,\nLife's dance in the breeze.\n#HappyBirthdayRachelCarson from @ClamBakeSanta",
-  "saved_at": "2026-05-27T12:22:58.441637+00:00"
+  "content": "Smoky scents arise,\nTender brisket, spice embraced,\nFeast of warmth and cheer.\nHappy #NationalBrisketDay from @ClamBakeSanta\n\nGrilled patties sizzle,\nGolden buns embrace the warmth,\nKetchup rivers flow.\nHappy #NationalHamburgerDay from @ClamBakeSanta\n\nGolden sunbeams glow,\nCrisp leaves dance on warm breezes,\nCheers rise, hearts unite.\n#HappyBirthdayIanFleming from @ClamBakeSanta",
+  "saved_at": "2026-05-28T12:31:03.592066+00:00"
 }

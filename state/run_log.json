@@ -43,7 +43,8 @@
     "2026-05-23",
     "2026-05-24",
     "2026-05-25",
-    "2026-05-27"
+    "2026-05-27",
+    "2026-05-28"
   ],
   "runs": [
     {
@@ -540,6 +541,17 @@
         "Birthday Rachel Carson"
       ],
       "content_preview": "Grapes freeze in the sun, Violet dreams on my tongue, Chilled bliss, laughter hums. Happy #NationalGrapePopsicleDay from"
+    },
+    {
+      "date": "2026-05-28",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-28T12:39:17.289117+00:00",
+      "themes": [
+        "National Brisket Day",
+        "National Hamburger Day",
+        "Birthday Ian Fleming"
+      ],
+      "content_preview": "Smoky scents arise, Tender brisket, spice embraced, Feast of warmth and cheer. Happy #NationalBrisketDay from @ClamBakeS"
     }
   ]
 }
