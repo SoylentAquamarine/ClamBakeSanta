@@ -44,7 +44,8 @@
     "2026-05-24",
     "2026-05-25",
     "2026-05-27",
-    "2026-05-28"
+    "2026-05-28",
+    "2026-05-29"
   ],
   "runs": [
     {
@@ -552,6 +553,17 @@
         "Birthday Ian Fleming"
       ],
       "content_preview": "Smoky scents arise, Tender brisket, spice embraced, Feast of warmth and cheer. Happy #NationalBrisketDay from @ClamBakeS"
+    },
+    {
+      "date": "2026-05-29",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-29T12:26:02.994390+00:00",
+      "themes": [
+        "National Coq au Vin Day",
+        "Put a Pillow on Your Fridge Day",
+        "Birthday John F. Kennedy"
+      ],
+      "content_preview": "Rich red wine simmers, Tender chicken cradled warm, Herbs dance in the pot. Happy #NationalCoqAuVinDay from @ClamBakeSan"
     }
   ]
 }

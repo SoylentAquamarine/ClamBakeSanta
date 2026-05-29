@@ -1,4 +1,66 @@
 {
+  "2026-05-29": {
+    "NationalCoqAuVinDay": {
+      "mastodon": {
+        "id": "116657820228131356",
+        "url": "https://mastodon.social/@ClamBakeSanta/116657820228131356"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmyjiec73k2v",
+        "cid": "bafyreihw5q5xrp6l7wgv2gdid3egtkrwbcpfmdkin6dczkj6ju5egsh3jm"
+      },
+      "tumblr": {
+        "id": "817949377125548032",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "143",
+        "channel": "@clambakesanta"
+      }
+    },
+    "PutAPillowOnYourFridgeDay": {
+      "mastodon": {
+        "id": "116657824184017199",
+        "url": "https://mastodon.social/@ClamBakeSanta/116657824184017199"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmyjk5mv2724",
+        "cid": "bafyreiaos6ybh4an7fio76qp4rs4tfrgunz5oydhbzjv3i4gxie25v2exu"
+      },
+      "tumblr": {
+        "id": "817949440515112960",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "144",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayJohnFKennedy": {
+      "mastodon": {
+        "id": "116657828140711909",
+        "url": "https://mastodon.social/@ClamBakeSanta/116657828140711909"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmyjlwxttr2m",
+        "cid": "bafyreidfo6w4vu3rbppuyfcbtyddttzvrmqpxxb3yfet47mml7xt2jktw4"
+      },
+      "tumblr": {
+        "id": "817949504006422528",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "145",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "61",
+        "url": "https://clambakesanta.wordpress.com/2026/05/29/clam-bake-santa-2026-05-29/"
+      }
+    }
+  },
   "2026-05-28": {
     "NationalBrisketDay": {
       "mastodon": {
@@ -440,68 +502,6 @@
       "wordpress": {
         "id": "55",
         "url": "https://clambakesanta.wordpress.com/2026/05/22/clam-bake-santa-2026-05-22/"
-      }
-    }
-  },
-  "2026-05-21": {
-    "NationalStrawberriesAndCreamDay": {
-      "mastodon": {
-        "id": "116612520081155358",
-        "url": "https://mastodon.social/@ClamBakeSanta/116612520081155358"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmefqb2ae62x",
-        "cid": "bafyreiffvyisvq57wdusqf5il6bc7lfq2wxrpxwokhb2yyy4dnev5maq3m"
-      },
-      "tumblr": {
-        "id": "817224575209390080",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "118",
-        "channel": "@clambakesanta"
-      }
-    },
-    "NationalMemoDay": {
-      "mastodon": {
-        "id": "116612524085032480",
-        "url": "https://mastodon.social/@ClamBakeSanta/116612524085032480"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmefs2eah52s",
-        "cid": "bafyreifddkjs6pzrmrukcbd42jpd3r5g7wb3smiydd2hkzjl3kxt6o32my"
-      },
-      "tumblr": {
-        "id": "817224638428020736",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "119",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayFatsWaller": {
-      "mastodon": {
-        "id": "116612528040688218",
-        "url": "https://mastodon.social/@ClamBakeSanta/116612528040688218"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmefttnskq24",
-        "cid": "bafyreih3bflipasy2urmcgiywxnfuo2t6cx777p2nyefyvdbg75bdhnms4"
-      },
-      "tumblr": {
-        "id": "817224701736779776",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "120",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "54",
-        "url": "https://clambakesanta.wordpress.com/2026/05/21/clam-bake-santa-2026-05-21/"
       }
     }
   }

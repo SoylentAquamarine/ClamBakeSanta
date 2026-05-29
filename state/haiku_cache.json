@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "haikus": [
     {
-      "theme": "National Brisket Day",
-      "haiku": "Smoky scents arise,\nTender brisket, spice embraced,\nFeast of warmth and cheer.\nHappy #NationalBrisketDay from @ClamBakeSanta",
-      "tag": "NationalBrisketDay",
+      "theme": "National Coq au Vin Day",
+      "haiku": "Rich red wine simmers,\nTender chicken cradled warm,\nHerbs dance in the pot.\nHappy #NationalCoqAuVinDay from @ClamBakeSanta",
+      "tag": "NationalCoqAuVinDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Hamburger Day",
-      "haiku": "Grilled patties sizzle,\nGolden buns embrace the warmth,\nKetchup rivers flow.\nHappy #NationalHamburgerDay from @ClamBakeSanta",
-      "tag": "NationalHamburgerDay",
+      "theme": "Put a Pillow on Your Fridge Day",
+      "haiku": "Soft fabric on ice,\nCool dreams of comfort and peace,\nWhispers of delight.\nHappy #PutAPillowOnYourFridgeDay from @ClamBakeSanta",
+      "tag": "PutAPillowOnYourFridgeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Ian Fleming",
-      "haiku": "Golden sunbeams glow,\nCrisp leaves dance on warm breezes,\nCheers rise, hearts unite.\n#HappyBirthdayIanFleming from @ClamBakeSanta",
-      "tag": "HappyBirthdayIanFleming",
+      "theme": "Birthday John F. Kennedy",
+      "haiku": "Gentle waves embrace,\nCandles flicker, dreams take flight,\nLaughter warms the night.\n#HappyBirthdayJohnFKennedy from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnFKennedy",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Brisket Day",
-    "National Hamburger Day",
-    "Birthday Ian Fleming"
+    "National Coq au Vin Day",
+    "Put a Pillow on Your Fridge Day",
+    "Birthday John F. Kennedy"
   ],
-  "content": "Smoky scents arise,\nTender brisket, spice embraced,\nFeast of warmth and cheer.\nHappy #NationalBrisketDay from @ClamBakeSanta\n\nGrilled patties sizzle,\nGolden buns embrace the warmth,\nKetchup rivers flow.\nHappy #NationalHamburgerDay from @ClamBakeSanta\n\nGolden sunbeams glow,\nCrisp leaves dance on warm breezes,\nCheers rise, hearts unite.\n#HappyBirthdayIanFleming from @ClamBakeSanta",
-  "saved_at": "2026-05-28T12:31:03.592066+00:00"
+  "content": "Rich red wine simmers,\nTender chicken cradled warm,\nHerbs dance in the pot.\nHappy #NationalCoqAuVinDay from @ClamBakeSanta\n\nSoft fabric on ice,\nCool dreams of comfort and peace,\nWhispers of delight.\nHappy #PutAPillowOnYourFridgeDay from @ClamBakeSanta\n\nGentle waves embrace,\nCandles flicker, dreams take flight,\nLaughter warms the night.\n#HappyBirthdayJohnFKennedy from @ClamBakeSanta",
+  "saved_at": "2026-05-29T12:17:50.706834+00:00"
 }

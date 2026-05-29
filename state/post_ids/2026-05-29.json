@@ -1,0 +1,62 @@
+{
+  "NationalCoqAuVinDay": {
+    "mastodon": {
+      "id": "116657820228131356",
+      "url": "https://mastodon.social/@ClamBakeSanta/116657820228131356"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmyjiec73k2v",
+      "cid": "bafyreihw5q5xrp6l7wgv2gdid3egtkrwbcpfmdkin6dczkj6ju5egsh3jm"
+    },
+    "tumblr": {
+      "id": "817949377125548032",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "143",
+      "channel": "@clambakesanta"
+    }
+  },
+  "PutAPillowOnYourFridgeDay": {
+    "mastodon": {
+      "id": "116657824184017199",
+      "url": "https://mastodon.social/@ClamBakeSanta/116657824184017199"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmyjk5mv2724",
+      "cid": "bafyreiaos6ybh4an7fio76qp4rs4tfrgunz5oydhbzjv3i4gxie25v2exu"
+    },
+    "tumblr": {
+      "id": "817949440515112960",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "144",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayJohnFKennedy": {
+    "mastodon": {
+      "id": "116657828140711909",
+      "url": "https://mastodon.social/@ClamBakeSanta/116657828140711909"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mmyjlwxttr2m",
+      "cid": "bafyreidfo6w4vu3rbppuyfcbtyddttzvrmqpxxb3yfet47mml7xt2jktw4"
+    },
+    "tumblr": {
+      "id": "817949504006422528",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "145",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "61",
+      "url": "https://clambakesanta.wordpress.com/2026/05/29/clam-bake-santa-2026-05-29/"
+    }
+  }
+}
