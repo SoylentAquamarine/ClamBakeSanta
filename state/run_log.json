@@ -45,7 +45,8 @@
     "2026-05-25",
     "2026-05-27",
     "2026-05-28",
-    "2026-05-29"
+    "2026-05-29",
+    "2026-05-30"
   ],
   "runs": [
     {
@@ -564,6 +565,18 @@
         "Birthday John F. Kennedy"
       ],
       "content_preview": "Rich red wine simmers, Tender chicken cradled warm, Herbs dance in the pot. Happy #NationalCoqAuVinDay from @ClamBakeSan"
+    },
+    {
+      "date": "2026-05-30",
+      "engine": "clambakesanta",
+      "timestamp": "2026-05-30T11:00:43.551831+00:00",
+      "themes": [
+        "National Mint Julep Day",
+        "National Creativity Day",
+        "Birthday Benny Goodman",
+        "Birthday Mel Blanc"
+      ],
+      "content_preview": "Mint leaves dance with sun, Cool sips in the warm daylight, Cheers rise, joy abounds. Happy #NationalMintJulepDay from @"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "haikus": [
     {
-      "theme": "National Coq au Vin Day",
-      "haiku": "Rich red wine simmers,\nTender chicken cradled warm,\nHerbs dance in the pot.\nHappy #NationalCoqAuVinDay from @ClamBakeSanta",
-      "tag": "NationalCoqAuVinDay",
+      "theme": "National Mint Julep Day",
+      "haiku": "Mint leaves dance with sun,\nCool sips in the warm daylight,\nCheers rise, joy abounds.\nHappy #NationalMintJulepDay from @ClamBakeSanta",
+      "tag": "NationalMintJulepDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Put a Pillow on Your Fridge Day",
-      "haiku": "Soft fabric on ice,\nCool dreams of comfort and peace,\nWhispers of delight.\nHappy #PutAPillowOnYourFridgeDay from @ClamBakeSanta",
-      "tag": "PutAPillowOnYourFridgeDay",
+      "theme": "National Creativity Day",
+      "haiku": "Colors splash and twirl,\nBrushes dance on canvas bright,\nDreams ignite the heart.\nHappy #NationalCreativityDay from @ClamBakeSanta",
+      "tag": "NationalCreativityDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday John F. Kennedy",
-      "haiku": "Gentle waves embrace,\nCandles flicker, dreams take flight,\nLaughter warms the night.\n#HappyBirthdayJohnFKennedy from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnFKennedy",
+      "theme": "Birthday Benny Goodman",
+      "haiku": "Bright notes fill the room,\nDancing feet in soft shadows,\nJoyful hearts unite.\n#HappyBirthdayBennyGoodman from @ClamBakeSanta",
+      "tag": "HappyBirthdayBennyGoodman",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Mel Blanc",
+      "haiku": "Voice of many charms,\nLaughter dances through the room,\nSweet cake smiles abound.\n#HappyBirthdayMelBlanc from @ClamBakeSanta",
+      "tag": "HappyBirthdayMelBlanc",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Coq au Vin Day",
-    "Put a Pillow on Your Fridge Day",
-    "Birthday John F. Kennedy"
+    "National Mint Julep Day",
+    "National Creativity Day",
+    "Birthday Benny Goodman",
+    "Birthday Mel Blanc"
   ],
-  "content": "Rich red wine simmers,\nTender chicken cradled warm,\nHerbs dance in the pot.\nHappy #NationalCoqAuVinDay from @ClamBakeSanta\n\nSoft fabric on ice,\nCool dreams of comfort and peace,\nWhispers of delight.\nHappy #PutAPillowOnYourFridgeDay from @ClamBakeSanta\n\nGentle waves embrace,\nCandles flicker, dreams take flight,\nLaughter warms the night.\n#HappyBirthdayJohnFKennedy from @ClamBakeSanta",
-  "saved_at": "2026-05-29T12:17:50.706834+00:00"
+  "content": "Mint leaves dance with sun,\nCool sips in the warm daylight,\nCheers rise, joy abounds.\nHappy #NationalMintJulepDay from @ClamBakeSanta\n\nColors splash and twirl,\nBrushes dance on canvas bright,\nDreams ignite the heart.\nHappy #NationalCreativityDay from @ClamBakeSanta\n\nBright notes fill the room,\nDancing feet in soft shadows,\nJoyful hearts unite.\n#HappyBirthdayBennyGoodman from @ClamBakeSanta\n\nVoice of many charms,\nLaughter dances through the room,\nSweet cake smiles abound.\n#HappyBirthdayMelBlanc from @ClamBakeSanta",
+  "saved_at": "2026-05-30T10:48:29.168588+00:00"
 }
