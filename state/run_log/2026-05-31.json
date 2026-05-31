@@ -1,0 +1,73 @@
+[
+  {
+    "timestamp": "2026-05-31T11:13:26.166138+00:00",
+    "date": "2026-05-31",
+    "themes_found": [
+      "National Macaroon Day",
+      "World No Tobacco Day",
+      "Birthday Walt Whitman",
+      "Birthday Clint Eastwood",
+      "Full Moon"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "World No Tobacco Day",
+        "tag": "WorldNoTobaccoDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Walt Whitman",
+        "tag": "HappyBirthdayWaltWhitman",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Clint Eastwood",
+        "tag": "HappyBirthdayClintEastwood",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Full Moon",
+        "tag": "FullMoon",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [
+      {
+        "theme": "National Macaroon Day",
+        "tag": "NationalMacaroonDay",
+        "attempts": 5
+      }
+    ],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

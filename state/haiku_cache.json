@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-30",
+  "date": "2026-05-31",
   "haikus": [
     {
-      "theme": "National Mint Julep Day",
-      "haiku": "Mint leaves dance with sun,\nCool sips in the warm daylight,\nCheers rise, joy abounds.\nHappy #NationalMintJulepDay from @ClamBakeSanta",
-      "tag": "NationalMintJulepDay",
+      "theme": "World No Tobacco Day",
+      "haiku": "Fresh blooms greet the dawn,\nClear lungs breathe in bright, sweet air,\nJoyful hearts unite.\nHappy #WorldNoTobaccoDay from @ClamBakeSanta",
+      "tag": "WorldNoTobaccoDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Creativity Day",
-      "haiku": "Colors splash and twirl,\nBrushes dance on canvas bright,\nDreams ignite the heart.\nHappy #NationalCreativityDay from @ClamBakeSanta",
-      "tag": "NationalCreativityDay",
+      "theme": "Birthday Walt Whitman",
+      "haiku": "Candles flicker bright,\nPages turn with joy and light,\nNature's cheer takes flight.\n#HappyBirthdayWaltWhitman from @ClamBakeSanta",
+      "tag": "HappyBirthdayWaltWhitman",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Benny Goodman",
-      "haiku": "Bright notes fill the room,\nDancing feet in soft shadows,\nJoyful hearts unite.\n#HappyBirthdayBennyGoodman from @ClamBakeSanta",
-      "tag": "HappyBirthdayBennyGoodman",
+      "theme": "Birthday Clint Eastwood",
+      "haiku": "Old films play softly,\nCandles dance on the bright cake,\nCheers to a great life!\n#HappyBirthdayClintEastwood from @ClamBakeSanta",
+      "tag": "HappyBirthdayClintEastwood",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Mel Blanc",
-      "haiku": "Voice of many charms,\nLaughter dances through the room,\nSweet cake smiles abound.\n#HappyBirthdayMelBlanc from @ClamBakeSanta",
-      "tag": "HappyBirthdayMelBlanc",
+      "theme": "Full Moon",
+      "haiku": "Bright orb in the sky,\nSilver beams dance on the lake,\nNight wraps us in peace.\nHappy #FullMoon from @ClamBakeSanta",
+      "tag": "FullMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,12 @@
     }
   ],
   "themes": [
-    "National Mint Julep Day",
-    "National Creativity Day",
-    "Birthday Benny Goodman",
-    "Birthday Mel Blanc"
+    "National Macaroon Day",
+    "World No Tobacco Day",
+    "Birthday Walt Whitman",
+    "Birthday Clint Eastwood",
+    "Full Moon"
   ],
-  "content": "Mint leaves dance with sun,\nCool sips in the warm daylight,\nCheers rise, joy abounds.\nHappy #NationalMintJulepDay from @ClamBakeSanta\n\nColors splash and twirl,\nBrushes dance on canvas bright,\nDreams ignite the heart.\nHappy #NationalCreativityDay from @ClamBakeSanta\n\nBright notes fill the room,\nDancing feet in soft shadows,\nJoyful hearts unite.\n#HappyBirthdayBennyGoodman from @ClamBakeSanta\n\nVoice of many charms,\nLaughter dances through the room,\nSweet cake smiles abound.\n#HappyBirthdayMelBlanc from @ClamBakeSanta",
-  "saved_at": "2026-05-30T10:48:29.168588+00:00"
+  "content": "Fresh blooms greet the dawn,\nClear lungs breathe in bright, sweet air,\nJoyful hearts unite.\nHappy #WorldNoTobaccoDay from @ClamBakeSanta\n\nCandles flicker bright,\nPages turn with joy and light,\nNature's cheer takes flight.\n#HappyBirthdayWaltWhitman from @ClamBakeSanta\n\nOld films play softly,\nCandles dance on the bright cake,\nCheers to a great life!\n#HappyBirthdayClintEastwood from @ClamBakeSanta\n\nBright orb in the sky,\nSilver beams dance on the lake,\nNight wraps us in peace.\nHappy #FullMoon from @ClamBakeSanta",
+  "saved_at": "2026-05-31T11:01:08.971815+00:00"
 }
