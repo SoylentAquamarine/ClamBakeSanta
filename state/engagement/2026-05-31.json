@@ -1,0 +1,101 @@
+{
+  "WorldNoTobaccoDay": {
+    "theme": "World No Tobacco Day",
+    "haiku": "Fresh blooms greet the dawn,\nClear lungs breathe in bright, sweet air,\nJoyful hearts unite.\nHappy #WorldNoTobaccoDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116668843259041375",
+        "url": "https://mastodon.social/@ClamBakeSanta/116668843259041375",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mn5g6vkbxm2y",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-31T22:52:44.606931+00:00"
+  },
+  "HappyBirthdayWaltWhitman": {
+    "theme": "Birthday Walt Whitman",
+    "haiku": "Candles flicker bright,\nPages turn with joy and light,\nNature's cheer takes flight.\n#HappyBirthdayWaltWhitman from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116668847256313002",
+        "url": "https://mastodon.social/@ClamBakeSanta/116668847256313002",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mn5gap7nfs2n",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-31T22:52:44.606931+00:00"
+  },
+  "HappyBirthdayClintEastwood": {
+    "theme": "Birthday Clint Eastwood",
+    "haiku": "Old films play softly,\nCandles dance on the bright cake,\nCheers to a great life!\n#HappyBirthdayClintEastwood from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116668851255384322",
+        "url": "https://mastodon.social/@ClamBakeSanta/116668851255384322",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mn5gcinksi24",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-31T22:52:44.606931+00:00"
+  },
+  "FullMoon": {
+    "theme": "Full Moon",
+    "haiku": "Bright orb in the sky,\nSilver beams dance on the lake,\nNight wraps us in peace.\nHappy #FullMoon from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116668855213885054",
+        "url": "https://mastodon.social/@ClamBakeSanta/116668855213885054",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mn5gec3icy2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-05-31T22:52:44.606931+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-05-31T22:52:44.606931+00:00"
+  }
+}
