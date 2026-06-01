@@ -47,7 +47,8 @@
     "2026-05-28",
     "2026-05-29",
     "2026-05-30",
-    "2026-05-31"
+    "2026-05-31",
+    "2026-06-01"
   ],
   "runs": [
     {
@@ -591,6 +592,17 @@
         "Full Moon"
       ],
       "content_preview": "Fresh blooms greet the dawn, Clear lungs breathe in bright, sweet air, Joyful hearts unite. Happy #WorldNoTobaccoDay fro"
+    },
+    {
+      "date": "2026-06-01",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-01T15:32:54.464250+00:00",
+      "themes": [
+        "National Hazelnut Cake Day",
+        "World Milk Day",
+        "Birthday Marilyn Monroe"
+      ],
+      "content_preview": "Warm cake cools on racks, Crushed nuts and sweet cream unite, Joyous bites to share. Happy #NationalHazelnutCakeDay from"
     }
   ]
 }

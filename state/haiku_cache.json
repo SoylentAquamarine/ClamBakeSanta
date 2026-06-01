@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "haikus": [
     {
-      "theme": "World No Tobacco Day",
-      "haiku": "Fresh blooms greet the dawn,\nClear lungs breathe in bright, sweet air,\nJoyful hearts unite.\nHappy #WorldNoTobaccoDay from @ClamBakeSanta",
-      "tag": "WorldNoTobaccoDay",
+      "theme": "National Hazelnut Cake Day",
+      "haiku": "Warm cake cools on racks,\nCrushed nuts and sweet cream unite,\nJoyous bites to share.\nHappy #NationalHazelnutCakeDay from @ClamBakeSanta",
+      "tag": "NationalHazelnutCakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Walt Whitman",
-      "haiku": "Candles flicker bright,\nPages turn with joy and light,\nNature's cheer takes flight.\n#HappyBirthdayWaltWhitman from @ClamBakeSanta",
-      "tag": "HappyBirthdayWaltWhitman",
+      "theme": "World Milk Day",
+      "haiku": "Cows graze on green fields,\nCreamy clouds swirl in bright bowls,\nJoy splashes like milk.\nHappy #WorldMilkDay from @ClamBakeSanta",
+      "tag": "WorldMilkDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Clint Eastwood",
-      "haiku": "Old films play softly,\nCandles dance on the bright cake,\nCheers to a great life!\n#HappyBirthdayClintEastwood from @ClamBakeSanta",
-      "tag": "HappyBirthdayClintEastwood",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Full Moon",
-      "haiku": "Bright orb in the sky,\nSilver beams dance on the lake,\nNight wraps us in peace.\nHappy #FullMoon from @ClamBakeSanta",
-      "tag": "FullMoon",
+      "theme": "Birthday Marilyn Monroe",
+      "haiku": "Laughter fills the air,\nSoft cake glimmers with bright light,\nCandles spark pure joy.\n#HappyBirthdayMarilynMonroe from @ClamBakeSanta",
+      "tag": "HappyBirthdayMarilynMonroe",
       "syllable_counts": [
         5,
         7,
@@ -47,12 +36,10 @@
     }
   ],
   "themes": [
-    "National Macaroon Day",
-    "World No Tobacco Day",
-    "Birthday Walt Whitman",
-    "Birthday Clint Eastwood",
-    "Full Moon"
+    "National Hazelnut Cake Day",
+    "World Milk Day",
+    "Birthday Marilyn Monroe"
   ],
-  "content": "Fresh blooms greet the dawn,\nClear lungs breathe in bright, sweet air,\nJoyful hearts unite.\nHappy #WorldNoTobaccoDay from @ClamBakeSanta\n\nCandles flicker bright,\nPages turn with joy and light,\nNature's cheer takes flight.\n#HappyBirthdayWaltWhitman from @ClamBakeSanta\n\nOld films play softly,\nCandles dance on the bright cake,\nCheers to a great life!\n#HappyBirthdayClintEastwood from @ClamBakeSanta\n\nBright orb in the sky,\nSilver beams dance on the lake,\nNight wraps us in peace.\nHappy #FullMoon from @ClamBakeSanta",
-  "saved_at": "2026-05-31T11:01:08.971815+00:00"
+  "content": "Warm cake cools on racks,\nCrushed nuts and sweet cream unite,\nJoyous bites to share.\nHappy #NationalHazelnutCakeDay from @ClamBakeSanta\n\nCows graze on green fields,\nCreamy clouds swirl in bright bowls,\nJoy splashes like milk.\nHappy #WorldMilkDay from @ClamBakeSanta\n\nLaughter fills the air,\nSoft cake glimmers with bright light,\nCandles spark pure joy.\n#HappyBirthdayMarilynMonroe from @ClamBakeSanta",
+  "saved_at": "2026-06-01T15:24:38.862209+00:00"
 }
