@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-05-25",
-    "theme": "National Wine Day",
-    "haiku": "Grapes burst with sweet juice,\nSunset hues in crystal glass,\nLaughter fills the air.\nHappy #NationalWineDay from @ClamBakeSanta",
-    "tag": "NationalWineDay",
-    "logged_at": "2026-05-25T12:34:36.118772+00:00"
-  },
-  {
-    "date": "2026-05-25",
-    "theme": "National Tap Dance Day",
-    "haiku": "Wooden floors resound,\nFeet fly like whispers of joy,\nRhythms twirl and leap.\nHappy #NationalTapDanceDay from @ClamBakeSanta",
-    "tag": "NationalTapDanceDay",
-    "logged_at": "2026-05-25T12:34:36.118772+00:00"
-  },
-  {
-    "date": "2026-05-25",
-    "theme": "Memorial Day",
-    "haiku": "Flags wave in the breeze,\nLaughter dances on warm air,\nSunshine hugs the day.\nHappy #MemorialDay from @ClamBakeSanta",
-    "tag": "MemorialDay",
-    "logged_at": "2026-05-25T12:34:36.118772+00:00"
-  },
-  {
-    "date": "2026-05-25",
-    "theme": "Birthday Ralph Waldo Emerson",
-    "haiku": "Whispers of the woods,\nNature sings in soft sunlight,\nRalph's thoughts dance like leaves.\n#HappyBirthdayRalphWaldoEmerson from @ClamBakeSanta",
-    "tag": "HappyBirthdayRalphWaldoEmerson",
-    "logged_at": "2026-05-25T12:34:36.118772+00:00"
-  },
-  {
     "date": "2026-05-27",
     "theme": "National Grape Popsicle Day",
     "haiku": "Grapes freeze in the sun,\nViolet dreams on my tongue,\nChilled bliss, laughter hums.\nHappy #NationalGrapePopsicleDay from @ClamBakeSanta",
@@ -145,5 +117,26 @@
     "haiku": "Bright orb in the sky,\nSilver beams dance on the lake,\nNight wraps us in peace.\nHappy #FullMoon from @ClamBakeSanta",
     "tag": "FullMoon",
     "logged_at": "2026-05-31T11:01:08.972157+00:00"
+  },
+  {
+    "date": "2026-06-01",
+    "theme": "National Hazelnut Cake Day",
+    "haiku": "Warm cake cools on racks,\nCrushed nuts and sweet cream unite,\nJoyous bites to share.\nHappy #NationalHazelnutCakeDay from @ClamBakeSanta",
+    "tag": "NationalHazelnutCakeDay",
+    "logged_at": "2026-06-01T15:24:38.862541+00:00"
+  },
+  {
+    "date": "2026-06-01",
+    "theme": "World Milk Day",
+    "haiku": "Cows graze on green fields,\nCreamy clouds swirl in bright bowls,\nJoy splashes like milk.\nHappy #WorldMilkDay from @ClamBakeSanta",
+    "tag": "WorldMilkDay",
+    "logged_at": "2026-06-01T15:24:38.862541+00:00"
+  },
+  {
+    "date": "2026-06-01",
+    "theme": "Birthday Marilyn Monroe",
+    "haiku": "Laughter fills the air,\nSoft cake glimmers with bright light,\nCandles spark pure joy.\n#HappyBirthdayMarilynMonroe from @ClamBakeSanta",
+    "tag": "HappyBirthdayMarilynMonroe",
+    "logged_at": "2026-06-01T15:24:38.862541+00:00"
   }
 ]

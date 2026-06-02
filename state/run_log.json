@@ -48,7 +48,8 @@
     "2026-05-29",
     "2026-05-30",
     "2026-05-31",
-    "2026-06-01"
+    "2026-06-01",
+    "2026-06-02"
   ],
   "runs": [
     {
@@ -603,6 +604,17 @@
         "Birthday Marilyn Monroe"
       ],
       "content_preview": "Warm cake cools on racks, Crushed nuts and sweet cream unite, Joyous bites to share. Happy #NationalHazelnutCakeDay from"
+    },
+    {
+      "date": "2026-06-02",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-02T12:52:46.208142+00:00",
+      "themes": [
+        "National Rocky Road Ice Cream Day",
+        "National Rotisserie Chicken Day",
+        "Birthday Thomas Hardy"
+      ],
+      "content_preview": "Chocolate swirls cascade, Crunchy nuts and marshmallows, Scoops of joy abound. Happy #NationalRockyRoadIceCreamDay from "
     }
   ]
 }

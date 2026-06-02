@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "haikus": [
     {
-      "theme": "National Hazelnut Cake Day",
-      "haiku": "Warm cake cools on racks,\nCrushed nuts and sweet cream unite,\nJoyous bites to share.\nHappy #NationalHazelnutCakeDay from @ClamBakeSanta",
-      "tag": "NationalHazelnutCakeDay",
+      "theme": "National Rocky Road Ice Cream Day",
+      "haiku": "Chocolate swirls cascade,\nCrunchy nuts and marshmallows,\nScoops of joy abound.\nHappy #NationalRockyRoadIceCreamDay from @ClamBakeSanta",
+      "tag": "NationalRockyRoadIceCreamDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Milk Day",
-      "haiku": "Cows graze on green fields,\nCreamy clouds swirl in bright bowls,\nJoy splashes like milk.\nHappy #WorldMilkDay from @ClamBakeSanta",
-      "tag": "WorldMilkDay",
+      "theme": "National Rotisserie Chicken Day",
+      "haiku": "Juicy, tender gold,\nHerbs and spices intertwine,\nGathered hearts rejoice.\nHappy #NationalRotisserieChickenDay from @ClamBakeSanta",
+      "tag": "NationalRotisserieChickenDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Marilyn Monroe",
-      "haiku": "Laughter fills the air,\nSoft cake glimmers with bright light,\nCandles spark pure joy.\n#HappyBirthdayMarilynMonroe from @ClamBakeSanta",
-      "tag": "HappyBirthdayMarilynMonroe",
+      "theme": "Birthday Thomas Hardy",
+      "haiku": "Candles flicker bright,\nLaughter fills the cozy room,\nJoy wraps all like spring.\n#HappyBirthdayThomasHardy from @ClamBakeSanta",
+      "tag": "HappyBirthdayThomasHardy",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Hazelnut Cake Day",
-    "World Milk Day",
-    "Birthday Marilyn Monroe"
+    "National Rocky Road Ice Cream Day",
+    "National Rotisserie Chicken Day",
+    "Birthday Thomas Hardy"
   ],
-  "content": "Warm cake cools on racks,\nCrushed nuts and sweet cream unite,\nJoyous bites to share.\nHappy #NationalHazelnutCakeDay from @ClamBakeSanta\n\nCows graze on green fields,\nCreamy clouds swirl in bright bowls,\nJoy splashes like milk.\nHappy #WorldMilkDay from @ClamBakeSanta\n\nLaughter fills the air,\nSoft cake glimmers with bright light,\nCandles spark pure joy.\n#HappyBirthdayMarilynMonroe from @ClamBakeSanta",
-  "saved_at": "2026-06-01T15:24:38.862209+00:00"
+  "content": "Chocolate swirls cascade,\nCrunchy nuts and marshmallows,\nScoops of joy abound.\nHappy #NationalRockyRoadIceCreamDay from @ClamBakeSanta\n\nJuicy, tender gold,\nHerbs and spices intertwine,\nGathered hearts rejoice.\nHappy #NationalRotisserieChickenDay from @ClamBakeSanta\n\nCandles flicker bright,\nLaughter fills the cozy room,\nJoy wraps all like spring.\n#HappyBirthdayThomasHardy from @ClamBakeSanta",
+  "saved_at": "2026-06-02T12:44:34.892689+00:00"
 }
