@@ -1,0 +1,78 @@
+{
+  "NationalEggDay": {
+    "theme": "National Egg Day",
+    "haiku": "Sunny yolks delight,\nWhisking dreams in morning light,\nEggs dance in the pan.\nHappy #NationalEggDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116686373667621880",
+        "url": "https://mastodon.social/@ClamBakeSanta/116686373667621880",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnf7bcghg22b",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-03T23:28:09.648781+00:00"
+  },
+  "RepeatDay": {
+    "theme": "Repeat Day",
+    "haiku": "Joyful laughter rings,\nEchoes of hearts intertwine,\nMemories replay.\nHappy #RepeatDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116686377825442048",
+        "url": "https://mastodon.social/@ClamBakeSanta/116686377825442048",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnf7d3riic24",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-03T23:28:09.648781+00:00"
+  },
+  "HappyBirthdayJosephineBaker": {
+    "theme": "Birthday Josephine Baker",
+    "haiku": "Sparkling candles glow,\nLaughter bubbles like ripe fruit,\nJoyful hearts unite.\n#HappyBirthdayJosephineBaker from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116686382065323602",
+        "url": "https://mastodon.social/@ClamBakeSanta/116686382065323602",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnf7evh4wt2v",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-03T23:28:09.648781+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-03T23:28:09.648781+00:00"
+  }
+}
