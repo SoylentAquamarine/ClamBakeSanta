@@ -49,7 +49,8 @@
     "2026-05-30",
     "2026-05-31",
     "2026-06-01",
-    "2026-06-02"
+    "2026-06-02",
+    "2026-06-03"
   ],
   "runs": [
     {
@@ -615,6 +616,17 @@
         "Birthday Thomas Hardy"
       ],
       "content_preview": "Chocolate swirls cascade, Crunchy nuts and marshmallows, Scoops of joy abound. Happy #NationalRockyRoadIceCreamDay from "
+    },
+    {
+      "date": "2026-06-03",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-03T13:27:46.984236+00:00",
+      "themes": [
+        "National Egg Day",
+        "Repeat Day",
+        "Birthday Josephine Baker"
+      ],
+      "content_preview": "Sunny yolks delight, Whisking dreams in morning light, Eggs dance in the pan. Happy #NationalEggDay from @ClamBakeSanta "
     }
   ]
 }

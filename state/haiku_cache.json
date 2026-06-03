@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-03",
   "haikus": [
     {
-      "theme": "National Rocky Road Ice Cream Day",
-      "haiku": "Chocolate swirls cascade,\nCrunchy nuts and marshmallows,\nScoops of joy abound.\nHappy #NationalRockyRoadIceCreamDay from @ClamBakeSanta",
-      "tag": "NationalRockyRoadIceCreamDay",
+      "theme": "National Egg Day",
+      "haiku": "Sunny yolks delight,\nWhisking dreams in morning light,\nEggs dance in the pan.\nHappy #NationalEggDay from @ClamBakeSanta",
+      "tag": "NationalEggDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Rotisserie Chicken Day",
-      "haiku": "Juicy, tender gold,\nHerbs and spices intertwine,\nGathered hearts rejoice.\nHappy #NationalRotisserieChickenDay from @ClamBakeSanta",
-      "tag": "NationalRotisserieChickenDay",
+      "theme": "Repeat Day",
+      "haiku": "Joyful laughter rings,\nEchoes of hearts intertwine,\nMemories replay.\nHappy #RepeatDay from @ClamBakeSanta",
+      "tag": "RepeatDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Thomas Hardy",
-      "haiku": "Candles flicker bright,\nLaughter fills the cozy room,\nJoy wraps all like spring.\n#HappyBirthdayThomasHardy from @ClamBakeSanta",
-      "tag": "HappyBirthdayThomasHardy",
+      "theme": "Birthday Josephine Baker",
+      "haiku": "Sparkling candles glow,\nLaughter bubbles like ripe fruit,\nJoyful hearts unite.\n#HappyBirthdayJosephineBaker from @ClamBakeSanta",
+      "tag": "HappyBirthdayJosephineBaker",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Rocky Road Ice Cream Day",
-    "National Rotisserie Chicken Day",
-    "Birthday Thomas Hardy"
+    "National Egg Day",
+    "Repeat Day",
+    "Birthday Josephine Baker"
   ],
-  "content": "Chocolate swirls cascade,\nCrunchy nuts and marshmallows,\nScoops of joy abound.\nHappy #NationalRockyRoadIceCreamDay from @ClamBakeSanta\n\nJuicy, tender gold,\nHerbs and spices intertwine,\nGathered hearts rejoice.\nHappy #NationalRotisserieChickenDay from @ClamBakeSanta\n\nCandles flicker bright,\nLaughter fills the cozy room,\nJoy wraps all like spring.\n#HappyBirthdayThomasHardy from @ClamBakeSanta",
-  "saved_at": "2026-06-02T12:44:34.892689+00:00"
+  "content": "Sunny yolks delight,\nWhisking dreams in morning light,\nEggs dance in the pan.\nHappy #NationalEggDay from @ClamBakeSanta\n\nJoyful laughter rings,\nEchoes of hearts intertwine,\nMemories replay.\nHappy #RepeatDay from @ClamBakeSanta\n\nSparkling candles glow,\nLaughter bubbles like ripe fruit,\nJoyful hearts unite.\n#HappyBirthdayJosephineBaker from @ClamBakeSanta",
+  "saved_at": "2026-06-03T13:19:21.950456+00:00"
 }
