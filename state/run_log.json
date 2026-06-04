@@ -50,7 +50,8 @@
     "2026-05-31",
     "2026-06-01",
     "2026-06-02",
-    "2026-06-03"
+    "2026-06-03",
+    "2026-06-04"
   ],
   "runs": [
     {
@@ -627,6 +628,17 @@
         "Birthday Josephine Baker"
       ],
       "content_preview": "Sunny yolks delight, Whisking dreams in morning light, Eggs dance in the pan. Happy #NationalEggDay from @ClamBakeSanta "
+    },
+    {
+      "date": "2026-06-04",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-04T12:05:54.973449+00:00",
+      "themes": [
+        "National Cheese Day",
+        "National Hug Your Cat Day",
+        "Birthday Angelina Jolie"
+      ],
+      "content_preview": "Creamy wheels of joy, Savory bites bring delight, Cheese dreams melt away. Happy #NationalCheeseDay from @ClamBakeSanta "
     }
   ]
 }

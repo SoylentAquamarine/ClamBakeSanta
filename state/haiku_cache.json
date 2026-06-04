@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "haikus": [
     {
-      "theme": "National Egg Day",
-      "haiku": "Sunny yolks delight,\nWhisking dreams in morning light,\nEggs dance in the pan.\nHappy #NationalEggDay from @ClamBakeSanta",
-      "tag": "NationalEggDay",
+      "theme": "National Cheese Day",
+      "haiku": "Creamy wheels of joy,\nSavory bites bring delight,\nCheese dreams melt away.\nHappy #NationalCheeseDay from @ClamBakeSanta",
+      "tag": "NationalCheeseDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Repeat Day",
-      "haiku": "Joyful laughter rings,\nEchoes of hearts intertwine,\nMemories replay.\nHappy #RepeatDay from @ClamBakeSanta",
-      "tag": "RepeatDay",
+      "theme": "National Hug Your Cat Day",
+      "haiku": "Purring on my lap,\nWhiskers twitch with joy and warmth,\nFurry love abounds.\nHappy #NationalHugYourCatDay from @ClamBakeSanta",
+      "tag": "NationalHugYourCatDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Josephine Baker",
-      "haiku": "Sparkling candles glow,\nLaughter bubbles like ripe fruit,\nJoyful hearts unite.\n#HappyBirthdayJosephineBaker from @ClamBakeSanta",
-      "tag": "HappyBirthdayJosephineBaker",
+      "theme": "Birthday Angelina Jolie",
+      "haiku": "Laughter fills the air,\nCandies shimmer like starlight,\nJoyous hearts unite.\n#HappyBirthdayAngelinaJolie from @ClamBakeSanta",
+      "tag": "HappyBirthdayAngelinaJolie",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Egg Day",
-    "Repeat Day",
-    "Birthday Josephine Baker"
+    "National Cheese Day",
+    "National Hug Your Cat Day",
+    "Birthday Angelina Jolie"
   ],
-  "content": "Sunny yolks delight,\nWhisking dreams in morning light,\nEggs dance in the pan.\nHappy #NationalEggDay from @ClamBakeSanta\n\nJoyful laughter rings,\nEchoes of hearts intertwine,\nMemories replay.\nHappy #RepeatDay from @ClamBakeSanta\n\nSparkling candles glow,\nLaughter bubbles like ripe fruit,\nJoyful hearts unite.\n#HappyBirthdayJosephineBaker from @ClamBakeSanta",
-  "saved_at": "2026-06-03T13:19:21.950456+00:00"
+  "content": "Creamy wheels of joy,\nSavory bites bring delight,\nCheese dreams melt away.\nHappy #NationalCheeseDay from @ClamBakeSanta\n\nPurring on my lap,\nWhiskers twitch with joy and warmth,\nFurry love abounds.\nHappy #NationalHugYourCatDay from @ClamBakeSanta\n\nLaughter fills the air,\nCandies shimmer like starlight,\nJoyous hearts unite.\n#HappyBirthdayAngelinaJolie from @ClamBakeSanta",
+  "saved_at": "2026-06-04T11:57:41.767112+00:00"
 }
