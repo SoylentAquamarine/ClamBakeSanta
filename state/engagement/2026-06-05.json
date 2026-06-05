@@ -1,0 +1,78 @@
+{
+  "WorldEnvironmentDay": {
+    "theme": "World Environment Day",
+    "haiku": "Leaves shimmer with dew,\nWhispers of life all around,\nSunlight warms the earth.\nHappy #WorldEnvironmentDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116697428291002829",
+        "url": "https://mastodon.social/@ClamBakeSanta/116697428291002829",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4e2cb652x",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-05T22:59:49.941892+00:00"
+  },
+  "NationalGingerbreadDay": {
+    "theme": "National Gingerbread Day",
+    "haiku": "Sugar spiced delight,\nGingerbread houses arise,\nFrosting dreams take flight.\nHappy #NationalGingerbreadDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116697432274051394",
+        "url": "https://mastodon.social/@ClamBakeSanta/116697432274051394",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4ftnag62o",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-05T22:59:49.941892+00:00"
+  },
+  "HappyBirthdayFedericoGarciaLorca": {
+    "theme": "Birthday Federico Garcia Lorca",
+    "haiku": "Whispers of the moon,\nSongs weave through the nighttime air,\nStars twinkle in joy.\n#HappyBirthdayFedericoGarciaLorca from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116697436247921688",
+        "url": "https://mastodon.social/@ClamBakeSanta/116697436247921688",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4hmywqo2k",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-05T22:59:49.941892+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-05T22:59:49.941892+00:00"
+  }
+}
