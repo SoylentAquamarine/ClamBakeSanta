@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-05-28",
-    "theme": "National Brisket Day",
-    "haiku": "Smoky scents arise,\nTender brisket, spice embraced,\nFeast of warmth and cheer.\nHappy #NationalBrisketDay from @ClamBakeSanta",
-    "tag": "NationalBrisketDay",
-    "logged_at": "2026-05-28T12:31:03.592465+00:00"
-  },
-  {
-    "date": "2026-05-28",
-    "theme": "National Hamburger Day",
-    "haiku": "Grilled patties sizzle,\nGolden buns embrace the warmth,\nKetchup rivers flow.\nHappy #NationalHamburgerDay from @ClamBakeSanta",
-    "tag": "NationalHamburgerDay",
-    "logged_at": "2026-05-28T12:31:03.592465+00:00"
-  },
-  {
-    "date": "2026-05-28",
-    "theme": "Birthday Ian Fleming",
-    "haiku": "Golden sunbeams glow,\nCrisp leaves dance on warm breezes,\nCheers rise, hearts unite.\n#HappyBirthdayIanFleming from @ClamBakeSanta",
-    "tag": "HappyBirthdayIanFleming",
-    "logged_at": "2026-05-28T12:31:03.592465+00:00"
-  },
-  {
     "date": "2026-05-29",
     "theme": "National Coq au Vin Day",
     "haiku": "Rich red wine simmers,\nTender chicken cradled warm,\nHerbs dance in the pot.\nHappy #NationalCoqAuVinDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Sparkling candles glow,\nLaughter bubbles like ripe fruit,\nJoyful hearts unite.\n#HappyBirthdayJosephineBaker from @ClamBakeSanta",
     "tag": "HappyBirthdayJosephineBaker",
     "logged_at": "2026-06-03T13:19:21.950875+00:00"
+  },
+  {
+    "date": "2026-06-04",
+    "theme": "National Cheese Day",
+    "haiku": "Creamy wheels of joy,\nSavory bites bring delight,\nCheese dreams melt away.\nHappy #NationalCheeseDay from @ClamBakeSanta",
+    "tag": "NationalCheeseDay",
+    "logged_at": "2026-06-04T11:57:41.767438+00:00"
+  },
+  {
+    "date": "2026-06-04",
+    "theme": "National Hug Your Cat Day",
+    "haiku": "Purring on my lap,\nWhiskers twitch with joy and warmth,\nFurry love abounds.\nHappy #NationalHugYourCatDay from @ClamBakeSanta",
+    "tag": "NationalHugYourCatDay",
+    "logged_at": "2026-06-04T11:57:41.767438+00:00"
+  },
+  {
+    "date": "2026-06-04",
+    "theme": "Birthday Angelina Jolie",
+    "haiku": "Laughter fills the air,\nCandies shimmer like starlight,\nJoyous hearts unite.\n#HappyBirthdayAngelinaJolie from @ClamBakeSanta",
+    "tag": "HappyBirthdayAngelinaJolie",
+    "logged_at": "2026-06-04T11:57:41.767438+00:00"
   }
 ]

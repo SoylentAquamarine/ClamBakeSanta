@@ -51,7 +51,8 @@
     "2026-06-01",
     "2026-06-02",
     "2026-06-03",
-    "2026-06-04"
+    "2026-06-04",
+    "2026-06-05"
   ],
   "runs": [
     {
@@ -639,6 +640,17 @@
         "Birthday Angelina Jolie"
       ],
       "content_preview": "Creamy wheels of joy, Savory bites bring delight, Cheese dreams melt away. Happy #NationalCheeseDay from @ClamBakeSanta "
+    },
+    {
+      "date": "2026-06-05",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-05T12:18:55.923076+00:00",
+      "themes": [
+        "World Environment Day",
+        "National Gingerbread Day",
+        "Birthday Federico Garcia Lorca"
+      ],
+      "content_preview": "Leaves shimmer with dew, Whispers of life all around, Sunlight warms the earth. Happy #WorldEnvironmentDay from @ClamBak"
     }
   ]
 }

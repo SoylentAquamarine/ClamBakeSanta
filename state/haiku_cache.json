@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "haikus": [
     {
-      "theme": "National Cheese Day",
-      "haiku": "Creamy wheels of joy,\nSavory bites bring delight,\nCheese dreams melt away.\nHappy #NationalCheeseDay from @ClamBakeSanta",
-      "tag": "NationalCheeseDay",
+      "theme": "World Environment Day",
+      "haiku": "Leaves shimmer with dew,\nWhispers of life all around,\nSunlight warms the earth.\nHappy #WorldEnvironmentDay from @ClamBakeSanta",
+      "tag": "WorldEnvironmentDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Hug Your Cat Day",
-      "haiku": "Purring on my lap,\nWhiskers twitch with joy and warmth,\nFurry love abounds.\nHappy #NationalHugYourCatDay from @ClamBakeSanta",
-      "tag": "NationalHugYourCatDay",
+      "theme": "National Gingerbread Day",
+      "haiku": "Sugar spiced delight,\nGingerbread houses arise,\nFrosting dreams take flight.\nHappy #NationalGingerbreadDay from @ClamBakeSanta",
+      "tag": "NationalGingerbreadDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Angelina Jolie",
-      "haiku": "Laughter fills the air,\nCandies shimmer like starlight,\nJoyous hearts unite.\n#HappyBirthdayAngelinaJolie from @ClamBakeSanta",
-      "tag": "HappyBirthdayAngelinaJolie",
+      "theme": "Birthday Federico Garcia Lorca",
+      "haiku": "Whispers of the moon,\nSongs weave through the nighttime air,\nStars twinkle in joy.\n#HappyBirthdayFedericoGarciaLorca from @ClamBakeSanta",
+      "tag": "HappyBirthdayFedericoGarciaLorca",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Cheese Day",
-    "National Hug Your Cat Day",
-    "Birthday Angelina Jolie"
+    "World Environment Day",
+    "National Gingerbread Day",
+    "Birthday Federico Garcia Lorca"
   ],
-  "content": "Creamy wheels of joy,\nSavory bites bring delight,\nCheese dreams melt away.\nHappy #NationalCheeseDay from @ClamBakeSanta\n\nPurring on my lap,\nWhiskers twitch with joy and warmth,\nFurry love abounds.\nHappy #NationalHugYourCatDay from @ClamBakeSanta\n\nLaughter fills the air,\nCandies shimmer like starlight,\nJoyous hearts unite.\n#HappyBirthdayAngelinaJolie from @ClamBakeSanta",
-  "saved_at": "2026-06-04T11:57:41.767112+00:00"
+  "content": "Leaves shimmer with dew,\nWhispers of life all around,\nSunlight warms the earth.\nHappy #WorldEnvironmentDay from @ClamBakeSanta\n\nSugar spiced delight,\nGingerbread houses arise,\nFrosting dreams take flight.\nHappy #NationalGingerbreadDay from @ClamBakeSanta\n\nWhispers of the moon,\nSongs weave through the nighttime air,\nStars twinkle in joy.\n#HappyBirthdayFedericoGarciaLorca from @ClamBakeSanta",
+  "saved_at": "2026-06-05T12:10:40.317990+00:00"
 }
