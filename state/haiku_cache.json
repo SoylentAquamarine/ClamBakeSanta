@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-05",
+  "date": "2026-06-06",
   "haikus": [
     {
-      "theme": "World Environment Day",
-      "haiku": "Leaves shimmer with dew,\nWhispers of life all around,\nSunlight warms the earth.\nHappy #WorldEnvironmentDay from @ClamBakeSanta",
-      "tag": "WorldEnvironmentDay",
+      "theme": "National Applesauce Cake Day",
+      "haiku": "Cinnamon and spice,\nApplesauce hugs the warm cake,\nSweet joy on each bite.\nHappy #NationalApplesauceCakeDay from @ClamBakeSanta",
+      "tag": "NationalApplesauceCakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Gingerbread Day",
-      "haiku": "Sugar spiced delight,\nGingerbread houses arise,\nFrosting dreams take flight.\nHappy #NationalGingerbreadDay from @ClamBakeSanta",
-      "tag": "NationalGingerbreadDay",
+      "theme": "National Gardening Exercise Day",
+      "haiku": "Hands deep in rich soil,\nColors burst in joyful blooms,\nNature’s song surrounds.\nHappy #NationalGardeningExerciseDay from @ClamBakeSanta",
+      "tag": "NationalGardeningExerciseDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Federico Garcia Lorca",
-      "haiku": "Whispers of the moon,\nSongs weave through the nighttime air,\nStars twinkle in joy.\n#HappyBirthdayFedericoGarciaLorca from @ClamBakeSanta",
-      "tag": "HappyBirthdayFedericoGarciaLorca",
+      "theme": "Birthday Alexander Pushkin",
+      "haiku": "Pages crisp and white,\nWords like stars dance in the night,\nJoy blooms in the light.\n#HappyBirthdayAlexanderPushkin from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlexanderPushkin",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Thomas Mann",
+      "haiku": "Balloons sway and shine,\nSweet laughter fills the warm night,\nJoy wraps like soft quilts.\n#HappyBirthdayThomasMann from @ClamBakeSanta",
+      "tag": "HappyBirthdayThomasMann",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "World Environment Day",
-    "National Gingerbread Day",
-    "Birthday Federico Garcia Lorca"
+    "National Applesauce Cake Day",
+    "National Gardening Exercise Day",
+    "Birthday Alexander Pushkin",
+    "Birthday Thomas Mann"
   ],
-  "content": "Leaves shimmer with dew,\nWhispers of life all around,\nSunlight warms the earth.\nHappy #WorldEnvironmentDay from @ClamBakeSanta\n\nSugar spiced delight,\nGingerbread houses arise,\nFrosting dreams take flight.\nHappy #NationalGingerbreadDay from @ClamBakeSanta\n\nWhispers of the moon,\nSongs weave through the nighttime air,\nStars twinkle in joy.\n#HappyBirthdayFedericoGarciaLorca from @ClamBakeSanta",
-  "saved_at": "2026-06-05T12:10:40.317990+00:00"
+  "content": "Cinnamon and spice,\nApplesauce hugs the warm cake,\nSweet joy on each bite.\nHappy #NationalApplesauceCakeDay from @ClamBakeSanta\n\nHands deep in rich soil,\nColors burst in joyful blooms,\nNature’s song surrounds.\nHappy #NationalGardeningExerciseDay from @ClamBakeSanta\n\nPages crisp and white,\nWords like stars dance in the night,\nJoy blooms in the light.\n#HappyBirthdayAlexanderPushkin from @ClamBakeSanta\n\nBalloons sway and shine,\nSweet laughter fills the warm night,\nJoy wraps like soft quilts.\n#HappyBirthdayThomasMann from @ClamBakeSanta",
+  "saved_at": "2026-06-06T10:55:21.156532+00:00"
 }

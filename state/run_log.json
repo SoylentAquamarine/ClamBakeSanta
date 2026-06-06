@@ -52,7 +52,8 @@
     "2026-06-02",
     "2026-06-03",
     "2026-06-04",
-    "2026-06-05"
+    "2026-06-05",
+    "2026-06-06"
   ],
   "runs": [
     {
@@ -651,6 +652,18 @@
         "Birthday Federico Garcia Lorca"
       ],
       "content_preview": "Leaves shimmer with dew, Whispers of life all around, Sunlight warms the earth. Happy #WorldEnvironmentDay from @ClamBak"
+    },
+    {
+      "date": "2026-06-06",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-06T11:07:38.179050+00:00",
+      "themes": [
+        "National Applesauce Cake Day",
+        "National Gardening Exercise Day",
+        "Birthday Alexander Pushkin",
+        "Birthday Thomas Mann"
+      ],
+      "content_preview": "Cinnamon and spice, Applesauce hugs the warm cake, Sweet joy on each bite. Happy #NationalApplesauceCakeDay from @ClamBa"
     }
   ]
 }
