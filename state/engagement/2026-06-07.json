@@ -1,0 +1,78 @@
+{
+  "NationalChocolateIceCreamDay": {
+    "theme": "National Chocolate Ice Cream Day",
+    "haiku": "Cool scoop in my hand,\nMelting sweetly, rich delight,\nChocolate dreams abound.\nHappy #NationalChocolateIceCreamDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116708517745887854",
+        "url": "https://mastodon.social/@ClamBakeSanta/116708517745887854",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnozwwwubl2m",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-07T22:56:55.992525+00:00"
+  },
+  "NationalBowtieDay": {
+    "theme": "National Bowtie Day",
+    "haiku": "Dapper ties arranged,\nColors dance with bright sunlight,\nStyle wrapped in pure cheer.\nHappy #NationalBowtieDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116708521720968074",
+        "url": "https://mastodon.social/@ClamBakeSanta/116708521720968074",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnozyqfu2u2m",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-07T22:56:55.992525+00:00"
+  },
+  "HappyBirthdayPaulGauguin": {
+    "theme": "Birthday Paul Gauguin",
+    "haiku": "Colors dance and sway,\nBrush strokes of joy embrace life,\nArt blooms in warm light.\n#HappyBirthdayPaulGauguin from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116708525679859964",
+        "url": "https://mastodon.social/@ClamBakeSanta/116708525679859964",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnp22k3om32s",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-07T22:56:55.992525+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-07T22:56:55.992525+00:00"
+  }
+}
