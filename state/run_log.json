@@ -53,7 +53,8 @@
     "2026-06-03",
     "2026-06-04",
     "2026-06-05",
-    "2026-06-06"
+    "2026-06-06",
+    "2026-06-07"
   ],
   "runs": [
     {
@@ -664,6 +665,17 @@
         "Birthday Thomas Mann"
       ],
       "content_preview": "Cinnamon and spice, Applesauce hugs the warm cake, Sweet joy on each bite. Happy #NationalApplesauceCakeDay from @ClamBa"
+    },
+    {
+      "date": "2026-06-07",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-07T11:19:08.465608+00:00",
+      "themes": [
+        "National Chocolate Ice Cream Day",
+        "National Bowtie Day",
+        "Birthday Paul Gauguin"
+      ],
+      "content_preview": "Cool scoop in my hand, Melting sweetly, rich delight, Chocolate dreams abound. Happy #NationalChocolateIceCreamDay from "
     }
   ]
 }

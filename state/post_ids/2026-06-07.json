@@ -1,0 +1,62 @@
+{
+  "NationalChocolateIceCreamDay": {
+    "mastodon": {
+      "id": "116708517745887854",
+      "url": "https://mastodon.social/@ClamBakeSanta/116708517745887854"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnozwwwubl2m",
+      "cid": "bafyreifhjv6kxt6vsifzifodmwxpnr4ncm4wmh5jnzdcmi7vbthohe7yiu"
+    },
+    "tumblr": {
+      "id": "818760538769244160",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "173",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalBowtieDay": {
+    "mastodon": {
+      "id": "116708521720968074",
+      "url": "https://mastodon.social/@ClamBakeSanta/116708521720968074"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnozyqfu2u2m",
+      "cid": "bafyreibpippv7ntsqou7oqlg5bfige2n6t4ndzukqlvu5ugfhl6kjucvru"
+    },
+    "tumblr": {
+      "id": "818760602091765760",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "174",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayPaulGauguin": {
+    "mastodon": {
+      "id": "116708525679859964",
+      "url": "https://mastodon.social/@ClamBakeSanta/116708525679859964"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnp22k3om32s",
+      "cid": "bafyreihe4yu4mbdbrsbu7yc2fdvdm5rkgca7exfmjvumtdb6nyhupsgj6a"
+    },
+    "tumblr": {
+      "id": "818760665356550145",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "175",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "70",
+      "url": "https://clambakesanta.wordpress.com/2026/06/07/clam-bake-santa-2026-06-07/"
+    }
+  }
+}

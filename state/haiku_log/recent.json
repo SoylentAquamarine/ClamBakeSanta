@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-05-30",
-    "theme": "National Mint Julep Day",
-    "haiku": "Mint leaves dance with sun,\nCool sips in the warm daylight,\nCheers rise, joy abounds.\nHappy #NationalMintJulepDay from @ClamBakeSanta",
-    "tag": "NationalMintJulepDay",
-    "logged_at": "2026-05-30T10:48:29.169062+00:00"
-  },
-  {
-    "date": "2026-05-30",
-    "theme": "National Creativity Day",
-    "haiku": "Colors splash and twirl,\nBrushes dance on canvas bright,\nDreams ignite the heart.\nHappy #NationalCreativityDay from @ClamBakeSanta",
-    "tag": "NationalCreativityDay",
-    "logged_at": "2026-05-30T10:48:29.169062+00:00"
-  },
-  {
-    "date": "2026-05-30",
-    "theme": "Birthday Benny Goodman",
-    "haiku": "Bright notes fill the room,\nDancing feet in soft shadows,\nJoyful hearts unite.\n#HappyBirthdayBennyGoodman from @ClamBakeSanta",
-    "tag": "HappyBirthdayBennyGoodman",
-    "logged_at": "2026-05-30T10:48:29.169062+00:00"
-  },
-  {
-    "date": "2026-05-30",
-    "theme": "Birthday Mel Blanc",
-    "haiku": "Voice of many charms,\nLaughter dances through the room,\nSweet cake smiles abound.\n#HappyBirthdayMelBlanc from @ClamBakeSanta",
-    "tag": "HappyBirthdayMelBlanc",
-    "logged_at": "2026-05-30T10:48:29.169062+00:00"
-  },
-  {
     "date": "2026-05-31",
     "theme": "World No Tobacco Day",
     "haiku": "Fresh blooms greet the dawn,\nClear lungs breathe in bright, sweet air,\nJoyful hearts unite.\nHappy #WorldNoTobaccoDay from @ClamBakeSanta",
@@ -159,5 +131,33 @@
     "haiku": "Whispers of the moon,\nSongs weave through the nighttime air,\nStars twinkle in joy.\n#HappyBirthdayFedericoGarciaLorca from @ClamBakeSanta",
     "tag": "HappyBirthdayFedericoGarciaLorca",
     "logged_at": "2026-06-05T12:10:40.318441+00:00"
+  },
+  {
+    "date": "2026-06-06",
+    "theme": "National Applesauce Cake Day",
+    "haiku": "Cinnamon and spice,\nApplesauce hugs the warm cake,\nSweet joy on each bite.\nHappy #NationalApplesauceCakeDay from @ClamBakeSanta",
+    "tag": "NationalApplesauceCakeDay",
+    "logged_at": "2026-06-06T10:55:21.156918+00:00"
+  },
+  {
+    "date": "2026-06-06",
+    "theme": "National Gardening Exercise Day",
+    "haiku": "Hands deep in rich soil,\nColors burst in joyful blooms,\nNature’s song surrounds.\nHappy #NationalGardeningExerciseDay from @ClamBakeSanta",
+    "tag": "NationalGardeningExerciseDay",
+    "logged_at": "2026-06-06T10:55:21.156918+00:00"
+  },
+  {
+    "date": "2026-06-06",
+    "theme": "Birthday Alexander Pushkin",
+    "haiku": "Pages crisp and white,\nWords like stars dance in the night,\nJoy blooms in the light.\n#HappyBirthdayAlexanderPushkin from @ClamBakeSanta",
+    "tag": "HappyBirthdayAlexanderPushkin",
+    "logged_at": "2026-06-06T10:55:21.156918+00:00"
+  },
+  {
+    "date": "2026-06-06",
+    "theme": "Birthday Thomas Mann",
+    "haiku": "Balloons sway and shine,\nSweet laughter fills the warm night,\nJoy wraps like soft quilts.\n#HappyBirthdayThomasMann from @ClamBakeSanta",
+    "tag": "HappyBirthdayThomasMann",
+    "logged_at": "2026-06-06T10:55:21.156918+00:00"
   }
 ]

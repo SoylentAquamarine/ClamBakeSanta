@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-06",
+  "date": "2026-06-07",
   "haikus": [
     {
-      "theme": "National Applesauce Cake Day",
-      "haiku": "Cinnamon and spice,\nApplesauce hugs the warm cake,\nSweet joy on each bite.\nHappy #NationalApplesauceCakeDay from @ClamBakeSanta",
-      "tag": "NationalApplesauceCakeDay",
+      "theme": "National Chocolate Ice Cream Day",
+      "haiku": "Cool scoop in my hand,\nMelting sweetly, rich delight,\nChocolate dreams abound.\nHappy #NationalChocolateIceCreamDay from @ClamBakeSanta",
+      "tag": "NationalChocolateIceCreamDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Gardening Exercise Day",
-      "haiku": "Hands deep in rich soil,\nColors burst in joyful blooms,\nNature’s song surrounds.\nHappy #NationalGardeningExerciseDay from @ClamBakeSanta",
-      "tag": "NationalGardeningExerciseDay",
+      "theme": "National Bowtie Day",
+      "haiku": "Dapper ties arranged,\nColors dance with bright sunlight,\nStyle wrapped in pure cheer.\nHappy #NationalBowtieDay from @ClamBakeSanta",
+      "tag": "NationalBowtieDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Alexander Pushkin",
-      "haiku": "Pages crisp and white,\nWords like stars dance in the night,\nJoy blooms in the light.\n#HappyBirthdayAlexanderPushkin from @ClamBakeSanta",
-      "tag": "HappyBirthdayAlexanderPushkin",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Thomas Mann",
-      "haiku": "Balloons sway and shine,\nSweet laughter fills the warm night,\nJoy wraps like soft quilts.\n#HappyBirthdayThomasMann from @ClamBakeSanta",
-      "tag": "HappyBirthdayThomasMann",
+      "theme": "Birthday Paul Gauguin",
+      "haiku": "Colors dance and sway,\nBrush strokes of joy embrace life,\nArt blooms in warm light.\n#HappyBirthdayPaulGauguin from @ClamBakeSanta",
+      "tag": "HappyBirthdayPaulGauguin",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Applesauce Cake Day",
-    "National Gardening Exercise Day",
-    "Birthday Alexander Pushkin",
-    "Birthday Thomas Mann"
+    "National Chocolate Ice Cream Day",
+    "National Bowtie Day",
+    "Birthday Paul Gauguin"
   ],
-  "content": "Cinnamon and spice,\nApplesauce hugs the warm cake,\nSweet joy on each bite.\nHappy #NationalApplesauceCakeDay from @ClamBakeSanta\n\nHands deep in rich soil,\nColors burst in joyful blooms,\nNature’s song surrounds.\nHappy #NationalGardeningExerciseDay from @ClamBakeSanta\n\nPages crisp and white,\nWords like stars dance in the night,\nJoy blooms in the light.\n#HappyBirthdayAlexanderPushkin from @ClamBakeSanta\n\nBalloons sway and shine,\nSweet laughter fills the warm night,\nJoy wraps like soft quilts.\n#HappyBirthdayThomasMann from @ClamBakeSanta",
-  "saved_at": "2026-06-06T10:55:21.156532+00:00"
+  "content": "Cool scoop in my hand,\nMelting sweetly, rich delight,\nChocolate dreams abound.\nHappy #NationalChocolateIceCreamDay from @ClamBakeSanta\n\nDapper ties arranged,\nColors dance with bright sunlight,\nStyle wrapped in pure cheer.\nHappy #NationalBowtieDay from @ClamBakeSanta\n\nColors dance and sway,\nBrush strokes of joy embrace life,\nArt blooms in warm light.\n#HappyBirthdayPaulGauguin from @ClamBakeSanta",
+  "saved_at": "2026-06-07T11:10:53.539132+00:00"
 }
