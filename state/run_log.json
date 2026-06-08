@@ -54,7 +54,8 @@
     "2026-06-04",
     "2026-06-05",
     "2026-06-06",
-    "2026-06-07"
+    "2026-06-07",
+    "2026-06-08"
   ],
   "runs": [
     {
@@ -676,6 +677,18 @@
         "Birthday Paul Gauguin"
       ],
       "content_preview": "Cool scoop in my hand, Melting sweetly, rich delight, Chocolate dreams abound. Happy #NationalChocolateIceCreamDay from "
+    },
+    {
+      "date": "2026-06-08",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-08T13:21:52.491511+00:00",
+      "themes": [
+        "World Oceans Day",
+        "National Best Friends Day",
+        "Birthday Frank Lloyd Wright",
+        "Last Quarter Moon"
+      ],
+      "content_preview": "Waves dance with the sun, Bright shells twinkle on the shore, Blue depths sing with joy. Happy #WorldOceansDay from @Cla"
     }
   ]
 }

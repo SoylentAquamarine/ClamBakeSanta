@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-07",
+  "date": "2026-06-08",
   "haikus": [
     {
-      "theme": "National Chocolate Ice Cream Day",
-      "haiku": "Cool scoop in my hand,\nMelting sweetly, rich delight,\nChocolate dreams abound.\nHappy #NationalChocolateIceCreamDay from @ClamBakeSanta",
-      "tag": "NationalChocolateIceCreamDay",
+      "theme": "World Oceans Day",
+      "haiku": "Waves dance with the sun,\nBright shells twinkle on the shore,\nBlue depths sing with joy.\nHappy #WorldOceansDay from @ClamBakeSanta",
+      "tag": "WorldOceansDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Bowtie Day",
-      "haiku": "Dapper ties arranged,\nColors dance with bright sunlight,\nStyle wrapped in pure cheer.\nHappy #NationalBowtieDay from @ClamBakeSanta",
-      "tag": "NationalBowtieDay",
+      "theme": "National Best Friends Day",
+      "haiku": "Sunshine warms the heart,\nSide by side, dreams take their flight,\nFriendship's sweet embrace.\nHappy #NationalBestFriendsDay from @ClamBakeSanta",
+      "tag": "NationalBestFriendsDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Paul Gauguin",
-      "haiku": "Colors dance and sway,\nBrush strokes of joy embrace life,\nArt blooms in warm light.\n#HappyBirthdayPaulGauguin from @ClamBakeSanta",
-      "tag": "HappyBirthdayPaulGauguin",
+      "theme": "Birthday Frank Lloyd Wright",
+      "haiku": "Designs like sunlight,\nNature dances through the glass,\nHarmony in blooms.\n#HappyBirthdayFrankLloydWright from @ClamBakeSanta",
+      "tag": "HappyBirthdayFrankLloydWright",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Last Quarter Moon",
+      "haiku": "Silver light whispers,\nSoft shadows dance in the night,\nStars twinkle with joy.\nHappy #LastQuarterMoon from @ClamBakeSanta",
+      "tag": "LastQuarterMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Chocolate Ice Cream Day",
-    "National Bowtie Day",
-    "Birthday Paul Gauguin"
+    "World Oceans Day",
+    "National Best Friends Day",
+    "Birthday Frank Lloyd Wright",
+    "Last Quarter Moon"
   ],
-  "content": "Cool scoop in my hand,\nMelting sweetly, rich delight,\nChocolate dreams abound.\nHappy #NationalChocolateIceCreamDay from @ClamBakeSanta\n\nDapper ties arranged,\nColors dance with bright sunlight,\nStyle wrapped in pure cheer.\nHappy #NationalBowtieDay from @ClamBakeSanta\n\nColors dance and sway,\nBrush strokes of joy embrace life,\nArt blooms in warm light.\n#HappyBirthdayPaulGauguin from @ClamBakeSanta",
-  "saved_at": "2026-06-07T11:10:53.539132+00:00"
+  "content": "Waves dance with the sun,\nBright shells twinkle on the shore,\nBlue depths sing with joy.\nHappy #WorldOceansDay from @ClamBakeSanta\n\nSunshine warms the heart,\nSide by side, dreams take their flight,\nFriendship's sweet embrace.\nHappy #NationalBestFriendsDay from @ClamBakeSanta\n\nDesigns like sunlight,\nNature dances through the glass,\nHarmony in blooms.\n#HappyBirthdayFrankLloydWright from @ClamBakeSanta\n\nSilver light whispers,\nSoft shadows dance in the night,\nStars twinkle with joy.\nHappy #LastQuarterMoon from @ClamBakeSanta",
+  "saved_at": "2026-06-08T13:09:36.188619+00:00"
 }
