@@ -55,7 +55,8 @@
     "2026-06-05",
     "2026-06-06",
     "2026-06-07",
-    "2026-06-08"
+    "2026-06-08",
+    "2026-06-09"
   ],
   "runs": [
     {
@@ -689,6 +690,17 @@
         "Last Quarter Moon"
       ],
       "content_preview": "Waves dance with the sun, Bright shells twinkle on the shore, Blue depths sing with joy. Happy #WorldOceansDay from @Cla"
+    },
+    {
+      "date": "2026-06-09",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-09T12:15:15.149354+00:00",
+      "themes": [
+        "National Strawberry Rhubarb Pie Day",
+        "Donald Duck Day",
+        "Birthday Cole Porter"
+      ],
+      "content_preview": "Fresh pie on the sill, Sweet-tart scents in the warm air, Crust and joy unite. Happy #NationalStrawberryRhubarbPieDay fr"
     }
   ]
 }

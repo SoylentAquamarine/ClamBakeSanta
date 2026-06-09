@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "haikus": [
     {
-      "theme": "World Oceans Day",
-      "haiku": "Waves dance with the sun,\nBright shells twinkle on the shore,\nBlue depths sing with joy.\nHappy #WorldOceansDay from @ClamBakeSanta",
-      "tag": "WorldOceansDay",
+      "theme": "National Strawberry Rhubarb Pie Day",
+      "haiku": "Fresh pie on the sill,\nSweet-tart scents in the warm air,\nCrust and joy unite.\nHappy #NationalStrawberryRhubarbPieDay from @ClamBakeSanta",
+      "tag": "NationalStrawberryRhubarbPieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Best Friends Day",
-      "haiku": "Sunshine warms the heart,\nSide by side, dreams take their flight,\nFriendship's sweet embrace.\nHappy #NationalBestFriendsDay from @ClamBakeSanta",
-      "tag": "NationalBestFriendsDay",
+      "theme": "Donald Duck Day",
+      "haiku": "Feathers bright and bold,\nSplashing in a sunny pond,\nWaddles full of glee.\nHappy #DonaldDuckDay from @ClamBakeSanta",
+      "tag": "DonaldDuckDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Frank Lloyd Wright",
-      "haiku": "Designs like sunlight,\nNature dances through the glass,\nHarmony in blooms.\n#HappyBirthdayFrankLloydWright from @ClamBakeSanta",
-      "tag": "HappyBirthdayFrankLloydWright",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Last Quarter Moon",
-      "haiku": "Silver light whispers,\nSoft shadows dance in the night,\nStars twinkle with joy.\nHappy #LastQuarterMoon from @ClamBakeSanta",
-      "tag": "LastQuarterMoon",
+      "theme": "Birthday Cole Porter",
+      "haiku": "Bright notes fill the room,\nMelodies dance like warm light,\nCake and cheer abound.\n#HappyBirthdayColePorter from @ClamBakeSanta",
+      "tag": "HappyBirthdayColePorter",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "World Oceans Day",
-    "National Best Friends Day",
-    "Birthday Frank Lloyd Wright",
-    "Last Quarter Moon"
+    "National Strawberry Rhubarb Pie Day",
+    "Donald Duck Day",
+    "Birthday Cole Porter"
   ],
-  "content": "Waves dance with the sun,\nBright shells twinkle on the shore,\nBlue depths sing with joy.\nHappy #WorldOceansDay from @ClamBakeSanta\n\nSunshine warms the heart,\nSide by side, dreams take their flight,\nFriendship's sweet embrace.\nHappy #NationalBestFriendsDay from @ClamBakeSanta\n\nDesigns like sunlight,\nNature dances through the glass,\nHarmony in blooms.\n#HappyBirthdayFrankLloydWright from @ClamBakeSanta\n\nSilver light whispers,\nSoft shadows dance in the night,\nStars twinkle with joy.\nHappy #LastQuarterMoon from @ClamBakeSanta",
-  "saved_at": "2026-06-08T13:09:36.188619+00:00"
+  "content": "Fresh pie on the sill,\nSweet-tart scents in the warm air,\nCrust and joy unite.\nHappy #NationalStrawberryRhubarbPieDay from @ClamBakeSanta\n\nFeathers bright and bold,\nSplashing in a sunny pond,\nWaddles full of glee.\nHappy #DonaldDuckDay from @ClamBakeSanta\n\nBright notes fill the room,\nMelodies dance like warm light,\nCake and cheer abound.\n#HappyBirthdayColePorter from @ClamBakeSanta",
+  "saved_at": "2026-06-09T12:07:06.768010+00:00"
 }
