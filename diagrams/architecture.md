@@ -1,54 +1,91 @@
 # System Architecture
 
-High-level view of the plugin framework: one source produces an Event, one engine transforms it into a Result, nine adapters publish independently.
+High-level view of the current ClamBakeSanta implementation: GitHub Actions trigger Python entry points, `framework.runner` executes the plugin pipeline, adapters publish sequentially, and state is committed back to the repository.
 
 ```mermaid
 flowchart TD
-    subgraph DATA["Data Layer (editorial control)"]
-        FH["data/MONTH_randomholiday.txt\nFixed holidays"]
-        EH["data/ephemeral/YYYY-MM.txt\nEphemeral holidays (auto-generated)"]
-        CB["data/MONTH_celebritybirthday.txt\nCelebrity birthdays"]
-        CE["data/celestial/YYYY-MM.txt\nCelestial events (auto-generated)"]
+    subgraph ACTIONS["GitHub Actions"]
+        MONTHLY["generate_monthly.yml\nmonthly generated data"]
+        SUBWF["check_subscriptions.yml\ncurrent script is placeholder"]
+        DAILY["daily.yml\npython run.py"]
+        ENGWF["check_engagement.yml\npython check_engagement.py"]
+        REPORT["weekly_report.yml\npython weekly_report.py"]
     end
 
-    subgraph SOURCE["Source Plugin"]
-        DT["daily_themes\nPriority + cap logic\n(max 6/day)"]
+    subgraph DATA["Data Layer"]
+        FH["data/MONTH_randomholiday.txt\nfixed holidays"]
+        EH["data/ephemeral/YYYY-MM.txt\nvariable-date holidays"]
+        CB["data/MONTH_celebritybirthday.txt\ncelebrity birthdays"]
+        CE["data/celestial/YYYY-MM.txt\nmoon phases, zodiac, meteor showers"]
+        RULES["data/ephemeral_rules.txt\nhuman-maintained rules"]
     end
 
-    subgraph ENGINE["Engine Plugin"]
-        CBS["clambakesanta\nAI haiku generation\n5-7-5 validation · 5 retries"]
-        CACHE[("state/haiku_cache.json\nShared across all adapters")]
+    subgraph PIPELINE["Daily Framework Pipeline"]
+        RUNPY["run.py\nloads config.yml"]
+        RUNNER["framework.runner\nsource → engine/cache → adapters → state"]
+        SRC["daily_themes source\npriority + cap logic"]
+        ENGINE["clambakesanta engine\nAI generation + 5-7-5 validation"]
+        CACHE[("state/haiku_cache.json\nshared same-day result")]
     end
 
-    subgraph ADAPTERS["Adapter Plugins (independent — one failure never stops others)"]
-        MA["Mastodon"]
-        BS["Bluesky"]
-        TU["Tumblr"]
-        TG["Telegram"]
-        EL["Email List"]
-        RD["Reddit"]
-        WP["WordPress"]
-        GP["GitHub Pages\n+ RSS"]
-        DC["Discord"]
+    subgraph ADAPTERS["Adapters run sequentially in config.yml order"]
+        MA["mastodon"]
+        BS["bluesky"]
+        TU["tumblr"]
+        TG["telegram"]
+        EL["email_list\nreads subscribers.json"]
+        RD["reddit"]
+        WP["wordpress"]
+        GP["github_pages\nHTML + RSS"]
+        DC["discord"]
     end
 
-    subgraph STATE["State"]
-        HL["state/haiku_log/\nEvery haiku ever generated"]
-        RL["state/run_log/\nPer-run summary"]
-        WB["state/writers_block/\nFailed attempts for analysis"]
-        PI["state/post_ids/\nPer-platform post IDs"]
-        EN["state/engagement/\nLikes · boosts · replies"]
-        SB["state/subscribers.json\nEmail mailing list"]
+    subgraph STATE["Repository State"]
+        HL["state/haiku_log/"]
+        RL["state/run_log/"]
+        WB["state/writers_block/"]
+        PI["state/post_ids/"]
+        EN["state/engagement/"]
+        SB["state/subscribers.json\nplanned subscription store"]
+        DOCS["docs/\nGitHub Pages output"]
     end
 
-    FH & EH & CB & CE --> DT
-    DT -->|"Event\n(themes list)"| CBS
-    CBS <-->|"cache hit/miss"| CACHE
-    CBS --> HL & RL & WB
+    subgraph ANALYTICS["Analytics and Reporting"]
+        CHECK["check_engagement.py"]
+        WEEKLY["weekly_report.py"]
+    end
 
-    CBS -->|"Result\n(haikus + metadata)"| MA & BS & TU & TG & EL & RD & WP & GP & DC
+    RULES --> MONTHLY
+    MONTHLY --> EH & CE
+    FH & EH & CB & CE --> SRC
 
-    MA & BS & TU & TG & RD & WP -->|"post IDs"| PI
-    PI --> EN
-    EL <--> SB
+    DAILY --> RUNPY --> RUNNER --> SRC
+    SRC -->|"Event(themes)"| ENGINE
+    ENGINE <-->|"cache hit/miss"| CACHE
+    ENGINE -->|"Result"| RUNNER
+
+    RUNNER -->|"for each adapter"| MA --> BS --> TU --> TG --> EL --> RD --> WP --> GP --> DC
+
+    MA & BS & TU & TG & RD & WP --> PI
+    GP --> DOCS
+    EL -. reads .-> SB
+    SUBWF -. planned future maintenance .-> SB
+
+    RUNNER --> HL & RL & WB & CACHE
+    PI --> CHECK
+    ENGWF --> CHECK --> EN
+    REPORT --> WEEKLY
+    EN --> WEEKLY
+
+    style SUBWF fill:#7f5539,color:#fff
+    style SB fill:#7f5539,color:#fff
+    style ADAPTERS fill:#1d3557,color:#fff
 ```
+
+## Important implementation notes
+
+- The pipeline is plugin-based, but the active haiku implementation is configured by `config.yml`.
+- Adapters are independent but **not parallel**. `framework.runner` iterates through them sequentially in `config.yml` order.
+- Missing adapter credentials generally cause that adapter to skip without stopping the run.
+- The subscription workflow is scheduled, but the current `check_subscriptions.py` file is placeholder/demo code. The daily email adapter can send to addresses already present in `state/subscribers.json`; automated Gmail-based subscribe/unsubscribe processing is still pending.
+- GitHub Actions schedules live in `.github/workflows/*.yml`, not in `config.yml`.
