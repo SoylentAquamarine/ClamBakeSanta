@@ -21,7 +21,7 @@ This README describes the current implementation, not just the original design i
 | Monthly generated data | Implemented | `generate_monthly.yml` runs `scripts/generate_monthly_data.py` monthly; `daily_themes` can auto-generate missing current-month files as fallback. |
 | AI generation and validation | Implemented | `clambakesanta` calls an OpenAI-compatible API, validates 5-7-5 syllables, retries, and logs writer's block. |
 | Same-day haiku cache | Implemented | `state/haiku_cache.json` ensures all adapters use the same poems for a date. |
-| Publishing adapters | Implemented/credential-gated | Adapters run sequentially in `config.yml` order. Missing credentials usually cause graceful skips. |
+| Publishing adapters | Implemented / credential-dependent | Adapters run sequentially in `config.yml` order. Missing credentials usually cause adapters to skip; runtime failures are logged and isolated so later adapters can continue. |
 | Engagement tracking | Implemented | `check_engagement.yml` reads stored post IDs and writes `state/engagement/`. |
 | Weekly report | Implemented | `weekly_report.yml` emails a ranked engagement report to `REPORT_EMAIL`. |
 | Email digest delivery | Implemented if configured | `email_list` reads `state/subscribers.json` and sends daily mail through Gmail SMTP. |
@@ -166,6 +166,12 @@ Mermaid diagrams live in `diagrams/`:
 | `diagrams/workflow-schedule.md` | GitHub Actions schedules and manual inputs. |
 | `diagrams/state-files.md` | State ownership and retention. |
 | `diagrams/data-generation.md` | Monthly data generation. |
+
+---
+
+## Project history
+
+See [CHANGELOG.md](CHANGELOG.md) for historical releases and major documentation updates.
 
 ---
 
