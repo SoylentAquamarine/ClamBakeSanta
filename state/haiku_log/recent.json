@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-02",
-    "theme": "National Rocky Road Ice Cream Day",
-    "haiku": "Chocolate swirls cascade,\nCrunchy nuts and marshmallows,\nScoops of joy abound.\nHappy #NationalRockyRoadIceCreamDay from @ClamBakeSanta",
-    "tag": "NationalRockyRoadIceCreamDay",
-    "logged_at": "2026-06-02T12:44:34.893174+00:00"
-  },
-  {
-    "date": "2026-06-02",
-    "theme": "National Rotisserie Chicken Day",
-    "haiku": "Juicy, tender gold,\nHerbs and spices intertwine,\nGathered hearts rejoice.\nHappy #NationalRotisserieChickenDay from @ClamBakeSanta",
-    "tag": "NationalRotisserieChickenDay",
-    "logged_at": "2026-06-02T12:44:34.893174+00:00"
-  },
-  {
-    "date": "2026-06-02",
-    "theme": "Birthday Thomas Hardy",
-    "haiku": "Candles flicker bright,\nLaughter fills the cozy room,\nJoy wraps all like spring.\n#HappyBirthdayThomasHardy from @ClamBakeSanta",
-    "tag": "HappyBirthdayThomasHardy",
-    "logged_at": "2026-06-02T12:44:34.893174+00:00"
-  },
-  {
     "date": "2026-06-03",
     "theme": "National Egg Day",
     "haiku": "Sunny yolks delight,\nWhisking dreams in morning light,\nEggs dance in the pan.\nHappy #NationalEggDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Silver light whispers,\nSoft shadows dance in the night,\nStars twinkle with joy.\nHappy #LastQuarterMoon from @ClamBakeSanta",
     "tag": "LastQuarterMoon",
     "logged_at": "2026-06-08T13:09:36.189103+00:00"
+  },
+  {
+    "date": "2026-06-09",
+    "theme": "National Strawberry Rhubarb Pie Day",
+    "haiku": "Fresh pie on the sill,\nSweet-tart scents in the warm air,\nCrust and joy unite.\nHappy #NationalStrawberryRhubarbPieDay from @ClamBakeSanta",
+    "tag": "NationalStrawberryRhubarbPieDay",
+    "logged_at": "2026-06-09T12:07:06.768371+00:00"
+  },
+  {
+    "date": "2026-06-09",
+    "theme": "Donald Duck Day",
+    "haiku": "Feathers bright and bold,\nSplashing in a sunny pond,\nWaddles full of glee.\nHappy #DonaldDuckDay from @ClamBakeSanta",
+    "tag": "DonaldDuckDay",
+    "logged_at": "2026-06-09T12:07:06.768371+00:00"
+  },
+  {
+    "date": "2026-06-09",
+    "theme": "Birthday Cole Porter",
+    "haiku": "Bright notes fill the room,\nMelodies dance like warm light,\nCake and cheer abound.\n#HappyBirthdayColePorter from @ClamBakeSanta",
+    "tag": "HappyBirthdayColePorter",
+    "logged_at": "2026-06-09T12:07:06.768371+00:00"
   }
 ]

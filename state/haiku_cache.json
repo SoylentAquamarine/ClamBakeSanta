@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "haikus": [
     {
-      "theme": "National Strawberry Rhubarb Pie Day",
-      "haiku": "Fresh pie on the sill,\nSweet-tart scents in the warm air,\nCrust and joy unite.\nHappy #NationalStrawberryRhubarbPieDay from @ClamBakeSanta",
-      "tag": "NationalStrawberryRhubarbPieDay",
+      "theme": "National Iced Tea Day",
+      "haiku": "Frosty glass in hand,\nLemon slices swirl like sun,\nSipping summer's ease.\nHappy #NationalIcedTeaDay from @ClamBakeSanta",
+      "tag": "NationalIcedTeaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Donald Duck Day",
-      "haiku": "Feathers bright and bold,\nSplashing in a sunny pond,\nWaddles full of glee.\nHappy #DonaldDuckDay from @ClamBakeSanta",
-      "tag": "DonaldDuckDay",
+      "theme": "Ballpoint Pen Day",
+      "haiku": "Ink flows like river,\nWords dance on the soft paper,\nDreams take flight today.\nHappy #BallpointPenDay from @ClamBakeSanta",
+      "tag": "BallpointPenDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Cole Porter",
-      "haiku": "Bright notes fill the room,\nMelodies dance like warm light,\nCake and cheer abound.\n#HappyBirthdayColePorter from @ClamBakeSanta",
-      "tag": "HappyBirthdayColePorter",
+      "theme": "Birthday Judy Garland",
+      "haiku": "Velvet skies above,\nSweet melodies dance with light,\nHeartfelt cheers abound.\n#HappyBirthdayJudyGarland from @ClamBakeSanta",
+      "tag": "HappyBirthdayJudyGarland",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Maurice Sendak",
+      "haiku": "Wild things dance and play,\nImagination takes flight,\nDreams stir in the night.\n#HappyBirthdayMauriceSendak from @ClamBakeSanta",
+      "tag": "HappyBirthdayMauriceSendak",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Strawberry Rhubarb Pie Day",
-    "Donald Duck Day",
-    "Birthday Cole Porter"
+    "National Iced Tea Day",
+    "Ballpoint Pen Day",
+    "Birthday Judy Garland",
+    "Birthday Maurice Sendak"
   ],
-  "content": "Fresh pie on the sill,\nSweet-tart scents in the warm air,\nCrust and joy unite.\nHappy #NationalStrawberryRhubarbPieDay from @ClamBakeSanta\n\nFeathers bright and bold,\nSplashing in a sunny pond,\nWaddles full of glee.\nHappy #DonaldDuckDay from @ClamBakeSanta\n\nBright notes fill the room,\nMelodies dance like warm light,\nCake and cheer abound.\n#HappyBirthdayColePorter from @ClamBakeSanta",
-  "saved_at": "2026-06-09T12:07:06.768010+00:00"
+  "content": "Frosty glass in hand,\nLemon slices swirl like sun,\nSipping summer's ease.\nHappy #NationalIcedTeaDay from @ClamBakeSanta\n\nInk flows like river,\nWords dance on the soft paper,\nDreams take flight today.\nHappy #BallpointPenDay from @ClamBakeSanta\n\nVelvet skies above,\nSweet melodies dance with light,\nHeartfelt cheers abound.\n#HappyBirthdayJudyGarland from @ClamBakeSanta\n\nWild things dance and play,\nImagination takes flight,\nDreams stir in the night.\n#HappyBirthdayMauriceSendak from @ClamBakeSanta",
+  "saved_at": "2026-06-10T12:23:51.582265+00:00"
 }

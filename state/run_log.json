@@ -56,7 +56,8 @@
     "2026-06-06",
     "2026-06-07",
     "2026-06-08",
-    "2026-06-09"
+    "2026-06-09",
+    "2026-06-10"
   ],
   "runs": [
     {
@@ -701,6 +702,18 @@
         "Birthday Cole Porter"
       ],
       "content_preview": "Fresh pie on the sill, Sweet-tart scents in the warm air, Crust and joy unite. Happy #NationalStrawberryRhubarbPieDay fr"
+    },
+    {
+      "date": "2026-06-10",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-10T12:36:02.544313+00:00",
+      "themes": [
+        "National Iced Tea Day",
+        "Ballpoint Pen Day",
+        "Birthday Judy Garland",
+        "Birthday Maurice Sendak"
+      ],
+      "content_preview": "Frosty glass in hand, Lemon slices swirl like sun, Sipping summer's ease. Happy #NationalIcedTeaDay from @ClamBakeSanta "
     }
   ]
 }

@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-06-10T12:36:02.544960+00:00",
+    "date": "2026-06-10",
+    "themes_found": [
+      "National Iced Tea Day",
+      "Ballpoint Pen Day",
+      "Birthday Judy Garland",
+      "Birthday Maurice Sendak"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Iced Tea Day",
+        "tag": "NationalIcedTeaDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Ballpoint Pen Day",
+        "tag": "BallpointPenDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Judy Garland",
+        "tag": "HappyBirthdayJudyGarland",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Maurice Sendak",
+        "tag": "HappyBirthdayMauriceSendak",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]
