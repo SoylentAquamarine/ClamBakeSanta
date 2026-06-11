@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-10",
+  "date": "2026-06-11",
   "haikus": [
     {
-      "theme": "National Iced Tea Day",
-      "haiku": "Frosty glass in hand,\nLemon slices swirl like sun,\nSipping summer's ease.\nHappy #NationalIcedTeaDay from @ClamBakeSanta",
-      "tag": "NationalIcedTeaDay",
+      "theme": "National Corn on the Cob Day",
+      "haiku": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta",
+      "tag": "NationalCornOnTheCobDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Ballpoint Pen Day",
-      "haiku": "Ink flows like river,\nWords dance on the soft paper,\nDreams take flight today.\nHappy #BallpointPenDay from @ClamBakeSanta",
-      "tag": "BallpointPenDay",
+      "theme": "Corn on the Cob Day",
+      "haiku": "Golden kernels shine,\nButtery bliss coats each bite,\nSweet summer delight.\nHappy #CornOnTheCobDay from @ClamBakeSanta",
+      "tag": "CornOnTheCobDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Judy Garland",
-      "haiku": "Velvet skies above,\nSweet melodies dance with light,\nHeartfelt cheers abound.\n#HappyBirthdayJudyGarland from @ClamBakeSanta",
-      "tag": "HappyBirthdayJudyGarland",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Maurice Sendak",
-      "haiku": "Wild things dance and play,\nImagination takes flight,\nDreams stir in the night.\n#HappyBirthdayMauriceSendak from @ClamBakeSanta",
-      "tag": "HappyBirthdayMauriceSendak",
+      "theme": "Birthday Millicent Fawcett",
+      "haiku": "Bright candles aglow,\nJoyful hearts sing sweet praises,\nCake shared with delight.\n#HappyBirthdayMillicentFawcett from @ClamBakeSanta",
+      "tag": "HappyBirthdayMillicentFawcett",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Iced Tea Day",
-    "Ballpoint Pen Day",
-    "Birthday Judy Garland",
-    "Birthday Maurice Sendak"
+    "National Corn on the Cob Day",
+    "Corn on the Cob Day",
+    "Birthday Millicent Fawcett"
   ],
-  "content": "Frosty glass in hand,\nLemon slices swirl like sun,\nSipping summer's ease.\nHappy #NationalIcedTeaDay from @ClamBakeSanta\n\nInk flows like river,\nWords dance on the soft paper,\nDreams take flight today.\nHappy #BallpointPenDay from @ClamBakeSanta\n\nVelvet skies above,\nSweet melodies dance with light,\nHeartfelt cheers abound.\n#HappyBirthdayJudyGarland from @ClamBakeSanta\n\nWild things dance and play,\nImagination takes flight,\nDreams stir in the night.\n#HappyBirthdayMauriceSendak from @ClamBakeSanta",
-  "saved_at": "2026-06-10T12:23:51.582265+00:00"
+  "content": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta\n\nGolden kernels shine,\nButtery bliss coats each bite,\nSweet summer delight.\nHappy #CornOnTheCobDay from @ClamBakeSanta\n\nBright candles aglow,\nJoyful hearts sing sweet praises,\nCake shared with delight.\n#HappyBirthdayMillicentFawcett from @ClamBakeSanta",
+  "saved_at": "2026-06-11T12:49:09.777200+00:00"
 }

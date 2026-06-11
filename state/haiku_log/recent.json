@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-03",
-    "theme": "National Egg Day",
-    "haiku": "Sunny yolks delight,\nWhisking dreams in morning light,\nEggs dance in the pan.\nHappy #NationalEggDay from @ClamBakeSanta",
-    "tag": "NationalEggDay",
-    "logged_at": "2026-06-03T13:19:21.950875+00:00"
-  },
-  {
-    "date": "2026-06-03",
-    "theme": "Repeat Day",
-    "haiku": "Joyful laughter rings,\nEchoes of hearts intertwine,\nMemories replay.\nHappy #RepeatDay from @ClamBakeSanta",
-    "tag": "RepeatDay",
-    "logged_at": "2026-06-03T13:19:21.950875+00:00"
-  },
-  {
-    "date": "2026-06-03",
-    "theme": "Birthday Josephine Baker",
-    "haiku": "Sparkling candles glow,\nLaughter bubbles like ripe fruit,\nJoyful hearts unite.\n#HappyBirthdayJosephineBaker from @ClamBakeSanta",
-    "tag": "HappyBirthdayJosephineBaker",
-    "logged_at": "2026-06-03T13:19:21.950875+00:00"
-  },
-  {
     "date": "2026-06-04",
     "theme": "National Cheese Day",
     "haiku": "Creamy wheels of joy,\nSavory bites bring delight,\nCheese dreams melt away.\nHappy #NationalCheeseDay from @ClamBakeSanta",
@@ -159,5 +138,33 @@
     "haiku": "Bright notes fill the room,\nMelodies dance like warm light,\nCake and cheer abound.\n#HappyBirthdayColePorter from @ClamBakeSanta",
     "tag": "HappyBirthdayColePorter",
     "logged_at": "2026-06-09T12:07:06.768371+00:00"
+  },
+  {
+    "date": "2026-06-10",
+    "theme": "National Iced Tea Day",
+    "haiku": "Frosty glass in hand,\nLemon slices swirl like sun,\nSipping summer's ease.\nHappy #NationalIcedTeaDay from @ClamBakeSanta",
+    "tag": "NationalIcedTeaDay",
+    "logged_at": "2026-06-10T12:23:51.582643+00:00"
+  },
+  {
+    "date": "2026-06-10",
+    "theme": "Ballpoint Pen Day",
+    "haiku": "Ink flows like river,\nWords dance on the soft paper,\nDreams take flight today.\nHappy #BallpointPenDay from @ClamBakeSanta",
+    "tag": "BallpointPenDay",
+    "logged_at": "2026-06-10T12:23:51.582643+00:00"
+  },
+  {
+    "date": "2026-06-10",
+    "theme": "Birthday Judy Garland",
+    "haiku": "Velvet skies above,\nSweet melodies dance with light,\nHeartfelt cheers abound.\n#HappyBirthdayJudyGarland from @ClamBakeSanta",
+    "tag": "HappyBirthdayJudyGarland",
+    "logged_at": "2026-06-10T12:23:51.582643+00:00"
+  },
+  {
+    "date": "2026-06-10",
+    "theme": "Birthday Maurice Sendak",
+    "haiku": "Wild things dance and play,\nImagination takes flight,\nDreams stir in the night.\n#HappyBirthdayMauriceSendak from @ClamBakeSanta",
+    "tag": "HappyBirthdayMauriceSendak",
+    "logged_at": "2026-06-10T12:23:51.582643+00:00"
   }
 ]

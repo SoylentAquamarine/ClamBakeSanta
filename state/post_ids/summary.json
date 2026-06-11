@@ -1,4 +1,66 @@
 {
+  "2026-06-11": {
+    "NationalCornOnTheCobDay": {
+      "mastodon": {
+        "id": "116731553401880966",
+        "url": "https://mastodon.social/@ClamBakeSanta/116731553401880966"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbcdubyk2i",
+        "cid": "bafyreih6sebzlvzfyyq4bbqms2s6v2g6tecvmcbtk5lrlkisc5l73k33ei"
+      },
+      "tumblr": {
+        "id": "819129108746436608",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "187",
+        "channel": "@clambakesanta"
+      }
+    },
+    "CornOnTheCobDay": {
+      "mastodon": {
+        "id": "116731557377039310",
+        "url": "https://mastodon.social/@ClamBakeSanta/116731557377039310"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbe5bbwm2f",
+        "cid": "bafyreicyimemo3wea2uzmwt64fqnsocu3en3mcgi3kuw6vwflvofe57i2a"
+      },
+      "tumblr": {
+        "id": "819129172536459264",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "188",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayMillicentFawcett": {
+      "mastodon": {
+        "id": "116731561351740562",
+        "url": "https://mastodon.social/@ClamBakeSanta/116731561351740562"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbfwqjs722",
+        "cid": "bafyreidvxz3zslsomj654gqe2abjiyck2kirr257psjmc75owlm6mz4avy"
+      },
+      "tumblr": {
+        "id": "819129236112687104",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "189",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "74",
+        "url": "https://clambakesanta.wordpress.com/2026/06/11/clam-bake-santa-2026-06-11/"
+      }
+    }
+  },
   "2026-06-10": {
     "NationalIcedTeaDay": {
       "mastodon": {
@@ -484,68 +546,6 @@
       "wordpress": {
         "id": "67",
         "url": "https://clambakesanta.wordpress.com/2026/06/04/clam-bake-santa-2026-06-04/"
-      }
-    }
-  },
-  "2026-06-03": {
-    "NationalEggDay": {
-      "mastodon": {
-        "id": "116686373667621880",
-        "url": "https://mastodon.social/@ClamBakeSanta/116686373667621880"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnf7bcghg22b",
-        "cid": "bafyreiex2rp4exsn6yub25c7hyziwr5p27qrm5amnie6fyvq7phphl7r2i"
-      },
-      "tumblr": {
-        "id": "818406244722294784",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "160",
-        "channel": "@clambakesanta"
-      }
-    },
-    "RepeatDay": {
-      "mastodon": {
-        "id": "116686377825442048",
-        "url": "https://mastodon.social/@ClamBakeSanta/116686377825442048"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnf7d3riic24",
-        "cid": "bafyreicazcgdxch3m2osnexmnfnh42sllpkq4gorsdr5tymtmk7i2iy7ay"
-      },
-      "tumblr": {
-        "id": "818406307954573312",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "161",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayJosephineBaker": {
-      "mastodon": {
-        "id": "116686382065323602",
-        "url": "https://mastodon.social/@ClamBakeSanta/116686382065323602"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnf7evh4wt2v",
-        "cid": "bafyreigjy7fg7fpsu5wk3qmnuscnox36o5nirixalhhdwkjivjbd4c7g4i"
-      },
-      "tumblr": {
-        "id": "818406371580133376",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "162",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "66",
-        "url": "https://clambakesanta.wordpress.com/2026/06/03/clam-bake-santa-2026-06-03/"
       }
     }
   }
