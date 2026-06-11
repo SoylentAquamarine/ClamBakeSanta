@@ -1,0 +1,78 @@
+{
+  "NationalCornOnTheCobDay": {
+    "theme": "National Corn on the Cob Day",
+    "haiku": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116731553401880966",
+        "url": "https://mastodon.social/@ClamBakeSanta/116731553401880966",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbcdubyk2i",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-11T23:15:48.794562+00:00"
+  },
+  "CornOnTheCobDay": {
+    "theme": "Corn on the Cob Day",
+    "haiku": "Golden kernels shine,\nButtery bliss coats each bite,\nSweet summer delight.\nHappy #CornOnTheCobDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116731557377039310",
+        "url": "https://mastodon.social/@ClamBakeSanta/116731557377039310",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbe5bbwm2f",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-11T23:15:48.794562+00:00"
+  },
+  "HappyBirthdayMillicentFawcett": {
+    "theme": "Birthday Millicent Fawcett",
+    "haiku": "Bright candles aglow,\nJoyful hearts sing sweet praises,\nCake shared with delight.\n#HappyBirthdayMillicentFawcett from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116731561351740562",
+        "url": "https://mastodon.social/@ClamBakeSanta/116731561351740562",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbfwqjs722",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-11T23:15:48.794562+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-11T23:15:48.794562+00:00"
+  }
+}
