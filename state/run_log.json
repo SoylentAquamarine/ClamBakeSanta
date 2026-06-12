@@ -58,7 +58,8 @@
     "2026-06-08",
     "2026-06-09",
     "2026-06-10",
-    "2026-06-11"
+    "2026-06-11",
+    "2026-06-12"
   ],
   "runs": [
     {
@@ -726,6 +727,17 @@
         "Birthday Millicent Fawcett"
       ],
       "content_preview": "Golden kernels glow, Butter drips, sweet corn's embrace, Summer's taste unfolds. Happy #NationalCornOnTheCobDay from @Cl"
+    },
+    {
+      "date": "2026-06-12",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-12T12:29:36.939081+00:00",
+      "themes": [
+        "National Peanut Butter Cookie Day",
+        "Red Rose Day",
+        "Birthday Anne Frank"
+      ],
+      "content_preview": "Warm dough hugs my hands, Peanut butter scents the air, A cookie so sweet. Happy #NationalPeanutButterCookieDay from @Cl"
     }
   ]
 }

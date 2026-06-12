@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "haikus": [
     {
-      "theme": "National Corn on the Cob Day",
-      "haiku": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta",
-      "tag": "NationalCornOnTheCobDay",
+      "theme": "National Peanut Butter Cookie Day",
+      "haiku": "Warm dough hugs my hands,\nPeanut butter scents the air,\nA cookie so sweet.\nHappy #NationalPeanutButterCookieDay from @ClamBakeSanta",
+      "tag": "NationalPeanutButterCookieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Corn on the Cob Day",
-      "haiku": "Golden kernels shine,\nButtery bliss coats each bite,\nSweet summer delight.\nHappy #CornOnTheCobDay from @ClamBakeSanta",
-      "tag": "CornOnTheCobDay",
+      "theme": "Red Rose Day",
+      "haiku": "Crimson blooms unfold,\nPerfumed breezes gently sway,\nJoy in bright bouquets.\nHappy #RedRoseDay from @ClamBakeSanta",
+      "tag": "RedRoseDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Millicent Fawcett",
-      "haiku": "Bright candles aglow,\nJoyful hearts sing sweet praises,\nCake shared with delight.\n#HappyBirthdayMillicentFawcett from @ClamBakeSanta",
-      "tag": "HappyBirthdayMillicentFawcett",
+      "theme": "Birthday Anne Frank",
+      "haiku": "Candles softly glow,\nLaughter fills the bright room air,\nHope blooms everywhere.\n#HappyBirthdayAnneFrank from @ClamBakeSanta",
+      "tag": "HappyBirthdayAnneFrank",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Corn on the Cob Day",
-    "Corn on the Cob Day",
-    "Birthday Millicent Fawcett"
+    "National Peanut Butter Cookie Day",
+    "Red Rose Day",
+    "Birthday Anne Frank"
   ],
-  "content": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta\n\nGolden kernels shine,\nButtery bliss coats each bite,\nSweet summer delight.\nHappy #CornOnTheCobDay from @ClamBakeSanta\n\nBright candles aglow,\nJoyful hearts sing sweet praises,\nCake shared with delight.\n#HappyBirthdayMillicentFawcett from @ClamBakeSanta",
-  "saved_at": "2026-06-11T12:49:09.777200+00:00"
+  "content": "Warm dough hugs my hands,\nPeanut butter scents the air,\nA cookie so sweet.\nHappy #NationalPeanutButterCookieDay from @ClamBakeSanta\n\nCrimson blooms unfold,\nPerfumed breezes gently sway,\nJoy in bright bouquets.\nHappy #RedRoseDay from @ClamBakeSanta\n\nCandles softly glow,\nLaughter fills the bright room air,\nHope blooms everywhere.\n#HappyBirthdayAnneFrank from @ClamBakeSanta",
+  "saved_at": "2026-06-12T12:21:27.121105+00:00"
 }

@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-04",
-    "theme": "National Cheese Day",
-    "haiku": "Creamy wheels of joy,\nSavory bites bring delight,\nCheese dreams melt away.\nHappy #NationalCheeseDay from @ClamBakeSanta",
-    "tag": "NationalCheeseDay",
-    "logged_at": "2026-06-04T11:57:41.767438+00:00"
-  },
-  {
-    "date": "2026-06-04",
-    "theme": "National Hug Your Cat Day",
-    "haiku": "Purring on my lap,\nWhiskers twitch with joy and warmth,\nFurry love abounds.\nHappy #NationalHugYourCatDay from @ClamBakeSanta",
-    "tag": "NationalHugYourCatDay",
-    "logged_at": "2026-06-04T11:57:41.767438+00:00"
-  },
-  {
-    "date": "2026-06-04",
-    "theme": "Birthday Angelina Jolie",
-    "haiku": "Laughter fills the air,\nCandies shimmer like starlight,\nJoyous hearts unite.\n#HappyBirthdayAngelinaJolie from @ClamBakeSanta",
-    "tag": "HappyBirthdayAngelinaJolie",
-    "logged_at": "2026-06-04T11:57:41.767438+00:00"
-  },
-  {
     "date": "2026-06-05",
     "theme": "World Environment Day",
     "haiku": "Leaves shimmer with dew,\nWhispers of life all around,\nSunlight warms the earth.\nHappy #WorldEnvironmentDay from @ClamBakeSanta",
@@ -166,5 +145,26 @@
     "haiku": "Wild things dance and play,\nImagination takes flight,\nDreams stir in the night.\n#HappyBirthdayMauriceSendak from @ClamBakeSanta",
     "tag": "HappyBirthdayMauriceSendak",
     "logged_at": "2026-06-10T12:23:51.582643+00:00"
+  },
+  {
+    "date": "2026-06-11",
+    "theme": "National Corn on the Cob Day",
+    "haiku": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta",
+    "tag": "NationalCornOnTheCobDay",
+    "logged_at": "2026-06-11T12:49:09.777619+00:00"
+  },
+  {
+    "date": "2026-06-11",
+    "theme": "Corn on the Cob Day",
+    "haiku": "Golden kernels shine,\nButtery bliss coats each bite,\nSweet summer delight.\nHappy #CornOnTheCobDay from @ClamBakeSanta",
+    "tag": "CornOnTheCobDay",
+    "logged_at": "2026-06-11T12:49:09.777619+00:00"
+  },
+  {
+    "date": "2026-06-11",
+    "theme": "Birthday Millicent Fawcett",
+    "haiku": "Bright candles aglow,\nJoyful hearts sing sweet praises,\nCake shared with delight.\n#HappyBirthdayMillicentFawcett from @ClamBakeSanta",
+    "tag": "HappyBirthdayMillicentFawcett",
+    "logged_at": "2026-06-11T12:49:09.777619+00:00"
   }
 ]
