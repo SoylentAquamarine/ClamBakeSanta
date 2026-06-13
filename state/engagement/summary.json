@@ -1,4 +1,82 @@
 {
+  "2026-06-13": {
+    "NationalWeedYourGardenDay": {
+      "theme": "National Weed Your Garden Day",
+      "haiku": "Green leaves touch the sky,\nSoft earth yields to eager hands,\nLife blooms with each weed.\nHappy #NationalWeedYourGardenDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116742514530747923",
+          "url": "https://mastodon.social/@ClamBakeSanta/116742514530747923",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mo652vealy2w",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
+    },
+    "SewingMachineDay": {
+      "theme": "Sewing Machine Day",
+      "haiku": "Bright threads intertwine,\nWhir of joy fills the cool air,\nPatterns join as one.\nHappy #SewingMachineDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116742518503757439",
+          "url": "https://mastodon.social/@ClamBakeSanta/116742518503757439",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mo654oyq6h2b",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
+    },
+    "HappyBirthdayWilliamButlerYeats": {
+      "theme": "Birthday William Butler Yeats",
+      "haiku": "Golden leaves cascade,\nWhispers of a poet's dream,\nLaughter breezes in.\n#HappyBirthdayWilliamButlerYeats from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116742522457755167",
+          "url": "https://mastodon.social/@ClamBakeSanta/116742522457755167",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mo656ihbkj22",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {},
+      "total_score": 0,
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
+    }
+  },
   "2026-06-12": {
     "NationalPeanutButterCookieDay": {
       "theme": "National Peanut Butter Cookie Day",
@@ -21,7 +99,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "RedRoseDay": {
       "theme": "Red Rose Day",
@@ -44,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "HappyBirthdayAnneFrank": {
       "theme": "Birthday Anne Frank",
@@ -67,14 +145,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     }
   },
   "2026-06-11": {
@@ -99,7 +177,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "CornOnTheCobDay": {
       "theme": "Corn on the Cob Day",
@@ -122,7 +200,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "HappyBirthdayMillicentFawcett": {
       "theme": "Birthday Millicent Fawcett",
@@ -145,14 +223,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     }
   },
   "2026-06-10": {
@@ -177,7 +255,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "BallpointPenDay": {
       "theme": "Ballpoint Pen Day",
@@ -200,7 +278,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "HappyBirthdayJudyGarland": {
       "theme": "Birthday Judy Garland",
@@ -223,7 +301,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "HappyBirthdayMauriceSendak": {
       "theme": "Birthday Maurice Sendak",
@@ -246,14 +324,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-06-12T23:09:22.862841+00:00"
+      "last_checked": "2026-06-13T22:56:33.769724+00:00"
     }
   },
   "2026-06-09": {
@@ -612,84 +690,6 @@
       "platforms": {},
       "total_score": 0,
       "last_checked": "2026-06-09T23:13:33.100116+00:00"
-    }
-  },
-  "2026-06-05": {
-    "WorldEnvironmentDay": {
-      "theme": "World Environment Day",
-      "haiku": "Leaves shimmer with dew,\nWhispers of life all around,\nSunlight warms the earth.\nHappy #WorldEnvironmentDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116697428291002829",
-          "url": "https://mastodon.social/@ClamBakeSanta/116697428291002829",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4e2cb652x",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-06-08T23:08:31.672966+00:00"
-    },
-    "NationalGingerbreadDay": {
-      "theme": "National Gingerbread Day",
-      "haiku": "Sugar spiced delight,\nGingerbread houses arise,\nFrosting dreams take flight.\nHappy #NationalGingerbreadDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116697432274051394",
-          "url": "https://mastodon.social/@ClamBakeSanta/116697432274051394",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4ftnag62o",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-06-08T23:08:31.672966+00:00"
-    },
-    "HappyBirthdayFedericoGarciaLorca": {
-      "theme": "Birthday Federico Garcia Lorca",
-      "haiku": "Whispers of the moon,\nSongs weave through the nighttime air,\nStars twinkle in joy.\n#HappyBirthdayFedericoGarciaLorca from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116697436247921688",
-          "url": "https://mastodon.social/@ClamBakeSanta/116697436247921688",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4hmywqo2k",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-06-08T23:08:31.672966+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {},
-      "total_score": 0,
-      "last_checked": "2026-06-08T23:08:31.672966+00:00"
     }
   }
 }
