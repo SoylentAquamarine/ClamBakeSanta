@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "haikus": [
     {
-      "theme": "National Peanut Butter Cookie Day",
-      "haiku": "Warm dough hugs my hands,\nPeanut butter scents the air,\nA cookie so sweet.\nHappy #NationalPeanutButterCookieDay from @ClamBakeSanta",
-      "tag": "NationalPeanutButterCookieDay",
+      "theme": "National Weed Your Garden Day",
+      "haiku": "Green leaves touch the sky,\nSoft earth yields to eager hands,\nLife blooms with each weed.\nHappy #NationalWeedYourGardenDay from @ClamBakeSanta",
+      "tag": "NationalWeedYourGardenDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Red Rose Day",
-      "haiku": "Crimson blooms unfold,\nPerfumed breezes gently sway,\nJoy in bright bouquets.\nHappy #RedRoseDay from @ClamBakeSanta",
-      "tag": "RedRoseDay",
+      "theme": "Sewing Machine Day",
+      "haiku": "Bright threads intertwine,\nWhir of joy fills the cool air,\nPatterns join as one.\nHappy #SewingMachineDay from @ClamBakeSanta",
+      "tag": "SewingMachineDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Anne Frank",
-      "haiku": "Candles softly glow,\nLaughter fills the bright room air,\nHope blooms everywhere.\n#HappyBirthdayAnneFrank from @ClamBakeSanta",
-      "tag": "HappyBirthdayAnneFrank",
+      "theme": "Birthday William Butler Yeats",
+      "haiku": "Golden leaves cascade,\nWhispers of a poet's dream,\nLaughter breezes in.\n#HappyBirthdayWilliamButlerYeats from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamButlerYeats",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Peanut Butter Cookie Day",
-    "Red Rose Day",
-    "Birthday Anne Frank"
+    "National Weed Your Garden Day",
+    "Sewing Machine Day",
+    "Birthday William Butler Yeats"
   ],
-  "content": "Warm dough hugs my hands,\nPeanut butter scents the air,\nA cookie so sweet.\nHappy #NationalPeanutButterCookieDay from @ClamBakeSanta\n\nCrimson blooms unfold,\nPerfumed breezes gently sway,\nJoy in bright bouquets.\nHappy #RedRoseDay from @ClamBakeSanta\n\nCandles softly glow,\nLaughter fills the bright room air,\nHope blooms everywhere.\n#HappyBirthdayAnneFrank from @ClamBakeSanta",
-  "saved_at": "2026-06-12T12:21:27.121105+00:00"
+  "content": "Green leaves touch the sky,\nSoft earth yields to eager hands,\nLife blooms with each weed.\nHappy #NationalWeedYourGardenDay from @ClamBakeSanta\n\nBright threads intertwine,\nWhir of joy fills the cool air,\nPatterns join as one.\nHappy #SewingMachineDay from @ClamBakeSanta\n\nGolden leaves cascade,\nWhispers of a poet's dream,\nLaughter breezes in.\n#HappyBirthdayWilliamButlerYeats from @ClamBakeSanta",
+  "saved_at": "2026-06-13T11:16:43.193275+00:00"
 }

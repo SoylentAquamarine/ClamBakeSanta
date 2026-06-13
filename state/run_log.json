@@ -59,7 +59,8 @@
     "2026-06-09",
     "2026-06-10",
     "2026-06-11",
-    "2026-06-12"
+    "2026-06-12",
+    "2026-06-13"
   ],
   "runs": [
     {
@@ -738,6 +739,17 @@
         "Birthday Anne Frank"
       ],
       "content_preview": "Warm dough hugs my hands, Peanut butter scents the air, A cookie so sweet. Happy #NationalPeanutButterCookieDay from @Cl"
+    },
+    {
+      "date": "2026-06-13",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-13T11:24:57.536728+00:00",
+      "themes": [
+        "National Weed Your Garden Day",
+        "Sewing Machine Day",
+        "Birthday William Butler Yeats"
+      ],
+      "content_preview": "Green leaves touch the sky, Soft earth yields to eager hands, Life blooms with each weed. Happy #NationalWeedYourGardenD"
     }
   ]
 }

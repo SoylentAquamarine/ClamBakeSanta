@@ -1,4 +1,66 @@
 {
+  "2026-06-13": {
+    "NationalWeedYourGardenDay": {
+      "mastodon": {
+        "id": "116742514530747923",
+        "url": "https://mastodon.social/@ClamBakeSanta/116742514530747923"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mo652vealy2w",
+        "cid": "bafyreib3x4tpc22mmapvr56wmq645dq3t465p52rndl523qnfqbshb4zry"
+      },
+      "tumblr": {
+        "id": "819304487259963392",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "193",
+        "channel": "@clambakesanta"
+      }
+    },
+    "SewingMachineDay": {
+      "mastodon": {
+        "id": "116742518503757439",
+        "url": "https://mastodon.social/@ClamBakeSanta/116742518503757439"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mo654oyq6h2b",
+        "cid": "bafyreifk2e446nkbx6esxo5nriug43cgmqlm6zkkda7kaeda6kiv5seski"
+      },
+      "tumblr": {
+        "id": "819304550549864448",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "194",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayWilliamButlerYeats": {
+      "mastodon": {
+        "id": "116742522457755167",
+        "url": "https://mastodon.social/@ClamBakeSanta/116742522457755167"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mo656ihbkj22",
+        "cid": "bafyreihp7isgxrrag2gu5anmgqdnxfrkhmcwywh5aisbvygp32lgipqfim"
+      },
+      "tumblr": {
+        "id": "819304613813600256",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "195",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "76",
+        "url": "https://clambakesanta.wordpress.com/2026/06/13/clam-bake-santa-2026-06-13/"
+      }
+    }
+  },
   "2026-06-12": {
     "NationalPeanutButterCookieDay": {
       "mastodon": {
@@ -484,68 +546,6 @@
       "wordpress": {
         "id": "69",
         "url": "https://clambakesanta.wordpress.com/2026/06/06/clam-bake-santa-2026-06-06/"
-      }
-    }
-  },
-  "2026-06-05": {
-    "WorldEnvironmentDay": {
-      "mastodon": {
-        "id": "116697428291002829",
-        "url": "https://mastodon.social/@ClamBakeSanta/116697428291002829"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4e2cb652x",
-        "cid": "bafyreicdtwdkzl34olzvqwnuwg2gan7s2uuznyrkpwrzazvx4uy2iemgq4"
-      },
-      "tumblr": {
-        "id": "818583106971992064",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "166",
-        "channel": "@clambakesanta"
-      }
-    },
-    "NationalGingerbreadDay": {
-      "mastodon": {
-        "id": "116697432274051394",
-        "url": "https://mastodon.social/@ClamBakeSanta/116697432274051394"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4ftnag62o",
-        "cid": "bafyreiewheoackpyuamscctr27k34o5cilqebyqhqatdi4fxkzubpay77a"
-      },
-      "tumblr": {
-        "id": "818583170277572608",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "167",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayFedericoGarciaLorca": {
-      "mastodon": {
-        "id": "116697436247921688",
-        "url": "https://mastodon.social/@ClamBakeSanta/116697436247921688"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnk4hmywqo2k",
-        "cid": "bafyreie4cakab7blts5uahhoietnjydcxtkybynnmtyyianqjyesdoelnu"
-      },
-      "tumblr": {
-        "id": "818583233558167552",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "168",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "68",
-        "url": "https://clambakesanta.wordpress.com/2026/06/05/clam-bake-santa-2026-06-05/"
       }
     }
   }
