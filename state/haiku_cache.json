@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "haikus": [
     {
-      "theme": "National Weed Your Garden Day",
-      "haiku": "Green leaves touch the sky,\nSoft earth yields to eager hands,\nLife blooms with each weed.\nHappy #NationalWeedYourGardenDay from @ClamBakeSanta",
-      "tag": "NationalWeedYourGardenDay",
+      "theme": "Flag Day",
+      "haiku": "Banners in the breeze,\nJoyful hearts and laughter ring,\nUnity shines bright.\nHappy #FlagDay from @ClamBakeSanta",
+      "tag": "FlagDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Sewing Machine Day",
-      "haiku": "Bright threads intertwine,\nWhir of joy fills the cool air,\nPatterns join as one.\nHappy #SewingMachineDay from @ClamBakeSanta",
-      "tag": "SewingMachineDay",
+      "theme": "National Strawberry Shortcake Day",
+      "haiku": "Juicy berries shine,\nFluffy clouds of whipped cream swirl,\nSweet joy on each slice.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
+      "tag": "NationalStrawberryShortcakeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday William Butler Yeats",
-      "haiku": "Golden leaves cascade,\nWhispers of a poet's dream,\nLaughter breezes in.\n#HappyBirthdayWilliamButlerYeats from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamButlerYeats",
+      "theme": "Birthday Harriet Beecher Stowe",
+      "haiku": "Crisp leaves twirl in air,\nStories weave through warm sunlight,\nVoices rise with cheer.\n#HappyBirthdayHarrietBeecherStowe from @ClamBakeSanta",
+      "tag": "HappyBirthdayHarrietBeecherStowe",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Weed Your Garden Day",
-    "Sewing Machine Day",
-    "Birthday William Butler Yeats"
+    "Flag Day",
+    "National Strawberry Shortcake Day",
+    "Birthday Harriet Beecher Stowe"
   ],
-  "content": "Green leaves touch the sky,\nSoft earth yields to eager hands,\nLife blooms with each weed.\nHappy #NationalWeedYourGardenDay from @ClamBakeSanta\n\nBright threads intertwine,\nWhir of joy fills the cool air,\nPatterns join as one.\nHappy #SewingMachineDay from @ClamBakeSanta\n\nGolden leaves cascade,\nWhispers of a poet's dream,\nLaughter breezes in.\n#HappyBirthdayWilliamButlerYeats from @ClamBakeSanta",
-  "saved_at": "2026-06-13T11:16:43.193275+00:00"
+  "content": "Banners in the breeze,\nJoyful hearts and laughter ring,\nUnity shines bright.\nHappy #FlagDay from @ClamBakeSanta\n\nJuicy berries shine,\nFluffy clouds of whipped cream swirl,\nSweet joy on each slice.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta\n\nCrisp leaves twirl in air,\nStories weave through warm sunlight,\nVoices rise with cheer.\n#HappyBirthdayHarrietBeecherStowe from @ClamBakeSanta",
+  "saved_at": "2026-06-14T11:32:50.714371+00:00"
 }
