@@ -2,9 +2,9 @@
 Process ClamBakeSanta email subscription requests.
 
 This script is intended to run from .github/workflows/check_subscriptions.yml.
-It connects to Gmail over IMAP, finds unread messages containing SUBSCRIBE or
-UNSUBSCRIBE commands, updates state/subscribers.json, sends a short reply, and
-marks processed messages as read so they are not handled again.
+It connects to Gmail over IMAP, finds unread messages whose subject line is
+exactly SUBSCRIBE or UNSUBSCRIBE, updates state/subscribers.json, sends a short
+reply, and marks processed command messages as read so they are not handled again.
 
 Required environment variables:
   GMAIL_ADDRESS
@@ -20,7 +20,7 @@ import os
 import smtplib
 from dataclasses import dataclass
 from email.header import decode_header, make_header
-from email.message import EmailMessage, Message
+from email.message import EmailMessage
 from email.utils import parseaddr
 from pathlib import Path
 from typing import Iterable
@@ -57,40 +57,12 @@ def _decode_header(value: str | None) -> str:
         return value
 
 
-def _message_text(msg: Message) -> str:
-    """Extract readable text from a message without requiring external deps."""
-    chunks: list[str] = []
-
-    if msg.is_multipart():
-        for part in msg.walk():
-            content_type = part.get_content_type()
-            disposition = (part.get("Content-Disposition") or "").lower()
-            if "attachment" in disposition:
-                continue
-            if content_type not in {"text/plain", "text/html"}:
-                continue
-            payload = part.get_payload(decode=True)
-            if not payload:
-                continue
-            charset = part.get_content_charset() or "utf-8"
-            chunks.append(payload.decode(charset, errors="replace"))
-    else:
-        payload = msg.get_payload(decode=True)
-        if payload:
-            charset = msg.get_content_charset() or "utf-8"
-            chunks.append(payload.decode(charset, errors="replace"))
-
-    return "\n".join(chunks)
-
-
-def _detect_command(subject: str, body: str) -> str | None:
-    """Return subscribe/unsubscribe when a clear command is present."""
-    haystack = f"{subject}\n{body}".upper()
-
-    # Check unsubscribe first because it contains the word subscribe.
-    if "UNSUBSCRIBE" in haystack:
+def _detect_command(subject: str) -> str | None:
+    """Return command only when the subject is exactly SUBSCRIBE or UNSUBSCRIBE."""
+    normalized = " ".join(subject.strip().split()).upper()
+    if normalized == "UNSUBSCRIBE":
         return "unsubscribe"
-    if "SUBSCRIBE" in haystack:
+    if normalized == "SUBSCRIBE":
         return "subscribe"
     return None
 
@@ -135,14 +107,14 @@ def _confirmation(command: str) -> tuple[str, str]:
             "You're subscribed to Clam Bake Santa",
             "You're subscribed to Clam Bake Santa!\n\n"
             "Fresh daily haikus will arrive in your inbox.\n\n"
-            "To unsubscribe, reply with UNSUBSCRIBE in the subject or body.\n\n"
+            "To unsubscribe, send a new email with exactly UNSUBSCRIBE in the subject line.\n\n"
             "— Clam Bake Santa",
         )
 
     return (
         "You've been unsubscribed from Clam Bake Santa",
         "You've been unsubscribed from Clam Bake Santa.\n\n"
-        "The clams will miss you. To resubscribe, reply with SUBSCRIBE.\n\n"
+        "The clams will miss you. To resubscribe, send a new email with exactly SUBSCRIBE in the subject line.\n\n"
         "— Clam Bake Santa",
     )
 
@@ -162,16 +134,15 @@ def _fetch_commands(gmail_address: str, app_password: str) -> list[SubscriptionC
         logging.info("Found %d unread message(s)", len(message_ids))
 
         for message_id in message_ids:
-            status, msg_data = imap.fetch(message_id, "(RFC822)")
+            status, msg_data = imap.fetch(message_id, "(BODY.PEEK[HEADER])")
             if status != "OK" or not msg_data or not isinstance(msg_data[0], tuple):
-                logging.warning("Could not fetch message id %s", message_id.decode(errors="ignore"))
+                logging.warning("Could not fetch message header id %s", message_id.decode(errors="ignore"))
                 continue
 
             msg = email.message_from_bytes(msg_data[0][1])
             sender = parseaddr(_decode_header(msg.get("From")))[1].strip().lower()
             subject = _decode_header(msg.get("Subject"))
-            body = _message_text(msg)
-            command = _detect_command(subject, body)
+            command = _detect_command(subject)
 
             if not sender or not command:
                 continue
@@ -179,7 +150,7 @@ def _fetch_commands(gmail_address: str, app_password: str) -> list[SubscriptionC
             commands.append(SubscriptionCommand(message_id=message_id, sender=sender, command=command))
             logging.info("Queued %s request from %s", command, _mask(sender))
 
-        # Mark only command messages as seen. Non-command messages remain untouched.
+        # Mark only exact-command messages as seen. Non-command messages remain unread.
         for command in commands:
             imap.store(command.message_id, "+FLAGS", "\\Seen")
 
