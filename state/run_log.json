@@ -61,7 +61,8 @@
     "2026-06-11",
     "2026-06-12",
     "2026-06-13",
-    "2026-06-14"
+    "2026-06-14",
+    "2026-06-15"
   ],
   "runs": [
     {
@@ -762,6 +763,18 @@
         "Birthday Harriet Beecher Stowe"
       ],
       "content_preview": "Banners in the breeze, Joyful hearts and laughter ring, Unity shines bright. Happy #FlagDay from @ClamBakeSanta  Juicy b"
+    },
+    {
+      "date": "2026-06-15",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-15T15:30:10.601274+00:00",
+      "themes": [
+        "National Strawberry Shortcake Day",
+        "Smile Power Day",
+        "Birthday Edvard Grieg",
+        "New Moon"
+      ],
+      "content_preview": "Juicy red berries, Layers of cream gently swirl, Sweet joy on the plate. Happy #NationalStrawberryShortcakeDay from @Cla"
     }
   ]
 }

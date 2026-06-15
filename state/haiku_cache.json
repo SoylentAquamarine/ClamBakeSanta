@@ -1,20 +1,9 @@
 {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "haikus": [
     {
-      "theme": "Flag Day",
-      "haiku": "Banners in the breeze,\nJoyful hearts and laughter ring,\nUnity shines bright.\nHappy #FlagDay from @ClamBakeSanta",
-      "tag": "FlagDay",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
       "theme": "National Strawberry Shortcake Day",
-      "haiku": "Juicy berries shine,\nFluffy clouds of whipped cream swirl,\nSweet joy on each slice.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
+      "haiku": "Juicy red berries,\nLayers of cream gently swirl,\nSweet joy on the plate.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
       "tag": "NationalStrawberryShortcakeDay",
       "syllable_counts": [
         5,
@@ -24,9 +13,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Harriet Beecher Stowe",
-      "haiku": "Crisp leaves twirl in air,\nStories weave through warm sunlight,\nVoices rise with cheer.\n#HappyBirthdayHarrietBeecherStowe from @ClamBakeSanta",
-      "tag": "HappyBirthdayHarrietBeecherStowe",
+      "theme": "Smile Power Day",
+      "haiku": "Joyful laughs abound,\nFaces lit with warm delight,\nSunbeams in each smile.\nHappy #SmilePowerDay from @ClamBakeSanta",
+      "tag": "SmilePowerDay",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Edvard Grieg",
+      "haiku": "Joyful notes arise,\nPines sway with the soft music,\nLaughter fills the air.\n#HappyBirthdayEdvardGrieg from @ClamBakeSanta",
+      "tag": "HappyBirthdayEdvardGrieg",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "New Moon",
+      "haiku": "Soft clouds drift away,\nStars twinkle in the still night,\nHope blooms like new leaves.\nHappy #NewMoon from @ClamBakeSanta",
+      "tag": "NewMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "Flag Day",
     "National Strawberry Shortcake Day",
-    "Birthday Harriet Beecher Stowe"
+    "Smile Power Day",
+    "Birthday Edvard Grieg",
+    "New Moon"
   ],
-  "content": "Banners in the breeze,\nJoyful hearts and laughter ring,\nUnity shines bright.\nHappy #FlagDay from @ClamBakeSanta\n\nJuicy berries shine,\nFluffy clouds of whipped cream swirl,\nSweet joy on each slice.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta\n\nCrisp leaves twirl in air,\nStories weave through warm sunlight,\nVoices rise with cheer.\n#HappyBirthdayHarrietBeecherStowe from @ClamBakeSanta",
-  "saved_at": "2026-06-14T11:32:50.714371+00:00"
+  "content": "Juicy red berries,\nLayers of cream gently swirl,\nSweet joy on the plate.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta\n\nJoyful laughs abound,\nFaces lit with warm delight,\nSunbeams in each smile.\nHappy #SmilePowerDay from @ClamBakeSanta\n\nJoyful notes arise,\nPines sway with the soft music,\nLaughter fills the air.\n#HappyBirthdayEdvardGrieg from @ClamBakeSanta\n\nSoft clouds drift away,\nStars twinkle in the still night,\nHope blooms like new leaves.\nHappy #NewMoon from @ClamBakeSanta",
+  "saved_at": "2026-06-15T15:17:55.797034+00:00"
 }
