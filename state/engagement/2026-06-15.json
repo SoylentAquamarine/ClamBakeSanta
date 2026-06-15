@@ -1,0 +1,101 @@
+{
+  "NationalStrawberryShortcakeDay": {
+    "theme": "National Strawberry Shortcake Day",
+    "haiku": "Juicy red berries,\nLayers of cream gently swirl,\nSweet joy on the plate.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116754787608013118",
+        "url": "https://mastodon.social/@ClamBakeSanta/116754787608013118",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3modljtmlbm2h",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-15T23:29:16.900851+00:00"
+  },
+  "SmilePowerDay": {
+    "theme": "Smile Power Day",
+    "haiku": "Joyful laughs abound,\nFaces lit with warm delight,\nSunbeams in each smile.\nHappy #SmilePowerDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116754791573633968",
+        "url": "https://mastodon.social/@ClamBakeSanta/116754791573633968",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3modllmydxm2w",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-06-15T23:29:16.900851+00:00"
+  },
+  "HappyBirthdayEdvardGrieg": {
+    "theme": "Birthday Edvard Grieg",
+    "haiku": "Joyful notes arise,\nPines sway with the soft music,\nLaughter fills the air.\n#HappyBirthdayEdvardGrieg from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116754795530132527",
+        "url": "https://mastodon.social/@ClamBakeSanta/116754795530132527",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3modlngbew326",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-06-15T23:29:16.900851+00:00"
+  },
+  "NewMoon": {
+    "theme": "New Moon",
+    "haiku": "Soft clouds drift away,\nStars twinkle in the still night,\nHope blooms like new leaves.\nHappy #NewMoon from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116754799488552977",
+        "url": "https://mastodon.social/@ClamBakeSanta/116754799488552977",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3modlp7kmej2m",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-15T23:29:16.900851+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-15T23:29:16.900851+00:00"
+  }
+}
