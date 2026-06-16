@@ -62,7 +62,8 @@
     "2026-06-12",
     "2026-06-13",
     "2026-06-14",
-    "2026-06-15"
+    "2026-06-15",
+    "2026-06-16"
   ],
   "runs": [
     {
@@ -775,6 +776,17 @@
         "New Moon"
       ],
       "content_preview": "Juicy red berries, Layers of cream gently swirl, Sweet joy on the plate. Happy #NationalStrawberryShortcakeDay from @Cla"
+    },
+    {
+      "date": "2026-06-16",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-16T14:20:57.970935+00:00",
+      "themes": [
+        "National Fudge Day",
+        "Fresh Veggies Day",
+        "Birthday Billie Holiday"
+      ],
+      "content_preview": "Chocolate swirls cascade, Sweet aromas fill the air, Joyful hearts unite. Happy #NationalFudgeDay from @ClamBakeSanta  V"
     }
   ]
 }

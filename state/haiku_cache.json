@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-15",
+  "date": "2026-06-16",
   "haikus": [
     {
-      "theme": "National Strawberry Shortcake Day",
-      "haiku": "Juicy red berries,\nLayers of cream gently swirl,\nSweet joy on the plate.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
-      "tag": "NationalStrawberryShortcakeDay",
+      "theme": "National Fudge Day",
+      "haiku": "Chocolate swirls cascade,\nSweet aromas fill the air,\nJoyful hearts unite.\nHappy #NationalFudgeDay from @ClamBakeSanta",
+      "tag": "NationalFudgeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Smile Power Day",
-      "haiku": "Joyful laughs abound,\nFaces lit with warm delight,\nSunbeams in each smile.\nHappy #SmilePowerDay from @ClamBakeSanta",
-      "tag": "SmilePowerDay",
+      "theme": "Fresh Veggies Day",
+      "haiku": "Vibrant carrots crunch,\nTomatoes burst with sunlight,\nNature's feast awaits.\nHappy #FreshVeggiesDay from @ClamBakeSanta",
+      "tag": "FreshVeggiesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Edvard Grieg",
-      "haiku": "Joyful notes arise,\nPines sway with the soft music,\nLaughter fills the air.\n#HappyBirthdayEdvardGrieg from @ClamBakeSanta",
-      "tag": "HappyBirthdayEdvardGrieg",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "New Moon",
-      "haiku": "Soft clouds drift away,\nStars twinkle in the still night,\nHope blooms like new leaves.\nHappy #NewMoon from @ClamBakeSanta",
-      "tag": "NewMoon",
+      "theme": "Birthday Billie Holiday",
+      "haiku": "Sweet notes fill the air,\nJoy dances in each heartbeat,\nLaughter wraps the day.\n#HappyBirthdayBillieHoliday from @ClamBakeSanta",
+      "tag": "HappyBirthdayBillieHoliday",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Strawberry Shortcake Day",
-    "Smile Power Day",
-    "Birthday Edvard Grieg",
-    "New Moon"
+    "National Fudge Day",
+    "Fresh Veggies Day",
+    "Birthday Billie Holiday"
   ],
-  "content": "Juicy red berries,\nLayers of cream gently swirl,\nSweet joy on the plate.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta\n\nJoyful laughs abound,\nFaces lit with warm delight,\nSunbeams in each smile.\nHappy #SmilePowerDay from @ClamBakeSanta\n\nJoyful notes arise,\nPines sway with the soft music,\nLaughter fills the air.\n#HappyBirthdayEdvardGrieg from @ClamBakeSanta\n\nSoft clouds drift away,\nStars twinkle in the still night,\nHope blooms like new leaves.\nHappy #NewMoon from @ClamBakeSanta",
-  "saved_at": "2026-06-15T15:17:55.797034+00:00"
+  "content": "Chocolate swirls cascade,\nSweet aromas fill the air,\nJoyful hearts unite.\nHappy #NationalFudgeDay from @ClamBakeSanta\n\nVibrant carrots crunch,\nTomatoes burst with sunlight,\nNature's feast awaits.\nHappy #FreshVeggiesDay from @ClamBakeSanta\n\nSweet notes fill the air,\nJoy dances in each heartbeat,\nLaughter wraps the day.\n#HappyBirthdayBillieHoliday from @ClamBakeSanta",
+  "saved_at": "2026-06-16T14:12:48.209168+00:00"
 }
