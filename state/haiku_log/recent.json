@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-09",
-    "theme": "National Strawberry Rhubarb Pie Day",
-    "haiku": "Fresh pie on the sill,\nSweet-tart scents in the warm air,\nCrust and joy unite.\nHappy #NationalStrawberryRhubarbPieDay from @ClamBakeSanta",
-    "tag": "NationalStrawberryRhubarbPieDay",
-    "logged_at": "2026-06-09T12:07:06.768371+00:00"
-  },
-  {
-    "date": "2026-06-09",
-    "theme": "Donald Duck Day",
-    "haiku": "Feathers bright and bold,\nSplashing in a sunny pond,\nWaddles full of glee.\nHappy #DonaldDuckDay from @ClamBakeSanta",
-    "tag": "DonaldDuckDay",
-    "logged_at": "2026-06-09T12:07:06.768371+00:00"
-  },
-  {
-    "date": "2026-06-09",
-    "theme": "Birthday Cole Porter",
-    "haiku": "Bright notes fill the room,\nMelodies dance like warm light,\nCake and cheer abound.\n#HappyBirthdayColePorter from @ClamBakeSanta",
-    "tag": "HappyBirthdayColePorter",
-    "logged_at": "2026-06-09T12:07:06.768371+00:00"
-  },
-  {
     "date": "2026-06-10",
     "theme": "National Iced Tea Day",
     "haiku": "Frosty glass in hand,\nLemon slices swirl like sun,\nSipping summer's ease.\nHappy #NationalIcedTeaDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Soft clouds drift away,\nStars twinkle in the still night,\nHope blooms like new leaves.\nHappy #NewMoon from @ClamBakeSanta",
     "tag": "NewMoon",
     "logged_at": "2026-06-15T15:17:55.797491+00:00"
+  },
+  {
+    "date": "2026-06-16",
+    "theme": "National Fudge Day",
+    "haiku": "Chocolate swirls cascade,\nSweet aromas fill the air,\nJoyful hearts unite.\nHappy #NationalFudgeDay from @ClamBakeSanta",
+    "tag": "NationalFudgeDay",
+    "logged_at": "2026-06-16T14:12:48.209780+00:00"
+  },
+  {
+    "date": "2026-06-16",
+    "theme": "Fresh Veggies Day",
+    "haiku": "Vibrant carrots crunch,\nTomatoes burst with sunlight,\nNature's feast awaits.\nHappy #FreshVeggiesDay from @ClamBakeSanta",
+    "tag": "FreshVeggiesDay",
+    "logged_at": "2026-06-16T14:12:48.209780+00:00"
+  },
+  {
+    "date": "2026-06-16",
+    "theme": "Birthday Billie Holiday",
+    "haiku": "Sweet notes fill the air,\nJoy dances in each heartbeat,\nLaughter wraps the day.\n#HappyBirthdayBillieHoliday from @ClamBakeSanta",
+    "tag": "HappyBirthdayBillieHoliday",
+    "logged_at": "2026-06-16T14:12:48.209780+00:00"
   }
 ]

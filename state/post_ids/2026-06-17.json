@@ -1,0 +1,62 @@
+{
+  "NationalEatYourVegetablesDay": {
+    "mastodon": {
+      "id": "116765543256130575",
+      "url": "https://mastodon.social/@ClamBakeSanta/116765543256130575"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moied5xifp2n",
+      "cid": "bafyreieymrsnnlvzamkotlnwvxzgoztuoea5yjx5t446rqejakv753gkga"
+    },
+    "tumblr": {
+      "id": "819672947431243776",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "206",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalAppleStrudelDay": {
+    "mastodon": {
+      "id": "116765547225214945",
+      "url": "https://mastodon.social/@ClamBakeSanta/116765547225214945"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moieexfvx22u",
+      "cid": "bafyreidqhbm64aaivrstwvpsiakqgusgpvf2sbwnme4px4docfy7uks34y"
+    },
+    "tumblr": {
+      "id": "819673010926747648",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "207",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayIgorStravinsky": {
+    "mastodon": {
+      "id": "116765551206069858",
+      "url": "https://mastodon.social/@ClamBakeSanta/116765551206069858"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moiegquod72n",
+      "cid": "bafyreicg4viiepfqcu7uzlx4p5lbaevy647omagmrdx2jrinbqmectkxhm"
+    },
+    "tumblr": {
+      "id": "819673074596233216",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "208",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "80",
+      "url": "https://clambakesanta.wordpress.com/2026/06/17/clam-bake-santa-2026-06-17/"
+    }
+  }
+}

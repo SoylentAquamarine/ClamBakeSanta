@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "haikus": [
     {
-      "theme": "National Fudge Day",
-      "haiku": "Chocolate swirls cascade,\nSweet aromas fill the air,\nJoyful hearts unite.\nHappy #NationalFudgeDay from @ClamBakeSanta",
-      "tag": "NationalFudgeDay",
+      "theme": "National Eat Your Vegetables Day",
+      "haiku": "Crisp carrots crunch bright,\nGarden greens in sunlit bowls,\nFlavor bursts with joy.\nHappy #NationalEatYourVegetablesDay from @ClamBakeSanta",
+      "tag": "NationalEatYourVegetablesDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Fresh Veggies Day",
-      "haiku": "Vibrant carrots crunch,\nTomatoes burst with sunlight,\nNature's feast awaits.\nHappy #FreshVeggiesDay from @ClamBakeSanta",
-      "tag": "FreshVeggiesDay",
+      "theme": "National Apple Strudel Day",
+      "haiku": "Sweet apples nestled,\nWrapped in warm, flaky layers,\nCinnamon whispers.\nHappy #NationalAppleStrudelDay from @ClamBakeSanta",
+      "tag": "NationalAppleStrudelDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Billie Holiday",
-      "haiku": "Sweet notes fill the air,\nJoy dances in each heartbeat,\nLaughter wraps the day.\n#HappyBirthdayBillieHoliday from @ClamBakeSanta",
-      "tag": "HappyBirthdayBillieHoliday",
+      "theme": "Birthday Igor Stravinsky",
+      "haiku": "Joyful notes take flight,\nStrings and woodwinds intertwine,\nSparkles fill the night.\n#HappyBirthdayIgorStravinsky from @ClamBakeSanta",
+      "tag": "HappyBirthdayIgorStravinsky",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Fudge Day",
-    "Fresh Veggies Day",
-    "Birthday Billie Holiday"
+    "National Eat Your Vegetables Day",
+    "National Apple Strudel Day",
+    "Birthday Igor Stravinsky"
   ],
-  "content": "Chocolate swirls cascade,\nSweet aromas fill the air,\nJoyful hearts unite.\nHappy #NationalFudgeDay from @ClamBakeSanta\n\nVibrant carrots crunch,\nTomatoes burst with sunlight,\nNature's feast awaits.\nHappy #FreshVeggiesDay from @ClamBakeSanta\n\nSweet notes fill the air,\nJoy dances in each heartbeat,\nLaughter wraps the day.\n#HappyBirthdayBillieHoliday from @ClamBakeSanta",
-  "saved_at": "2026-06-16T14:12:48.209168+00:00"
+  "content": "Crisp carrots crunch bright,\nGarden greens in sunlit bowls,\nFlavor bursts with joy.\nHappy #NationalEatYourVegetablesDay from @ClamBakeSanta\n\nSweet apples nestled,\nWrapped in warm, flaky layers,\nCinnamon whispers.\nHappy #NationalAppleStrudelDay from @ClamBakeSanta\n\nJoyful notes take flight,\nStrings and woodwinds intertwine,\nSparkles fill the night.\n#HappyBirthdayIgorStravinsky from @ClamBakeSanta",
+  "saved_at": "2026-06-17T12:53:13.674020+00:00"
 }

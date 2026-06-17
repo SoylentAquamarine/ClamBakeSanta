@@ -1,4 +1,66 @@
 {
+  "2026-06-17": {
+    "NationalEatYourVegetablesDay": {
+      "mastodon": {
+        "id": "116765543256130575",
+        "url": "https://mastodon.social/@ClamBakeSanta/116765543256130575"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moied5xifp2n",
+        "cid": "bafyreieymrsnnlvzamkotlnwvxzgoztuoea5yjx5t446rqejakv753gkga"
+      },
+      "tumblr": {
+        "id": "819672947431243776",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "206",
+        "channel": "@clambakesanta"
+      }
+    },
+    "NationalAppleStrudelDay": {
+      "mastodon": {
+        "id": "116765547225214945",
+        "url": "https://mastodon.social/@ClamBakeSanta/116765547225214945"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moieexfvx22u",
+        "cid": "bafyreidqhbm64aaivrstwvpsiakqgusgpvf2sbwnme4px4docfy7uks34y"
+      },
+      "tumblr": {
+        "id": "819673010926747648",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "207",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayIgorStravinsky": {
+      "mastodon": {
+        "id": "116765551206069858",
+        "url": "https://mastodon.social/@ClamBakeSanta/116765551206069858"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moiegquod72n",
+        "cid": "bafyreicg4viiepfqcu7uzlx4p5lbaevy647omagmrdx2jrinbqmectkxhm"
+      },
+      "tumblr": {
+        "id": "819673074596233216",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "208",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "80",
+        "url": "https://clambakesanta.wordpress.com/2026/06/17/clam-bake-santa-2026-06-17/"
+      }
+    }
+  },
   "2026-06-16": {
     "NationalFudgeDay": {
       "mastodon": {
@@ -466,68 +528,6 @@
       "wordpress": {
         "id": "73",
         "url": "https://clambakesanta.wordpress.com/2026/06/10/clam-bake-santa-2026-06-10/"
-      }
-    }
-  },
-  "2026-06-09": {
-    "NationalStrawberryRhubarbPieDay": {
-      "mastodon": {
-        "id": "116720063416023825",
-        "url": "https://mastodon.social/@ClamBakeSanta/116720063416023825"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnu5zczxfc2s",
-        "cid": "bafyreidik4gjqn6areu3uunlsrtf5awry3bwielrzmvmyt2k7i43p5z7ga"
-      },
-      "tumblr": {
-        "id": "818945269690482688",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "180",
-        "channel": "@clambakesanta"
-      }
-    },
-    "DonaldDuckDay": {
-      "mastodon": {
-        "id": "116720067375320837",
-        "url": "https://mastodon.social/@ClamBakeSanta/116720067375320837"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnu634lg5x2t",
-        "cid": "bafyreieiopiol5awhvbmg5snamx2buyghmhdxgkzvjxedzh5fgfh4zm7ga"
-      },
-      "tumblr": {
-        "id": "818945332954152960",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "181",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayColePorter": {
-      "mastodon": {
-        "id": "116720071369321917",
-        "url": "https://mastodon.social/@ClamBakeSanta/116720071369321917"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnu64vyj3j2n",
-        "cid": "bafyreicnd75jkpt2zk7c3cpuzat5rqsyeawwz52qnylqmeix623kdbgzwq"
-      },
-      "tumblr": {
-        "id": "818945396271382528",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "182",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "72",
-        "url": "https://clambakesanta.wordpress.com/2026/06/09/clam-bake-santa-2026-06-09/"
       }
     }
   }

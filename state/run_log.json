@@ -63,7 +63,8 @@
     "2026-06-13",
     "2026-06-14",
     "2026-06-15",
-    "2026-06-16"
+    "2026-06-16",
+    "2026-06-17"
   ],
   "runs": [
     {
@@ -787,6 +788,17 @@
         "Birthday Billie Holiday"
       ],
       "content_preview": "Chocolate swirls cascade, Sweet aromas fill the air, Joyful hearts unite. Happy #NationalFudgeDay from @ClamBakeSanta  V"
+    },
+    {
+      "date": "2026-06-17",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-17T13:01:23.645189+00:00",
+      "themes": [
+        "National Eat Your Vegetables Day",
+        "National Apple Strudel Day",
+        "Birthday Igor Stravinsky"
+      ],
+      "content_preview": "Crisp carrots crunch bright, Garden greens in sunlit bowls, Flavor bursts with joy. Happy #NationalEatYourVegetablesDay "
     }
   ]
 }
