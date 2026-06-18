@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-17",
+  "date": "2026-06-18",
   "haikus": [
     {
-      "theme": "National Eat Your Vegetables Day",
-      "haiku": "Crisp carrots crunch bright,\nGarden greens in sunlit bowls,\nFlavor bursts with joy.\nHappy #NationalEatYourVegetablesDay from @ClamBakeSanta",
-      "tag": "NationalEatYourVegetablesDay",
+      "theme": "International Picnic Day",
+      "haiku": "Blankets spread with care,\nLaughter dances in the sun,\nSandwich dreams take flight.\nHappy #InternationalPicnicDay from @ClamBakeSanta",
+      "tag": "InternationalPicnicDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Apple Strudel Day",
-      "haiku": "Sweet apples nestled,\nWrapped in warm, flaky layers,\nCinnamon whispers.\nHappy #NationalAppleStrudelDay from @ClamBakeSanta",
-      "tag": "NationalAppleStrudelDay",
+      "theme": "National Splurge Day",
+      "haiku": "Shimmering ribbons,\nSweet treats dance on tables bright,\nLaughter fills the day.\nHappy #NationalSplurgeDay from @ClamBakeSanta",
+      "tag": "NationalSplurgeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Igor Stravinsky",
-      "haiku": "Joyful notes take flight,\nStrings and woodwinds intertwine,\nSparkles fill the night.\n#HappyBirthdayIgorStravinsky from @ClamBakeSanta",
-      "tag": "HappyBirthdayIgorStravinsky",
+      "theme": "Birthday Paul McCartney",
+      "haiku": "Lively tunes drift high,\nMelodies dance through the air,\nJoyous hearts unite.\n#HappyBirthdayPaulMcCartney from @ClamBakeSanta",
+      "tag": "HappyBirthdayPaulMcCartney",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Eat Your Vegetables Day",
-    "National Apple Strudel Day",
-    "Birthday Igor Stravinsky"
+    "International Picnic Day",
+    "National Splurge Day",
+    "Birthday Paul McCartney"
   ],
-  "content": "Crisp carrots crunch bright,\nGarden greens in sunlit bowls,\nFlavor bursts with joy.\nHappy #NationalEatYourVegetablesDay from @ClamBakeSanta\n\nSweet apples nestled,\nWrapped in warm, flaky layers,\nCinnamon whispers.\nHappy #NationalAppleStrudelDay from @ClamBakeSanta\n\nJoyful notes take flight,\nStrings and woodwinds intertwine,\nSparkles fill the night.\n#HappyBirthdayIgorStravinsky from @ClamBakeSanta",
-  "saved_at": "2026-06-17T12:53:13.674020+00:00"
+  "content": "Blankets spread with care,\nLaughter dances in the sun,\nSandwich dreams take flight.\nHappy #InternationalPicnicDay from @ClamBakeSanta\n\nShimmering ribbons,\nSweet treats dance on tables bright,\nLaughter fills the day.\nHappy #NationalSplurgeDay from @ClamBakeSanta\n\nLively tunes drift high,\nMelodies dance through the air,\nJoyous hearts unite.\n#HappyBirthdayPaulMcCartney from @ClamBakeSanta",
+  "saved_at": "2026-06-18T12:28:27.948090+00:00"
 }

@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-05-18T14:30:10.319726+00:00",
-    "date": "2026-05-18",
+    "timestamp": "2026-06-18T12:36:43.303156+00:00",
+    "date": "2026-06-18",
     "themes_found": [
-      "National Cheese Souffle Day",
-      "No Dirty Dishes Day",
-      "Birthday Bertrand Russell"
+      "International Picnic Day",
+      "National Splurge Day",
+      "Birthday Paul McCartney"
     ],
     "haikus_posted": [
       {
-        "theme": "National Cheese Souffle Day",
-        "tag": "NationalCheeseSouffleDay",
+        "theme": "International Picnic Day",
+        "tag": "InternationalPicnicDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "No Dirty Dishes Day",
-        "tag": "NoDirtyDishesDay",
+        "theme": "National Splurge Day",
+        "tag": "NationalSplurgeDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Bertrand Russell",
-        "tag": "HappyBirthdayBertrandRussell",
+        "theme": "Birthday Paul McCartney",
+        "tag": "HappyBirthdayPaulMcCartney",
         "valid_syllables": true,
         "counts": [
           5,
@@ -41,6 +41,12 @@
     ],
     "writers_block": [],
     "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
       "github_pages"
     ],
     "adapters_failed": [],

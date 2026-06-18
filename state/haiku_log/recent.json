@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-06-10",
-    "theme": "National Iced Tea Day",
-    "haiku": "Frosty glass in hand,\nLemon slices swirl like sun,\nSipping summer's ease.\nHappy #NationalIcedTeaDay from @ClamBakeSanta",
-    "tag": "NationalIcedTeaDay",
-    "logged_at": "2026-06-10T12:23:51.582643+00:00"
-  },
-  {
-    "date": "2026-06-10",
-    "theme": "Ballpoint Pen Day",
-    "haiku": "Ink flows like river,\nWords dance on the soft paper,\nDreams take flight today.\nHappy #BallpointPenDay from @ClamBakeSanta",
-    "tag": "BallpointPenDay",
-    "logged_at": "2026-06-10T12:23:51.582643+00:00"
-  },
-  {
-    "date": "2026-06-10",
-    "theme": "Birthday Judy Garland",
-    "haiku": "Velvet skies above,\nSweet melodies dance with light,\nHeartfelt cheers abound.\n#HappyBirthdayJudyGarland from @ClamBakeSanta",
-    "tag": "HappyBirthdayJudyGarland",
-    "logged_at": "2026-06-10T12:23:51.582643+00:00"
-  },
-  {
-    "date": "2026-06-10",
-    "theme": "Birthday Maurice Sendak",
-    "haiku": "Wild things dance and play,\nImagination takes flight,\nDreams stir in the night.\n#HappyBirthdayMauriceSendak from @ClamBakeSanta",
-    "tag": "HappyBirthdayMauriceSendak",
-    "logged_at": "2026-06-10T12:23:51.582643+00:00"
-  },
-  {
     "date": "2026-06-11",
     "theme": "National Corn on the Cob Day",
     "haiku": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta",
@@ -159,5 +131,26 @@
     "haiku": "Sweet notes fill the air,\nJoy dances in each heartbeat,\nLaughter wraps the day.\n#HappyBirthdayBillieHoliday from @ClamBakeSanta",
     "tag": "HappyBirthdayBillieHoliday",
     "logged_at": "2026-06-16T14:12:48.209780+00:00"
+  },
+  {
+    "date": "2026-06-17",
+    "theme": "National Eat Your Vegetables Day",
+    "haiku": "Crisp carrots crunch bright,\nGarden greens in sunlit bowls,\nFlavor bursts with joy.\nHappy #NationalEatYourVegetablesDay from @ClamBakeSanta",
+    "tag": "NationalEatYourVegetablesDay",
+    "logged_at": "2026-06-17T12:53:13.674398+00:00"
+  },
+  {
+    "date": "2026-06-17",
+    "theme": "National Apple Strudel Day",
+    "haiku": "Sweet apples nestled,\nWrapped in warm, flaky layers,\nCinnamon whispers.\nHappy #NationalAppleStrudelDay from @ClamBakeSanta",
+    "tag": "NationalAppleStrudelDay",
+    "logged_at": "2026-06-17T12:53:13.674398+00:00"
+  },
+  {
+    "date": "2026-06-17",
+    "theme": "Birthday Igor Stravinsky",
+    "haiku": "Joyful notes take flight,\nStrings and woodwinds intertwine,\nSparkles fill the night.\n#HappyBirthdayIgorStravinsky from @ClamBakeSanta",
+    "tag": "HappyBirthdayIgorStravinsky",
+    "logged_at": "2026-06-17T12:53:13.674398+00:00"
   }
 ]

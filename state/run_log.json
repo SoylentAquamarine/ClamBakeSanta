@@ -64,7 +64,8 @@
     "2026-06-14",
     "2026-06-15",
     "2026-06-16",
-    "2026-06-17"
+    "2026-06-17",
+    "2026-06-18"
   ],
   "runs": [
     {
@@ -799,6 +800,17 @@
         "Birthday Igor Stravinsky"
       ],
       "content_preview": "Crisp carrots crunch bright, Garden greens in sunlit bowls, Flavor bursts with joy. Happy #NationalEatYourVegetablesDay "
+    },
+    {
+      "date": "2026-06-18",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-18T12:36:43.302429+00:00",
+      "themes": [
+        "International Picnic Day",
+        "National Splurge Day",
+        "Birthday Paul McCartney"
+      ],
+      "content_preview": "Blankets spread with care, Laughter dances in the sun, Sandwich dreams take flight. Happy #InternationalPicnicDay from @"
     }
   ]
 }
