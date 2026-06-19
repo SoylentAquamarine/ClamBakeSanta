@@ -1,4 +1,82 @@
 {
+  "2026-06-19": {
+    "NationalMartiniDay": {
+      "theme": "National Martini Day",
+      "haiku": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116776856096076581",
+          "url": "https://mastodon.social/@ClamBakeSanta/116776856096076581",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3monf3mytad2e",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
+    },
+    "Juneteenth": {
+      "theme": "Juneteenth",
+      "haiku": "Sunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116776860063184102",
+          "url": "https://mastodon.social/@ClamBakeSanta/116776860063184102",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3monf5gitb72w",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
+    },
+    "HappyBirthdayBlaisePascal": {
+      "theme": "Birthday Blaise Pascal",
+      "haiku": "Laughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116776864053771953",
+          "url": "https://mastodon.social/@ClamBakeSanta/116776864053771953",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3monf77rsvc26",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {},
+      "total_score": 0,
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
+    }
+  },
   "2026-06-18": {
     "InternationalPicnicDay": {
       "theme": "International Picnic Day",
@@ -21,7 +99,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "NationalSplurgeDay": {
       "theme": "National Splurge Day",
@@ -44,7 +122,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "HappyBirthdayPaulMcCartney": {
       "theme": "Birthday Paul McCartney",
@@ -67,14 +145,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     }
   },
   "2026-06-17": {
@@ -99,7 +177,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "NationalAppleStrudelDay": {
       "theme": "National Apple Strudel Day",
@@ -122,7 +200,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "HappyBirthdayIgorStravinsky": {
       "theme": "Birthday Igor Stravinsky",
@@ -145,14 +223,14 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     }
   },
   "2026-06-16": {
@@ -177,7 +255,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "FreshVeggiesDay": {
       "theme": "Fresh Veggies Day",
@@ -200,7 +278,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "HappyBirthdayBillieHoliday": {
       "theme": "Birthday Billie Holiday",
@@ -223,14 +301,14 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
       "haiku": "",
       "platforms": {},
       "total_score": 0,
-      "last_checked": "2026-06-18T23:29:05.341415+00:00"
+      "last_checked": "2026-06-19T22:46:01.209863+00:00"
     }
   },
   "2026-06-15": {
@@ -566,84 +644,6 @@
       "platforms": {},
       "total_score": 0,
       "last_checked": "2026-06-15T23:29:16.900851+00:00"
-    }
-  },
-  "2026-06-11": {
-    "NationalCornOnTheCobDay": {
-      "theme": "National Corn on the Cob Day",
-      "haiku": "Golden kernels glow,\nButter drips, sweet corn's embrace,\nSummer's taste unfolds.\nHappy #NationalCornOnTheCobDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116731553401880966",
-          "url": "https://mastodon.social/@ClamBakeSanta/116731553401880966",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbcdubyk2i",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-06-14T23:00:40.734614+00:00"
-    },
-    "CornOnTheCobDay": {
-      "theme": "Corn on the Cob Day",
-      "haiku": "Golden kernels shine,\nButtery bliss coats each bite,\nSweet summer delight.\nHappy #CornOnTheCobDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116731557377039310",
-          "url": "https://mastodon.social/@ClamBakeSanta/116731557377039310",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbe5bbwm2f",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-06-14T23:00:40.734614+00:00"
-    },
-    "HappyBirthdayMillicentFawcett": {
-      "theme": "Birthday Millicent Fawcett",
-      "haiku": "Bright candles aglow,\nJoyful hearts sing sweet praises,\nCake shared with delight.\n#HappyBirthdayMillicentFawcett from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116731561351740562",
-          "url": "https://mastodon.social/@ClamBakeSanta/116731561351740562",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mnzbfwqjs722",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-06-14T23:00:40.734614+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {},
-      "total_score": 0,
-      "last_checked": "2026-06-14T23:00:40.734614+00:00"
     }
   }
 }

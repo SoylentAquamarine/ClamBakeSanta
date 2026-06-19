@@ -1,0 +1,78 @@
+{
+  "NationalMartiniDay": {
+    "theme": "National Martini Day",
+    "haiku": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116776856096076581",
+        "url": "https://mastodon.social/@ClamBakeSanta/116776856096076581",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3monf3mytad2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-19T22:46:01.209863+00:00"
+  },
+  "Juneteenth": {
+    "theme": "Juneteenth",
+    "haiku": "Sunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116776860063184102",
+        "url": "https://mastodon.social/@ClamBakeSanta/116776860063184102",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3monf5gitb72w",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-19T22:46:01.209863+00:00"
+  },
+  "HappyBirthdayBlaisePascal": {
+    "theme": "Birthday Blaise Pascal",
+    "haiku": "Laughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116776864053771953",
+        "url": "https://mastodon.social/@ClamBakeSanta/116776864053771953",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3monf77rsvc26",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-19T22:46:01.209863+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-19T22:46:01.209863+00:00"
+  }
+}
