@@ -65,7 +65,8 @@
     "2026-06-15",
     "2026-06-16",
     "2026-06-17",
-    "2026-06-18"
+    "2026-06-18",
+    "2026-06-19"
   ],
   "runs": [
     {
@@ -811,6 +812,17 @@
         "Birthday Paul McCartney"
       ],
       "content_preview": "Blankets spread with care, Laughter dances in the sun, Sandwich dreams take flight. Happy #InternationalPicnicDay from @"
+    },
+    {
+      "date": "2026-06-19",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-19T12:58:26.120734+00:00",
+      "themes": [
+        "National Martini Day",
+        "Juneteenth",
+        "Birthday Blaise Pascal"
+      ],
+      "content_preview": "Olive in the glass, Chilled whispers of gin delight, Cheers to joy today! Happy #NationalMartiniDay from @ClamBakeSanta "
     }
   ]
 }

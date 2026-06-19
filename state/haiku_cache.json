@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "haikus": [
     {
-      "theme": "International Picnic Day",
-      "haiku": "Blankets spread with care,\nLaughter dances in the sun,\nSandwich dreams take flight.\nHappy #InternationalPicnicDay from @ClamBakeSanta",
-      "tag": "InternationalPicnicDay",
+      "theme": "National Martini Day",
+      "haiku": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta",
+      "tag": "NationalMartiniDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Splurge Day",
-      "haiku": "Shimmering ribbons,\nSweet treats dance on tables bright,\nLaughter fills the day.\nHappy #NationalSplurgeDay from @ClamBakeSanta",
-      "tag": "NationalSplurgeDay",
+      "theme": "Juneteenth",
+      "haiku": "Sunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta",
+      "tag": "Juneteenth",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Paul McCartney",
-      "haiku": "Lively tunes drift high,\nMelodies dance through the air,\nJoyous hearts unite.\n#HappyBirthdayPaulMcCartney from @ClamBakeSanta",
-      "tag": "HappyBirthdayPaulMcCartney",
+      "theme": "Birthday Blaise Pascal",
+      "haiku": "Laughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
+      "tag": "HappyBirthdayBlaisePascal",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "International Picnic Day",
-    "National Splurge Day",
-    "Birthday Paul McCartney"
+    "National Martini Day",
+    "Juneteenth",
+    "Birthday Blaise Pascal"
   ],
-  "content": "Blankets spread with care,\nLaughter dances in the sun,\nSandwich dreams take flight.\nHappy #InternationalPicnicDay from @ClamBakeSanta\n\nShimmering ribbons,\nSweet treats dance on tables bright,\nLaughter fills the day.\nHappy #NationalSplurgeDay from @ClamBakeSanta\n\nLively tunes drift high,\nMelodies dance through the air,\nJoyous hearts unite.\n#HappyBirthdayPaulMcCartney from @ClamBakeSanta",
-  "saved_at": "2026-06-18T12:28:27.948090+00:00"
+  "content": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta\n\nSunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta\n\nLaughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
+  "saved_at": "2026-06-19T12:50:13.795111+00:00"
 }
