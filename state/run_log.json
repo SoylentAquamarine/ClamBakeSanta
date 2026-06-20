@@ -66,7 +66,8 @@
     "2026-06-16",
     "2026-06-17",
     "2026-06-18",
-    "2026-06-19"
+    "2026-06-19",
+    "2026-06-20"
   ],
   "runs": [
     {
@@ -823,6 +824,17 @@
         "Birthday Blaise Pascal"
       ],
       "content_preview": "Olive in the glass, Chilled whispers of gin delight, Cheers to joy today! Happy #NationalMartiniDay from @ClamBakeSanta "
+    },
+    {
+      "date": "2026-06-20",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-20T11:28:52.901148+00:00",
+      "themes": [
+        "National Ice Cream Soda Day",
+        "World Refugee Day",
+        "Birthday Errol Flynn"
+      ],
+      "content_preview": "Creamy swirls delight, Bubbles dance in tall glasses, Chilled bliss brightens smiles. Happy #NationalIceCreamSodaDay fro"
     }
   ]
 }

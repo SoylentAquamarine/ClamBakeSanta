@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-12",
-    "theme": "National Peanut Butter Cookie Day",
-    "haiku": "Warm dough hugs my hands,\nPeanut butter scents the air,\nA cookie so sweet.\nHappy #NationalPeanutButterCookieDay from @ClamBakeSanta",
-    "tag": "NationalPeanutButterCookieDay",
-    "logged_at": "2026-06-12T12:21:27.121510+00:00"
-  },
-  {
-    "date": "2026-06-12",
-    "theme": "Red Rose Day",
-    "haiku": "Crimson blooms unfold,\nPerfumed breezes gently sway,\nJoy in bright bouquets.\nHappy #RedRoseDay from @ClamBakeSanta",
-    "tag": "RedRoseDay",
-    "logged_at": "2026-06-12T12:21:27.121510+00:00"
-  },
-  {
-    "date": "2026-06-12",
-    "theme": "Birthday Anne Frank",
-    "haiku": "Candles softly glow,\nLaughter fills the bright room air,\nHope blooms everywhere.\n#HappyBirthdayAnneFrank from @ClamBakeSanta",
-    "tag": "HappyBirthdayAnneFrank",
-    "logged_at": "2026-06-12T12:21:27.121510+00:00"
-  },
-  {
     "date": "2026-06-13",
     "theme": "National Weed Your Garden Day",
     "haiku": "Green leaves touch the sky,\nSoft earth yields to eager hands,\nLife blooms with each weed.\nHappy #NationalWeedYourGardenDay from @ClamBakeSanta",
@@ -152,5 +131,26 @@
     "haiku": "Lively tunes drift high,\nMelodies dance through the air,\nJoyous hearts unite.\n#HappyBirthdayPaulMcCartney from @ClamBakeSanta",
     "tag": "HappyBirthdayPaulMcCartney",
     "logged_at": "2026-06-18T12:28:27.948487+00:00"
+  },
+  {
+    "date": "2026-06-19",
+    "theme": "National Martini Day",
+    "haiku": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta",
+    "tag": "NationalMartiniDay",
+    "logged_at": "2026-06-19T12:50:13.795518+00:00"
+  },
+  {
+    "date": "2026-06-19",
+    "theme": "Juneteenth",
+    "haiku": "Sunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta",
+    "tag": "Juneteenth",
+    "logged_at": "2026-06-19T12:50:13.795518+00:00"
+  },
+  {
+    "date": "2026-06-19",
+    "theme": "Birthday Blaise Pascal",
+    "haiku": "Laughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
+    "tag": "HappyBirthdayBlaisePascal",
+    "logged_at": "2026-06-19T12:50:13.795518+00:00"
   }
 ]

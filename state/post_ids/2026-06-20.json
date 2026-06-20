@@ -1,0 +1,62 @@
+{
+  "NationalIceCreamSodaDay": {
+    "mastodon": {
+      "id": "116782166371060294",
+      "url": "https://mastodon.social/@ClamBakeSanta/116782166371060294"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mopqkhyvmc23",
+      "cid": "bafyreicswibtbipqxhwcixxybjmcimv2k2647tiyyyzt5scsv6tdwapl6u"
+    },
+    "tumblr": {
+      "id": "819938917157601280",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "215",
+      "channel": "@clambakesanta"
+    }
+  },
+  "WorldRefugeeDay": {
+    "mastodon": {
+      "id": "116782170360682031",
+      "url": "https://mastodon.social/@ClamBakeSanta/116782170360682031"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mopqmbgoo62p",
+      "cid": "bafyreicsbwv4wd7pshadzdutpt65kngvq4qmrvatopsjbyf672cncxwrze"
+    },
+    "tumblr": {
+      "id": "819938980591173632",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "216",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayErrolFlynn": {
+    "mastodon": {
+      "id": "116782174330095618",
+      "url": "https://mastodon.social/@ClamBakeSanta/116782174330095618"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mopqo2uwv62p",
+      "cid": "bafyreiaxqb3dbnb2m4igscw3fcbjtmoj2flxh2dtohozxcrwjvjakrxh6i"
+    },
+    "tumblr": {
+      "id": "819939043989225472",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "217",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "83",
+      "url": "https://clambakesanta.wordpress.com/2026/06/20/clam-bake-santa-2026-06-20/"
+    }
+  }
+}

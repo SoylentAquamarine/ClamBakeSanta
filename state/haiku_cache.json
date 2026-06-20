@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "haikus": [
     {
-      "theme": "National Martini Day",
-      "haiku": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta",
-      "tag": "NationalMartiniDay",
+      "theme": "National Ice Cream Soda Day",
+      "haiku": "Creamy swirls delight,\nBubbles dance in tall glasses,\nChilled bliss brightens smiles.\nHappy #NationalIceCreamSodaDay from @ClamBakeSanta",
+      "tag": "NationalIceCreamSodaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Juneteenth",
-      "haiku": "Sunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta",
-      "tag": "Juneteenth",
+      "theme": "World Refugee Day",
+      "haiku": "Warm hugs from afar,\nColors of hope unite us,\nHearts embrace the world.\nHappy #WorldRefugeeDay from @ClamBakeSanta",
+      "tag": "WorldRefugeeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Blaise Pascal",
-      "haiku": "Laughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
-      "tag": "HappyBirthdayBlaisePascal",
+      "theme": "Birthday Errol Flynn",
+      "haiku": "Laughter fills the room,\nCandles dance with warm soft light,\nCake and cheer unite.\n#HappyBirthdayErrolFlynn from @ClamBakeSanta",
+      "tag": "HappyBirthdayErrolFlynn",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Martini Day",
-    "Juneteenth",
-    "Birthday Blaise Pascal"
+    "National Ice Cream Soda Day",
+    "World Refugee Day",
+    "Birthday Errol Flynn"
   ],
-  "content": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta\n\nSunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta\n\nLaughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
-  "saved_at": "2026-06-19T12:50:13.795111+00:00"
+  "content": "Creamy swirls delight,\nBubbles dance in tall glasses,\nChilled bliss brightens smiles.\nHappy #NationalIceCreamSodaDay from @ClamBakeSanta\n\nWarm hugs from afar,\nColors of hope unite us,\nHearts embrace the world.\nHappy #WorldRefugeeDay from @ClamBakeSanta\n\nLaughter fills the room,\nCandles dance with warm soft light,\nCake and cheer unite.\n#HappyBirthdayErrolFlynn from @ClamBakeSanta",
+  "saved_at": "2026-06-20T11:20:42.064664+00:00"
 }

@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-05-20T11:59:02.157140+00:00",
-    "date": "2026-05-20",
+    "timestamp": "2026-06-20T11:28:52.901913+00:00",
+    "date": "2026-06-20",
     "themes_found": [
-      "National Quiche Lorraine Day",
-      "Rescue Dog Day",
-      "Birthday Honoré de Balzac"
+      "National Ice Cream Soda Day",
+      "World Refugee Day",
+      "Birthday Errol Flynn"
     ],
     "haikus_posted": [
       {
-        "theme": "National Quiche Lorraine Day",
-        "tag": "NationalQuicheLorraineDay",
+        "theme": "National Ice Cream Soda Day",
+        "tag": "NationalIceCreamSodaDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "Rescue Dog Day",
-        "tag": "RescueDogDay",
+        "theme": "World Refugee Day",
+        "tag": "WorldRefugeeDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Honoré de Balzac",
-        "tag": "HappyBirthdayHonordeBalzac",
+        "theme": "Birthday Errol Flynn",
+        "tag": "HappyBirthdayErrolFlynn",
         "valid_syllables": true,
         "counts": [
           5,
