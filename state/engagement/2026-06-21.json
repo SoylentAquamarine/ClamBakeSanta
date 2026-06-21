@@ -1,0 +1,124 @@
+{
+  "SummerSolstice": {
+    "theme": "Summer Solstice",
+    "haiku": "Golden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116787952969154716",
+        "url": "https://mastodon.social/@ClamBakeSanta/116787952969154716",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moscxaz4x42c",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-06-21T23:03:17.559767+00:00"
+  },
+  "WorldMusicDay": {
+    "theme": "World Music Day",
+    "haiku": "Strings hum in the sun,\nDrums beat with hearts open wide,\nVoices dance like stars.\nHappy #WorldMusicDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116787937099738870",
+        "url": "https://mastodon.social/@ClamBakeSanta/116787937099738870",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moscq3bju72n",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 1,
+        "score": 3
+      }
+    },
+    "total_score": 3,
+    "last_checked": "2026-06-21T23:03:17.559767+00:00"
+  },
+  "FatherSDay": {
+    "theme": "Father's Day",
+    "haiku": "Gentle hands create,\nLaughter dances 'round the room,\nHearts warm in the glow.\nHappy #FatherSDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116787941077587255",
+        "url": "https://mastodon.social/@ClamBakeSanta/116787941077587255",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moscrul2tz23",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-21T23:03:17.559767+00:00"
+  },
+  "HappyBirthdayJeanPaulSartre": {
+    "theme": "Birthday Jean-Paul Sartre",
+    "haiku": "Candles glow softly,\nLaughter dances through the room,\nCheers lift hearts like kites.\n#HappyBirthdayJeanPaulSartre from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116787945040916343",
+        "url": "https://mastodon.social/@ClamBakeSanta/116787945040916343",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moscto2uhp2u",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-21T23:03:17.559767+00:00"
+  },
+  "FirstQuarterMoon": {
+    "theme": "First Quarter Moon",
+    "haiku": "Silver crescent glows,\nWhispers of night’s soft embrace,\nStars twinkle with joy.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116787949001723591",
+        "url": "https://mastodon.social/@ClamBakeSanta/116787949001723591",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moscvhemzw2d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-21T23:03:17.559767+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-21T23:03:17.559767+00:00"
+  }
+}
