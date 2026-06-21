@@ -67,7 +67,8 @@
     "2026-06-17",
     "2026-06-18",
     "2026-06-19",
-    "2026-06-20"
+    "2026-06-20",
+    "2026-06-21"
   ],
   "runs": [
     {
@@ -835,6 +836,20 @@
         "Birthday Errol Flynn"
       ],
       "content_preview": "Creamy swirls delight, Bubbles dance in tall glasses, Chilled bliss brightens smiles. Happy #NationalIceCreamSodaDay fro"
+    },
+    {
+      "date": "2026-06-21",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-21T12:07:32.805243+00:00",
+      "themes": [
+        "Summer Solstice",
+        "World Music Day",
+        "Father's Day",
+        "Birthday Jean-Paul Sartre",
+        "First Quarter Moon",
+        "Summer Solstice"
+      ],
+      "content_preview": "Golden rays embrace, Fields of flowers dance and sway, Nature’s bright delight. Happy #SummerSolstice from @ClamBakeSant"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "haikus": [
     {
-      "theme": "National Ice Cream Soda Day",
-      "haiku": "Creamy swirls delight,\nBubbles dance in tall glasses,\nChilled bliss brightens smiles.\nHappy #NationalIceCreamSodaDay from @ClamBakeSanta",
-      "tag": "NationalIceCreamSodaDay",
+      "theme": "Summer Solstice",
+      "haiku": "Golden rays embrace,\nFields of flowers dance and sway,\nNature’s bright delight.\nHappy #SummerSolstice from @ClamBakeSanta",
+      "tag": "SummerSolstice",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Refugee Day",
-      "haiku": "Warm hugs from afar,\nColors of hope unite us,\nHearts embrace the world.\nHappy #WorldRefugeeDay from @ClamBakeSanta",
-      "tag": "WorldRefugeeDay",
+      "theme": "World Music Day",
+      "haiku": "Strings hum in the sun,\nDrums beat with hearts open wide,\nVoices dance like stars.\nHappy #WorldMusicDay from @ClamBakeSanta",
+      "tag": "WorldMusicDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,42 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Errol Flynn",
-      "haiku": "Laughter fills the room,\nCandles dance with warm soft light,\nCake and cheer unite.\n#HappyBirthdayErrolFlynn from @ClamBakeSanta",
-      "tag": "HappyBirthdayErrolFlynn",
+      "theme": "Father's Day",
+      "haiku": "Gentle hands create,\nLaughter dances 'round the room,\nHearts warm in the glow.\nHappy #FatherSDay from @ClamBakeSanta",
+      "tag": "FatherSDay",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Jean-Paul Sartre",
+      "haiku": "Candles glow softly,\nLaughter dances through the room,\nCheers lift hearts like kites.\n#HappyBirthdayJeanPaulSartre from @ClamBakeSanta",
+      "tag": "HappyBirthdayJeanPaulSartre",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "First Quarter Moon",
+      "haiku": "Silver crescent glows,\nWhispers of night’s soft embrace,\nStars twinkle with joy.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+      "tag": "FirstQuarterMoon",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Summer Solstice",
+      "haiku": "Golden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
+      "tag": "SummerSolstice",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +69,13 @@
     }
   ],
   "themes": [
-    "National Ice Cream Soda Day",
-    "World Refugee Day",
-    "Birthday Errol Flynn"
+    "Summer Solstice",
+    "World Music Day",
+    "Father's Day",
+    "Birthday Jean-Paul Sartre",
+    "First Quarter Moon",
+    "Summer Solstice"
   ],
-  "content": "Creamy swirls delight,\nBubbles dance in tall glasses,\nChilled bliss brightens smiles.\nHappy #NationalIceCreamSodaDay from @ClamBakeSanta\n\nWarm hugs from afar,\nColors of hope unite us,\nHearts embrace the world.\nHappy #WorldRefugeeDay from @ClamBakeSanta\n\nLaughter fills the room,\nCandles dance with warm soft light,\nCake and cheer unite.\n#HappyBirthdayErrolFlynn from @ClamBakeSanta",
-  "saved_at": "2026-06-20T11:20:42.064664+00:00"
+  "content": "Golden rays embrace,\nFields of flowers dance and sway,\nNature’s bright delight.\nHappy #SummerSolstice from @ClamBakeSanta\n\nStrings hum in the sun,\nDrums beat with hearts open wide,\nVoices dance like stars.\nHappy #WorldMusicDay from @ClamBakeSanta\n\nGentle hands create,\nLaughter dances 'round the room,\nHearts warm in the glow.\nHappy #FatherSDay from @ClamBakeSanta\n\nCandles glow softly,\nLaughter dances through the room,\nCheers lift hearts like kites.\n#HappyBirthdayJeanPaulSartre from @ClamBakeSanta\n\nSilver crescent glows,\nWhispers of night’s soft embrace,\nStars twinkle with joy.\nHappy #FirstQuarterMoon from @ClamBakeSanta\n\nGolden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
+  "saved_at": "2026-06-21T11:47:15.990072+00:00"
 }
