@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "haikus": [
     {
-      "theme": "Summer Solstice",
-      "haiku": "Golden rays embrace,\nFields of flowers dance and sway,\nNature’s bright delight.\nHappy #SummerSolstice from @ClamBakeSanta",
-      "tag": "SummerSolstice",
+      "theme": "National Chocolate Eclair Day",
+      "haiku": "Creamy bliss inside,\nFlaky layers dance in light,\nChocolate dreams delight.\nHappy #NationalChocolateEclairDay from @ClamBakeSanta",
+      "tag": "NationalChocolateEclairDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Music Day",
-      "haiku": "Strings hum in the sun,\nDrums beat with hearts open wide,\nVoices dance like stars.\nHappy #WorldMusicDay from @ClamBakeSanta",
-      "tag": "WorldMusicDay",
+      "theme": "National Onion Ring Day",
+      "haiku": "Golden rings of joy,\nCrispy whispers greet the bite,\nDipping sauce delights.\nHappy #NationalOnionRingDay from @ClamBakeSanta",
+      "tag": "NationalOnionRingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Father's Day",
-      "haiku": "Gentle hands create,\nLaughter dances 'round the room,\nHearts warm in the glow.\nHappy #FatherSDay from @ClamBakeSanta",
-      "tag": "FatherSDay",
+      "theme": "Birthday Octavia Butler",
+      "haiku": "Bright stars twinkle on,\nWarm cake glows with candles' light,\nLaughter fills the night.\n#HappyBirthdayOctaviaButler from @ClamBakeSanta",
+      "tag": "HappyBirthdayOctaviaButler",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Jean-Paul Sartre",
-      "haiku": "Candles glow softly,\nLaughter dances through the room,\nCheers lift hearts like kites.\n#HappyBirthdayJeanPaulSartre from @ClamBakeSanta",
-      "tag": "HappyBirthdayJeanPaulSartre",
+      "theme": "Birthday Kris Kristofferson",
+      "haiku": "Sunshine warmly glows,\nMelodies dance in the air,\nLaughter fills the room.\n#HappyBirthdayKrisKristofferson from @ClamBakeSanta",
+      "tag": "HappyBirthdayKrisKristofferson",
       "syllable_counts": [
         5,
         7,
@@ -46,20 +46,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "First Quarter Moon",
-      "haiku": "Silver crescent glows,\nWhispers of night’s soft embrace,\nStars twinkle with joy.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-      "tag": "FirstQuarterMoon",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Summer Solstice",
-      "haiku": "Golden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
-      "tag": "SummerSolstice",
+      "theme": "Welcome to Cancer Season",
+      "haiku": "Warm sun on my face,\nGentle waves kiss sandy shores,\nTogether we shine.\nHappy #WelcomeToCancerSeason from @ClamBakeSanta",
+      "tag": "WelcomeToCancerSeason",
       "syllable_counts": [
         5,
         7,
@@ -69,13 +58,12 @@
     }
   ],
   "themes": [
-    "Summer Solstice",
-    "World Music Day",
-    "Father's Day",
-    "Birthday Jean-Paul Sartre",
-    "First Quarter Moon",
-    "Summer Solstice"
+    "National Chocolate Eclair Day",
+    "National Onion Ring Day",
+    "Birthday Octavia Butler",
+    "Birthday Kris Kristofferson",
+    "Welcome to Cancer Season"
   ],
-  "content": "Golden rays embrace,\nFields of flowers dance and sway,\nNature’s bright delight.\nHappy #SummerSolstice from @ClamBakeSanta\n\nStrings hum in the sun,\nDrums beat with hearts open wide,\nVoices dance like stars.\nHappy #WorldMusicDay from @ClamBakeSanta\n\nGentle hands create,\nLaughter dances 'round the room,\nHearts warm in the glow.\nHappy #FatherSDay from @ClamBakeSanta\n\nCandles glow softly,\nLaughter dances through the room,\nCheers lift hearts like kites.\n#HappyBirthdayJeanPaulSartre from @ClamBakeSanta\n\nSilver crescent glows,\nWhispers of night’s soft embrace,\nStars twinkle with joy.\nHappy #FirstQuarterMoon from @ClamBakeSanta\n\nGolden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
-  "saved_at": "2026-06-21T11:47:15.990072+00:00"
+  "content": "Creamy bliss inside,\nFlaky layers dance in light,\nChocolate dreams delight.\nHappy #NationalChocolateEclairDay from @ClamBakeSanta\n\nGolden rings of joy,\nCrispy whispers greet the bite,\nDipping sauce delights.\nHappy #NationalOnionRingDay from @ClamBakeSanta\n\nBright stars twinkle on,\nWarm cake glows with candles' light,\nLaughter fills the night.\n#HappyBirthdayOctaviaButler from @ClamBakeSanta\n\nSunshine warmly glows,\nMelodies dance in the air,\nLaughter fills the room.\n#HappyBirthdayKrisKristofferson from @ClamBakeSanta\n\nWarm sun on my face,\nGentle waves kiss sandy shores,\nTogether we shine.\nHappy #WelcomeToCancerSeason from @ClamBakeSanta",
+  "saved_at": "2026-06-22T14:43:46.632867+00:00"
 }

@@ -1,0 +1,98 @@
+{
+  "NationalChocolateEclairDay": {
+    "mastodon": {
+      "id": "116794289501923132",
+      "url": "https://mastodon.social/@ClamBakeSanta/116794289501923132"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mov4wzsnpw2d",
+      "cid": "bafyreigxktdmw3ohrrtoyp7ga2xaw7444yvfgw4h4fm3ifyyr6ro7opbnm"
+    },
+    "tumblr": {
+      "id": "820133140416921600",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "224",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalOnionRingDay": {
+    "mastodon": {
+      "id": "116794293465222105",
+      "url": "https://mastodon.social/@ClamBakeSanta/116794293465222105"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mov4ytbvku23",
+      "cid": "bafyreigymw26adh2p5qrf34tln5jvg532n3w5ecr5gkijbrswf2r27yhzm"
+    },
+    "tumblr": {
+      "id": "820133203838894080",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "225",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayOctaviaButler": {
+    "mastodon": {
+      "id": "116794297423499469",
+      "url": "https://mastodon.social/@ClamBakeSanta/116794297423499469"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mov52mr7dp2u",
+      "cid": "bafyreifamjijqr67ynzi7lqrrispuzadbvh4kc5ae2kc5ktab4qhpdvvf4"
+    },
+    "tumblr": {
+      "id": "820133267139346432",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "226",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayKrisKristofferson": {
+    "mastodon": {
+      "id": "116794301380605146",
+      "url": "https://mastodon.social/@ClamBakeSanta/116794301380605146"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mov54gn43h2u",
+      "cid": "bafyreif3nsry337oqf6ddc6wziuch3gikb7unl264ecijguakvrh5pbsya"
+    },
+    "tumblr": {
+      "id": "820133330565660672",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "227",
+      "channel": "@clambakesanta"
+    }
+  },
+  "WelcomeToCancerSeason": {
+    "mastodon": {
+      "id": "116794305362936675",
+      "url": "https://mastodon.social/@ClamBakeSanta/116794305362936675"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mov56a3tif2i",
+      "cid": "bafyreigkkhmwid3tdqx3ohyf2hyeocq7zs5vvg6ikm6xjga5ocppnuj4dm"
+    },
+    "tumblr": {
+      "id": "820133394283446272",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "228",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "85",
+      "url": "https://clambakesanta.wordpress.com/2026/06/22/clam-bake-santa-2026-06-22/"
+    }
+  }
+}

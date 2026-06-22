@@ -68,7 +68,8 @@
     "2026-06-18",
     "2026-06-19",
     "2026-06-20",
-    "2026-06-21"
+    "2026-06-21",
+    "2026-06-22"
   ],
   "runs": [
     {
@@ -850,6 +851,19 @@
         "Summer Solstice"
       ],
       "content_preview": "Golden rays embrace, Fields of flowers dance and sway, Nature’s bright delight. Happy #SummerSolstice from @ClamBakeSant"
+    },
+    {
+      "date": "2026-06-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-22T15:00:07.298393+00:00",
+      "themes": [
+        "National Chocolate Eclair Day",
+        "National Onion Ring Day",
+        "Birthday Octavia Butler",
+        "Birthday Kris Kristofferson",
+        "Welcome to Cancer Season"
+      ],
+      "content_preview": "Creamy bliss inside, Flaky layers dance in light, Chocolate dreams delight. Happy #NationalChocolateEclairDay from @Clam"
     }
   ]
 }

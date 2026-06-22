@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-14",
-    "theme": "Flag Day",
-    "haiku": "Banners in the breeze,\nJoyful hearts and laughter ring,\nUnity shines bright.\nHappy #FlagDay from @ClamBakeSanta",
-    "tag": "FlagDay",
-    "logged_at": "2026-06-14T11:32:50.714752+00:00"
-  },
-  {
-    "date": "2026-06-14",
-    "theme": "National Strawberry Shortcake Day",
-    "haiku": "Juicy berries shine,\nFluffy clouds of whipped cream swirl,\nSweet joy on each slice.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
-    "tag": "NationalStrawberryShortcakeDay",
-    "logged_at": "2026-06-14T11:32:50.714752+00:00"
-  },
-  {
-    "date": "2026-06-14",
-    "theme": "Birthday Harriet Beecher Stowe",
-    "haiku": "Crisp leaves twirl in air,\nStories weave through warm sunlight,\nVoices rise with cheer.\n#HappyBirthdayHarrietBeecherStowe from @ClamBakeSanta",
-    "tag": "HappyBirthdayHarrietBeecherStowe",
-    "logged_at": "2026-06-14T11:32:50.714752+00:00"
-  },
-  {
     "date": "2026-06-15",
     "theme": "National Strawberry Shortcake Day",
     "haiku": "Juicy red berries,\nLayers of cream gently swirl,\nSweet joy on the plate.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
@@ -152,5 +131,47 @@
     "haiku": "Laughter fills the room,\nCandles dance with warm soft light,\nCake and cheer unite.\n#HappyBirthdayErrolFlynn from @ClamBakeSanta",
     "tag": "HappyBirthdayErrolFlynn",
     "logged_at": "2026-06-20T11:20:42.065058+00:00"
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "Summer Solstice",
+    "haiku": "Golden rays embrace,\nFields of flowers dance and sway,\nNature’s bright delight.\nHappy #SummerSolstice from @ClamBakeSanta",
+    "tag": "SummerSolstice",
+    "logged_at": "2026-06-21T11:47:15.990545+00:00"
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "World Music Day",
+    "haiku": "Strings hum in the sun,\nDrums beat with hearts open wide,\nVoices dance like stars.\nHappy #WorldMusicDay from @ClamBakeSanta",
+    "tag": "WorldMusicDay",
+    "logged_at": "2026-06-21T11:47:15.990545+00:00"
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "Father's Day",
+    "haiku": "Gentle hands create,\nLaughter dances 'round the room,\nHearts warm in the glow.\nHappy #FatherSDay from @ClamBakeSanta",
+    "tag": "FatherSDay",
+    "logged_at": "2026-06-21T11:47:15.990545+00:00"
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "Birthday Jean-Paul Sartre",
+    "haiku": "Candles glow softly,\nLaughter dances through the room,\nCheers lift hearts like kites.\n#HappyBirthdayJeanPaulSartre from @ClamBakeSanta",
+    "tag": "HappyBirthdayJeanPaulSartre",
+    "logged_at": "2026-06-21T11:47:15.990545+00:00"
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "First Quarter Moon",
+    "haiku": "Silver crescent glows,\nWhispers of night’s soft embrace,\nStars twinkle with joy.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+    "tag": "FirstQuarterMoon",
+    "logged_at": "2026-06-21T11:47:15.990545+00:00"
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "Summer Solstice",
+    "haiku": "Golden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
+    "tag": "SummerSolstice",
+    "logged_at": "2026-06-21T11:47:15.990545+00:00"
   }
 ]
