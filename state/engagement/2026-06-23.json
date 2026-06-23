@@ -1,0 +1,78 @@
+{
+  "NationalPinkFlamingoDay": {
+    "theme": "National Pink Flamingo Day",
+    "haiku": "Flamingos in pink\nDance on lawns, bright as sunshine,\nJoyful hearts take flight.\nHappy #NationalPinkFlamingoDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116799345526637180",
+        "url": "https://mastodon.social/@ClamBakeSanta/116799345526637180",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moxeomos622d",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-06-23T23:01:40.046320+00:00"
+  },
+  "NationalHydrationDay": {
+    "theme": "National Hydration Day",
+    "haiku": "Cool water sparkles,\nGlistening on thirsty lips,\nNature’s gift to us.\nHappy #NationalHydrationDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116799349482149869",
+        "url": "https://mastodon.social/@ClamBakeSanta/116799349482149869",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moxeqfzvce2t",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-23T23:01:40.046320+00:00"
+  },
+  "HappyBirthdayAlanTuring": {
+    "theme": "Birthday Alan Turing",
+    "haiku": "Candles gently glow,\nWhispers of dreams in the air,\nMind like stars will shine.\n#HappyBirthdayAlanTuring from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116799353440902210",
+        "url": "https://mastodon.social/@ClamBakeSanta/116799353440902210",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moxes7mys52t",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-23T23:01:40.046320+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {},
+    "total_score": 0,
+    "last_checked": "2026-06-23T23:01:40.046320+00:00"
+  }
+}
