@@ -69,7 +69,8 @@
     "2026-06-19",
     "2026-06-20",
     "2026-06-21",
-    "2026-06-22"
+    "2026-06-22",
+    "2026-06-23"
   ],
   "runs": [
     {
@@ -864,6 +865,17 @@
         "Welcome to Cancer Season"
       ],
       "content_preview": "Creamy bliss inside, Flaky layers dance in light, Chocolate dreams delight. Happy #NationalChocolateEclairDay from @Clam"
+    },
+    {
+      "date": "2026-06-23",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-23T12:17:49.128606+00:00",
+      "themes": [
+        "National Pink Flamingo Day",
+        "National Hydration Day",
+        "Birthday Alan Turing"
+      ],
+      "content_preview": "Flamingos in pink Dance on lawns, bright as sunshine, Joyful hearts take flight. Happy #NationalPinkFlamingoDay from @Cl"
     }
   ]
 }

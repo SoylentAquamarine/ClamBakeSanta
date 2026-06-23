@@ -1,0 +1,62 @@
+{
+  "NationalPinkFlamingoDay": {
+    "mastodon": {
+      "id": "116799345526637180",
+      "url": "https://mastodon.social/@ClamBakeSanta/116799345526637180"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moxeomos622d",
+      "cid": "bafyreihmuyuvl7iii63ytiqeoqadftcjlekmfz3cdqwrzutykwirb3ccby"
+    },
+    "tumblr": {
+      "id": "820213782359031808",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "229",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalHydrationDay": {
+    "mastodon": {
+      "id": "116799349482149869",
+      "url": "https://mastodon.social/@ClamBakeSanta/116799349482149869"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moxeqfzvce2t",
+      "cid": "bafyreiga3ztw2bfr5ma6xhobxtqiu53c5m3v4mrqpx2fycjgnn5atemszu"
+    },
+    "tumblr": {
+      "id": "820213845784231936",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "230",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayAlanTuring": {
+    "mastodon": {
+      "id": "116799353440902210",
+      "url": "https://mastodon.social/@ClamBakeSanta/116799353440902210"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moxes7mys52t",
+      "cid": "bafyreiflpxidxfq5os4ktsmvcojd2itihkmab5daqrqwzwkmkazho72qu4"
+    },
+    "tumblr": {
+      "id": "820213909144338432",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "231",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "86",
+      "url": "https://clambakesanta.wordpress.com/2026/06/23/clam-bake-santa-2026-06-23/"
+    }
+  }
+}

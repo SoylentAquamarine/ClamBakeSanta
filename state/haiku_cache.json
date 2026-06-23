@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "haikus": [
     {
-      "theme": "National Chocolate Eclair Day",
-      "haiku": "Creamy bliss inside,\nFlaky layers dance in light,\nChocolate dreams delight.\nHappy #NationalChocolateEclairDay from @ClamBakeSanta",
-      "tag": "NationalChocolateEclairDay",
+      "theme": "National Pink Flamingo Day",
+      "haiku": "Flamingos in pink\nDance on lawns, bright as sunshine,\nJoyful hearts take flight.\nHappy #NationalPinkFlamingoDay from @ClamBakeSanta",
+      "tag": "NationalPinkFlamingoDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Onion Ring Day",
-      "haiku": "Golden rings of joy,\nCrispy whispers greet the bite,\nDipping sauce delights.\nHappy #NationalOnionRingDay from @ClamBakeSanta",
-      "tag": "NationalOnionRingDay",
+      "theme": "National Hydration Day",
+      "haiku": "Cool water sparkles,\nGlistening on thirsty lips,\nNature’s gift to us.\nHappy #NationalHydrationDay from @ClamBakeSanta",
+      "tag": "NationalHydrationDay",
       "syllable_counts": [
         5,
         7,
@@ -24,31 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Octavia Butler",
-      "haiku": "Bright stars twinkle on,\nWarm cake glows with candles' light,\nLaughter fills the night.\n#HappyBirthdayOctaviaButler from @ClamBakeSanta",
-      "tag": "HappyBirthdayOctaviaButler",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Kris Kristofferson",
-      "haiku": "Sunshine warmly glows,\nMelodies dance in the air,\nLaughter fills the room.\n#HappyBirthdayKrisKristofferson from @ClamBakeSanta",
-      "tag": "HappyBirthdayKrisKristofferson",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Welcome to Cancer Season",
-      "haiku": "Warm sun on my face,\nGentle waves kiss sandy shores,\nTogether we shine.\nHappy #WelcomeToCancerSeason from @ClamBakeSanta",
-      "tag": "WelcomeToCancerSeason",
+      "theme": "Birthday Alan Turing",
+      "haiku": "Candles gently glow,\nWhispers of dreams in the air,\nMind like stars will shine.\n#HappyBirthdayAlanTuring from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlanTuring",
       "syllable_counts": [
         5,
         7,
@@ -58,12 +36,10 @@
     }
   ],
   "themes": [
-    "National Chocolate Eclair Day",
-    "National Onion Ring Day",
-    "Birthday Octavia Butler",
-    "Birthday Kris Kristofferson",
-    "Welcome to Cancer Season"
+    "National Pink Flamingo Day",
+    "National Hydration Day",
+    "Birthday Alan Turing"
   ],
-  "content": "Creamy bliss inside,\nFlaky layers dance in light,\nChocolate dreams delight.\nHappy #NationalChocolateEclairDay from @ClamBakeSanta\n\nGolden rings of joy,\nCrispy whispers greet the bite,\nDipping sauce delights.\nHappy #NationalOnionRingDay from @ClamBakeSanta\n\nBright stars twinkle on,\nWarm cake glows with candles' light,\nLaughter fills the night.\n#HappyBirthdayOctaviaButler from @ClamBakeSanta\n\nSunshine warmly glows,\nMelodies dance in the air,\nLaughter fills the room.\n#HappyBirthdayKrisKristofferson from @ClamBakeSanta\n\nWarm sun on my face,\nGentle waves kiss sandy shores,\nTogether we shine.\nHappy #WelcomeToCancerSeason from @ClamBakeSanta",
-  "saved_at": "2026-06-22T14:43:46.632867+00:00"
+  "content": "Flamingos in pink\nDance on lawns, bright as sunshine,\nJoyful hearts take flight.\nHappy #NationalPinkFlamingoDay from @ClamBakeSanta\n\nCool water sparkles,\nGlistening on thirsty lips,\nNature’s gift to us.\nHappy #NationalHydrationDay from @ClamBakeSanta\n\nCandles gently glow,\nWhispers of dreams in the air,\nMind like stars will shine.\n#HappyBirthdayAlanTuring from @ClamBakeSanta",
+  "saved_at": "2026-06-23T12:09:35.472496+00:00"
 }

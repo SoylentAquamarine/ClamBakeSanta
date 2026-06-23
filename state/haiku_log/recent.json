@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-06-15",
-    "theme": "National Strawberry Shortcake Day",
-    "haiku": "Juicy red berries,\nLayers of cream gently swirl,\nSweet joy on the plate.\nHappy #NationalStrawberryShortcakeDay from @ClamBakeSanta",
-    "tag": "NationalStrawberryShortcakeDay",
-    "logged_at": "2026-06-15T15:17:55.797491+00:00"
-  },
-  {
-    "date": "2026-06-15",
-    "theme": "Smile Power Day",
-    "haiku": "Joyful laughs abound,\nFaces lit with warm delight,\nSunbeams in each smile.\nHappy #SmilePowerDay from @ClamBakeSanta",
-    "tag": "SmilePowerDay",
-    "logged_at": "2026-06-15T15:17:55.797491+00:00"
-  },
-  {
-    "date": "2026-06-15",
-    "theme": "Birthday Edvard Grieg",
-    "haiku": "Joyful notes arise,\nPines sway with the soft music,\nLaughter fills the air.\n#HappyBirthdayEdvardGrieg from @ClamBakeSanta",
-    "tag": "HappyBirthdayEdvardGrieg",
-    "logged_at": "2026-06-15T15:17:55.797491+00:00"
-  },
-  {
-    "date": "2026-06-15",
-    "theme": "New Moon",
-    "haiku": "Soft clouds drift away,\nStars twinkle in the still night,\nHope blooms like new leaves.\nHappy #NewMoon from @ClamBakeSanta",
-    "tag": "NewMoon",
-    "logged_at": "2026-06-15T15:17:55.797491+00:00"
-  },
-  {
     "date": "2026-06-16",
     "theme": "National Fudge Day",
     "haiku": "Chocolate swirls cascade,\nSweet aromas fill the air,\nJoyful hearts unite.\nHappy #NationalFudgeDay from @ClamBakeSanta",
@@ -173,5 +145,40 @@
     "haiku": "Golden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
     "tag": "SummerSolstice",
     "logged_at": "2026-06-21T11:47:15.990545+00:00"
+  },
+  {
+    "date": "2026-06-22",
+    "theme": "National Chocolate Eclair Day",
+    "haiku": "Creamy bliss inside,\nFlaky layers dance in light,\nChocolate dreams delight.\nHappy #NationalChocolateEclairDay from @ClamBakeSanta",
+    "tag": "NationalChocolateEclairDay",
+    "logged_at": "2026-06-22T14:43:46.633316+00:00"
+  },
+  {
+    "date": "2026-06-22",
+    "theme": "National Onion Ring Day",
+    "haiku": "Golden rings of joy,\nCrispy whispers greet the bite,\nDipping sauce delights.\nHappy #NationalOnionRingDay from @ClamBakeSanta",
+    "tag": "NationalOnionRingDay",
+    "logged_at": "2026-06-22T14:43:46.633316+00:00"
+  },
+  {
+    "date": "2026-06-22",
+    "theme": "Birthday Octavia Butler",
+    "haiku": "Bright stars twinkle on,\nWarm cake glows with candles' light,\nLaughter fills the night.\n#HappyBirthdayOctaviaButler from @ClamBakeSanta",
+    "tag": "HappyBirthdayOctaviaButler",
+    "logged_at": "2026-06-22T14:43:46.633316+00:00"
+  },
+  {
+    "date": "2026-06-22",
+    "theme": "Birthday Kris Kristofferson",
+    "haiku": "Sunshine warmly glows,\nMelodies dance in the air,\nLaughter fills the room.\n#HappyBirthdayKrisKristofferson from @ClamBakeSanta",
+    "tag": "HappyBirthdayKrisKristofferson",
+    "logged_at": "2026-06-22T14:43:46.633316+00:00"
+  },
+  {
+    "date": "2026-06-22",
+    "theme": "Welcome to Cancer Season",
+    "haiku": "Warm sun on my face,\nGentle waves kiss sandy shores,\nTogether we shine.\nHappy #WelcomeToCancerSeason from @ClamBakeSanta",
+    "tag": "WelcomeToCancerSeason",
+    "logged_at": "2026-06-22T14:43:46.633316+00:00"
   }
 ]
