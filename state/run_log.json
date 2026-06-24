@@ -70,7 +70,8 @@
     "2026-06-20",
     "2026-06-21",
     "2026-06-22",
-    "2026-06-23"
+    "2026-06-23",
+    "2026-06-24"
   ],
   "runs": [
     {
@@ -876,6 +877,17 @@
         "Birthday Alan Turing"
       ],
       "content_preview": "Flamingos in pink Dance on lawns, bright as sunshine, Joyful hearts take flight. Happy #NationalPinkFlamingoDay from @Cl"
+    },
+    {
+      "date": "2026-06-24",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-24T11:55:28.080008+00:00",
+      "themes": [
+        "National Pralines Day",
+        "Swim a Lap Day",
+        "Birthday Jack Dempsey"
+      ],
+      "content_preview": "Nuts and sugar swirl, Caramel hugs each morsel, A sweet dream unfolds. Happy #NationalPralinesDay from @ClamBakeSanta  C"
     }
   ]
 }

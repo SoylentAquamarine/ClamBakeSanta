@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-16",
-    "theme": "National Fudge Day",
-    "haiku": "Chocolate swirls cascade,\nSweet aromas fill the air,\nJoyful hearts unite.\nHappy #NationalFudgeDay from @ClamBakeSanta",
-    "tag": "NationalFudgeDay",
-    "logged_at": "2026-06-16T14:12:48.209780+00:00"
-  },
-  {
-    "date": "2026-06-16",
-    "theme": "Fresh Veggies Day",
-    "haiku": "Vibrant carrots crunch,\nTomatoes burst with sunlight,\nNature's feast awaits.\nHappy #FreshVeggiesDay from @ClamBakeSanta",
-    "tag": "FreshVeggiesDay",
-    "logged_at": "2026-06-16T14:12:48.209780+00:00"
-  },
-  {
-    "date": "2026-06-16",
-    "theme": "Birthday Billie Holiday",
-    "haiku": "Sweet notes fill the air,\nJoy dances in each heartbeat,\nLaughter wraps the day.\n#HappyBirthdayBillieHoliday from @ClamBakeSanta",
-    "tag": "HappyBirthdayBillieHoliday",
-    "logged_at": "2026-06-16T14:12:48.209780+00:00"
-  },
-  {
     "date": "2026-06-17",
     "theme": "National Eat Your Vegetables Day",
     "haiku": "Crisp carrots crunch bright,\nGarden greens in sunlit bowls,\nFlavor bursts with joy.\nHappy #NationalEatYourVegetablesDay from @ClamBakeSanta",
@@ -180,5 +159,26 @@
     "haiku": "Warm sun on my face,\nGentle waves kiss sandy shores,\nTogether we shine.\nHappy #WelcomeToCancerSeason from @ClamBakeSanta",
     "tag": "WelcomeToCancerSeason",
     "logged_at": "2026-06-22T14:43:46.633316+00:00"
+  },
+  {
+    "date": "2026-06-23",
+    "theme": "National Pink Flamingo Day",
+    "haiku": "Flamingos in pink\nDance on lawns, bright as sunshine,\nJoyful hearts take flight.\nHappy #NationalPinkFlamingoDay from @ClamBakeSanta",
+    "tag": "NationalPinkFlamingoDay",
+    "logged_at": "2026-06-23T12:09:35.472859+00:00"
+  },
+  {
+    "date": "2026-06-23",
+    "theme": "National Hydration Day",
+    "haiku": "Cool water sparkles,\nGlistening on thirsty lips,\nNature’s gift to us.\nHappy #NationalHydrationDay from @ClamBakeSanta",
+    "tag": "NationalHydrationDay",
+    "logged_at": "2026-06-23T12:09:35.472859+00:00"
+  },
+  {
+    "date": "2026-06-23",
+    "theme": "Birthday Alan Turing",
+    "haiku": "Candles gently glow,\nWhispers of dreams in the air,\nMind like stars will shine.\n#HappyBirthdayAlanTuring from @ClamBakeSanta",
+    "tag": "HappyBirthdayAlanTuring",
+    "logged_at": "2026-06-23T12:09:35.472859+00:00"
   }
 ]
