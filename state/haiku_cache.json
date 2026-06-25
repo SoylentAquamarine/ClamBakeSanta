@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "haikus": [
     {
-      "theme": "National Pralines Day",
-      "haiku": "Nuts and sugar swirl,\nCaramel hugs each morsel,\nA sweet dream unfolds.\nHappy #NationalPralinesDay from @ClamBakeSanta",
-      "tag": "NationalPralinesDay",
+      "theme": "National Catfish Day",
+      "haiku": "Bubbles rise and dance,\nFried catfish scents fill the air,\nJoyful hearts unite.\nHappy #NationalCatfishDay from @ClamBakeSanta",
+      "tag": "NationalCatfishDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Swim a Lap Day",
-      "haiku": "Clear waves gently lap,\nBright splashes dance in the sun,\nJoy flows through each stroke.\nHappy #SwimALapDay from @ClamBakeSanta",
-      "tag": "SwimALapDay",
+      "theme": "Log Cabin Day",
+      "haiku": "Woodsmoke fills the air,\nRustling leaves in crisp cool breeze,\nCozy hearts unite.\nHappy #LogCabinDay from @ClamBakeSanta",
+      "tag": "LogCabinDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Jack Dempsey",
-      "haiku": "Candles dance with light,\nJoyful cheers blend with sweet cake,\nWishes take to flight.\n#HappyBirthdayJackDempsey from @ClamBakeSanta",
-      "tag": "HappyBirthdayJackDempsey",
+      "theme": "Birthday George Orwell",
+      "haiku": "Joyful cheers resound,\nCake and dreams in the sweet air,\nPages turn with hope.\n#HappyBirthdayGeorgeOrwell from @ClamBakeSanta",
+      "tag": "HappyBirthdayGeorgeOrwell",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Pralines Day",
-    "Swim a Lap Day",
-    "Birthday Jack Dempsey"
+    "National Catfish Day",
+    "Log Cabin Day",
+    "Birthday George Orwell"
   ],
-  "content": "Nuts and sugar swirl,\nCaramel hugs each morsel,\nA sweet dream unfolds.\nHappy #NationalPralinesDay from @ClamBakeSanta\n\nClear waves gently lap,\nBright splashes dance in the sun,\nJoy flows through each stroke.\nHappy #SwimALapDay from @ClamBakeSanta\n\nCandles dance with light,\nJoyful cheers blend with sweet cake,\nWishes take to flight.\n#HappyBirthdayJackDempsey from @ClamBakeSanta",
-  "saved_at": "2026-06-24T11:47:15.083394+00:00"
+  "content": "Bubbles rise and dance,\nFried catfish scents fill the air,\nJoyful hearts unite.\nHappy #NationalCatfishDay from @ClamBakeSanta\n\nWoodsmoke fills the air,\nRustling leaves in crisp cool breeze,\nCozy hearts unite.\nHappy #LogCabinDay from @ClamBakeSanta\n\nJoyful cheers resound,\nCake and dreams in the sweet air,\nPages turn with hope.\n#HappyBirthdayGeorgeOrwell from @ClamBakeSanta",
+  "saved_at": "2026-06-25T11:41:51.640579+00:00"
 }

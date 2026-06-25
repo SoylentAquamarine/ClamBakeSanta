@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-17",
-    "theme": "National Eat Your Vegetables Day",
-    "haiku": "Crisp carrots crunch bright,\nGarden greens in sunlit bowls,\nFlavor bursts with joy.\nHappy #NationalEatYourVegetablesDay from @ClamBakeSanta",
-    "tag": "NationalEatYourVegetablesDay",
-    "logged_at": "2026-06-17T12:53:13.674398+00:00"
-  },
-  {
-    "date": "2026-06-17",
-    "theme": "National Apple Strudel Day",
-    "haiku": "Sweet apples nestled,\nWrapped in warm, flaky layers,\nCinnamon whispers.\nHappy #NationalAppleStrudelDay from @ClamBakeSanta",
-    "tag": "NationalAppleStrudelDay",
-    "logged_at": "2026-06-17T12:53:13.674398+00:00"
-  },
-  {
-    "date": "2026-06-17",
-    "theme": "Birthday Igor Stravinsky",
-    "haiku": "Joyful notes take flight,\nStrings and woodwinds intertwine,\nSparkles fill the night.\n#HappyBirthdayIgorStravinsky from @ClamBakeSanta",
-    "tag": "HappyBirthdayIgorStravinsky",
-    "logged_at": "2026-06-17T12:53:13.674398+00:00"
-  },
-  {
     "date": "2026-06-18",
     "theme": "International Picnic Day",
     "haiku": "Blankets spread with care,\nLaughter dances in the sun,\nSandwich dreams take flight.\nHappy #InternationalPicnicDay from @ClamBakeSanta",
@@ -180,5 +159,26 @@
     "haiku": "Candles gently glow,\nWhispers of dreams in the air,\nMind like stars will shine.\n#HappyBirthdayAlanTuring from @ClamBakeSanta",
     "tag": "HappyBirthdayAlanTuring",
     "logged_at": "2026-06-23T12:09:35.472859+00:00"
+  },
+  {
+    "date": "2026-06-24",
+    "theme": "National Pralines Day",
+    "haiku": "Nuts and sugar swirl,\nCaramel hugs each morsel,\nA sweet dream unfolds.\nHappy #NationalPralinesDay from @ClamBakeSanta",
+    "tag": "NationalPralinesDay",
+    "logged_at": "2026-06-24T11:47:15.083825+00:00"
+  },
+  {
+    "date": "2026-06-24",
+    "theme": "Swim a Lap Day",
+    "haiku": "Clear waves gently lap,\nBright splashes dance in the sun,\nJoy flows through each stroke.\nHappy #SwimALapDay from @ClamBakeSanta",
+    "tag": "SwimALapDay",
+    "logged_at": "2026-06-24T11:47:15.083825+00:00"
+  },
+  {
+    "date": "2026-06-24",
+    "theme": "Birthday Jack Dempsey",
+    "haiku": "Candles dance with light,\nJoyful cheers blend with sweet cake,\nWishes take to flight.\n#HappyBirthdayJackDempsey from @ClamBakeSanta",
+    "tag": "HappyBirthdayJackDempsey",
+    "logged_at": "2026-06-24T11:47:15.083825+00:00"
   }
 ]

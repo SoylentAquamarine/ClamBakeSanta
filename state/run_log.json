@@ -71,7 +71,8 @@
     "2026-06-21",
     "2026-06-22",
     "2026-06-23",
-    "2026-06-24"
+    "2026-06-24",
+    "2026-06-25"
   ],
   "runs": [
     {
@@ -888,6 +889,17 @@
         "Birthday Jack Dempsey"
       ],
       "content_preview": "Nuts and sugar swirl, Caramel hugs each morsel, A sweet dream unfolds. Happy #NationalPralinesDay from @ClamBakeSanta  C"
+    },
+    {
+      "date": "2026-06-25",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-25T11:50:06.155480+00:00",
+      "themes": [
+        "National Catfish Day",
+        "Log Cabin Day",
+        "Birthday George Orwell"
+      ],
+      "content_preview": "Bubbles rise and dance, Fried catfish scents fill the air, Joyful hearts unite. Happy #NationalCatfishDay from @ClamBake"
     }
   ]
 }

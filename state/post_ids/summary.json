@@ -1,4 +1,66 @@
 {
+  "2026-06-25": {
+    "NationalCatfishDay": {
+      "mastodon": {
+        "id": "116810561113598885",
+        "url": "https://mastodon.social/@ClamBakeSanta/116810561113598885"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp4e2vkiej2l",
+        "cid": "bafyreigvgeatqk2ov5injhtj7hfglwbt427kzimbfpwbhjvtcxe4btjmgu"
+      },
+      "tumblr": {
+        "id": "820393232616849408",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "235",
+        "channel": "@clambakesanta"
+      }
+    },
+    "LogCabinDay": {
+      "mastodon": {
+        "id": "116810565102812276",
+        "url": "https://mastodon.social/@ClamBakeSanta/116810565102812276"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp4e4p4t4o2p",
+        "cid": "bafyreied6xnbovzo7cpdva7lkm6wbfppy47qdqakwcdftf3ug2aggek6py"
+      },
+      "tumblr": {
+        "id": "820393295943483392",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "236",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayGeorgeOrwell": {
+      "mastodon": {
+        "id": "116810569067985472",
+        "url": "https://mastodon.social/@ClamBakeSanta/116810569067985472"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp4e6ilw572x",
+        "cid": "bafyreifwpabn6667i5dfpithatzmimohhhftfmgofrynps7y5tkncunycq"
+      },
+      "tumblr": {
+        "id": "820393359217655808",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "237",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "88",
+        "url": "https://clambakesanta.wordpress.com/2026/06/25/clam-bake-santa-2026-06-25/"
+      }
+    }
+  },
   "2026-06-24": {
     "NationalPralinesDay": {
       "mastodon": {
@@ -502,68 +564,6 @@
       "wordpress": {
         "id": "81",
         "url": "https://clambakesanta.wordpress.com/2026/06/18/clam-bake-santa-2026-06-18/"
-      }
-    }
-  },
-  "2026-06-17": {
-    "NationalEatYourVegetablesDay": {
-      "mastodon": {
-        "id": "116765543256130575",
-        "url": "https://mastodon.social/@ClamBakeSanta/116765543256130575"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moied5xifp2n",
-        "cid": "bafyreieymrsnnlvzamkotlnwvxzgoztuoea5yjx5t446rqejakv753gkga"
-      },
-      "tumblr": {
-        "id": "819672947431243776",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "206",
-        "channel": "@clambakesanta"
-      }
-    },
-    "NationalAppleStrudelDay": {
-      "mastodon": {
-        "id": "116765547225214945",
-        "url": "https://mastodon.social/@ClamBakeSanta/116765547225214945"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moieexfvx22u",
-        "cid": "bafyreidqhbm64aaivrstwvpsiakqgusgpvf2sbwnme4px4docfy7uks34y"
-      },
-      "tumblr": {
-        "id": "819673010926747648",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "207",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayIgorStravinsky": {
-      "mastodon": {
-        "id": "116765551206069858",
-        "url": "https://mastodon.social/@ClamBakeSanta/116765551206069858"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3moiegquod72n",
-        "cid": "bafyreicg4viiepfqcu7uzlx4p5lbaevy647omagmrdx2jrinbqmectkxhm"
-      },
-      "tumblr": {
-        "id": "819673074596233216",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "208",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "80",
-        "url": "https://clambakesanta.wordpress.com/2026/06/17/clam-bake-santa-2026-06-17/"
       }
     }
   }

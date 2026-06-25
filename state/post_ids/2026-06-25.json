@@ -1,0 +1,62 @@
+{
+  "NationalCatfishDay": {
+    "mastodon": {
+      "id": "116810561113598885",
+      "url": "https://mastodon.social/@ClamBakeSanta/116810561113598885"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp4e2vkiej2l",
+      "cid": "bafyreigvgeatqk2ov5injhtj7hfglwbt427kzimbfpwbhjvtcxe4btjmgu"
+    },
+    "tumblr": {
+      "id": "820393232616849408",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "235",
+      "channel": "@clambakesanta"
+    }
+  },
+  "LogCabinDay": {
+    "mastodon": {
+      "id": "116810565102812276",
+      "url": "https://mastodon.social/@ClamBakeSanta/116810565102812276"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp4e4p4t4o2p",
+      "cid": "bafyreied6xnbovzo7cpdva7lkm6wbfppy47qdqakwcdftf3ug2aggek6py"
+    },
+    "tumblr": {
+      "id": "820393295943483392",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "236",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayGeorgeOrwell": {
+    "mastodon": {
+      "id": "116810569067985472",
+      "url": "https://mastodon.social/@ClamBakeSanta/116810569067985472"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp4e6ilw572x",
+      "cid": "bafyreifwpabn6667i5dfpithatzmimohhhftfmgofrynps7y5tkncunycq"
+    },
+    "tumblr": {
+      "id": "820393359217655808",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "237",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "88",
+      "url": "https://clambakesanta.wordpress.com/2026/06/25/clam-bake-santa-2026-06-25/"
+    }
+  }
+}
