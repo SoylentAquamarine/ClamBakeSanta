@@ -72,7 +72,8 @@
     "2026-06-22",
     "2026-06-23",
     "2026-06-24",
-    "2026-06-25"
+    "2026-06-25",
+    "2026-06-26"
   ],
   "runs": [
     {
@@ -900,6 +901,17 @@
         "Birthday George Orwell"
       ],
       "content_preview": "Bubbles rise and dance, Fried catfish scents fill the air, Joyful hearts unite. Happy #NationalCatfishDay from @ClamBake"
+    },
+    {
+      "date": "2026-06-26",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-26T11:54:25.248235+00:00",
+      "themes": [
+        "National Chocolate Pudding Day",
+        "National Coconut Day",
+        "Birthday Pearl S. Buck"
+      ],
+      "content_preview": "Chocolate waves flow wide, Velvet dreams on silver spoons, Sweet joy fills each bite. Happy #NationalChocolatePuddingDay"
     }
   ]
 }

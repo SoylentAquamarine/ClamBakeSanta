@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "haikus": [
     {
-      "theme": "National Catfish Day",
-      "haiku": "Bubbles rise and dance,\nFried catfish scents fill the air,\nJoyful hearts unite.\nHappy #NationalCatfishDay from @ClamBakeSanta",
-      "tag": "NationalCatfishDay",
+      "theme": "National Chocolate Pudding Day",
+      "haiku": "Chocolate waves flow wide,\nVelvet dreams on silver spoons,\nSweet joy fills each bite.\nHappy #NationalChocolatePuddingDay from @ClamBakeSanta",
+      "tag": "NationalChocolatePuddingDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Log Cabin Day",
-      "haiku": "Woodsmoke fills the air,\nRustling leaves in crisp cool breeze,\nCozy hearts unite.\nHappy #LogCabinDay from @ClamBakeSanta",
-      "tag": "LogCabinDay",
+      "theme": "National Coconut Day",
+      "haiku": "Coconuts abound,\nBeneath palms, sweet breezes sigh,\nNature's gift, pure joy.\nHappy #NationalCoconutDay from @ClamBakeSanta",
+      "tag": "NationalCoconutDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday George Orwell",
-      "haiku": "Joyful cheers resound,\nCake and dreams in the sweet air,\nPages turn with hope.\n#HappyBirthdayGeorgeOrwell from @ClamBakeSanta",
-      "tag": "HappyBirthdayGeorgeOrwell",
+      "theme": "Birthday Pearl S. Buck",
+      "haiku": "Joyful words take flight,\nStories weave like vibrant threads,\nHearts dance in delight.\n#HappyBirthdayPearlSBuck from @ClamBakeSanta",
+      "tag": "HappyBirthdayPearlSBuck",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Catfish Day",
-    "Log Cabin Day",
-    "Birthday George Orwell"
+    "National Chocolate Pudding Day",
+    "National Coconut Day",
+    "Birthday Pearl S. Buck"
   ],
-  "content": "Bubbles rise and dance,\nFried catfish scents fill the air,\nJoyful hearts unite.\nHappy #NationalCatfishDay from @ClamBakeSanta\n\nWoodsmoke fills the air,\nRustling leaves in crisp cool breeze,\nCozy hearts unite.\nHappy #LogCabinDay from @ClamBakeSanta\n\nJoyful cheers resound,\nCake and dreams in the sweet air,\nPages turn with hope.\n#HappyBirthdayGeorgeOrwell from @ClamBakeSanta",
-  "saved_at": "2026-06-25T11:41:51.640579+00:00"
+  "content": "Chocolate waves flow wide,\nVelvet dreams on silver spoons,\nSweet joy fills each bite.\nHappy #NationalChocolatePuddingDay from @ClamBakeSanta\n\nCoconuts abound,\nBeneath palms, sweet breezes sigh,\nNature's gift, pure joy.\nHappy #NationalCoconutDay from @ClamBakeSanta\n\nJoyful words take flight,\nStories weave like vibrant threads,\nHearts dance in delight.\n#HappyBirthdayPearlSBuck from @ClamBakeSanta",
+  "saved_at": "2026-06-26T11:46:13.554643+00:00"
 }

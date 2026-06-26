@@ -1,0 +1,62 @@
+{
+  "NationalChocolatePuddingDay": {
+    "mastodon": {
+      "id": "116816240613697575",
+      "url": "https://mastodon.social/@ClamBakeSanta/116816240613697575"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp6urohdy72m",
+      "cid": "bafyreiccjcj2d3uvmnwytzjchwx3nobmjtlhjb66vwfhfrwhammp37ubgm"
+    },
+    "tumblr": {
+      "id": "820484106230038528",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "238",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalCoconutDay": {
+    "mastodon": {
+      "id": "116816244625877366",
+      "url": "https://mastodon.social/@ClamBakeSanta/116816244625877366"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp6uthvgur2l",
+      "cid": "bafyreiclj4uqjlo26yqohvcwkr52m23p75mdlj7ufxsapdruc6ixoxqkeq"
+    },
+    "tumblr": {
+      "id": "820484169670033408",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "239",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayPearlSBuck": {
+    "mastodon": {
+      "id": "116816248624198896",
+      "url": "https://mastodon.social/@ClamBakeSanta/116816248624198896"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mp6uvbjrce2r",
+      "cid": "bafyreig42glhjctcvntldioiam5wxpeuocactmv3aomsbgvupw3adkr76a"
+    },
+    "tumblr": {
+      "id": "820484233228353536",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "240",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "89",
+      "url": "https://clambakesanta.wordpress.com/2026/06/26/clam-bake-santa-2026-06-26/"
+    }
+  }
+}
