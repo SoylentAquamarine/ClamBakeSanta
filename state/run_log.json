@@ -73,7 +73,8 @@
     "2026-06-23",
     "2026-06-24",
     "2026-06-25",
-    "2026-06-26"
+    "2026-06-26",
+    "2026-06-27"
   ],
   "runs": [
     {
@@ -912,6 +913,17 @@
         "Birthday Pearl S. Buck"
       ],
       "content_preview": "Chocolate waves flow wide, Velvet dreams on silver spoons, Sweet joy fills each bite. Happy #NationalChocolatePuddingDay"
+    },
+    {
+      "date": "2026-06-27",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-27T11:07:19.363834+00:00",
+      "themes": [
+        "National Orange Blossom Day",
+        "Sunglasses Day",
+        "Birthday Helen Keller"
+      ],
+      "content_preview": "Petals dance in breeze, Fragrant blooms paint the earth bright, Joyful hearts unite. Happy #NationalOrangeBlossomDay fro"
     }
   ]
 }

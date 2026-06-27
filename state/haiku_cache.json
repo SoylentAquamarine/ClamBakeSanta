@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-27",
   "haikus": [
     {
-      "theme": "National Chocolate Pudding Day",
-      "haiku": "Chocolate waves flow wide,\nVelvet dreams on silver spoons,\nSweet joy fills each bite.\nHappy #NationalChocolatePuddingDay from @ClamBakeSanta",
-      "tag": "NationalChocolatePuddingDay",
+      "theme": "National Orange Blossom Day",
+      "haiku": "Petals dance in breeze,\nFragrant blooms paint the earth bright,\nJoyful hearts unite.\nHappy #NationalOrangeBlossomDay from @ClamBakeSanta",
+      "tag": "NationalOrangeBlossomDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Coconut Day",
-      "haiku": "Coconuts abound,\nBeneath palms, sweet breezes sigh,\nNature's gift, pure joy.\nHappy #NationalCoconutDay from @ClamBakeSanta",
-      "tag": "NationalCoconutDay",
+      "theme": "Sunglasses Day",
+      "haiku": "Bright skies all around,\nLaughter dances on the breeze,\nShadows play with light.\nHappy #SunglassesDay from @ClamBakeSanta",
+      "tag": "SunglassesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Pearl S. Buck",
-      "haiku": "Joyful words take flight,\nStories weave like vibrant threads,\nHearts dance in delight.\n#HappyBirthdayPearlSBuck from @ClamBakeSanta",
-      "tag": "HappyBirthdayPearlSBuck",
+      "theme": "Birthday Helen Keller",
+      "haiku": "Joyful voices sing,\nColors dance in bright delight,\nHearts unite in cheer.\n#HappyBirthdayHelenKeller from @ClamBakeSanta",
+      "tag": "HappyBirthdayHelenKeller",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Chocolate Pudding Day",
-    "National Coconut Day",
-    "Birthday Pearl S. Buck"
+    "National Orange Blossom Day",
+    "Sunglasses Day",
+    "Birthday Helen Keller"
   ],
-  "content": "Chocolate waves flow wide,\nVelvet dreams on silver spoons,\nSweet joy fills each bite.\nHappy #NationalChocolatePuddingDay from @ClamBakeSanta\n\nCoconuts abound,\nBeneath palms, sweet breezes sigh,\nNature's gift, pure joy.\nHappy #NationalCoconutDay from @ClamBakeSanta\n\nJoyful words take flight,\nStories weave like vibrant threads,\nHearts dance in delight.\n#HappyBirthdayPearlSBuck from @ClamBakeSanta",
-  "saved_at": "2026-06-26T11:46:13.554643+00:00"
+  "content": "Petals dance in breeze,\nFragrant blooms paint the earth bright,\nJoyful hearts unite.\nHappy #NationalOrangeBlossomDay from @ClamBakeSanta\n\nBright skies all around,\nLaughter dances on the breeze,\nShadows play with light.\nHappy #SunglassesDay from @ClamBakeSanta\n\nJoyful voices sing,\nColors dance in bright delight,\nHearts unite in cheer.\n#HappyBirthdayHelenKeller from @ClamBakeSanta",
+  "saved_at": "2026-06-27T10:59:03.220988+00:00"
 }

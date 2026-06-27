@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-19",
-    "theme": "National Martini Day",
-    "haiku": "Olive in the glass,\nChilled whispers of gin delight,\nCheers to joy today!\nHappy #NationalMartiniDay from @ClamBakeSanta",
-    "tag": "NationalMartiniDay",
-    "logged_at": "2026-06-19T12:50:13.795518+00:00"
-  },
-  {
-    "date": "2026-06-19",
-    "theme": "Juneteenth",
-    "haiku": "Sunlight warms the field,\nVoices rise like sweet spring winds,\nHope blooms in each heart.\nHappy #Juneteenth from @ClamBakeSanta",
-    "tag": "Juneteenth",
-    "logged_at": "2026-06-19T12:50:13.795518+00:00"
-  },
-  {
-    "date": "2026-06-19",
-    "theme": "Birthday Blaise Pascal",
-    "haiku": "Laughter fills the room,\nCake and joy, sweet scents entwined,\nTime to celebrate!\n#HappyBirthdayBlaisePascal from @ClamBakeSanta",
-    "tag": "HappyBirthdayBlaisePascal",
-    "logged_at": "2026-06-19T12:50:13.795518+00:00"
-  },
-  {
     "date": "2026-06-20",
     "theme": "National Ice Cream Soda Day",
     "haiku": "Creamy swirls delight,\nBubbles dance in tall glasses,\nChilled bliss brightens smiles.\nHappy #NationalIceCreamSodaDay from @ClamBakeSanta",
@@ -180,5 +159,26 @@
     "haiku": "Joyful cheers resound,\nCake and dreams in the sweet air,\nPages turn with hope.\n#HappyBirthdayGeorgeOrwell from @ClamBakeSanta",
     "tag": "HappyBirthdayGeorgeOrwell",
     "logged_at": "2026-06-25T11:41:51.640934+00:00"
+  },
+  {
+    "date": "2026-06-26",
+    "theme": "National Chocolate Pudding Day",
+    "haiku": "Chocolate waves flow wide,\nVelvet dreams on silver spoons,\nSweet joy fills each bite.\nHappy #NationalChocolatePuddingDay from @ClamBakeSanta",
+    "tag": "NationalChocolatePuddingDay",
+    "logged_at": "2026-06-26T11:46:13.555088+00:00"
+  },
+  {
+    "date": "2026-06-26",
+    "theme": "National Coconut Day",
+    "haiku": "Coconuts abound,\nBeneath palms, sweet breezes sigh,\nNature's gift, pure joy.\nHappy #NationalCoconutDay from @ClamBakeSanta",
+    "tag": "NationalCoconutDay",
+    "logged_at": "2026-06-26T11:46:13.555088+00:00"
+  },
+  {
+    "date": "2026-06-26",
+    "theme": "Birthday Pearl S. Buck",
+    "haiku": "Joyful words take flight,\nStories weave like vibrant threads,\nHearts dance in delight.\n#HappyBirthdayPearlSBuck from @ClamBakeSanta",
+    "tag": "HappyBirthdayPearlSBuck",
+    "logged_at": "2026-06-26T11:46:13.555088+00:00"
   }
 ]
