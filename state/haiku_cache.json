@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "haikus": [
     {
-      "theme": "National Orange Blossom Day",
-      "haiku": "Petals dance in breeze,\nFragrant blooms paint the earth bright,\nJoyful hearts unite.\nHappy #NationalOrangeBlossomDay from @ClamBakeSanta",
-      "tag": "NationalOrangeBlossomDay",
+      "theme": "National Tapioca Day",
+      "haiku": "Pearls of joy delight,\nSweetness dances on the tongue,\nLaughter fills the air.\nHappy #NationalTapiocaDay from @ClamBakeSanta",
+      "tag": "NationalTapiocaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Sunglasses Day",
-      "haiku": "Bright skies all around,\nLaughter dances on the breeze,\nShadows play with light.\nHappy #SunglassesDay from @ClamBakeSanta",
-      "tag": "SunglassesDay",
+      "theme": "Paul Bunyan Day",
+      "haiku": "Tall pines sway with cheer,\nLumberjacks laugh, axes flash,\nBlue rivers flow bright.\nHappy #PaulBunyanDay from @ClamBakeSanta",
+      "tag": "PaulBunyanDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Helen Keller",
-      "haiku": "Joyful voices sing,\nColors dance in bright delight,\nHearts unite in cheer.\n#HappyBirthdayHelenKeller from @ClamBakeSanta",
-      "tag": "HappyBirthdayHelenKeller",
+      "theme": "Birthday Jean-Jacques Rousseau",
+      "haiku": "Sweet cake fills the air,\nLaughter dances like spring blooms,\nJoy wraps all around.\n#HappyBirthdayJeanJacquesRousseau from @ClamBakeSanta",
+      "tag": "HappyBirthdayJeanJacquesRousseau",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Mel Brooks",
+      "haiku": "Laughter fills the air,\nCake and joy dance on each plate,\nCheers for Mel's bright spark!\n#HappyBirthdayMelBrooks from @ClamBakeSanta",
+      "tag": "HappyBirthdayMelBrooks",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Orange Blossom Day",
-    "Sunglasses Day",
-    "Birthday Helen Keller"
+    "National Tapioca Day",
+    "Paul Bunyan Day",
+    "Birthday Jean-Jacques Rousseau",
+    "Birthday Mel Brooks"
   ],
-  "content": "Petals dance in breeze,\nFragrant blooms paint the earth bright,\nJoyful hearts unite.\nHappy #NationalOrangeBlossomDay from @ClamBakeSanta\n\nBright skies all around,\nLaughter dances on the breeze,\nShadows play with light.\nHappy #SunglassesDay from @ClamBakeSanta\n\nJoyful voices sing,\nColors dance in bright delight,\nHearts unite in cheer.\n#HappyBirthdayHelenKeller from @ClamBakeSanta",
-  "saved_at": "2026-06-27T10:59:03.220988+00:00"
+  "content": "Pearls of joy delight,\nSweetness dances on the tongue,\nLaughter fills the air.\nHappy #NationalTapiocaDay from @ClamBakeSanta\n\nTall pines sway with cheer,\nLumberjacks laugh, axes flash,\nBlue rivers flow bright.\nHappy #PaulBunyanDay from @ClamBakeSanta\n\nSweet cake fills the air,\nLaughter dances like spring blooms,\nJoy wraps all around.\n#HappyBirthdayJeanJacquesRousseau from @ClamBakeSanta\n\nLaughter fills the air,\nCake and joy dance on each plate,\nCheers for Mel's bright spark!\n#HappyBirthdayMelBrooks from @ClamBakeSanta",
+  "saved_at": "2026-06-28T11:10:09.104103+00:00"
 }

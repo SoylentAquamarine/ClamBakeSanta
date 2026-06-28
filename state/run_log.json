@@ -74,7 +74,8 @@
     "2026-06-24",
     "2026-06-25",
     "2026-06-26",
-    "2026-06-27"
+    "2026-06-27",
+    "2026-06-28"
   ],
   "runs": [
     {
@@ -924,6 +925,18 @@
         "Birthday Helen Keller"
       ],
       "content_preview": "Petals dance in breeze, Fragrant blooms paint the earth bright, Joyful hearts unite. Happy #NationalOrangeBlossomDay fro"
+    },
+    {
+      "date": "2026-06-28",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-28T11:22:20.295530+00:00",
+      "themes": [
+        "National Tapioca Day",
+        "Paul Bunyan Day",
+        "Birthday Jean-Jacques Rousseau",
+        "Birthday Mel Brooks"
+      ],
+      "content_preview": "Pearls of joy delight, Sweetness dances on the tongue, Laughter fills the air. Happy #NationalTapiocaDay from @ClamBakeS"
     }
   ]
 }

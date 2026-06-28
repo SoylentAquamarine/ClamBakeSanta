@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-20",
-    "theme": "National Ice Cream Soda Day",
-    "haiku": "Creamy swirls delight,\nBubbles dance in tall glasses,\nChilled bliss brightens smiles.\nHappy #NationalIceCreamSodaDay from @ClamBakeSanta",
-    "tag": "NationalIceCreamSodaDay",
-    "logged_at": "2026-06-20T11:20:42.065058+00:00"
-  },
-  {
-    "date": "2026-06-20",
-    "theme": "World Refugee Day",
-    "haiku": "Warm hugs from afar,\nColors of hope unite us,\nHearts embrace the world.\nHappy #WorldRefugeeDay from @ClamBakeSanta",
-    "tag": "WorldRefugeeDay",
-    "logged_at": "2026-06-20T11:20:42.065058+00:00"
-  },
-  {
-    "date": "2026-06-20",
-    "theme": "Birthday Errol Flynn",
-    "haiku": "Laughter fills the room,\nCandles dance with warm soft light,\nCake and cheer unite.\n#HappyBirthdayErrolFlynn from @ClamBakeSanta",
-    "tag": "HappyBirthdayErrolFlynn",
-    "logged_at": "2026-06-20T11:20:42.065058+00:00"
-  },
-  {
     "date": "2026-06-21",
     "theme": "Summer Solstice",
     "haiku": "Golden rays embrace,\nFields of flowers dance and sway,\nNature’s bright delight.\nHappy #SummerSolstice from @ClamBakeSanta",
@@ -180,5 +159,26 @@
     "haiku": "Joyful words take flight,\nStories weave like vibrant threads,\nHearts dance in delight.\n#HappyBirthdayPearlSBuck from @ClamBakeSanta",
     "tag": "HappyBirthdayPearlSBuck",
     "logged_at": "2026-06-26T11:46:13.555088+00:00"
+  },
+  {
+    "date": "2026-06-27",
+    "theme": "National Orange Blossom Day",
+    "haiku": "Petals dance in breeze,\nFragrant blooms paint the earth bright,\nJoyful hearts unite.\nHappy #NationalOrangeBlossomDay from @ClamBakeSanta",
+    "tag": "NationalOrangeBlossomDay",
+    "logged_at": "2026-06-27T10:59:03.221343+00:00"
+  },
+  {
+    "date": "2026-06-27",
+    "theme": "Sunglasses Day",
+    "haiku": "Bright skies all around,\nLaughter dances on the breeze,\nShadows play with light.\nHappy #SunglassesDay from @ClamBakeSanta",
+    "tag": "SunglassesDay",
+    "logged_at": "2026-06-27T10:59:03.221343+00:00"
+  },
+  {
+    "date": "2026-06-27",
+    "theme": "Birthday Helen Keller",
+    "haiku": "Joyful voices sing,\nColors dance in bright delight,\nHearts unite in cheer.\n#HappyBirthdayHelenKeller from @ClamBakeSanta",
+    "tag": "HappyBirthdayHelenKeller",
+    "logged_at": "2026-06-27T10:59:03.221343+00:00"
   }
 ]
