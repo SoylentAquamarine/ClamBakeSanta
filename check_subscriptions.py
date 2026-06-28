@@ -144,15 +144,15 @@ def _fetch_commands(gmail_address: str, app_password: str) -> list[SubscriptionC
             subject = _decode_header(msg.get("Subject"))
             command = _detect_command(subject)
 
+            # Mark every scanned message as seen so it isn't re-processed on the next run.
+            imap.store(message_id, "+FLAGS", "\\Seen")
+
             if not sender or not command:
+                logging.info("Skipped non-command message (marked seen)")
                 continue
 
             commands.append(SubscriptionCommand(message_id=message_id, sender=sender, command=command))
             logging.info("Queued %s request from %s", command, _mask(sender))
-
-        # Mark only exact-command messages as seen. Non-command messages remain unread.
-        for command in commands:
-            imap.store(command.message_id, "+FLAGS", "\\Seen")
 
         imap.close()
         imap.logout()

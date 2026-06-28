@@ -34,9 +34,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests-oauthlib pyyaml
-
       - name: Process subscriptions
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
