@@ -17,10 +17,15 @@
         "reposts": 0,
         "replies": 0,
         "score": 0
+      },
+      "tumblr": {
+        "id": "820484106230038528",
+        "notes": 0,
+        "score": 0
       }
     },
     "total_score": 0,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   },
   "NationalCoconutDay": {
     "theme": "National Coconut Day",
@@ -40,10 +45,15 @@
         "reposts": 0,
         "replies": 0,
         "score": 0
+      },
+      "tumblr": {
+        "id": "820484169670033408",
+        "notes": 0,
+        "score": 0
       }
     },
     "total_score": 0,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   },
   "HappyBirthdayPearlSBuck": {
     "theme": "Birthday Pearl S. Buck",
@@ -63,16 +73,30 @@
         "reposts": 0,
         "replies": 0,
         "score": 0
+      },
+      "tumblr": {
+        "id": "820484233228353536",
+        "notes": 0,
+        "score": 0
       }
     },
     "total_score": 0,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   },
   "_wp_daily": {
     "theme": "_wp_daily",
     "haiku": "",
-    "platforms": {},
-    "total_score": 0,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "platforms": {
+      "wordpress": {
+        "id": "89",
+        "url": "https://clambakesanta.wordpress.com/2026/06/26/clam-bake-santa-2026-06-26/",
+        "views": 7,
+        "likes": 5,
+        "comments": 0,
+        "score": 5
+      }
+    },
+    "total_score": 5,
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   }
 }

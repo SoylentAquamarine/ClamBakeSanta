@@ -1,0 +1,130 @@
+{
+  "NationalTapiocaDay": {
+    "theme": "National Tapioca Day",
+    "haiku": "Pearls of joy delight,\nSweetness dances on the tongue,\nLaughter fills the air.\nHappy #NationalTapiocaDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116827423336937110",
+        "url": "https://mastodon.social/@ClamBakeSanta/116827423336937110",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mpdtqqsdhx22",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820663154902253568",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
+  },
+  "PaulBunyanDay": {
+    "theme": "Paul Bunyan Day",
+    "haiku": "Tall pines sway with cheer,\nLumberjacks laugh, axes flash,\nBlue rivers flow bright.\nHappy #PaulBunyanDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116827427300437232",
+        "url": "https://mastodon.social/@ClamBakeSanta/116827427300437232",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mpdtskcq2m2w",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820663218609471488",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
+  },
+  "HappyBirthdayJeanJacquesRousseau": {
+    "theme": "Birthday Jean-Jacques Rousseau",
+    "haiku": "Sweet cake fills the air,\nLaughter dances like spring blooms,\nJoy wraps all around.\n#HappyBirthdayJeanJacquesRousseau from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116827431274929678",
+        "url": "https://mastodon.social/@ClamBakeSanta/116827431274929678",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mpdtue36ix2z",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820663281865916416",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
+  },
+  "HappyBirthdayMelBrooks": {
+    "theme": "Birthday Mel Brooks",
+    "haiku": "Laughter fills the air,\nCake and joy dance on each plate,\nCheers for Mel's bright spark!\n#HappyBirthdayMelBrooks from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116827435248500048",
+        "url": "https://mastodon.social/@ClamBakeSanta/116827435248500048",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mpdtw5hpeu2w",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820663345409556480",
+        "notes": 1,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "91",
+        "url": "https://clambakesanta.wordpress.com/2026/06/28/clam-bake-santa-2026-06-28/",
+        "views": 3,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
+  }
+}

@@ -17,10 +17,15 @@
         "reposts": 0,
         "replies": 0,
         "score": 0
+      },
+      "tumblr": {
+        "id": "820571734359080960",
+        "notes": 0,
+        "score": 0
       }
     },
     "total_score": 0,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   },
   "SunglassesDay": {
     "theme": "Sunglasses Day",
@@ -40,10 +45,15 @@
         "reposts": 0,
         "replies": 0,
         "score": 0
+      },
+      "tumblr": {
+        "id": "820571797807333376",
+        "notes": 0,
+        "score": 0
       }
     },
     "total_score": 0,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   },
   "HappyBirthdayHelenKeller": {
     "theme": "Birthday Helen Keller",
@@ -63,16 +73,30 @@
         "reposts": 0,
         "replies": 0,
         "score": 1
+      },
+      "tumblr": {
+        "id": "820571861058469888",
+        "notes": 0,
+        "score": 0
       }
     },
     "total_score": 1,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   },
   "_wp_daily": {
     "theme": "_wp_daily",
     "haiku": "",
-    "platforms": {},
-    "total_score": 0,
-    "last_checked": "2026-06-27T22:56:17.876111+00:00"
+    "platforms": {
+      "wordpress": {
+        "id": "90",
+        "url": "https://clambakesanta.wordpress.com/2026/06/27/clam-bake-santa-2026-06-27/",
+        "views": 4,
+        "likes": 3,
+        "comments": 0,
+        "score": 3
+      }
+    },
+    "total_score": 3,
+    "last_checked": "2026-06-28T22:56:10.696654+00:00"
   }
 }
