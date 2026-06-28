@@ -5,14 +5,72 @@ weekly_report.py
 
 from __future__ import annotations
 
+import json
 import os
 import smtplib
+import subprocess
 from datetime import date, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from pathlib import Path
 from typing import List, Dict
 
 from framework.config import load_config
+
+SUBSCRIBERS_FILE = Path("state/subscribers.json")
+
+
+# ── Subscribers ───────────────────────────────────────────────────────────────
+
+def load_subscribers() -> list[str]:
+    if not SUBSCRIBERS_FILE.exists():
+        return []
+    try:
+        data = json.loads(SUBSCRIBERS_FILE.read_text(encoding="utf-8"))
+        return sorted(data.get("subscribers", []))
+    except Exception:
+        return []
+
+
+def _git_file_at(path: str, ref: str) -> str | None:
+    """Return the contents of a file at a given git ref, or None if not found."""
+    try:
+        result = subprocess.run(
+            ["git", "show", f"{ref}:{path}"],
+            capture_output=True, text=True, check=True,
+        )
+        return result.stdout
+    except subprocess.CalledProcessError:
+        return None
+
+
+def subscriber_changes(start: date) -> tuple[list[str], list[str]]:
+    """Return (added, removed) since start date by diffing git history."""
+    # Find the oldest commit on or before the start date
+    result = subprocess.run(
+        ["git", "log", "--format=%H", f"--before={start.isoformat()}", "-1", "--", str(SUBSCRIBERS_FILE)],
+        capture_output=True, text=True,
+    )
+    old_ref = result.stdout.strip()
+
+    if not old_ref:
+        # No prior commit — everything current is "new"
+        current = set(load_subscribers())
+        return sorted(current), []
+
+    old_contents = _git_file_at(str(SUBSCRIBERS_FILE), old_ref)
+    if not old_contents:
+        return [], []
+
+    try:
+        old_subs = set(json.loads(old_contents).get("subscribers", []))
+    except Exception:
+        return [], []
+
+    current_subs = set(load_subscribers())
+    added = sorted(current_subs - old_subs)
+    removed = sorted(old_subs - current_subs)
+    return added, removed
 
 
 # ── Data ──────────────────────────────────────────────────────────────────────
@@ -101,9 +159,30 @@ def section(title, body):
 """
 
 
+def subscribers_section_html(subscribers: list[str], added: list[str], removed: list[str]) -> str:
+    total = len(subscribers)
+
+    rows = "".join(f"<li>{s}</li>" for s in subscribers) if subscribers else "<li><em>None</em></li>"
+
+    changes = ""
+    if added:
+        changes += "<p>➕ <b>Added:</b> " + ", ".join(added) + "</p>"
+    if removed:
+        changes += "<p>➖ <b>Removed:</b> " + ", ".join(removed) + "</p>"
+    if not added and not removed:
+        changes = "<p><em>No changes this week.</em></p>"
+
+    return section("Email Subscribers", f"""
+<p><b>Total:</b> {total}</p>
+{changes}
+<ul style="font-size:0.9rem;color:{_PALETTE['muted']};">{rows}</ul>
+""")
+
+
 # ── Report builder ────────────────────────────────────────────────────────────
 
-def build_html_report(week_records, week_start, week_end, prior_total, site_url, title="Weekly Report"):
+def build_html_report(week_records, week_start, week_end, prior_total, site_url, title="Weekly Report",
+                      subscribers=None, added=None, removed=None):
 
     total_posts = len(week_records)
     total_score = sum(r["total_score"] for r in week_records)
@@ -140,6 +219,7 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url,
     top5_section = section("Top 5", top5)
     leaders_section = section("Leaders", leaders)
     all_section = section("All", f"<table>{table}</table>")
+    subs_section = subscribers_section_html(subscribers or [], added or [], removed or [])
 
     return f"""
 <html>
@@ -148,6 +228,8 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url,
 <h1>{title}</h1>
 
 {stats_section}
+
+{subs_section}
 
 {top5_section}
 
@@ -220,6 +302,9 @@ def main():
 
     records = collect_week(engagement, start, today + timedelta(days=1))
 
+    subscribers = load_subscribers()
+    added, removed = subscriber_changes(start)
+
     html = build_html_report(
         records,
         start,
@@ -227,6 +312,9 @@ def main():
         0,
         config.get("site_base_url", ""),
         title=title,
+        subscribers=subscribers,
+        added=added,
+        removed=removed,
     )
 
     send_email(subject, html)
