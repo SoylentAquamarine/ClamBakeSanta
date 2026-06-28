@@ -262,7 +262,7 @@ class GitHubPagesAdapter(BaseAdapter):
                     tag_t   = re.sub(r"<[^>]+>", "", tag_m.group(1)).strip()   if tag_m   else ""
                     # poem uses white-space:pre-line so newlines are literal \n
                     # strip trailing commas from each line before joining
-                    poem_t = " / ".join(l.rstrip(",") for l in poem_t.split("\n"))
+                    poem_t = "<br>".join(l.rstrip(",") for l in poem_t.split("\n") if l.strip())
                     block = f"<p><strong>{theme_t}</strong><br>{poem_t}<br><em>{tag_t}</em></p>"
                     card_blocks.append(block)
                 desc_html = "\n".join(card_blocks) if card_blocks else ""
