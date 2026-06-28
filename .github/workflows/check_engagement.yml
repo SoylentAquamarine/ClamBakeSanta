@@ -38,10 +38,12 @@ jobs:
           MASTODON_ACCESS_TOKEN:  ${{ secrets.MASTODON_ACCESS_TOKEN }}
           BLUESKY_HANDLE:         ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD:   ${{ secrets.BLUESKY_APP_PASSWORD }}
-          REDDIT_CLIENT_ID:       ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET:   ${{ secrets.REDDIT_CLIENT_SECRET }}
-          REDDIT_USERNAME:        ${{ secrets.REDDIT_USERNAME }}
-          REDDIT_PASSWORD:        ${{ secrets.REDDIT_PASSWORD }}
+          TUMBLR_CONSUMER_KEY:    ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_OAUTH_TOKEN:     ${{ secrets.TUMBLR_OAUTH_TOKEN }}
+          TUMBLR_OAUTH_SECRET:    ${{ secrets.TUMBLR_OAUTH_SECRET }}
+          WORDPRESS_TOKEN:        ${{ secrets.WORDPRESS_TOKEN }}
+          WORDPRESS_BLOG_ID:      ${{ secrets.WORDPRESS_BLOG_ID }}
         run: |
           DAYS="${{ github.event.inputs.days || '3' }}"
           python check_engagement.py --days "$DAYS"

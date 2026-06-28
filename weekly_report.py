@@ -199,10 +199,24 @@ def build_html_report(week_records, week_start, week_end, prior_total, site_url,
     top5 = "".join(haiku_card(r, i) for i, r in enumerate(week_records[:5]))
 
     leaders = ""
-    for plat in ["mastodon", "bluesky", "reddit", "tumblr", "wordpress"]:
+    for plat in ["mastodon", "bluesky", "tumblr"]:
         lead = platform_leader(week_records, plat)
         if lead:
-            leaders += f"<div><b>{plat}</b>: {lead['theme']}</div>"
+            plat_data = lead["platforms"].get(plat, {})
+            score = plat_data.get("score", 0)
+            leaders += f"<div><b>{plat.title()}</b>: {lead['theme']} — ⭐ {score}</div>"
+
+    # WordPress is one aggregate post per day — show its best week day by views
+    wp_records = [r for r in week_records if r.get("tag") == "_wp_daily" or "_wp_daily" in str(r.get("tag",""))]
+    if not wp_records:
+        # fall back: any record that has a wordpress platform entry
+        wp_records = [r for r in week_records if "wordpress" in r.get("platforms", {})]
+    if wp_records:
+        best_wp = max(wp_records, key=lambda r: r.get("platforms", {}).get("wordpress", {}).get("views", 0))
+        wp = best_wp.get("platforms", {}).get("wordpress", {})
+        views = wp.get("views", 0)
+        likes = wp.get("likes", 0)
+        leaders += f"<div><b>WordPress</b>: {best_wp['date']} — {views} views, {likes} likes</div>"
 
     table = ""
     for i, r in enumerate(week_records):
