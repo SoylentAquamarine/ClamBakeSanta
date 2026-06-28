@@ -39,21 +39,21 @@ from framework.models import Result
 
 def _format_post(rec: dict, date_str: str, username: str) -> tuple[str, str]:
     """Return (title, body) for a Reddit profile post."""
-    theme = rec.get("theme", "")
-    if theme.lower().startswith("birthday "):
-        title = f"Happy {theme} — a haiku"
-    else:
-        title = f"{theme} — a haiku"
-
     lines = rec["haiku"].split("\n")
     poem_lines = [ln.rstrip(",") for ln in lines[:-1]]
-    hashtag_line = lines[-1].lstrip("#").strip() if lines else ""
 
-    poem = "\n\n".join(poem_lines)
+    # Title is the haiku: line one / line two / line three
+    title = " / ".join(poem_lines)
+
+    # Body is the announcement
+    theme = rec.get("theme", "")
+    if theme.lower().startswith("birthday "):
+        announcement = f"Happy {theme}"
+    else:
+        announcement = f"Happy {theme}"
+
     body = (
-        f"{poem}\n\n"
-        f"---\n\n"
-        f"*{hashtag_line}*\n\n"
+        f"{announcement}\n\n"
         f"*Daily haiku by [Clam Bake Santa](https://soylentaquamarine.github.io/ClamBakeSanta)*"
     )
 
