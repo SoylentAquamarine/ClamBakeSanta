@@ -54,7 +54,7 @@ def _format_post(rec: dict, date_str: str, username: str) -> tuple[str, str]:
 
     body = (
         f"{announcement}\n\n"
-        f"*Daily haiku by [Clam Bake Santa](https://soylentaquamarine.github.io/ClamBakeSanta)*"
+        f"*Daily haiku by u/{username}*"
     )
 
     return title, body
