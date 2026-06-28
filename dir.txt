@@ -1,0 +1,1242 @@
+ Volume in drive C is OS
+ Volume Serial Number is 6A11-B960
+
+ Directory of C:\git\clambakesanta
+
+06/14/2026  11:11 AM    <DIR>          .
+06/10/2026  10:51 AM    <DIR>          ..
+05/17/2026  12:09 PM    <DIR>          .claude
+04/25/2026  10:42 PM               212 .gitattributes
+04/13/2026  03:32 PM    <DIR>          .github
+04/13/2026  07:09 PM               318 .gitignore
+06/14/2026  11:11 AM             4,532 CHANGELOG.md
+05/17/2026  01:00 PM            20,105 check_engagement.py
+05/17/2026  12:09 PM             2,112 check_subscriptions.py
+05/18/2026  10:25 AM             5,538 config.yml
+04/17/2026  12:19 AM    <DIR>          content
+05/18/2026  10:25 AM    <DIR>          data
+06/14/2026  11:11 AM    <DIR>          diagrams
+06/14/2026  11:12 AM                 0 dir.txt
+06/14/2026  11:11 AM    <DIR>          docs
+05/18/2026  09:34 AM    <DIR>          framework
+04/27/2026  01:40 AM             1,201 LICENSE
+05/18/2026  09:32 AM    <DIR>          plugins
+06/14/2026  11:11 AM             9,864 README.md
+05/18/2026  10:25 AM               632 requirements.txt
+04/16/2026  12:01 PM             2,679 run.py
+05/18/2026  10:25 AM    <DIR>          scripts
+06/14/2026  11:11 AM    <DIR>          state
+05/14/2026  12:49 PM             1,707 TO-DO.md
+04/16/2026  09:15 PM             2,268 update_about.py
+05/17/2026  12:55 PM             7,439 weekly_report.py
+05/03/2026  11:54 AM    <DIR>          __pycache__
+              14 File(s)         58,607 bytes
+
+ Directory of C:\git\clambakesanta\.claude
+
+05/17/2026  12:09 PM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/18/2026  04:27 PM    <DIR>          worktrees
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees
+
+05/18/2026  04:27 PM    <DIR>          .
+05/17/2026  12:09 PM    <DIR>          ..
+05/17/2026  01:13 PM    <DIR>          agitated-napier-982ce6
+05/18/2026  04:30 PM    <DIR>          inspiring-wu-7e8116
+05/18/2026  09:03 PM    <DIR>          keen-bardeen-926908
+05/18/2026  11:03 AM    <DIR>          keen-taussig-aa9778
+05/18/2026  12:05 PM    <DIR>          nostalgic-hypatia-88ee1d
+05/18/2026  08:39 PM    <DIR>          sleepy-lehmann-c941af
+05/17/2026  09:04 PM    <DIR>          strange-sinoussi-47356b
+05/18/2026  09:05 PM    <DIR>          tender-keller-d51f96
+05/17/2026  11:06 PM    <DIR>          trusting-ardinghelli-595350
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\agitated-napier-982ce6
+
+05/17/2026  01:13 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\inspiring-wu-7e8116
+
+05/18/2026  04:30 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\keen-bardeen-926908
+
+05/18/2026  09:03 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\keen-taussig-aa9778
+
+05/18/2026  11:03 AM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\nostalgic-hypatia-88ee1d
+
+05/18/2026  12:05 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\sleepy-lehmann-c941af
+
+05/18/2026  08:39 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\strange-sinoussi-47356b
+
+05/17/2026  09:04 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\tender-keller-d51f96
+
+05/18/2026  09:05 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.claude\worktrees\trusting-ardinghelli-595350
+
+05/17/2026  11:06 PM    <DIR>          .
+05/18/2026  04:27 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.git
+
+06/14/2026  11:11 AM    <DIR>          ..
+05/18/2026  11:00 AM                71 COMMIT_EDITMSG
+06/14/2026  11:11 AM             1,248 config
+04/13/2026  07:12 PM                73 description
+06/14/2026  11:10 AM               842 FETCH_HEAD
+06/14/2026  11:11 AM                24 HEAD
+04/13/2026  07:12 PM    <DIR>          hooks
+06/14/2026  11:11 AM            36,210 index
+06/14/2026  11:10 AM    <DIR>          info
+04/13/2026  07:14 PM    <DIR>          logs
+06/14/2026  11:10 AM    <DIR>          objects
+05/18/2026  10:43 AM                41 ORIG_HEAD
+05/18/2026  12:41 PM             1,384 packed-refs
+04/25/2026  10:36 PM    <DIR>          refs
+               8 File(s)         39,893 bytes
+
+ Directory of C:\git\clambakesanta\.git\hooks
+
+04/13/2026  07:12 PM    <DIR>          .
+04/13/2026  07:12 PM               478 applypatch-msg.sample
+04/13/2026  07:12 PM               896 commit-msg.sample
+04/13/2026  07:12 PM             4,726 fsmonitor-watchman.sample
+04/13/2026  07:12 PM               189 post-update.sample
+04/13/2026  07:12 PM               424 pre-applypatch.sample
+04/13/2026  07:12 PM             1,649 pre-commit.sample
+04/13/2026  07:12 PM               416 pre-merge-commit.sample
+04/13/2026  07:12 PM             1,374 pre-push.sample
+04/13/2026  07:12 PM             4,898 pre-rebase.sample
+04/13/2026  07:12 PM               544 pre-receive.sample
+04/13/2026  07:12 PM             1,492 prepare-commit-msg.sample
+04/13/2026  07:12 PM             2,783 push-to-checkout.sample
+04/13/2026  07:12 PM             2,308 sendemail-validate.sample
+04/13/2026  07:12 PM             3,650 update.sample
+              14 File(s)         25,827 bytes
+
+ Directory of C:\git\clambakesanta\.git\info
+
+06/14/2026  11:10 AM    <DIR>          .
+04/13/2026  07:12 PM               240 exclude
+06/14/2026  11:10 AM             1,712 refs
+               2 File(s)          1,952 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs
+
+04/13/2026  07:14 PM    <DIR>          .
+06/14/2026  11:11 AM            27,909 HEAD
+04/25/2026  10:36 PM    <DIR>          refs
+               1 File(s)         27,909 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs
+
+04/25/2026  10:36 PM    <DIR>          .
+04/13/2026  07:14 PM    <DIR>          ..
+06/14/2026  11:11 AM    <DIR>          heads
+04/13/2026  07:14 PM    <DIR>          remotes
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\heads
+
+06/14/2026  11:11 AM    <DIR>          .
+04/25/2026  10:36 PM    <DIR>          ..
+06/14/2026  11:11 AM               183 ChatGPT
+05/18/2026  04:27 PM    <DIR>          claude
+05/18/2026  10:12 AM    <DIR>          feature
+05/18/2026  09:17 AM    <DIR>          fix
+05/18/2026  11:00 AM            17,771 main
+               2 File(s)         17,954 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\heads\claude
+
+05/18/2026  04:27 PM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/17/2026  12:09 PM               193 agitated-napier-982ce6
+05/18/2026  04:27 PM               193 inspiring-wu-7e8116
+05/18/2026  01:23 PM               193 keen-bardeen-926908
+05/18/2026  10:21 AM               359 keen-taussig-aa9778
+05/18/2026  11:03 AM               193 nostalgic-hypatia-88ee1d
+05/18/2026  01:42 PM               193 sleepy-lehmann-c941af
+05/17/2026  02:30 PM               193 strange-sinoussi-47356b
+05/18/2026  12:41 PM               193 tender-keller-d51f96
+05/17/2026  10:21 PM               359 trusting-ardinghelli-595350
+               9 File(s)          2,069 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\heads\feature
+
+05/18/2026  10:12 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/18/2026  10:25 AM               637 celestial-ephemeral-source
+04/27/2026  01:39 AM               408 consistent-licensing
+05/17/2026  12:54 PM               425 haiku-verification-script
+               3 File(s)          1,470 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\heads\fix
+
+05/18/2026  09:17 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/18/2026  09:32 AM               615 syllable-gate-and-weekly-report
+               1 File(s)            615 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\remotes
+
+04/13/2026  07:14 PM    <DIR>          .
+04/25/2026  10:36 PM    <DIR>          ..
+06/14/2026  11:10 AM    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\remotes\origin
+
+06/14/2026  11:10 AM    <DIR>          .
+04/13/2026  07:14 PM    <DIR>          ..
+06/14/2026  11:10 AM               173 ChatGPT
+05/18/2026  10:18 AM    <DIR>          feature
+05/18/2026  09:19 AM    <DIR>          fix
+04/16/2026  09:07 AM               153 HEAD
+06/14/2026  11:10 AM            13,852 main
+               3 File(s)         14,178 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\remotes\origin\feature
+
+05/18/2026  10:18 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+05/18/2026  10:25 AM               324 celestial-ephemeral-source
+04/27/2026  01:39 AM               162 consistent-licensing
+05/17/2026  12:55 PM               162 haiku-verification-script
+               3 File(s)            648 bytes
+
+ Directory of C:\git\clambakesanta\.git\logs\refs\remotes\origin\fix
+
+05/18/2026  09:19 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+05/18/2026  09:32 AM               324 syllable-gate-and-weekly-report
+               1 File(s)            324 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          13
+06/14/2026  11:10 AM    <DIR>          1b
+04/15/2026  02:16 PM    <DIR>          1d
+06/14/2026  11:10 AM    <DIR>          1e
+06/14/2026  11:10 AM    <DIR>          2e
+06/14/2026  11:10 AM    <DIR>          3b
+05/02/2026  03:47 AM    <DIR>          3d
+06/14/2026  11:10 AM    <DIR>          3f
+06/14/2026  11:10 AM    <DIR>          44
+05/02/2026  03:47 AM    <DIR>          51
+06/14/2026  11:10 AM    <DIR>          5e
+05/02/2026  03:47 AM    <DIR>          61
+06/14/2026  11:10 AM    <DIR>          64
+06/14/2026  11:10 AM    <DIR>          6f
+06/14/2026  11:10 AM    <DIR>          7e
+06/14/2026  11:10 AM    <DIR>          80
+06/14/2026  11:10 AM    <DIR>          83
+06/14/2026  11:10 AM    <DIR>          85
+06/14/2026  11:10 AM    <DIR>          86
+06/14/2026  11:10 AM    <DIR>          8a
+05/02/2026  03:47 AM    <DIR>          96
+05/02/2026  10:32 AM    <DIR>          9e
+04/16/2026  08:18 AM    <DIR>          a7
+06/14/2026  11:10 AM    <DIR>          a9
+06/14/2026  11:10 AM    <DIR>          ab
+06/14/2026  11:10 AM    <DIR>          ac
+06/14/2026  11:10 AM    <DIR>          bb
+05/02/2026  03:47 AM    <DIR>          bf
+06/14/2026  11:10 AM    <DIR>          c0
+06/14/2026  11:10 AM    <DIR>          c4
+06/14/2026  11:10 AM    <DIR>          c5
+06/14/2026  11:10 AM    <DIR>          cc
+05/02/2026  03:47 AM    <DIR>          de
+06/14/2026  11:10 AM    <DIR>          e2
+06/14/2026  11:10 AM    <DIR>          e3
+06/14/2026  11:10 AM    <DIR>          e4
+05/02/2026  03:47 AM    <DIR>          e8
+04/16/2026  08:33 AM    <DIR>          fd
+06/14/2026  11:10 AM    <DIR>          info
+06/14/2026  11:10 AM    <DIR>          pack
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\13
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  02:59 PM               212 2485700b18003a0aaf60329aee3af3174295e9
+               1 File(s)            212 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\1b
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  02:59 PM               371 000521920ba1219f5bdc5533adf348068ad27f
+               1 File(s)            371 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\1d
+
+04/15/2026  02:16 PM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  02:16 PM               193 c7195fcfd85d53da49937650e6a90ed119e3ce
+               1 File(s)            193 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\1e
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  03:32 PM               193 208520c6eee8f13b07e40bbdd7b226cd15217e
+04/16/2026  08:26 AM               228 29600aea13c762a1c0b3394e9f099880967be8
+               2 File(s)            421 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\2e
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  01:38 PM               217 b0db3c4e8df255b4bfd0e7fd0b995019ddc9d0
+               1 File(s)            217 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\3b
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  02:12 PM               219 c632d643f6271d49e5298af16068f800ce150f
+               1 File(s)            219 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\3d
+
+05/02/2026  03:47 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:33 AM               216 a3ccbe353f7f202f6f3dde1bee65dd9be11b3e
+04/15/2026  01:38 PM               245 b94da17f1dbb6dba70936424368ba9a7f29c01
+               2 File(s)            461 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\3f
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  01:18 PM               210 c8d4616c330460e085e8986bac03bf1cf16a53
+               1 File(s)            210 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\44
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:28 AM               257 156fe085fdca8c5a57722050479cdc96b2c439
+               1 File(s)            257 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\51
+
+05/02/2026  03:47 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:26 AM               202 1751b36898904296bc62e16650785c3d570af6
+               1 File(s)            202 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\5e
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+05/02/2026  10:32 AM             3,424 866cdab2bf11ae3401f3f6caa45583367e0131
+               1 File(s)          3,424 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\61
+
+05/02/2026  03:47 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  03:44 PM               371 1189b7059351700b091e9064f8981b8dcf6855
+               1 File(s)            371 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\64
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  03:44 PM               195 ef34e6a84792e5ee5751dd10f90e307e96fc39
+               1 File(s)            195 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\6f
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  01:38 PM               370 2ac252d96275a5c3b81ebdb295ea668fee5604
+               1 File(s)            370 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\7e
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  03:32 PM               220 086af7ec849470eb8a498d2784b1addefb4d3b
+               1 File(s)            220 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\80
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  03:44 PM               219 169d95c9809eca9b32cade44ee8b89d92be51e
+               1 File(s)            219 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\83
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  01:24 PM               198 ae94a0b0b88f33679fc736e0c25b3117393cbf
+               1 File(s)            198 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\85
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:18 AM               371 44ebf30afe041a0865e09c51d24729601b9636
+04/14/2026  03:32 PM               370 6d4bb488228080500734526f0f3685ca97d7fd
+               2 File(s)            741 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\86
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  02:12 PM               246 2e92366d6a6166aebfd045ea60edc45be426a4
+               1 File(s)            246 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\8a
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:42 AM               217 05aa120724f46c8dc31da60539acd9a4c2d130
+               1 File(s)            217 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\96
+
+05/02/2026  03:47 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:18 AM               240 690a747604ed76987e069cebec50347c2c4924
+               1 File(s)            240 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\9e
+
+05/02/2026  10:32 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+05/02/2026  10:32 AM               618 4068e1e061dcaaef6d2cbc9d9fb87ce9e0d861
+               1 File(s)            618 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\a7
+
+04/16/2026  08:18 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:18 AM               212 f73cd7cbbc4eaaf03d590e8a8ca102ff60b5f1
+               1 File(s)            212 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\a9
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  02:16 PM               221 88cdb0e56f6f12a3ef19fd58f829b07a913d5e
+               1 File(s)            221 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\ab
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:28 AM               371 0c23e61fb8d30aedd99091f05ed93d73573b3a
+               1 File(s)            371 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\ac
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  02:59 PM               241 e0bf36e7c932791ce5c7623d1dd96e1ad046dc
+               1 File(s)            241 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\bb
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/14/2026  02:59 PM               372 4ecdb83481501352d3b34de54385701d74082b
+               1 File(s)            372 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\bf
+
+05/02/2026  03:47 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  01:18 PM               371 7e96c7830af9d504d8bb73e6e4e9b8f9abf884
+               1 File(s)            371 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\c0
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  02:12 PM               371 932b592d7dbabfd14b276e72b4163aa0dbf76c
+               1 File(s)            371 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\c4
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  01:18 PM               238 ba084b5f37dab451b013b011b5d885065d48d1
+               1 File(s)            238 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\c5
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/15/2026  01:24 PM               227 f87af80c2ff69056e4294e35146b7c05d01790
+               1 File(s)            227 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\cc
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:42 AM               240 f447b4dddb2368e19ee7f977fd1fea16b21184
+               1 File(s)            240 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\de
+
+05/02/2026  03:47 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  07:49 AM               204 5dc823ed2e09a5d384f018dbe65d01b322666c
+               1 File(s)            204 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\e2
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+05/02/2026  10:32 AM               236 3270d1ce4fc5c46292f1d88af83a3a9dbeaca2
+               1 File(s)            236 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\e3
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:18 AM               371 dd8db01d4e0c15cfaafa61a33f49878aa40fb8
+               1 File(s)            371 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\e4
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:28 AM               228 4695444d15c82067e18842543b6e58d275abf5
+               1 File(s)            228 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\e8
+
+05/02/2026  03:47 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  07:49 AM               232 66147ae8eb505bad1d285d425227a60d5ca64b
+               1 File(s)            232 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\fd
+
+04/16/2026  08:33 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+04/16/2026  08:33 AM               242 de95e6851ff32effb1995805088911e385afca
+               1 File(s)            242 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\info
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+05/17/2026  12:09 PM    <DIR>          commit-graphs
+06/14/2026  11:10 AM                54 packs
+               1 File(s)             54 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\info\commit-graphs
+
+05/17/2026  12:09 PM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+05/17/2026  12:09 PM                41 commit-graph-chain
+05/17/2026  12:09 PM             8,912 graph-82f9827995727ba281100e0e3a32011a0082c161.graph
+               2 File(s)          8,953 bytes
+
+ Directory of C:\git\clambakesanta\.git\objects\pack
+
+06/14/2026  11:10 AM    <DIR>          .
+06/14/2026  11:10 AM    <DIR>          ..
+06/14/2026  11:10 AM            64,896 multi-pack-index
+06/14/2026  11:10 AM            64,800 pack-708c348ae572b4a6f51a76fe083e05d8afecaf59.idx
+06/14/2026  11:10 AM           786,357 pack-708c348ae572b4a6f51a76fe083e05d8afecaf59.pack
+06/14/2026  11:10 AM             9,156 pack-708c348ae572b4a6f51a76fe083e05d8afecaf59.rev
+               4 File(s)        925,209 bytes
+
+ Directory of C:\git\clambakesanta\.git\refs
+
+04/25/2026  10:36 PM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          heads
+04/13/2026  07:14 PM    <DIR>          remotes
+04/13/2026  07:12 PM    <DIR>          tags
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.git\refs\heads
+
+06/14/2026  11:11 AM    <DIR>          .
+04/25/2026  10:36 PM    <DIR>          ..
+06/14/2026  11:11 AM                41 ChatGPT
+05/18/2026  04:27 PM    <DIR>          claude
+               1 File(s)             41 bytes
+
+ Directory of C:\git\clambakesanta\.git\refs\heads\claude
+
+05/18/2026  04:27 PM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/18/2026  04:27 PM                41 inspiring-wu-7e8116
+05/18/2026  01:23 PM                41 keen-bardeen-926908
+05/18/2026  01:42 PM                41 sleepy-lehmann-c941af
+               3 File(s)            123 bytes
+
+ Directory of C:\git\clambakesanta\.git\refs\remotes
+
+04/13/2026  07:14 PM    <DIR>          .
+04/25/2026  10:36 PM    <DIR>          ..
+06/14/2026  11:10 AM    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.git\refs\remotes\origin
+
+06/14/2026  11:10 AM    <DIR>          .
+04/13/2026  07:14 PM    <DIR>          ..
+06/14/2026  11:10 AM                41 ChatGPT
+04/16/2026  09:07 AM                30 HEAD
+06/14/2026  11:10 AM                41 main
+               3 File(s)            112 bytes
+
+ Directory of C:\git\clambakesanta\.git\refs\tags
+
+04/13/2026  07:12 PM    <DIR>          .
+04/25/2026  10:36 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.github
+
+04/13/2026  03:32 PM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/18/2026  10:25 AM    <DIR>          workflows
+               0 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\.github\workflows
+
+05/18/2026  10:25 AM    <DIR>          .
+04/13/2026  03:32 PM    <DIR>          ..
+05/17/2026  01:03 PM             2,630 backfill_wordpress.yml
+05/17/2026  01:09 PM             2,712 broadcast.yml
+04/25/2026  09:09 AM             1,872 check_engagement.yml
+04/16/2026  08:48 AM             2,174 check_subscriptions.yml
+05/18/2026  09:42 AM             4,268 daily.yml
+05/18/2026  10:25 AM             2,245 generate_monthly.yml
+05/17/2026  12:55 PM             2,420 report.yml
+04/16/2026  08:48 AM             3,273 test_adapter.yml
+04/16/2026  08:35 PM               631 test_bluesky.yml
+04/16/2026  08:35 PM               573 test_discord.yml
+04/16/2026  08:35 PM               633 test_email_list.yml
+04/16/2026  12:01 PM               958 test_github_pages.yml
+04/16/2026  08:35 PM               650 test_mastodon.yml
+04/16/2026  08:35 PM               749 test_reddit.yml
+04/16/2026  08:35 PM               634 test_telegram.yml
+04/16/2026  08:35 PM               772 test_tumblr.yml
+04/16/2026  08:34 PM               633 test_wordpress.yml
+04/16/2026  09:15 PM               695 update_about_pages.yml
+05/18/2026  09:34 AM             1,009 weekly_report.yml
+              19 File(s)         29,531 bytes
+
+ Directory of C:\git\clambakesanta\content
+
+04/17/2026  12:19 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+04/17/2026  12:19 AM             4,802 about.html
+               1 File(s)          4,802 bytes
+
+ Directory of C:\git\clambakesanta\data
+
+05/18/2026  10:25 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+04/13/2026  07:35 PM             1,158 april_celebritybirthday.txt
+04/13/2026  07:27 PM             1,718 april_randomholiday.txt
+04/13/2026  07:33 PM             1,287 august_celebritybirthday.txt
+04/13/2026  07:33 PM             1,817 august_randomholiday.txt
+06/14/2026  11:11 AM    <DIR>          celestial
+04/13/2026  07:35 PM             1,494 december_celebritybirthday.txt
+04/13/2026  07:34 PM             1,774 december_randomholiday.txt
+06/14/2026  11:11 AM    <DIR>          ephemeral
+05/18/2026  10:25 AM             3,522 ephemeral_rules.txt
+04/13/2026  07:27 PM             1,306 february_celebritybirthday.txt
+04/13/2026  07:27 PM             1,613 february_randomholiday.txt
+04/13/2026  07:27 PM             1,227 january_celebritybirthday.txt
+04/13/2026  07:27 PM             1,746 january_randomholiday.txt
+04/13/2026  07:33 PM             1,243 july_celebritybirthday.txt
+04/13/2026  07:33 PM             1,794 july_randomholiday.txt
+04/13/2026  07:32 PM             1,140 june_celebritybirthday.txt
+04/13/2026  07:32 PM             1,672 june_randomholiday.txt
+04/13/2026  07:27 PM             1,175 march_celebritybirthday.txt
+04/13/2026  07:27 PM             1,796 march_randomholiday.txt
+04/13/2026  07:32 PM             1,148 may_celebritybirthday.txt
+04/13/2026  07:32 PM             1,735 may_randomholiday.txt
+04/13/2026  07:34 PM             1,408 november_celebritybirthday.txt
+04/13/2026  07:34 PM             1,792 november_randomholiday.txt
+04/13/2026  07:34 PM             1,179 october_celebritybirthday.txt
+04/13/2026  07:34 PM             1,717 october_randomholiday.txt
+04/13/2026  07:33 PM             1,241 september_celebritybirthday.txt
+04/13/2026  07:33 PM             1,856 september_randomholiday.txt
+              25 File(s)         39,558 bytes
+
+ Directory of C:\git\clambakesanta\data\celestial
+
+06/14/2026  11:11 AM    <DIR>          .
+05/18/2026  10:25 AM    <DIR>          ..
+05/18/2026  10:25 AM               238 2026-05.txt
+06/14/2026  11:11 AM               182 2026-07.txt
+05/18/2026  10:25 AM               219 2026-11.txt
+               3 File(s)            639 bytes
+
+ Directory of C:\git\clambakesanta\data\ephemeral
+
+06/14/2026  11:11 AM    <DIR>          .
+05/18/2026  10:25 AM    <DIR>          ..
+05/18/2026  10:25 AM               108 2026-05.txt
+06/14/2026  11:11 AM                66 2026-07.txt
+05/18/2026  10:25 AM               125 2026-11.txt
+               3 File(s)            299 bytes
+
+ Directory of C:\git\clambakesanta\diagrams
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+06/14/2026  11:11 AM             3,655 architecture.md
+06/14/2026  11:11 AM             3,202 daily-workflow-sequence.md
+05/18/2026  10:47 AM             1,604 data-generation.md
+05/18/2026  10:48 AM               886 README.md
+06/14/2026  11:11 AM             3,210 state-files.md
+05/18/2026  10:46 AM             1,682 theme-selection.md
+06/14/2026  11:11 AM             2,749 workflow-schedule.md
+05/18/2026  10:46 AM             2,089 writers-block.md
+               8 File(s)         19,077 bytes
+
+ Directory of C:\git\clambakesanta\docs
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+06/14/2026  11:11 AM    <DIR>          archives
+05/02/2026  10:51 AM    <DIR>          blueprints
+04/13/2026  03:32 PM            27,244 ClamBakeSanta.jpg
+06/14/2026  11:11 AM             4,538 daily.html
+06/14/2026  11:11 AM            26,532 feed.xml
+05/02/2026  10:50 AM             8,513 index.html
+04/14/2026  08:31 AM            81,335 santa_clambake.png
+06/14/2026  11:11 AM             3,667 subscription-status.md
+               6 File(s)        151,829 bytes
+
+ Directory of C:\git\clambakesanta\docs\archives
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+04/14/2026  03:44 PM             3,834 2026-04-13.html
+04/14/2026  03:44 PM             4,097 2026-04-14.html
+04/15/2026  09:25 AM             4,431 2026-04-15.html
+04/16/2026  08:18 AM             4,209 2026-04-16.html
+04/17/2026  08:10 AM             4,195 2026-04-17.html
+04/25/2026  09:09 AM             4,203 2026-04-18.html
+04/25/2026  09:09 AM             4,191 2026-04-19.html
+04/25/2026  09:09 AM             4,176 2026-04-20.html
+04/25/2026  09:09 AM             4,265 2026-04-21.html
+04/25/2026  09:09 AM             4,172 2026-04-22.html
+04/25/2026  09:09 AM             4,451 2026-04-23.html
+04/25/2026  09:09 AM             4,251 2026-04-24.html
+04/25/2026  09:09 AM             4,189 2026-04-25.html
+04/27/2026  01:40 AM             4,210 2026-04-26.html
+05/02/2026  03:47 AM             4,449 2026-04-27.html
+05/02/2026  03:47 AM             4,224 2026-04-28.html
+05/02/2026  03:47 AM             4,462 2026-04-29.html
+05/02/2026  03:47 AM             4,210 2026-04-30.html
+05/02/2026  03:47 AM             4,155 2026-05-01.html
+05/02/2026  10:32 AM             4,191 2026-05-02.html
+05/03/2026  11:53 AM             4,311 2026-05-03.html
+05/04/2026  09:53 AM             4,277 2026-05-04.html
+05/17/2026  12:09 PM             4,496 2026-05-05.html
+05/17/2026  12:09 PM             4,293 2026-05-06.html
+05/17/2026  12:09 PM             4,560 2026-05-07.html
+05/17/2026  12:09 PM             4,265 2026-05-08.html
+05/17/2026  12:09 PM             4,336 2026-05-09.html
+05/17/2026  12:09 PM             4,266 2026-05-10.html
+05/17/2026  12:09 PM             4,548 2026-05-11.html
+05/17/2026  12:09 PM             4,285 2026-05-12.html
+05/17/2026  12:09 PM             4,279 2026-05-13.html
+05/17/2026  12:09 PM             4,300 2026-05-14.html
+05/17/2026  12:09 PM             4,306 2026-05-15.html
+05/17/2026  12:09 PM             4,246 2026-05-16.html
+05/17/2026  12:09 PM             4,289 2026-05-17.html
+05/18/2026  10:43 AM             4,277 2026-05-18.html
+06/14/2026  11:11 AM             4,290 2026-05-19.html
+06/14/2026  11:11 AM             4,283 2026-05-20.html
+06/14/2026  11:11 AM             4,294 2026-05-21.html
+06/14/2026  11:11 AM             4,782 2026-05-22.html
+06/14/2026  11:11 AM             4,516 2026-05-23.html
+06/14/2026  11:11 AM             4,274 2026-05-24.html
+06/14/2026  11:11 AM             4,529 2026-05-25.html
+06/14/2026  11:11 AM             4,295 2026-05-27.html
+06/14/2026  11:11 AM             4,277 2026-05-28.html
+06/14/2026  11:11 AM             4,296 2026-05-29.html
+06/14/2026  11:11 AM             4,541 2026-05-30.html
+06/14/2026  11:11 AM             4,529 2026-05-31.html
+06/14/2026  11:11 AM             4,297 2026-06-01.html
+06/14/2026  11:11 AM             4,312 2026-06-02.html
+06/14/2026  11:11 AM             4,239 2026-06-03.html
+06/14/2026  11:11 AM             4,272 2026-06-04.html
+06/14/2026  11:11 AM             4,301 2026-06-05.html
+06/14/2026  11:11 AM             4,582 2026-06-06.html
+06/14/2026  11:11 AM             4,303 2026-06-07.html
+06/14/2026  11:11 AM             4,547 2026-06-08.html
+06/14/2026  11:11 AM             4,287 2026-06-09.html
+06/14/2026  11:11 AM             4,520 2026-06-10.html
+06/14/2026  11:11 AM             6,382 index.html
+              59 File(s)        256,847 bytes
+
+ Directory of C:\git\clambakesanta\docs\blueprints
+
+05/02/2026  10:51 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/02/2026  10:51 AM            13,468 data-pipeline.html
+05/02/2026  03:47 AM             8,378 data-pipeline.md
+05/02/2026  10:51 AM            13,373 system-overview.html
+05/02/2026  03:47 AM             6,876 system-overview.md
+               4 File(s)         42,095 bytes
+
+ Directory of C:\git\clambakesanta\framework
+
+05/18/2026  09:34 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+04/13/2026  07:04 PM    <DIR>          adapters
+04/17/2026  08:14 AM               952 config.py
+04/17/2026  08:14 AM             5,856 engagement_store.py
+05/18/2026  09:32 AM    <DIR>          engines
+04/17/2026  08:14 AM             7,346 haiku_log.py
+05/17/2026  12:55 PM             2,683 haiku_validator.py
+04/13/2026  07:04 PM             1,582 models.py
+04/17/2026  08:14 AM             5,670 post_store.py
+04/13/2026  07:04 PM             1,773 registry.py
+05/18/2026  09:34 AM            11,468 runner.py
+05/18/2026  09:34 AM             3,089 run_log.py
+05/18/2026  10:17 AM    <DIR>          sources
+05/18/2026  09:32 AM    <DIR>          state
+04/17/2026  12:33 AM             5,249 validation.py
+05/18/2026  09:34 AM             3,185 writers_block_log.py
+04/13/2026  07:03 PM               141 __init__.py
+05/18/2026  09:32 AM    <DIR>          __pycache__
+              12 File(s)         48,994 bytes
+
+ Directory of C:\git\clambakesanta\framework\adapters
+
+04/13/2026  07:04 PM    <DIR>          .
+05/18/2026  09:34 AM    <DIR>          ..
+04/13/2026  07:04 PM             1,032 base.py
+04/13/2026  07:04 PM                 0 __init__.py
+               2 File(s)          1,032 bytes
+
+ Directory of C:\git\clambakesanta\framework\engines
+
+05/18/2026  09:32 AM    <DIR>          .
+05/18/2026  09:34 AM    <DIR>          ..
+04/13/2026  07:04 PM               866 base.py
+04/13/2026  07:04 PM                 0 __init__.py
+05/18/2026  09:32 AM    <DIR>          __pycache__
+               2 File(s)            866 bytes
+
+ Directory of C:\git\clambakesanta\framework\engines\__pycache__
+
+05/18/2026  09:32 AM    <DIR>          .
+05/18/2026  09:32 AM    <DIR>          ..
+05/18/2026  09:32 AM             1,743 base.cpython-314.pyc
+05/18/2026  09:32 AM               149 __init__.cpython-314.pyc
+               2 File(s)          1,892 bytes
+
+ Directory of C:\git\clambakesanta\framework\sources
+
+05/18/2026  10:17 AM    <DIR>          .
+05/18/2026  09:34 AM    <DIR>          ..
+04/13/2026  07:04 PM               753 base.py
+04/13/2026  07:04 PM                 0 __init__.py
+05/18/2026  10:17 AM    <DIR>          __pycache__
+               2 File(s)            753 bytes
+
+ Directory of C:\git\clambakesanta\framework\sources\__pycache__
+
+05/18/2026  10:17 AM    <DIR>          .
+05/18/2026  10:17 AM    <DIR>          ..
+05/18/2026  10:17 AM             1,611 base.cpython-314.pyc
+05/18/2026  10:17 AM               149 __init__.cpython-314.pyc
+               2 File(s)          1,760 bytes
+
+ Directory of C:\git\clambakesanta\framework\state
+
+05/18/2026  09:32 AM    <DIR>          .
+05/18/2026  09:34 AM    <DIR>          ..
+04/13/2026  07:04 PM             2,449 json_store.py
+04/13/2026  07:04 PM                 0 __init__.py
+05/18/2026  09:32 AM    <DIR>          __pycache__
+               2 File(s)          2,449 bytes
+
+ Directory of C:\git\clambakesanta\framework\state\__pycache__
+
+05/18/2026  09:32 AM    <DIR>          .
+05/18/2026  09:32 AM    <DIR>          ..
+05/18/2026  09:32 AM             4,636 json_store.cpython-314.pyc
+05/18/2026  09:32 AM               147 __init__.cpython-314.pyc
+               2 File(s)          4,783 bytes
+
+ Directory of C:\git\clambakesanta\framework\__pycache__
+
+05/18/2026  09:32 AM    <DIR>          .
+05/18/2026  09:34 AM    <DIR>          ..
+05/18/2026  09:32 AM            12,686 haiku_log.cpython-314.pyc
+05/18/2026  09:20 AM             4,716 haiku_validator.cpython-314.pyc
+05/18/2026  09:32 AM             2,279 models.cpython-314.pyc
+05/18/2026  09:32 AM             3,345 registry.cpython-314.pyc
+05/18/2026  09:32 AM            13,133 runner.cpython-314.pyc
+05/18/2026  09:32 AM             6,082 run_log.cpython-314.pyc
+05/18/2026  09:32 AM             6,699 validation.cpython-314.pyc
+05/18/2026  09:32 AM             6,147 writers_block_log.cpython-314.pyc
+05/18/2026  09:20 AM               141 __init__.cpython-314.pyc
+               9 File(s)         55,228 bytes
+
+ Directory of C:\git\clambakesanta\plugins
+
+05/18/2026  09:32 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/17/2026  12:55 PM    <DIR>          adapters
+05/18/2026  09:48 AM    <DIR>          engines
+05/18/2026  10:25 AM    <DIR>          sources
+04/13/2026  07:08 PM                 0 __init__.py
+05/18/2026  09:32 AM    <DIR>          __pycache__
+               1 File(s)              0 bytes
+
+ Directory of C:\git\clambakesanta\plugins\adapters
+
+05/17/2026  12:55 PM    <DIR>          .
+05/18/2026  09:32 AM    <DIR>          ..
+04/17/2026  12:15 AM             4,699 bluesky.py
+04/13/2026  07:08 PM             2,314 discord.py
+04/16/2026  09:03 AM             8,469 email_list.py
+05/02/2026  10:32 AM            11,967 github_pages.py
+04/25/2026  09:09 AM             3,854 mastodon_adapter.py
+04/17/2026  12:15 AM             4,911 reddit.py
+05/17/2026  12:55 PM             4,007 telegram.py
+05/17/2026  12:55 PM             4,506 tumblr.py
+05/17/2026  12:55 PM             5,310 wordpress.py
+04/13/2026  07:08 PM                 0 __init__.py
+              10 File(s)         50,037 bytes
+
+ Directory of C:\git\clambakesanta\plugins\engines
+
+05/18/2026  09:48 AM    <DIR>          .
+05/18/2026  09:32 AM    <DIR>          ..
+05/18/2026  09:48 AM            16,549 clambakesanta.py
+04/13/2026  07:08 PM                 0 __init__.py
+05/18/2026  09:48 AM    <DIR>          __pycache__
+               2 File(s)         16,549 bytes
+
+ Directory of C:\git\clambakesanta\plugins\engines\__pycache__
+
+05/18/2026  09:48 AM    <DIR>          .
+05/18/2026  09:48 AM    <DIR>          ..
+05/18/2026  09:48 AM            19,122 clambakesanta.cpython-314.pyc
+05/18/2026  09:32 AM               147 __init__.cpython-314.pyc
+               2 File(s)         19,269 bytes
+
+ Directory of C:\git\clambakesanta\plugins\sources
+
+05/18/2026  10:25 AM    <DIR>          .
+05/18/2026  09:32 AM    <DIR>          ..
+04/13/2026  07:08 PM             2,426 daily_holidays.py
+05/18/2026  10:25 AM             5,798 daily_themes.py
+04/13/2026  07:08 PM                 0 __init__.py
+05/18/2026  10:17 AM    <DIR>          __pycache__
+               3 File(s)          8,224 bytes
+
+ Directory of C:\git\clambakesanta\plugins\sources\__pycache__
+
+05/18/2026  10:17 AM    <DIR>          .
+05/18/2026  10:25 AM    <DIR>          ..
+05/18/2026  10:17 AM             5,785 daily_themes.cpython-314.pyc
+05/18/2026  10:17 AM               147 __init__.cpython-314.pyc
+               2 File(s)          5,932 bytes
+
+ Directory of C:\git\clambakesanta\plugins\__pycache__
+
+05/18/2026  09:32 AM    <DIR>          .
+05/18/2026  09:32 AM    <DIR>          ..
+05/18/2026  09:32 AM               139 __init__.cpython-314.pyc
+               1 File(s)            139 bytes
+
+ Directory of C:\git\clambakesanta\scripts
+
+05/18/2026  10:25 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/17/2026  01:03 PM             3,059 backfill_wordpress_posts.py
+05/17/2026  01:08 PM            12,112 broadcast.py
+05/18/2026  10:25 AM            11,987 generate_monthly_data.py
+05/17/2026  12:55 PM             2,916 validate_haiku.py
+               4 File(s)         30,074 bytes
+
+ Directory of C:\git\clambakesanta\state
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+06/14/2026  11:11 AM    <DIR>          engagement
+06/14/2026  11:11 AM             2,144 haiku_cache.json
+06/14/2026  11:11 AM    <DIR>          haiku_log
+06/14/2026  11:11 AM    <DIR>          post_ids
+06/14/2026  11:11 AM    <DIR>          run_log
+06/14/2026  11:11 AM            25,928 run_log.json
+04/16/2026  09:07 AM                64 subscribers.json
+06/14/2026  11:11 AM    <DIR>          writers_block
+               3 File(s)         28,136 bytes
+
+ Directory of C:\git\clambakesanta\state\engagement
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+04/25/2026  09:09 AM             2,300 2026-04-17.json
+04/25/2026  09:09 AM             1,629 2026-04-18.json
+04/25/2026  09:09 AM             1,598 2026-04-19.json
+04/25/2026  09:09 AM             1,584 2026-04-20.json
+04/25/2026  09:09 AM             1,710 2026-04-21.json
+04/25/2026  10:36 PM             1,577 2026-04-22.json
+04/27/2026  01:40 AM             2,161 2026-04-23.json
+05/02/2026  03:47 AM             1,679 2026-04-24.json
+05/02/2026  03:47 AM             1,602 2026-04-25.json
+05/02/2026  03:47 AM             1,622 2026-04-26.json
+05/02/2026  03:47 AM             2,139 2026-04-27.json
+05/02/2026  03:47 AM             1,636 2026-04-28.json
+05/03/2026  11:53 AM             2,172 2026-04-29.json
+05/04/2026  09:53 AM             1,625 2026-04-30.json
+05/17/2026  12:09 PM             1,556 2026-05-01.json
+05/17/2026  12:09 PM             1,591 2026-05-02.json
+05/17/2026  12:09 PM             1,658 2026-05-03.json
+05/17/2026  12:09 PM             2,301 2026-05-04.json
+05/17/2026  12:09 PM             3,022 2026-05-05.json
+05/17/2026  12:09 PM             2,304 2026-05-06.json
+05/17/2026  12:09 PM             3,102 2026-05-07.json
+05/17/2026  12:09 PM             2,284 2026-05-08.json
+05/17/2026  12:09 PM             2,377 2026-05-09.json
+05/17/2026  12:09 PM             2,280 2026-05-10.json
+05/17/2026  12:09 PM             3,077 2026-05-11.json
+05/17/2026  12:09 PM             2,302 2026-05-12.json
+05/17/2026  12:09 PM             2,295 2026-05-13.json
+05/18/2026  09:07 AM             2,501 2026-05-14.json
+06/14/2026  11:11 AM             2,503 2026-05-15.json
+06/14/2026  11:11 AM             2,427 2026-05-16.json
+06/14/2026  11:11 AM             2,482 2026-05-17.json
+06/14/2026  11:11 AM             2,474 2026-05-19.json
+06/14/2026  11:11 AM             2,470 2026-05-20.json
+06/14/2026  11:11 AM             2,492 2026-05-21.json
+06/14/2026  11:11 AM             4,021 2026-05-22.json
+06/14/2026  11:11 AM             3,216 2026-05-23.json
+06/14/2026  11:11 AM             2,449 2026-05-24.json
+06/14/2026  11:11 AM             3,227 2026-05-25.json
+06/14/2026  11:11 AM             2,475 2026-05-27.json
+06/14/2026  11:11 AM             2,467 2026-05-28.json
+06/14/2026  11:11 AM             2,494 2026-05-29.json
+06/14/2026  11:11 AM             3,250 2026-05-30.json
+06/14/2026  11:11 AM             3,221 2026-05-31.json
+06/14/2026  11:11 AM             2,487 2026-06-01.json
+06/14/2026  11:11 AM             2,521 2026-06-02.json
+06/14/2026  11:11 AM             2,418 2026-06-03.json
+06/14/2026  11:11 AM             2,465 2026-06-04.json
+06/14/2026  11:11 AM             2,503 2026-06-05.json
+06/14/2026  11:11 AM             3,309 2026-06-06.json
+06/14/2026  11:11 AM             2,501 2026-06-07.json
+06/14/2026  11:11 AM             3,250 2026-06-08.json
+06/14/2026  11:11 AM             2,483 2026-06-09.json
+06/14/2026  11:11 AM            22,929 summary.json
+              53 File(s)        146,218 bytes
+
+ Directory of C:\git\clambakesanta\state\haiku_log
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+04/17/2026  08:10 AM               944 2026-04-17.json
+04/25/2026  09:09 AM               966 2026-04-18.json
+04/25/2026  09:09 AM               935 2026-04-19.json
+04/25/2026  09:09 AM               921 2026-04-20.json
+04/25/2026  09:09 AM             1,047 2026-04-21.json
+04/25/2026  09:09 AM               914 2026-04-22.json
+04/25/2026  09:09 AM             1,277 2026-04-23.json
+04/25/2026  09:09 AM             1,016 2026-04-24.json
+04/25/2026  09:09 AM               939 2026-04-25.json
+04/27/2026  01:40 AM               959 2026-04-26.json
+05/02/2026  03:47 AM             1,255 2026-04-27.json
+05/02/2026  03:47 AM               973 2026-04-28.json
+05/02/2026  03:47 AM             1,288 2026-04-29.json
+05/02/2026  03:47 AM               962 2026-04-30.json
+05/02/2026  03:47 AM               893 2026-05-01.json
+05/02/2026  10:32 AM               928 2026-05-02.json
+05/03/2026  11:53 AM               995 2026-05-03.json
+05/04/2026  09:53 AM               945 2026-05-04.json
+05/17/2026  12:09 PM             1,214 2026-05-05.json
+05/17/2026  12:09 PM               948 2026-05-06.json
+05/17/2026  12:09 PM             1,294 2026-05-07.json
+05/17/2026  12:09 PM               928 2026-05-08.json
+05/17/2026  12:09 PM             1,021 2026-05-09.json
+05/17/2026  12:09 PM               924 2026-05-10.json
+05/17/2026  12:09 PM             1,269 2026-05-11.json
+05/17/2026  12:09 PM               946 2026-05-12.json
+05/17/2026  12:09 PM               939 2026-05-13.json
+05/17/2026  12:09 PM               975 2026-05-14.json
+05/17/2026  12:09 PM               977 2026-05-15.json
+05/17/2026  12:09 PM               901 2026-05-16.json
+05/17/2026  12:09 PM               956 2026-05-17.json
+05/18/2026  10:43 AM               948 2026-05-18.json
+06/14/2026  11:11 AM               948 2026-05-19.json
+06/14/2026  11:11 AM               944 2026-05-20.json
+06/14/2026  11:11 AM               966 2026-05-21.json
+06/14/2026  11:11 AM             1,591 2026-05-22.json
+06/14/2026  11:11 AM             1,238 2026-05-23.json
+06/14/2026  11:11 AM               923 2026-05-24.json
+06/14/2026  11:11 AM             1,249 2026-05-25.json
+06/14/2026  11:11 AM               949 2026-05-27.json
+06/14/2026  11:11 AM               941 2026-05-28.json
+06/14/2026  11:11 AM               968 2026-05-29.json
+06/14/2026  11:11 AM             1,272 2026-05-30.json
+06/14/2026  11:11 AM             1,243 2026-05-31.json
+06/14/2026  11:11 AM               961 2026-06-01.json
+06/14/2026  11:11 AM               995 2026-06-02.json
+06/14/2026  11:11 AM               892 2026-06-03.json
+06/14/2026  11:11 AM               939 2026-06-04.json
+06/14/2026  11:11 AM               977 2026-06-05.json
+06/14/2026  11:11 AM             1,331 2026-06-06.json
+06/14/2026  11:11 AM               975 2026-06-07.json
+06/14/2026  11:11 AM             1,272 2026-06-08.json
+06/14/2026  11:11 AM               957 2026-06-09.json
+06/14/2026  11:11 AM             1,242 2026-06-10.json
+06/14/2026  11:11 AM             7,325 recent.json
+              55 File(s)         63,495 bytes
+
+ Directory of C:\git\clambakesanta\state\post_ids
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/17/2026  01:08 PM               164 2026-04-16.json
+05/17/2026  01:08 PM             1,244 2026-04-17.json
+05/17/2026  01:08 PM               850 2026-04-18.json
+05/17/2026  01:08 PM               836 2026-04-19.json
+05/17/2026  01:08 PM               832 2026-04-20.json
+05/17/2026  01:08 PM               869 2026-04-21.json
+05/17/2026  01:08 PM               829 2026-04-22.json
+05/17/2026  01:08 PM             1,076 2026-04-23.json
+05/17/2026  01:08 PM               857 2026-04-24.json
+05/17/2026  01:08 PM               842 2026-04-25.json
+05/17/2026  01:08 PM               846 2026-04-26.json
+05/17/2026  01:08 PM             1,066 2026-04-27.json
+05/17/2026  01:08 PM               841 2026-04-28.json
+05/17/2026  01:08 PM             1,076 2026-04-29.json
+05/17/2026  01:08 PM               844 2026-04-30.json
+05/17/2026  01:08 PM               825 2026-05-01.json
+05/17/2026  01:08 PM               834 2026-05-02.json
+05/17/2026  01:08 PM               857 2026-05-03.json
+05/17/2026  01:08 PM             1,249 2026-05-04.json
+05/17/2026  01:08 PM             1,603 2026-05-05.json
+05/17/2026  01:08 PM             1,241 2026-05-06.json
+05/17/2026  01:08 PM             1,619 2026-05-07.json
+05/17/2026  01:08 PM             1,244 2026-05-08.json
+05/17/2026  01:08 PM             1,266 2026-05-09.json
+05/17/2026  01:08 PM             1,239 2026-05-10.json
+05/17/2026  01:08 PM             1,606 2026-05-11.json
+05/17/2026  01:08 PM             1,247 2026-05-12.json
+05/17/2026  01:08 PM             1,241 2026-05-13.json
+05/17/2026  01:08 PM             1,256 2026-05-14.json
+05/17/2026  01:08 PM             1,257 2026-05-15.json
+05/17/2026  01:08 PM             1,236 2026-05-16.json
+05/17/2026  01:08 PM             1,248 2026-05-17.json
+06/14/2026  11:11 AM             1,778 2026-05-19.json
+06/14/2026  11:11 AM             1,781 2026-05-20.json
+06/14/2026  11:11 AM             1,787 2026-05-21.json
+06/14/2026  11:11 AM             2,872 2026-05-22.json
+06/14/2026  11:11 AM             2,308 2026-05-23.json
+06/14/2026  11:11 AM             1,769 2026-05-24.json
+06/14/2026  11:11 AM             2,311 2026-05-25.json
+06/14/2026  11:11 AM             1,779 2026-05-27.json
+06/14/2026  11:11 AM             1,779 2026-05-28.json
+06/14/2026  11:11 AM             1,787 2026-05-29.json
+06/14/2026  11:11 AM             2,323 2026-05-30.json
+06/14/2026  11:11 AM             2,311 2026-05-31.json
+06/14/2026  11:11 AM             1,779 2026-06-01.json
+06/14/2026  11:11 AM             1,798 2026-06-02.json
+06/14/2026  11:11 AM             1,768 2026-06-03.json
+06/14/2026  11:11 AM             1,782 2026-06-04.json
+06/14/2026  11:11 AM             1,791 2026-06-05.json
+06/14/2026  11:11 AM             2,341 2026-06-06.json
+06/14/2026  11:11 AM             1,787 2026-06-07.json
+06/14/2026  11:11 AM             2,316 2026-06-08.json
+06/14/2026  11:11 AM             1,785 2026-06-09.json
+06/14/2026  11:11 AM             2,319 2026-06-10.json
+06/14/2026  11:11 AM            17,128 summary.json
+              55 File(s)         95,319 bytes
+
+ Directory of C:\git\clambakesanta\state\run_log
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/18/2026  10:43 AM             1,031 2026-05-18.json
+06/14/2026  11:11 AM             1,123 2026-05-19.json
+06/14/2026  11:11 AM             1,134 2026-05-20.json
+06/14/2026  11:11 AM             1,148 2026-05-21.json
+06/14/2026  11:11 AM             1,653 2026-05-22.json
+06/14/2026  11:11 AM             1,336 2026-05-23.json
+06/14/2026  11:11 AM             1,090 2026-05-24.json
+06/14/2026  11:11 AM             1,347 2026-05-25.json
+06/14/2026  11:11 AM             1,122 2026-05-27.json
+06/14/2026  11:11 AM             1,120 2026-05-28.json
+06/14/2026  11:11 AM             1,160 2026-05-29.json
+06/14/2026  11:11 AM             1,373 2026-05-30.json
+06/14/2026  11:11 AM             1,496 2026-05-31.json
+06/14/2026  11:11 AM             1,122 2026-06-01.json
+06/14/2026  11:11 AM             1,185 2026-06-02.json
+06/14/2026  11:11 AM             1,085 2026-06-03.json
+06/14/2026  11:11 AM             1,133 2026-06-04.json
+06/14/2026  11:11 AM             1,158 2026-06-05.json
+06/14/2026  11:11 AM             1,429 2026-06-06.json
+06/14/2026  11:11 AM             1,148 2026-06-07.json
+06/14/2026  11:11 AM             1,364 2026-06-08.json
+06/14/2026  11:11 AM             1,142 2026-06-09.json
+06/14/2026  11:11 AM             1,361 2026-06-10.json
+              23 File(s)         28,260 bytes
+
+ Directory of C:\git\clambakesanta\state\writers_block
+
+06/14/2026  11:11 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+06/14/2026  11:11 AM             1,343 2026-05-31.json
+               1 File(s)          1,343 bytes
+
+ Directory of C:\git\clambakesanta\__pycache__
+
+05/03/2026  11:54 AM    <DIR>          .
+06/14/2026  11:11 AM    <DIR>          ..
+05/03/2026  11:54 AM            21,025 weekly_report.cpython-314.pyc
+               1 File(s)         21,025 bytes
+
+     Total Files Listed:
+             495 File(s)      2,316,591 bytes
+             313 Dir(s)  143,805,992,960 bytes free

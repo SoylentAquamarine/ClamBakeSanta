@@ -181,7 +181,7 @@ success = adapter.publish(result)
 | `False` | Skipped (missing credentials or env vars) |
 | `raise Exception` | Adapter failed → `adapters_failed` with error string |
 
-**Isolation**: Each adapter is fully independent. An exception from one adapter is caught, logged, and added to `adapters_failed`. The loop continues to the next adapter. A failing Discord adapter never stops the Mastodon or GitHub Pages adapters.
+**Isolation**: Each adapter is fully independent. An exception from one adapter is caught, logged, and added to `adapters_failed`. The loop continues to the next adapter. A failing Tumblr adapter never stops the Mastodon or GitHub Pages adapters.
 
 **Missing credentials**: Each adapter checks for its required environment variables (`MASTODON_ACCESS_TOKEN`, `BLUESKY_APP_PASSWORD`, etc.) and returns `False` immediately if any are absent. The runner logs this as "SKIPPED" — not an error.
 
@@ -205,7 +205,7 @@ The `run()` function returns:
     "date": "2026-05-02",
     "engine": "clambakesanta",
     "adapters_ok": ["mastodon", "bluesky", "github_pages"],
-    "adapters_failed": [("discord", "Webhook 403 Forbidden")],
+    "adapters_failed": [("tumblr", "OAuth error")],
     "skipped": False,
 }
 ```

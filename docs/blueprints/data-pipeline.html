@@ -191,7 +191,7 @@ class Result:
     <tr><td><code>False</code></td><td>Skipped — missing credentials or env vars</td></tr>
     <tr><td><code>raise Exception</code></td><td>Adapter failed → <code>adapters_failed</code> with error string</td></tr>
   </table>
-  <p><strong>Isolation:</strong> Each adapter is fully independent. An exception from one is caught, logged, and added to <code>adapters_failed</code>. The loop continues to the next adapter. A failing Discord adapter never stops Mastodon or GitHub Pages.</p>
+  <p><strong>Isolation:</strong> Each adapter is fully independent. An exception from one is caught, logged, and added to <code>adapters_failed</code>. The loop continues to the next adapter. A failing Tumblr adapter never stops Mastodon or GitHub Pages.</p>
   <p><strong>Missing credentials:</strong> Each adapter checks for its required env vars and returns <code>False</code> immediately if any are absent. The runner logs this as "SKIPPED" — not an error.</p>
 
   <h2>Step 7: State Recording</h2>
@@ -203,7 +203,7 @@ class Result:
     "date": "2026-05-02",
     "engine": "clambakesanta",
     "adapters_ok": ["mastodon", "bluesky", "github_pages"],
-    "adapters_failed": [("discord", "Webhook 403 Forbidden")],
+    "adapters_failed": [("tumblr", "OAuth error")],
     "skipped": False,
 }</code></pre>
 

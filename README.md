@@ -39,7 +39,6 @@ This README describes the current implementation, not just the original design i
 <tr><td>Bluesky</td><td><a href="https://bsky.app/profile/clambakesanta.bsky.social">@clambakesanta.bsky.social</a></td></tr>
 <tr><td>Tumblr</td><td><a href="https://www.tumblr.com/clambakesanta">tumblr.com/clambakesanta</a></td></tr>
 <tr><td>Telegram</td><td><a href="https://t.me/clambakesanta">t.me/clambakesanta</a></td></tr>
-<tr><td>Reddit</td><td><a href="https://reddit.com/u/TheClamBakeSanta">u/TheClamBakeSanta</a></td></tr>
 <tr><td>WordPress</td><td><a href="https://clambakesanta.wordpress.com">clambakesanta.wordpress.com</a></td></tr>
 </table>
 

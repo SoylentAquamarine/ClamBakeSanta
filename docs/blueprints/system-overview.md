@@ -45,10 +45,8 @@ Each adapter independently publishes the `Result` to a platform. One adapter fai
 | `tumblr` | Tumblr | 1 post per haiku, 1 minute apart |
 | `telegram` | Telegram | 1 post per haiku, 1 minute apart |
 | `email_list` | Gmail subscribers | Daily digest email |
-| `reddit` | r/haiku | One post per day |
 | `wordpress` | WordPress.com | Daily digest post |
 | `github_pages` | GitHub Pages | Updates `docs/` static site |
-| `discord` | Discord | Summary message after site updates |
 
 ### Layer 4: State
 After all adapters run, `state.record_run(result)` marks today as complete. Prevents double-posting on re-runs.
@@ -89,10 +87,8 @@ The `.gitattributes` file configures a union merge driver for `state/**/*.json` 
 | `test_adapter.yml` | Manual | Generic adapter test |
 | `test_mastodon.yml` | Manual | Individual adapter tests |
 | `test_bluesky.yml` | Manual | |
-| `test_discord.yml` | Manual | |
 | `test_email_list.yml` | Manual | |
 | `test_github_pages.yml` | Manual | |
-| `test_reddit.yml` | Manual | |
 | `test_telegram.yml` | Manual | |
 | `test_tumblr.yml` | Manual | |
 | `test_wordpress.yml` | Manual | |

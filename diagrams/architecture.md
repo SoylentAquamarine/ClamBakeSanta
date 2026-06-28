@@ -34,10 +34,8 @@ flowchart TD
         TU["tumblr"]
         TG["telegram"]
         EL["email_list\nreads subscribers.json"]
-        RD["reddit"]
         WP["wordpress"]
         GP["github_pages\nHTML + RSS"]
-        DC["discord"]
     end
 
     subgraph STATE["Repository State"]

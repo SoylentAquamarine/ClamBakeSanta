@@ -33,7 +33,6 @@ adapters:
   - email_list      # Processes SUBSCRIBE/UNSUBSCRIBE emails and sends daily haiku digest. Requires GMAIL_ADDRESS + GMAIL_APP_PASSWORD
   - wordpress       # Posts daily digest to WordPress.com. Requires WORDPRESS_TOKEN + WORDPRESS_BLOG_ID
   - github_pages    # Updates site AFTER all social posts complete
-  - discord         # Posts a summary after site is updated. Requires DISCORD_WEBHOOK_URL secret
 
 # ── AI engine settings ────────────────────────────────────────────────────────
 ai:
@@ -70,7 +69,6 @@ plugin_modules:
   - plugins.sources.daily_themes
   - plugins.engines.clambakesanta
   - plugins.adapters.github_pages
-  - plugins.adapters.discord
   - plugins.adapters.mastodon_adapter
   - plugins.adapters.bluesky
   - plugins.adapters.tumblr
