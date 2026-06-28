@@ -37,38 +37,27 @@ from framework.registry import register
 from framework.adapters.base import BaseAdapter
 from framework.models import Result
 
-SUBREDDIT = "haiku"
-USER_AGENT = "ClamBakeSanta/1.0 (by u/TheClamBakeSanta)"
-
-
-def _haiku_title(haiku_text: str) -> str:
-    """
-    Build the r/haiku title from a haiku.
-
-    r/haiku requires the title to be the haiku itself in the format:
-        first line / second line / third line
-
-    The haiku_text has 4 lines: 3 poem lines + 1 hashtag line.
-    We only use the first 3.
-    """
-    lines = [ln.strip() for ln in haiku_text.strip().splitlines() if ln.strip()]
-    poem_lines = [ln.rstrip(",") for ln in lines[:3]]   # drop hashtag line, strip trailing commas
-    return " / ".join(poem_lines)
-
-
-def _post_body(theme: str) -> str:
-    """
-    Build the post body.
-
-    Birthdays  → "Happy Birthday Charlie Chaplin from u/TheClamBakeSanta"
-    Holidays   → "Happy National Eggs Benedict Day from u/TheClamBakeSanta"
-    """
-    theme = theme.strip()
+def _format_post(rec: dict, date_str: str, username: str) -> tuple[str, str]:
+    """Return (title, body) for a Reddit profile post."""
+    theme = rec.get("theme", "")
     if theme.lower().startswith("birthday "):
-        display = f"Happy {theme}"          # "Happy Birthday Charlie Chaplin"
+        title = f"Happy {theme} — a haiku"
     else:
-        display = f"Happy {theme}"          # "Happy National Eggs Benedict Day"
-    return f"{display} from u/TheClamBakeSanta"
+        title = f"{theme} — a haiku"
+
+    lines = rec["haiku"].split("\n")
+    poem_lines = [ln.rstrip(",") for ln in lines[:-1]]
+    hashtag_line = lines[-1].lstrip("#").strip() if lines else ""
+
+    poem = "\n\n".join(poem_lines)
+    body = (
+        f"{poem}\n\n"
+        f"---\n\n"
+        f"*{hashtag_line}*\n\n"
+        f"*Daily haiku by [Clam Bake Santa](https://soylentaquamarine.github.io/ClamBakeSanta)*"
+    )
+
+    return title, body
 
 
 @register("adapters", "reddit")
@@ -104,9 +93,10 @@ class RedditAdapter(BaseAdapter):
                 client_secret=client_secret,
                 username=username,
                 password=password,
-                user_agent=USER_AGENT,
+                user_agent=f"ClamBakeSanta/1.0 (by u/{username})",
             )
-            subreddit = reddit.subreddit(SUBREDDIT)
+            # Post to the user's own profile subreddit to build karma
+            subreddit = reddit.subreddit(f"u_{username}")
         except Exception as exc:
             print(f"  Reddit auth error: {exc}")
             return False
@@ -115,13 +105,12 @@ class RedditAdapter(BaseAdapter):
         errors = 0
         for i, rec in enumerate(haiku_records):
             if i > 0:
-                time.sleep(60)   # Reddit rate limit: 1 post/minute for new accounts
+                time.sleep(60)   # Reddit rate limit: space posts out
 
-            title = _haiku_title(rec["haiku"])
-            body  = _post_body(rec["theme"])
+            title, body = _format_post(rec, result.event.date_str, username)
 
             try:
-                submission = subreddit.submit(title=title, selftext=body)
+                submission = subreddit.submit(title=title, selftext=body, nsfw=False)
                 print(f"  Reddit posted: {submission.shortlink}  [{rec['theme']}]")
                 # Save post ID/URL for engagement tracking
                 try:
