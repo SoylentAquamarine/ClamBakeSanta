@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "haikus": [
     {
-      "theme": "National Tapioca Day",
-      "haiku": "Pearls of joy delight,\nSweetness dances on the tongue,\nLaughter fills the air.\nHappy #NationalTapiocaDay from @ClamBakeSanta",
-      "tag": "NationalTapiocaDay",
+      "theme": "National Almond Buttercrunch Day",
+      "haiku": "Crunchy joy unfolds,\nSweet and nutty bliss awaits,\nTaste that warms the heart.\nHappy #NationalAlmondButtercrunchDay from @ClamBakeSanta",
+      "tag": "NationalAlmondButtercrunchDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Paul Bunyan Day",
-      "haiku": "Tall pines sway with cheer,\nLumberjacks laugh, axes flash,\nBlue rivers flow bright.\nHappy #PaulBunyanDay from @ClamBakeSanta",
-      "tag": "PaulBunyanDay",
+      "theme": "Camera Day",
+      "haiku": "Lenses capture smiles,\nColors burst like blooms in spring,\nMoments hold their breath.\nHappy #CameraDay from @ClamBakeSanta",
+      "tag": "CameraDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Jean-Jacques Rousseau",
-      "haiku": "Sweet cake fills the air,\nLaughter dances like spring blooms,\nJoy wraps all around.\n#HappyBirthdayJeanJacquesRousseau from @ClamBakeSanta",
-      "tag": "HappyBirthdayJeanJacquesRousseau",
+      "theme": "Birthday Antoine de Saint-Exupery",
+      "haiku": "Soft winds whisper dreams,\nFanciful tales take to flight,\nStars join in the cheer.\n#HappyBirthdayAntoinedeSaintExupery from @ClamBakeSanta",
+      "tag": "HappyBirthdayAntoinedeSaintExupery",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Mel Brooks",
-      "haiku": "Laughter fills the air,\nCake and joy dance on each plate,\nCheers for Mel's bright spark!\n#HappyBirthdayMelBrooks from @ClamBakeSanta",
-      "tag": "HappyBirthdayMelBrooks",
+      "theme": "Full Moon",
+      "haiku": "Silver light above,\nWhispers of night softly hum,\nDreams float like soft clouds.\nHappy #FullMoon from @ClamBakeSanta",
+      "tag": "FullMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Tapioca Day",
-    "Paul Bunyan Day",
-    "Birthday Jean-Jacques Rousseau",
-    "Birthday Mel Brooks"
+    "National Almond Buttercrunch Day",
+    "Camera Day",
+    "Birthday Antoine de Saint-Exupery",
+    "Full Moon"
   ],
-  "content": "Pearls of joy delight,\nSweetness dances on the tongue,\nLaughter fills the air.\nHappy #NationalTapiocaDay from @ClamBakeSanta\n\nTall pines sway with cheer,\nLumberjacks laugh, axes flash,\nBlue rivers flow bright.\nHappy #PaulBunyanDay from @ClamBakeSanta\n\nSweet cake fills the air,\nLaughter dances like spring blooms,\nJoy wraps all around.\n#HappyBirthdayJeanJacquesRousseau from @ClamBakeSanta\n\nLaughter fills the air,\nCake and joy dance on each plate,\nCheers for Mel's bright spark!\n#HappyBirthdayMelBrooks from @ClamBakeSanta",
-  "saved_at": "2026-06-28T11:10:09.104103+00:00"
+  "content": "Crunchy joy unfolds,\nSweet and nutty bliss awaits,\nTaste that warms the heart.\nHappy #NationalAlmondButtercrunchDay from @ClamBakeSanta\n\nLenses capture smiles,\nColors burst like blooms in spring,\nMoments hold their breath.\nHappy #CameraDay from @ClamBakeSanta\n\nSoft winds whisper dreams,\nFanciful tales take to flight,\nStars join in the cheer.\n#HappyBirthdayAntoinedeSaintExupery from @ClamBakeSanta\n\nSilver light above,\nWhispers of night softly hum,\nDreams float like soft clouds.\nHappy #FullMoon from @ClamBakeSanta",
+  "saved_at": "2026-06-29T13:09:17.672633+00:00"
 }

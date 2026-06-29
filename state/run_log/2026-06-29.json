@@ -1,16 +1,17 @@
 [
   {
-    "timestamp": "2026-05-29T12:26:02.994929+00:00",
-    "date": "2026-05-29",
+    "timestamp": "2026-06-29T13:21:35.740772+00:00",
+    "date": "2026-06-29",
     "themes_found": [
-      "National Coq au Vin Day",
-      "Put a Pillow on Your Fridge Day",
-      "Birthday John F. Kennedy"
+      "National Almond Buttercrunch Day",
+      "Camera Day",
+      "Birthday Antoine de Saint-Exupery",
+      "Full Moon"
     ],
     "haikus_posted": [
       {
-        "theme": "National Coq au Vin Day",
-        "tag": "NationalCoqAuVinDay",
+        "theme": "National Almond Buttercrunch Day",
+        "tag": "NationalAlmondButtercrunchDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +20,8 @@
         ]
       },
       {
-        "theme": "Put a Pillow on Your Fridge Day",
-        "tag": "PutAPillowOnYourFridgeDay",
+        "theme": "Camera Day",
+        "tag": "CameraDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +30,18 @@
         ]
       },
       {
-        "theme": "Birthday John F. Kennedy",
-        "tag": "HappyBirthdayJohnFKennedy",
+        "theme": "Birthday Antoine de Saint-Exupery",
+        "tag": "HappyBirthdayAntoinedeSaintExupery",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Full Moon",
+        "tag": "FullMoon",
         "valid_syllables": true,
         "counts": [
           5,

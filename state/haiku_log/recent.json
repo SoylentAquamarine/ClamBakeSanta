@@ -1,47 +1,5 @@
 [
   {
-    "date": "2026-06-21",
-    "theme": "Summer Solstice",
-    "haiku": "Golden rays embrace,\nFields of flowers dance and sway,\nNature’s bright delight.\nHappy #SummerSolstice from @ClamBakeSanta",
-    "tag": "SummerSolstice",
-    "logged_at": "2026-06-21T11:47:15.990545+00:00"
-  },
-  {
-    "date": "2026-06-21",
-    "theme": "World Music Day",
-    "haiku": "Strings hum in the sun,\nDrums beat with hearts open wide,\nVoices dance like stars.\nHappy #WorldMusicDay from @ClamBakeSanta",
-    "tag": "WorldMusicDay",
-    "logged_at": "2026-06-21T11:47:15.990545+00:00"
-  },
-  {
-    "date": "2026-06-21",
-    "theme": "Father's Day",
-    "haiku": "Gentle hands create,\nLaughter dances 'round the room,\nHearts warm in the glow.\nHappy #FatherSDay from @ClamBakeSanta",
-    "tag": "FatherSDay",
-    "logged_at": "2026-06-21T11:47:15.990545+00:00"
-  },
-  {
-    "date": "2026-06-21",
-    "theme": "Birthday Jean-Paul Sartre",
-    "haiku": "Candles glow softly,\nLaughter dances through the room,\nCheers lift hearts like kites.\n#HappyBirthdayJeanPaulSartre from @ClamBakeSanta",
-    "tag": "HappyBirthdayJeanPaulSartre",
-    "logged_at": "2026-06-21T11:47:15.990545+00:00"
-  },
-  {
-    "date": "2026-06-21",
-    "theme": "First Quarter Moon",
-    "haiku": "Silver crescent glows,\nWhispers of night’s soft embrace,\nStars twinkle with joy.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-    "tag": "FirstQuarterMoon",
-    "logged_at": "2026-06-21T11:47:15.990545+00:00"
-  },
-  {
-    "date": "2026-06-21",
-    "theme": "Summer Solstice",
-    "haiku": "Golden sun above,\nFields of blooms in warm embrace,\nLaughter fills the day.\nHappy #SummerSolstice from @ClamBakeSanta",
-    "tag": "SummerSolstice",
-    "logged_at": "2026-06-21T11:47:15.990545+00:00"
-  },
-  {
     "date": "2026-06-22",
     "theme": "National Chocolate Eclair Day",
     "haiku": "Creamy bliss inside,\nFlaky layers dance in light,\nChocolate dreams delight.\nHappy #NationalChocolateEclairDay from @ClamBakeSanta",
@@ -180,5 +138,33 @@
     "haiku": "Joyful voices sing,\nColors dance in bright delight,\nHearts unite in cheer.\n#HappyBirthdayHelenKeller from @ClamBakeSanta",
     "tag": "HappyBirthdayHelenKeller",
     "logged_at": "2026-06-27T10:59:03.221343+00:00"
+  },
+  {
+    "date": "2026-06-28",
+    "theme": "National Tapioca Day",
+    "haiku": "Pearls of joy delight,\nSweetness dances on the tongue,\nLaughter fills the air.\nHappy #NationalTapiocaDay from @ClamBakeSanta",
+    "tag": "NationalTapiocaDay",
+    "logged_at": "2026-06-28T11:10:09.104535+00:00"
+  },
+  {
+    "date": "2026-06-28",
+    "theme": "Paul Bunyan Day",
+    "haiku": "Tall pines sway with cheer,\nLumberjacks laugh, axes flash,\nBlue rivers flow bright.\nHappy #PaulBunyanDay from @ClamBakeSanta",
+    "tag": "PaulBunyanDay",
+    "logged_at": "2026-06-28T11:10:09.104535+00:00"
+  },
+  {
+    "date": "2026-06-28",
+    "theme": "Birthday Jean-Jacques Rousseau",
+    "haiku": "Sweet cake fills the air,\nLaughter dances like spring blooms,\nJoy wraps all around.\n#HappyBirthdayJeanJacquesRousseau from @ClamBakeSanta",
+    "tag": "HappyBirthdayJeanJacquesRousseau",
+    "logged_at": "2026-06-28T11:10:09.104535+00:00"
+  },
+  {
+    "date": "2026-06-28",
+    "theme": "Birthday Mel Brooks",
+    "haiku": "Laughter fills the air,\nCake and joy dance on each plate,\nCheers for Mel's bright spark!\n#HappyBirthdayMelBrooks from @ClamBakeSanta",
+    "tag": "HappyBirthdayMelBrooks",
+    "logged_at": "2026-06-28T11:10:09.104535+00:00"
   }
 ]
