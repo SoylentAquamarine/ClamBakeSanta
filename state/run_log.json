@@ -76,7 +76,8 @@
     "2026-06-26",
     "2026-06-27",
     "2026-06-28",
-    "2026-06-29"
+    "2026-06-29",
+    "2026-06-30"
   ],
   "runs": [
     {
@@ -950,6 +951,18 @@
         "Full Moon"
       ],
       "content_preview": "Crunchy joy unfolds, Sweet and nutty bliss awaits, Taste that warms the heart. Happy #NationalAlmondButtercrunchDay from"
+    },
+    {
+      "date": "2026-06-30",
+      "engine": "clambakesanta",
+      "timestamp": "2026-06-30T11:58:23.640774+00:00",
+      "themes": [
+        "National Meteor Watch Day",
+        "World Social Media Day",
+        "Birthday Lena Horne",
+        "Birthday Mike Tyson"
+      ],
+      "content_preview": "Stars burst in the night, Wishing trails of bright wonder, Whispers of the sky. Happy #NationalMeteorWatchDay from @Clam"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "haikus": [
     {
-      "theme": "National Almond Buttercrunch Day",
-      "haiku": "Crunchy joy unfolds,\nSweet and nutty bliss awaits,\nTaste that warms the heart.\nHappy #NationalAlmondButtercrunchDay from @ClamBakeSanta",
-      "tag": "NationalAlmondButtercrunchDay",
+      "theme": "National Meteor Watch Day",
+      "haiku": "Stars burst in the night,\nWishing trails of bright wonder,\nWhispers of the sky.\nHappy #NationalMeteorWatchDay from @ClamBakeSanta",
+      "tag": "NationalMeteorWatchDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Camera Day",
-      "haiku": "Lenses capture smiles,\nColors burst like blooms in spring,\nMoments hold their breath.\nHappy #CameraDay from @ClamBakeSanta",
-      "tag": "CameraDay",
+      "theme": "World Social Media Day",
+      "haiku": "Bright screens glow with cheer,\nVoices mingle like soft song,\nConnections so dear.\nHappy #WorldSocialMediaDay from @ClamBakeSanta",
+      "tag": "WorldSocialMediaDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Antoine de Saint-Exupery",
-      "haiku": "Soft winds whisper dreams,\nFanciful tales take to flight,\nStars join in the cheer.\n#HappyBirthdayAntoinedeSaintExupery from @ClamBakeSanta",
-      "tag": "HappyBirthdayAntoinedeSaintExupery",
+      "theme": "Birthday Lena Horne",
+      "haiku": "Voices weave like silk,\nLaughter sparkles in warm air,\nDreams take flight tonight.\n#HappyBirthdayLenaHorne from @ClamBakeSanta",
+      "tag": "HappyBirthdayLenaHorne",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Full Moon",
-      "haiku": "Silver light above,\nWhispers of night softly hum,\nDreams float like soft clouds.\nHappy #FullMoon from @ClamBakeSanta",
-      "tag": "FullMoon",
+      "theme": "Birthday Mike Tyson",
+      "haiku": "Bright balloons take wing,\nLaughter fills the sunlit room,\nCake and dreams unite.\n#HappyBirthdayMikeTyson from @ClamBakeSanta",
+      "tag": "HappyBirthdayMikeTyson",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Almond Buttercrunch Day",
-    "Camera Day",
-    "Birthday Antoine de Saint-Exupery",
-    "Full Moon"
+    "National Meteor Watch Day",
+    "World Social Media Day",
+    "Birthday Lena Horne",
+    "Birthday Mike Tyson"
   ],
-  "content": "Crunchy joy unfolds,\nSweet and nutty bliss awaits,\nTaste that warms the heart.\nHappy #NationalAlmondButtercrunchDay from @ClamBakeSanta\n\nLenses capture smiles,\nColors burst like blooms in spring,\nMoments hold their breath.\nHappy #CameraDay from @ClamBakeSanta\n\nSoft winds whisper dreams,\nFanciful tales take to flight,\nStars join in the cheer.\n#HappyBirthdayAntoinedeSaintExupery from @ClamBakeSanta\n\nSilver light above,\nWhispers of night softly hum,\nDreams float like soft clouds.\nHappy #FullMoon from @ClamBakeSanta",
-  "saved_at": "2026-06-29T13:09:17.672633+00:00"
+  "content": "Stars burst in the night,\nWishing trails of bright wonder,\nWhispers of the sky.\nHappy #NationalMeteorWatchDay from @ClamBakeSanta\n\nBright screens glow with cheer,\nVoices mingle like soft song,\nConnections so dear.\nHappy #WorldSocialMediaDay from @ClamBakeSanta\n\nVoices weave like silk,\nLaughter sparkles in warm air,\nDreams take flight tonight.\n#HappyBirthdayLenaHorne from @ClamBakeSanta\n\nBright balloons take wing,\nLaughter fills the sunlit room,\nCake and dreams unite.\n#HappyBirthdayMikeTyson from @ClamBakeSanta",
+  "saved_at": "2026-06-30T11:46:08.346921+00:00"
 }
