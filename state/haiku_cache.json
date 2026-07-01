@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "haikus": [
     {
-      "theme": "National Meteor Watch Day",
-      "haiku": "Stars burst in the night,\nWishing trails of bright wonder,\nWhispers of the sky.\nHappy #NationalMeteorWatchDay from @ClamBakeSanta",
-      "tag": "NationalMeteorWatchDay",
+      "theme": "National Creative Ice Cream Flavors Day",
+      "haiku": "Scoops of colors bright,\nLemon zests and berry sweet,\nDreams melt in each bite.\nHappy #NationalCreativeIceCreamFlavorsDay from @ClamBakeSanta",
+      "tag": "NationalCreativeIceCreamFlavorsDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Social Media Day",
-      "haiku": "Bright screens glow with cheer,\nVoices mingle like soft song,\nConnections so dear.\nHappy #WorldSocialMediaDay from @ClamBakeSanta",
-      "tag": "WorldSocialMediaDay",
+      "theme": "International Joke Day",
+      "haiku": "Laughter fills the air,\nTickles dance like summer breeze,\nSmiles bloom bright and wide.\nHappy #InternationalJokeDay from @ClamBakeSanta",
+      "tag": "InternationalJokeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Lena Horne",
-      "haiku": "Voices weave like silk,\nLaughter sparkles in warm air,\nDreams take flight tonight.\n#HappyBirthdayLenaHorne from @ClamBakeSanta",
-      "tag": "HappyBirthdayLenaHorne",
+      "theme": "Birthday George Sand",
+      "haiku": "Golden sunbeams shine,\nLaughter fills the soft sweet air,\nCake and dreams align.\n#HappyBirthdayGeorgeSand from @ClamBakeSanta",
+      "tag": "HappyBirthdayGeorgeSand",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Mike Tyson",
-      "haiku": "Bright balloons take wing,\nLaughter fills the sunlit room,\nCake and dreams unite.\n#HappyBirthdayMikeTyson from @ClamBakeSanta",
-      "tag": "HappyBirthdayMikeTyson",
+      "theme": "Birthday Olivia de Havilland",
+      "haiku": "Golden film lights glow,\nStars twinkle in velvet night,\nSweet dreams take their flight.\n#HappyBirthdayOliviadeHavilland from @ClamBakeSanta",
+      "tag": "HappyBirthdayOliviadeHavilland",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Meteor Watch Day",
-    "World Social Media Day",
-    "Birthday Lena Horne",
-    "Birthday Mike Tyson"
+    "National Creative Ice Cream Flavors Day",
+    "International Joke Day",
+    "Birthday George Sand",
+    "Birthday Olivia de Havilland"
   ],
-  "content": "Stars burst in the night,\nWishing trails of bright wonder,\nWhispers of the sky.\nHappy #NationalMeteorWatchDay from @ClamBakeSanta\n\nBright screens glow with cheer,\nVoices mingle like soft song,\nConnections so dear.\nHappy #WorldSocialMediaDay from @ClamBakeSanta\n\nVoices weave like silk,\nLaughter sparkles in warm air,\nDreams take flight tonight.\n#HappyBirthdayLenaHorne from @ClamBakeSanta\n\nBright balloons take wing,\nLaughter fills the sunlit room,\nCake and dreams unite.\n#HappyBirthdayMikeTyson from @ClamBakeSanta",
-  "saved_at": "2026-06-30T11:46:08.346921+00:00"
+  "content": "Scoops of colors bright,\nLemon zests and berry sweet,\nDreams melt in each bite.\nHappy #NationalCreativeIceCreamFlavorsDay from @ClamBakeSanta\n\nLaughter fills the air,\nTickles dance like summer breeze,\nSmiles bloom bright and wide.\nHappy #InternationalJokeDay from @ClamBakeSanta\n\nGolden sunbeams shine,\nLaughter fills the soft sweet air,\nCake and dreams align.\n#HappyBirthdayGeorgeSand from @ClamBakeSanta\n\nGolden film lights glow,\nStars twinkle in velvet night,\nSweet dreams take their flight.\n#HappyBirthdayOliviadeHavilland from @ClamBakeSanta",
+  "saved_at": "2026-07-01T12:10:39.441596+00:00"
 }

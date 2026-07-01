@@ -77,7 +77,8 @@
     "2026-06-27",
     "2026-06-28",
     "2026-06-29",
-    "2026-06-30"
+    "2026-06-30",
+    "2026-07-01"
   ],
   "runs": [
     {
@@ -963,6 +964,18 @@
         "Birthday Mike Tyson"
       ],
       "content_preview": "Stars burst in the night, Wishing trails of bright wonder, Whispers of the sky. Happy #NationalMeteorWatchDay from @Clam"
+    },
+    {
+      "date": "2026-07-01",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-01T12:22:53.767148+00:00",
+      "themes": [
+        "National Creative Ice Cream Flavors Day",
+        "International Joke Day",
+        "Birthday George Sand",
+        "Birthday Olivia de Havilland"
+      ],
+      "content_preview": "Scoops of colors bright, Lemon zests and berry sweet, Dreams melt in each bite. Happy #NationalCreativeIceCreamFlavorsDa"
     }
   ]
 }
