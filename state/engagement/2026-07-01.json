@@ -1,0 +1,130 @@
+{
+  "NationalCreativeIceCreamFlavorsDay": {
+    "theme": "National Creative Ice Cream Flavors Day",
+    "haiku": "Scoops of colors bright,\nLemon zests and berry sweet,\nDreams melt in each bite.\nHappy #NationalCreativeIceCreamFlavorsDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116844648200867312",
+        "url": "https://mastodon.social/@ClamBakeSanta/116844648200867312",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mplijpddjy2i",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820938751974031360",
+        "notes": 1,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-07-01T23:04:51.562784+00:00"
+  },
+  "InternationalJokeDay": {
+    "theme": "International Joke Day",
+    "haiku": "Laughter fills the air,\nTickles dance like summer breeze,\nSmiles bloom bright and wide.\nHappy #InternationalJokeDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116844652199806408",
+        "url": "https://mastodon.social/@ClamBakeSanta/116844652199806408",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mpliliok7322",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820938815164284928",
+        "notes": 1,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-07-01T23:04:51.562784+00:00"
+  },
+  "HappyBirthdayGeorgeSand": {
+    "theme": "Birthday George Sand",
+    "haiku": "Golden sunbeams shine,\nLaughter fills the soft sweet air,\nCake and dreams align.\n#HappyBirthdayGeorgeSand from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116844656158051855",
+        "url": "https://mastodon.social/@ClamBakeSanta/116844656158051855",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mplinbxl6725",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820938878568513536",
+        "notes": 1,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-07-01T23:04:51.562784+00:00"
+  },
+  "HappyBirthdayOliviadeHavilland": {
+    "theme": "Birthday Olivia de Havilland",
+    "haiku": "Golden film lights glow,\nStars twinkle in velvet night,\nSweet dreams take their flight.\n#HappyBirthdayOliviadeHavilland from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116844660116683674",
+        "url": "https://mastodon.social/@ClamBakeSanta/116844660116683674",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mplip3idxo2c",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "820938941967548417",
+        "notes": 3,
+        "score": 3
+      }
+    },
+    "total_score": 3,
+    "last_checked": "2026-07-01T23:04:51.562784+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "94",
+        "url": "https://clambakesanta.wordpress.com/2026/07/01/clam-bake-santa-2026-07-01/",
+        "views": 1,
+        "likes": 1,
+        "comments": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-07-01T23:04:51.562784+00:00"
+  }
+}
