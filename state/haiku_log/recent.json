@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-06-24",
-    "theme": "National Pralines Day",
-    "haiku": "Nuts and sugar swirl,\nCaramel hugs each morsel,\nA sweet dream unfolds.\nHappy #NationalPralinesDay from @ClamBakeSanta",
-    "tag": "NationalPralinesDay",
-    "logged_at": "2026-06-24T11:47:15.083825+00:00"
-  },
-  {
-    "date": "2026-06-24",
-    "theme": "Swim a Lap Day",
-    "haiku": "Clear waves gently lap,\nBright splashes dance in the sun,\nJoy flows through each stroke.\nHappy #SwimALapDay from @ClamBakeSanta",
-    "tag": "SwimALapDay",
-    "logged_at": "2026-06-24T11:47:15.083825+00:00"
-  },
-  {
-    "date": "2026-06-24",
-    "theme": "Birthday Jack Dempsey",
-    "haiku": "Candles dance with light,\nJoyful cheers blend with sweet cake,\nWishes take to flight.\n#HappyBirthdayJackDempsey from @ClamBakeSanta",
-    "tag": "HappyBirthdayJackDempsey",
-    "logged_at": "2026-06-24T11:47:15.083825+00:00"
-  },
-  {
     "date": "2026-06-25",
     "theme": "National Catfish Day",
     "haiku": "Bubbles rise and dance,\nFried catfish scents fill the air,\nJoyful hearts unite.\nHappy #NationalCatfishDay from @ClamBakeSanta",
@@ -166,5 +145,33 @@
     "haiku": "Bright balloons take wing,\nLaughter fills the sunlit room,\nCake and dreams unite.\n#HappyBirthdayMikeTyson from @ClamBakeSanta",
     "tag": "HappyBirthdayMikeTyson",
     "logged_at": "2026-06-30T11:46:08.347458+00:00"
+  },
+  {
+    "date": "2026-07-01",
+    "theme": "National Creative Ice Cream Flavors Day",
+    "haiku": "Scoops of colors bright,\nLemon zests and berry sweet,\nDreams melt in each bite.\nHappy #NationalCreativeIceCreamFlavorsDay from @ClamBakeSanta",
+    "tag": "NationalCreativeIceCreamFlavorsDay",
+    "logged_at": "2026-07-01T12:10:39.442026+00:00"
+  },
+  {
+    "date": "2026-07-01",
+    "theme": "International Joke Day",
+    "haiku": "Laughter fills the air,\nTickles dance like summer breeze,\nSmiles bloom bright and wide.\nHappy #InternationalJokeDay from @ClamBakeSanta",
+    "tag": "InternationalJokeDay",
+    "logged_at": "2026-07-01T12:10:39.442026+00:00"
+  },
+  {
+    "date": "2026-07-01",
+    "theme": "Birthday George Sand",
+    "haiku": "Golden sunbeams shine,\nLaughter fills the soft sweet air,\nCake and dreams align.\n#HappyBirthdayGeorgeSand from @ClamBakeSanta",
+    "tag": "HappyBirthdayGeorgeSand",
+    "logged_at": "2026-07-01T12:10:39.442026+00:00"
+  },
+  {
+    "date": "2026-07-01",
+    "theme": "Birthday Olivia de Havilland",
+    "haiku": "Golden film lights glow,\nStars twinkle in velvet night,\nSweet dreams take their flight.\n#HappyBirthdayOliviadeHavilland from @ClamBakeSanta",
+    "tag": "HappyBirthdayOliviadeHavilland",
+    "logged_at": "2026-07-01T12:10:39.442026+00:00"
   }
 ]

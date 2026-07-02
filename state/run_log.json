@@ -78,7 +78,8 @@
     "2026-06-28",
     "2026-06-29",
     "2026-06-30",
-    "2026-07-01"
+    "2026-07-01",
+    "2026-07-02"
   ],
   "runs": [
     {
@@ -976,6 +977,17 @@
         "Birthday Olivia de Havilland"
       ],
       "content_preview": "Scoops of colors bright, Lemon zests and berry sweet, Dreams melt in each bite. Happy #NationalCreativeIceCreamFlavorsDa"
+    },
+    {
+      "date": "2026-07-02",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-02T11:44:52.860923+00:00",
+      "themes": [
+        "World UFO Day",
+        "National Anisette Day",
+        "Birthday Hermann Hesse"
+      ],
+      "content_preview": "Stars twinkle above, Colors swirl in night’s embrace, Dreams from afar gleam. Happy #WorldUfoDay from @ClamBakeSanta  An"
     }
   ]
 }
