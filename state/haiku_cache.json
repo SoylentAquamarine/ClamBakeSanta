@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "haikus": [
     {
-      "theme": "World UFO Day",
-      "haiku": "Stars twinkle above,\nColors swirl in night’s embrace,\nDreams from afar gleam.\nHappy #WorldUfoDay from @ClamBakeSanta",
-      "tag": "WorldUfoDay",
+      "theme": "National Eat Beans Day",
+      "haiku": "Beans simmer and pop,\nSpices whirl in warm embrace,\nTaste buds dance with glee.\nHappy #NationalEatBeansDay from @ClamBakeSanta",
+      "tag": "NationalEatBeansDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Anisette Day",
-      "haiku": "Anise dreams delight,\nWarm sips of spice embrace you,\nCheerful hearts unite.\nHappy #NationalAnisetteDay from @ClamBakeSanta",
-      "tag": "NationalAnisetteDay",
+      "theme": "Compliment Your Mirror Day",
+      "haiku": "Glimmering to you,\nReflections glow with warm light,\nEmbrace all your grace.\nHappy #ComplimentYourMirrorDay from @ClamBakeSanta",
+      "tag": "ComplimentYourMirrorDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Hermann Hesse",
-      "haiku": "Candles softly glow,\nWhispers of joy and dreams bloom,\nA toast to the stars.\n#HappyBirthdayHermannHesse from @ClamBakeSanta",
-      "tag": "HappyBirthdayHermannHesse",
+      "theme": "Birthday Franz Kafka",
+      "haiku": "Books bloom like flowers,\nPages rustle, tales unfold,\nInk spills magic dreams.\n#HappyBirthdayFranzKafka from @ClamBakeSanta",
+      "tag": "HappyBirthdayFranzKafka",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "World UFO Day",
-    "National Anisette Day",
-    "Birthday Hermann Hesse"
+    "National Eat Beans Day",
+    "Compliment Your Mirror Day",
+    "Birthday Franz Kafka"
   ],
-  "content": "Stars twinkle above,\nColors swirl in night’s embrace,\nDreams from afar gleam.\nHappy #WorldUfoDay from @ClamBakeSanta\n\nAnise dreams delight,\nWarm sips of spice embrace you,\nCheerful hearts unite.\nHappy #NationalAnisetteDay from @ClamBakeSanta\n\nCandles softly glow,\nWhispers of joy and dreams bloom,\nA toast to the stars.\n#HappyBirthdayHermannHesse from @ClamBakeSanta",
-  "saved_at": "2026-07-02T11:36:40.286351+00:00"
+  "content": "Beans simmer and pop,\nSpices whirl in warm embrace,\nTaste buds dance with glee.\nHappy #NationalEatBeansDay from @ClamBakeSanta\n\nGlimmering to you,\nReflections glow with warm light,\nEmbrace all your grace.\nHappy #ComplimentYourMirrorDay from @ClamBakeSanta\n\nBooks bloom like flowers,\nPages rustle, tales unfold,\nInk spills magic dreams.\n#HappyBirthdayFranzKafka from @ClamBakeSanta",
+  "saved_at": "2026-07-03T11:35:05.504123+00:00"
 }
