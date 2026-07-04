@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "haikus": [
     {
-      "theme": "National Eat Beans Day",
-      "haiku": "Beans simmer and pop,\nSpices whirl in warm embrace,\nTaste buds dance with glee.\nHappy #NationalEatBeansDay from @ClamBakeSanta",
-      "tag": "NationalEatBeansDay",
+      "theme": "Independence Day",
+      "haiku": "Skyward, colors bloom,\nChildren’s laughter fills the park,\nFireworks light the night.\nHappy #IndependenceDay from @ClamBakeSanta",
+      "tag": "IndependenceDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Compliment Your Mirror Day",
-      "haiku": "Glimmering to you,\nReflections glow with warm light,\nEmbrace all your grace.\nHappy #ComplimentYourMirrorDay from @ClamBakeSanta",
-      "tag": "ComplimentYourMirrorDay",
+      "theme": "National Barbecued Spareribs Day",
+      "haiku": "Smoky scents arise,\nTender ribs, glaze shining bright,\nGather 'round the grill.\nHappy #NationalBarbecuedSpareribsDay from @ClamBakeSanta",
+      "tag": "NationalBarbecuedSpareribsDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Franz Kafka",
-      "haiku": "Books bloom like flowers,\nPages rustle, tales unfold,\nInk spills magic dreams.\n#HappyBirthdayFranzKafka from @ClamBakeSanta",
-      "tag": "HappyBirthdayFranzKafka",
+      "theme": "Birthday Nathaniel Hawthorne",
+      "haiku": "Golden leaves flutter,\nA tale spun with warm delight,\nWords like autumn's glow.\n#HappyBirthdayNathanielHawthorne from @ClamBakeSanta",
+      "tag": "HappyBirthdayNathanielHawthorne",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Stephen Foster",
+      "haiku": "Candles glow like stars,\nMelodies in warm embrace,\nJoy wrapped in sweet song.\n#HappyBirthdayStephenFoster from @ClamBakeSanta",
+      "tag": "HappyBirthdayStephenFoster",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Eat Beans Day",
-    "Compliment Your Mirror Day",
-    "Birthday Franz Kafka"
+    "Independence Day",
+    "National Barbecued Spareribs Day",
+    "Birthday Nathaniel Hawthorne",
+    "Birthday Stephen Foster"
   ],
-  "content": "Beans simmer and pop,\nSpices whirl in warm embrace,\nTaste buds dance with glee.\nHappy #NationalEatBeansDay from @ClamBakeSanta\n\nGlimmering to you,\nReflections glow with warm light,\nEmbrace all your grace.\nHappy #ComplimentYourMirrorDay from @ClamBakeSanta\n\nBooks bloom like flowers,\nPages rustle, tales unfold,\nInk spills magic dreams.\n#HappyBirthdayFranzKafka from @ClamBakeSanta",
-  "saved_at": "2026-07-03T11:35:05.504123+00:00"
+  "content": "Skyward, colors bloom,\nChildren’s laughter fills the park,\nFireworks light the night.\nHappy #IndependenceDay from @ClamBakeSanta\n\nSmoky scents arise,\nTender ribs, glaze shining bright,\nGather 'round the grill.\nHappy #NationalBarbecuedSpareribsDay from @ClamBakeSanta\n\nGolden leaves flutter,\nA tale spun with warm delight,\nWords like autumn's glow.\n#HappyBirthdayNathanielHawthorne from @ClamBakeSanta\n\nCandles glow like stars,\nMelodies in warm embrace,\nJoy wrapped in sweet song.\n#HappyBirthdayStephenFoster from @ClamBakeSanta",
+  "saved_at": "2026-07-04T10:55:17.712864+00:00"
 }

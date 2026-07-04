@@ -80,7 +80,8 @@
     "2026-06-30",
     "2026-07-01",
     "2026-07-02",
-    "2026-07-03"
+    "2026-07-03",
+    "2026-07-04"
   ],
   "runs": [
     {
@@ -1000,6 +1001,18 @@
         "Birthday Franz Kafka"
       ],
       "content_preview": "Beans simmer and pop, Spices whirl in warm embrace, Taste buds dance with glee. Happy #NationalEatBeansDay from @ClamBak"
+    },
+    {
+      "date": "2026-07-04",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-04T11:07:31.153819+00:00",
+      "themes": [
+        "Independence Day",
+        "National Barbecued Spareribs Day",
+        "Birthday Nathaniel Hawthorne",
+        "Birthday Stephen Foster"
+      ],
+      "content_preview": "Skyward, colors bloom, Children’s laughter fills the park, Fireworks light the night. Happy #IndependenceDay from @ClamB"
     }
   ]
 }
