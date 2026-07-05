@@ -81,7 +81,8 @@
     "2026-07-01",
     "2026-07-02",
     "2026-07-03",
-    "2026-07-04"
+    "2026-07-04",
+    "2026-07-05"
   ],
   "runs": [
     {
@@ -1013,6 +1014,17 @@
         "Birthday Stephen Foster"
       ],
       "content_preview": "Skyward, colors bloom, Children’s laughter fills the park, Fireworks light the night. Happy #IndependenceDay from @ClamB"
+    },
+    {
+      "date": "2026-07-05",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-05T11:14:33.908405+00:00",
+      "themes": [
+        "National Apple Turnover Day",
+        "Workaholics Day",
+        "Birthday P.T. Barnum"
+      ],
+      "content_preview": "Golden crusty treats, Warm apples dance with spices, Sweet joy on each bite. Happy #NationalAppleTurnoverDay from @ClamB"
     }
   ]
 }

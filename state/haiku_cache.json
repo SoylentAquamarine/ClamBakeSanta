@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "haikus": [
     {
-      "theme": "Independence Day",
-      "haiku": "Skyward, colors bloom,\nChildren’s laughter fills the park,\nFireworks light the night.\nHappy #IndependenceDay from @ClamBakeSanta",
-      "tag": "IndependenceDay",
+      "theme": "National Apple Turnover Day",
+      "haiku": "Golden crusty treats,\nWarm apples dance with spices,\nSweet joy on each bite.\nHappy #NationalAppleTurnoverDay from @ClamBakeSanta",
+      "tag": "NationalAppleTurnoverDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Barbecued Spareribs Day",
-      "haiku": "Smoky scents arise,\nTender ribs, glaze shining bright,\nGather 'round the grill.\nHappy #NationalBarbecuedSpareribsDay from @ClamBakeSanta",
-      "tag": "NationalBarbecuedSpareribsDay",
+      "theme": "Workaholics Day",
+      "haiku": "Books stacked high like hills,\nWarm coffee brews, dreams take flight,\nRest on this sweet day.\nHappy #WorkaholicsDay from @ClamBakeSanta",
+      "tag": "WorkaholicsDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Nathaniel Hawthorne",
-      "haiku": "Golden leaves flutter,\nA tale spun with warm delight,\nWords like autumn's glow.\n#HappyBirthdayNathanielHawthorne from @ClamBakeSanta",
-      "tag": "HappyBirthdayNathanielHawthorne",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Stephen Foster",
-      "haiku": "Candles glow like stars,\nMelodies in warm embrace,\nJoy wrapped in sweet song.\n#HappyBirthdayStephenFoster from @ClamBakeSanta",
-      "tag": "HappyBirthdayStephenFoster",
+      "theme": "Birthday P.T. Barnum",
+      "haiku": "Candles dance and glow,\nJoyful songs and bright stories,\nMagic fills the night.\n#HappyBirthdayPTBarnum from @ClamBakeSanta",
+      "tag": "HappyBirthdayPTBarnum",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "Independence Day",
-    "National Barbecued Spareribs Day",
-    "Birthday Nathaniel Hawthorne",
-    "Birthday Stephen Foster"
+    "National Apple Turnover Day",
+    "Workaholics Day",
+    "Birthday P.T. Barnum"
   ],
-  "content": "Skyward, colors bloom,\nChildren’s laughter fills the park,\nFireworks light the night.\nHappy #IndependenceDay from @ClamBakeSanta\n\nSmoky scents arise,\nTender ribs, glaze shining bright,\nGather 'round the grill.\nHappy #NationalBarbecuedSpareribsDay from @ClamBakeSanta\n\nGolden leaves flutter,\nA tale spun with warm delight,\nWords like autumn's glow.\n#HappyBirthdayNathanielHawthorne from @ClamBakeSanta\n\nCandles glow like stars,\nMelodies in warm embrace,\nJoy wrapped in sweet song.\n#HappyBirthdayStephenFoster from @ClamBakeSanta",
-  "saved_at": "2026-07-04T10:55:17.712864+00:00"
+  "content": "Golden crusty treats,\nWarm apples dance with spices,\nSweet joy on each bite.\nHappy #NationalAppleTurnoverDay from @ClamBakeSanta\n\nBooks stacked high like hills,\nWarm coffee brews, dreams take flight,\nRest on this sweet day.\nHappy #WorkaholicsDay from @ClamBakeSanta\n\nCandles dance and glow,\nJoyful songs and bright stories,\nMagic fills the night.\n#HappyBirthdayPTBarnum from @ClamBakeSanta",
+  "saved_at": "2026-07-05T11:06:20.775337+00:00"
 }
