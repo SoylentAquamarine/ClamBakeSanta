@@ -82,7 +82,8 @@
     "2026-07-02",
     "2026-07-03",
     "2026-07-04",
-    "2026-07-05"
+    "2026-07-05",
+    "2026-07-06"
   ],
   "runs": [
     {
@@ -1025,6 +1026,18 @@
         "Birthday P.T. Barnum"
       ],
       "content_preview": "Golden crusty treats, Warm apples dance with spices, Sweet joy on each bite. Happy #NationalAppleTurnoverDay from @ClamB"
+    },
+    {
+      "date": "2026-07-06",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-06T13:03:35.915791+00:00",
+      "themes": [
+        "National Fried Chicken Day",
+        "National Kissing Day",
+        "Birthday Frida Kahlo",
+        "Birthday Sylvester Stallone"
+      ],
+      "content_preview": "Golden crusts shimmer, Savory scents fill the air, Together we feast. Happy #NationalFriedChickenDay from @ClamBakeSanta"
     }
   ]
 }

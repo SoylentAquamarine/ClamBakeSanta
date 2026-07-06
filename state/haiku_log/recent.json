@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-06-28",
-    "theme": "National Tapioca Day",
-    "haiku": "Pearls of joy delight,\nSweetness dances on the tongue,\nLaughter fills the air.\nHappy #NationalTapiocaDay from @ClamBakeSanta",
-    "tag": "NationalTapiocaDay",
-    "logged_at": "2026-06-28T11:10:09.104535+00:00"
-  },
-  {
-    "date": "2026-06-28",
-    "theme": "Paul Bunyan Day",
-    "haiku": "Tall pines sway with cheer,\nLumberjacks laugh, axes flash,\nBlue rivers flow bright.\nHappy #PaulBunyanDay from @ClamBakeSanta",
-    "tag": "PaulBunyanDay",
-    "logged_at": "2026-06-28T11:10:09.104535+00:00"
-  },
-  {
-    "date": "2026-06-28",
-    "theme": "Birthday Jean-Jacques Rousseau",
-    "haiku": "Sweet cake fills the air,\nLaughter dances like spring blooms,\nJoy wraps all around.\n#HappyBirthdayJeanJacquesRousseau from @ClamBakeSanta",
-    "tag": "HappyBirthdayJeanJacquesRousseau",
-    "logged_at": "2026-06-28T11:10:09.104535+00:00"
-  },
-  {
-    "date": "2026-06-28",
-    "theme": "Birthday Mel Brooks",
-    "haiku": "Laughter fills the air,\nCake and joy dance on each plate,\nCheers for Mel's bright spark!\n#HappyBirthdayMelBrooks from @ClamBakeSanta",
-    "tag": "HappyBirthdayMelBrooks",
-    "logged_at": "2026-06-28T11:10:09.104535+00:00"
-  },
-  {
     "date": "2026-06-29",
     "theme": "National Almond Buttercrunch Day",
     "haiku": "Crunchy joy unfolds,\nSweet and nutty bliss awaits,\nTaste that warms the heart.\nHappy #NationalAlmondButtercrunchDay from @ClamBakeSanta",
@@ -180,5 +152,26 @@
     "haiku": "Candles glow like stars,\nMelodies in warm embrace,\nJoy wrapped in sweet song.\n#HappyBirthdayStephenFoster from @ClamBakeSanta",
     "tag": "HappyBirthdayStephenFoster",
     "logged_at": "2026-07-04T10:55:17.713256+00:00"
+  },
+  {
+    "date": "2026-07-05",
+    "theme": "National Apple Turnover Day",
+    "haiku": "Golden crusty treats,\nWarm apples dance with spices,\nSweet joy on each bite.\nHappy #NationalAppleTurnoverDay from @ClamBakeSanta",
+    "tag": "NationalAppleTurnoverDay",
+    "logged_at": "2026-07-05T11:06:20.775762+00:00"
+  },
+  {
+    "date": "2026-07-05",
+    "theme": "Workaholics Day",
+    "haiku": "Books stacked high like hills,\nWarm coffee brews, dreams take flight,\nRest on this sweet day.\nHappy #WorkaholicsDay from @ClamBakeSanta",
+    "tag": "WorkaholicsDay",
+    "logged_at": "2026-07-05T11:06:20.775762+00:00"
+  },
+  {
+    "date": "2026-07-05",
+    "theme": "Birthday P.T. Barnum",
+    "haiku": "Candles dance and glow,\nJoyful songs and bright stories,\nMagic fills the night.\n#HappyBirthdayPTBarnum from @ClamBakeSanta",
+    "tag": "HappyBirthdayPTBarnum",
+    "logged_at": "2026-07-05T11:06:20.775762+00:00"
   }
 ]
