@@ -1,0 +1,130 @@
+{
+  "WorldChocolateDay": {
+    "theme": "World Chocolate Day",
+    "haiku": "Sweet cocoa whispers,\nVelvet rivers of delight,\nJoy wrapped in each bite.\nHappy #WorldChocolateDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116878554712880975",
+        "url": "https://mastodon.social/@ClamBakeSanta/116878554712880975",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mq2kem24b42u",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "821481256467480576",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-07T22:53:14.162863+00:00"
+  },
+  "NationalMacaroniDay": {
+    "theme": "National Macaroni Day",
+    "haiku": "Cheesy rivers flow,\nTwirl of pasta on forks bright,\nWarm hugs on the plate.\nHappy #NationalMacaroniDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116878558673796486",
+        "url": "https://mastodon.social/@ClamBakeSanta/116878558673796486",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mq2kgfjt2t2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "821481319850704896",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-07T22:53:14.162863+00:00"
+  },
+  "HappyBirthdayMarcChagall": {
+    "theme": "Birthday Marc Chagall",
+    "haiku": "Colors dance on walls,\nJoyful whispers fill the space,\nArt sings through the years.\n#HappyBirthdayMarcChagall from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116878562637366529",
+        "url": "https://mastodon.social/@ClamBakeSanta/116878562637366529",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mq2ki6z24x2x",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      },
+      "tumblr": {
+        "id": "821481383116636160",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-07-07T22:53:14.162863+00:00"
+  },
+  "LastQuarterMoon": {
+    "theme": "Last Quarter Moon",
+    "haiku": "Soft silver whispers,\nMoonlight dances on still lakes,\nNight wraps dreams in peace.\nHappy #LastQuarterMoon from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116878566598003541",
+        "url": "https://mastodon.social/@ClamBakeSanta/116878566598003541",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mq2kjyjau32r",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "821481446378242048",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-07T22:53:14.162863+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "100",
+        "url": "https://clambakesanta.wordpress.com/2026/07/07/clam-bake-santa-2026-07-07/",
+        "views": 3,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-07-07T22:53:14.162863+00:00"
+  }
+}
