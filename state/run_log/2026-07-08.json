@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-06-07T11:19:08.466181+00:00",
-    "date": "2026-06-07",
+    "timestamp": "2026-07-08T11:16:03.732908+00:00",
+    "date": "2026-07-08",
     "themes_found": [
-      "National Chocolate Ice Cream Day",
-      "National Bowtie Day",
-      "Birthday Paul Gauguin"
+      "National Milk Chocolate with Almonds Day",
+      "Video Games Day",
+      "Birthday Percy Bysshe Shelley"
     ],
     "haikus_posted": [
       {
-        "theme": "National Chocolate Ice Cream Day",
-        "tag": "NationalChocolateIceCreamDay",
+        "theme": "National Milk Chocolate with Almonds Day",
+        "tag": "NationalMilkChocolateWithAlmondsDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Bowtie Day",
-        "tag": "NationalBowtieDay",
+        "theme": "Video Games Day",
+        "tag": "VideoGamesDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Paul Gauguin",
-        "tag": "HappyBirthdayPaulGauguin",
+        "theme": "Birthday Percy Bysshe Shelley",
+        "tag": "HappyBirthdayPercyByssheShelley",
         "valid_syllables": true,
         "counts": [
           5,

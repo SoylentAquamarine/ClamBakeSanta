@@ -84,7 +84,8 @@
     "2026-07-04",
     "2026-07-05",
     "2026-07-06",
-    "2026-07-07"
+    "2026-07-07",
+    "2026-07-08"
   ],
   "runs": [
     {
@@ -1051,6 +1052,17 @@
         "Last Quarter Moon"
       ],
       "content_preview": "Sweet cocoa whispers, Velvet rivers of delight, Joy wrapped in each bite. Happy #WorldChocolateDay from @ClamBakeSanta  "
+    },
+    {
+      "date": "2026-07-08",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-08T11:16:03.732062+00:00",
+      "themes": [
+        "National Milk Chocolate with Almonds Day",
+        "Video Games Day",
+        "Birthday Percy Bysshe Shelley"
+      ],
+      "content_preview": "Rich chocolate melts slow, Crunchy almonds entwined sweet, Joyful bites await. Happy #NationalMilkChocolateWithAlmondsDa"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "haikus": [
     {
-      "theme": "World Chocolate Day",
-      "haiku": "Sweet cocoa whispers,\nVelvet rivers of delight,\nJoy wrapped in each bite.\nHappy #WorldChocolateDay from @ClamBakeSanta",
-      "tag": "WorldChocolateDay",
+      "theme": "National Milk Chocolate with Almonds Day",
+      "haiku": "Rich chocolate melts slow,\nCrunchy almonds entwined sweet,\nJoyful bites await.\nHappy #NationalMilkChocolateWithAlmondsDay from @ClamBakeSanta",
+      "tag": "NationalMilkChocolateWithAlmondsDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Macaroni Day",
-      "haiku": "Cheesy rivers flow,\nTwirl of pasta on forks bright,\nWarm hugs on the plate.\nHappy #NationalMacaroniDay from @ClamBakeSanta",
-      "tag": "NationalMacaroniDay",
+      "theme": "Video Games Day",
+      "haiku": "Joyful pixels dance,\nJoyful worlds beyond the screen,\nAdventure awaits.\nHappy #VideoGamesDay from @ClamBakeSanta",
+      "tag": "VideoGamesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Marc Chagall",
-      "haiku": "Colors dance on walls,\nJoyful whispers fill the space,\nArt sings through the years.\n#HappyBirthdayMarcChagall from @ClamBakeSanta",
-      "tag": "HappyBirthdayMarcChagall",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Last Quarter Moon",
-      "haiku": "Soft silver whispers,\nMoonlight dances on still lakes,\nNight wraps dreams in peace.\nHappy #LastQuarterMoon from @ClamBakeSanta",
-      "tag": "LastQuarterMoon",
+      "theme": "Birthday Percy Bysshe Shelley",
+      "haiku": "Joyful waves of light,\nWhispers of the soft, cool breeze,\nWords dance in the night.\n#HappyBirthdayPercyByssheShelley from @ClamBakeSanta",
+      "tag": "HappyBirthdayPercyByssheShelley",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "World Chocolate Day",
-    "National Macaroni Day",
-    "Birthday Marc Chagall",
-    "Last Quarter Moon"
+    "National Milk Chocolate with Almonds Day",
+    "Video Games Day",
+    "Birthday Percy Bysshe Shelley"
   ],
-  "content": "Sweet cocoa whispers,\nVelvet rivers of delight,\nJoy wrapped in each bite.\nHappy #WorldChocolateDay from @ClamBakeSanta\n\nCheesy rivers flow,\nTwirl of pasta on forks bright,\nWarm hugs on the plate.\nHappy #NationalMacaroniDay from @ClamBakeSanta\n\nColors dance on walls,\nJoyful whispers fill the space,\nArt sings through the years.\n#HappyBirthdayMarcChagall from @ClamBakeSanta\n\nSoft silver whispers,\nMoonlight dances on still lakes,\nNight wraps dreams in peace.\nHappy #LastQuarterMoon from @ClamBakeSanta",
-  "saved_at": "2026-07-07T11:53:31.721002+00:00"
+  "content": "Rich chocolate melts slow,\nCrunchy almonds entwined sweet,\nJoyful bites await.\nHappy #NationalMilkChocolateWithAlmondsDay from @ClamBakeSanta\n\nJoyful pixels dance,\nJoyful worlds beyond the screen,\nAdventure awaits.\nHappy #VideoGamesDay from @ClamBakeSanta\n\nJoyful waves of light,\nWhispers of the soft, cool breeze,\nWords dance in the night.\n#HappyBirthdayPercyByssheShelley from @ClamBakeSanta",
+  "saved_at": "2026-07-08T11:07:50.080132+00:00"
 }
