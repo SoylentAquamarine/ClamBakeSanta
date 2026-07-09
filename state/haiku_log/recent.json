@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-01",
-    "theme": "National Creative Ice Cream Flavors Day",
-    "haiku": "Scoops of colors bright,\nLemon zests and berry sweet,\nDreams melt in each bite.\nHappy #NationalCreativeIceCreamFlavorsDay from @ClamBakeSanta",
-    "tag": "NationalCreativeIceCreamFlavorsDay",
-    "logged_at": "2026-07-01T12:10:39.442026+00:00"
-  },
-  {
-    "date": "2026-07-01",
-    "theme": "International Joke Day",
-    "haiku": "Laughter fills the air,\nTickles dance like summer breeze,\nSmiles bloom bright and wide.\nHappy #InternationalJokeDay from @ClamBakeSanta",
-    "tag": "InternationalJokeDay",
-    "logged_at": "2026-07-01T12:10:39.442026+00:00"
-  },
-  {
-    "date": "2026-07-01",
-    "theme": "Birthday George Sand",
-    "haiku": "Golden sunbeams shine,\nLaughter fills the soft sweet air,\nCake and dreams align.\n#HappyBirthdayGeorgeSand from @ClamBakeSanta",
-    "tag": "HappyBirthdayGeorgeSand",
-    "logged_at": "2026-07-01T12:10:39.442026+00:00"
-  },
-  {
-    "date": "2026-07-01",
-    "theme": "Birthday Olivia de Havilland",
-    "haiku": "Golden film lights glow,\nStars twinkle in velvet night,\nSweet dreams take their flight.\n#HappyBirthdayOliviadeHavilland from @ClamBakeSanta",
-    "tag": "HappyBirthdayOliviadeHavilland",
-    "logged_at": "2026-07-01T12:10:39.442026+00:00"
-  },
-  {
     "date": "2026-07-02",
     "theme": "World UFO Day",
     "haiku": "Stars twinkle above,\nColors swirl in night’s embrace,\nDreams from afar gleam.\nHappy #WorldUfoDay from @ClamBakeSanta",
@@ -173,5 +145,26 @@
     "haiku": "Soft silver whispers,\nMoonlight dances on still lakes,\nNight wraps dreams in peace.\nHappy #LastQuarterMoon from @ClamBakeSanta",
     "tag": "LastQuarterMoon",
     "logged_at": "2026-07-07T11:53:31.721546+00:00"
+  },
+  {
+    "date": "2026-07-08",
+    "theme": "National Milk Chocolate with Almonds Day",
+    "haiku": "Rich chocolate melts slow,\nCrunchy almonds entwined sweet,\nJoyful bites await.\nHappy #NationalMilkChocolateWithAlmondsDay from @ClamBakeSanta",
+    "tag": "NationalMilkChocolateWithAlmondsDay",
+    "logged_at": "2026-07-08T11:07:50.080585+00:00"
+  },
+  {
+    "date": "2026-07-08",
+    "theme": "Video Games Day",
+    "haiku": "Joyful pixels dance,\nJoyful worlds beyond the screen,\nAdventure awaits.\nHappy #VideoGamesDay from @ClamBakeSanta",
+    "tag": "VideoGamesDay",
+    "logged_at": "2026-07-08T11:07:50.080585+00:00"
+  },
+  {
+    "date": "2026-07-08",
+    "theme": "Birthday Percy Bysshe Shelley",
+    "haiku": "Joyful waves of light,\nWhispers of the soft, cool breeze,\nWords dance in the night.\n#HappyBirthdayPercyByssheShelley from @ClamBakeSanta",
+    "tag": "HappyBirthdayPercyByssheShelley",
+    "logged_at": "2026-07-08T11:07:50.080585+00:00"
   }
 ]

@@ -1,17 +1,16 @@
 [
   {
-    "timestamp": "2026-06-08T13:21:52.492205+00:00",
-    "date": "2026-06-08",
+    "timestamp": "2026-07-09T12:15:50.790941+00:00",
+    "date": "2026-07-09",
     "themes_found": [
-      "World Oceans Day",
-      "National Best Friends Day",
-      "Birthday Frank Lloyd Wright",
-      "Last Quarter Moon"
+      "National Sugar Cookie Day",
+      "National No Bra Day",
+      "Birthday Nikola Tesla"
     ],
     "haikus_posted": [
       {
-        "theme": "World Oceans Day",
-        "tag": "WorldOceansDay",
+        "theme": "National Sugar Cookie Day",
+        "tag": "NationalSugarCookieDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Best Friends Day",
-        "tag": "NationalBestFriendsDay",
+        "theme": "National No Bra Day",
+        "tag": "NationalNoBraDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,18 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Frank Lloyd Wright",
-        "tag": "HappyBirthdayFrankLloydWright",
-        "valid_syllables": true,
-        "counts": [
-          5,
-          7,
-          5
-        ]
-      },
-      {
-        "theme": "Last Quarter Moon",
-        "tag": "LastQuarterMoon",
+        "theme": "Birthday Nikola Tesla",
+        "tag": "HappyBirthdayNikolaTesla",
         "valid_syllables": true,
         "counts": [
           5,

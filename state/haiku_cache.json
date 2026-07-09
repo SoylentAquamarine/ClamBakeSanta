@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "haikus": [
     {
-      "theme": "National Milk Chocolate with Almonds Day",
-      "haiku": "Rich chocolate melts slow,\nCrunchy almonds entwined sweet,\nJoyful bites await.\nHappy #NationalMilkChocolateWithAlmondsDay from @ClamBakeSanta",
-      "tag": "NationalMilkChocolateWithAlmondsDay",
+      "theme": "National Sugar Cookie Day",
+      "haiku": "Sweet dough rolls and hugs,\nFrosting swirls in colors bright,\nJoyful bites of bliss.\nHappy #NationalSugarCookieDay from @ClamBakeSanta",
+      "tag": "NationalSugarCookieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Video Games Day",
-      "haiku": "Joyful pixels dance,\nJoyful worlds beyond the screen,\nAdventure awaits.\nHappy #VideoGamesDay from @ClamBakeSanta",
-      "tag": "VideoGamesDay",
+      "theme": "National No Bra Day",
+      "haiku": "Sunshine on bare skin,\nGentle breeze through the warm air,\nFreedom feels like joy.\nHappy #NationalNoBraDay from @ClamBakeSanta",
+      "tag": "NationalNoBraDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Percy Bysshe Shelley",
-      "haiku": "Joyful waves of light,\nWhispers of the soft, cool breeze,\nWords dance in the night.\n#HappyBirthdayPercyByssheShelley from @ClamBakeSanta",
-      "tag": "HappyBirthdayPercyByssheShelley",
+      "theme": "Birthday Nikola Tesla",
+      "haiku": "Electric sparks fly,\nWhispers of a bright future,\nGenius lights the way.\n#HappyBirthdayNikolaTesla from @ClamBakeSanta",
+      "tag": "HappyBirthdayNikolaTesla",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Milk Chocolate with Almonds Day",
-    "Video Games Day",
-    "Birthday Percy Bysshe Shelley"
+    "National Sugar Cookie Day",
+    "National No Bra Day",
+    "Birthday Nikola Tesla"
   ],
-  "content": "Rich chocolate melts slow,\nCrunchy almonds entwined sweet,\nJoyful bites await.\nHappy #NationalMilkChocolateWithAlmondsDay from @ClamBakeSanta\n\nJoyful pixels dance,\nJoyful worlds beyond the screen,\nAdventure awaits.\nHappy #VideoGamesDay from @ClamBakeSanta\n\nJoyful waves of light,\nWhispers of the soft, cool breeze,\nWords dance in the night.\n#HappyBirthdayPercyByssheShelley from @ClamBakeSanta",
-  "saved_at": "2026-07-08T11:07:50.080132+00:00"
+  "content": "Sweet dough rolls and hugs,\nFrosting swirls in colors bright,\nJoyful bites of bliss.\nHappy #NationalSugarCookieDay from @ClamBakeSanta\n\nSunshine on bare skin,\nGentle breeze through the warm air,\nFreedom feels like joy.\nHappy #NationalNoBraDay from @ClamBakeSanta\n\nElectric sparks fly,\nWhispers of a bright future,\nGenius lights the way.\n#HappyBirthdayNikolaTesla from @ClamBakeSanta",
+  "saved_at": "2026-07-09T12:07:37.183379+00:00"
 }
