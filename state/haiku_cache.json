@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "haikus": [
     {
-      "theme": "National Sugar Cookie Day",
-      "haiku": "Sweet dough rolls and hugs,\nFrosting swirls in colors bright,\nJoyful bites of bliss.\nHappy #NationalSugarCookieDay from @ClamBakeSanta",
-      "tag": "NationalSugarCookieDay",
+      "theme": "National Pina Colada Day",
+      "haiku": "Coconut whispers,\nTropical sun warms the sand,\nCheers rise with sweet sips.\nHappy #NationalPinaColadaDay from @ClamBakeSanta",
+      "tag": "NationalPinaColadaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National No Bra Day",
-      "haiku": "Sunshine on bare skin,\nGentle breeze through the warm air,\nFreedom feels like joy.\nHappy #NationalNoBraDay from @ClamBakeSanta",
-      "tag": "NationalNoBraDay",
+      "theme": "International Kitten Day",
+      "haiku": "Soft paws on warm laps,\nPurring whispers fill the air,\nJoyful leaps abound.\nHappy #InternationalKittenDay from @ClamBakeSanta",
+      "tag": "InternationalKittenDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Nikola Tesla",
-      "haiku": "Electric sparks fly,\nWhispers of a bright future,\nGenius lights the way.\n#HappyBirthdayNikolaTesla from @ClamBakeSanta",
-      "tag": "HappyBirthdayNikolaTesla",
+      "theme": "Birthday Camille Pissarro",
+      "haiku": "Brush strokes paint the dawn,\nWarm hues of joy and laughter,\nNature's art unveiled.\n#HappyBirthdayCamillePissarro from @ClamBakeSanta",
+      "tag": "HappyBirthdayCamillePissarro",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Sugar Cookie Day",
-    "National No Bra Day",
-    "Birthday Nikola Tesla"
+    "National Pina Colada Day",
+    "International Kitten Day",
+    "Birthday Camille Pissarro"
   ],
-  "content": "Sweet dough rolls and hugs,\nFrosting swirls in colors bright,\nJoyful bites of bliss.\nHappy #NationalSugarCookieDay from @ClamBakeSanta\n\nSunshine on bare skin,\nGentle breeze through the warm air,\nFreedom feels like joy.\nHappy #NationalNoBraDay from @ClamBakeSanta\n\nElectric sparks fly,\nWhispers of a bright future,\nGenius lights the way.\n#HappyBirthdayNikolaTesla from @ClamBakeSanta",
-  "saved_at": "2026-07-09T12:07:37.183379+00:00"
+  "content": "Coconut whispers,\nTropical sun warms the sand,\nCheers rise with sweet sips.\nHappy #NationalPinaColadaDay from @ClamBakeSanta\n\nSoft paws on warm laps,\nPurring whispers fill the air,\nJoyful leaps abound.\nHappy #InternationalKittenDay from @ClamBakeSanta\n\nBrush strokes paint the dawn,\nWarm hues of joy and laughter,\nNature's art unveiled.\n#HappyBirthdayCamillePissarro from @ClamBakeSanta",
+  "saved_at": "2026-07-10T11:54:31.696002+00:00"
 }
