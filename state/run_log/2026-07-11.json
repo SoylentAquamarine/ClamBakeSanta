@@ -1,17 +1,16 @@
 [
   {
-    "timestamp": "2026-06-10T12:36:02.544960+00:00",
-    "date": "2026-06-10",
+    "timestamp": "2026-07-11T10:25:29.122114+00:00",
+    "date": "2026-07-11",
     "themes_found": [
-      "National Iced Tea Day",
-      "Ballpoint Pen Day",
-      "Birthday Judy Garland",
-      "Birthday Maurice Sendak"
+      "National Blueberry Muffin Day",
+      "Cheer Up the Lonely Day",
+      "Birthday John Quincy Adams"
     ],
     "haikus_posted": [
       {
-        "theme": "National Iced Tea Day",
-        "tag": "NationalIcedTeaDay",
+        "theme": "National Blueberry Muffin Day",
+        "tag": "NationalBlueberryMuffinDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +19,8 @@
         ]
       },
       {
-        "theme": "Ballpoint Pen Day",
-        "tag": "BallpointPenDay",
+        "theme": "Cheer Up the Lonely Day",
+        "tag": "CheerUpTheLonelyDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,18 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Judy Garland",
-        "tag": "HappyBirthdayJudyGarland",
-        "valid_syllables": true,
-        "counts": [
-          5,
-          7,
-          5
-        ]
-      },
-      {
-        "theme": "Birthday Maurice Sendak",
-        "tag": "HappyBirthdayMauriceSendak",
+        "theme": "Birthday John Quincy Adams",
+        "tag": "HappyBirthdayJohnQuincyAdams",
         "valid_syllables": true,
         "counts": [
           5,

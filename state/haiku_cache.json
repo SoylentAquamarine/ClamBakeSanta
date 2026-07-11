@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "haikus": [
     {
-      "theme": "National Pina Colada Day",
-      "haiku": "Coconut whispers,\nTropical sun warms the sand,\nCheers rise with sweet sips.\nHappy #NationalPinaColadaDay from @ClamBakeSanta",
-      "tag": "NationalPinaColadaDay",
+      "theme": "National Blueberry Muffin Day",
+      "haiku": "Blue berries glisten,\nSoft muffins fresh from the pan,\nWarm smiles fill the air.\nHappy #NationalBlueberryMuffinDay from @ClamBakeSanta",
+      "tag": "NationalBlueberryMuffinDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Kitten Day",
-      "haiku": "Soft paws on warm laps,\nPurring whispers fill the air,\nJoyful leaps abound.\nHappy #InternationalKittenDay from @ClamBakeSanta",
-      "tag": "InternationalKittenDay",
+      "theme": "Cheer Up the Lonely Day",
+      "haiku": "Joyful laughter rings,\nWarm hugs wrap like soft blankets,\nHopeful hearts unite.\nHappy #CheerUpTheLonelyDay from @ClamBakeSanta",
+      "tag": "CheerUpTheLonelyDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Camille Pissarro",
-      "haiku": "Brush strokes paint the dawn,\nWarm hues of joy and laughter,\nNature's art unveiled.\n#HappyBirthdayCamillePissarro from @ClamBakeSanta",
-      "tag": "HappyBirthdayCamillePissarro",
+      "theme": "Birthday John Quincy Adams",
+      "haiku": "Laughter fills the air,\nBright balloons in joyful arcs,\nCheers for you today!\n#HappyBirthdayJohnQuincyAdams from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnQuincyAdams",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Pina Colada Day",
-    "International Kitten Day",
-    "Birthday Camille Pissarro"
+    "National Blueberry Muffin Day",
+    "Cheer Up the Lonely Day",
+    "Birthday John Quincy Adams"
   ],
-  "content": "Coconut whispers,\nTropical sun warms the sand,\nCheers rise with sweet sips.\nHappy #NationalPinaColadaDay from @ClamBakeSanta\n\nSoft paws on warm laps,\nPurring whispers fill the air,\nJoyful leaps abound.\nHappy #InternationalKittenDay from @ClamBakeSanta\n\nBrush strokes paint the dawn,\nWarm hues of joy and laughter,\nNature's art unveiled.\n#HappyBirthdayCamillePissarro from @ClamBakeSanta",
-  "saved_at": "2026-07-10T11:54:31.696002+00:00"
+  "content": "Blue berries glisten,\nSoft muffins fresh from the pan,\nWarm smiles fill the air.\nHappy #NationalBlueberryMuffinDay from @ClamBakeSanta\n\nJoyful laughter rings,\nWarm hugs wrap like soft blankets,\nHopeful hearts unite.\nHappy #CheerUpTheLonelyDay from @ClamBakeSanta\n\nLaughter fills the air,\nBright balloons in joyful arcs,\nCheers for you today!\n#HappyBirthdayJohnQuincyAdams from @ClamBakeSanta",
+  "saved_at": "2026-07-11T10:17:17.763868+00:00"
 }
