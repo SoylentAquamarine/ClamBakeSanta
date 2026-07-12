@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "haikus": [
     {
-      "theme": "National Blueberry Muffin Day",
-      "haiku": "Blue berries glisten,\nSoft muffins fresh from the pan,\nWarm smiles fill the air.\nHappy #NationalBlueberryMuffinDay from @ClamBakeSanta",
-      "tag": "NationalBlueberryMuffinDay",
+      "theme": "Pecan Pie Day",
+      "haiku": "Nuts and spices blend,\nWarm aromas fill the air,\nSlice of joy served right.\nHappy #PecanPieDay from @ClamBakeSanta",
+      "tag": "PecanPieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Cheer Up the Lonely Day",
-      "haiku": "Joyful laughter rings,\nWarm hugs wrap like soft blankets,\nHopeful hearts unite.\nHappy #CheerUpTheLonelyDay from @ClamBakeSanta",
-      "tag": "CheerUpTheLonelyDay",
+      "theme": "Birthday Henry David Thoreau",
+      "haiku": "Leaves flutter gently,\nAs sunlight warms the soft earth,\nNature’s gift abounds.\n#HappyBirthdayHenryDavidThoreau from @ClamBakeSanta",
+      "tag": "HappyBirthdayHenryDavidThoreau",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday John Quincy Adams",
-      "haiku": "Laughter fills the air,\nBright balloons in joyful arcs,\nCheers for you today!\n#HappyBirthdayJohnQuincyAdams from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnQuincyAdams",
+      "theme": "Birthday Pablo Neruda",
+      "haiku": "Bright blooms paint the sky,\nLaughter wraps like a warm hug,\nJoy’s feast fills the air.\n#HappyBirthdayPabloNeruda from @ClamBakeSanta",
+      "tag": "HappyBirthdayPabloNeruda",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,11 @@
     }
   ],
   "themes": [
-    "National Blueberry Muffin Day",
-    "Cheer Up the Lonely Day",
-    "Birthday John Quincy Adams"
+    "National Different Colored Eyes Day",
+    "Pecan Pie Day",
+    "Birthday Henry David Thoreau",
+    "Birthday Pablo Neruda"
   ],
-  "content": "Blue berries glisten,\nSoft muffins fresh from the pan,\nWarm smiles fill the air.\nHappy #NationalBlueberryMuffinDay from @ClamBakeSanta\n\nJoyful laughter rings,\nWarm hugs wrap like soft blankets,\nHopeful hearts unite.\nHappy #CheerUpTheLonelyDay from @ClamBakeSanta\n\nLaughter fills the air,\nBright balloons in joyful arcs,\nCheers for you today!\n#HappyBirthdayJohnQuincyAdams from @ClamBakeSanta",
-  "saved_at": "2026-07-11T10:17:17.763868+00:00"
+  "content": "Nuts and spices blend,\nWarm aromas fill the air,\nSlice of joy served right.\nHappy #PecanPieDay from @ClamBakeSanta\n\nLeaves flutter gently,\nAs sunlight warms the soft earth,\nNature’s gift abounds.\n#HappyBirthdayHenryDavidThoreau from @ClamBakeSanta\n\nBright blooms paint the sky,\nLaughter wraps like a warm hug,\nJoy’s feast fills the air.\n#HappyBirthdayPabloNeruda from @ClamBakeSanta",
+  "saved_at": "2026-07-12T10:36:11.151438+00:00"
 }

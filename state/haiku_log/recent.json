@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-04",
-    "theme": "Independence Day",
-    "haiku": "Skyward, colors bloom,\nChildren’s laughter fills the park,\nFireworks light the night.\nHappy #IndependenceDay from @ClamBakeSanta",
-    "tag": "IndependenceDay",
-    "logged_at": "2026-07-04T10:55:17.713256+00:00"
-  },
-  {
-    "date": "2026-07-04",
-    "theme": "National Barbecued Spareribs Day",
-    "haiku": "Smoky scents arise,\nTender ribs, glaze shining bright,\nGather 'round the grill.\nHappy #NationalBarbecuedSpareribsDay from @ClamBakeSanta",
-    "tag": "NationalBarbecuedSpareribsDay",
-    "logged_at": "2026-07-04T10:55:17.713256+00:00"
-  },
-  {
-    "date": "2026-07-04",
-    "theme": "Birthday Nathaniel Hawthorne",
-    "haiku": "Golden leaves flutter,\nA tale spun with warm delight,\nWords like autumn's glow.\n#HappyBirthdayNathanielHawthorne from @ClamBakeSanta",
-    "tag": "HappyBirthdayNathanielHawthorne",
-    "logged_at": "2026-07-04T10:55:17.713256+00:00"
-  },
-  {
-    "date": "2026-07-04",
-    "theme": "Birthday Stephen Foster",
-    "haiku": "Candles glow like stars,\nMelodies in warm embrace,\nJoy wrapped in sweet song.\n#HappyBirthdayStephenFoster from @ClamBakeSanta",
-    "tag": "HappyBirthdayStephenFoster",
-    "logged_at": "2026-07-04T10:55:17.713256+00:00"
-  },
-  {
     "date": "2026-07-05",
     "theme": "National Apple Turnover Day",
     "haiku": "Golden crusty treats,\nWarm apples dance with spices,\nSweet joy on each bite.\nHappy #NationalAppleTurnoverDay from @ClamBakeSanta",
@@ -166,5 +138,26 @@
     "haiku": "Brush strokes paint the dawn,\nWarm hues of joy and laughter,\nNature's art unveiled.\n#HappyBirthdayCamillePissarro from @ClamBakeSanta",
     "tag": "HappyBirthdayCamillePissarro",
     "logged_at": "2026-07-10T11:54:31.696417+00:00"
+  },
+  {
+    "date": "2026-07-11",
+    "theme": "National Blueberry Muffin Day",
+    "haiku": "Blue berries glisten,\nSoft muffins fresh from the pan,\nWarm smiles fill the air.\nHappy #NationalBlueberryMuffinDay from @ClamBakeSanta",
+    "tag": "NationalBlueberryMuffinDay",
+    "logged_at": "2026-07-11T10:17:17.764244+00:00"
+  },
+  {
+    "date": "2026-07-11",
+    "theme": "Cheer Up the Lonely Day",
+    "haiku": "Joyful laughter rings,\nWarm hugs wrap like soft blankets,\nHopeful hearts unite.\nHappy #CheerUpTheLonelyDay from @ClamBakeSanta",
+    "tag": "CheerUpTheLonelyDay",
+    "logged_at": "2026-07-11T10:17:17.764244+00:00"
+  },
+  {
+    "date": "2026-07-11",
+    "theme": "Birthday John Quincy Adams",
+    "haiku": "Laughter fills the air,\nBright balloons in joyful arcs,\nCheers for you today!\n#HappyBirthdayJohnQuincyAdams from @ClamBakeSanta",
+    "tag": "HappyBirthdayJohnQuincyAdams",
+    "logged_at": "2026-07-11T10:17:17.764244+00:00"
   }
 ]

@@ -88,7 +88,8 @@
     "2026-07-08",
     "2026-07-09",
     "2026-07-10",
-    "2026-07-11"
+    "2026-07-11",
+    "2026-07-12"
   ],
   "runs": [
     {
@@ -1099,6 +1100,18 @@
         "Birthday John Quincy Adams"
       ],
       "content_preview": "Blue berries glisten, Soft muffins fresh from the pan, Warm smiles fill the air. Happy #NationalBlueberryMuffinDay from "
+    },
+    {
+      "date": "2026-07-12",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-12T10:44:24.434542+00:00",
+      "themes": [
+        "National Different Colored Eyes Day",
+        "Pecan Pie Day",
+        "Birthday Henry David Thoreau",
+        "Birthday Pablo Neruda"
+      ],
+      "content_preview": "Nuts and spices blend, Warm aromas fill the air, Slice of joy served right. Happy #PecanPieDay from @ClamBakeSanta  Leav"
     }
   ]
 }
