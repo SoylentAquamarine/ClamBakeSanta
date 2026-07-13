@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "haikus": [
     {
-      "theme": "Pecan Pie Day",
-      "haiku": "Nuts and spices blend,\nWarm aromas fill the air,\nSlice of joy served right.\nHappy #PecanPieDay from @ClamBakeSanta",
-      "tag": "PecanPieDay",
+      "theme": "National French Fries Day",
+      "haiku": "Crispy bites delight,\nDipping sauces swirl and twirl,\nLaughter fills the air.\nHappy #NationalFrenchFriesDay from @ClamBakeSanta",
+      "tag": "NationalFrenchFriesDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Henry David Thoreau",
-      "haiku": "Leaves flutter gently,\nAs sunlight warms the soft earth,\nNature’s gift abounds.\n#HappyBirthdayHenryDavidThoreau from @ClamBakeSanta",
-      "tag": "HappyBirthdayHenryDavidThoreau",
+      "theme": "Embrace Your Geekness Day",
+      "haiku": "Bright screens softly glow,\nLaughter fills the cozy room,\nDreams take flight and soar.\nHappy #EmbraceYourGeeknessDay from @ClamBakeSanta",
+      "tag": "EmbraceYourGeeknessDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Pablo Neruda",
-      "haiku": "Bright blooms paint the sky,\nLaughter wraps like a warm hug,\nJoy’s feast fills the air.\n#HappyBirthdayPabloNeruda from @ClamBakeSanta",
-      "tag": "HappyBirthdayPabloNeruda",
+      "theme": "Birthday Wole Soyinka",
+      "haiku": "Bright candles flicker,\nLaughter swirls like warm breezes,\nStories bloom like spring.\n#HappyBirthdayWoleSoyinka from @ClamBakeSanta",
+      "tag": "HappyBirthdayWoleSoyinka",
       "syllable_counts": [
         5,
         7,
@@ -36,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Different Colored Eyes Day",
-    "Pecan Pie Day",
-    "Birthday Henry David Thoreau",
-    "Birthday Pablo Neruda"
+    "National French Fries Day",
+    "Embrace Your Geekness Day",
+    "Birthday Wole Soyinka"
   ],
-  "content": "Nuts and spices blend,\nWarm aromas fill the air,\nSlice of joy served right.\nHappy #PecanPieDay from @ClamBakeSanta\n\nLeaves flutter gently,\nAs sunlight warms the soft earth,\nNature’s gift abounds.\n#HappyBirthdayHenryDavidThoreau from @ClamBakeSanta\n\nBright blooms paint the sky,\nLaughter wraps like a warm hug,\nJoy’s feast fills the air.\n#HappyBirthdayPabloNeruda from @ClamBakeSanta",
-  "saved_at": "2026-07-12T10:36:11.151438+00:00"
+  "content": "Crispy bites delight,\nDipping sauces swirl and twirl,\nLaughter fills the air.\nHappy #NationalFrenchFriesDay from @ClamBakeSanta\n\nBright screens softly glow,\nLaughter fills the cozy room,\nDreams take flight and soar.\nHappy #EmbraceYourGeeknessDay from @ClamBakeSanta\n\nBright candles flicker,\nLaughter swirls like warm breezes,\nStories bloom like spring.\n#HappyBirthdayWoleSoyinka from @ClamBakeSanta",
+  "saved_at": "2026-07-13T12:08:31.812132+00:00"
 }

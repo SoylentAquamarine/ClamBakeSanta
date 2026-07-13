@@ -1,0 +1,62 @@
+{
+  "NationalFrenchFriesDay": {
+    "mastodon": {
+      "id": "116912587557246641",
+      "url": "https://mastodon.social/@ClamBakeSanta/116912587557246641"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqjnx5p5sk2n",
+      "cid": "bafyreidtyeu3qodlbwetuqyjpvhslxtuebsln2qwy4ppdb65qwb6fsh7ry"
+    },
+    "tumblr": {
+      "id": "822025655232380928",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "296",
+      "channel": "@clambakesanta"
+    }
+  },
+  "EmbraceYourGeeknessDay": {
+    "mastodon": {
+      "id": "116912591526804417",
+      "url": "https://mastodon.social/@ClamBakeSanta/116912591526804417"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqjnyx3aeb27",
+      "cid": "bafyreictix4ac5nh2s2onallmgqtr563qvp33xjv5tcfpd32slwtdpalem"
+    },
+    "tumblr": {
+      "id": "822025718473064448",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "297",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayWoleSoyinka": {
+    "mastodon": {
+      "id": "116912595482267574",
+      "url": "https://mastodon.social/@ClamBakeSanta/116912595482267574"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqjo2qhdwc2o",
+      "cid": "bafyreiggbsgtf5e5ivosam6u2jptm4fhmf5nfmaj76okj7opnb7qpfaaga"
+    },
+    "tumblr": {
+      "id": "822025781903523840",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "298",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "106",
+      "url": "https://clambakesanta.wordpress.com/2026/07/13/clam-bake-santa-2026-07-13/"
+    }
+  }
+}

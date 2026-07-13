@@ -89,7 +89,8 @@
     "2026-07-09",
     "2026-07-10",
     "2026-07-11",
-    "2026-07-12"
+    "2026-07-12",
+    "2026-07-13"
   ],
   "runs": [
     {
@@ -1112,6 +1113,17 @@
         "Birthday Pablo Neruda"
       ],
       "content_preview": "Nuts and spices blend, Warm aromas fill the air, Slice of joy served right. Happy #PecanPieDay from @ClamBakeSanta  Leav"
+    },
+    {
+      "date": "2026-07-13",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-13T12:16:45.487114+00:00",
+      "themes": [
+        "National French Fries Day",
+        "Embrace Your Geekness Day",
+        "Birthday Wole Soyinka"
+      ],
+      "content_preview": "Crispy bites delight, Dipping sauces swirl and twirl, Laughter fills the air. Happy #NationalFrenchFriesDay from @ClamBa"
     }
   ]
 }

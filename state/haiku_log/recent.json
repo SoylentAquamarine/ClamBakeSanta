@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-07-05",
-    "theme": "National Apple Turnover Day",
-    "haiku": "Golden crusty treats,\nWarm apples dance with spices,\nSweet joy on each bite.\nHappy #NationalAppleTurnoverDay from @ClamBakeSanta",
-    "tag": "NationalAppleTurnoverDay",
-    "logged_at": "2026-07-05T11:06:20.775762+00:00"
-  },
-  {
-    "date": "2026-07-05",
-    "theme": "Workaholics Day",
-    "haiku": "Books stacked high like hills,\nWarm coffee brews, dreams take flight,\nRest on this sweet day.\nHappy #WorkaholicsDay from @ClamBakeSanta",
-    "tag": "WorkaholicsDay",
-    "logged_at": "2026-07-05T11:06:20.775762+00:00"
-  },
-  {
-    "date": "2026-07-05",
-    "theme": "Birthday P.T. Barnum",
-    "haiku": "Candles dance and glow,\nJoyful songs and bright stories,\nMagic fills the night.\n#HappyBirthdayPTBarnum from @ClamBakeSanta",
-    "tag": "HappyBirthdayPTBarnum",
-    "logged_at": "2026-07-05T11:06:20.775762+00:00"
-  },
-  {
     "date": "2026-07-06",
     "theme": "National Fried Chicken Day",
     "haiku": "Golden crusts shimmer,\nSavory scents fill the air,\nTogether we feast.\nHappy #NationalFriedChickenDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Laughter fills the air,\nBright balloons in joyful arcs,\nCheers for you today!\n#HappyBirthdayJohnQuincyAdams from @ClamBakeSanta",
     "tag": "HappyBirthdayJohnQuincyAdams",
     "logged_at": "2026-07-11T10:17:17.764244+00:00"
+  },
+  {
+    "date": "2026-07-12",
+    "theme": "Pecan Pie Day",
+    "haiku": "Nuts and spices blend,\nWarm aromas fill the air,\nSlice of joy served right.\nHappy #PecanPieDay from @ClamBakeSanta",
+    "tag": "PecanPieDay",
+    "logged_at": "2026-07-12T10:36:11.151817+00:00"
+  },
+  {
+    "date": "2026-07-12",
+    "theme": "Birthday Henry David Thoreau",
+    "haiku": "Leaves flutter gently,\nAs sunlight warms the soft earth,\nNature’s gift abounds.\n#HappyBirthdayHenryDavidThoreau from @ClamBakeSanta",
+    "tag": "HappyBirthdayHenryDavidThoreau",
+    "logged_at": "2026-07-12T10:36:11.151817+00:00"
+  },
+  {
+    "date": "2026-07-12",
+    "theme": "Birthday Pablo Neruda",
+    "haiku": "Bright blooms paint the sky,\nLaughter wraps like a warm hug,\nJoy’s feast fills the air.\n#HappyBirthdayPabloNeruda from @ClamBakeSanta",
+    "tag": "HappyBirthdayPabloNeruda",
+    "logged_at": "2026-07-12T10:36:11.151817+00:00"
   }
 ]
