@@ -1,16 +1,17 @@
 [
   {
-    "timestamp": "2026-06-13T11:24:57.537385+00:00",
-    "date": "2026-06-13",
+    "timestamp": "2026-07-14T10:58:19.424685+00:00",
+    "date": "2026-07-14",
     "themes_found": [
-      "National Weed Your Garden Day",
-      "Sewing Machine Day",
-      "Birthday William Butler Yeats"
+      "Bastille Day",
+      "National Macaroni and Cheese Day",
+      "Birthday Woody Guthrie",
+      "New Moon"
     ],
     "haikus_posted": [
       {
-        "theme": "National Weed Your Garden Day",
-        "tag": "NationalWeedYourGardenDay",
+        "theme": "National Macaroni and Cheese Day",
+        "tag": "NationalMacaroniAndCheeseDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +20,8 @@
         ]
       },
       {
-        "theme": "Sewing Machine Day",
-        "tag": "SewingMachineDay",
+        "theme": "Birthday Woody Guthrie",
+        "tag": "HappyBirthdayWoodyGuthrie",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday William Butler Yeats",
-        "tag": "HappyBirthdayWilliamButlerYeats",
+        "theme": "New Moon",
+        "tag": "NewMoon",
         "valid_syllables": true,
         "counts": [
           5,
@@ -39,7 +40,13 @@
         ]
       }
     ],
-    "writers_block": [],
+    "writers_block": [
+      {
+        "theme": "Bastille Day",
+        "tag": "BastilleDay",
+        "attempts": 5
+      }
+    ],
     "adapters_ok": [
       "mastodon",
       "bluesky",

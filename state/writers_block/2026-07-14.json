@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Bastille Day",
+    "tag": "BastilleDay",
+    "timestamp": "2026-07-14T10:49:57.529567+00:00",
+    "attempts": [
+      {
+        "text": "Fireworks bloom bright,\nVoices rise with pure delight,\nBanners wave in light.\nHappy #BastilleDay from @ClamBakeSanta",
+        "counts": [
+          4,
+          7,
+          5
+        ]
+      },
+      {
+        "text": "Fireworks bloom bright,\nLaughter echoes through the streets,\nFreedom's song takes flight.\nHappy #BastilleDay from @ClamBakeSanta",
+        "counts": [
+          4,
+          7,
+          5
+        ]
+      },
+      {
+        "text": "Fireworks burst bright,\nLaughter mingles with cool air,\nJoy paints the night sky.\nHappy #BastilleDay from @ClamBakeSanta",
+        "counts": [
+          4,
+          7,
+          5
+        ]
+      },
+      {
+        "text": "Fireworks burst bright,\nCrisp air filled with laughter,\nFlags wave in the sun.\nHappy #BastilleDay from @ClamBakeSanta",
+        "counts": [
+          4,
+          6,
+          5
+        ]
+      },
+      {
+        "text": "Bright flags wave with pride,\nCrackling fireworks explode,\nLaughter fills the night.\nHappy #BastilleDay from @ClamBakeSanta",
+        "counts": [
+          5,
+          6,
+          5
+        ]
+      }
+    ]
+  }
+]

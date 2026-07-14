@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-06",
-    "theme": "National Fried Chicken Day",
-    "haiku": "Golden crusts shimmer,\nSavory scents fill the air,\nTogether we feast.\nHappy #NationalFriedChickenDay from @ClamBakeSanta",
-    "tag": "NationalFriedChickenDay",
-    "logged_at": "2026-07-06T12:51:21.820531+00:00"
-  },
-  {
-    "date": "2026-07-06",
-    "theme": "National Kissing Day",
-    "haiku": "Sweet lips meet with warmth,\nPetals dance in the soft breeze,\nHearts bloom with each kiss.\nHappy #NationalKissingDay from @ClamBakeSanta",
-    "tag": "NationalKissingDay",
-    "logged_at": "2026-07-06T12:51:21.820531+00:00"
-  },
-  {
-    "date": "2026-07-06",
-    "theme": "Birthday Frida Kahlo",
-    "haiku": "Vivid blooms surround,\nBrush strokes dance in the moonlight,\nLife's canvas alive.\n#HappyBirthdayFridaKahlo from @ClamBakeSanta",
-    "tag": "HappyBirthdayFridaKahlo",
-    "logged_at": "2026-07-06T12:51:21.820531+00:00"
-  },
-  {
-    "date": "2026-07-06",
-    "theme": "Birthday Sylvester Stallone",
-    "haiku": "Cakes stacked high with cream,\nLaughter springs like fresh spring blooms,\nCheers dance in the air.\n#HappyBirthdaySylvesterStallone from @ClamBakeSanta",
-    "tag": "HappyBirthdaySylvesterStallone",
-    "logged_at": "2026-07-06T12:51:21.820531+00:00"
-  },
-  {
     "date": "2026-07-07",
     "theme": "World Chocolate Day",
     "haiku": "Sweet cocoa whispers,\nVelvet rivers of delight,\nJoy wrapped in each bite.\nHappy #WorldChocolateDay from @ClamBakeSanta",
@@ -159,5 +131,26 @@
     "haiku": "Bright blooms paint the sky,\nLaughter wraps like a warm hug,\nJoy’s feast fills the air.\n#HappyBirthdayPabloNeruda from @ClamBakeSanta",
     "tag": "HappyBirthdayPabloNeruda",
     "logged_at": "2026-07-12T10:36:11.151817+00:00"
+  },
+  {
+    "date": "2026-07-13",
+    "theme": "National French Fries Day",
+    "haiku": "Crispy bites delight,\nDipping sauces swirl and twirl,\nLaughter fills the air.\nHappy #NationalFrenchFriesDay from @ClamBakeSanta",
+    "tag": "NationalFrenchFriesDay",
+    "logged_at": "2026-07-13T12:08:31.812530+00:00"
+  },
+  {
+    "date": "2026-07-13",
+    "theme": "Embrace Your Geekness Day",
+    "haiku": "Bright screens softly glow,\nLaughter fills the cozy room,\nDreams take flight and soar.\nHappy #EmbraceYourGeeknessDay from @ClamBakeSanta",
+    "tag": "EmbraceYourGeeknessDay",
+    "logged_at": "2026-07-13T12:08:31.812530+00:00"
+  },
+  {
+    "date": "2026-07-13",
+    "theme": "Birthday Wole Soyinka",
+    "haiku": "Bright candles flicker,\nLaughter swirls like warm breezes,\nStories bloom like spring.\n#HappyBirthdayWoleSoyinka from @ClamBakeSanta",
+    "tag": "HappyBirthdayWoleSoyinka",
+    "logged_at": "2026-07-13T12:08:31.812530+00:00"
   }
 ]
