@@ -1,4 +1,106 @@
 {
+  "2026-07-16": {
+    "NationalFreshSpinachDay": {
+      "theme": "National Fresh Spinach Day",
+      "haiku": "Green leaves dance with cheer,\nFlavorful crunch on plates bright,\nNature's gift to us.\nHappy #NationalFreshSpinachDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116929315619965691",
+          "url": "https://mastodon.social/@ClamBakeSanta/116929315619965691",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqr3o6s3ox2e",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "822293304148426752",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
+    },
+    "NationalCornFrittersDay": {
+      "theme": "National Corn Fritters Day",
+      "haiku": "Golden corn sizzles,\nCrispy edges, warm delight,\nFlavor pops and sings.\nHappy #NationalCornFrittersDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116929319614003663",
+          "url": "https://mastodon.social/@ClamBakeSanta/116929319614003663",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqr3py5aaz2g",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "822293367608246272",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
+    },
+    "HappyBirthdayGingerRogers": {
+      "theme": "Birthday Ginger Rogers",
+      "haiku": "Dancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116929323573128151",
+          "url": "https://mastodon.social/@ClamBakeSanta/116929323573128151",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqr3rrj3fu2d",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "score": 1
+        },
+        "tumblr": {
+          "id": "822293431244242944",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 1,
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "109",
+          "url": "https://clambakesanta.wordpress.com/2026/07/16/clam-bake-santa-2026-07-16/",
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
+    }
+  },
   "2026-07-15": {
     "NationalGummyWormDay": {
       "theme": "National Gummy Worm Day",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "NationalGiveSomethingAwayDay": {
       "theme": "National Give Something Away Day",
@@ -54,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "HappyBirthdayRembrandtvanRijn": {
       "theme": "Birthday Rembrandt van Rijn",
@@ -82,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -98,7 +200,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     }
   },
   "2026-07-14": {
@@ -128,7 +230,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "HappyBirthdayWoodyGuthrie": {
       "theme": "Birthday Woody Guthrie",
@@ -156,7 +258,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "NewMoon": {
       "theme": "New Moon",
@@ -184,7 +286,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -200,7 +302,7 @@
         }
       },
       "total_score": 3,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     }
   },
   "2026-07-13": {
@@ -230,7 +332,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "EmbraceYourGeeknessDay": {
       "theme": "Embrace Your Geekness Day",
@@ -258,7 +360,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "HappyBirthdayWoleSoyinka": {
       "theme": "Birthday Wole Soyinka",
@@ -286,7 +388,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -302,7 +404,7 @@
         }
       },
       "total_score": 3,
-      "last_checked": "2026-07-15T22:51:40.790453+00:00"
+      "last_checked": "2026-07-16T22:50:55.597189+00:00"
     }
   },
   "2026-07-12": {
@@ -711,108 +813,6 @@
       },
       "total_score": 2,
       "last_checked": "2026-07-12T22:39:18.663444+00:00"
-    }
-  },
-  "2026-07-08": {
-    "NationalMilkChocolateWithAlmondsDay": {
-      "theme": "National Milk Chocolate with Almonds Day",
-      "haiku": "Rich chocolate melts slow,\nCrunchy almonds entwined sweet,\nJoyful bites await.\nHappy #NationalMilkChocolateWithAlmondsDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116884037321872864",
-          "url": "https://mastodon.social/@ClamBakeSanta/116884037321872864",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mq4y7yruoc2p",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "821568851503349760",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-07-11T22:39:11.521535+00:00"
-    },
-    "VideoGamesDay": {
-      "theme": "Video Games Day",
-      "haiku": "Joyful pixels dance,\nJoyful worlds beyond the screen,\nAdventure awaits.\nHappy #VideoGamesDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116884041283986300",
-          "url": "https://mastodon.social/@ClamBakeSanta/116884041283986300",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mq4ybsbcy22p",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 1,
-          "score": 3
-        },
-        "tumblr": {
-          "id": "821568914856230912",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 3,
-      "last_checked": "2026-07-11T22:39:11.521535+00:00"
-    },
-    "HappyBirthdayPercyByssheShelley": {
-      "theme": "Birthday Percy Bysshe Shelley",
-      "haiku": "Joyful waves of light,\nWhispers of the soft, cool breeze,\nWords dance in the night.\n#HappyBirthdayPercyByssheShelley from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116884045250447457",
-          "url": "https://mastodon.social/@ClamBakeSanta/116884045250447457",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mq4ydlqhlu2e",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "821568978274091008",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-07-11T22:39:11.521535+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {
-        "wordpress": {
-          "id": "101",
-          "url": "https://clambakesanta.wordpress.com/2026/07/08/clam-bake-santa-2026-07-08/",
-          "views": 2,
-          "likes": 2,
-          "comments": 0,
-          "score": 2
-        }
-      },
-      "total_score": 2,
-      "last_checked": "2026-07-11T22:39:11.521535+00:00"
     }
   }
 }
