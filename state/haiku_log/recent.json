@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-07-08",
-    "theme": "National Milk Chocolate with Almonds Day",
-    "haiku": "Rich chocolate melts slow,\nCrunchy almonds entwined sweet,\nJoyful bites await.\nHappy #NationalMilkChocolateWithAlmondsDay from @ClamBakeSanta",
-    "tag": "NationalMilkChocolateWithAlmondsDay",
-    "logged_at": "2026-07-08T11:07:50.080585+00:00"
-  },
-  {
-    "date": "2026-07-08",
-    "theme": "Video Games Day",
-    "haiku": "Joyful pixels dance,\nJoyful worlds beyond the screen,\nAdventure awaits.\nHappy #VideoGamesDay from @ClamBakeSanta",
-    "tag": "VideoGamesDay",
-    "logged_at": "2026-07-08T11:07:50.080585+00:00"
-  },
-  {
-    "date": "2026-07-08",
-    "theme": "Birthday Percy Bysshe Shelley",
-    "haiku": "Joyful waves of light,\nWhispers of the soft, cool breeze,\nWords dance in the night.\n#HappyBirthdayPercyByssheShelley from @ClamBakeSanta",
-    "tag": "HappyBirthdayPercyByssheShelley",
-    "logged_at": "2026-07-08T11:07:50.080585+00:00"
-  },
-  {
     "date": "2026-07-09",
     "theme": "National Sugar Cookie Day",
     "haiku": "Sweet dough rolls and hugs,\nFrosting swirls in colors bright,\nJoyful bites of bliss.\nHappy #NationalSugarCookieDay from @ClamBakeSanta",
@@ -145,5 +124,26 @@
     "haiku": "Gentle night unfolds,\nStars peek through velvet curtains,\nDreams bloom in the dark.\nHappy #NewMoon from @ClamBakeSanta",
     "tag": "NewMoon",
     "logged_at": "2026-07-14T10:50:03.063532+00:00"
+  },
+  {
+    "date": "2026-07-15",
+    "theme": "National Gummy Worm Day",
+    "haiku": "Wiggly wonders,\nColors twirl like rainbows bright,\nChewy smiles abound.\nHappy #NationalGummyWormDay from @ClamBakeSanta",
+    "tag": "NationalGummyWormDay",
+    "logged_at": "2026-07-15T10:53:01.956086+00:00"
+  },
+  {
+    "date": "2026-07-15",
+    "theme": "National Give Something Away Day",
+    "haiku": "Baskets overflow,\nWarm smiles shared like soft blankets,\nHearts bloom in the light.\nHappy #NationalGiveSomethingAwayDay from @ClamBakeSanta",
+    "tag": "NationalGiveSomethingAwayDay",
+    "logged_at": "2026-07-15T10:53:01.956086+00:00"
+  },
+  {
+    "date": "2026-07-15",
+    "theme": "Birthday Rembrandt van Rijn",
+    "haiku": "Golden light cascades,\nCanvas whispers vibrant hues,\nArtistry takes flight.\n#HappyBirthdayRembrandtvanRijn from @ClamBakeSanta",
+    "tag": "HappyBirthdayRembrandtvanRijn",
+    "logged_at": "2026-07-15T10:53:01.956086+00:00"
   }
 ]

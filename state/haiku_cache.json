@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "haikus": [
     {
-      "theme": "National Gummy Worm Day",
-      "haiku": "Wiggly wonders,\nColors twirl like rainbows bright,\nChewy smiles abound.\nHappy #NationalGummyWormDay from @ClamBakeSanta",
-      "tag": "NationalGummyWormDay",
+      "theme": "National Fresh Spinach Day",
+      "haiku": "Green leaves dance with cheer,\nFlavorful crunch on plates bright,\nNature's gift to us.\nHappy #NationalFreshSpinachDay from @ClamBakeSanta",
+      "tag": "NationalFreshSpinachDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Give Something Away Day",
-      "haiku": "Baskets overflow,\nWarm smiles shared like soft blankets,\nHearts bloom in the light.\nHappy #NationalGiveSomethingAwayDay from @ClamBakeSanta",
-      "tag": "NationalGiveSomethingAwayDay",
+      "theme": "National Corn Fritters Day",
+      "haiku": "Golden corn sizzles,\nCrispy edges, warm delight,\nFlavor pops and sings.\nHappy #NationalCornFrittersDay from @ClamBakeSanta",
+      "tag": "NationalCornFrittersDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Rembrandt van Rijn",
-      "haiku": "Golden light cascades,\nCanvas whispers vibrant hues,\nArtistry takes flight.\n#HappyBirthdayRembrandtvanRijn from @ClamBakeSanta",
-      "tag": "HappyBirthdayRembrandtvanRijn",
+      "theme": "Birthday Ginger Rogers",
+      "haiku": "Dancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
+      "tag": "HappyBirthdayGingerRogers",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Gummy Worm Day",
-    "National Give Something Away Day",
-    "Birthday Rembrandt van Rijn"
+    "National Fresh Spinach Day",
+    "National Corn Fritters Day",
+    "Birthday Ginger Rogers"
   ],
-  "content": "Wiggly wonders,\nColors twirl like rainbows bright,\nChewy smiles abound.\nHappy #NationalGummyWormDay from @ClamBakeSanta\n\nBaskets overflow,\nWarm smiles shared like soft blankets,\nHearts bloom in the light.\nHappy #NationalGiveSomethingAwayDay from @ClamBakeSanta\n\nGolden light cascades,\nCanvas whispers vibrant hues,\nArtistry takes flight.\n#HappyBirthdayRembrandtvanRijn from @ClamBakeSanta",
-  "saved_at": "2026-07-15T10:53:01.955568+00:00"
+  "content": "Green leaves dance with cheer,\nFlavorful crunch on plates bright,\nNature's gift to us.\nHappy #NationalFreshSpinachDay from @ClamBakeSanta\n\nGolden corn sizzles,\nCrispy edges, warm delight,\nFlavor pops and sings.\nHappy #NationalCornFrittersDay from @ClamBakeSanta\n\nDancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
+  "saved_at": "2026-07-16T11:02:41.556355+00:00"
 }
