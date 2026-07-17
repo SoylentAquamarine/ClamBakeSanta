@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "haikus": [
     {
-      "theme": "National Fresh Spinach Day",
-      "haiku": "Green leaves dance with cheer,\nFlavorful crunch on plates bright,\nNature's gift to us.\nHappy #NationalFreshSpinachDay from @ClamBakeSanta",
-      "tag": "NationalFreshSpinachDay",
+      "theme": "National Peach Ice Cream Day",
+      "haiku": "Peach swirls in a cone,\nSweet cream drips on summer's breeze,\nSunshine melts with joy.\nHappy #NationalPeachIceCreamDay from @ClamBakeSanta",
+      "tag": "NationalPeachIceCreamDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Corn Fritters Day",
-      "haiku": "Golden corn sizzles,\nCrispy edges, warm delight,\nFlavor pops and sings.\nHappy #NationalCornFrittersDay from @ClamBakeSanta",
-      "tag": "NationalCornFrittersDay",
+      "theme": "World Emoji Day",
+      "haiku": "Tiny hearts will dance,\nColors burst in joyful cheer,\nSmiles and sparks unite.\nHappy #WorldEmojiDay from @ClamBakeSanta",
+      "tag": "WorldEmojiDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Ginger Rogers",
-      "haiku": "Dancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
-      "tag": "HappyBirthdayGingerRogers",
+      "theme": "Birthday James Cagney",
+      "haiku": "Candles dance and sway,\nBright laughter fills the warm room,\nCheers for James today!\n#HappyBirthdayJamesCagney from @ClamBakeSanta",
+      "tag": "HappyBirthdayJamesCagney",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Fresh Spinach Day",
-    "National Corn Fritters Day",
-    "Birthday Ginger Rogers"
+    "National Peach Ice Cream Day",
+    "World Emoji Day",
+    "Birthday James Cagney"
   ],
-  "content": "Green leaves dance with cheer,\nFlavorful crunch on plates bright,\nNature's gift to us.\nHappy #NationalFreshSpinachDay from @ClamBakeSanta\n\nGolden corn sizzles,\nCrispy edges, warm delight,\nFlavor pops and sings.\nHappy #NationalCornFrittersDay from @ClamBakeSanta\n\nDancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
-  "saved_at": "2026-07-16T11:02:41.556355+00:00"
+  "content": "Peach swirls in a cone,\nSweet cream drips on summer's breeze,\nSunshine melts with joy.\nHappy #NationalPeachIceCreamDay from @ClamBakeSanta\n\nTiny hearts will dance,\nColors burst in joyful cheer,\nSmiles and sparks unite.\nHappy #WorldEmojiDay from @ClamBakeSanta\n\nCandles dance and sway,\nBright laughter fills the warm room,\nCheers for James today!\n#HappyBirthdayJamesCagney from @ClamBakeSanta",
+  "saved_at": "2026-07-17T10:49:16.996425+00:00"
 }

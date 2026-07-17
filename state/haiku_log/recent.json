@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-07-09",
-    "theme": "National Sugar Cookie Day",
-    "haiku": "Sweet dough rolls and hugs,\nFrosting swirls in colors bright,\nJoyful bites of bliss.\nHappy #NationalSugarCookieDay from @ClamBakeSanta",
-    "tag": "NationalSugarCookieDay",
-    "logged_at": "2026-07-09T12:07:37.183837+00:00"
-  },
-  {
-    "date": "2026-07-09",
-    "theme": "National No Bra Day",
-    "haiku": "Sunshine on bare skin,\nGentle breeze through the warm air,\nFreedom feels like joy.\nHappy #NationalNoBraDay from @ClamBakeSanta",
-    "tag": "NationalNoBraDay",
-    "logged_at": "2026-07-09T12:07:37.183837+00:00"
-  },
-  {
-    "date": "2026-07-09",
-    "theme": "Birthday Nikola Tesla",
-    "haiku": "Electric sparks fly,\nWhispers of a bright future,\nGenius lights the way.\n#HappyBirthdayNikolaTesla from @ClamBakeSanta",
-    "tag": "HappyBirthdayNikolaTesla",
-    "logged_at": "2026-07-09T12:07:37.183837+00:00"
-  },
-  {
     "date": "2026-07-10",
     "theme": "National Pina Colada Day",
     "haiku": "Coconut whispers,\nTropical sun warms the sand,\nCheers rise with sweet sips.\nHappy #NationalPinaColadaDay from @ClamBakeSanta",
@@ -145,5 +124,26 @@
     "haiku": "Golden light cascades,\nCanvas whispers vibrant hues,\nArtistry takes flight.\n#HappyBirthdayRembrandtvanRijn from @ClamBakeSanta",
     "tag": "HappyBirthdayRembrandtvanRijn",
     "logged_at": "2026-07-15T10:53:01.956086+00:00"
+  },
+  {
+    "date": "2026-07-16",
+    "theme": "National Fresh Spinach Day",
+    "haiku": "Green leaves dance with cheer,\nFlavorful crunch on plates bright,\nNature's gift to us.\nHappy #NationalFreshSpinachDay from @ClamBakeSanta",
+    "tag": "NationalFreshSpinachDay",
+    "logged_at": "2026-07-16T11:02:41.556762+00:00"
+  },
+  {
+    "date": "2026-07-16",
+    "theme": "National Corn Fritters Day",
+    "haiku": "Golden corn sizzles,\nCrispy edges, warm delight,\nFlavor pops and sings.\nHappy #NationalCornFrittersDay from @ClamBakeSanta",
+    "tag": "NationalCornFrittersDay",
+    "logged_at": "2026-07-16T11:02:41.556762+00:00"
+  },
+  {
+    "date": "2026-07-16",
+    "theme": "Birthday Ginger Rogers",
+    "haiku": "Dancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
+    "tag": "HappyBirthdayGingerRogers",
+    "logged_at": "2026-07-16T11:02:41.556762+00:00"
   }
 ]
