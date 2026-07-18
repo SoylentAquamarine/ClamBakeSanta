@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-06-17T13:01:23.645856+00:00",
-    "date": "2026-06-17",
+    "timestamp": "2026-07-18T10:28:32.946279+00:00",
+    "date": "2026-07-18",
     "themes_found": [
-      "National Eat Your Vegetables Day",
-      "National Apple Strudel Day",
-      "Birthday Igor Stravinsky"
+      "National Sour Candy Day",
+      "World Listening Day",
+      "Birthday Nelson Mandela"
     ],
     "haikus_posted": [
       {
-        "theme": "National Eat Your Vegetables Day",
-        "tag": "NationalEatYourVegetablesDay",
+        "theme": "National Sour Candy Day",
+        "tag": "NationalSourCandyDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Apple Strudel Day",
-        "tag": "NationalAppleStrudelDay",
+        "theme": "World Listening Day",
+        "tag": "WorldListeningDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Igor Stravinsky",
-        "tag": "HappyBirthdayIgorStravinsky",
+        "theme": "Birthday Nelson Mandela",
+        "tag": "HappyBirthdayNelsonMandela",
         "valid_syllables": true,
         "counts": [
           5,

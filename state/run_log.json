@@ -94,7 +94,8 @@
     "2026-07-14",
     "2026-07-15",
     "2026-07-16",
-    "2026-07-17"
+    "2026-07-17",
+    "2026-07-18"
   ],
   "runs": [
     {
@@ -1173,6 +1174,17 @@
         "Birthday James Cagney"
       ],
       "content_preview": "Peach swirls in a cone, Sweet cream drips on summer's breeze, Sunshine melts with joy. Happy #NationalPeachIceCreamDay f"
+    },
+    {
+      "date": "2026-07-18",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-18T10:28:32.945323+00:00",
+      "themes": [
+        "National Sour Candy Day",
+        "World Listening Day",
+        "Birthday Nelson Mandela"
+      ],
+      "content_preview": "Sour tang on lips, Lemon drops and sweet tartness, Joyful pucker smiles. Happy #NationalSourCandyDay from @ClamBakeSanta"
     }
   ]
 }

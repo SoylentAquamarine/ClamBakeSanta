@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-07-10",
-    "theme": "National Pina Colada Day",
-    "haiku": "Coconut whispers,\nTropical sun warms the sand,\nCheers rise with sweet sips.\nHappy #NationalPinaColadaDay from @ClamBakeSanta",
-    "tag": "NationalPinaColadaDay",
-    "logged_at": "2026-07-10T11:54:31.696417+00:00"
-  },
-  {
-    "date": "2026-07-10",
-    "theme": "International Kitten Day",
-    "haiku": "Soft paws on warm laps,\nPurring whispers fill the air,\nJoyful leaps abound.\nHappy #InternationalKittenDay from @ClamBakeSanta",
-    "tag": "InternationalKittenDay",
-    "logged_at": "2026-07-10T11:54:31.696417+00:00"
-  },
-  {
-    "date": "2026-07-10",
-    "theme": "Birthday Camille Pissarro",
-    "haiku": "Brush strokes paint the dawn,\nWarm hues of joy and laughter,\nNature's art unveiled.\n#HappyBirthdayCamillePissarro from @ClamBakeSanta",
-    "tag": "HappyBirthdayCamillePissarro",
-    "logged_at": "2026-07-10T11:54:31.696417+00:00"
-  },
-  {
     "date": "2026-07-11",
     "theme": "National Blueberry Muffin Day",
     "haiku": "Blue berries glisten,\nSoft muffins fresh from the pan,\nWarm smiles fill the air.\nHappy #NationalBlueberryMuffinDay from @ClamBakeSanta",
@@ -145,5 +124,26 @@
     "haiku": "Dancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
     "tag": "HappyBirthdayGingerRogers",
     "logged_at": "2026-07-16T11:02:41.556762+00:00"
+  },
+  {
+    "date": "2026-07-17",
+    "theme": "National Peach Ice Cream Day",
+    "haiku": "Peach swirls in a cone,\nSweet cream drips on summer's breeze,\nSunshine melts with joy.\nHappy #NationalPeachIceCreamDay from @ClamBakeSanta",
+    "tag": "NationalPeachIceCreamDay",
+    "logged_at": "2026-07-17T10:49:16.996856+00:00"
+  },
+  {
+    "date": "2026-07-17",
+    "theme": "World Emoji Day",
+    "haiku": "Tiny hearts will dance,\nColors burst in joyful cheer,\nSmiles and sparks unite.\nHappy #WorldEmojiDay from @ClamBakeSanta",
+    "tag": "WorldEmojiDay",
+    "logged_at": "2026-07-17T10:49:16.996856+00:00"
+  },
+  {
+    "date": "2026-07-17",
+    "theme": "Birthday James Cagney",
+    "haiku": "Candles dance and sway,\nBright laughter fills the warm room,\nCheers for James today!\n#HappyBirthdayJamesCagney from @ClamBakeSanta",
+    "tag": "HappyBirthdayJamesCagney",
+    "logged_at": "2026-07-17T10:49:16.996856+00:00"
   }
 ]

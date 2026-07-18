@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "haikus": [
     {
-      "theme": "National Peach Ice Cream Day",
-      "haiku": "Peach swirls in a cone,\nSweet cream drips on summer's breeze,\nSunshine melts with joy.\nHappy #NationalPeachIceCreamDay from @ClamBakeSanta",
-      "tag": "NationalPeachIceCreamDay",
+      "theme": "National Sour Candy Day",
+      "haiku": "Sour tang on lips,\nLemon drops and sweet tartness,\nJoyful pucker smiles.\nHappy #NationalSourCandyDay from @ClamBakeSanta",
+      "tag": "NationalSourCandyDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Emoji Day",
-      "haiku": "Tiny hearts will dance,\nColors burst in joyful cheer,\nSmiles and sparks unite.\nHappy #WorldEmojiDay from @ClamBakeSanta",
-      "tag": "WorldEmojiDay",
+      "theme": "World Listening Day",
+      "haiku": "Whispers of the breeze,\nCrickets chirp in soft chorus,\nNature's song surrounds.\nHappy #WorldListeningDay from @ClamBakeSanta",
+      "tag": "WorldListeningDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday James Cagney",
-      "haiku": "Candles dance and sway,\nBright laughter fills the warm room,\nCheers for James today!\n#HappyBirthdayJamesCagney from @ClamBakeSanta",
-      "tag": "HappyBirthdayJamesCagney",
+      "theme": "Birthday Nelson Mandela",
+      "haiku": "Sunrise on the hill,\nJoyful voices share sweet cake,\nHearts unite with love.\n#HappyBirthdayNelsonMandela from @ClamBakeSanta",
+      "tag": "HappyBirthdayNelsonMandela",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Peach Ice Cream Day",
-    "World Emoji Day",
-    "Birthday James Cagney"
+    "National Sour Candy Day",
+    "World Listening Day",
+    "Birthday Nelson Mandela"
   ],
-  "content": "Peach swirls in a cone,\nSweet cream drips on summer's breeze,\nSunshine melts with joy.\nHappy #NationalPeachIceCreamDay from @ClamBakeSanta\n\nTiny hearts will dance,\nColors burst in joyful cheer,\nSmiles and sparks unite.\nHappy #WorldEmojiDay from @ClamBakeSanta\n\nCandles dance and sway,\nBright laughter fills the warm room,\nCheers for James today!\n#HappyBirthdayJamesCagney from @ClamBakeSanta",
-  "saved_at": "2026-07-17T10:49:16.996425+00:00"
+  "content": "Sour tang on lips,\nLemon drops and sweet tartness,\nJoyful pucker smiles.\nHappy #NationalSourCandyDay from @ClamBakeSanta\n\nWhispers of the breeze,\nCrickets chirp in soft chorus,\nNature's song surrounds.\nHappy #WorldListeningDay from @ClamBakeSanta\n\nSunrise on the hill,\nJoyful voices share sweet cake,\nHearts unite with love.\n#HappyBirthdayNelsonMandela from @ClamBakeSanta",
+  "saved_at": "2026-07-18T10:20:18.755142+00:00"
 }
