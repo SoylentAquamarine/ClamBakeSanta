@@ -1,4 +1,106 @@
 {
+  "2026-07-19": {
+    "NationalRaspberryCakeDay": {
+      "theme": "National Raspberry Cake Day",
+      "haiku": "Ripe berries glisten,\nFluffy sweetness fills the air,\nJoy wrapped in each slice.\nHappy #NationalRaspberryCakeDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116946201120651532",
+          "url": "https://mastodon.social/@ClamBakeSanta/116946201120651532",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqylmssnct23",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "822563471660105728",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
+    },
+    "StickOutYourTongueDay": {
+      "theme": "Stick Out Your Tongue Day",
+      "haiku": "Pink tongues taste the breeze,\nLaughter echoes through the park,\nJoyful faces beam.\nHappy #StickOutYourTongueDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116946205089139262",
+          "url": "https://mastodon.social/@ClamBakeSanta/116946205089139262",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqylomaohv2n",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "822563534890237952",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
+    },
+    "HappyBirthdayEdgarDegas": {
+      "theme": "Birthday Edgar Degas",
+      "haiku": "Pastels swirl and twirl,\nBallet dreams take to the stage,\nLaughter fills the room.\n#HappyBirthdayEdgarDegas from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "116946209053510337",
+          "url": "https://mastodon.social/@ClamBakeSanta/116946209053510337",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqylqfjt3i2g",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "822563598343815168",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "112",
+          "url": "https://clambakesanta.wordpress.com/2026/07/19/clam-bake-santa-2026-07-19/",
+          "views": 2,
+          "likes": 2,
+          "comments": 0,
+          "score": 2
+        }
+      },
+      "total_score": 2,
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
+    }
+  },
   "2026-07-18": {
     "NationalSourCandyDay": {
       "theme": "National Sour Candy Day",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "WorldListeningDay": {
       "theme": "World Listening Day",
@@ -54,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "HappyBirthdayNelsonMandela": {
       "theme": "Birthday Nelson Mandela",
@@ -82,7 +184,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -91,14 +193,14 @@
         "wordpress": {
           "id": "111",
           "url": "https://clambakesanta.wordpress.com/2026/07/18/clam-bake-santa-2026-07-18/",
-          "views": 2,
-          "likes": 1,
+          "views": 3,
+          "likes": 2,
           "comments": 0,
-          "score": 1
+          "score": 2
         }
       },
-      "total_score": 1,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "total_score": 2,
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     }
   },
   "2026-07-17": {
@@ -128,7 +230,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "WorldEmojiDay": {
       "theme": "World Emoji Day",
@@ -156,7 +258,7 @@
         }
       },
       "total_score": 4,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "HappyBirthdayJamesCagney": {
       "theme": "Birthday James Cagney",
@@ -184,7 +286,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -200,7 +302,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     }
   },
   "2026-07-16": {
@@ -230,7 +332,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "NationalCornFrittersDay": {
       "theme": "National Corn Fritters Day",
@@ -258,7 +360,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "HappyBirthdayGingerRogers": {
       "theme": "Birthday Ginger Rogers",
@@ -286,7 +388,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -302,7 +404,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-07-18T22:40:19.419487+00:00"
+      "last_checked": "2026-07-19T22:42:37.865494+00:00"
     }
   },
   "2026-07-15": {
@@ -711,108 +813,6 @@
       },
       "total_score": 1,
       "last_checked": "2026-07-15T22:51:40.790453+00:00"
-    }
-  },
-  "2026-07-11": {
-    "NationalBlueberryMuffinDay": {
-      "theme": "National Blueberry Muffin Day",
-      "haiku": "Blue berries glisten,\nSoft muffins fresh from the pan,\nWarm smiles fill the air.\nHappy #NationalBlueberryMuffinDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116900825585181249",
-          "url": "https://mastodon.social/@ClamBakeSanta/116900825585181249",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqegshkzww2o",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "821837465695518720",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-07-14T22:49:52.872473+00:00"
-    },
-    "CheerUpTheLonelyDay": {
-      "theme": "Cheer Up the Lonely Day",
-      "haiku": "Joyful laughter rings,\nWarm hugs wrap like soft blankets,\nHopeful hearts unite.\nHappy #CheerUpTheLonelyDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116900829592379880",
-          "url": "https://mastodon.social/@ClamBakeSanta/116900829592379880",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqeguba7qo27",
-          "likes": 1,
-          "reposts": 0,
-          "replies": 0,
-          "score": 1
-        },
-        "tumblr": {
-          "id": "821837529137463296",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 1,
-      "last_checked": "2026-07-14T22:49:52.872473+00:00"
-    },
-    "HappyBirthdayJohnQuincyAdams": {
-      "theme": "Birthday John Quincy Adams",
-      "haiku": "Laughter fills the air,\nBright balloons in joyful arcs,\nCheers for you today!\n#HappyBirthdayJohnQuincyAdams from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116900833598759547",
-          "url": "https://mastodon.social/@ClamBakeSanta/116900833598759547",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mqegw2nm2v22",
-          "likes": 1,
-          "reposts": 0,
-          "replies": 0,
-          "score": 1
-        },
-        "tumblr": {
-          "id": "821837592618303488",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 1,
-      "last_checked": "2026-07-14T22:49:52.872473+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {
-        "wordpress": {
-          "id": "104",
-          "url": "https://clambakesanta.wordpress.com/2026/07/11/clam-bake-santa-2026-07-11/",
-          "views": 2,
-          "likes": 3,
-          "comments": 0,
-          "score": 3
-        }
-      },
-      "total_score": 3,
-      "last_checked": "2026-07-14T22:49:52.872473+00:00"
     }
   }
 }
