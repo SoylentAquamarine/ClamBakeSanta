@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "haikus": [
     {
-      "theme": "National Sour Candy Day",
-      "haiku": "Sour tang on lips,\nLemon drops and sweet tartness,\nJoyful pucker smiles.\nHappy #NationalSourCandyDay from @ClamBakeSanta",
-      "tag": "NationalSourCandyDay",
+      "theme": "National Raspberry Cake Day",
+      "haiku": "Ripe berries glisten,\nFluffy sweetness fills the air,\nJoy wrapped in each slice.\nHappy #NationalRaspberryCakeDay from @ClamBakeSanta",
+      "tag": "NationalRaspberryCakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Listening Day",
-      "haiku": "Whispers of the breeze,\nCrickets chirp in soft chorus,\nNature's song surrounds.\nHappy #WorldListeningDay from @ClamBakeSanta",
-      "tag": "WorldListeningDay",
+      "theme": "Stick Out Your Tongue Day",
+      "haiku": "Pink tongues taste the breeze,\nLaughter echoes through the park,\nJoyful faces beam.\nHappy #StickOutYourTongueDay from @ClamBakeSanta",
+      "tag": "StickOutYourTongueDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Nelson Mandela",
-      "haiku": "Sunrise on the hill,\nJoyful voices share sweet cake,\nHearts unite with love.\n#HappyBirthdayNelsonMandela from @ClamBakeSanta",
-      "tag": "HappyBirthdayNelsonMandela",
+      "theme": "Birthday Edgar Degas",
+      "haiku": "Pastels swirl and twirl,\nBallet dreams take to the stage,\nLaughter fills the room.\n#HappyBirthdayEdgarDegas from @ClamBakeSanta",
+      "tag": "HappyBirthdayEdgarDegas",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Sour Candy Day",
-    "World Listening Day",
-    "Birthday Nelson Mandela"
+    "National Raspberry Cake Day",
+    "Stick Out Your Tongue Day",
+    "Birthday Edgar Degas"
   ],
-  "content": "Sour tang on lips,\nLemon drops and sweet tartness,\nJoyful pucker smiles.\nHappy #NationalSourCandyDay from @ClamBakeSanta\n\nWhispers of the breeze,\nCrickets chirp in soft chorus,\nNature's song surrounds.\nHappy #WorldListeningDay from @ClamBakeSanta\n\nSunrise on the hill,\nJoyful voices share sweet cake,\nHearts unite with love.\n#HappyBirthdayNelsonMandela from @ClamBakeSanta",
-  "saved_at": "2026-07-18T10:20:18.755142+00:00"
+  "content": "Ripe berries glisten,\nFluffy sweetness fills the air,\nJoy wrapped in each slice.\nHappy #NationalRaspberryCakeDay from @ClamBakeSanta\n\nPink tongues taste the breeze,\nLaughter echoes through the park,\nJoyful faces beam.\nHappy #StickOutYourTongueDay from @ClamBakeSanta\n\nPastels swirl and twirl,\nBallet dreams take to the stage,\nLaughter fills the room.\n#HappyBirthdayEdgarDegas from @ClamBakeSanta",
+  "saved_at": "2026-07-19T10:36:54.129995+00:00"
 }

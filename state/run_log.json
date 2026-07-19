@@ -95,7 +95,8 @@
     "2026-07-15",
     "2026-07-16",
     "2026-07-17",
-    "2026-07-18"
+    "2026-07-18",
+    "2026-07-19"
   ],
   "runs": [
     {
@@ -1185,6 +1186,17 @@
         "Birthday Nelson Mandela"
       ],
       "content_preview": "Sour tang on lips, Lemon drops and sweet tartness, Joyful pucker smiles. Happy #NationalSourCandyDay from @ClamBakeSanta"
+    },
+    {
+      "date": "2026-07-19",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-19T10:45:06.011717+00:00",
+      "themes": [
+        "National Raspberry Cake Day",
+        "Stick Out Your Tongue Day",
+        "Birthday Edgar Degas"
+      ],
+      "content_preview": "Ripe berries glisten, Fluffy sweetness fills the air, Joy wrapped in each slice. Happy #NationalRaspberryCakeDay from @C"
     }
   ]
 }
