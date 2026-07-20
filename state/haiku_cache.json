@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "haikus": [
     {
-      "theme": "National Raspberry Cake Day",
-      "haiku": "Ripe berries glisten,\nFluffy sweetness fills the air,\nJoy wrapped in each slice.\nHappy #NationalRaspberryCakeDay from @ClamBakeSanta",
-      "tag": "NationalRaspberryCakeDay",
+      "theme": "National Lollipop Day",
+      "haiku": "Sugar swirls in sun,\nColors twirl with joyful taste,\nLollipops bring smiles.\nHappy #NationalLollipopDay from @ClamBakeSanta",
+      "tag": "NationalLollipopDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Stick Out Your Tongue Day",
-      "haiku": "Pink tongues taste the breeze,\nLaughter echoes through the park,\nJoyful faces beam.\nHappy #StickOutYourTongueDay from @ClamBakeSanta",
-      "tag": "StickOutYourTongueDay",
+      "theme": "Moon Day",
+      "haiku": "Silver moon above,\nWhispers of the night breeze sing,\nStars twinkle like dreams.\nHappy #MoonDay from @ClamBakeSanta",
+      "tag": "MoonDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Edgar Degas",
-      "haiku": "Pastels swirl and twirl,\nBallet dreams take to the stage,\nLaughter fills the room.\n#HappyBirthdayEdgarDegas from @ClamBakeSanta",
-      "tag": "HappyBirthdayEdgarDegas",
+      "theme": "Birthday Cormac McCarthy",
+      "haiku": "Joyful tales unwind,\nCrisp pages turn like soft winds,\nLaughter warms the room.\n#HappyBirthdayCormacMcCarthy from @ClamBakeSanta",
+      "tag": "HappyBirthdayCormacMcCarthy",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Raspberry Cake Day",
-    "Stick Out Your Tongue Day",
-    "Birthday Edgar Degas"
+    "National Lollipop Day",
+    "Moon Day",
+    "Birthday Cormac McCarthy"
   ],
-  "content": "Ripe berries glisten,\nFluffy sweetness fills the air,\nJoy wrapped in each slice.\nHappy #NationalRaspberryCakeDay from @ClamBakeSanta\n\nPink tongues taste the breeze,\nLaughter echoes through the park,\nJoyful faces beam.\nHappy #StickOutYourTongueDay from @ClamBakeSanta\n\nPastels swirl and twirl,\nBallet dreams take to the stage,\nLaughter fills the room.\n#HappyBirthdayEdgarDegas from @ClamBakeSanta",
-  "saved_at": "2026-07-19T10:36:54.129995+00:00"
+  "content": "Sugar swirls in sun,\nColors twirl with joyful taste,\nLollipops bring smiles.\nHappy #NationalLollipopDay from @ClamBakeSanta\n\nSilver moon above,\nWhispers of the night breeze sing,\nStars twinkle like dreams.\nHappy #MoonDay from @ClamBakeSanta\n\nJoyful tales unwind,\nCrisp pages turn like soft winds,\nLaughter warms the room.\n#HappyBirthdayCormacMcCarthy from @ClamBakeSanta",
+  "saved_at": "2026-07-20T11:47:27.836602+00:00"
 }

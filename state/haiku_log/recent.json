@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-07-12",
-    "theme": "Pecan Pie Day",
-    "haiku": "Nuts and spices blend,\nWarm aromas fill the air,\nSlice of joy served right.\nHappy #PecanPieDay from @ClamBakeSanta",
-    "tag": "PecanPieDay",
-    "logged_at": "2026-07-12T10:36:11.151817+00:00"
-  },
-  {
-    "date": "2026-07-12",
-    "theme": "Birthday Henry David Thoreau",
-    "haiku": "Leaves flutter gently,\nAs sunlight warms the soft earth,\nNature’s gift abounds.\n#HappyBirthdayHenryDavidThoreau from @ClamBakeSanta",
-    "tag": "HappyBirthdayHenryDavidThoreau",
-    "logged_at": "2026-07-12T10:36:11.151817+00:00"
-  },
-  {
-    "date": "2026-07-12",
-    "theme": "Birthday Pablo Neruda",
-    "haiku": "Bright blooms paint the sky,\nLaughter wraps like a warm hug,\nJoy’s feast fills the air.\n#HappyBirthdayPabloNeruda from @ClamBakeSanta",
-    "tag": "HappyBirthdayPabloNeruda",
-    "logged_at": "2026-07-12T10:36:11.151817+00:00"
-  },
-  {
     "date": "2026-07-13",
     "theme": "National French Fries Day",
     "haiku": "Crispy bites delight,\nDipping sauces swirl and twirl,\nLaughter fills the air.\nHappy #NationalFrenchFriesDay from @ClamBakeSanta",
@@ -145,5 +124,26 @@
     "haiku": "Sunrise on the hill,\nJoyful voices share sweet cake,\nHearts unite with love.\n#HappyBirthdayNelsonMandela from @ClamBakeSanta",
     "tag": "HappyBirthdayNelsonMandela",
     "logged_at": "2026-07-18T10:20:18.755587+00:00"
+  },
+  {
+    "date": "2026-07-19",
+    "theme": "National Raspberry Cake Day",
+    "haiku": "Ripe berries glisten,\nFluffy sweetness fills the air,\nJoy wrapped in each slice.\nHappy #NationalRaspberryCakeDay from @ClamBakeSanta",
+    "tag": "NationalRaspberryCakeDay",
+    "logged_at": "2026-07-19T10:36:54.130368+00:00"
+  },
+  {
+    "date": "2026-07-19",
+    "theme": "Stick Out Your Tongue Day",
+    "haiku": "Pink tongues taste the breeze,\nLaughter echoes through the park,\nJoyful faces beam.\nHappy #StickOutYourTongueDay from @ClamBakeSanta",
+    "tag": "StickOutYourTongueDay",
+    "logged_at": "2026-07-19T10:36:54.130368+00:00"
+  },
+  {
+    "date": "2026-07-19",
+    "theme": "Birthday Edgar Degas",
+    "haiku": "Pastels swirl and twirl,\nBallet dreams take to the stage,\nLaughter fills the room.\n#HappyBirthdayEdgarDegas from @ClamBakeSanta",
+    "tag": "HappyBirthdayEdgarDegas",
+    "logged_at": "2026-07-19T10:36:54.130368+00:00"
   }
 ]

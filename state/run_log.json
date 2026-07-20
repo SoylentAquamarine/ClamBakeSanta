@@ -96,7 +96,8 @@
     "2026-07-16",
     "2026-07-17",
     "2026-07-18",
-    "2026-07-19"
+    "2026-07-19",
+    "2026-07-20"
   ],
   "runs": [
     {
@@ -1197,6 +1198,17 @@
         "Birthday Edgar Degas"
       ],
       "content_preview": "Ripe berries glisten, Fluffy sweetness fills the air, Joy wrapped in each slice. Happy #NationalRaspberryCakeDay from @C"
+    },
+    {
+      "date": "2026-07-20",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-20T11:55:41.806976+00:00",
+      "themes": [
+        "National Lollipop Day",
+        "Moon Day",
+        "Birthday Cormac McCarthy"
+      ],
+      "content_preview": "Sugar swirls in sun, Colors twirl with joyful taste, Lollipops bring smiles. Happy #NationalLollipopDay from @ClamBakeSa"
     }
   ]
 }
