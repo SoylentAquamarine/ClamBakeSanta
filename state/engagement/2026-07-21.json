@@ -1,0 +1,130 @@
+{
+  "NationalJunkFoodDay": {
+    "theme": "National Junk Food Day",
+    "haiku": "Crunchy chips delight,\nChocolate rivers flowing sweet,\nLet the smiles spill wide.\nHappy #NationalJunkFoodDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116957658117913474",
+        "url": "https://mastodon.social/@ClamBakeSanta/116957658117913474",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mr5oiohktc2n",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "822746911598608384",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-21T22:46:49.767774+00:00"
+  },
+  "NationalCrMeBruleeDay": {
+    "theme": "National Crème Brulee Day",
+    "haiku": "Creamy dreams await,\nCaramel hugs the surface,\nWarm spoons dive with joy.\nHappy #NationalCrMeBruleeDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116957662087135481",
+        "url": "https://mastodon.social/@ClamBakeSanta/116957662087135481",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mr5okhtfae2h",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "822746974861279232",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-21T22:46:49.767774+00:00"
+  },
+  "HappyBirthdayErnestHemingway": {
+    "theme": "Birthday Ernest Hemingway",
+    "haiku": "Lemon cake delights,\nBright stories weave through each page,\nCheers echo with joy.\n#HappyBirthdayErnestHemingway from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116957666051920069",
+        "url": "https://mastodon.social/@ClamBakeSanta/116957666051920069",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mr5ombljss2n",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "822747038094622720",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-21T22:46:49.767774+00:00"
+  },
+  "FirstQuarterMoon": {
+    "theme": "First Quarter Moon",
+    "haiku": "Silver sliver beams,\nWhispers of the night spark joy,\nStars wink in delight.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116957670041232401",
+        "url": "https://mastodon.social/@ClamBakeSanta/116957670041232401",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mr5oo3b7762e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "822747101366779904",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-21T22:46:49.767774+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "114",
+        "url": "https://clambakesanta.wordpress.com/2026/07/21/clam-bake-santa-2026-07-21/",
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-07-21T22:46:49.767774+00:00"
+  }
+}
