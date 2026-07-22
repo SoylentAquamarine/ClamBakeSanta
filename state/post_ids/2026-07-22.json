@@ -1,0 +1,62 @@
+{
+  "NationalMangoDay": {
+    "mastodon": {
+      "id": "116963323895016970",
+      "url": "https://mastodon.social/@ClamBakeSanta/116963323895016970"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mra6xdpvbm2n",
+      "cid": "bafyreifi7ojnop7t5chkr6l6qveiq7ifo275pje546nfvm225qmdaxeroa"
+    },
+    "tumblr": {
+      "id": "822837435820064768",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "324",
+      "channel": "@clambakesanta"
+    }
+  },
+  "RatCatcherSDay": {
+    "mastodon": {
+      "id": "116963327849870231",
+      "url": "https://mastodon.social/@ClamBakeSanta/116963327849870231"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mra6z56jee2u",
+      "cid": "bafyreifowcrzt3txjvqodlfg5heq5kjhzuhcy45q273csn2ba7gcsb7g5u"
+    },
+    "tumblr": {
+      "id": "822837499119403008",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "325",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayGregorMendel": {
+    "mastodon": {
+      "id": "116963331802640516",
+      "url": "https://mastodon.social/@ClamBakeSanta/116963331802640516"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mra72wlmsh2e",
+      "cid": "bafyreihpl24buirmbbt4idym6dm47t4kijzloaattw6uvv5j2folmly4ee"
+    },
+    "tumblr": {
+      "id": "822837562879180800",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "326",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "115",
+      "url": "https://clambakesanta.wordpress.com/2026/07/22/clam-bake-santa-2026-07-22/"
+    }
+  }
+}

@@ -98,7 +98,8 @@
     "2026-07-18",
     "2026-07-19",
     "2026-07-20",
-    "2026-07-21"
+    "2026-07-21",
+    "2026-07-22"
   ],
   "runs": [
     {
@@ -1222,6 +1223,17 @@
         "First Quarter Moon"
       ],
       "content_preview": "Crunchy chips delight, Chocolate rivers flowing sweet, Let the smiles spill wide. Happy #NationalJunkFoodDay from @ClamB"
+    },
+    {
+      "date": "2026-07-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-22T11:19:39.426759+00:00",
+      "themes": [
+        "National Mango Day",
+        "Rat Catcher's Day",
+        "Birthday Gregor Mendel"
+      ],
+      "content_preview": "Juicy mango bliss, Sunset orange, sweet delight, Joy drips with each bite. Happy #NationalMangoDay from @ClamBakeSanta  "
     }
   ]
 }
