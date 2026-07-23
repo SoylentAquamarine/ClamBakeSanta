@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "haikus": [
     {
-      "theme": "National Mango Day",
-      "haiku": "Juicy mango bliss,\nSunset orange, sweet delight,\nJoy drips with each bite.\nHappy #NationalMangoDay from @ClamBakeSanta",
-      "tag": "NationalMangoDay",
+      "theme": "National Vanilla Ice Cream Day",
+      "haiku": "Scoop of creamy bliss,\nDrifting on a warm sweet breeze,\nJoy melts in each bite.\nHappy #NationalVanillaIceCreamDay from @ClamBakeSanta",
+      "tag": "NationalVanillaIceCreamDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Rat Catcher's Day",
-      "haiku": "Children chase and laugh,\nColorful tails swiftly twine,\nJoy spills through the air.\nHappy #RatCatcherSDay from @ClamBakeSanta",
-      "tag": "RatCatcherSDay",
+      "theme": "National Hot Dog Day",
+      "haiku": "Grilled franks on the grill,\nMustard and relish swirl bright,\nSummer's joy unfolds.\nHappy #NationalHotDogDay from @ClamBakeSanta",
+      "tag": "NationalHotDogDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Gregor Mendel",
-      "haiku": "Seeds of joy abound,\nPatterns bloom in rich colors,\nLife's tales intertwine.\n#HappyBirthdayGregorMendel from @ClamBakeSanta",
-      "tag": "HappyBirthdayGregorMendel",
+      "theme": "Birthday Raymond Chandler",
+      "haiku": "Pages bloom with dreams,\nInk spills stories like bright stars,\nCake smiles on the plate.\n#HappyBirthdayRaymondChandler from @ClamBakeSanta",
+      "tag": "HappyBirthdayRaymondChandler",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Welcome to Leo Season",
+      "haiku": "Warm sunbeams will shine,\nFields of gold embrace the day,\nJoy and laughter bloom.\nHappy #WelcomeToLeoSeason from @ClamBakeSanta",
+      "tag": "WelcomeToLeoSeason",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Mango Day",
-    "Rat Catcher's Day",
-    "Birthday Gregor Mendel"
+    "National Vanilla Ice Cream Day",
+    "National Hot Dog Day",
+    "Birthday Raymond Chandler",
+    "Welcome to Leo Season"
   ],
-  "content": "Juicy mango bliss,\nSunset orange, sweet delight,\nJoy drips with each bite.\nHappy #NationalMangoDay from @ClamBakeSanta\n\nChildren chase and laugh,\nColorful tails swiftly twine,\nJoy spills through the air.\nHappy #RatCatcherSDay from @ClamBakeSanta\n\nSeeds of joy abound,\nPatterns bloom in rich colors,\nLife's tales intertwine.\n#HappyBirthdayGregorMendel from @ClamBakeSanta",
-  "saved_at": "2026-07-22T11:11:26.731486+00:00"
+  "content": "Scoop of creamy bliss,\nDrifting on a warm sweet breeze,\nJoy melts in each bite.\nHappy #NationalVanillaIceCreamDay from @ClamBakeSanta\n\nGrilled franks on the grill,\nMustard and relish swirl bright,\nSummer's joy unfolds.\nHappy #NationalHotDogDay from @ClamBakeSanta\n\nPages bloom with dreams,\nInk spills stories like bright stars,\nCake smiles on the plate.\n#HappyBirthdayRaymondChandler from @ClamBakeSanta\n\nWarm sunbeams will shine,\nFields of gold embrace the day,\nJoy and laughter bloom.\nHappy #WelcomeToLeoSeason from @ClamBakeSanta",
+  "saved_at": "2026-07-23T11:12:50.091280+00:00"
 }

@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-07-23T11:25:07.405871+00:00",
+    "date": "2026-07-23",
+    "themes_found": [
+      "National Vanilla Ice Cream Day",
+      "National Hot Dog Day",
+      "Birthday Raymond Chandler",
+      "Welcome to Leo Season"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Vanilla Ice Cream Day",
+        "tag": "NationalVanillaIceCreamDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Hot Dog Day",
+        "tag": "NationalHotDogDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Raymond Chandler",
+        "tag": "HappyBirthdayRaymondChandler",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Welcome to Leo Season",
+        "tag": "WelcomeToLeoSeason",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

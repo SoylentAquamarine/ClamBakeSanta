@@ -99,7 +99,8 @@
     "2026-07-19",
     "2026-07-20",
     "2026-07-21",
-    "2026-07-22"
+    "2026-07-22",
+    "2026-07-23"
   ],
   "runs": [
     {
@@ -1234,6 +1235,18 @@
         "Birthday Gregor Mendel"
       ],
       "content_preview": "Juicy mango bliss, Sunset orange, sweet delight, Joy drips with each bite. Happy #NationalMangoDay from @ClamBakeSanta  "
+    },
+    {
+      "date": "2026-07-23",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-23T11:25:07.405095+00:00",
+      "themes": [
+        "National Vanilla Ice Cream Day",
+        "National Hot Dog Day",
+        "Birthday Raymond Chandler",
+        "Welcome to Leo Season"
+      ],
+      "content_preview": "Scoop of creamy bliss, Drifting on a warm sweet breeze, Joy melts in each bite. Happy #NationalVanillaIceCreamDay from @"
     }
   ]
 }
