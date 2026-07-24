@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-07-16",
-    "theme": "National Fresh Spinach Day",
-    "haiku": "Green leaves dance with cheer,\nFlavorful crunch on plates bright,\nNature's gift to us.\nHappy #NationalFreshSpinachDay from @ClamBakeSanta",
-    "tag": "NationalFreshSpinachDay",
-    "logged_at": "2026-07-16T11:02:41.556762+00:00"
-  },
-  {
-    "date": "2026-07-16",
-    "theme": "National Corn Fritters Day",
-    "haiku": "Golden corn sizzles,\nCrispy edges, warm delight,\nFlavor pops and sings.\nHappy #NationalCornFrittersDay from @ClamBakeSanta",
-    "tag": "NationalCornFrittersDay",
-    "logged_at": "2026-07-16T11:02:41.556762+00:00"
-  },
-  {
-    "date": "2026-07-16",
-    "theme": "Birthday Ginger Rogers",
-    "haiku": "Dancing lights shimmer,\nColors swirl in cheerful glee,\nCake and smiles abound.\n#HappyBirthdayGingerRogers from @ClamBakeSanta",
-    "tag": "HappyBirthdayGingerRogers",
-    "logged_at": "2026-07-16T11:02:41.556762+00:00"
-  },
-  {
     "date": "2026-07-17",
     "theme": "National Peach Ice Cream Day",
     "haiku": "Peach swirls in a cone,\nSweet cream drips on summer's breeze,\nSunshine melts with joy.\nHappy #NationalPeachIceCreamDay from @ClamBakeSanta",
@@ -152,5 +131,33 @@
     "haiku": "Seeds of joy abound,\nPatterns bloom in rich colors,\nLife's tales intertwine.\n#HappyBirthdayGregorMendel from @ClamBakeSanta",
     "tag": "HappyBirthdayGregorMendel",
     "logged_at": "2026-07-22T11:11:26.731883+00:00"
+  },
+  {
+    "date": "2026-07-23",
+    "theme": "National Vanilla Ice Cream Day",
+    "haiku": "Scoop of creamy bliss,\nDrifting on a warm sweet breeze,\nJoy melts in each bite.\nHappy #NationalVanillaIceCreamDay from @ClamBakeSanta",
+    "tag": "NationalVanillaIceCreamDay",
+    "logged_at": "2026-07-23T11:12:50.091652+00:00"
+  },
+  {
+    "date": "2026-07-23",
+    "theme": "National Hot Dog Day",
+    "haiku": "Grilled franks on the grill,\nMustard and relish swirl bright,\nSummer's joy unfolds.\nHappy #NationalHotDogDay from @ClamBakeSanta",
+    "tag": "NationalHotDogDay",
+    "logged_at": "2026-07-23T11:12:50.091652+00:00"
+  },
+  {
+    "date": "2026-07-23",
+    "theme": "Birthday Raymond Chandler",
+    "haiku": "Pages bloom with dreams,\nInk spills stories like bright stars,\nCake smiles on the plate.\n#HappyBirthdayRaymondChandler from @ClamBakeSanta",
+    "tag": "HappyBirthdayRaymondChandler",
+    "logged_at": "2026-07-23T11:12:50.091652+00:00"
+  },
+  {
+    "date": "2026-07-23",
+    "theme": "Welcome to Leo Season",
+    "haiku": "Warm sunbeams will shine,\nFields of gold embrace the day,\nJoy and laughter bloom.\nHappy #WelcomeToLeoSeason from @ClamBakeSanta",
+    "tag": "WelcomeToLeoSeason",
+    "logged_at": "2026-07-23T11:12:50.091652+00:00"
   }
 ]

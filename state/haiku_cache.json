@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "haikus": [
     {
-      "theme": "National Vanilla Ice Cream Day",
-      "haiku": "Scoop of creamy bliss,\nDrifting on a warm sweet breeze,\nJoy melts in each bite.\nHappy #NationalVanillaIceCreamDay from @ClamBakeSanta",
-      "tag": "NationalVanillaIceCreamDay",
+      "theme": "National Tequila Day",
+      "haiku": "Lime and salt embrace,\nGolden sun in crystal glass,\nCheers ring through the air.\nHappy #NationalTequilaDay from @ClamBakeSanta",
+      "tag": "NationalTequilaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Hot Dog Day",
-      "haiku": "Grilled franks on the grill,\nMustard and relish swirl bright,\nSummer's joy unfolds.\nHappy #NationalHotDogDay from @ClamBakeSanta",
-      "tag": "NationalHotDogDay",
+      "theme": "Amelia Earhart Day",
+      "haiku": "Wings stretch wide and bold,\nBlue skies call with sweet promise,\nAdventure takes flight.\nHappy #AmeliaEarhartDay from @ClamBakeSanta",
+      "tag": "AmeliaEarhartDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Raymond Chandler",
-      "haiku": "Pages bloom with dreams,\nInk spills stories like bright stars,\nCake smiles on the plate.\n#HappyBirthdayRaymondChandler from @ClamBakeSanta",
-      "tag": "HappyBirthdayRaymondChandler",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Welcome to Leo Season",
-      "haiku": "Warm sunbeams will shine,\nFields of gold embrace the day,\nJoy and laughter bloom.\nHappy #WelcomeToLeoSeason from @ClamBakeSanta",
-      "tag": "WelcomeToLeoSeason",
+      "theme": "Birthday Alexandre Dumas",
+      "haiku": "Pages turn like leaves,\nInk flows with dreams and laughter,\nStars shine in his words.\n#HappyBirthdayAlexandreDumas from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlexandreDumas",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Vanilla Ice Cream Day",
-    "National Hot Dog Day",
-    "Birthday Raymond Chandler",
-    "Welcome to Leo Season"
+    "National Tequila Day",
+    "Amelia Earhart Day",
+    "Birthday Alexandre Dumas"
   ],
-  "content": "Scoop of creamy bliss,\nDrifting on a warm sweet breeze,\nJoy melts in each bite.\nHappy #NationalVanillaIceCreamDay from @ClamBakeSanta\n\nGrilled franks on the grill,\nMustard and relish swirl bright,\nSummer's joy unfolds.\nHappy #NationalHotDogDay from @ClamBakeSanta\n\nPages bloom with dreams,\nInk spills stories like bright stars,\nCake smiles on the plate.\n#HappyBirthdayRaymondChandler from @ClamBakeSanta\n\nWarm sunbeams will shine,\nFields of gold embrace the day,\nJoy and laughter bloom.\nHappy #WelcomeToLeoSeason from @ClamBakeSanta",
-  "saved_at": "2026-07-23T11:12:50.091280+00:00"
+  "content": "Lime and salt embrace,\nGolden sun in crystal glass,\nCheers ring through the air.\nHappy #NationalTequilaDay from @ClamBakeSanta\n\nWings stretch wide and bold,\nBlue skies call with sweet promise,\nAdventure takes flight.\nHappy #AmeliaEarhartDay from @ClamBakeSanta\n\nPages turn like leaves,\nInk flows with dreams and laughter,\nStars shine in his words.\n#HappyBirthdayAlexandreDumas from @ClamBakeSanta",
+  "saved_at": "2026-07-24T11:04:44.102396+00:00"
 }

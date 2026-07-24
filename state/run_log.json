@@ -100,7 +100,8 @@
     "2026-07-20",
     "2026-07-21",
     "2026-07-22",
-    "2026-07-23"
+    "2026-07-23",
+    "2026-07-24"
   ],
   "runs": [
     {
@@ -1247,6 +1248,17 @@
         "Welcome to Leo Season"
       ],
       "content_preview": "Scoop of creamy bliss, Drifting on a warm sweet breeze, Joy melts in each bite. Happy #NationalVanillaIceCreamDay from @"
+    },
+    {
+      "date": "2026-07-24",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-24T11:13:00.901305+00:00",
+      "themes": [
+        "National Tequila Day",
+        "Amelia Earhart Day",
+        "Birthday Alexandre Dumas"
+      ],
+      "content_preview": "Lime and salt embrace, Golden sun in crystal glass, Cheers ring through the air. Happy #NationalTequilaDay from @ClamBak"
     }
   ]
 }
