@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "haikus": [
     {
-      "theme": "National Tequila Day",
-      "haiku": "Lime and salt embrace,\nGolden sun in crystal glass,\nCheers ring through the air.\nHappy #NationalTequilaDay from @ClamBakeSanta",
-      "tag": "NationalTequilaDay",
+      "theme": "National Hot Fudge Sundae Day",
+      "haiku": "Rich fudge cascades down,\nCool cream curls in warm sunshine,\nSprinkles dance with joy.\nHappy #NationalHotFudgeSundaeDay from @ClamBakeSanta",
+      "tag": "NationalHotFudgeSundaeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Amelia Earhart Day",
-      "haiku": "Wings stretch wide and bold,\nBlue skies call with sweet promise,\nAdventure takes flight.\nHappy #AmeliaEarhartDay from @ClamBakeSanta",
-      "tag": "AmeliaEarhartDay",
+      "theme": "National Wine and Cheese Day",
+      "haiku": "Golden cheese awaits,\nVelvet wine in crystal cups,\nLaughter fills the air.\nHappy #NationalWineAndCheeseDay from @ClamBakeSanta",
+      "tag": "NationalWineAndCheeseDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Alexandre Dumas",
-      "haiku": "Pages turn like leaves,\nInk flows with dreams and laughter,\nStars shine in his words.\n#HappyBirthdayAlexandreDumas from @ClamBakeSanta",
-      "tag": "HappyBirthdayAlexandreDumas",
+      "theme": "Birthday Walter Payton",
+      "haiku": "Golden cakes abound,\nLaughter dances through the air,\nCheers of love resound.\n#HappyBirthdayWalterPayton from @ClamBakeSanta",
+      "tag": "HappyBirthdayWalterPayton",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Tequila Day",
-    "Amelia Earhart Day",
-    "Birthday Alexandre Dumas"
+    "National Hot Fudge Sundae Day",
+    "National Wine and Cheese Day",
+    "Birthday Walter Payton"
   ],
-  "content": "Lime and salt embrace,\nGolden sun in crystal glass,\nCheers ring through the air.\nHappy #NationalTequilaDay from @ClamBakeSanta\n\nWings stretch wide and bold,\nBlue skies call with sweet promise,\nAdventure takes flight.\nHappy #AmeliaEarhartDay from @ClamBakeSanta\n\nPages turn like leaves,\nInk flows with dreams and laughter,\nStars shine in his words.\n#HappyBirthdayAlexandreDumas from @ClamBakeSanta",
-  "saved_at": "2026-07-24T11:04:44.102396+00:00"
+  "content": "Rich fudge cascades down,\nCool cream curls in warm sunshine,\nSprinkles dance with joy.\nHappy #NationalHotFudgeSundaeDay from @ClamBakeSanta\n\nGolden cheese awaits,\nVelvet wine in crystal cups,\nLaughter fills the air.\nHappy #NationalWineAndCheeseDay from @ClamBakeSanta\n\nGolden cakes abound,\nLaughter dances through the air,\nCheers of love resound.\n#HappyBirthdayWalterPayton from @ClamBakeSanta",
+  "saved_at": "2026-07-25T10:35:57.023889+00:00"
 }

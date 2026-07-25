@@ -101,7 +101,8 @@
     "2026-07-21",
     "2026-07-22",
     "2026-07-23",
-    "2026-07-24"
+    "2026-07-24",
+    "2026-07-25"
   ],
   "runs": [
     {
@@ -1259,6 +1260,17 @@
         "Birthday Alexandre Dumas"
       ],
       "content_preview": "Lime and salt embrace, Golden sun in crystal glass, Cheers ring through the air. Happy #NationalTequilaDay from @ClamBak"
+    },
+    {
+      "date": "2026-07-25",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-25T10:44:05.940867+00:00",
+      "themes": [
+        "National Hot Fudge Sundae Day",
+        "National Wine and Cheese Day",
+        "Birthday Walter Payton"
+      ],
+      "content_preview": "Rich fudge cascades down, Cool cream curls in warm sunshine, Sprinkles dance with joy. Happy #NationalHotFudgeSundaeDay "
     }
   ]
 }
