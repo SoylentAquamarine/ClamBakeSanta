@@ -1,0 +1,130 @@
+{
+  "NationalBagelfestDay": {
+    "theme": "National Bagelfest Day",
+    "haiku": "Warm bagels rising,\nCream cheese spreads like soft whispers,\nFriends gather and share.\nHappy #NationalBagelfestDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116985872664438044",
+        "url": "https://mastodon.social/@ClamBakeSanta/116985872664438044",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrk7h5y6z62n",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823198343757004800",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-26T22:52:41.831431+00:00"
+  },
+  "OneVoiceDay": {
+    "theme": "One Voice Day",
+    "haiku": "Voices rise like song,\nColors splash in warm sunlight,\nHearts beat as one strong.\nHappy #OneVoiceDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116985876645512601",
+        "url": "https://mastodon.social/@ClamBakeSanta/116985876645512601",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrk7ixjbty2u",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823198407070990336",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-26T22:52:41.831431+00:00"
+  },
+  "HappyBirthdayGeorgeBernardShaw": {
+    "theme": "Birthday George Bernard Shaw",
+    "haiku": "Bright blooms dance with glee,\nWords weave through the sunlit air,\nLaughter fills the day.\n#HappyBirthdayGeorgeBernardShaw from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116985880600324585",
+        "url": "https://mastodon.social/@ClamBakeSanta/116985880600324585",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrk7kqwjon2n",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823198470757318656",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-26T22:52:41.831431+00:00"
+  },
+  "HappyBirthdayCarlJung": {
+    "theme": "Birthday Carl Jung",
+    "haiku": "Winds of thought do dance,\nColors of dreams intertwine,\nWisdom blooms like spring.\n#HappyBirthdayCarlJung from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116985884557471529",
+        "url": "https://mastodon.social/@ClamBakeSanta/116985884557471529",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrk7mkdbs627",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823198534026313728",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-26T22:52:41.831431+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "119",
+        "url": "https://clambakesanta.wordpress.com/2026/07/26/clam-bake-santa-2026-07-26/",
+        "views": 1,
+        "likes": 1,
+        "comments": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-07-26T22:52:41.831431+00:00"
+  }
+}
