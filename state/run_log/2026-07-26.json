@@ -1,16 +1,17 @@
 [
   {
-    "timestamp": "2026-06-25T11:50:06.156259+00:00",
-    "date": "2026-06-25",
+    "timestamp": "2026-07-26T10:58:09.314450+00:00",
+    "date": "2026-07-26",
     "themes_found": [
-      "National Catfish Day",
-      "Log Cabin Day",
-      "Birthday George Orwell"
+      "National Bagelfest Day",
+      "One Voice Day",
+      "Birthday George Bernard Shaw",
+      "Birthday Carl Jung"
     ],
     "haikus_posted": [
       {
-        "theme": "National Catfish Day",
-        "tag": "NationalCatfishDay",
+        "theme": "National Bagelfest Day",
+        "tag": "NationalBagelfestDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +20,8 @@
         ]
       },
       {
-        "theme": "Log Cabin Day",
-        "tag": "LogCabinDay",
+        "theme": "One Voice Day",
+        "tag": "OneVoiceDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +30,18 @@
         ]
       },
       {
-        "theme": "Birthday George Orwell",
-        "tag": "HappyBirthdayGeorgeOrwell",
+        "theme": "Birthday George Bernard Shaw",
+        "tag": "HappyBirthdayGeorgeBernardShaw",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Carl Jung",
+        "tag": "HappyBirthdayCarlJung",
         "valid_syllables": true,
         "counts": [
           5,

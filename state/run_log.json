@@ -102,7 +102,8 @@
     "2026-07-22",
     "2026-07-23",
     "2026-07-24",
-    "2026-07-25"
+    "2026-07-25",
+    "2026-07-26"
   ],
   "runs": [
     {
@@ -1271,6 +1272,18 @@
         "Birthday Walter Payton"
       ],
       "content_preview": "Rich fudge cascades down, Cool cream curls in warm sunshine, Sprinkles dance with joy. Happy #NationalHotFudgeSundaeDay "
+    },
+    {
+      "date": "2026-07-26",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-26T10:58:09.313380+00:00",
+      "themes": [
+        "National Bagelfest Day",
+        "One Voice Day",
+        "Birthday George Bernard Shaw",
+        "Birthday Carl Jung"
+      ],
+      "content_preview": "Warm bagels rising, Cream cheese spreads like soft whispers, Friends gather and share. Happy #NationalBagelfestDay from "
     }
   ]
 }
