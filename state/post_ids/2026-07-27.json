@@ -1,0 +1,62 @@
+{
+  "NationalScotchDay": {
+    "mastodon": {
+      "id": "116991931067150147",
+      "url": "https://mastodon.social/@ClamBakeSanta/116991931067150147"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrmvifiu662e",
+      "cid": "bafyreifqrghb7lmdum2vljonaqmgeau55jgndpvvi6gvxrlqz7to4rktzu"
+    },
+    "tumblr": {
+      "id": "823295151016427520",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "341",
+      "channel": "@clambakesanta"
+    }
+  },
+  "WalkOnStiltsDay": {
+    "mastodon": {
+      "id": "116991935064111083",
+      "url": "https://mastodon.social/@ClamBakeSanta/116991935064111083"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrmvk6ttyu2p",
+      "cid": "bafyreig5pwvbenp2yxi6rvxisih4y2szwhgukzozr2qgon4qd3tfdxclg4"
+    },
+    "tumblr": {
+      "id": "823295214231945216",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "342",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayBugsBunny": {
+    "mastodon": {
+      "id": "116991939029226516",
+      "url": "https://mastodon.social/@ClamBakeSanta/116991939029226516"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrmvly5kpm2p",
+      "cid": "bafyreieqoj23xzirb7hbdbyfbyb3pdktnsekyrzqc326iyfackr3ufnjie"
+    },
+    "tumblr": {
+      "id": "823295277450526720",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "343",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "120",
+      "url": "https://clambakesanta.wordpress.com/2026/07/27/clam-bake-santa-2026-07-27/"
+    }
+  }
+}

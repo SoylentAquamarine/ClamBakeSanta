@@ -103,7 +103,8 @@
     "2026-07-23",
     "2026-07-24",
     "2026-07-25",
-    "2026-07-26"
+    "2026-07-26",
+    "2026-07-27"
   ],
   "runs": [
     {
@@ -1284,6 +1285,17 @@
         "Birthday Carl Jung"
       ],
       "content_preview": "Warm bagels rising, Cream cheese spreads like soft whispers, Friends gather and share. Happy #NationalBagelfestDay from "
+    },
+    {
+      "date": "2026-07-27",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-27T12:34:49.777529+00:00",
+      "themes": [
+        "National Scotch Day",
+        "Walk on Stilts Day",
+        "Birthday Bugs Bunny"
+      ],
+      "content_preview": "Amber liquid glows, Aged wood whispers ancient tales, Cheers fill the warm air. Happy #NationalScotchDay from @ClamBakeS"
     }
   ]
 }

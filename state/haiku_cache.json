@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "haikus": [
     {
-      "theme": "National Bagelfest Day",
-      "haiku": "Warm bagels rising,\nCream cheese spreads like soft whispers,\nFriends gather and share.\nHappy #NationalBagelfestDay from @ClamBakeSanta",
-      "tag": "NationalBagelfestDay",
+      "theme": "National Scotch Day",
+      "haiku": "Amber liquid glows,\nAged wood whispers ancient tales,\nCheers fill the warm air.\nHappy #NationalScotchDay from @ClamBakeSanta",
+      "tag": "NationalScotchDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "One Voice Day",
-      "haiku": "Voices rise like song,\nColors splash in warm sunlight,\nHearts beat as one strong.\nHappy #OneVoiceDay from @ClamBakeSanta",
-      "tag": "OneVoiceDay",
+      "theme": "Walk on Stilts Day",
+      "haiku": "Tall trees sway and bend,\nLaughter dances in the breeze,\nStep high, hearts take flight.\nHappy #WalkOnStiltsDay from @ClamBakeSanta",
+      "tag": "WalkOnStiltsDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday George Bernard Shaw",
-      "haiku": "Bright blooms dance with glee,\nWords weave through the sunlit air,\nLaughter fills the day.\n#HappyBirthdayGeorgeBernardShaw from @ClamBakeSanta",
-      "tag": "HappyBirthdayGeorgeBernardShaw",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Carl Jung",
-      "haiku": "Winds of thought do dance,\nColors of dreams intertwine,\nWisdom blooms like spring.\n#HappyBirthdayCarlJung from @ClamBakeSanta",
-      "tag": "HappyBirthdayCarlJung",
+      "theme": "Birthday Bugs Bunny",
+      "haiku": "Bouncing through the vale,\nCarrots crisp in bright sunlight,\nLaughter fills the air.\n#HappyBirthdayBugsBunny from @ClamBakeSanta",
+      "tag": "HappyBirthdayBugsBunny",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Bagelfest Day",
-    "One Voice Day",
-    "Birthday George Bernard Shaw",
-    "Birthday Carl Jung"
+    "National Scotch Day",
+    "Walk on Stilts Day",
+    "Birthday Bugs Bunny"
   ],
-  "content": "Warm bagels rising,\nCream cheese spreads like soft whispers,\nFriends gather and share.\nHappy #NationalBagelfestDay from @ClamBakeSanta\n\nVoices rise like song,\nColors splash in warm sunlight,\nHearts beat as one strong.\nHappy #OneVoiceDay from @ClamBakeSanta\n\nBright blooms dance with glee,\nWords weave through the sunlit air,\nLaughter fills the day.\n#HappyBirthdayGeorgeBernardShaw from @ClamBakeSanta\n\nWinds of thought do dance,\nColors of dreams intertwine,\nWisdom blooms like spring.\n#HappyBirthdayCarlJung from @ClamBakeSanta",
-  "saved_at": "2026-07-26T10:45:53.477961+00:00"
+  "content": "Amber liquid glows,\nAged wood whispers ancient tales,\nCheers fill the warm air.\nHappy #NationalScotchDay from @ClamBakeSanta\n\nTall trees sway and bend,\nLaughter dances in the breeze,\nStep high, hearts take flight.\nHappy #WalkOnStiltsDay from @ClamBakeSanta\n\nBouncing through the vale,\nCarrots crisp in bright sunlight,\nLaughter fills the air.\n#HappyBirthdayBugsBunny from @ClamBakeSanta",
+  "saved_at": "2026-07-27T12:26:37.430646+00:00"
 }
