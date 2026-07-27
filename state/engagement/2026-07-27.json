@@ -1,0 +1,102 @@
+{
+  "NationalScotchDay": {
+    "theme": "National Scotch Day",
+    "haiku": "Amber liquid glows,\nAged wood whispers ancient tales,\nCheers fill the warm air.\nHappy #NationalScotchDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116991931067150147",
+        "url": "https://mastodon.social/@ClamBakeSanta/116991931067150147",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrmvifiu662e",
+        "likes": 0,
+        "reposts": 1,
+        "replies": 0,
+        "score": 2
+      },
+      "tumblr": {
+        "id": "823295151016427520",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-07-27T22:53:49.453063+00:00"
+  },
+  "WalkOnStiltsDay": {
+    "theme": "Walk on Stilts Day",
+    "haiku": "Tall trees sway and bend,\nLaughter dances in the breeze,\nStep high, hearts take flight.\nHappy #WalkOnStiltsDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116991935064111083",
+        "url": "https://mastodon.social/@ClamBakeSanta/116991935064111083",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrmvk6ttyu2p",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823295214231945216",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-27T22:53:49.453063+00:00"
+  },
+  "HappyBirthdayBugsBunny": {
+    "theme": "Birthday Bugs Bunny",
+    "haiku": "Bouncing through the vale,\nCarrots crisp in bright sunlight,\nLaughter fills the air.\n#HappyBirthdayBugsBunny from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116991939029226516",
+        "url": "https://mastodon.social/@ClamBakeSanta/116991939029226516",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrmvly5kpm2p",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823295277450526720",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-27T22:53:49.453063+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "120",
+        "url": "https://clambakesanta.wordpress.com/2026/07/27/clam-bake-santa-2026-07-27/",
+        "views": 3,
+        "likes": 3,
+        "comments": 0,
+        "score": 3
+      }
+    },
+    "total_score": 3,
+    "last_checked": "2026-07-27T22:53:49.453063+00:00"
+  }
+}
