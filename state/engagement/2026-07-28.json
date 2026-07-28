@@ -1,0 +1,130 @@
+{
+  "NationalMilkChocolateDay": {
+    "theme": "National Milk Chocolate Day",
+    "haiku": "Rich rivers of gold,\nMelting sweet on eager tongues,\nJoy spills with each bite.\nHappy #NationalMilkChocolateDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116997332665809505",
+        "url": "https://mastodon.social/@ClamBakeSanta/116997332665809505",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrpccl6gqk2u",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823381703834976256",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-28T22:52:10.412577+00:00"
+  },
+  "NationalWaterparkDay": {
+    "theme": "National Waterpark Day",
+    "haiku": "Splashing waves and joy,\nBright sun glimmers on water,\nLaughter fills the air.\nHappy #NationalWaterparkDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116997336625879077",
+        "url": "https://mastodon.social/@ClamBakeSanta/116997336625879077",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrpceejrsa2g",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823381767103873024",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-28T22:52:10.412577+00:00"
+  },
+  "HappyBirthdayBeatrixPotter": {
+    "theme": "Birthday Beatrix Potter",
+    "haiku": "Bunnies hop with joy,\nPainted tales in soft colors,\nNature's magic glows.\n#HappyBirthdayBeatrixPotter from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116997340594181614",
+        "url": "https://mastodon.social/@ClamBakeSanta/116997340594181614",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrpcg5thwt2o",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823381830351945728",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-28T22:52:10.412577+00:00"
+  },
+  "HappyBirthdayGerardManleyHopkins": {
+    "theme": "Birthday Gerard Manley Hopkins",
+    "haiku": "Joyful blooms abound,\nNature's whispers dance and sing,\nLife's sweet song begins.\n#HappyBirthdayGerardManleyHopkins from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "116997344606452773",
+        "url": "https://mastodon.social/@ClamBakeSanta/116997344606452773",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrpchx6v2f2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "823381893646008320",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-28T22:52:10.412577+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "121",
+        "url": "https://clambakesanta.wordpress.com/2026/07/28/clam-bake-santa-2026-07-28/",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-07-28T22:52:10.412577+00:00"
+  }
+}
