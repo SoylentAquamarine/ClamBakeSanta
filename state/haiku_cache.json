@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "haikus": [
     {
-      "theme": "National Scotch Day",
-      "haiku": "Amber liquid glows,\nAged wood whispers ancient tales,\nCheers fill the warm air.\nHappy #NationalScotchDay from @ClamBakeSanta",
-      "tag": "NationalScotchDay",
+      "theme": "National Milk Chocolate Day",
+      "haiku": "Rich rivers of gold,\nMelting sweet on eager tongues,\nJoy spills with each bite.\nHappy #NationalMilkChocolateDay from @ClamBakeSanta",
+      "tag": "NationalMilkChocolateDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Walk on Stilts Day",
-      "haiku": "Tall trees sway and bend,\nLaughter dances in the breeze,\nStep high, hearts take flight.\nHappy #WalkOnStiltsDay from @ClamBakeSanta",
-      "tag": "WalkOnStiltsDay",
+      "theme": "National Waterpark Day",
+      "haiku": "Splashing waves and joy,\nBright sun glimmers on water,\nLaughter fills the air.\nHappy #NationalWaterparkDay from @ClamBakeSanta",
+      "tag": "NationalWaterparkDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Bugs Bunny",
-      "haiku": "Bouncing through the vale,\nCarrots crisp in bright sunlight,\nLaughter fills the air.\n#HappyBirthdayBugsBunny from @ClamBakeSanta",
-      "tag": "HappyBirthdayBugsBunny",
+      "theme": "Birthday Beatrix Potter",
+      "haiku": "Bunnies hop with joy,\nPainted tales in soft colors,\nNature's magic glows.\n#HappyBirthdayBeatrixPotter from @ClamBakeSanta",
+      "tag": "HappyBirthdayBeatrixPotter",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Gerard Manley Hopkins",
+      "haiku": "Joyful blooms abound,\nNature's whispers dance and sing,\nLife's sweet song begins.\n#HappyBirthdayGerardManleyHopkins from @ClamBakeSanta",
+      "tag": "HappyBirthdayGerardManleyHopkins",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Scotch Day",
-    "Walk on Stilts Day",
-    "Birthday Bugs Bunny"
+    "National Milk Chocolate Day",
+    "National Waterpark Day",
+    "Birthday Beatrix Potter",
+    "Birthday Gerard Manley Hopkins"
   ],
-  "content": "Amber liquid glows,\nAged wood whispers ancient tales,\nCheers fill the warm air.\nHappy #NationalScotchDay from @ClamBakeSanta\n\nTall trees sway and bend,\nLaughter dances in the breeze,\nStep high, hearts take flight.\nHappy #WalkOnStiltsDay from @ClamBakeSanta\n\nBouncing through the vale,\nCarrots crisp in bright sunlight,\nLaughter fills the air.\n#HappyBirthdayBugsBunny from @ClamBakeSanta",
-  "saved_at": "2026-07-27T12:26:37.430646+00:00"
+  "content": "Rich rivers of gold,\nMelting sweet on eager tongues,\nJoy spills with each bite.\nHappy #NationalMilkChocolateDay from @ClamBakeSanta\n\nSplashing waves and joy,\nBright sun glimmers on water,\nLaughter fills the air.\nHappy #NationalWaterparkDay from @ClamBakeSanta\n\nBunnies hop with joy,\nPainted tales in soft colors,\nNature's magic glows.\n#HappyBirthdayBeatrixPotter from @ClamBakeSanta\n\nJoyful blooms abound,\nNature's whispers dance and sing,\nLife's sweet song begins.\n#HappyBirthdayGerardManleyHopkins from @ClamBakeSanta",
+  "saved_at": "2026-07-28T11:20:19.365450+00:00"
 }

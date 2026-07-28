@@ -104,7 +104,8 @@
     "2026-07-24",
     "2026-07-25",
     "2026-07-26",
-    "2026-07-27"
+    "2026-07-27",
+    "2026-07-28"
   ],
   "runs": [
     {
@@ -1296,6 +1297,18 @@
         "Birthday Bugs Bunny"
       ],
       "content_preview": "Amber liquid glows, Aged wood whispers ancient tales, Cheers fill the warm air. Happy #NationalScotchDay from @ClamBakeS"
+    },
+    {
+      "date": "2026-07-28",
+      "engine": "clambakesanta",
+      "timestamp": "2026-07-28T11:32:33.586972+00:00",
+      "themes": [
+        "National Milk Chocolate Day",
+        "National Waterpark Day",
+        "Birthday Beatrix Potter",
+        "Birthday Gerard Manley Hopkins"
+      ],
+      "content_preview": "Rich rivers of gold, Melting sweet on eager tongues, Joy spills with each bite. Happy #NationalMilkChocolateDay from @Cl"
     }
   ]
 }

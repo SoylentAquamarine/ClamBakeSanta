@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-07-28T11:32:33.588051+00:00",
+    "date": "2026-07-28",
+    "themes_found": [
+      "National Milk Chocolate Day",
+      "National Waterpark Day",
+      "Birthday Beatrix Potter",
+      "Birthday Gerard Manley Hopkins"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Milk Chocolate Day",
+        "tag": "NationalMilkChocolateDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Waterpark Day",
+        "tag": "NationalWaterparkDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Beatrix Potter",
+        "tag": "HappyBirthdayBeatrixPotter",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Gerard Manley Hopkins",
+        "tag": "HappyBirthdayGerardManleyHopkins",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]
