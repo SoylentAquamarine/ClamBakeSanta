@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-21",
-    "theme": "National Junk Food Day",
-    "haiku": "Crunchy chips delight,\nChocolate rivers flowing sweet,\nLet the smiles spill wide.\nHappy #NationalJunkFoodDay from @ClamBakeSanta",
-    "tag": "NationalJunkFoodDay",
-    "logged_at": "2026-07-21T11:10:33.728319+00:00"
-  },
-  {
-    "date": "2026-07-21",
-    "theme": "National Crème Brulee Day",
-    "haiku": "Creamy dreams await,\nCaramel hugs the surface,\nWarm spoons dive with joy.\nHappy #NationalCrMeBruleeDay from @ClamBakeSanta",
-    "tag": "NationalCrMeBruleeDay",
-    "logged_at": "2026-07-21T11:10:33.728319+00:00"
-  },
-  {
-    "date": "2026-07-21",
-    "theme": "Birthday Ernest Hemingway",
-    "haiku": "Lemon cake delights,\nBright stories weave through each page,\nCheers echo with joy.\n#HappyBirthdayErnestHemingway from @ClamBakeSanta",
-    "tag": "HappyBirthdayErnestHemingway",
-    "logged_at": "2026-07-21T11:10:33.728319+00:00"
-  },
-  {
-    "date": "2026-07-21",
-    "theme": "First Quarter Moon",
-    "haiku": "Silver sliver beams,\nWhispers of the night spark joy,\nStars wink in delight.\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-    "tag": "FirstQuarterMoon",
-    "logged_at": "2026-07-21T11:10:33.728319+00:00"
-  },
-  {
     "date": "2026-07-22",
     "theme": "National Mango Day",
     "haiku": "Juicy mango bliss,\nSunset orange, sweet delight,\nJoy drips with each bite.\nHappy #NationalMangoDay from @ClamBakeSanta",
@@ -166,5 +138,33 @@
     "haiku": "Bouncing through the vale,\nCarrots crisp in bright sunlight,\nLaughter fills the air.\n#HappyBirthdayBugsBunny from @ClamBakeSanta",
     "tag": "HappyBirthdayBugsBunny",
     "logged_at": "2026-07-27T12:26:37.431054+00:00"
+  },
+  {
+    "date": "2026-07-28",
+    "theme": "National Milk Chocolate Day",
+    "haiku": "Rich rivers of gold,\nMelting sweet on eager tongues,\nJoy spills with each bite.\nHappy #NationalMilkChocolateDay from @ClamBakeSanta",
+    "tag": "NationalMilkChocolateDay",
+    "logged_at": "2026-07-28T11:20:19.365843+00:00"
+  },
+  {
+    "date": "2026-07-28",
+    "theme": "National Waterpark Day",
+    "haiku": "Splashing waves and joy,\nBright sun glimmers on water,\nLaughter fills the air.\nHappy #NationalWaterparkDay from @ClamBakeSanta",
+    "tag": "NationalWaterparkDay",
+    "logged_at": "2026-07-28T11:20:19.365843+00:00"
+  },
+  {
+    "date": "2026-07-28",
+    "theme": "Birthday Beatrix Potter",
+    "haiku": "Bunnies hop with joy,\nPainted tales in soft colors,\nNature's magic glows.\n#HappyBirthdayBeatrixPotter from @ClamBakeSanta",
+    "tag": "HappyBirthdayBeatrixPotter",
+    "logged_at": "2026-07-28T11:20:19.365843+00:00"
+  },
+  {
+    "date": "2026-07-28",
+    "theme": "Birthday Gerard Manley Hopkins",
+    "haiku": "Joyful blooms abound,\nNature's whispers dance and sing,\nLife's sweet song begins.\n#HappyBirthdayGerardManleyHopkins from @ClamBakeSanta",
+    "tag": "HappyBirthdayGerardManleyHopkins",
+    "logged_at": "2026-07-28T11:20:19.365843+00:00"
   }
 ]

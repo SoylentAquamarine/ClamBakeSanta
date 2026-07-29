@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "haikus": [
     {
-      "theme": "National Milk Chocolate Day",
-      "haiku": "Rich rivers of gold,\nMelting sweet on eager tongues,\nJoy spills with each bite.\nHappy #NationalMilkChocolateDay from @ClamBakeSanta",
-      "tag": "NationalMilkChocolateDay",
+      "theme": "National Lasagna Day",
+      "haiku": "Layers intertwined,\nSavory herbs fill the air,\nA feast shared with joy.\nHappy #NationalLasagnaDay from @ClamBakeSanta",
+      "tag": "NationalLasagnaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Waterpark Day",
-      "haiku": "Splashing waves and joy,\nBright sun glimmers on water,\nLaughter fills the air.\nHappy #NationalWaterparkDay from @ClamBakeSanta",
-      "tag": "NationalWaterparkDay",
+      "theme": "Lipstick Day",
+      "haiku": "Crimson kisses glow,\nSoft whispers of sweet colors,\nLaughter paints the day.\nHappy #LipstickDay from @ClamBakeSanta",
+      "tag": "LipstickDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Beatrix Potter",
-      "haiku": "Bunnies hop with joy,\nPainted tales in soft colors,\nNature's magic glows.\n#HappyBirthdayBeatrixPotter from @ClamBakeSanta",
-      "tag": "HappyBirthdayBeatrixPotter",
+      "theme": "Birthday William Wilberforce",
+      "haiku": "Candles flicker bright,\nLaughter dances through the air,\nJoyous hearts unite.\n#HappyBirthdayWilliamWilberforce from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamWilberforce",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Gerard Manley Hopkins",
-      "haiku": "Joyful blooms abound,\nNature's whispers dance and sing,\nLife's sweet song begins.\n#HappyBirthdayGerardManleyHopkins from @ClamBakeSanta",
-      "tag": "HappyBirthdayGerardManleyHopkins",
+      "theme": "Full Moon",
+      "haiku": "Silver glow above,\nWhispers of the calm night breeze,\nHearts lift in delight.\nHappy #FullMoon from @ClamBakeSanta",
+      "tag": "FullMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Milk Chocolate Day",
-    "National Waterpark Day",
-    "Birthday Beatrix Potter",
-    "Birthday Gerard Manley Hopkins"
+    "National Lasagna Day",
+    "Lipstick Day",
+    "Birthday William Wilberforce",
+    "Full Moon"
   ],
-  "content": "Rich rivers of gold,\nMelting sweet on eager tongues,\nJoy spills with each bite.\nHappy #NationalMilkChocolateDay from @ClamBakeSanta\n\nSplashing waves and joy,\nBright sun glimmers on water,\nLaughter fills the air.\nHappy #NationalWaterparkDay from @ClamBakeSanta\n\nBunnies hop with joy,\nPainted tales in soft colors,\nNature's magic glows.\n#HappyBirthdayBeatrixPotter from @ClamBakeSanta\n\nJoyful blooms abound,\nNature's whispers dance and sing,\nLife's sweet song begins.\n#HappyBirthdayGerardManleyHopkins from @ClamBakeSanta",
-  "saved_at": "2026-07-28T11:20:19.365450+00:00"
+  "content": "Layers intertwined,\nSavory herbs fill the air,\nA feast shared with joy.\nHappy #NationalLasagnaDay from @ClamBakeSanta\n\nCrimson kisses glow,\nSoft whispers of sweet colors,\nLaughter paints the day.\nHappy #LipstickDay from @ClamBakeSanta\n\nCandles flicker bright,\nLaughter dances through the air,\nJoyous hearts unite.\n#HappyBirthdayWilliamWilberforce from @ClamBakeSanta\n\nSilver glow above,\nWhispers of the calm night breeze,\nHearts lift in delight.\nHappy #FullMoon from @ClamBakeSanta",
+  "saved_at": "2026-07-29T11:27:50.288033+00:00"
 }
