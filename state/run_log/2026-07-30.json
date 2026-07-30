@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-06-29T13:21:35.740772+00:00",
-    "date": "2026-06-29",
+    "timestamp": "2026-07-30T11:21:38.392474+00:00",
+    "date": "2026-07-30",
     "themes_found": [
-      "National Almond Buttercrunch Day",
-      "Camera Day",
-      "Birthday Antoine de Saint-Exupery",
-      "Full Moon"
+      "International Day of Friendship",
+      "National Cheesecake Day",
+      "Birthday Emily Bronte",
+      "Birthday Henry Ford"
     ],
     "haikus_posted": [
       {
-        "theme": "National Almond Buttercrunch Day",
-        "tag": "NationalAlmondButtercrunchDay",
+        "theme": "International Day of Friendship",
+        "tag": "InternationalDayOfFriendship",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "Camera Day",
-        "tag": "CameraDay",
+        "theme": "National Cheesecake Day",
+        "tag": "NationalCheesecakeDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday Antoine de Saint-Exupery",
-        "tag": "HappyBirthdayAntoinedeSaintExupery",
+        "theme": "Birthday Emily Bronte",
+        "tag": "HappyBirthdayEmilyBronte",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "Full Moon",
-        "tag": "FullMoon",
+        "theme": "Birthday Henry Ford",
+        "tag": "HappyBirthdayHenryFord",
         "valid_syllables": true,
         "counts": [
           5,

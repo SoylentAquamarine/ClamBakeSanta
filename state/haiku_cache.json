@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "haikus": [
     {
-      "theme": "National Lasagna Day",
-      "haiku": "Layers intertwined,\nSavory herbs fill the air,\nA feast shared with joy.\nHappy #NationalLasagnaDay from @ClamBakeSanta",
-      "tag": "NationalLasagnaDay",
+      "theme": "International Day of Friendship",
+      "haiku": "Laughter fills the air,\nHand in hand, hearts intertwine,\nJoyous bonds we share.\nHappy #InternationalDayOfFriendship from @ClamBakeSanta",
+      "tag": "InternationalDayOfFriendship",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Lipstick Day",
-      "haiku": "Crimson kisses glow,\nSoft whispers of sweet colors,\nLaughter paints the day.\nHappy #LipstickDay from @ClamBakeSanta",
-      "tag": "LipstickDay",
+      "theme": "National Cheesecake Day",
+      "haiku": "Crust crumbles with joy,\nVelvet layers cradle dreams,\nSweet bites melt the day.\nHappy #NationalCheesecakeDay from @ClamBakeSanta",
+      "tag": "NationalCheesecakeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday William Wilberforce",
-      "haiku": "Candles flicker bright,\nLaughter dances through the air,\nJoyous hearts unite.\n#HappyBirthdayWilliamWilberforce from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamWilberforce",
+      "theme": "Birthday Emily Bronte",
+      "haiku": "Laughter fills the air,\nBright candles flicker and shine,\nJoy wrapped in sweet love.\n#HappyBirthdayEmilyBronte from @ClamBakeSanta",
+      "tag": "HappyBirthdayEmilyBronte",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Full Moon",
-      "haiku": "Silver glow above,\nWhispers of the calm night breeze,\nHearts lift in delight.\nHappy #FullMoon from @ClamBakeSanta",
-      "tag": "FullMoon",
+      "theme": "Birthday Henry Ford",
+      "haiku": "Engines hum with pride,\nBright wheels spin on smooth pavement,\nJoy drives us forward.\n#HappyBirthdayHenryFord from @ClamBakeSanta",
+      "tag": "HappyBirthdayHenryFord",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Lasagna Day",
-    "Lipstick Day",
-    "Birthday William Wilberforce",
-    "Full Moon"
+    "International Day of Friendship",
+    "National Cheesecake Day",
+    "Birthday Emily Bronte",
+    "Birthday Henry Ford"
   ],
-  "content": "Layers intertwined,\nSavory herbs fill the air,\nA feast shared with joy.\nHappy #NationalLasagnaDay from @ClamBakeSanta\n\nCrimson kisses glow,\nSoft whispers of sweet colors,\nLaughter paints the day.\nHappy #LipstickDay from @ClamBakeSanta\n\nCandles flicker bright,\nLaughter dances through the air,\nJoyous hearts unite.\n#HappyBirthdayWilliamWilberforce from @ClamBakeSanta\n\nSilver glow above,\nWhispers of the calm night breeze,\nHearts lift in delight.\nHappy #FullMoon from @ClamBakeSanta",
-  "saved_at": "2026-07-29T11:27:50.288033+00:00"
+  "content": "Laughter fills the air,\nHand in hand, hearts intertwine,\nJoyous bonds we share.\nHappy #InternationalDayOfFriendship from @ClamBakeSanta\n\nCrust crumbles with joy,\nVelvet layers cradle dreams,\nSweet bites melt the day.\nHappy #NationalCheesecakeDay from @ClamBakeSanta\n\nLaughter fills the air,\nBright candles flicker and shine,\nJoy wrapped in sweet love.\n#HappyBirthdayEmilyBronte from @ClamBakeSanta\n\nEngines hum with pride,\nBright wheels spin on smooth pavement,\nJoy drives us forward.\n#HappyBirthdayHenryFord from @ClamBakeSanta",
+  "saved_at": "2026-07-30T11:09:22.219377+00:00"
 }
