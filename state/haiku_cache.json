@@ -1,57 +1,12 @@
 {
-  "date": "2026-07-30",
-  "haikus": [
-    {
-      "theme": "International Day of Friendship",
-      "haiku": "Laughter fills the air,\nHand in hand, hearts intertwine,\nJoyous bonds we share.\nHappy #InternationalDayOfFriendship from @ClamBakeSanta",
-      "tag": "InternationalDayOfFriendship",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "National Cheesecake Day",
-      "haiku": "Crust crumbles with joy,\nVelvet layers cradle dreams,\nSweet bites melt the day.\nHappy #NationalCheesecakeDay from @ClamBakeSanta",
-      "tag": "NationalCheesecakeDay",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Emily Bronte",
-      "haiku": "Laughter fills the air,\nBright candles flicker and shine,\nJoy wrapped in sweet love.\n#HappyBirthdayEmilyBronte from @ClamBakeSanta",
-      "tag": "HappyBirthdayEmilyBronte",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Henry Ford",
-      "haiku": "Engines hum with pride,\nBright wheels spin on smooth pavement,\nJoy drives us forward.\n#HappyBirthdayHenryFord from @ClamBakeSanta",
-      "tag": "HappyBirthdayHenryFord",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    }
-  ],
+  "date": "2026-07-31",
+  "haikus": [],
   "themes": [
-    "International Day of Friendship",
-    "National Cheesecake Day",
-    "Birthday Emily Bronte",
-    "Birthday Henry Ford"
+    "National Avocado Day",
+    "Uncommon Instruments Awareness Day",
+    "Birthday Milton Friedman",
+    "Birthday Primo Levi"
   ],
-  "content": "Laughter fills the air,\nHand in hand, hearts intertwine,\nJoyous bonds we share.\nHappy #InternationalDayOfFriendship from @ClamBakeSanta\n\nCrust crumbles with joy,\nVelvet layers cradle dreams,\nSweet bites melt the day.\nHappy #NationalCheesecakeDay from @ClamBakeSanta\n\nLaughter fills the air,\nBright candles flicker and shine,\nJoy wrapped in sweet love.\n#HappyBirthdayEmilyBronte from @ClamBakeSanta\n\nEngines hum with pride,\nBright wheels spin on smooth pavement,\nJoy drives us forward.\n#HappyBirthdayHenryFord from @ClamBakeSanta",
-  "saved_at": "2026-07-30T11:09:22.219377+00:00"
+  "content": "",
+  "saved_at": "2026-07-31T11:30:12.021958+00:00"
 }
