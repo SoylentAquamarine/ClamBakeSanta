@@ -26,7 +26,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "NationalCheesecakeDay": {
       "theme": "National Cheesecake Day",
@@ -54,7 +54,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "HappyBirthdayEmilyBronte": {
       "theme": "Birthday Emily Bronte",
@@ -82,7 +82,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "HappyBirthdayHenryFord": {
       "theme": "Birthday Henry Ford",
@@ -110,7 +110,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -126,7 +126,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     }
   },
   "2026-07-29": {
@@ -156,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "LipstickDay": {
       "theme": "Lipstick Day",
@@ -184,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "HappyBirthdayWilliamWilberforce": {
       "theme": "Birthday William Wilberforce",
@@ -212,7 +212,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "FullMoon": {
       "theme": "Full Moon",
@@ -240,7 +240,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -256,7 +256,7 @@
         }
       },
       "total_score": 4,
-      "last_checked": "2026-07-31T22:52:51.960181+00:00"
+      "last_checked": "2026-08-01T22:45:49.160644+00:00"
     }
   },
   "2026-07-28": {
@@ -721,108 +721,6 @@
       },
       "total_score": 3,
       "last_checked": "2026-07-28T22:52:10.412577+00:00"
-    }
-  },
-  "2026-07-24": {
-    "NationalTequilaDay": {
-      "theme": "National Tequila Day",
-      "haiku": "Lime and salt embrace,\nGolden sun in crystal glass,\nCheers ring through the air.\nHappy #NationalTequilaDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116974622129040189",
-          "url": "https://mastodon.social/@ClamBakeSanta/116974622129040189",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrf7j7isht2p",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "823018208797851648",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-07-27T22:53:49.453063+00:00"
-    },
-    "AmeliaEarhartDay": {
-      "theme": "Amelia Earhart Day",
-      "haiku": "Wings stretch wide and bold,\nBlue skies call with sweet promise,\nAdventure takes flight.\nHappy #AmeliaEarhartDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116974626093429138",
-          "url": "https://mastodon.social/@ClamBakeSanta/116974626093429138",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrf7kyyg6j2h",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "823018272071073792",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-07-27T22:53:49.453063+00:00"
-    },
-    "HappyBirthdayAlexandreDumas": {
-      "theme": "Birthday Alexandre Dumas",
-      "haiku": "Pages turn like leaves,\nInk flows with dreams and laughter,\nStars shine in his words.\n#HappyBirthdayAlexandreDumas from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "116974630071613944",
-          "url": "https://mastodon.social/@ClamBakeSanta/116974630071613944",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mrf7msheqp2u",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "823018335521374208",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-07-27T22:53:49.453063+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {
-        "wordpress": {
-          "id": "117",
-          "url": "https://clambakesanta.wordpress.com/2026/07/24/clam-bake-santa-2026-07-24/",
-          "views": 4,
-          "likes": 3,
-          "comments": 0,
-          "score": 3
-        }
-      },
-      "total_score": 3,
-      "last_checked": "2026-07-27T22:53:49.453063+00:00"
     }
   }
 }
