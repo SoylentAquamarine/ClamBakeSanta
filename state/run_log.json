@@ -108,7 +108,8 @@
     "2026-07-28",
     "2026-07-29",
     "2026-07-30",
-    "2026-07-31"
+    "2026-07-31",
+    "2026-08-01"
   ],
   "runs": [
     {
@@ -1346,6 +1347,18 @@
         "Uncommon Instruments Awareness Day",
         "Birthday Milton Friedman",
         "Birthday Primo Levi"
+      ],
+      "content_preview": ""
+    },
+    {
+      "date": "2026-08-01",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-01T10:42:41.931264+00:00",
+      "themes": [
+        "National Raspberry Cream Pie Day",
+        "World Wide Web Day",
+        "Birthday Herman Melville",
+        "Birthday Jerry Garcia"
       ],
       "content_preview": ""
     }
