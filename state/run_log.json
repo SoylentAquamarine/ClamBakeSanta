@@ -110,7 +110,8 @@
     "2026-07-30",
     "2026-07-31",
     "2026-08-01",
-    "2026-08-02"
+    "2026-08-02",
+    "2026-08-03"
   ],
   "runs": [
     {
@@ -1371,6 +1372,17 @@
         "National Ice Cream Sandwich Day",
         "National Coloring Book Day",
         "Birthday James Baldwin"
+      ],
+      "content_preview": ""
+    },
+    {
+      "date": "2026-08-03",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-03T12:26:52.961543+00:00",
+      "themes": [
+        "National Watermelon Day",
+        "National Grab Some Nuts Day",
+        "Birthday Rupert Brooke"
       ],
       "content_preview": ""
     }
