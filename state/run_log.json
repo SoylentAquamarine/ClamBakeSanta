@@ -111,7 +111,8 @@
     "2026-07-31",
     "2026-08-01",
     "2026-08-02",
-    "2026-08-03"
+    "2026-08-03",
+    "2026-08-04"
   ],
   "runs": [
     {
@@ -1383,6 +1384,17 @@
         "National Watermelon Day",
         "National Grab Some Nuts Day",
         "Birthday Rupert Brooke"
+      ],
+      "content_preview": ""
+    },
+    {
+      "date": "2026-08-04",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-04T11:26:07.737993+00:00",
+      "themes": [
+        "National Chocolate Chip Cookie Day",
+        "U.S. Coast Guard Day",
+        "Birthday Percy Bysshe Shelley"
       ],
       "content_preview": ""
     }
