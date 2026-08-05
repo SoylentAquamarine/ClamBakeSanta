@@ -112,7 +112,8 @@
     "2026-08-01",
     "2026-08-02",
     "2026-08-03",
-    "2026-08-04"
+    "2026-08-04",
+    "2026-08-05"
   ],
   "runs": [
     {
@@ -1395,6 +1396,17 @@
         "National Chocolate Chip Cookie Day",
         "U.S. Coast Guard Day",
         "Birthday Percy Bysshe Shelley"
+      ],
+      "content_preview": ""
+    },
+    {
+      "date": "2026-08-05",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-05T11:22:32.258221+00:00",
+      "themes": [
+        "National Oyster Day",
+        "International Beer Day",
+        "Birthday Neil Armstrong"
       ],
       "content_preview": ""
     }
