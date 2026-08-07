@@ -114,7 +114,8 @@
     "2026-08-03",
     "2026-08-04",
     "2026-08-05",
-    "2026-08-06"
+    "2026-08-06",
+    "2026-08-07"
   ],
   "runs": [
     {
@@ -1420,6 +1421,17 @@
         "National Fresh Breath Day",
         "Birthday Alfred Lord Tennyson",
         "Last Quarter Moon"
+      ],
+      "content_preview": ""
+    },
+    {
+      "date": "2026-08-07",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-07T10:02:54.388183+00:00",
+      "themes": [
+        "National Lighthouse Day",
+        "Sea Serpent Day",
+        "Birthday Louis Leakey"
       ],
       "content_preview": ""
     }
