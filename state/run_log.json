@@ -115,7 +115,8 @@
     "2026-08-04",
     "2026-08-05",
     "2026-08-06",
-    "2026-08-07"
+    "2026-08-07",
+    "2026-08-08"
   ],
   "runs": [
     {
@@ -1432,6 +1433,17 @@
         "National Lighthouse Day",
         "Sea Serpent Day",
         "Birthday Louis Leakey"
+      ],
+      "content_preview": ""
+    },
+    {
+      "date": "2026-08-08",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-08T09:39:55.622688+00:00",
+      "themes": [
+        "National Zucchini Day",
+        "Sneak Zucchini onto Your Neighbor's Porch Day",
+        "Birthday Dustin Hoffman"
       ],
       "content_preview": ""
     }
