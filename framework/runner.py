@@ -189,6 +189,18 @@ def run(config: dict, force: bool = False, regenerate: bool = False) -> dict:
         if not haikus:
             log.error("No haikus generated — writer's block on all themes. "
                       "Run will be marked complete to prevent re-posting attempts.")
+            from .alerts import send_failure_alert
+            send_failure_alert(
+                subject=f"⚠️ ClamBakeSanta: 0 haikus posted for {event.date_str}",
+                body_lines=[
+                    f"No haikus were generated for {event.date_str}.",
+                    f"Themes attempted: {', '.join(themes_found) or '(none)'}",
+                    "",
+                    "Every theme (including the fallback) hit writer's block — "
+                    "check state/writers_block/ and the Actions log for the "
+                    "'API error' lines to see what the AI backend returned.",
+                ],
+            )
 
         # Save cache and haiku log (even if empty — marks the run as attempted).
         _save_cache(config, result)

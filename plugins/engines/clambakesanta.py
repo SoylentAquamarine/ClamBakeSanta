@@ -6,11 +6,12 @@ what an Engine can do. It can be replaced with any other engine
 (system monitor, report generator, newsletter writer) without touching
 the framework.
 
-AI backend: GitHub Models (GPT-4o-mini) via GITHUB_TOKEN
-  - Free — no billing, no credit card
-  - GITHUB_TOKEN is auto-injected in every GitHub Actions run
+AI backend: OpenRouter free-tier model via CBS_AI_KEY
+  - Free — no billing, no credit card (20 req/min, 50 req/day on :free models)
+  - GitHub Models (the previous free backend) was fully retired 2026-07-30 —
+    do not point this back at models.inference.ai.azure.com, it is gone for good.
   - Swappable: set CBS_AI_BASE_URL + CBS_AI_KEY for any OpenAI-compatible API
-    (e.g. Anthropic, Ollama, Azure OpenAI)
+    (e.g. OpenAI, Anthropic, Ollama, Azure OpenAI)
 
 Safety design:
   - YOU control subjects via the data files (no AI picking topics)
@@ -323,17 +324,22 @@ class ClamBakeSantaEngine(BaseEngine):
 
         from framework.haiku_validator import validate_haiku
 
-        # GitHub Models endpoint — free with GITHUB_TOKEN (auto-injected in Actions)
-        # Override with CBS_AI_BASE_URL / CBS_AI_KEY to use any other provider
+        # OpenRouter free-tier endpoint — needs an OpenRouter API key (CBS_AI_KEY).
+        # Override CBS_AI_BASE_URL / CBS_AI_KEY to point at any other OpenAI-compatible provider.
         base_url = os.environ.get(
-            "CBS_AI_BASE_URL", "https://models.inference.ai.azure.com"
+            "CBS_AI_BASE_URL", "https://openrouter.ai/api/v1"
         )
-        api_key = (
-            os.environ.get("CBS_AI_KEY")
-            or os.environ.get("GITHUB_TOKEN", "")
+        api_key = os.environ.get("CBS_AI_KEY", "")
+        model  = self.config.get("ai", {}).get("model", "meta-llama/llama-3.3-70b-instruct:free")
+        client = OpenAI(
+            base_url=base_url,
+            api_key=api_key,
+            default_headers={
+                # Optional OpenRouter attribution — ignored by other providers.
+                "HTTP-Referer": self.config.get("site_base_url", ""),
+                "X-Title": "ClamBakeSanta",
+            },
         )
-        model  = self.config.get("ai", {}).get("model", "gpt-4o-mini")
-        client = OpenAI(base_url=base_url, api_key=api_key)
 
         attempts: list[dict] = []  # recorded for writers_block_log if all retries fail
 

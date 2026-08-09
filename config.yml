@@ -36,9 +36,10 @@ adapters:
 
 # ── AI engine settings ────────────────────────────────────────────────────────
 ai:
-  # GitHub Models is free — uses GITHUB_TOKEN auto-injected in Actions.
-  # Override CBS_AI_BASE_URL + CBS_AI_KEY env vars to swap to any provider.
-  model: gpt-4o-mini
+  # OpenRouter free tier — requires CBS_AI_KEY secret (an OpenRouter API key).
+  # GitHub Models (the old free backend) was fully retired 2026-07-30.
+  # Override CBS_AI_BASE_URL + CBS_AI_KEY env vars to swap to any other provider.
+  model: meta-llama/llama-3.3-70b-instruct:free
 
 # ── Theme caps ────────────────────────────────────────────────────────────────
 max_haikus_per_day:    6   # hard cap: holidays + birthdays + celestial combined

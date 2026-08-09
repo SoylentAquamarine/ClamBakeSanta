@@ -5,15 +5,19 @@ name: Daily Haiku Generation
 # back to the repo, and GitHub Pages serves the result automatically.
 #
 # Required GitHub Secrets (Settings → Secrets and variables → Actions):
+#   CBS_AI_KEY              — OpenRouter API key (free tier, no credit card)
+#   GMAIL_ADDRESS            — used for the email_list adapter AND failure alerts
+#   GMAIL_APP_PASSWORD       — 16-char Gmail app password
+#   REPORT_EMAIL             — where to send the zero-haiku failure alert
 #   MASTODON_INSTANCE_URL   — e.g. https://mastodon.social  (optional)
 #   MASTODON_ACCESS_TOKEN   — from your Mastodon app settings (optional)
 #   BLUESKY_HANDLE          — e.g. clambakesanta.bsky.social (optional)
 #   BLUESKY_APP_PASSWORD    — from Bluesky Settings → App Passwords (optional)
 #   DISCORD_WEBHOOK_URL     — from Discord channel settings  (optional)
 #
-# GITHUB_TOKEN is automatic — no setup needed. It's used for:
-#   - The free GitHub Models AI API
-#   - Committing the generated files back to the repo
+# GITHUB_TOKEN is automatic — no setup needed. Used only for committing the
+# generated files back to the repo. GitHub Models (the old free AI backend)
+# was fully retired 2026-07-30 and no longer needs a token or permission.
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
@@ -29,7 +33,6 @@ on:
 
 permissions:
   contents: write           # Needed to commit generated files back to repo
-  models: read              # Needed to call GitHub Models AI API
 
 jobs:
   generate:
@@ -52,8 +55,9 @@ jobs:
 
       - name: Generate haikus
         env:
-          # GITHUB_TOKEN is auto-injected — powers the free AI API call
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # OpenRouter free-tier key — powers haiku generation
+          CBS_AI_KEY: ${{ secrets.CBS_AI_KEY }}
           # Optional social posting — skipped gracefully if not set
           MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
@@ -65,8 +69,10 @@ jobs:
           TUMBLR_OAUTH_SECRET: ${{ secrets.TUMBLR_OAUTH_SECRET }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          # Same Gmail creds power the email_list adapter AND the zero-haiku failure alert
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          REPORT_EMAIL: ${{ secrets.REPORT_EMAIL }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
