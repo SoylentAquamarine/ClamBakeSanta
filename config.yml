@@ -36,16 +36,17 @@ adapters:
 
 # ── AI engine settings ────────────────────────────────────────────────────────
 ai:
-  # Google Gemini free tier — requires CBS_AI_KEY secret (a Gemini API key
-  # from https://aistudio.google.com/apikey). Own per-key quota, not a
-  # shared pool.
+  # Groq free tier — requires CBS_AI_KEY secret (a Groq API key from
+  # https://console.groq.com/keys). Own per-key quota, not a shared pool.
   # GitHub Models (the old free backend) was fully retired 2026-07-30.
-  # OpenRouter's ":free" models were tried next and abandoned — the free
-  # lineup gets pulled with no warning, one candidate silently ate its
-  # token budget on hidden reasoning, and another 429'd within minutes on a
-  # congested shared pool. Gemini avoids all three since it's your own key.
+  # Also ruled out 2026-08-09: OpenRouter's ":free" lineup (churns with no
+  # warning, one 429'd on a congested shared pool within minutes) and Gemini
+  # free tier (returns quota limit:0 unless you link a billing account).
+  # gpt-oss is a reasoning model — reasoning_effort is set to "low" in
+  # plugins/engines/clambakesanta.py so it doesn't burn its whole token
+  # budget on hidden chain-of-thought (it did, silently, at default effort).
   # Override CBS_AI_BASE_URL + CBS_AI_KEY env vars to swap to any other provider.
-  model: gemini-2.0-flash
+  model: openai/gpt-oss-20b
 
 # ── Theme caps ────────────────────────────────────────────────────────────────
 max_haikus_per_day:    6   # hard cap: holidays + birthdays + celestial combined

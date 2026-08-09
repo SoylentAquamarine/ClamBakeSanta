@@ -6,17 +6,26 @@ what an Engine can do. It can be replaced with any other engine
 (system monitor, report generator, newsletter writer) without touching
 the framework.
 
-AI backend: Google Gemini free tier via CBS_AI_KEY (a Gemini API key from
-  https://aistudio.google.com/apikey), called through Gemini's OpenAI-
-  compatible endpoint.
+AI backend: Groq's free tier via CBS_AI_KEY (a Groq API key from
+  https://console.groq.com/keys), called through Groq's OpenAI-compatible
+  endpoint. Model is openai/gpt-oss-20b with reasoning_effort="low" — Groq's
+  classic non-reasoning Llama models (llama-3.1-8b-instant,
+  llama-3.3-70b-versatile) deprecate 2026-08-16, so gpt-oss is the
+  actively-maintained path. gpt-oss is a reasoning model and will burn its
+  token budget on hidden chain-of-thought at default effort (confirmed via
+  OpenRouter on 2026-08-09 — returned empty content every time); passing
+  reasoning_effort="low" keeps that overhead small enough to leave room for
+  the actual haiku.
   - Free — no billing, no credit card. Quota is per-key (yours alone), not a
-    shared pool — unlike OpenRouter's ":free" models, which route through a
-    congested shared upstream pool and rate-limit unpredictably (tried first,
-    hit 429s within minutes).
+    shared pool.
   - GitHub Models (the original free backend) was fully retired 2026-07-30 —
     do not point this back at models.inference.ai.azure.com, it is gone for good.
+  - Also ruled out 2026-08-09: OpenRouter's ":free" models (lineup churns
+    with no warning, one candidate 429'd on a congested shared pool within
+    minutes) and Gemini free tier (returns quota limit:0 unless you link a
+    billing account — defeats the point).
   - Swappable: set CBS_AI_BASE_URL + CBS_AI_KEY for any OpenAI-compatible API
-    (e.g. OpenAI, Anthropic, Ollama, Azure OpenAI, OpenRouter)
+    (e.g. OpenAI, Anthropic, Ollama, Azure OpenAI, OpenRouter, Mistral).
 
 Safety design:
   - YOU control subjects via the data files (no AI picking topics)
@@ -329,15 +338,15 @@ class ClamBakeSantaEngine(BaseEngine):
 
         from framework.haiku_validator import validate_haiku
 
-        # Gemini's OpenAI-compatible endpoint — needs a Gemini API key (CBS_AI_KEY),
-        # get one free at https://aistudio.google.com/apikey (own per-key quota,
+        # Groq's OpenAI-compatible endpoint — needs a Groq API key (CBS_AI_KEY),
+        # get one free at https://console.groq.com/keys (own per-key quota,
         # not a shared pool). Override CBS_AI_BASE_URL / CBS_AI_KEY to point at
         # any other OpenAI-compatible provider instead.
         base_url = os.environ.get(
-            "CBS_AI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/"
+            "CBS_AI_BASE_URL", "https://api.groq.com/openai/v1"
         )
         api_key = os.environ.get("CBS_AI_KEY", "")
-        model  = self.config.get("ai", {}).get("model", "gemini-2.0-flash")
+        model  = self.config.get("ai", {}).get("model", "openai/gpt-oss-20b")
         client = OpenAI(base_url=base_url, api_key=api_key)
 
         attempts: list[dict] = []  # recorded for writers_block_log if all retries fail
@@ -351,7 +360,12 @@ class ClamBakeSantaEngine(BaseEngine):
                         {"role": "user",   "content": _make_prompt(theme, avoid_phrases)},
                     ],
                     temperature=0.85,
-                    max_tokens=120,
+                    max_tokens=300,
+                    # gpt-oss is a reasoning model — keep reasoning effort low so
+                    # it doesn't spend the whole token budget on hidden chain-of-
+                    # thought and leave nothing for the actual haiku. Ignored by
+                    # providers/models that don't support it.
+                    extra_body={"reasoning_effort": "low"},
                 )
                 raw   = (resp.choices[0].message.content or "").strip()
                 if not raw:
