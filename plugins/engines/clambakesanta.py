@@ -145,6 +145,23 @@ def _make_prompt(theme: str, avoid_phrases: list[str] | None = None) -> str:
     )
 
 
+_PERMANENT_FAILURE_MARKERS = (
+    "401", "unauthorized", "invalid_api_key", "invalid api key",
+    "404", "model_not_found", "does not exist", "unavailable for free",
+)
+
+
+def _is_permanent_failure(exc: Exception) -> bool:
+    """
+    True if an API error looks like a config problem (bad key, wrong model
+    id) rather than something a retry could fix (rate limit, timeout, 5xx).
+    Used to skip a misconfigured provider's remaining retries and move on
+    to the next one instead of burning all _MAX_RETRIES attempts on it.
+    """
+    text = str(exc).lower()
+    return any(marker in text for marker in _PERMANENT_FAILURE_MARKERS)
+
+
 class WritersBlock(Exception):
     """Raised when the AI cannot produce a valid 5-7-5 after all retries."""
     def __init__(self, theme: str, tag: str, attempts: list[dict]):
@@ -338,62 +355,100 @@ class ClamBakeSantaEngine(BaseEngine):
 
         from framework.haiku_validator import validate_haiku
 
-        # Groq's OpenAI-compatible endpoint — needs a Groq API key (CBS_AI_KEY),
-        # get one free at https://console.groq.com/keys (own per-key quota,
-        # not a shared pool). Override CBS_AI_BASE_URL / CBS_AI_KEY to point at
-        # any other OpenAI-compatible provider instead.
-        base_url = os.environ.get(
-            "CBS_AI_BASE_URL", "https://api.groq.com/openai/v1"
-        )
-        api_key = os.environ.get("CBS_AI_KEY", "")
-        model  = self.config.get("ai", {}).get("model", "openai/gpt-oss-20b")
-        client = OpenAI(base_url=base_url, api_key=api_key)
+        providers = self._providers()
+        attempts: list[dict] = []  # recorded for writers_block_log if every provider fails
 
-        attempts: list[dict] = []  # recorded for writers_block_log if all retries fail
+        for provider in providers:
+            if not provider["api_key"]:
+                _log.info("Skipping provider %r — no API key set (%s)",
+                          provider["name"], provider.get("key_env", "CBS_AI_KEY"))
+                continue
 
-        for attempt in range(1, _MAX_RETRIES + 1):
-            try:
-                resp = client.chat.completions.create(
-                    model=model,
-                    messages=[
-                        {"role": "system", "content": SYSTEM_PROMPT},
-                        {"role": "user",   "content": _make_prompt(theme, avoid_phrases)},
-                    ],
-                    temperature=0.85,
-                    max_tokens=300,
-                    # gpt-oss is a reasoning model — keep reasoning effort low so
-                    # it doesn't spend the whole token budget on hidden chain-of-
-                    # thought and leave nothing for the actual haiku. Ignored by
-                    # providers/models that don't support it.
-                    extra_body={"reasoning_effort": "low"},
-                )
-                raw   = (resp.choices[0].message.content or "").strip()
-                if not raw:
-                    raise ValueError(
-                        f"Empty content (finish_reason={resp.choices[0].finish_reason!r}) "
-                        "— model likely spent the token budget on hidden reasoning"
+            client = OpenAI(base_url=provider["base_url"], api_key=provider["api_key"])
+
+            for attempt in range(1, _MAX_RETRIES + 1):
+                try:
+                    resp = client.chat.completions.create(
+                        model=provider["model"],
+                        messages=[
+                            {"role": "system", "content": SYSTEM_PROMPT},
+                            {"role": "user",   "content": _make_prompt(theme, avoid_phrases)},
+                        ],
+                        temperature=0.85,
+                        max_tokens=300,
+                        # Some models (e.g. gpt-oss) are reasoning models — keep
+                        # reasoning effort low so they don't spend the whole token
+                        # budget on hidden chain-of-thought and leave nothing for
+                        # the actual haiku. Ignored by models that don't support it.
+                        extra_body={"reasoning_effort": "low"},
                     )
-                lines = [ln.rstrip() for ln in raw.splitlines() if ln.strip()]
-                haiku_text = "\n".join(lines[:4])
+                    raw = (resp.choices[0].message.content or "").strip()
+                    if not raw:
+                        raise ValueError(
+                            f"Empty content (finish_reason={resp.choices[0].finish_reason!r}) "
+                            "— model likely spent the token budget on hidden reasoning"
+                        )
+                    lines = [ln.rstrip() for ln in raw.splitlines() if ln.strip()]
+                    haiku_text = "\n".join(lines[:4])
 
-                valid, counts = validate_haiku(haiku_text)
-                attempts.append({"text": haiku_text, "counts": counts})
+                    valid, counts = validate_haiku(haiku_text)
+                    attempts.append({"text": haiku_text, "counts": counts})
 
-                if valid:
-                    if attempt > 1:
-                        _log.info("Valid haiku on attempt %d/%d | theme=%r",
-                                  attempt, _MAX_RETRIES, theme)
-                    return haiku_text, counts
+                    if valid:
+                        if attempt > 1 or provider is not providers[0]:
+                            _log.info("Valid haiku via %r on attempt %d/%d | theme=%r",
+                                      provider["name"], attempt, _MAX_RETRIES, theme)
+                        return haiku_text, counts
 
-                got = "-".join(str(c) for c in counts) if counts else "unknown"
-                _log.warning(
-                    "Syllable mismatch (attempt %d/%d): expected 5-7-5, got %s | theme=%r",
-                    attempt, _MAX_RETRIES, got, theme,
-                )
-            except Exception as exc:
-                _log.error("API error (attempt %d/%d) | theme=%r: %s",
-                           attempt, _MAX_RETRIES, theme, exc)
-                # No haiku_text to record — API didn't respond
+                    got = "-".join(str(c) for c in counts) if counts else "unknown"
+                    _log.warning(
+                        "Syllable mismatch via %r (attempt %d/%d): expected 5-7-5, got %s | theme=%r",
+                        provider["name"], attempt, _MAX_RETRIES, got, theme,
+                    )
+                except Exception as exc:
+                    _log.error("API error via %r (attempt %d/%d) | theme=%r: %s",
+                               provider["name"], attempt, _MAX_RETRIES, theme, exc)
+                    # No haiku_text to record — API didn't respond
+                    if _is_permanent_failure(exc):
+                        _log.warning(
+                            "Provider %r failure looks permanent (bad key/model, not "
+                            "transient) — skipping remaining retries, trying next provider",
+                            provider["name"],
+                        )
+                        break
+            else:
+                _log.warning("Provider %r exhausted after %d attempt(s) — trying next provider",
+                             provider["name"], _MAX_RETRIES)
 
-        # All retries exhausted — caller decides what to do (writer's block)
+        # Every configured provider exhausted — caller decides what to do (writer's block)
         raise WritersBlock(theme, _hashtag(theme), attempts)
+
+    def _providers(self) -> list[dict]:
+        """
+        Build the ordered list of AI providers to try for this run.
+
+        Primary provider comes from CBS_AI_BASE_URL / CBS_AI_KEY / CBS_AI_MODEL
+        env vars (or config.yml ai.model), defaulting to Groq's free tier.
+        Additional fallback providers come from config.yml ai.fallback — a list
+        of {name, base_url, key_env, model} — tried in order only if the
+        primary exhausts all retries without a valid haiku. Each fallback's key
+        comes from its own named env var (a GitHub secret), so multiple
+        providers can be configured at once without code changes.
+        """
+        ai_config = self.config.get("ai", {})
+        providers = [{
+            "name":     "primary",
+            "base_url": os.environ.get("CBS_AI_BASE_URL") or "https://api.groq.com/openai/v1",
+            "api_key":  os.environ.get("CBS_AI_KEY") or "",
+            "key_env":  "CBS_AI_KEY",
+            "model":    os.environ.get("CBS_AI_MODEL") or ai_config.get("model", "openai/gpt-oss-20b"),
+        }]
+        for fb in ai_config.get("fallback", []):
+            providers.append({
+                "name":     fb.get("name", fb.get("key_env", "fallback")),
+                "base_url": fb["base_url"],
+                "api_key":  os.environ.get(fb["key_env"]) or "",
+                "key_env":  fb["key_env"],
+                "model":    fb["model"],
+            })
+        return providers

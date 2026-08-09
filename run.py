@@ -44,6 +44,7 @@ def main() -> int:
     parser.add_argument("--regenerate", action="store_true", help="Force fresh AI generation (overwrites today's haiku cache)")
     parser.add_argument("--date", default=None, help="Override date (YYYY-MM-DD) for testing")
     parser.add_argument("--adapter", default=None, help="Test a single adapter only (skips all others)")
+    parser.add_argument("--engine-only", action="store_true", help="Run source+engine only, skip all adapters (no posting anywhere) — for safely testing AI backends")
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -57,6 +58,10 @@ def main() -> int:
     if args.adapter:
         log.info("TEST MODE — running only adapter: %s", args.adapter)
         config["adapters"] = [args.adapter]
+
+    if args.engine_only:
+        log.info("ENGINE-ONLY MODE — skipping all adapters (no posting anywhere)")
+        config["adapters"] = []
 
     from framework.runner import run
     summary = run(config, force=args.force, regenerate=args.regenerate)
