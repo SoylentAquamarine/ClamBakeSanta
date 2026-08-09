@@ -5,7 +5,7 @@ name: Daily Haiku Generation
 # back to the repo, and GitHub Pages serves the result automatically.
 #
 # Required GitHub Secrets (Settings → Secrets and variables → Actions):
-#   CBS_AI_KEY              — OpenRouter API key (free tier, no credit card)
+#   OPENROUTER_API_KEY      — OpenRouter API key (free tier, no credit card)
 #   GMAIL_ADDRESS            — used for the email_list adapter AND failure alerts
 #   GMAIL_APP_PASSWORD       — 16-char Gmail app password
 #   REPORT_EMAIL             — where to send the zero-haiku failure alert
@@ -57,7 +57,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # OpenRouter free-tier key — powers haiku generation
-          CBS_AI_KEY: ${{ secrets.CBS_AI_KEY }}
+          CBS_AI_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           # Optional social posting — skipped gracefully if not set
           MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
