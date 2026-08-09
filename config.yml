@@ -44,7 +44,10 @@ ai:
   # If writer's block hits every theme with a 404 "unavailable for free"
   # message, check https://openrouter.ai/models?max_price=0 for a live one
   # and swap the id below.
-  model: openai/gpt-oss-20b:free
+  # Prefer plain instruct models over "reasoning" models here — reasoning
+  # models (gpt-oss, o1-style, etc.) can spend the whole max_tokens budget
+  # on hidden chain-of-thought and return empty content (this also bit us).
+  model: google/gemma-4-31b-it:free
 
 # ── Theme caps ────────────────────────────────────────────────────────────────
 max_haikus_per_day:    6   # hard cap: holidays + birthdays + celestial combined

@@ -330,7 +330,7 @@ class ClamBakeSantaEngine(BaseEngine):
             "CBS_AI_BASE_URL", "https://openrouter.ai/api/v1"
         )
         api_key = os.environ.get("CBS_AI_KEY", "")
-        model  = self.config.get("ai", {}).get("model", "openai/gpt-oss-20b:free")
+        model  = self.config.get("ai", {}).get("model", "google/gemma-4-31b-it:free")
         client = OpenAI(
             base_url=base_url,
             api_key=api_key,
@@ -354,7 +354,12 @@ class ClamBakeSantaEngine(BaseEngine):
                     temperature=0.85,
                     max_tokens=120,
                 )
-                raw   = resp.choices[0].message.content.strip()
+                raw   = (resp.choices[0].message.content or "").strip()
+                if not raw:
+                    raise ValueError(
+                        f"Empty content (finish_reason={resp.choices[0].finish_reason!r}) "
+                        "— model likely spent the token budget on hidden reasoning"
+                    )
                 lines = [ln.rstrip() for ln in raw.splitlines() if ln.strip()]
                 haiku_text = "\n".join(lines[:4])
 
