@@ -6,12 +6,17 @@ what an Engine can do. It can be replaced with any other engine
 (system monitor, report generator, newsletter writer) without touching
 the framework.
 
-AI backend: OpenRouter free-tier model via CBS_AI_KEY
-  - Free — no billing, no credit card (20 req/min, 50 req/day on :free models)
-  - GitHub Models (the previous free backend) was fully retired 2026-07-30 —
+AI backend: Google Gemini free tier via CBS_AI_KEY (a Gemini API key from
+  https://aistudio.google.com/apikey), called through Gemini's OpenAI-
+  compatible endpoint.
+  - Free — no billing, no credit card. Quota is per-key (yours alone), not a
+    shared pool — unlike OpenRouter's ":free" models, which route through a
+    congested shared upstream pool and rate-limit unpredictably (tried first,
+    hit 429s within minutes).
+  - GitHub Models (the original free backend) was fully retired 2026-07-30 —
     do not point this back at models.inference.ai.azure.com, it is gone for good.
   - Swappable: set CBS_AI_BASE_URL + CBS_AI_KEY for any OpenAI-compatible API
-    (e.g. OpenAI, Anthropic, Ollama, Azure OpenAI)
+    (e.g. OpenAI, Anthropic, Ollama, Azure OpenAI, OpenRouter)
 
 Safety design:
   - YOU control subjects via the data files (no AI picking topics)
@@ -324,22 +329,16 @@ class ClamBakeSantaEngine(BaseEngine):
 
         from framework.haiku_validator import validate_haiku
 
-        # OpenRouter free-tier endpoint — needs an OpenRouter API key (CBS_AI_KEY).
-        # Override CBS_AI_BASE_URL / CBS_AI_KEY to point at any other OpenAI-compatible provider.
+        # Gemini's OpenAI-compatible endpoint — needs a Gemini API key (CBS_AI_KEY),
+        # get one free at https://aistudio.google.com/apikey (own per-key quota,
+        # not a shared pool). Override CBS_AI_BASE_URL / CBS_AI_KEY to point at
+        # any other OpenAI-compatible provider instead.
         base_url = os.environ.get(
-            "CBS_AI_BASE_URL", "https://openrouter.ai/api/v1"
+            "CBS_AI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/"
         )
         api_key = os.environ.get("CBS_AI_KEY", "")
-        model  = self.config.get("ai", {}).get("model", "google/gemma-4-31b-it:free")
-        client = OpenAI(
-            base_url=base_url,
-            api_key=api_key,
-            default_headers={
-                # Optional OpenRouter attribution — ignored by other providers.
-                "HTTP-Referer": self.config.get("site_base_url", ""),
-                "X-Title": "ClamBakeSanta",
-            },
-        )
+        model  = self.config.get("ai", {}).get("model", "gemini-2.0-flash")
+        client = OpenAI(base_url=base_url, api_key=api_key)
 
         attempts: list[dict] = []  # recorded for writers_block_log if all retries fail
 

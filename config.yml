@@ -36,18 +36,16 @@ adapters:
 
 # ── AI engine settings ────────────────────────────────────────────────────────
 ai:
-  # OpenRouter free tier — requires CBS_AI_KEY secret (an OpenRouter API key).
+  # Google Gemini free tier — requires CBS_AI_KEY secret (a Gemini API key
+  # from https://aistudio.google.com/apikey). Own per-key quota, not a
+  # shared pool.
   # GitHub Models (the old free backend) was fully retired 2026-07-30.
+  # OpenRouter's ":free" models were tried next and abandoned — the free
+  # lineup gets pulled with no warning, one candidate silently ate its
+  # token budget on hidden reasoning, and another 429'd within minutes on a
+  # congested shared pool. Gemini avoids all three since it's your own key.
   # Override CBS_AI_BASE_URL + CBS_AI_KEY env vars to swap to any other provider.
-  # NOTE: OpenRouter's free (":free") model lineup changes often — a model can
-  # get pulled from free tier with no warning (this bit us once already).
-  # If writer's block hits every theme with a 404 "unavailable for free"
-  # message, check https://openrouter.ai/models?max_price=0 for a live one
-  # and swap the id below.
-  # Prefer plain instruct models over "reasoning" models here — reasoning
-  # models (gpt-oss, o1-style, etc.) can spend the whole max_tokens budget
-  # on hidden chain-of-thought and return empty content (this also bit us).
-  model: google/gemma-4-31b-it:free
+  model: gemini-2.0-flash
 
 # ── Theme caps ────────────────────────────────────────────────────────────────
 max_haikus_per_day:    6   # hard cap: holidays + birthdays + celestial combined
