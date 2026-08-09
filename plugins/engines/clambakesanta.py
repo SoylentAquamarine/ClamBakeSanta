@@ -330,7 +330,7 @@ class ClamBakeSantaEngine(BaseEngine):
             "CBS_AI_BASE_URL", "https://openrouter.ai/api/v1"
         )
         api_key = os.environ.get("CBS_AI_KEY", "")
-        model  = self.config.get("ai", {}).get("model", "meta-llama/llama-3.3-70b-instruct:free")
+        model  = self.config.get("ai", {}).get("model", "openai/gpt-oss-20b:free")
         client = OpenAI(
             base_url=base_url,
             api_key=api_key,
