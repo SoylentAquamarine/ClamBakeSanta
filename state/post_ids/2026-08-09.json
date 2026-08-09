@@ -1,0 +1,62 @@
+{
+  "NationalRicePuddingDay": {
+    "mastodon": {
+      "id": "117068080428327497",
+      "url": "https://mastodon.social/@ClamBakeSanta/117068080428327497"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3msopn42n5v2w",
+      "cid": "bafyreihl4b47tie4fdzfr4rtifw2miejojgxprqjd6ybmv2qdcchqmbacm"
+    },
+    "tumblr": {
+      "id": "824513540875583488",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "356",
+      "channel": "@clambakesanta"
+    }
+  },
+  "BookLoversDay": {
+    "mastodon": {
+      "id": "117068084383577539",
+      "url": "https://mastodon.social/@ClamBakeSanta/117068084383577539"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3msopovlalr2o",
+      "cid": "bafyreicxsrlcg3jrhmgaz6kohab45inv3cbsfd23digutab52djffzcz5u"
+    },
+    "tumblr": {
+      "id": "824513604222107648",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "357",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayWhitneyHouston": {
+    "mastodon": {
+      "id": "117068088336386970",
+      "url": "https://mastodon.social/@ClamBakeSanta/117068088336386970"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3msopqovqmy2z",
+      "cid": "bafyreiemfn4645nf6sk6aswdagqbu5nnmuxfvtppwdppzz7yr7m3etvesy"
+    },
+    "tumblr": {
+      "id": "824513667709140992",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "358",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "124",
+      "url": "https://clambakesanta.wordpress.com/2026/08/09/clam-bake-santa-2026-08-09/"
+    }
+  }
+}

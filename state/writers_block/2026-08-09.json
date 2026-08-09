@@ -148,5 +148,16 @@
     "tag": "SmallMiracles",
     "timestamp": "2026-08-09T23:05:52.815740+00:00",
     "attempts": []
+  },
+  {
+    "theme": "Birthday Jean Piaget",
+    "tag": "HappyBirthdayJeanPiaget",
+    "timestamp": "2026-08-09T23:12:24.790052+00:00",
+    "attempts": [
+      {
+        "text": "Birthday candles glow\nSoft light drifts",
+        "counts": []
+      }
+    ]
   }
 ]
