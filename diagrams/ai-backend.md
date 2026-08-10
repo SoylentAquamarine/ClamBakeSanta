@@ -68,7 +68,7 @@ Ordered by confidence, in `config.yml` under `ai.fallback` (primary is set by
 | 5 | **OpenRouter** | ⚠️ Unreliable | `google/gemma-4-31b-it:free` | `:free` models route through a shared pool — repeatedly 429s on congestion, not fixable by retrying |
 | 6 | **Pollinations** | ✅ Working (anonymous) | `openai` | `optional_key: true` — authenticated requests need a "pollen" balance, anonymous ones don't |
 | 7 | **Gemini** | ❌ Blocked | `gemini-2.0-flash` | Returns quota `limit: 0` — Google requires linking a billing account to unlock actual free quota on this project |
-| 8 | **Fireworks** | ❌ Broken | `accounts/fireworks/models/llama-v3p3-70b-instruct` | 404 "not found, inaccessible, and/or not deployed" — looks account-specific; check `https://fireworks.ai/models` logged into that account |
+| 8 | **Fireworks** | ⚠️ Partially working | `accounts/fireworks/models/gpt-oss-20b` | Two Llama model ids 404'd — Fireworks dropped plain Llama from serverless entirely (current catalog: DeepSeek/Kimi/GLM/Qwen/MiniMax/gpt-oss/Nemotron, confirmed via their models page). gpt-oss-20b works but even at `reasoning_effort: low` occasionally still burns its token budget, plus this account hit real rate limits during testing |
 | 9 | **HuggingFace** | ✅ Working (capped) | `meta-llama/Llama-3.1-8B-Instruct` | Router auto-selects a provider by default — no "enable a provider" step needed despite what the error text implies. Runs out of free monthly credits fast if over-tested |
 
 Removed entirely (tried, deliberately dropped — see git log for

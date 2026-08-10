@@ -110,13 +110,15 @@ ai:
       key_env: GEMINI_API_KEY
       model: gemini-2.0-flash
     - name: fireworks
-      # Two Llama model ids both 404'd (2026-08-10) — turns out Fireworks
-      # dropped plain Llama models from serverless entirely; their current
-      # 16-model serverless catalog (checked via fireworks.ai/models) is
-      # DeepSeek/Kimi/GLM/Qwen/MiniMax/gpt-oss/Nemotron. Using gpt-oss-20b
-      # since it's the same reasoning model already confirmed working via
-      # Groq and Cerebras — reasoning_effort keeps it from burning its
-      # token budget on hidden chain-of-thought.
+      # WORKS, partially (confirmed 2026-08-10) — two Llama model ids both
+      # 404'd since Fireworks dropped plain Llama from serverless entirely
+      # (current catalog: DeepSeek/Kimi/GLM/Qwen/MiniMax/gpt-oss/Nemotron).
+      # gpt-oss-20b generates real haikus, including succeeding directly on
+      # some themes, but even at reasoning_effort=low it occasionally still
+      # burns the token budget on hidden reasoning on this specific host,
+      # and this account also hit real rate limits during testing. Kept
+      # low-priority in the chain since it's not fully reliable, but the
+      # retry loop + fallback to the next provider handles that fine.
       base_url: https://api.fireworks.ai/inference/v1
       key_env: FIREWORKS_API_KEY
       model: accounts/fireworks/models/gpt-oss-20b
