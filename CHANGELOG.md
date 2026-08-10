@@ -119,3 +119,21 @@ ChatGPT audited the repository documentation against the current code, workflows
 ### Code impact
 
 This was a documentation-only change. No production code, adapter logic, workflow logic, or haiku generation behavior was modified.
+
+## 2026-08-10 - Multi-Provider AI Backend
+
+GitHub Models (the original free AI backend) was fully retired 2026-07-30 with no warning, silently zeroing out haiku generation for 10 days — the runner marks a zero-haiku day as "complete" to avoid retry-spam, so no GitHub Actions failure notification ever fired.
+
+- Diagnosed and fixed the outage: replaced the dead `models.inference.ai.azure.com` endpoint.
+- Added `framework/alerts.py` — emails `REPORT_EMAIL` immediately if a run produces zero haikus, instead of only surfacing days later in the weekly report.
+- Rebuilt the AI engine (`plugins/engines/clambakesanta.py`) around a multi-provider fallback chain instead of a single hardcoded backend: primary (Groq) cascades through `config.yml`'s `ai.fallback` list (Mistral, Cohere, Cerebras, OpenRouter, Pollinations, Gemini, Fireworks, HuggingFace) per theme, independently, until one produces a valid haiku or every provider is exhausted.
+- Added `_is_permanent_failure()` to fail fast on config problems (bad key, wrong model, zero quota) instead of burning all 5 retries on a provider that can't succeed this run.
+- Made `reasoning_effort` opt-in per provider (`config.yml`) after discovering it's required for reasoning models (Groq/Cerebras `gpt-oss-*`, which otherwise silently burn their token budget on hidden chain-of-thought and return empty content) but breaks others outright (Mistral/Cohere reject unsupported values with a 400/422).
+- Added `optional_key` support for providers that work anonymously (Pollinations).
+- Added `run.py --engine-only` and `.github/workflows/test_ai_backend.yml` — test any provider or the whole fallback chain via real repo secrets with zero public-posting side effects, instead of risking a live post to every channel and every email subscriber just to check if a provider works.
+- Removed OpenAI, Together, DeepSeek, and SambaNova from the chain after testing — real account issues (no billing credits, exhausted free credits, no free tier, payment method required) rather than anything fixable in code.
+- New reference doc: [diagrams/ai-backend.md](diagrams/ai-backend.md) — the full provider chain, current status per provider, testing rules, how to add a new provider, and the hard-won gotchas from this investigation (stale model IDs, misleading error text, per-provider reasoning_effort requirements).
+
+### Code impact
+
+Engine behavior change: haiku generation no longer depends on a single AI provider. Workflow change: `daily.yml` now passes through 9 provider secrets instead of 1; `permissions.models: read` removed (no longer calls GitHub Models). No adapter or publishing logic changed.

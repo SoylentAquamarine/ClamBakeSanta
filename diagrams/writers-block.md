@@ -2,6 +2,10 @@
 
 How the engine handles syllable failures: per-theme isolation, retry loop, fallback haiku.
 
+This diagram covers the *syllable-validation* retry loop. What "Call AI" actually
+does — cascading through multiple providers, not just one model — is its own
+diagram: see [AI Backend](ai-backend.md).
+
 ```mermaid
 flowchart TD
     THEMES(["Themes from Event\n[theme₁, theme₂, … themeₙ]"])
@@ -10,7 +14,7 @@ flowchart TD
     subgraph LOOP["For each theme (independent)"]
         PICK["Select next theme"] --> GEN
 
-        GEN["Call AI\nGPT-4o-mini\ntemperature=0.85"] --> PARSE
+        GEN["Call AI provider\n(cascades through fallback chain\nsee ai-backend.md)\ntemperature=0.85"] --> PARSE
 
         PARSE["Parse response\ninto 3 lines"] --> VALIDATE
 
@@ -53,3 +57,8 @@ flowchart TD
     style WB fill:#c1121f,color:#fff
     style FB_LAST fill:#e76f51,color:#fff
 ```
+
+**Note:** `attempt < 5` here is *per provider*, not a global cap. `WritersBlock`
+(and the `state/writers_block/` log entry) only fires after every provider in
+the fallback chain has exhausted its own 5 attempts for that theme — see
+[AI Backend](ai-backend.md) for that cascade.

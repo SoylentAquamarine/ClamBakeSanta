@@ -19,7 +19,7 @@ This README describes the current implementation, not just the original design i
 | Daily haiku generation | Implemented | `daily.yml` runs `python run.py`; `framework.runner` executes source → engine/cache → adapters → state. |
 | Theme selection | Implemented | `daily_themes` reads fixed holidays, generated ephemeral holidays, celebrity birthdays, and celestial events with priority/cap logic. |
 | Monthly generated data | Implemented | `generate_monthly.yml` runs `scripts/generate_monthly_data.py` monthly; `daily_themes` can auto-generate missing current-month files as fallback. |
-| AI generation and validation | Implemented | `clambakesanta` calls an OpenAI-compatible API, validates 5-7-5 syllables, retries, and logs writer's block. |
+| AI generation and validation | Implemented | `clambakesanta` cascades through a multi-provider fallback chain (Groq → Mistral → Cohere → Cerebras → ...), validates 5-7-5 syllables, retries per provider, and logs writer's block. See [diagrams/ai-backend.md](diagrams/ai-backend.md) for the full chain, current provider status, and how to test/extend it. GitHub Models (the original free backend) was fully retired 2026-07-30. |
 | Same-day haiku cache | Implemented | `state/haiku_cache.json` ensures all adapters use the same poems for a date. |
 | Publishing adapters | Implemented / credential-dependent | Adapters run sequentially in `config.yml` order. Missing credentials usually cause adapters to skip; runtime failures are logged and isolated so later adapters can continue. |
 | Engagement tracking | Implemented | `check_engagement.yml` reads stored post IDs and writes `state/engagement/`. |
