@@ -153,6 +153,10 @@ _PERMANENT_FAILURE_MARKERS = (
     # Balance/payment issues won't resolve within a few rapid retries either.
     "insufficient", "credit_limit", "payment_required", "payment required",
     "insufficient_quota", "balance",
+    # A hard zero quota (e.g. Gemini's free tier before billing is linked)
+    # is structurally different from an ordinary rate limit — "retry in Ns"
+    # will never help because the limit itself is 0, not just used up.
+    "limit: 0,",
 )
 
 

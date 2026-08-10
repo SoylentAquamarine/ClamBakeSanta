@@ -80,17 +80,17 @@ ai:
       key_env: COHERE_API_KEY
       model: command-r7b-12-2024
     - name: cerebras
-      # llama3.1-8b and llama-3.3-70b both 404'd (2026-08-09) — both are
-      # stale model names, not currently in Cerebras' catalog at all.
-      # Confirmed current catalog (per their docs): gpt-oss-120b (production),
-      # gemma-4-31b (preview), zai-glm-4.7 (preview, deprecates 2026-08-17).
-      # gpt-oss-120b is a reasoning model like Groq's — reasoning_effort
-      # keeps it from burning its token budget on hidden chain-of-thought.
+      # WORKS (confirmed 2026-08-10) — gpt-oss-120b, their production model.
       base_url: https://api.cerebras.ai/v1
       key_env: CEREBRAS_API_KEY
       model: gpt-oss-120b
       reasoning_effort: low
     - name: openrouter
+      # Model itself is fine, but this specific :free model has repeatedly
+      # 429'd on a congested shared upstream pool across multiple test
+      # sessions (2026-08-09, 2026-08-10) — structural to OpenRouter's free
+      # tier, not something a retry reliably fixes. Kept low-priority since
+      # it does occasionally succeed.
       base_url: https://openrouter.ai/api/v1
       key_env: OPENROUTER_API_KEY
       model: google/gemma-4-31b-it:free
@@ -103,15 +103,19 @@ ai:
       model: openai
       optional_key: true
     - name: gemini
-      # Free tier returned quota limit:0 (2026-08-09) unless a billing
-      # account is linked to the project — kept anyway, a no-cost skip if
-      # the key's still capped, in case a quota reset fixes it later.
+      # BLOCKED — quota limit:0, confirmed twice (2026-08-09, 2026-08-10),
+      # requires linking a billing account to this Google Cloud project to
+      # unlock actual free quota. Kept anyway, a no-cost skip until then.
       base_url: https://generativelanguage.googleapis.com/v1beta/openai/
       key_env: GEMINI_API_KEY
       model: gemini-2.0-flash
     - name: fireworks
-      # llama-v3p1-8b-instruct 404'd (2026-08-09) — stale model id. Swapped
-      # to llama-v3p3-70b-instruct, confirmed current in Fireworks' catalog.
+      # BROKEN — llama-v3p1-8b-instruct 404'd, swapped to
+      # llama-v3p3-70b-instruct (confirmed current in Fireworks' general
+      # catalog), still 404s with "Model not found, inaccessible, and/or
+      # not deployed" (2026-08-10). This looks account-specific — log into
+      # https://fireworks.ai/models with this account and pick a model that
+      # actually shows as available/deployed for it.
       base_url: https://api.fireworks.ai/inference/v1
       key_env: FIREWORKS_API_KEY
       model: accounts/fireworks/models/llama-v3p3-70b-instruct
