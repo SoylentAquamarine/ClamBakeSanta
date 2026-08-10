@@ -80,12 +80,16 @@ ai:
       key_env: COHERE_API_KEY
       model: command-r7b-12-2024
     - name: cerebras
-      # 404 model_not_found on "llama3.1-8b" for this account (2026-08-09).
-      # Trying llama-3.3-70b next — if this also 404s, check your account's
-      # exact available model list at https://cloud.cerebras.ai.
+      # llama3.1-8b and llama-3.3-70b both 404'd (2026-08-09) — both are
+      # stale model names, not currently in Cerebras' catalog at all.
+      # Confirmed current catalog (per their docs): gpt-oss-120b (production),
+      # gemma-4-31b (preview), zai-glm-4.7 (preview, deprecates 2026-08-17).
+      # gpt-oss-120b is a reasoning model like Groq's — reasoning_effort
+      # keeps it from burning its token budget on hidden chain-of-thought.
       base_url: https://api.cerebras.ai/v1
       key_env: CEREBRAS_API_KEY
-      model: llama-3.3-70b
+      model: gpt-oss-120b
+      reasoning_effort: low
     - name: openrouter
       base_url: https://openrouter.ai/api/v1
       key_env: OPENROUTER_API_KEY
@@ -106,12 +110,11 @@ ai:
       key_env: GEMINI_API_KEY
       model: gemini-2.0-flash
     - name: fireworks
-      # 404 model not found (2026-08-09) — this account's $1 starter credit
-      # may have expired, or the model id is stale. Check
-      # https://fireworks.ai/models for a current id if you want this to work.
+      # llama-v3p1-8b-instruct 404'd (2026-08-09) — stale model id. Swapped
+      # to llama-v3p3-70b-instruct, confirmed current in Fireworks' catalog.
       base_url: https://api.fireworks.ai/inference/v1
       key_env: FIREWORKS_API_KEY
-      model: accounts/fireworks/models/llama-v3p1-8b-instruct
+      model: accounts/fireworks/models/llama-v3p3-70b-instruct
     - name: huggingface
       # 400 "not supported by any provider you have enabled" (2026-08-09) —
       # despite the error text, HF's router auto-selects across ALL
