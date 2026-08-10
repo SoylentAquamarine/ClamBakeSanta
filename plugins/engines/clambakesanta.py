@@ -146,8 +146,13 @@ def _make_prompt(theme: str, avoid_phrases: list[str] | None = None) -> str:
 
 
 _PERMANENT_FAILURE_MARKERS = (
-    "401", "unauthorized", "invalid_api_key", "invalid api key",
-    "404", "model_not_found", "does not exist", "unavailable for free",
+    "error code: 400", "error code: 401", "error code: 404", "error code: 402",
+    "unauthorized", "invalid_api_key", "invalid api key",
+    "model_not_found", "does not exist", "unavailable for free",
+    "not supported by any provider",
+    # Balance/payment issues won't resolve within a few rapid retries either.
+    "insufficient", "credit_limit", "payment_required", "payment required",
+    "insufficient_quota", "balance",
 )
 
 
@@ -359,12 +364,19 @@ class ClamBakeSantaEngine(BaseEngine):
         attempts: list[dict] = []  # recorded for writers_block_log if every provider fails
 
         for provider in providers:
-            if not provider["api_key"]:
+            if not provider["api_key"] and not provider.get("optional_key"):
                 _log.info("Skipping provider %r — no API key set (%s)",
                           provider["name"], provider.get("key_env", "CBS_AI_KEY"))
                 continue
 
             client = OpenAI(base_url=provider["base_url"], api_key=provider["api_key"])
+
+            # Only reasoning-model providers need this — Mistral and Cohere
+            # both reject an unrecognized/unsupported reasoning_effort value
+            # outright with a 400/422 (confirmed 2026-08-09), so this must be
+            # opt-in per provider, not sent to everyone.
+            extra_body = {"reasoning_effort": provider["reasoning_effort"]} \
+                if provider.get("reasoning_effort") else None
 
             for attempt in range(1, _MAX_RETRIES + 1):
                 try:
@@ -376,11 +388,7 @@ class ClamBakeSantaEngine(BaseEngine):
                         ],
                         temperature=0.85,
                         max_tokens=300,
-                        # Some models (e.g. gpt-oss) are reasoning models — keep
-                        # reasoning effort low so they don't spend the whole token
-                        # budget on hidden chain-of-thought and leave nothing for
-                        # the actual haiku. Ignored by models that don't support it.
-                        extra_body={"reasoning_effort": "low"},
+                        **({"extra_body": extra_body} if extra_body else {}),
                     )
                     raw = (resp.choices[0].message.content or "").strip()
                     if not raw:
@@ -437,18 +445,24 @@ class ClamBakeSantaEngine(BaseEngine):
         """
         ai_config = self.config.get("ai", {})
         providers = [{
-            "name":     "primary",
-            "base_url": os.environ.get("CBS_AI_BASE_URL") or "https://api.groq.com/openai/v1",
-            "api_key":  os.environ.get("CBS_AI_KEY") or "",
-            "key_env":  "CBS_AI_KEY",
-            "model":    os.environ.get("CBS_AI_MODEL") or ai_config.get("model", "openai/gpt-oss-20b"),
+            "name":             "primary",
+            "base_url":         os.environ.get("CBS_AI_BASE_URL") or "https://api.groq.com/openai/v1",
+            "api_key":          os.environ.get("CBS_AI_KEY") or "",
+            "key_env":          "CBS_AI_KEY",
+            "model":            os.environ.get("CBS_AI_MODEL") or ai_config.get("model", "openai/gpt-oss-20b"),
+            # gpt-oss is a reasoning model — see the extra_body comment above.
+            "reasoning_effort": ai_config.get("reasoning_effort", "low"),
         }]
         for fb in ai_config.get("fallback", []):
             providers.append({
-                "name":     fb.get("name", fb.get("key_env", "fallback")),
-                "base_url": fb["base_url"],
-                "api_key":  os.environ.get(fb["key_env"]) or "",
-                "key_env":  fb["key_env"],
-                "model":    fb["model"],
+                "name":             fb.get("name", fb.get("key_env", "fallback")),
+                "base_url":         fb["base_url"],
+                "api_key":          os.environ.get(fb["key_env"]) or "",
+                "key_env":          fb["key_env"],
+                "model":            fb["model"],
+                "reasoning_effort": fb.get("reasoning_effort"),
+                # Providers that work anonymously (e.g. Pollinations) — don't
+                # skip them just because no key is configured.
+                "optional_key":     fb.get("optional_key", False),
             })
         return providers
