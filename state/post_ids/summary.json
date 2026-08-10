@@ -1,4 +1,66 @@
 {
+  "2026-08-10": {
+    "NationalSMoresDay": {
+      "mastodon": {
+        "id": "117070700250165329",
+        "url": "https://mastodon.social/@ClamBakeSanta/117070700250165329"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mspuuikrim2j",
+        "cid": "bafyreiceaa6tfpi7qxvgy243kjir7fzj7xscrwueooau5nz7nd65h7zmpu"
+      },
+      "tumblr": {
+        "id": "824555459103096832",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "359",
+        "channel": "@clambakesanta"
+      }
+    },
+    "NationalLazyDay": {
+      "mastodon": {
+        "id": "117070704259985272",
+        "url": "https://mastodon.social/@ClamBakeSanta/117070704259985272"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mspuwbvv3x2u",
+        "cid": "bafyreifeag6xgqzdj75k6a5h7akubyhwtck4mile3lgj6sn2ov4qtredqa"
+      },
+      "tumblr": {
+        "id": "824555522855452672",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "360",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayLeoFender": {
+      "mastodon": {
+        "id": "117070708236843494",
+        "url": "https://mastodon.social/@ClamBakeSanta/117070708236843494"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mspuy3nuun2j",
+        "cid": "bafyreibg7i562qwzepjzlph3k73tnw63myraetzjbgvoobetf2iu755awa"
+      },
+      "tumblr": {
+        "id": "824555586033156096",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "361",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "125",
+        "url": "https://clambakesanta.wordpress.com/2026/08/10/clam-bake-santa-2026-08-10/"
+      }
+    }
+  },
   "2026-08-09": {
     "NationalRicePuddingDay": {
       "mastodon": {

@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "date": "2026-08-09",
+    "theme": "National Rice Pudding Day",
+    "haiku": "Golden steam rises\nSoft custard drips like amber\nTaste of sunshine bright\nHappy #NationalRicePuddingDay from @ClamBakeSanta",
+    "tag": "NationalRicePuddingDay",
+    "logged_at": "2026-08-09T23:12:24.791266+00:00"
+  },
+  {
+    "date": "2026-08-09",
+    "theme": "Book Lovers Day",
+    "haiku": "Pages glow in dusk\nInk drips like amber rain, soft\nReaders sigh with joy\nHappy #BookLoversDay from @ClamBakeSanta",
+    "tag": "BookLoversDay",
+    "logged_at": "2026-08-09T23:12:24.791266+00:00"
+  },
+  {
+    "date": "2026-08-09",
+    "theme": "Birthday Whitney Houston",
+    "haiku": "Sunlight on your face\nSoft snowflakes dance in bright air\nJoy echoes in heart\n#HappyBirthdayWhitneyHouston from @ClamBakeSanta",
+    "tag": "HappyBirthdayWhitneyHouston",
+    "logged_at": "2026-08-09T23:12:24.791266+00:00"
+  }
+]
