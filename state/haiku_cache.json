@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "haikus": [
     {
-      "theme": "National S'mores Day",
-      "haiku": "Golden marshmallow,\nMolten chocolate on graham—\nSweet smoke curls to sky.\nHappy #NationalSMoresDay from @ClamBakeSanta",
-      "tag": "NationalSMoresDay",
+      "theme": "National Panini Day",
+      "haiku": "Cheese melts in pan soft\nCrackling bread, aroma swirls\nWarm bite, sunshine bite\nHappy #NationalPaniniDay from @ClamBakeSanta",
+      "tag": "NationalPaniniDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Lazy Day",
-      "haiku": "Soft sun drifts over\nLazy cushions sigh with ease\nDreams nap in warm light\nHappy #NationalLazyDay from @ClamBakeSanta",
-      "tag": "NationalLazyDay",
+      "theme": "Play in the Sand Day",
+      "haiku": "Soft waves kiss the shore\nChildren laugh, shells sparkle bright\nSand dunes rise like waves\nHappy #PlayInTheSandDay from @ClamBakeSanta",
+      "tag": "PlayInTheSandDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Leo Fender",
-      "haiku": "Sunlight on bright strings\nEchoes hum like summer drums\nJoy ripples through chords\n#HappyBirthdayLeoFender from @ClamBakeSanta",
-      "tag": "HappyBirthdayLeoFender",
+      "theme": "Birthday Alex Haley",
+      "haiku": "Soft candle glow light\nCrinkled paper wishes rise\nJoyful laughter rings\n#HappyBirthdayAlexHaley from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlexHaley",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National S'mores Day",
-    "National Lazy Day",
-    "Birthday Leo Fender"
+    "National Panini Day",
+    "Play in the Sand Day",
+    "Birthday Alex Haley"
   ],
-  "content": "Golden marshmallow,\nMolten chocolate on graham—\nSweet smoke curls to sky.\nHappy #NationalSMoresDay from @ClamBakeSanta\n\nSoft sun drifts over\nLazy cushions sigh with ease\nDreams nap in warm light\nHappy #NationalLazyDay from @ClamBakeSanta\n\nSunlight on bright strings\nEchoes hum like summer drums\nJoy ripples through chords\n#HappyBirthdayLeoFender from @ClamBakeSanta",
-  "saved_at": "2026-08-10T10:18:39.850560+00:00"
+  "content": "Cheese melts in pan soft\nCrackling bread, aroma swirls\nWarm bite, sunshine bite\nHappy #NationalPaniniDay from @ClamBakeSanta\n\nSoft waves kiss the shore\nChildren laugh, shells sparkle bright\nSand dunes rise like waves\nHappy #PlayInTheSandDay from @ClamBakeSanta\n\nSoft candle glow light\nCrinkled paper wishes rise\nJoyful laughter rings\n#HappyBirthdayAlexHaley from @ClamBakeSanta",
+  "saved_at": "2026-08-11T10:01:48.039491+00:00"
 }

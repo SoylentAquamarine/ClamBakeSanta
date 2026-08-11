@@ -1,0 +1,62 @@
+{
+  "NationalPaniniDay": {
+    "mastodon": {
+      "id": "117076296274871400",
+      "url": "https://mastodon.social/@ClamBakeSanta/117076296274871400"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mssefc27ai2i",
+      "cid": "bafyreieowuz5dccjokro6svxeinzehw6lh746fstvpx6m3w3x3rusroidu"
+    },
+    "tumblr": {
+      "id": "824644995902537728",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "362",
+      "channel": "@clambakesanta"
+    }
+  },
+  "PlayInTheSandDay": {
+    "mastodon": {
+      "id": "117076300314778389",
+      "url": "https://mastodon.social/@ClamBakeSanta/117076300314778389"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3msseh3glqf22",
+      "cid": "bafyreif7tbaeqfwww6enhukwb4ldjb3t3mhrpzvyacoyahp7obfz3sr66a"
+    },
+    "tumblr": {
+      "id": "824645059209248768",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "363",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayAlexHaley": {
+    "mastodon": {
+      "id": "117076304299536812",
+      "url": "https://mastodon.social/@ClamBakeSanta/117076304299536812"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3msseiusvgs2i",
+      "cid": "bafyreiazaoezvsrz5scibz53rns652bivis2bkyfukgkiivh32z4fanzu4"
+    },
+    "tumblr": {
+      "id": "824645122465611776",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "364",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "126",
+      "url": "https://clambakesanta.wordpress.com/2026/08/11/clam-bake-santa-2026-08-11/"
+    }
+  }
+}
