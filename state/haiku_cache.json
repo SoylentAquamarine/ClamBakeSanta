@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "haikus": [
     {
-      "theme": "National Panini Day",
-      "haiku": "Cheese melts in pan soft\nCrackling bread, aroma swirls\nWarm bite, sunshine bite\nHappy #NationalPaniniDay from @ClamBakeSanta",
-      "tag": "NationalPaniniDay",
+      "theme": "National Julienne Fries Day",
+      "haiku": "Crisp sticks flicker bright\nGolden curls dance in soft air\nTaste sparks joy within\nHappy #NationalJulienneFriesDay from @ClamBakeSanta",
+      "tag": "NationalJulienneFriesDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Play in the Sand Day",
-      "haiku": "Soft waves kiss the shore\nChildren laugh, shells sparkle bright\nSand dunes rise like waves\nHappy #PlayInTheSandDay from @ClamBakeSanta",
-      "tag": "PlayInTheSandDay",
+      "theme": "International Youth Day",
+      "haiku": "Laughter drifts like bells\nDancing colors stain the sky\nJoy blooms without end\nHappy #InternationalYouthDay from @ClamBakeSanta",
+      "tag": "InternationalYouthDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Alex Haley",
-      "haiku": "Soft candle glow light\nCrinkled paper wishes rise\nJoyful laughter rings\n#HappyBirthdayAlexHaley from @ClamBakeSanta",
-      "tag": "HappyBirthdayAlexHaley",
+      "theme": "Birthday William Blake",
+      "haiku": "Soft candle warm glow\nBreeze hums through soft cedar trees\nJoy rings bright in sky\n#HappyBirthdayWilliamBlake from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamBlake",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "New Moon",
+      "haiku": "Crescent winks softly\ncool silver brushes dark sky\nstars hum lullabies\nHappy #NewMoon from @ClamBakeSanta",
+      "tag": "NewMoon",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Perseid Meteor Shower",
+      "haiku": "Night sky hums softly\nTrails of light dance quick and bright\nWarm wishes shoot near\nHappy #PerseidMeteorShower from @ClamBakeSanta",
+      "tag": "PerseidMeteorShower",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +58,12 @@
     }
   ],
   "themes": [
-    "National Panini Day",
-    "Play in the Sand Day",
-    "Birthday Alex Haley"
+    "National Julienne Fries Day",
+    "International Youth Day",
+    "Birthday William Blake",
+    "New Moon",
+    "Perseid Meteor Shower"
   ],
-  "content": "Cheese melts in pan soft\nCrackling bread, aroma swirls\nWarm bite, sunshine bite\nHappy #NationalPaniniDay from @ClamBakeSanta\n\nSoft waves kiss the shore\nChildren laugh, shells sparkle bright\nSand dunes rise like waves\nHappy #PlayInTheSandDay from @ClamBakeSanta\n\nSoft candle glow light\nCrinkled paper wishes rise\nJoyful laughter rings\n#HappyBirthdayAlexHaley from @ClamBakeSanta",
-  "saved_at": "2026-08-11T10:01:48.039491+00:00"
+  "content": "Crisp sticks flicker bright\nGolden curls dance in soft air\nTaste sparks joy within\nHappy #NationalJulienneFriesDay from @ClamBakeSanta\n\nLaughter drifts like bells\nDancing colors stain the sky\nJoy blooms without end\nHappy #InternationalYouthDay from @ClamBakeSanta\n\nSoft candle warm glow\nBreeze hums through soft cedar trees\nJoy rings bright in sky\n#HappyBirthdayWilliamBlake from @ClamBakeSanta\n\nCrescent winks softly\ncool silver brushes dark sky\nstars hum lullabies\nHappy #NewMoon from @ClamBakeSanta\n\nNight sky hums softly\nTrails of light dance quick and bright\nWarm wishes shoot near\nHappy #PerseidMeteorShower from @ClamBakeSanta",
+  "saved_at": "2026-08-12T10:09:17.962452+00:00"
 }
