@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "haikus": [
     {
-      "theme": "National Julienne Fries Day",
-      "haiku": "Crisp sticks flicker bright\nGolden curls dance in soft air\nTaste sparks joy within\nHappy #NationalJulienneFriesDay from @ClamBakeSanta",
-      "tag": "NationalJulienneFriesDay",
+      "theme": "National Filet Mignon Day",
+      "haiku": "Grilled meat sizzles bright\nJuice drips down with smoky scent\nTender bites delight\nHappy #NationalFiletMignonDay from @ClamBakeSanta",
+      "tag": "NationalFiletMignonDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Youth Day",
-      "haiku": "Laughter drifts like bells\nDancing colors stain the sky\nJoy blooms without end\nHappy #InternationalYouthDay from @ClamBakeSanta",
-      "tag": "InternationalYouthDay",
+      "theme": "Left Handers Day",
+      "haiku": "Left hand waves soft bright\nMoonlit fingers twirl bright joy\nStars applaud in blue\nHappy #LeftHand",
+      "tag": "LeftHandersDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday William Blake",
-      "haiku": "Soft candle warm glow\nBreeze hums through soft cedar trees\nJoy rings bright in sky\n#HappyBirthdayWilliamBlake from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamBlake",
+      "theme": "Birthday Annie Oakley",
+      "haiku": "Bright swift arrows flash\nRed moon paints the range softly\nStars salute her aim\n#HappyBirthdayAnnieOakley from @ClamBakeSanta",
+      "tag": "HappyBirthdayAnnieOakley",
       "syllable_counts": [
         5,
         7,
@@ -35,20 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "New Moon",
-      "haiku": "Crescent winks softly\ncool silver brushes dark sky\nstars hum lullabies\nHappy #NewMoon from @ClamBakeSanta",
-      "tag": "NewMoon",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Perseid Meteor Shower",
-      "haiku": "Night sky hums softly\nTrails of light dance quick and bright\nWarm wishes shoot near\nHappy #PerseidMeteorShower from @ClamBakeSanta",
-      "tag": "PerseidMeteorShower",
+      "theme": "Birthday Alfred Hitchcock",
+      "haiku": "Dark night, a candle\nShadows flicker, whispers grow\nJoy drifts in the air\n#HappyBirthdayAlfredHitchcock from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlfredHitchcock",
       "syllable_counts": [
         5,
         7,
@@ -58,12 +47,11 @@
     }
   ],
   "themes": [
-    "National Julienne Fries Day",
-    "International Youth Day",
-    "Birthday William Blake",
-    "New Moon",
-    "Perseid Meteor Shower"
+    "National Filet Mignon Day",
+    "Left Handers Day",
+    "Birthday Annie Oakley",
+    "Birthday Alfred Hitchcock"
   ],
-  "content": "Crisp sticks flicker bright\nGolden curls dance in soft air\nTaste sparks joy within\nHappy #NationalJulienneFriesDay from @ClamBakeSanta\n\nLaughter drifts like bells\nDancing colors stain the sky\nJoy blooms without end\nHappy #InternationalYouthDay from @ClamBakeSanta\n\nSoft candle warm glow\nBreeze hums through soft cedar trees\nJoy rings bright in sky\n#HappyBirthdayWilliamBlake from @ClamBakeSanta\n\nCrescent winks softly\ncool silver brushes dark sky\nstars hum lullabies\nHappy #NewMoon from @ClamBakeSanta\n\nNight sky hums softly\nTrails of light dance quick and bright\nWarm wishes shoot near\nHappy #PerseidMeteorShower from @ClamBakeSanta",
-  "saved_at": "2026-08-12T10:09:17.962452+00:00"
+  "content": "Grilled meat sizzles bright\nJuice drips down with smoky scent\nTender bites delight\nHappy #NationalFiletMignonDay from @ClamBakeSanta\n\nLeft hand waves soft bright\nMoonlit fingers twirl bright joy\nStars applaud in blue\nHappy #LeftHand\n\nBright swift arrows flash\nRed moon paints the range softly\nStars salute her aim\n#HappyBirthdayAnnieOakley from @ClamBakeSanta\n\nDark night, a candle\nShadows flicker, whispers grow\nJoy drifts in the air\n#HappyBirthdayAlfredHitchcock from @ClamBakeSanta",
+  "saved_at": "2026-08-13T10:10:02.072381+00:00"
 }
