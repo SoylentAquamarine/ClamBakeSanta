@@ -25,7 +25,7 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-08-13T22:32:40.561345+00:00"
+    "last_checked": "2026-08-14T22:13:51.667626+00:00"
   },
   "LeftHandersDay": {
     "theme": "Left Handers Day",
@@ -53,7 +53,7 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-08-13T22:32:40.561345+00:00"
+    "last_checked": "2026-08-14T22:13:51.667626+00:00"
   },
   "HappyBirthdayAnnieOakley": {
     "theme": "Birthday Annie Oakley",
@@ -81,7 +81,7 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-08-13T22:32:40.561345+00:00"
+    "last_checked": "2026-08-14T22:13:51.667626+00:00"
   },
   "HappyBirthdayAlfredHitchcock": {
     "theme": "Birthday Alfred Hitchcock",
@@ -98,10 +98,18 @@
         "id": "824827024534274048",
         "notes": 0,
         "score": 0
+      },
+      "mastodon": {
+        "id": "117087665184016419",
+        "url": "https://mastodon.social/@ClamBakeSanta/117087665184016419",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
       }
     },
     "total_score": 1,
-    "last_checked": "2026-08-13T22:32:40.561345+00:00"
+    "last_checked": "2026-08-14T22:13:51.667626+00:00"
   },
   "_wp_daily": {
     "theme": "_wp_daily",
@@ -117,6 +125,6 @@
       }
     },
     "total_score": 1,
-    "last_checked": "2026-08-13T22:32:40.561345+00:00"
+    "last_checked": "2026-08-14T22:13:51.667626+00:00"
   }
 }
