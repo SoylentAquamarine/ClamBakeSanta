@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "haikus": [
     {
-      "theme": "National Filet Mignon Day",
-      "haiku": "Grilled meat sizzles bright\nJuice drips down with smoky scent\nTender bites delight\nHappy #NationalFiletMignonDay from @ClamBakeSanta",
-      "tag": "NationalFiletMignonDay",
+      "theme": "National Creamsicle Day",
+      "haiku": "Orange peel soft glows\nCool swirl meets sweet sun on hand\nTaste melts in summer\nHappy #NationalCreamsicleDay from @ClamBakeSanta",
+      "tag": "NationalCreamsicleDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Left Handers Day",
-      "haiku": "Left hand waves soft bright\nMoonlit fingers twirl bright joy\nStars applaud in blue\nHappy #LeftHand",
-      "tag": "LeftHandersDay",
+      "theme": "National Bowling Day",
+      "haiku": "Wooden balls roll bright\nLanes shine smooth as ice in sun\nPins dance with a *clack*\nHappy #NationalBowlingDay from @ClamBakeSanta",
+      "tag": "NationalBowlingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Annie Oakley",
-      "haiku": "Bright swift arrows flash\nRed moon paints the range softly\nStars salute her aim\n#HappyBirthdayAnnieOakley from @ClamBakeSanta",
-      "tag": "HappyBirthdayAnnieOakley",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Alfred Hitchcock",
-      "haiku": "Dark night, a candle\nShadows flicker, whispers grow\nJoy drifts in the air\n#HappyBirthdayAlfredHitchcock from @ClamBakeSanta",
-      "tag": "HappyBirthdayAlfredHitchcock",
+      "theme": "Birthday David Crosby",
+      "haiku": "Soft fireflies glow\nCandles flicker, scent of pine\nSongs rise like warm mist\n#HappyBirthdayDavidCrosby from @ClamBakeSanta",
+      "tag": "HappyBirthdayDavidCrosby",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Filet Mignon Day",
-    "Left Handers Day",
-    "Birthday Annie Oakley",
-    "Birthday Alfred Hitchcock"
+    "National Creamsicle Day",
+    "National Bowling Day",
+    "Birthday David Crosby"
   ],
-  "content": "Grilled meat sizzles bright\nJuice drips down with smoky scent\nTender bites delight\nHappy #NationalFiletMignonDay from @ClamBakeSanta\n\nLeft hand waves soft bright\nMoonlit fingers twirl bright joy\nStars applaud in blue\nHappy #LeftHand\n\nBright swift arrows flash\nRed moon paints the range softly\nStars salute her aim\n#HappyBirthdayAnnieOakley from @ClamBakeSanta\n\nDark night, a candle\nShadows flicker, whispers grow\nJoy drifts in the air\n#HappyBirthdayAlfredHitchcock from @ClamBakeSanta",
-  "saved_at": "2026-08-13T10:10:02.072381+00:00"
+  "content": "Orange peel soft glows\nCool swirl meets sweet sun on hand\nTaste melts in summer\nHappy #NationalCreamsicleDay from @ClamBakeSanta\n\nWooden balls roll bright\nLanes shine smooth as ice in sun\nPins dance with a *clack*\nHappy #NationalBowlingDay from @ClamBakeSanta\n\nSoft fireflies glow\nCandles flicker, scent of pine\nSongs rise like warm mist\n#HappyBirthdayDavidCrosby from @ClamBakeSanta",
+  "saved_at": "2026-08-14T10:05:13.811301+00:00"
 }

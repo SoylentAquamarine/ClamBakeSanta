@@ -1,17 +1,16 @@
 [
   {
-    "timestamp": "2026-07-14T10:58:19.424685+00:00",
-    "date": "2026-07-14",
+    "timestamp": "2026-08-14T10:13:28.027657+00:00",
+    "date": "2026-08-14",
     "themes_found": [
-      "Bastille Day",
-      "National Macaroni and Cheese Day",
-      "Birthday Woody Guthrie",
-      "New Moon"
+      "National Creamsicle Day",
+      "National Bowling Day",
+      "Birthday David Crosby"
     ],
     "haikus_posted": [
       {
-        "theme": "National Macaroni and Cheese Day",
-        "tag": "NationalMacaroniAndCheeseDay",
+        "theme": "National Creamsicle Day",
+        "tag": "NationalCreamsicleDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +19,8 @@
         ]
       },
       {
-        "theme": "Birthday Woody Guthrie",
-        "tag": "HappyBirthdayWoodyGuthrie",
+        "theme": "National Bowling Day",
+        "tag": "NationalBowlingDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +29,8 @@
         ]
       },
       {
-        "theme": "New Moon",
-        "tag": "NewMoon",
+        "theme": "Birthday David Crosby",
+        "tag": "HappyBirthdayDavidCrosby",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,13 +39,7 @@
         ]
       }
     ],
-    "writers_block": [
-      {
-        "theme": "Bastille Day",
-        "tag": "BastilleDay",
-        "attempts": 5
-      }
-    ],
+    "writers_block": [],
     "adapters_ok": [
       "mastodon",
       "bluesky",
