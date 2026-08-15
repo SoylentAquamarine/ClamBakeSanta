@@ -1,4 +1,118 @@
 {
+  "2026-08-15": {
+    "NationalLemonMeringuePieDay": {
+      "theme": "National Lemon Meringue Pie Day",
+      "haiku": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117098815278401074",
+          "url": "https://mastodon.social/@ClamBakeSanta/117098815278401074",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4ehjeepx2p",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "825005426394513408",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
+    },
+    "NationalRelaxationDay": {
+      "theme": "National Relaxation Day",
+      "haiku": "Gentle breeze whispers\nSoft clouds drift over green hills\nLaughter hums like rain\nHappy #NationalRelaxationDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117098819235540880",
+          "url": "https://mastodon.social/@ClamBakeSanta/117098819235540880",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4ejd6vye2j",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "825005489740021760",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
+    },
+    "HappyBirthdayJuliaChild": {
+      "theme": "Birthday Julia Child",
+      "haiku": "Steel pan sizzles loud\nHerbs perfume the kitchen air\nJoy bubbles like stew\n#HappyBirthdayJuliaChild from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117098823213525099",
+          "url": "https://mastodon.social/@ClamBakeSanta/117098823213525099",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4el4o5ql23",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "825005553079173120",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
+    },
+    "HappyBirthdayEdnaFerber": {
+      "theme": "Birthday Edna Ferber",
+      "haiku": "Bright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117098827182360244",
+          "url": "https://mastodon.social/@ClamBakeSanta/117098827182360244",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4emw5iqj2s",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "825005616446750720",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
+    }
+  },
   "2026-08-14": {
     "NationalCreamsicleDay": {
       "theme": "National Creamsicle Day",
@@ -26,7 +140,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "NationalBowlingDay": {
       "theme": "National Bowling Day",
@@ -54,7 +168,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "HappyBirthdayDavidCrosby": {
       "theme": "Birthday David Crosby",
@@ -82,7 +196,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -98,7 +212,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     }
   },
   "2026-08-13": {
@@ -128,7 +242,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "LeftHandersDay": {
       "theme": "Left Handers Day",
@@ -156,7 +270,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "HappyBirthdayAnnieOakley": {
       "theme": "Birthday Annie Oakley",
@@ -184,7 +298,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "HappyBirthdayAlfredHitchcock": {
       "theme": "Birthday Alfred Hitchcock",
@@ -212,7 +326,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -228,7 +342,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     }
   },
   "2026-08-12": {
@@ -258,7 +372,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "InternationalYouthDay": {
       "theme": "International Youth Day",
@@ -286,7 +400,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "HappyBirthdayWilliamBlake": {
       "theme": "Birthday William Blake",
@@ -314,7 +428,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "NewMoon": {
       "theme": "New Moon",
@@ -342,7 +456,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "PerseidMeteorShower": {
       "theme": "Perseid Meteor Shower",
@@ -370,7 +484,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -386,7 +500,7 @@
         }
       },
       "total_score": 4,
-      "last_checked": "2026-08-14T22:13:51.667626+00:00"
+      "last_checked": "2026-08-15T22:12:26.930610+00:00"
     }
   },
   "2026-08-11": {
