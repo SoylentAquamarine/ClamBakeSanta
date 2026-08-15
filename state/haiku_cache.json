@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "haikus": [
     {
-      "theme": "National Creamsicle Day",
-      "haiku": "Orange peel soft glows\nCool swirl meets sweet sun on hand\nTaste melts in summer\nHappy #NationalCreamsicleDay from @ClamBakeSanta",
-      "tag": "NationalCreamsicleDay",
+      "theme": "National Lemon Meringue Pie Day",
+      "haiku": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta",
+      "tag": "NationalLemonMeringuePieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Bowling Day",
-      "haiku": "Wooden balls roll bright\nLanes shine smooth as ice in sun\nPins dance with a *clack*\nHappy #NationalBowlingDay from @ClamBakeSanta",
-      "tag": "NationalBowlingDay",
+      "theme": "National Relaxation Day",
+      "haiku": "Gentle breeze whispers\nSoft clouds drift over green hills\nLaughter hums like rain\nHappy #NationalRelaxationDay from @ClamBakeSanta",
+      "tag": "NationalRelaxationDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday David Crosby",
-      "haiku": "Soft fireflies glow\nCandles flicker, scent of pine\nSongs rise like warm mist\n#HappyBirthdayDavidCrosby from @ClamBakeSanta",
-      "tag": "HappyBirthdayDavidCrosby",
+      "theme": "Birthday Julia Child",
+      "haiku": "Steel pan sizzles loud\nHerbs perfume the kitchen air\nJoy bubbles like stew\n#HappyBirthdayJuliaChild from @ClamBakeSanta",
+      "tag": "HappyBirthdayJuliaChild",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Edna Ferber",
+      "haiku": "Bright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
+      "tag": "HappyBirthdayEdnaFerber",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Creamsicle Day",
-    "National Bowling Day",
-    "Birthday David Crosby"
+    "National Lemon Meringue Pie Day",
+    "National Relaxation Day",
+    "Birthday Julia Child",
+    "Birthday Edna Ferber"
   ],
-  "content": "Orange peel soft glows\nCool swirl meets sweet sun on hand\nTaste melts in summer\nHappy #NationalCreamsicleDay from @ClamBakeSanta\n\nWooden balls roll bright\nLanes shine smooth as ice in sun\nPins dance with a *clack*\nHappy #NationalBowlingDay from @ClamBakeSanta\n\nSoft fireflies glow\nCandles flicker, scent of pine\nSongs rise like warm mist\n#HappyBirthdayDavidCrosby from @ClamBakeSanta",
-  "saved_at": "2026-08-14T10:05:13.811301+00:00"
+  "content": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta\n\nGentle breeze whispers\nSoft clouds drift over green hills\nLaughter hums like rain\nHappy #NationalRelaxationDay from @ClamBakeSanta\n\nSteel pan sizzles loud\nHerbs perfume the kitchen air\nJoy bubbles like stew\n#HappyBirthdayJuliaChild from @ClamBakeSanta\n\nBright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
+  "saved_at": "2026-08-15T09:28:40.741220+00:00"
 }

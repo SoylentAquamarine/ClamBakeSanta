@@ -1,4 +1,78 @@
 {
+  "2026-08-15": {
+    "NationalLemonMeringuePieDay": {
+      "mastodon": {
+        "id": "117098815278401074",
+        "url": "https://mastodon.social/@ClamBakeSanta/117098815278401074"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4ehjeepx2p",
+        "cid": "bafyreidlzw5ribvgzwmvdljlmrg5snnhkyt7ilhdwdfpvji4w2vt6jtfou"
+      },
+      "tumblr": {
+        "id": "825005426394513408",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "377",
+        "channel": "@clambakesanta"
+      }
+    },
+    "NationalRelaxationDay": {
+      "mastodon": {
+        "id": "117098819235540880",
+        "url": "https://mastodon.social/@ClamBakeSanta/117098819235540880"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4ejd6vye2j",
+        "cid": "bafyreibkit3yzydq3zumvbkyko3jn3v7ys5nfdptgnmxymtksnlomsd2gq"
+      },
+      "tumblr": {
+        "id": "825005489740021760",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "378",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayJuliaChild": {
+      "mastodon": {
+        "id": "117098823213525099",
+        "url": "https://mastodon.social/@ClamBakeSanta/117098823213525099"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4el4o5ql23",
+        "cid": "bafyreigwjv3yhpnyg36zrlhbbplmpa7ptjk3lyw3l3zjrlsjrzoq36a754"
+      },
+      "tumblr": {
+        "id": "825005553079173120",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "379",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayEdnaFerber": {
+      "mastodon": {
+        "id": "117098827182360244",
+        "url": "https://mastodon.social/@ClamBakeSanta/117098827182360244"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4emw5iqj2s",
+        "cid": "bafyreifnidhrwwg6qpu5i4wxkrp5gadcqe66limxbcc6tkiydhaqcixjcy"
+      },
+      "tumblr": {
+        "id": "825005616446750720",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "380",
+        "channel": "@clambakesanta"
+      }
+    }
+  },
   "2026-08-14": {
     "NationalCreamsicleDay": {
       "mastodon": {
