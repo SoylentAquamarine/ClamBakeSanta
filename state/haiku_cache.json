@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "haikus": [
     {
-      "theme": "National Lemon Meringue Pie Day",
-      "haiku": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta",
-      "tag": "NationalLemonMeringuePieDay",
+      "theme": "National Rum Day",
+      "haiku": "Amber glow pours soft\nCaramel waves swirl in glass\nTaste of summer nights\nHappy #NationalRumDay from @ClamBakeSanta",
+      "tag": "NationalRumDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Relaxation Day",
-      "haiku": "Gentle breeze whispers\nSoft clouds drift over green hills\nLaughter hums like rain\nHappy #NationalRelaxationDay from @ClamBakeSanta",
-      "tag": "NationalRelaxationDay",
+      "theme": "National Tell a Joke Day",
+      "haiku": "Jokes bloom bright like spring\nSmiles ripple through quiet rooms\nLaughter paints the air\nHappy",
+      "tag": "NationalTellAJokeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Julia Child",
-      "haiku": "Steel pan sizzles loud\nHerbs perfume the kitchen air\nJoy bubbles like stew\n#HappyBirthdayJuliaChild from @ClamBakeSanta",
-      "tag": "HappyBirthdayJuliaChild",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Edna Ferber",
-      "haiku": "Bright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
-      "tag": "HappyBirthdayEdnaFerber",
+      "theme": "Birthday Charles Bukowski",
+      "haiku": "Starlight pours on ink\nCigarette ash curls like smoke\nJoy spills in cracked glass\n#HappyBirthdayCharlesBukowski from @ClamBakeSanta",
+      "tag": "HappyBirthdayCharlesBukowski",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Lemon Meringue Pie Day",
-    "National Relaxation Day",
-    "Birthday Julia Child",
-    "Birthday Edna Ferber"
+    "National Rum Day",
+    "National Tell a Joke Day",
+    "Birthday Charles Bukowski"
   ],
-  "content": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta\n\nGentle breeze whispers\nSoft clouds drift over green hills\nLaughter hums like rain\nHappy #NationalRelaxationDay from @ClamBakeSanta\n\nSteel pan sizzles loud\nHerbs perfume the kitchen air\nJoy bubbles like stew\n#HappyBirthdayJuliaChild from @ClamBakeSanta\n\nBright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
-  "saved_at": "2026-08-15T09:28:40.741220+00:00"
+  "content": "Amber glow pours soft\nCaramel waves swirl in glass\nTaste of summer nights\nHappy #NationalRumDay from @ClamBakeSanta\n\nJokes bloom bright like spring\nSmiles ripple through quiet rooms\nLaughter paints the air\nHappy\n\nStarlight pours on ink\nCigarette ash curls like smoke\nJoy spills in cracked glass\n#HappyBirthdayCharlesBukowski from @ClamBakeSanta",
+  "saved_at": "2026-08-16T09:29:43.867580+00:00"
 }

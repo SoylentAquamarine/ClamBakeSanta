@@ -123,7 +123,8 @@
     "2026-08-12",
     "2026-08-13",
     "2026-08-14",
-    "2026-08-15"
+    "2026-08-15",
+    "2026-08-16"
   ],
   "runs": [
     {
@@ -1607,6 +1608,17 @@
         "Birthday Edna Ferber"
       ],
       "content_preview": "Lemon scent drifts soft Meringue peaks glow like sun Pie slices melt smiles Happy #NationalLemonMeringuePieDay from @Cla"
+    },
+    {
+      "date": "2026-08-16",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-16T09:37:59.444760+00:00",
+      "themes": [
+        "National Rum Day",
+        "National Tell a Joke Day",
+        "Birthday Charles Bukowski"
+      ],
+      "content_preview": "Amber glow pours soft Caramel waves swirl in glass Taste of summer nights Happy #NationalRumDay from @ClamBakeSanta  Jok"
     }
   ]
 }

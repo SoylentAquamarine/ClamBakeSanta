@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-07-16T11:10:55.547992+00:00",
-    "date": "2026-07-16",
+    "timestamp": "2026-08-16T09:37:59.446079+00:00",
+    "date": "2026-08-16",
     "themes_found": [
-      "National Fresh Spinach Day",
-      "National Corn Fritters Day",
-      "Birthday Ginger Rogers"
+      "National Rum Day",
+      "National Tell a Joke Day",
+      "Birthday Charles Bukowski"
     ],
     "haikus_posted": [
       {
-        "theme": "National Fresh Spinach Day",
-        "tag": "NationalFreshSpinachDay",
+        "theme": "National Rum Day",
+        "tag": "NationalRumDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Corn Fritters Day",
-        "tag": "NationalCornFrittersDay",
+        "theme": "National Tell a Joke Day",
+        "tag": "NationalTellAJokeDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Ginger Rogers",
-        "tag": "HappyBirthdayGingerRogers",
+        "theme": "Birthday Charles Bukowski",
+        "tag": "HappyBirthdayCharlesBukowski",
         "valid_syllables": true,
         "counts": [
           5,
