@@ -45,6 +45,7 @@ from framework.registry import register
 from framework.engines.base import BaseEngine
 from framework.models import Event, Result
 from framework.validation import register_metadata_validator
+from framework.haiku_validator import AMBIGUOUS_WORDS
 
 # ── Metadata schema validator ────────────────────────────────────────────────
 # This runs automatically inside the runner after process() returns.
@@ -133,12 +134,16 @@ def _make_prompt(theme: str, avoid_phrases: list[str] | None = None) -> str:
         avoid_block = (
             f"\nFor variety, avoid starting with opening words or images similar to: {listed}."
         )
+    ambiguous_list = ", ".join(sorted(AMBIGUOUS_WORDS))
     return (
         f'Write a single three-line haiku with EXACTLY 5-7-5 syllables.\n'
         f'Theme: "{theme}"\n'
         f"Count every syllable carefully before finalizing each line. "
         f"Prefer short, common words with unambiguous syllable counts. "
         f"Avoid contractions, hyphenated words, or words with irregular pronunciation. "
+        f"Do not use any of these words — their syllable count is genuinely disputed "
+        f"even among dictionaries, so any haiku using one gets rejected regardless of "
+        f"the math: {ambiguous_list}.\n"
         f"Use sensory detail and vivid imagery. Keep it warm and celebratory.{avoid_block}\n"
         f'End with exactly this line: "{closing}"\n'
         f"Output only the 4 lines, nothing else."
@@ -362,7 +367,7 @@ class ClamBakeSantaEngine(BaseEngine):
             )
             return fallback, []
 
-        from framework.haiku_validator import validate_haiku
+        from framework.haiku_validator import validate_haiku, find_ambiguous_word
 
         providers = self._providers()
         attempts: list[dict] = []  # recorded for writers_block_log if every provider fails
@@ -412,11 +417,19 @@ class ClamBakeSantaEngine(BaseEngine):
                                       provider["name"], attempt, _MAX_RETRIES, theme)
                         return haiku_text, counts
 
-                    got = "-".join(str(c) for c in counts) if counts else "unknown"
-                    _log.warning(
-                        "Syllable mismatch via %r (attempt %d/%d): expected 5-7-5, got %s | theme=%r",
-                        provider["name"], attempt, _MAX_RETRIES, got, theme,
-                    )
+                    ambiguous = find_ambiguous_word(haiku_text)
+                    if ambiguous:
+                        _log.warning(
+                            "Rejected via %r (attempt %d/%d): used ambiguous-syllable "
+                            "word %r | theme=%r",
+                            provider["name"], attempt, _MAX_RETRIES, ambiguous, theme,
+                        )
+                    else:
+                        got = "-".join(str(c) for c in counts) if counts else "unknown"
+                        _log.warning(
+                            "Syllable mismatch via %r (attempt %d/%d): expected 5-7-5, got %s | theme=%r",
+                            provider["name"], attempt, _MAX_RETRIES, got, theme,
+                        )
                 except Exception as exc:
                     _log.error("API error via %r (attempt %d/%d) | theme=%r: %s",
                                provider["name"], attempt, _MAX_RETRIES, theme, exc)

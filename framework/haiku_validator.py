@@ -62,6 +62,57 @@ _SYLLABLE_EXCEPTIONS: dict[str, int] = {
 }
 
 
+# Words whose syllable count is genuinely contested — dictionaries and
+# native speakers disagree, not just CMU-dict-vs-heuristic (e.g. "prayer" is
+# 1 syllable as "prair" or 2 as "pray-er" depending on dialect/use, and
+# nobody agrees). Rather than pin down a single "correct" count for words
+# nobody agrees on, the generator is told to avoid them entirely (see
+# _make_prompt in plugins/engines/clambakesanta.py) and this rejects any
+# haiku that uses one anyway, forcing a retry with different word choice.
+# This is the "-ire"/"our" diphthong+r family from _SYLLABLE_EXCEPTIONS
+# above, plus "prayer" — NOT flower/power/tower/higher/liar/firefly/
+# meringue, which have a single confirmed-correct count (see that dict's
+# comment) and don't need avoiding, just correct counting.
+AMBIGUOUS_WORDS: frozenset[str] = frozenset({
+    "fire", "fires", "fired", "firing",
+    "tire", "tires", "tired",
+    "hire", "hires", "hired",
+    "sire", "sires",
+    "dire",
+    "mire", "mires",
+    "wire", "wires",
+    "spire", "spires",
+    "squire", "squires",
+    "entire",
+    "retire", "retires", "retired",
+    "expire", "expires", "expired",
+    "inspire", "inspires", "inspired",
+    "admire", "admires", "admired",
+    "desire", "desires", "desired",
+    "acquire", "acquires", "acquired",
+    "require", "requires", "required",
+    "umpire", "umpires",
+    "vampire", "vampires",
+    "empire", "empires",
+    "aspire", "aspires", "aspired",
+    "hour", "hours",
+    "our", "ours",
+    "sour", "sours",
+    "flour", "flours",
+    "prayer", "prayers",
+})
+
+
+def find_ambiguous_word(text: str) -> str | None:
+    """Return the first word in text with a genuinely contested syllable
+    count, or None. Checks the whole haiku (all lines), not just one."""
+    for w in text.split():
+        clean = re.sub(r"[^a-zA-Z]", "", w).lower()
+        if clean in AMBIGUOUS_WORDS:
+            return clean
+    return None
+
+
 def count_syllables(word: str) -> int:
     """Count syllables in a single word using CMU dict with heuristic fallback."""
     word_clean = re.sub(r"[^a-zA-Z]", "", word)
@@ -92,6 +143,10 @@ def validate_haiku(haiku_text: str) -> tuple[bool, list[int]]:
 
     The closing attribution line (containing '#' or '@') is excluded.
     Returns (valid, [line1, line2, line3]) or (False, []) if < 3 poem lines found.
+    A haiku using a word with a genuinely contested syllable count (see
+    find_ambiguous_word) is rejected even if the math otherwise works out,
+    since "the math works out" depends on picking a side in a dispute
+    nobody agrees on.
     """
     lines = [ln.strip() for ln in haiku_text.split("\n") if ln.strip()]
     poem_lines = [
@@ -103,6 +158,8 @@ def validate_haiku(haiku_text: str) -> tuple[bool, list[int]]:
         return False, []
 
     counts = [count_line_syllables(ln) for ln in poem_lines]
+    if find_ambiguous_word(" ".join(poem_lines)):
+        return False, counts
     return counts == [5, 7, 5], counts
 
 
