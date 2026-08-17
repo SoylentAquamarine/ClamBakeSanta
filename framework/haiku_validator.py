@@ -33,11 +33,44 @@ def _heuristic_syllables(word: str) -> int:
     return max(1, count)
 
 
+# Words where CMU dict / the heuristic diverge from dictionary-standard
+# (Merriam-Webster / howmanysyllables.com) syllable counts, checked before
+# either. Add entries here as they're discovered rather than patching the
+# general logic with a pattern rule — a blanket rule for one word's shape
+# (e.g. silent "-gue", or "diphthong+r collapses to 1 syllable") can silently
+# break other words that were already correct (verified 2026-08-17: a
+# "-gue/-que ending" rule fixes "meringue" but breaks "dialogue"; a blanket
+# "diphthong+er = 1 syllable" rule would wrongly collapse "flower"/"power"/
+# "tower"/"higher"/"liar", which are genuinely 2 syllables each).
+#
+# CMU's ARPABET phones split "fire"-type words (diphthong + schwa-r, no
+# intervening consonant) into 2 phonetic units, but dictionaries and common
+# speech treat them as 1 syllable. Confirmed word-by-word against
+# howmanysyllables.com 2026-08-17 — don't extend this list by pattern-
+# matching new words, look each one up.
+_SYLLABLE_EXCEPTIONS: dict[str, int] = {
+    "meringue": 2,   # muh-RANG — not in CMU dict, heuristic overcounts as 3
+    "fire": 1, "fires": 1, "fired": 1,
+    "hour": 1, "hours": 1,
+    "tire": 1, "tires": 1, "tired": 1,
+    "hire": 1, "hires": 1, "hired": 1,
+    "sour": 1, "sours": 1,
+    "our": 1,
+    "flour": 1, "flours": 1,
+    "desire": 2, "desires": 2,
+    "firefly": 2, "fireflies": 2,  # fire-fly — compound word, own CMU entry (3), not derived from "fire"
+}
+
+
 def count_syllables(word: str) -> int:
     """Count syllables in a single word using CMU dict with heuristic fallback."""
     word_clean = re.sub(r"[^a-zA-Z]", "", word)
     if not word_clean:
         return 0
+
+    override = _SYLLABLE_EXCEPTIONS.get(word_clean.lower())
+    if override is not None:
+        return override
 
     if _try_import_pronouncing():
         import pronouncing
