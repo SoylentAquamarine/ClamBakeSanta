@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-09",
-    "theme": "National Rice Pudding Day",
-    "haiku": "Golden steam rises\nSoft custard drips like amber\nTaste of sunshine bright\nHappy #NationalRicePuddingDay from @ClamBakeSanta",
-    "tag": "NationalRicePuddingDay",
-    "logged_at": "2026-08-09T23:12:24.791266+00:00"
-  },
-  {
-    "date": "2026-08-09",
-    "theme": "Book Lovers Day",
-    "haiku": "Pages glow in dusk\nInk drips like amber rain, soft\nReaders sigh with joy\nHappy #BookLoversDay from @ClamBakeSanta",
-    "tag": "BookLoversDay",
-    "logged_at": "2026-08-09T23:12:24.791266+00:00"
-  },
-  {
-    "date": "2026-08-09",
-    "theme": "Birthday Whitney Houston",
-    "haiku": "Sunlight on your face\nSoft snowflakes dance in bright air\nJoy echoes in heart\n#HappyBirthdayWhitneyHouston from @ClamBakeSanta",
-    "tag": "HappyBirthdayWhitneyHouston",
-    "logged_at": "2026-08-09T23:12:24.791266+00:00"
-  },
-  {
     "date": "2026-08-10",
     "theme": "National S'mores Day",
     "haiku": "Golden marshmallow,\nMolten chocolate on graham—\nSweet smoke curls to sky.\nHappy #NationalSMoresDay from @ClamBakeSanta",
@@ -173,5 +152,26 @@
     "haiku": "Bright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
     "tag": "HappyBirthdayEdnaFerber",
     "logged_at": "2026-08-15T09:28:40.741646+00:00"
+  },
+  {
+    "date": "2026-08-16",
+    "theme": "National Rum Day",
+    "haiku": "Amber glow pours soft\nCaramel waves swirl in glass\nTaste of summer nights\nHappy #NationalRumDay from @ClamBakeSanta",
+    "tag": "NationalRumDay",
+    "logged_at": "2026-08-16T09:29:43.867997+00:00"
+  },
+  {
+    "date": "2026-08-16",
+    "theme": "National Tell a Joke Day",
+    "haiku": "Jokes bloom bright like spring\nSmiles ripple through quiet rooms\nLaughter paints the air\nHappy",
+    "tag": "NationalTellAJokeDay",
+    "logged_at": "2026-08-16T09:29:43.867997+00:00"
+  },
+  {
+    "date": "2026-08-16",
+    "theme": "Birthday Charles Bukowski",
+    "haiku": "Starlight pours on ink\nCigarette ash curls like smoke\nJoy spills in cracked glass\n#HappyBirthdayCharlesBukowski from @ClamBakeSanta",
+    "tag": "HappyBirthdayCharlesBukowski",
+    "logged_at": "2026-08-16T09:29:43.867997+00:00"
   }
 ]

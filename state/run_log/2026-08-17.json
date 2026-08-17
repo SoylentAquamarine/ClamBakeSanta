@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-07-17T10:57:31.780977+00:00",
-    "date": "2026-07-17",
+    "timestamp": "2026-08-17T09:52:49.555457+00:00",
+    "date": "2026-08-17",
     "themes_found": [
-      "National Peach Ice Cream Day",
-      "World Emoji Day",
-      "Birthday James Cagney"
+      "National Thrift Shop Day",
+      "National Vanilla Custard Day",
+      "Birthday Davy Crockett"
     ],
     "haikus_posted": [
       {
-        "theme": "National Peach Ice Cream Day",
-        "tag": "NationalPeachIceCreamDay",
+        "theme": "National Thrift Shop Day",
+        "tag": "NationalThriftShopDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "World Emoji Day",
-        "tag": "WorldEmojiDay",
+        "theme": "National Vanilla Custard Day",
+        "tag": "NationalVanillaCustardDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday James Cagney",
-        "tag": "HappyBirthdayJamesCagney",
+        "theme": "Birthday Davy Crockett",
+        "tag": "HappyBirthdayDavyCrockett",
         "valid_syllables": true,
         "counts": [
           5,

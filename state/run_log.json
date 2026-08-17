@@ -124,7 +124,8 @@
     "2026-08-13",
     "2026-08-14",
     "2026-08-15",
-    "2026-08-16"
+    "2026-08-16",
+    "2026-08-17"
   ],
   "runs": [
     {
@@ -1619,6 +1620,17 @@
         "Birthday Charles Bukowski"
       ],
       "content_preview": "Amber glow pours soft Caramel waves swirl in glass Taste of summer nights Happy #NationalRumDay from @ClamBakeSanta  Jok"
+    },
+    {
+      "date": "2026-08-17",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-17T09:52:49.554197+00:00",
+      "themes": [
+        "National Thrift Shop Day",
+        "National Vanilla Custard Day",
+        "Birthday Davy Crockett"
+      ],
+      "content_preview": "Treasure chests gleam bright, Laughter swirls on racks of gold— Stories hug the air. Happy #NationalThriftShopDay from @"
     }
   ]
 }
