@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "haikus": [
     {
-      "theme": "National Thrift Shop Day",
-      "haiku": "Treasure chests gleam bright,\nLaughter swirls on racks of gold—\nStories hug the air.\nHappy #NationalThriftShopDay from @ClamBakeSanta",
-      "tag": "NationalThriftShopDay",
+      "theme": "National Soft Ice Cream Day",
+      "haiku": "Creamy swirl drifts up\nCool scent sweet lingers on tongue\nJoyful smiles melt too\nHappy #NationalSoftIce",
+      "tag": "NationalSoftIceCreamDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Vanilla Custard Day",
-      "haiku": "Velvet cream soft sighs\nStirring sunrise in a bowl\nTaste buds dance gently\nHappy #NationalVanillaCustardDay from @ClamBakeSanta",
-      "tag": "NationalVanillaCustardDay",
+      "theme": "Bad Poetry Day",
+      "haiku": "Stale rhyme falls quiet\nInk drips on paper, sighs soft\nSnow melts on bright tongue\nHappy #BadPoetryDay from @ClamBakeSanta",
+      "tag": "BadPoetryDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Davy Crockett",
-      "haiku": "Old oak sighs in breeze\nCandles glow, fireflies dance\nCheers rise like sunrise\n#HappyBirthdayDavyCrockett from @ClamBakeSanta",
-      "tag": "HappyBirthdayDavyCrockett",
+      "theme": "Birthday Roberto Clemente",
+      "haiku": "Sunrise paints bright sky\nCrickets sing, breeze hums low soft\nJoyful cheers rise high\n#HappyBirthdayRobertoClemente from @ClamBakeSanta",
+      "tag": "HappyBirthdayRobertoClemente",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Thrift Shop Day",
-    "National Vanilla Custard Day",
-    "Birthday Davy Crockett"
+    "National Soft Ice Cream Day",
+    "Bad Poetry Day",
+    "Birthday Roberto Clemente"
   ],
-  "content": "Treasure chests gleam bright,\nLaughter swirls on racks of gold—\nStories hug the air.\nHappy #NationalThriftShopDay from @ClamBakeSanta\n\nVelvet cream soft sighs\nStirring sunrise in a bowl\nTaste buds dance gently\nHappy #NationalVanillaCustardDay from @ClamBakeSanta\n\nOld oak sighs in breeze\nCandles glow, fireflies dance\nCheers rise like sunrise\n#HappyBirthdayDavyCrockett from @ClamBakeSanta",
-  "saved_at": "2026-08-17T09:44:30.628471+00:00"
+  "content": "Creamy swirl drifts up\nCool scent sweet lingers on tongue\nJoyful smiles melt too\nHappy #NationalSoftIce\n\nStale rhyme falls quiet\nInk drips on paper, sighs soft\nSnow melts on bright tongue\nHappy #BadPoetryDay from @ClamBakeSanta\n\nSunrise paints bright sky\nCrickets sing, breeze hums low soft\nJoyful cheers rise high\n#HappyBirthdayRobertoClemente from @ClamBakeSanta",
+  "saved_at": "2026-08-18T09:35:48.642653+00:00"
 }

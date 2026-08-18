@@ -125,7 +125,8 @@
     "2026-08-14",
     "2026-08-15",
     "2026-08-16",
-    "2026-08-17"
+    "2026-08-17",
+    "2026-08-18"
   ],
   "runs": [
     {
@@ -1631,6 +1632,17 @@
         "Birthday Davy Crockett"
       ],
       "content_preview": "Treasure chests gleam bright, Laughter swirls on racks of gold— Stories hug the air. Happy #NationalThriftShopDay from @"
+    },
+    {
+      "date": "2026-08-18",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-18T09:44:01.200506+00:00",
+      "themes": [
+        "National Soft Ice Cream Day",
+        "Bad Poetry Day",
+        "Birthday Roberto Clemente"
+      ],
+      "content_preview": "Creamy swirl drifts up Cool scent sweet lingers on tongue Joyful smiles melt too Happy #NationalSoftIce  Stale rhyme fal"
     }
   ]
 }

@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-10",
-    "theme": "National S'mores Day",
-    "haiku": "Golden marshmallow,\nMolten chocolate on graham—\nSweet smoke curls to sky.\nHappy #NationalSMoresDay from @ClamBakeSanta",
-    "tag": "NationalSMoresDay",
-    "logged_at": "2026-08-10T10:18:39.851014+00:00"
-  },
-  {
-    "date": "2026-08-10",
-    "theme": "National Lazy Day",
-    "haiku": "Soft sun drifts over\nLazy cushions sigh with ease\nDreams nap in warm light\nHappy #NationalLazyDay from @ClamBakeSanta",
-    "tag": "NationalLazyDay",
-    "logged_at": "2026-08-10T10:18:39.851014+00:00"
-  },
-  {
-    "date": "2026-08-10",
-    "theme": "Birthday Leo Fender",
-    "haiku": "Sunlight on bright strings\nEchoes hum like summer drums\nJoy ripples through chords\n#HappyBirthdayLeoFender from @ClamBakeSanta",
-    "tag": "HappyBirthdayLeoFender",
-    "logged_at": "2026-08-10T10:18:39.851014+00:00"
-  },
-  {
     "date": "2026-08-11",
     "theme": "National Panini Day",
     "haiku": "Cheese melts in pan soft\nCrackling bread, aroma swirls\nWarm bite, sunshine bite\nHappy #NationalPaniniDay from @ClamBakeSanta",
@@ -173,5 +152,26 @@
     "haiku": "Starlight pours on ink\nCigarette ash curls like smoke\nJoy spills in cracked glass\n#HappyBirthdayCharlesBukowski from @ClamBakeSanta",
     "tag": "HappyBirthdayCharlesBukowski",
     "logged_at": "2026-08-16T09:29:43.867997+00:00"
+  },
+  {
+    "date": "2026-08-17",
+    "theme": "National Thrift Shop Day",
+    "haiku": "Treasure chests gleam bright,\nLaughter swirls on racks of gold—\nStories hug the air.\nHappy #NationalThriftShopDay from @ClamBakeSanta",
+    "tag": "NationalThriftShopDay",
+    "logged_at": "2026-08-17T09:44:30.628856+00:00"
+  },
+  {
+    "date": "2026-08-17",
+    "theme": "National Vanilla Custard Day",
+    "haiku": "Velvet cream soft sighs\nStirring sunrise in a bowl\nTaste buds dance gently\nHappy #NationalVanillaCustardDay from @ClamBakeSanta",
+    "tag": "NationalVanillaCustardDay",
+    "logged_at": "2026-08-17T09:44:30.628856+00:00"
+  },
+  {
+    "date": "2026-08-17",
+    "theme": "Birthday Davy Crockett",
+    "haiku": "Old oak sighs in breeze\nCandles glow, fireflies dance\nCheers rise like sunrise\n#HappyBirthdayDavyCrockett from @ClamBakeSanta",
+    "tag": "HappyBirthdayDavyCrockett",
+    "logged_at": "2026-08-17T09:44:30.628856+00:00"
   }
 ]
