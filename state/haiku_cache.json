@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "haikus": [
     {
-      "theme": "National Soft Ice Cream Day",
-      "haiku": "Creamy swirl drifts up\nCool scent sweet lingers on tongue\nJoyful smiles melt too\nHappy #NationalSoftIce",
-      "tag": "NationalSoftIceCreamDay",
+      "theme": "National Potato Day",
+      "haiku": "Golden spuds rise up\nSteam curls, sweet scent drifts softly\nTaste of sun in earth\nHappy #NationalPotatoDay from @ClamBakeSanta",
+      "tag": "NationalPotatoDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Bad Poetry Day",
-      "haiku": "Stale rhyme falls quiet\nInk drips on paper, sighs soft\nSnow melts on bright tongue\nHappy #BadPoetryDay from @ClamBakeSanta",
-      "tag": "BadPoetryDay",
+      "theme": "World Photo Day",
+      "haiku": "Sunrise paints bright sky\nColors bloom on lenses, glow\nClick, world sings in light\nHappy #WorldPhotoDay from @ClamBakeSanta",
+      "tag": "WorldPhotoDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Roberto Clemente",
-      "haiku": "Sunrise paints bright sky\nCrickets sing, breeze hums low soft\nJoyful cheers rise high\n#HappyBirthdayRobertoClemente from @ClamBakeSanta",
-      "tag": "HappyBirthdayRobertoClemente",
+      "theme": "Birthday Coco Chanel",
+      "haiku": "Silk ribbon twirls bright\nVelvet dusk hugs soft cheeks near\nGold perfume lifts night\n#HappyBirthdayCocoChanel from @ClamBakeSanta",
+      "tag": "HappyBirthdayCocoChanel",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Orville Wright",
+      "haiku": "Wings rise on soft dawn\nSunlight paints the sky blue bright\nJoy lifts like a kite\n#HappyBirthdayOrvilleWright from @Cl",
+      "tag": "HappyBirthdayOrvilleWright",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Soft Ice Cream Day",
-    "Bad Poetry Day",
-    "Birthday Roberto Clemente"
+    "National Potato Day",
+    "World Photo Day",
+    "Birthday Coco Chanel",
+    "Birthday Orville Wright"
   ],
-  "content": "Creamy swirl drifts up\nCool scent sweet lingers on tongue\nJoyful smiles melt too\nHappy #NationalSoftIce\n\nStale rhyme falls quiet\nInk drips on paper, sighs soft\nSnow melts on bright tongue\nHappy #BadPoetryDay from @ClamBakeSanta\n\nSunrise paints bright sky\nCrickets sing, breeze hums low soft\nJoyful cheers rise high\n#HappyBirthdayRobertoClemente from @ClamBakeSanta",
-  "saved_at": "2026-08-18T09:35:48.642653+00:00"
+  "content": "Golden spuds rise up\nSteam curls, sweet scent drifts softly\nTaste of sun in earth\nHappy #NationalPotatoDay from @ClamBakeSanta\n\nSunrise paints bright sky\nColors bloom on lenses, glow\nClick, world sings in light\nHappy #WorldPhotoDay from @ClamBakeSanta\n\nSilk ribbon twirls bright\nVelvet dusk hugs soft cheeks near\nGold perfume lifts night\n#HappyBirthdayCocoChanel from @ClamBakeSanta\n\nWings rise on soft dawn\nSunlight paints the sky blue bright\nJoy lifts like a kite\n#HappyBirthdayOrvilleWright from @Cl",
+  "saved_at": "2026-08-19T09:36:33.628455+00:00"
 }

@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-11",
-    "theme": "National Panini Day",
-    "haiku": "Cheese melts in pan soft\nCrackling bread, aroma swirls\nWarm bite, sunshine bite\nHappy #NationalPaniniDay from @ClamBakeSanta",
-    "tag": "NationalPaniniDay",
-    "logged_at": "2026-08-11T10:01:48.039953+00:00"
-  },
-  {
-    "date": "2026-08-11",
-    "theme": "Play in the Sand Day",
-    "haiku": "Soft waves kiss the shore\nChildren laugh, shells sparkle bright\nSand dunes rise like waves\nHappy #PlayInTheSandDay from @ClamBakeSanta",
-    "tag": "PlayInTheSandDay",
-    "logged_at": "2026-08-11T10:01:48.039953+00:00"
-  },
-  {
-    "date": "2026-08-11",
-    "theme": "Birthday Alex Haley",
-    "haiku": "Soft candle glow light\nCrinkled paper wishes rise\nJoyful laughter rings\n#HappyBirthdayAlexHaley from @ClamBakeSanta",
-    "tag": "HappyBirthdayAlexHaley",
-    "logged_at": "2026-08-11T10:01:48.039953+00:00"
-  },
-  {
     "date": "2026-08-12",
     "theme": "National Julienne Fries Day",
     "haiku": "Crisp sticks flicker bright\nGolden curls dance in soft air\nTaste sparks joy within\nHappy #NationalJulienneFriesDay from @ClamBakeSanta",
@@ -173,5 +152,26 @@
     "haiku": "Old oak sighs in breeze\nCandles glow, fireflies dance\nCheers rise like sunrise\n#HappyBirthdayDavyCrockett from @ClamBakeSanta",
     "tag": "HappyBirthdayDavyCrockett",
     "logged_at": "2026-08-17T09:44:30.628856+00:00"
+  },
+  {
+    "date": "2026-08-18",
+    "theme": "National Soft Ice Cream Day",
+    "haiku": "Creamy swirl drifts up\nCool scent sweet lingers on tongue\nJoyful smiles melt too\nHappy #NationalSoftIce",
+    "tag": "NationalSoftIceCreamDay",
+    "logged_at": "2026-08-18T09:35:48.643132+00:00"
+  },
+  {
+    "date": "2026-08-18",
+    "theme": "Bad Poetry Day",
+    "haiku": "Stale rhyme falls quiet\nInk drips on paper, sighs soft\nSnow melts on bright tongue\nHappy #BadPoetryDay from @ClamBakeSanta",
+    "tag": "BadPoetryDay",
+    "logged_at": "2026-08-18T09:35:48.643132+00:00"
+  },
+  {
+    "date": "2026-08-18",
+    "theme": "Birthday Roberto Clemente",
+    "haiku": "Sunrise paints bright sky\nCrickets sing, breeze hums low soft\nJoyful cheers rise high\n#HappyBirthdayRobertoClemente from @ClamBakeSanta",
+    "tag": "HappyBirthdayRobertoClemente",
+    "logged_at": "2026-08-18T09:35:48.643132+00:00"
   }
 ]
