@@ -1,0 +1,130 @@
+{
+  "NationalChocolatePecanPieDay": {
+    "theme": "National Chocolate Pecan Pie Day",
+    "haiku": "Crisp crust cradles sweet\nNutty crunch whispers warm soft\nGolden glaze gleams bright\nHappy #NationalChocolatePecanPieDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117127159038787012",
+        "url": "https://mastodon.social/@ClamBakeSanta/117127159038787012",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtixaralqj24",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "825458925264633856",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-08-20T22:17:57.087617+00:00"
+  },
+  "NationalRadioDay": {
+    "theme": "National Radio Day",
+    "haiku": "Waves of sound drift slow\nThrough city streets they sing bright\nEchoes paint the night\nHappy #NationalRadioDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117127163007266782",
+        "url": "https://mastodon.social/@ClamBakeSanta/117127163007266782",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtixckk3on2t",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "825458988609044480",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-08-20T22:17:57.087617+00:00"
+  },
+  "HappyBirthdayBenjaminHarrison": {
+    "theme": "Birthday Benjamin Harrison",
+    "haiku": "Gentle breeze hums low\nGold candles glow, bright smiles rise\nJoy rings clear, hearts lift\n#HappyBirthdayBenjaminHarrison from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117127166996974514",
+        "url": "https://mastodon.social/@ClamBakeSanta/117127166996974514",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtixedubpc2g",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "825459051904270336",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-08-20T22:17:57.087617+00:00"
+  },
+  "FirstQuarterMoon": {
+    "theme": "First Quarter Moon",
+    "haiku": "Night sky lifts silver\nCrickets hum, moon climbs higher\nGlow bathes quiet hills\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117127170955646324",
+        "url": "https://mastodon.social/@ClamBakeSanta/117127170955646324",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtixg5dim62t",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "825459115115610112",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-08-20T22:17:57.087617+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "135",
+        "url": "https://clambakesanta.wordpress.com/2026/08/20/clam-bake-santa-2026-08-20/",
+        "views": 1,
+        "likes": 1,
+        "comments": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-08-20T22:17:57.087617+00:00"
+  }
+}
