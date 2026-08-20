@@ -127,7 +127,8 @@
     "2026-08-16",
     "2026-08-17",
     "2026-08-18",
-    "2026-08-19"
+    "2026-08-19",
+    "2026-08-20"
   ],
   "runs": [
     {
@@ -1656,6 +1657,18 @@
         "Birthday Orville Wright"
       ],
       "content_preview": "Golden spuds rise up Steam curls, sweet scent drifts softly Taste of sun in earth Happy #NationalPotatoDay from @ClamBak"
+    },
+    {
+      "date": "2026-08-20",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-20T09:49:06.556954+00:00",
+      "themes": [
+        "National Chocolate Pecan Pie Day",
+        "National Radio Day",
+        "Birthday Benjamin Harrison",
+        "First Quarter Moon"
+      ],
+      "content_preview": "Crisp crust cradles sweet Nutty crunch whispers warm soft Golden glaze gleams bright Happy #NationalChocolatePecanPieDay"
     }
   ]
 }
