@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-13",
-    "theme": "National Filet Mignon Day",
-    "haiku": "Grilled meat sizzles bright\nJuice drips down with smoky scent\nTender bites delight\nHappy #NationalFiletMignonDay from @ClamBakeSanta",
-    "tag": "NationalFiletMignonDay",
-    "logged_at": "2026-08-13T10:10:02.072744+00:00"
-  },
-  {
-    "date": "2026-08-13",
-    "theme": "Left Handers Day",
-    "haiku": "Left hand waves soft bright\nMoonlit fingers twirl bright joy\nStars applaud in blue\nHappy #LeftHand",
-    "tag": "LeftHandersDay",
-    "logged_at": "2026-08-13T10:10:02.072744+00:00"
-  },
-  {
-    "date": "2026-08-13",
-    "theme": "Birthday Annie Oakley",
-    "haiku": "Bright swift arrows flash\nRed moon paints the range softly\nStars salute her aim\n#HappyBirthdayAnnieOakley from @ClamBakeSanta",
-    "tag": "HappyBirthdayAnnieOakley",
-    "logged_at": "2026-08-13T10:10:02.072744+00:00"
-  },
-  {
-    "date": "2026-08-13",
-    "theme": "Birthday Alfred Hitchcock",
-    "haiku": "Dark night, a candle\nShadows flicker, whispers grow\nJoy drifts in the air\n#HappyBirthdayAlfredHitchcock from @ClamBakeSanta",
-    "tag": "HappyBirthdayAlfredHitchcock",
-    "logged_at": "2026-08-13T10:10:02.072744+00:00"
-  },
-  {
     "date": "2026-08-14",
     "theme": "National Creamsicle Day",
     "haiku": "Orange peel soft glows\nCool swirl meets sweet sun on hand\nTaste melts in summer\nHappy #NationalCreamsicleDay from @ClamBakeSanta",
@@ -166,5 +138,33 @@
     "haiku": "Wings rise on soft dawn\nSunlight paints the sky blue bright\nJoy lifts like a kite\n#HappyBirthdayOrvilleWright from @Cl",
     "tag": "HappyBirthdayOrvilleWright",
     "logged_at": "2026-08-19T09:36:33.628900+00:00"
+  },
+  {
+    "date": "2026-08-20",
+    "theme": "National Chocolate Pecan Pie Day",
+    "haiku": "Crisp crust cradles sweet\nNutty crunch whispers warm soft\nGolden glaze gleams bright\nHappy #NationalChocolatePecanPieDay from @ClamBakeSanta",
+    "tag": "NationalChocolatePecanPieDay",
+    "logged_at": "2026-08-20T09:36:52.389111+00:00"
+  },
+  {
+    "date": "2026-08-20",
+    "theme": "National Radio Day",
+    "haiku": "Waves of sound drift slow\nThrough city streets they sing bright\nEchoes paint the night\nHappy #NationalRadioDay from @ClamBakeSanta",
+    "tag": "NationalRadioDay",
+    "logged_at": "2026-08-20T09:36:52.389111+00:00"
+  },
+  {
+    "date": "2026-08-20",
+    "theme": "Birthday Benjamin Harrison",
+    "haiku": "Gentle breeze hums low\nGold candles glow, bright smiles rise\nJoy rings clear, hearts lift\n#HappyBirthdayBenjaminHarrison from @ClamBakeSanta",
+    "tag": "HappyBirthdayBenjaminHarrison",
+    "logged_at": "2026-08-20T09:36:52.389111+00:00"
+  },
+  {
+    "date": "2026-08-20",
+    "theme": "First Quarter Moon",
+    "haiku": "Night sky lifts silver\nCrickets hum, moon climbs higher\nGlow bathes quiet hills\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+    "tag": "FirstQuarterMoon",
+    "logged_at": "2026-08-20T09:36:52.389111+00:00"
   }
 ]

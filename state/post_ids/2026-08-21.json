@@ -1,0 +1,62 @@
+{
+  "NationalSpumoniDay": {
+    "mastodon": {
+      "id": "117132828730424906",
+      "url": "https://mastodon.social/@ClamBakeSanta/117132828730424906"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtlhraymec2n",
+      "cid": "bafyreibvfu2xpdc726wflf4nq7vf7a2pdpt2lbusipienvtwjmcaykyqh4"
+    },
+    "tumblr": {
+      "id": "825549514299588608",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "398",
+      "channel": "@clambakesanta"
+    }
+  },
+  "SeniorCitizensDay": {
+    "mastodon": {
+      "id": "117132832762617442",
+      "url": "https://mastodon.social/@ClamBakeSanta/117132832762617442"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtlht2cnss2n",
+      "cid": "bafyreidir5cnueyt364y2i7daapmu5lk4mkaweiugijnirq73w7nosr3ce"
+    },
+    "tumblr": {
+      "id": "825549577516138496",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "399",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayCountBasie": {
+    "mastodon": {
+      "id": "117132836737311468",
+      "url": "https://mastodon.social/@ClamBakeSanta/117132836737311468"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtlhutmfk424",
+      "cid": "bafyreigpqyf7qu2wnyz6v7eyfntlkq73t3nwnuf3q6sc7b3jy564z36q64"
+    },
+    "tumblr": {
+      "id": "825549640699199488",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "400",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "136",
+      "url": "https://clambakesanta.wordpress.com/2026/08/21/clam-bake-santa-2026-08-21/"
+    }
+  }
+}
