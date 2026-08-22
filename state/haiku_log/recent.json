@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-14",
-    "theme": "National Creamsicle Day",
-    "haiku": "Orange peel soft glows\nCool swirl meets sweet sun on hand\nTaste melts in summer\nHappy #NationalCreamsicleDay from @ClamBakeSanta",
-    "tag": "NationalCreamsicleDay",
-    "logged_at": "2026-08-14T10:05:13.811670+00:00"
-  },
-  {
-    "date": "2026-08-14",
-    "theme": "National Bowling Day",
-    "haiku": "Wooden balls roll bright\nLanes shine smooth as ice in sun\nPins dance with a *clack*\nHappy #NationalBowlingDay from @ClamBakeSanta",
-    "tag": "NationalBowlingDay",
-    "logged_at": "2026-08-14T10:05:13.811670+00:00"
-  },
-  {
-    "date": "2026-08-14",
-    "theme": "Birthday David Crosby",
-    "haiku": "Soft fireflies glow\nCandles flicker, scent of pine\nSongs rise like warm mist\n#HappyBirthdayDavidCrosby from @ClamBakeSanta",
-    "tag": "HappyBirthdayDavidCrosby",
-    "logged_at": "2026-08-14T10:05:13.811670+00:00"
-  },
-  {
     "date": "2026-08-15",
     "theme": "National Lemon Meringue Pie Day",
     "haiku": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta",
@@ -166,5 +145,26 @@
     "haiku": "Night sky lifts silver\nCrickets hum, moon climbs higher\nGlow bathes quiet hills\nHappy #FirstQuarterMoon from @ClamBakeSanta",
     "tag": "FirstQuarterMoon",
     "logged_at": "2026-08-20T09:36:52.389111+00:00"
+  },
+  {
+    "date": "2026-08-21",
+    "theme": "National Spumoni Day",
+    "haiku": "Red swirl melts in hand\nMint and cherry kiss, sweet sun\nJoyful spoon lifts high\nHappy #NationalSpumoniDay from @ClamBakeSanta",
+    "tag": "NationalSpumoniDay",
+    "logged_at": "2026-08-21T09:38:44.929635+00:00"
+  },
+  {
+    "date": "2026-08-21",
+    "theme": "Senior Citizens Day",
+    "haiku": "Golden laughter rings\nsoft Sun-light paints silver smiles\nElders share warm tales\nHappy #SeniorCitizensDay from @ClamBakeSanta",
+    "tag": "SeniorCitizensDay",
+    "logged_at": "2026-08-21T09:38:44.929635+00:00"
+  },
+  {
+    "date": "2026-08-21",
+    "theme": "Birthday Count Basie",
+    "haiku": "Bright bells ring soft clear\nGold candles dance bright in light\nJoy swells like warm wind\n#HappyBirthdayCountBasie from @ClamBakeSanta",
+    "tag": "HappyBirthdayCountBasie",
+    "logged_at": "2026-08-21T09:38:44.929635+00:00"
   }
 ]

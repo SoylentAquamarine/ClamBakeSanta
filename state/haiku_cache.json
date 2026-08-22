@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "haikus": [
     {
-      "theme": "National Spumoni Day",
-      "haiku": "Red swirl melts in hand\nMint and cherry kiss, sweet sun\nJoyful spoon lifts high\nHappy #NationalSpumoniDay from @ClamBakeSanta",
-      "tag": "NationalSpumoniDay",
+      "theme": "National Peach Pie Day",
+      "haiku": "Golden peaches gleam,\nWarm spice swirls through the kitchen,\nSweet steam fills the air.\nHappy #NationalPeachPieDay from @ClamBakeSanta",
+      "tag": "NationalPeachPieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Senior Citizens Day",
-      "haiku": "Golden laughter rings\nsoft Sun-light paints silver smiles\nElders share warm tales\nHappy #SeniorCitizensDay from @ClamBakeSanta",
-      "tag": "SeniorCitizensDay",
+      "theme": "Be An Angel Day",
+      "haiku": "Soft clouds drift above\nSunlight soft kisses bright wings\nJoy fills gentle hearts\nHappy #BeAnAngelDay from @ClamBakeSanta",
+      "tag": "BeAnAngelDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Count Basie",
-      "haiku": "Bright bells ring soft clear\nGold candles dance bright in light\nJoy swells like warm wind\n#HappyBirthdayCountBasie from @ClamBakeSanta",
-      "tag": "HappyBirthdayCountBasie",
+      "theme": "Birthday Claude Debussy",
+      "haiku": "Smooth flute notes rise high,\nfresh peach sweet on summer air—\njoy sings in each chord.\n#HappyBirthdayClaudeDebussy from @ClamBakeSanta",
+      "tag": "HappyBirthdayClaudeDebussy",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Ray Bradbury",
+      "haiku": "Paper stars glow bright\nInk rivers flow soft like dreams\nNight sky hums soft tales\n#HappyBirthdayRayBradbury from @ClamBakeSanta",
+      "tag": "HappyBirthdayRayBradbury",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Spumoni Day",
-    "Senior Citizens Day",
-    "Birthday Count Basie"
+    "National Peach Pie Day",
+    "Be An Angel Day",
+    "Birthday Claude Debussy",
+    "Birthday Ray Bradbury"
   ],
-  "content": "Red swirl melts in hand\nMint and cherry kiss, sweet sun\nJoyful spoon lifts high\nHappy #NationalSpumoniDay from @ClamBakeSanta\n\nGolden laughter rings\nsoft Sun-light paints silver smiles\nElders share warm tales\nHappy #SeniorCitizensDay from @ClamBakeSanta\n\nBright bells ring soft clear\nGold candles dance bright in light\nJoy swells like warm wind\n#HappyBirthdayCountBasie from @ClamBakeSanta",
-  "saved_at": "2026-08-21T09:38:44.929259+00:00"
+  "content": "Golden peaches gleam,\nWarm spice swirls through the kitchen,\nSweet steam fills the air.\nHappy #NationalPeachPieDay from @ClamBakeSanta\n\nSoft clouds drift above\nSunlight soft kisses bright wings\nJoy fills gentle hearts\nHappy #BeAnAngelDay from @ClamBakeSanta\n\nSmooth flute notes rise high,\nfresh peach sweet on summer air—\njoy sings in each chord.\n#HappyBirthdayClaudeDebussy from @ClamBakeSanta\n\nPaper stars glow bright\nInk rivers flow soft like dreams\nNight sky hums soft tales\n#HappyBirthdayRayBradbury from @ClamBakeSanta",
+  "saved_at": "2026-08-22T09:29:32.160028+00:00"
 }

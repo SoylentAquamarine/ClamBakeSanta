@@ -129,7 +129,8 @@
     "2026-08-18",
     "2026-08-19",
     "2026-08-20",
-    "2026-08-21"
+    "2026-08-21",
+    "2026-08-22"
   ],
   "runs": [
     {
@@ -1681,6 +1682,18 @@
         "Birthday Count Basie"
       ],
       "content_preview": "Red swirl melts in hand Mint and cherry kiss, sweet sun Joyful spoon lifts high Happy #NationalSpumoniDay from @ClamBake"
+    },
+    {
+      "date": "2026-08-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-22T09:41:48.963528+00:00",
+      "themes": [
+        "National Peach Pie Day",
+        "Be An Angel Day",
+        "Birthday Claude Debussy",
+        "Birthday Ray Bradbury"
+      ],
+      "content_preview": "Golden peaches gleam, Warm spice swirls through the kitchen, Sweet steam fills the air. Happy #NationalPeachPieDay from "
     }
   ]
 }
