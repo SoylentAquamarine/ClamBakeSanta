@@ -1,0 +1,62 @@
+{
+  "NationalSpongecakeDay": {
+    "mastodon": {
+      "id": "117144119163482801",
+      "url": "https://mastodon.social/@ClamBakeSanta/117144119163482801"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtqi7md4no2k",
+      "cid": "bafyreiejz2ie3p5pl6m6h4vwzs4kgx2ipb6qhswjqa4ykhy7hgkthhyyoe"
+    },
+    "tumblr": {
+      "id": "825730164454506496",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "405",
+      "channel": "@clambakesanta"
+    }
+  },
+  "InternationalWeirdParentsDay": {
+    "mastodon": {
+      "id": "117144123220133580",
+      "url": "https://mastodon.social/@ClamBakeSanta/117144123220133580"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtqibg5sh32m",
+      "cid": "bafyreidqwsk7iqxpjsed3j7xstgxhu6jw7f2zmh7pcnrolnvxniomhpcv4"
+    },
+    "tumblr": {
+      "id": "825730227986677760",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "406",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayGeneKelly": {
+    "mastodon": {
+      "id": "117144127230814936",
+      "url": "https://mastodon.social/@ClamBakeSanta/117144127230814936"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtqid7ouit2e",
+      "cid": "bafyreidmhws2kyhm4logaqxghdqad5m4nu63zegpnfattq7db2tsg7po7y"
+    },
+    "tumblr": {
+      "id": "825730291442302976",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "407",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "138",
+      "url": "https://clambakesanta.wordpress.com/2026/08/23/clam-bake-santa-2026-08-23/"
+    }
+  }
+}

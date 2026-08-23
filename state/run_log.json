@@ -130,7 +130,8 @@
     "2026-08-19",
     "2026-08-20",
     "2026-08-21",
-    "2026-08-22"
+    "2026-08-22",
+    "2026-08-23"
   ],
   "runs": [
     {
@@ -1694,6 +1695,17 @@
         "Birthday Ray Bradbury"
       ],
       "content_preview": "Golden peaches gleam, Warm spice swirls through the kitchen, Sweet steam fills the air. Happy #NationalPeachPieDay from "
+    },
+    {
+      "date": "2026-08-23",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-23T09:38:21.288905+00:00",
+      "themes": [
+        "National Spongecake Day",
+        "International Weird Parents Day",
+        "Birthday Gene Kelly"
+      ],
+      "content_preview": "Morning light drips sweet Fluffy crumbs float like clouds soft Scent fills warm room soft Happy #NationalSpongecakeDay f"
     }
   ]
 }

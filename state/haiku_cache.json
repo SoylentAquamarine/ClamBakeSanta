@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "haikus": [
     {
-      "theme": "National Peach Pie Day",
-      "haiku": "Golden peaches gleam,\nWarm spice swirls through the kitchen,\nSweet steam fills the air.\nHappy #NationalPeachPieDay from @ClamBakeSanta",
-      "tag": "NationalPeachPieDay",
+      "theme": "National Spongecake Day",
+      "haiku": "Morning light drips sweet\nFluffy crumbs float like clouds soft\nScent fills warm room soft\nHappy #NationalSpongecakeDay from @ClamBakeSanta",
+      "tag": "NationalSpongecakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Be An Angel Day",
-      "haiku": "Soft clouds drift above\nSunlight soft kisses bright wings\nJoy fills gentle hearts\nHappy #BeAnAngelDay from @ClamBakeSanta",
-      "tag": "BeAnAngelDay",
+      "theme": "International Weird Parents Day",
+      "haiku": "Quirky kids giggle\nToys spin, lights dance in bright rooms\nJoyful chaos feels\nHappy #InternationalWeirdParentsDay from @ClamBakeSanta",
+      "tag": "InternationalWeirdParentsDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Claude Debussy",
-      "haiku": "Smooth flute notes rise high,\nfresh peach sweet on summer air—\njoy sings in each chord.\n#HappyBirthdayClaudeDebussy from @ClamBakeSanta",
-      "tag": "HappyBirthdayClaudeDebussy",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Ray Bradbury",
-      "haiku": "Paper stars glow bright\nInk rivers flow soft like dreams\nNight sky hums soft tales\n#HappyBirthdayRayBradbury from @ClamBakeSanta",
-      "tag": "HappyBirthdayRayBradbury",
+      "theme": "Birthday Gene Kelly",
+      "haiku": "Bright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
+      "tag": "HappyBirthdayGeneKelly",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Peach Pie Day",
-    "Be An Angel Day",
-    "Birthday Claude Debussy",
-    "Birthday Ray Bradbury"
+    "National Spongecake Day",
+    "International Weird Parents Day",
+    "Birthday Gene Kelly"
   ],
-  "content": "Golden peaches gleam,\nWarm spice swirls through the kitchen,\nSweet steam fills the air.\nHappy #NationalPeachPieDay from @ClamBakeSanta\n\nSoft clouds drift above\nSunlight soft kisses bright wings\nJoy fills gentle hearts\nHappy #BeAnAngelDay from @ClamBakeSanta\n\nSmooth flute notes rise high,\nfresh peach sweet on summer air—\njoy sings in each chord.\n#HappyBirthdayClaudeDebussy from @ClamBakeSanta\n\nPaper stars glow bright\nInk rivers flow soft like dreams\nNight sky hums soft tales\n#HappyBirthdayRayBradbury from @ClamBakeSanta",
-  "saved_at": "2026-08-22T09:29:32.160028+00:00"
+  "content": "Morning light drips sweet\nFluffy crumbs float like clouds soft\nScent fills warm room soft\nHappy #NationalSpongecakeDay from @ClamBakeSanta\n\nQuirky kids giggle\nToys spin, lights dance in bright rooms\nJoyful chaos feels\nHappy #InternationalWeirdParentsDay from @ClamBakeSanta\n\nBright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
+  "saved_at": "2026-08-23T09:30:03.792930+00:00"
 }

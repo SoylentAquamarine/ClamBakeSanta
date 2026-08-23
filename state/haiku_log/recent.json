@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-15",
-    "theme": "National Lemon Meringue Pie Day",
-    "haiku": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta",
-    "tag": "NationalLemonMeringuePieDay",
-    "logged_at": "2026-08-15T09:28:40.741646+00:00"
-  },
-  {
-    "date": "2026-08-15",
-    "theme": "National Relaxation Day",
-    "haiku": "Gentle breeze whispers\nSoft clouds drift over green hills\nLaughter hums like rain\nHappy #NationalRelaxationDay from @ClamBakeSanta",
-    "tag": "NationalRelaxationDay",
-    "logged_at": "2026-08-15T09:28:40.741646+00:00"
-  },
-  {
-    "date": "2026-08-15",
-    "theme": "Birthday Julia Child",
-    "haiku": "Steel pan sizzles loud\nHerbs perfume the kitchen air\nJoy bubbles like stew\n#HappyBirthdayJuliaChild from @ClamBakeSanta",
-    "tag": "HappyBirthdayJuliaChild",
-    "logged_at": "2026-08-15T09:28:40.741646+00:00"
-  },
-  {
-    "date": "2026-08-15",
-    "theme": "Birthday Edna Ferber",
-    "haiku": "Bright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
-    "tag": "HappyBirthdayEdnaFerber",
-    "logged_at": "2026-08-15T09:28:40.741646+00:00"
-  },
-  {
     "date": "2026-08-16",
     "theme": "National Rum Day",
     "haiku": "Amber glow pours soft\nCaramel waves swirl in glass\nTaste of summer nights\nHappy #NationalRumDay from @ClamBakeSanta",
@@ -166,5 +138,33 @@
     "haiku": "Bright bells ring soft clear\nGold candles dance bright in light\nJoy swells like warm wind\n#HappyBirthdayCountBasie from @ClamBakeSanta",
     "tag": "HappyBirthdayCountBasie",
     "logged_at": "2026-08-21T09:38:44.929635+00:00"
+  },
+  {
+    "date": "2026-08-22",
+    "theme": "National Peach Pie Day",
+    "haiku": "Golden peaches gleam,\nWarm spice swirls through the kitchen,\nSweet steam fills the air.\nHappy #NationalPeachPieDay from @ClamBakeSanta",
+    "tag": "NationalPeachPieDay",
+    "logged_at": "2026-08-22T09:29:32.160511+00:00"
+  },
+  {
+    "date": "2026-08-22",
+    "theme": "Be An Angel Day",
+    "haiku": "Soft clouds drift above\nSunlight soft kisses bright wings\nJoy fills gentle hearts\nHappy #BeAnAngelDay from @ClamBakeSanta",
+    "tag": "BeAnAngelDay",
+    "logged_at": "2026-08-22T09:29:32.160511+00:00"
+  },
+  {
+    "date": "2026-08-22",
+    "theme": "Birthday Claude Debussy",
+    "haiku": "Smooth flute notes rise high,\nfresh peach sweet on summer air—\njoy sings in each chord.\n#HappyBirthdayClaudeDebussy from @ClamBakeSanta",
+    "tag": "HappyBirthdayClaudeDebussy",
+    "logged_at": "2026-08-22T09:29:32.160511+00:00"
+  },
+  {
+    "date": "2026-08-22",
+    "theme": "Birthday Ray Bradbury",
+    "haiku": "Paper stars glow bright\nInk rivers flow soft like dreams\nNight sky hums soft tales\n#HappyBirthdayRayBradbury from @ClamBakeSanta",
+    "tag": "HappyBirthdayRayBradbury",
+    "logged_at": "2026-08-22T09:29:32.160511+00:00"
   }
 ]
