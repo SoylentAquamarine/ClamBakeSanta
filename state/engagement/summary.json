@@ -1,4 +1,106 @@
 {
+  "2026-08-23": {
+    "NationalSpongecakeDay": {
+      "theme": "National Spongecake Day",
+      "haiku": "Morning light drips sweet\nFluffy crumbs float like clouds soft\nScent fills warm room soft\nHappy #NationalSpongecakeDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117144119163482801",
+          "url": "https://mastodon.social/@ClamBakeSanta/117144119163482801",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtqi7md4no2k",
+          "likes": 0,
+          "reposts": 1,
+          "replies": 0,
+          "score": 2
+        },
+        "tumblr": {
+          "id": "825730164454506496",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 2,
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
+    },
+    "InternationalWeirdParentsDay": {
+      "theme": "International Weird Parents Day",
+      "haiku": "Quirky kids giggle\nToys spin, lights dance in bright rooms\nJoyful chaos feels\nHappy #InternationalWeirdParentsDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117144123220133580",
+          "url": "https://mastodon.social/@ClamBakeSanta/117144123220133580",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtqibg5sh32m",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "825730227986677760",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
+    },
+    "HappyBirthdayGeneKelly": {
+      "theme": "Birthday Gene Kelly",
+      "haiku": "Bright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117144127230814936",
+          "url": "https://mastodon.social/@ClamBakeSanta/117144127230814936",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mtqid7ouit2e",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "825730291442302976",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "138",
+          "url": "https://clambakesanta.wordpress.com/2026/08/23/clam-bake-santa-2026-08-23/",
+          "views": 2,
+          "likes": 2,
+          "comments": 0,
+          "score": 2
+        }
+      },
+      "total_score": 2,
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
+    }
+  },
   "2026-08-22": {
     "NationalPeachPieDay": {
       "theme": "National Peach Pie Day",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "BeAnAngelDay": {
       "theme": "Be An Angel Day",
@@ -54,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "HappyBirthdayClaudeDebussy": {
       "theme": "Birthday Claude Debussy",
@@ -82,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "HappyBirthdayRayBradbury": {
       "theme": "Birthday Ray Bradbury",
@@ -110,7 +212,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -119,14 +221,14 @@
         "wordpress": {
           "id": "137",
           "url": "https://clambakesanta.wordpress.com/2026/08/22/clam-bake-santa-2026-08-22/",
-          "views": 1,
-          "likes": 1,
+          "views": 2,
+          "likes": 2,
           "comments": 0,
-          "score": 1
+          "score": 2
         }
       },
-      "total_score": 1,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "total_score": 2,
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     }
   },
   "2026-08-21": {
@@ -156,7 +258,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "SeniorCitizensDay": {
       "theme": "Senior Citizens Day",
@@ -184,7 +286,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "HappyBirthdayCountBasie": {
       "theme": "Birthday Count Basie",
@@ -212,7 +314,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -228,7 +330,7 @@
         }
       },
       "total_score": 5,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     }
   },
   "2026-08-20": {
@@ -258,7 +360,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "NationalRadioDay": {
       "theme": "National Radio Day",
@@ -286,7 +388,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "HappyBirthdayBenjaminHarrison": {
       "theme": "Birthday Benjamin Harrison",
@@ -314,7 +416,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "FirstQuarterMoon": {
       "theme": "First Quarter Moon",
@@ -342,7 +444,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -358,7 +460,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-08-22T22:13:11.017115+00:00"
+      "last_checked": "2026-08-23T22:13:05.730941+00:00"
     }
   },
   "2026-08-19": {
@@ -795,120 +897,6 @@
       },
       "total_score": 3,
       "last_checked": "2026-08-19T22:16:07.152951+00:00"
-    }
-  },
-  "2026-08-15": {
-    "NationalLemonMeringuePieDay": {
-      "theme": "National Lemon Meringue Pie Day",
-      "haiku": "Lemon scent drifts soft\nMeringue peaks glow like sun\nPie slices melt smiles\nHappy #NationalLemonMeringuePieDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117098815278401074",
-          "url": "https://mastodon.social/@ClamBakeSanta/117098815278401074",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4ehjeepx2p",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "825005426394513408",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-08-18T22:13:48.346714+00:00"
-    },
-    "NationalRelaxationDay": {
-      "theme": "National Relaxation Day",
-      "haiku": "Gentle breeze whispers\nSoft clouds drift over green hills\nLaughter hums like rain\nHappy #NationalRelaxationDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117098819235540880",
-          "url": "https://mastodon.social/@ClamBakeSanta/117098819235540880",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4ejd6vye2j",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "825005489740021760",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-08-18T22:13:48.346714+00:00"
-    },
-    "HappyBirthdayJuliaChild": {
-      "theme": "Birthday Julia Child",
-      "haiku": "Steel pan sizzles loud\nHerbs perfume the kitchen air\nJoy bubbles like stew\n#HappyBirthdayJuliaChild from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117098823213525099",
-          "url": "https://mastodon.social/@ClamBakeSanta/117098823213525099",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4el4o5ql23",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "825005553079173120",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-08-18T22:13:48.346714+00:00"
-    },
-    "HappyBirthdayEdnaFerber": {
-      "theme": "Birthday Edna Ferber",
-      "haiku": "Bright candles flicker\nSoft paper gifts unfold wide\nWarm wishes rise high\n#HappyBirthdayEdnaFerber from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117098827182360244",
-          "url": "https://mastodon.social/@ClamBakeSanta/117098827182360244",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mt4emw5iqj2s",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "825005616446750720",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-08-18T22:13:48.346714+00:00"
     }
   }
 }
