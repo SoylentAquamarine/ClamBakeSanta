@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-16",
-    "theme": "National Rum Day",
-    "haiku": "Amber glow pours soft\nCaramel waves swirl in glass\nTaste of summer nights\nHappy #NationalRumDay from @ClamBakeSanta",
-    "tag": "NationalRumDay",
-    "logged_at": "2026-08-16T09:29:43.867997+00:00"
-  },
-  {
-    "date": "2026-08-16",
-    "theme": "National Tell a Joke Day",
-    "haiku": "Jokes bloom bright like spring\nSmiles ripple through quiet rooms\nLaughter paints the air\nHappy",
-    "tag": "NationalTellAJokeDay",
-    "logged_at": "2026-08-16T09:29:43.867997+00:00"
-  },
-  {
-    "date": "2026-08-16",
-    "theme": "Birthday Charles Bukowski",
-    "haiku": "Starlight pours on ink\nCigarette ash curls like smoke\nJoy spills in cracked glass\n#HappyBirthdayCharlesBukowski from @ClamBakeSanta",
-    "tag": "HappyBirthdayCharlesBukowski",
-    "logged_at": "2026-08-16T09:29:43.867997+00:00"
-  },
-  {
     "date": "2026-08-17",
     "theme": "National Thrift Shop Day",
     "haiku": "Treasure chests gleam bright,\nLaughter swirls on racks of gold—\nStories hug the air.\nHappy #NationalThriftShopDay from @ClamBakeSanta",
@@ -166,5 +145,26 @@
     "haiku": "Paper stars glow bright\nInk rivers flow soft like dreams\nNight sky hums soft tales\n#HappyBirthdayRayBradbury from @ClamBakeSanta",
     "tag": "HappyBirthdayRayBradbury",
     "logged_at": "2026-08-22T09:29:32.160511+00:00"
+  },
+  {
+    "date": "2026-08-23",
+    "theme": "National Spongecake Day",
+    "haiku": "Morning light drips sweet\nFluffy crumbs float like clouds soft\nScent fills warm room soft\nHappy #NationalSpongecakeDay from @ClamBakeSanta",
+    "tag": "NationalSpongecakeDay",
+    "logged_at": "2026-08-23T09:30:03.793381+00:00"
+  },
+  {
+    "date": "2026-08-23",
+    "theme": "International Weird Parents Day",
+    "haiku": "Quirky kids giggle\nToys spin, lights dance in bright rooms\nJoyful chaos feels\nHappy #InternationalWeirdParentsDay from @ClamBakeSanta",
+    "tag": "InternationalWeirdParentsDay",
+    "logged_at": "2026-08-23T09:30:03.793381+00:00"
+  },
+  {
+    "date": "2026-08-23",
+    "theme": "Birthday Gene Kelly",
+    "haiku": "Bright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
+    "tag": "HappyBirthdayGeneKelly",
+    "logged_at": "2026-08-23T09:30:03.793381+00:00"
   }
 ]

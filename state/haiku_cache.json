@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "haikus": [
     {
-      "theme": "National Spongecake Day",
-      "haiku": "Morning light drips sweet\nFluffy crumbs float like clouds soft\nScent fills warm room soft\nHappy #NationalSpongecakeDay from @ClamBakeSanta",
-      "tag": "NationalSpongecakeDay",
+      "theme": "National Waffle Day",
+      "haiku": "Sweet syrup drips slow\nGolden squares trap scent of home\nBreakfast hugs us tight\nHappy #NationalWaffleDay from @ClamBakeSanta",
+      "tag": "NationalWaffleDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Weird Parents Day",
-      "haiku": "Quirky kids giggle\nToys spin, lights dance in bright rooms\nJoyful chaos feels\nHappy #InternationalWeirdParentsDay from @ClamBakeSanta",
-      "tag": "InternationalWeirdParentsDay",
+      "theme": "International Strange Music Day",
+      "haiku": "Night drums hum in glow\nStrings swirl with neon rain soft\nStars tap bright beats soft\nHappy #InternationalStrangeMusicDay from @ClamBakeSanta",
+      "tag": "InternationalStrangeMusicDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Gene Kelly",
-      "haiku": "Bright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
-      "tag": "HappyBirthdayGeneKelly",
+      "theme": "Birthday Jorge Luis Borges",
+      "haiku": "Borges laughs beneath\nPages swirl like summer snow\nInk glows in warm light\n#HappyBirthdayJorgeLuisBorges from @ClamBakeSanta",
+      "tag": "HappyBirthdayJorgeLuisBorges",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Welcome to Virgo Season",
+      "haiku": "Morning dew glints bright\nStars align in silver skies\nLeaves hum warm greetings\nHappy #WelcomeToVirgoSeason",
+      "tag": "WelcomeToVirgoSeason",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Spongecake Day",
-    "International Weird Parents Day",
-    "Birthday Gene Kelly"
+    "National Waffle Day",
+    "International Strange Music Day",
+    "Birthday Jorge Luis Borges",
+    "Welcome to Virgo Season"
   ],
-  "content": "Morning light drips sweet\nFluffy crumbs float like clouds soft\nScent fills warm room soft\nHappy #NationalSpongecakeDay from @ClamBakeSanta\n\nQuirky kids giggle\nToys spin, lights dance in bright rooms\nJoyful chaos feels\nHappy #InternationalWeirdParentsDay from @ClamBakeSanta\n\nBright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
-  "saved_at": "2026-08-23T09:30:03.792930+00:00"
+  "content": "Sweet syrup drips slow\nGolden squares trap scent of home\nBreakfast hugs us tight\nHappy #NationalWaffleDay from @ClamBakeSanta\n\nNight drums hum in glow\nStrings swirl with neon rain soft\nStars tap bright beats soft\nHappy #InternationalStrangeMusicDay from @ClamBakeSanta\n\nBorges laughs beneath\nPages swirl like summer snow\nInk glows in warm light\n#HappyBirthdayJorgeLuisBorges from @ClamBakeSanta\n\nMorning dew glints bright\nStars align in silver skies\nLeaves hum warm greetings\nHappy #WelcomeToVirgoSeason",
+  "saved_at": "2026-08-24T09:50:47.563895+00:00"
 }
