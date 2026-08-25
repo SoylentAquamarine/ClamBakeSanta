@@ -132,7 +132,8 @@
     "2026-08-21",
     "2026-08-22",
     "2026-08-23",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-08-25"
   ],
   "runs": [
     {
@@ -1719,6 +1720,18 @@
         "Welcome to Virgo Season"
       ],
       "content_preview": "Sweet syrup drips slow Golden squares trap scent of home Breakfast hugs us tight Happy #NationalWaffleDay from @ClamBake"
+    },
+    {
+      "date": "2026-08-25",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-25T09:49:59.997467+00:00",
+      "themes": [
+        "National Banana Split Day",
+        "National Whiskey Sour Day",
+        "Birthday Althea Gibson",
+        "Birthday Leonard Bernstein"
+      ],
+      "content_preview": "Soft banana curls Ve-lvet ice cream warm sighs bright Cherry tops sparkle Happy #NationalBananaSplitDay from @ClamBakeSa"
     }
   ]
 }

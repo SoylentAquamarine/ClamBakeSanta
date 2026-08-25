@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-08-25T09:49:59.998485+00:00",
+    "date": "2026-08-25",
+    "themes_found": [
+      "National Banana Split Day",
+      "National Whiskey Sour Day",
+      "Birthday Althea Gibson",
+      "Birthday Leonard Bernstein"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Banana Split Day",
+        "tag": "NationalBananaSplitDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Whiskey Sour Day",
+        "tag": "NationalWhiskeySourDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Althea Gibson",
+        "tag": "HappyBirthdayAltheaGibson",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Leonard Bernstein",
+        "tag": "HappyBirthdayLeonardBernstein",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

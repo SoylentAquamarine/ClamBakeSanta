@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "theme": "National Thrift Shop Day",
-    "haiku": "Treasure chests gleam bright,\nLaughter swirls on racks of gold—\nStories hug the air.\nHappy #NationalThriftShopDay from @ClamBakeSanta",
-    "tag": "NationalThriftShopDay",
-    "logged_at": "2026-08-17T09:44:30.628856+00:00"
-  },
-  {
-    "date": "2026-08-17",
-    "theme": "National Vanilla Custard Day",
-    "haiku": "Velvet cream soft sighs\nStirring sunrise in a bowl\nTaste buds dance gently\nHappy #NationalVanillaCustardDay from @ClamBakeSanta",
-    "tag": "NationalVanillaCustardDay",
-    "logged_at": "2026-08-17T09:44:30.628856+00:00"
-  },
-  {
-    "date": "2026-08-17",
-    "theme": "Birthday Davy Crockett",
-    "haiku": "Old oak sighs in breeze\nCandles glow, fireflies dance\nCheers rise like sunrise\n#HappyBirthdayDavyCrockett from @ClamBakeSanta",
-    "tag": "HappyBirthdayDavyCrockett",
-    "logged_at": "2026-08-17T09:44:30.628856+00:00"
-  },
-  {
     "date": "2026-08-18",
     "theme": "National Soft Ice Cream Day",
     "haiku": "Creamy swirl drifts up\nCool scent sweet lingers on tongue\nJoyful smiles melt too\nHappy #NationalSoftIce",
@@ -166,5 +145,33 @@
     "haiku": "Bright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
     "tag": "HappyBirthdayGeneKelly",
     "logged_at": "2026-08-23T09:30:03.793381+00:00"
+  },
+  {
+    "date": "2026-08-24",
+    "theme": "National Waffle Day",
+    "haiku": "Sweet syrup drips slow\nGolden squares trap scent of home\nBreakfast hugs us tight\nHappy #NationalWaffleDay from @ClamBakeSanta",
+    "tag": "NationalWaffleDay",
+    "logged_at": "2026-08-24T09:50:47.564346+00:00"
+  },
+  {
+    "date": "2026-08-24",
+    "theme": "International Strange Music Day",
+    "haiku": "Night drums hum in glow\nStrings swirl with neon rain soft\nStars tap bright beats soft\nHappy #InternationalStrangeMusicDay from @ClamBakeSanta",
+    "tag": "InternationalStrangeMusicDay",
+    "logged_at": "2026-08-24T09:50:47.564346+00:00"
+  },
+  {
+    "date": "2026-08-24",
+    "theme": "Birthday Jorge Luis Borges",
+    "haiku": "Borges laughs beneath\nPages swirl like summer snow\nInk glows in warm light\n#HappyBirthdayJorgeLuisBorges from @ClamBakeSanta",
+    "tag": "HappyBirthdayJorgeLuisBorges",
+    "logged_at": "2026-08-24T09:50:47.564346+00:00"
+  },
+  {
+    "date": "2026-08-24",
+    "theme": "Welcome to Virgo Season",
+    "haiku": "Morning dew glints bright\nStars align in silver skies\nLeaves hum warm greetings\nHappy #WelcomeToVirgoSeason",
+    "tag": "WelcomeToVirgoSeason",
+    "logged_at": "2026-08-24T09:50:47.564346+00:00"
   }
 ]

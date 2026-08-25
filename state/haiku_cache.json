@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "haikus": [
     {
-      "theme": "National Waffle Day",
-      "haiku": "Sweet syrup drips slow\nGolden squares trap scent of home\nBreakfast hugs us tight\nHappy #NationalWaffleDay from @ClamBakeSanta",
-      "tag": "NationalWaffleDay",
+      "theme": "National Banana Split Day",
+      "haiku": "Soft banana curls\nVe-lvet ice cream warm sighs bright\nCherry tops sparkle\nHappy #NationalBananaSplitDay from @ClamBakeSanta",
+      "tag": "NationalBananaSplitDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Strange Music Day",
-      "haiku": "Night drums hum in glow\nStrings swirl with neon rain soft\nStars tap bright beats soft\nHappy #InternationalStrangeMusicDay from @ClamBakeSanta",
-      "tag": "InternationalStrangeMusicDay",
+      "theme": "National Whiskey Sour Day",
+      "haiku": "Amber glass glows bright\nCitrus mist soft rises slow\nWarm heart sings with joy\nHappy #NationalWhiskey",
+      "tag": "NationalWhiskeySourDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Jorge Luis Borges",
-      "haiku": "Borges laughs beneath\nPages swirl like summer snow\nInk glows in warm light\n#HappyBirthdayJorgeLuisBorges from @ClamBakeSanta",
-      "tag": "HappyBirthdayJorgeLuisBorges",
+      "theme": "Birthday Althea Gibson",
+      "haiku": "Soft light falls on cake\nCrimson candles glow like stars\nJoy drips in sweet smiles\n#HappyBirthdayAltheaGibson from @ClamBakeSanta",
+      "tag": "HappyBirthdayAltheaGibson",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Welcome to Virgo Season",
-      "haiku": "Morning dew glints bright\nStars align in silver skies\nLeaves hum warm greetings\nHappy #WelcomeToVirgoSeason",
-      "tag": "WelcomeToVirgoSeason",
+      "theme": "Birthday Leonard Bernstein",
+      "haiku": "Bright candle soft swirls\nMelody rises like dawn\nJoy drifts through soft halls\n#HappyBirthdayLeonardBernstein from @ClamBakeSanta",
+      "tag": "HappyBirthdayLeonardBernstein",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Waffle Day",
-    "International Strange Music Day",
-    "Birthday Jorge Luis Borges",
-    "Welcome to Virgo Season"
+    "National Banana Split Day",
+    "National Whiskey Sour Day",
+    "Birthday Althea Gibson",
+    "Birthday Leonard Bernstein"
   ],
-  "content": "Sweet syrup drips slow\nGolden squares trap scent of home\nBreakfast hugs us tight\nHappy #NationalWaffleDay from @ClamBakeSanta\n\nNight drums hum in glow\nStrings swirl with neon rain soft\nStars tap bright beats soft\nHappy #InternationalStrangeMusicDay from @ClamBakeSanta\n\nBorges laughs beneath\nPages swirl like summer snow\nInk glows in warm light\n#HappyBirthdayJorgeLuisBorges from @ClamBakeSanta\n\nMorning dew glints bright\nStars align in silver skies\nLeaves hum warm greetings\nHappy #WelcomeToVirgoSeason",
-  "saved_at": "2026-08-24T09:50:47.563895+00:00"
+  "content": "Soft banana curls\nVe-lvet ice cream warm sighs bright\nCherry tops sparkle\nHappy #NationalBananaSplitDay from @ClamBakeSanta\n\nAmber glass glows bright\nCitrus mist soft rises slow\nWarm heart sings with joy\nHappy #NationalWhiskey\n\nSoft light falls on cake\nCrimson candles glow like stars\nJoy drips in sweet smiles\n#HappyBirthdayAltheaGibson from @ClamBakeSanta\n\nBright candle soft swirls\nMelody rises like dawn\nJoy drifts through soft halls\n#HappyBirthdayLeonardBernstein from @ClamBakeSanta",
+  "saved_at": "2026-08-25T09:37:43.274115+00:00"
 }
