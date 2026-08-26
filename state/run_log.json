@@ -133,7 +133,8 @@
     "2026-08-22",
     "2026-08-23",
     "2026-08-24",
-    "2026-08-25"
+    "2026-08-25",
+    "2026-08-26"
   ],
   "runs": [
     {
@@ -1732,6 +1733,17 @@
         "Birthday Leonard Bernstein"
       ],
       "content_preview": "Soft banana curls Ve-lvet ice cream warm sighs bright Cherry tops sparkle Happy #NationalBananaSplitDay from @ClamBakeSa"
+    },
+    {
+      "date": "2026-08-26",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-26T09:52:30.486092+00:00",
+      "themes": [
+        "International Dog Day",
+        "National Toilet Paper Day",
+        "Birthday Mother Teresa"
+      ],
+      "content_preview": "Bark rings on park grass Paws tap grass, tails waggle bright sun Sun warms fur, hearts glow Happy #InternationalDogDay f"
     }
   ]
 }

@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-18",
-    "theme": "National Soft Ice Cream Day",
-    "haiku": "Creamy swirl drifts up\nCool scent sweet lingers on tongue\nJoyful smiles melt too\nHappy #NationalSoftIce",
-    "tag": "NationalSoftIceCreamDay",
-    "logged_at": "2026-08-18T09:35:48.643132+00:00"
-  },
-  {
-    "date": "2026-08-18",
-    "theme": "Bad Poetry Day",
-    "haiku": "Stale rhyme falls quiet\nInk drips on paper, sighs soft\nSnow melts on bright tongue\nHappy #BadPoetryDay from @ClamBakeSanta",
-    "tag": "BadPoetryDay",
-    "logged_at": "2026-08-18T09:35:48.643132+00:00"
-  },
-  {
-    "date": "2026-08-18",
-    "theme": "Birthday Roberto Clemente",
-    "haiku": "Sunrise paints bright sky\nCrickets sing, breeze hums low soft\nJoyful cheers rise high\n#HappyBirthdayRobertoClemente from @ClamBakeSanta",
-    "tag": "HappyBirthdayRobertoClemente",
-    "logged_at": "2026-08-18T09:35:48.643132+00:00"
-  },
-  {
     "date": "2026-08-19",
     "theme": "National Potato Day",
     "haiku": "Golden spuds rise up\nSteam curls, sweet scent drifts softly\nTaste of sun in earth\nHappy #NationalPotatoDay from @ClamBakeSanta",
@@ -173,5 +152,33 @@
     "haiku": "Morning dew glints bright\nStars align in silver skies\nLeaves hum warm greetings\nHappy #WelcomeToVirgoSeason",
     "tag": "WelcomeToVirgoSeason",
     "logged_at": "2026-08-24T09:50:47.564346+00:00"
+  },
+  {
+    "date": "2026-08-25",
+    "theme": "National Banana Split Day",
+    "haiku": "Soft banana curls\nVe-lvet ice cream warm sighs bright\nCherry tops sparkle\nHappy #NationalBananaSplitDay from @ClamBakeSanta",
+    "tag": "NationalBananaSplitDay",
+    "logged_at": "2026-08-25T09:37:43.274482+00:00"
+  },
+  {
+    "date": "2026-08-25",
+    "theme": "National Whiskey Sour Day",
+    "haiku": "Amber glass glows bright\nCitrus mist soft rises slow\nWarm heart sings with joy\nHappy #NationalWhiskey",
+    "tag": "NationalWhiskeySourDay",
+    "logged_at": "2026-08-25T09:37:43.274482+00:00"
+  },
+  {
+    "date": "2026-08-25",
+    "theme": "Birthday Althea Gibson",
+    "haiku": "Soft light falls on cake\nCrimson candles glow like stars\nJoy drips in sweet smiles\n#HappyBirthdayAltheaGibson from @ClamBakeSanta",
+    "tag": "HappyBirthdayAltheaGibson",
+    "logged_at": "2026-08-25T09:37:43.274482+00:00"
+  },
+  {
+    "date": "2026-08-25",
+    "theme": "Birthday Leonard Bernstein",
+    "haiku": "Bright candle soft swirls\nMelody rises like dawn\nJoy drifts through soft halls\n#HappyBirthdayLeonardBernstein from @ClamBakeSanta",
+    "tag": "HappyBirthdayLeonardBernstein",
+    "logged_at": "2026-08-25T09:37:43.274482+00:00"
   }
 ]

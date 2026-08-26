@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "haikus": [
     {
-      "theme": "National Banana Split Day",
-      "haiku": "Soft banana curls\nVe-lvet ice cream warm sighs bright\nCherry tops sparkle\nHappy #NationalBananaSplitDay from @ClamBakeSanta",
-      "tag": "NationalBananaSplitDay",
+      "theme": "International Dog Day",
+      "haiku": "Bark rings on park grass\nPaws tap grass, tails waggle bright sun\nSun warms fur, hearts glow\nHappy #InternationalDogDay from @ClamBakeSanta",
+      "tag": "InternationalDogDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Whiskey Sour Day",
-      "haiku": "Amber glass glows bright\nCitrus mist soft rises slow\nWarm heart sings with joy\nHappy #NationalWhiskey",
-      "tag": "NationalWhiskeySourDay",
+      "theme": "National Toilet Paper Day",
+      "haiku": "Soft sheets of warm white\nQuiet roll, soft gentle touch\nSoft paper bright smiles\nHappy #NationalToiletPaperDay from @ClamBakeSanta",
+      "tag": "NationalToiletPaperDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Althea Gibson",
-      "haiku": "Soft light falls on cake\nCrimson candles glow like stars\nJoy drips in sweet smiles\n#HappyBirthdayAltheaGibson from @ClamBakeSanta",
-      "tag": "HappyBirthdayAltheaGibson",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Leonard Bernstein",
-      "haiku": "Bright candle soft swirls\nMelody rises like dawn\nJoy drifts through soft halls\n#HappyBirthdayLeonardBernstein from @ClamBakeSanta",
-      "tag": "HappyBirthdayLeonardBernstein",
+      "theme": "Birthday Mother Teresa",
+      "haiku": "Soft candle glow bright\nSinging hearts in gentle hush\nJoy drifts like warm mist\n#HappyBirthdayMotherTeresa from @ClamBakeSanta",
+      "tag": "HappyBirthdayMotherTeresa",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Banana Split Day",
-    "National Whiskey Sour Day",
-    "Birthday Althea Gibson",
-    "Birthday Leonard Bernstein"
+    "International Dog Day",
+    "National Toilet Paper Day",
+    "Birthday Mother Teresa"
   ],
-  "content": "Soft banana curls\nVe-lvet ice cream warm sighs bright\nCherry tops sparkle\nHappy #NationalBananaSplitDay from @ClamBakeSanta\n\nAmber glass glows bright\nCitrus mist soft rises slow\nWarm heart sings with joy\nHappy #NationalWhiskey\n\nSoft light falls on cake\nCrimson candles glow like stars\nJoy drips in sweet smiles\n#HappyBirthdayAltheaGibson from @ClamBakeSanta\n\nBright candle soft swirls\nMelody rises like dawn\nJoy drifts through soft halls\n#HappyBirthdayLeonardBernstein from @ClamBakeSanta",
-  "saved_at": "2026-08-25T09:37:43.274115+00:00"
+  "content": "Bark rings on park grass\nPaws tap grass, tails waggle bright sun\nSun warms fur, hearts glow\nHappy #InternationalDogDay from @ClamBakeSanta\n\nSoft sheets of warm white\nQuiet roll, soft gentle touch\nSoft paper bright smiles\nHappy #NationalToiletPaperDay from @ClamBakeSanta\n\nSoft candle glow bright\nSinging hearts in gentle hush\nJoy drifts like warm mist\n#HappyBirthdayMotherTeresa from @ClamBakeSanta",
+  "saved_at": "2026-08-26T09:44:17.478879+00:00"
 }
