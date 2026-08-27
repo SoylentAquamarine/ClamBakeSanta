@@ -25,7 +25,7 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-08-25T22:17:38.020716+00:00"
+    "last_checked": "2026-08-27T02:28:06.119522+00:00"
   },
   "InternationalStrangeMusicDay": {
     "theme": "International Strange Music Day",
@@ -53,7 +53,7 @@
       }
     },
     "total_score": 0,
-    "last_checked": "2026-08-25T22:17:38.020716+00:00"
+    "last_checked": "2026-08-27T02:28:06.119522+00:00"
   },
   "HappyBirthdayJorgeLuisBorges": {
     "theme": "Birthday Jorge Luis Borges",
@@ -76,12 +76,12 @@
       },
       "tumblr": {
         "id": "825822315040423936",
-        "notes": 1,
-        "score": 1
+        "notes": 2,
+        "score": 2
       }
     },
-    "total_score": 1,
-    "last_checked": "2026-08-25T22:17:38.020716+00:00"
+    "total_score": 2,
+    "last_checked": "2026-08-27T02:28:06.119522+00:00"
   },
   "WelcomeToVirgoSeason": {
     "theme": "Welcome to Virgo Season",
@@ -109,7 +109,7 @@
       }
     },
     "total_score": 1,
-    "last_checked": "2026-08-25T22:17:38.020716+00:00"
+    "last_checked": "2026-08-27T02:28:06.119522+00:00"
   },
   "_wp_daily": {
     "theme": "_wp_daily",
@@ -125,6 +125,6 @@
       }
     },
     "total_score": 2,
-    "last_checked": "2026-08-25T22:17:38.020716+00:00"
+    "last_checked": "2026-08-27T02:28:06.119522+00:00"
   }
 }
