@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "haikus": [
     {
-      "theme": "International Dog Day",
-      "haiku": "Bark rings on park grass\nPaws tap grass, tails waggle bright sun\nSun warms fur, hearts glow\nHappy #InternationalDogDay from @ClamBakeSanta",
-      "tag": "InternationalDogDay",
+      "theme": "National Pots de Creme Day",
+      "haiku": "Creamy clouds swirl soft\nSugar whispers in warm air\nVelvet taste melts slow\nHappy #NationalPotsDeCremeDay from @ClamBakeSanta",
+      "tag": "NationalPotsDeCremeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Toilet Paper Day",
-      "haiku": "Soft sheets of warm white\nQuiet roll, soft gentle touch\nSoft paper bright smiles\nHappy #NationalToiletPaperDay from @ClamBakeSanta",
-      "tag": "NationalToiletPaperDay",
+      "theme": "Global Forgiveness Day",
+      "haiku": "Soft dawn paints sky blue\nBirds sing, hearts heal, light blooms warm\nSun smiles on us all\nHappy #GlobalForgivenessDay from @ClamBakeSanta",
+      "tag": "GlobalForgivenessDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Mother Teresa",
-      "haiku": "Soft candle glow bright\nSinging hearts in gentle hush\nJoy drifts like warm mist\n#HappyBirthdayMotherTeresa from @ClamBakeSanta",
-      "tag": "HappyBirthdayMotherTeresa",
+      "theme": "Birthday Lyndon B. Johnson",
+      "haiku": "Sunrise spills warm gold\nCandle flames dance, soft bright light\nJoy rings in each heart\n#HappyBirthdayLyndonBJohnson from @ClamBakeSanta",
+      "tag": "HappyBirthdayLyndonBJohnson",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "International Dog Day",
-    "National Toilet Paper Day",
-    "Birthday Mother Teresa"
+    "National Pots de Creme Day",
+    "Global Forgiveness Day",
+    "Birthday Lyndon B. Johnson"
   ],
-  "content": "Bark rings on park grass\nPaws tap grass, tails waggle bright sun\nSun warms fur, hearts glow\nHappy #InternationalDogDay from @ClamBakeSanta\n\nSoft sheets of warm white\nQuiet roll, soft gentle touch\nSoft paper bright smiles\nHappy #NationalToiletPaperDay from @ClamBakeSanta\n\nSoft candle glow bright\nSinging hearts in gentle hush\nJoy drifts like warm mist\n#HappyBirthdayMotherTeresa from @ClamBakeSanta",
-  "saved_at": "2026-08-26T09:44:17.478879+00:00"
+  "content": "Creamy clouds swirl soft\nSugar whispers in warm air\nVelvet taste melts slow\nHappy #NationalPotsDeCremeDay from @ClamBakeSanta\n\nSoft dawn paints sky blue\nBirds sing, hearts heal, light blooms warm\nSun smiles on us all\nHappy #GlobalForgivenessDay from @ClamBakeSanta\n\nSunrise spills warm gold\nCandle flames dance, soft bright light\nJoy rings in each heart\n#HappyBirthdayLyndonBJohnson from @ClamBakeSanta",
+  "saved_at": "2026-08-27T19:40:36.178532+00:00"
 }

@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-07-27T12:34:49.778543+00:00",
-    "date": "2026-07-27",
+    "timestamp": "2026-08-27T19:48:50.237353+00:00",
+    "date": "2026-08-27",
     "themes_found": [
-      "National Scotch Day",
-      "Walk on Stilts Day",
-      "Birthday Bugs Bunny"
+      "National Pots de Creme Day",
+      "Global Forgiveness Day",
+      "Birthday Lyndon B. Johnson"
     ],
     "haikus_posted": [
       {
-        "theme": "National Scotch Day",
-        "tag": "NationalScotchDay",
+        "theme": "National Pots de Creme Day",
+        "tag": "NationalPotsDeCremeDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "Walk on Stilts Day",
-        "tag": "WalkOnStiltsDay",
+        "theme": "Global Forgiveness Day",
+        "tag": "GlobalForgivenessDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Bugs Bunny",
-        "tag": "HappyBirthdayBugsBunny",
+        "theme": "Birthday Lyndon B. Johnson",
+        "tag": "HappyBirthdayLyndonBJohnson",
         "valid_syllables": true,
         "counts": [
           5,
