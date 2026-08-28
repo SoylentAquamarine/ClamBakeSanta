@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "haikus": [
     {
-      "theme": "National Pots de Creme Day",
-      "haiku": "Creamy clouds swirl soft\nSugar whispers in warm air\nVelvet taste melts slow\nHappy #NationalPotsDeCremeDay from @ClamBakeSanta",
-      "tag": "NationalPotsDeCremeDay",
+      "theme": "National Cherry Turnovers Day",
+      "haiku": "Cherry crusts warm, crisp\nSweet pink filling sighs in steam\nGolden dust swirls, joy\nHappy #NationalCherryTurnoversDay from @ClamBakeSanta",
+      "tag": "NationalCherryTurnoversDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Global Forgiveness Day",
-      "haiku": "Soft dawn paints sky blue\nBirds sing, hearts heal, light blooms warm\nSun smiles on us all\nHappy #GlobalForgivenessDay from @ClamBakeSanta",
-      "tag": "GlobalForgivenessDay",
+      "theme": "National Bow Tie Day",
+      "haiku": "Bow ties twirl in sun\nBright loops thread laughter and joy\nColors dance ribbons\nHappy #NationalBowTieDay from @ClamBakeSanta",
+      "tag": "NationalBowTieDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Lyndon B. Johnson",
-      "haiku": "Sunrise spills warm gold\nCandle flames dance, soft bright light\nJoy rings in each heart\n#HappyBirthdayLyndonBJohnson from @ClamBakeSanta",
-      "tag": "HappyBirthdayLyndonBJohnson",
+      "theme": "Birthday Leo Tolstoy",
+      "haiku": "Pages old but warm\nTea steam curls, lemon scent bright\nWords like cakes rise high\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
+      "tag": "HappyBirthdayLeoTolstoy",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Goethe",
+      "haiku": "Morning sun smiles soft\nLeaves rustle, amber light drifts\nInk swirls on fresh page\n#HappyBirthdayGoethe from @Cl",
+      "tag": "HappyBirthdayGoethe",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Full Moon",
+      "haiku": "Silver glow rises\nCrickets hum a quiet hymn\nNight breathes deep soft blue\nHappy #FullMoon from @ClamBakeSanta",
+      "tag": "FullMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +58,12 @@
     }
   ],
   "themes": [
-    "National Pots de Creme Day",
-    "Global Forgiveness Day",
-    "Birthday Lyndon B. Johnson"
+    "National Cherry Turnovers Day",
+    "National Bow Tie Day",
+    "Birthday Leo Tolstoy",
+    "Birthday Goethe",
+    "Full Moon"
   ],
-  "content": "Creamy clouds swirl soft\nSugar whispers in warm air\nVelvet taste melts slow\nHappy #NationalPotsDeCremeDay from @ClamBakeSanta\n\nSoft dawn paints sky blue\nBirds sing, hearts heal, light blooms warm\nSun smiles on us all\nHappy #GlobalForgivenessDay from @ClamBakeSanta\n\nSunrise spills warm gold\nCandle flames dance, soft bright light\nJoy rings in each heart\n#HappyBirthdayLyndonBJohnson from @ClamBakeSanta",
-  "saved_at": "2026-08-27T19:40:36.178532+00:00"
+  "content": "Cherry crusts warm, crisp\nSweet pink filling sighs in steam\nGolden dust swirls, joy\nHappy #NationalCherryTurnoversDay from @ClamBakeSanta\n\nBow ties twirl in sun\nBright loops thread laughter and joy\nColors dance ribbons\nHappy #NationalBowTieDay from @ClamBakeSanta\n\nPages old but warm\nTea steam curls, lemon scent bright\nWords like cakes rise high\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta\n\nMorning sun smiles soft\nLeaves rustle, amber light drifts\nInk swirls on fresh page\n#HappyBirthdayGoethe from @Cl\n\nSilver glow rises\nCrickets hum a quiet hymn\nNight breathes deep soft blue\nHappy #FullMoon from @ClamBakeSanta",
+  "saved_at": "2026-08-28T20:45:46.206737+00:00"
 }

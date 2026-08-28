@@ -135,7 +135,8 @@
     "2026-08-24",
     "2026-08-25",
     "2026-08-26",
-    "2026-08-27"
+    "2026-08-27",
+    "2026-08-28"
   ],
   "runs": [
     {
@@ -1756,6 +1757,19 @@
         "Birthday Lyndon B. Johnson"
       ],
       "content_preview": "Creamy clouds swirl soft Sugar whispers in warm air Velvet taste melts slow Happy #NationalPotsDeCremeDay from @ClamBake"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-28T21:02:06.777741+00:00",
+      "themes": [
+        "National Cherry Turnovers Day",
+        "National Bow Tie Day",
+        "Birthday Leo Tolstoy",
+        "Birthday Goethe",
+        "Full Moon"
+      ],
+      "content_preview": "Cherry crusts warm, crisp Sweet pink filling sighs in steam Golden dust swirls, joy Happy #NationalCherryTurnoversDay fr"
     }
   ]
 }
