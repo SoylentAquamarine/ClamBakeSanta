@@ -1,4 +1,134 @@
 {
+  "2026-08-29": {
+    "NationalLemonJuiceDay": {
+      "theme": "National Lemon Juice Day",
+      "haiku": "Lemon zest glows bright\nCitrus waves splash soft cool air\nSunlit juice sparks joy\nHappy #NationalLemonJuiceDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117179211575565109",
+          "url": "https://mastodon.social/@ClamBakeSanta/117179211575565109",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mua2xjsnlj27",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826291767100030976",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
+    },
+    "NationalChopSueyDay": {
+      "theme": "National Chop Suey Day",
+      "haiku": "Steaming wok sings bright,\nSavory steam curls up gold—\nChopsticks tap with joy.\nHappy #NationalChopSueyDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117179215555659512",
+          "url": "https://mastodon.social/@ClamBakeSanta/117179215555659512",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mua2zdjrw423",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826291830350086144",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
+    },
+    "HappyBirthdayCharlieParker": {
+      "theme": "Birthday Charlie Parker",
+      "haiku": "Blue sax sighs at dusk\nMelody curls through night air\nStars swirl on velvet\n#HappyBirthdayCharlieParker from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117179219543040663",
+          "url": "https://mastodon.social/@ClamBakeSanta/117179219543040663",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mua334zde52i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826291893701951488",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
+    },
+    "HappyBirthdayIngridBergman": {
+      "theme": "Birthday Ingrid Bergman",
+      "haiku": "Soft candle bright flicks\nWarm soft co‑coa sighs on lips\nJoyous laughter rings\n#HappyBirthdayIngridBergman from @",
+      "platforms": {
+        "mastodon": {
+          "id": "117179223520955492",
+          "url": "https://mastodon.social/@ClamBakeSanta/117179223520955492",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mua34wkacx2m",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826291956945715200",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "144",
+          "url": "https://clambakesanta.wordpress.com/2026/08/29/clam-bake-santa-2026-08-29/",
+          "views": 4,
+          "likes": 5,
+          "comments": 0,
+          "score": 5
+        }
+      },
+      "total_score": 5,
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
+    }
+  },
   "2026-08-28": {
     "NationalCherryTurnoversDay": {
       "theme": "National Cherry Turnovers Day",
@@ -26,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "NationalBowTieDay": {
       "theme": "National Bow Tie Day",
@@ -54,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "HappyBirthdayLeoTolstoy": {
       "theme": "Birthday Leo Tolstoy",
@@ -82,7 +212,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "HappyBirthdayGoethe": {
       "theme": "Birthday Goethe",
@@ -110,7 +240,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "FullMoon": {
       "theme": "Full Moon",
@@ -138,7 +268,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -154,7 +284,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     }
   },
   "2026-08-27": {
@@ -184,7 +314,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "GlobalForgivenessDay": {
       "theme": "Global Forgiveness Day",
@@ -212,7 +342,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "HappyBirthdayLyndonBJohnson": {
       "theme": "Birthday Lyndon B. Johnson",
@@ -240,7 +370,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -256,7 +386,7 @@
         }
       },
       "total_score": 3,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     }
   },
   "2026-08-26": {
@@ -286,7 +416,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "NationalToiletPaperDay": {
       "theme": "National Toilet Paper Day",
@@ -314,7 +444,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "HappyBirthdayMotherTeresa": {
       "theme": "Birthday Mother Teresa",
@@ -342,7 +472,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -358,7 +488,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-08-29T03:25:46.640200+00:00"
+      "last_checked": "2026-08-29T23:46:04.800342+00:00"
     }
   },
   "2026-08-25": {
