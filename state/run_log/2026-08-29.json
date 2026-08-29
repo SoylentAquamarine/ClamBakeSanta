@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-07-29T11:40:09.037617+00:00",
-    "date": "2026-07-29",
+    "timestamp": "2026-08-29T14:26:47.793255+00:00",
+    "date": "2026-08-29",
     "themes_found": [
-      "National Lasagna Day",
-      "Lipstick Day",
-      "Birthday William Wilberforce",
-      "Full Moon"
+      "National Lemon Juice Day",
+      "National Chop Suey Day",
+      "Birthday Charlie Parker",
+      "Birthday Ingrid Bergman"
     ],
     "haikus_posted": [
       {
-        "theme": "National Lasagna Day",
-        "tag": "NationalLasagnaDay",
+        "theme": "National Lemon Juice Day",
+        "tag": "NationalLemonJuiceDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "Lipstick Day",
-        "tag": "LipstickDay",
+        "theme": "National Chop Suey Day",
+        "tag": "NationalChopSueyDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday William Wilberforce",
-        "tag": "HappyBirthdayWilliamWilberforce",
+        "theme": "Birthday Charlie Parker",
+        "tag": "HappyBirthdayCharlieParker",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "Full Moon",
-        "tag": "FullMoon",
+        "theme": "Birthday Ingrid Bergman",
+        "tag": "HappyBirthdayIngridBergman",
         "valid_syllables": true,
         "counts": [
           5,

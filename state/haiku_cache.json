@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "haikus": [
     {
-      "theme": "National Cherry Turnovers Day",
-      "haiku": "Cherry crusts warm, crisp\nSweet pink filling sighs in steam\nGolden dust swirls, joy\nHappy #NationalCherryTurnoversDay from @ClamBakeSanta",
-      "tag": "NationalCherryTurnoversDay",
+      "theme": "National Lemon Juice Day",
+      "haiku": "Lemon zest glows bright\nCitrus waves splash soft cool air\nSunlit juice sparks joy\nHappy #NationalLemonJuiceDay from @ClamBakeSanta",
+      "tag": "NationalLemonJuiceDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Bow Tie Day",
-      "haiku": "Bow ties twirl in sun\nBright loops thread laughter and joy\nColors dance ribbons\nHappy #NationalBowTieDay from @ClamBakeSanta",
-      "tag": "NationalBowTieDay",
+      "theme": "National Chop Suey Day",
+      "haiku": "Steaming wok sings bright,\nSavory steam curls up gold—\nChopsticks tap with joy.\nHappy #NationalChopSueyDay from @ClamBakeSanta",
+      "tag": "NationalChopSueyDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Leo Tolstoy",
-      "haiku": "Pages old but warm\nTea steam curls, lemon scent bright\nWords like cakes rise high\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
-      "tag": "HappyBirthdayLeoTolstoy",
+      "theme": "Birthday Charlie Parker",
+      "haiku": "Blue sax sighs at dusk\nMelody curls through night air\nStars swirl on velvet\n#HappyBirthdayCharlieParker from @ClamBakeSanta",
+      "tag": "HappyBirthdayCharlieParker",
       "syllable_counts": [
         5,
         7,
@@ -35,20 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Goethe",
-      "haiku": "Morning sun smiles soft\nLeaves rustle, amber light drifts\nInk swirls on fresh page\n#HappyBirthdayGoethe from @Cl",
-      "tag": "HappyBirthdayGoethe",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Full Moon",
-      "haiku": "Silver glow rises\nCrickets hum a quiet hymn\nNight breathes deep soft blue\nHappy #FullMoon from @ClamBakeSanta",
-      "tag": "FullMoon",
+      "theme": "Birthday Ingrid Bergman",
+      "haiku": "Soft candle bright flicks\nWarm soft co‑coa sighs on lips\nJoyous laughter rings\n#HappyBirthdayIngridBergman from @",
+      "tag": "HappyBirthdayIngridBergman",
       "syllable_counts": [
         5,
         7,
@@ -58,12 +47,11 @@
     }
   ],
   "themes": [
-    "National Cherry Turnovers Day",
-    "National Bow Tie Day",
-    "Birthday Leo Tolstoy",
-    "Birthday Goethe",
-    "Full Moon"
+    "National Lemon Juice Day",
+    "National Chop Suey Day",
+    "Birthday Charlie Parker",
+    "Birthday Ingrid Bergman"
   ],
-  "content": "Cherry crusts warm, crisp\nSweet pink filling sighs in steam\nGolden dust swirls, joy\nHappy #NationalCherryTurnoversDay from @ClamBakeSanta\n\nBow ties twirl in sun\nBright loops thread laughter and joy\nColors dance ribbons\nHappy #NationalBowTieDay from @ClamBakeSanta\n\nPages old but warm\nTea steam curls, lemon scent bright\nWords like cakes rise high\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta\n\nMorning sun smiles soft\nLeaves rustle, amber light drifts\nInk swirls on fresh page\n#HappyBirthdayGoethe from @Cl\n\nSilver glow rises\nCrickets hum a quiet hymn\nNight breathes deep soft blue\nHappy #FullMoon from @ClamBakeSanta",
-  "saved_at": "2026-08-28T20:45:46.206737+00:00"
+  "content": "Lemon zest glows bright\nCitrus waves splash soft cool air\nSunlit juice sparks joy\nHappy #NationalLemonJuiceDay from @ClamBakeSanta\n\nSteaming wok sings bright,\nSavory steam curls up gold—\nChopsticks tap with joy.\nHappy #NationalChopSueyDay from @ClamBakeSanta\n\nBlue sax sighs at dusk\nMelody curls through night air\nStars swirl on velvet\n#HappyBirthdayCharlieParker from @ClamBakeSanta\n\nSoft candle bright flicks\nWarm soft co‑coa sighs on lips\nJoyous laughter rings\n#HappyBirthdayIngridBergman from @",
+  "saved_at": "2026-08-29T14:14:30.685305+00:00"
 }

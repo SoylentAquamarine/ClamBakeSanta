@@ -136,7 +136,8 @@
     "2026-08-25",
     "2026-08-26",
     "2026-08-27",
-    "2026-08-28"
+    "2026-08-28",
+    "2026-08-29"
   ],
   "runs": [
     {
@@ -1770,6 +1771,18 @@
         "Full Moon"
       ],
       "content_preview": "Cherry crusts warm, crisp Sweet pink filling sighs in steam Golden dust swirls, joy Happy #NationalCherryTurnoversDay fr"
+    },
+    {
+      "date": "2026-08-29",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-29T14:26:47.791894+00:00",
+      "themes": [
+        "National Lemon Juice Day",
+        "National Chop Suey Day",
+        "Birthday Charlie Parker",
+        "Birthday Ingrid Bergman"
+      ],
+      "content_preview": "Lemon zest glows bright Citrus waves splash soft cool air Sunlit juice sparks joy Happy #NationalLemonJuiceDay from @Cla"
     }
   ]
 }
