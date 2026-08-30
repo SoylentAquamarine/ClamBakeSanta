@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "haikus": [
     {
-      "theme": "National Lemon Juice Day",
-      "haiku": "Lemon zest glows bright\nCitrus waves splash soft cool air\nSunlit juice sparks joy\nHappy #NationalLemonJuiceDay from @ClamBakeSanta",
-      "tag": "NationalLemonJuiceDay",
+      "theme": "National Toasted Marshmallow Day",
+      "haiku": "Golden sparks ignite—\ngooey hugs on sticks alight.\nSweet smoke swirls so bright.\nHappy #NationalToastedMarshmallowDay from @ClamBakeSanta",
+      "tag": "NationalToastedMarshmallowDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Chop Suey Day",
-      "haiku": "Steaming wok sings bright,\nSavory steam curls up gold—\nChopsticks tap with joy.\nHappy #NationalChopSueyDay from @ClamBakeSanta",
-      "tag": "NationalChopSueyDay",
+      "theme": "Frankenstein Day",
+      "haiku": "Gleam of stitched night bright\nPatchwork stars twirl softly high\nWarm glow curls in air\nHappy #FrankensteinDay from @ClamBakeSanta",
+      "tag": "FrankensteinDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Charlie Parker",
-      "haiku": "Blue sax sighs at dusk\nMelody curls through night air\nStars swirl on velvet\n#HappyBirthdayCharlieParker from @ClamBakeSanta",
-      "tag": "HappyBirthdayCharlieParker",
+      "theme": "Birthday Mary Shelley",
+      "haiku": "Candle wax drips gold,\nSoft cake crumbs on laughter’s fold—\nStories new unfold.\n#HappyBirthdayMaryShelley from @ClamBakeSanta",
+      "tag": "HappyBirthdayMaryShelley",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Ingrid Bergman",
-      "haiku": "Soft candle bright flicks\nWarm soft co‑coa sighs on lips\nJoyous laughter rings\n#HappyBirthdayIngridBergman from @",
-      "tag": "HappyBirthdayIngridBergman",
+      "theme": "Birthday Warren Buffett",
+      "haiku": "Golden sun rises\nStock charts glow like soft sunrise\nCoins dance bright cheers rise\n#HappyBirthdayWarrenBuffett from @ClamBakeSanta",
+      "tag": "HappyBirthdayWarrenBuffett",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Lemon Juice Day",
-    "National Chop Suey Day",
-    "Birthday Charlie Parker",
-    "Birthday Ingrid Bergman"
+    "National Toasted Marshmallow Day",
+    "Frankenstein Day",
+    "Birthday Mary Shelley",
+    "Birthday Warren Buffett"
   ],
-  "content": "Lemon zest glows bright\nCitrus waves splash soft cool air\nSunlit juice sparks joy\nHappy #NationalLemonJuiceDay from @ClamBakeSanta\n\nSteaming wok sings bright,\nSavory steam curls up gold—\nChopsticks tap with joy.\nHappy #NationalChopSueyDay from @ClamBakeSanta\n\nBlue sax sighs at dusk\nMelody curls through night air\nStars swirl on velvet\n#HappyBirthdayCharlieParker from @ClamBakeSanta\n\nSoft candle bright flicks\nWarm soft co‑coa sighs on lips\nJoyous laughter rings\n#HappyBirthdayIngridBergman from @",
-  "saved_at": "2026-08-29T14:14:30.685305+00:00"
+  "content": "Golden sparks ignite—\ngooey hugs on sticks alight.\nSweet smoke swirls so bright.\nHappy #NationalToastedMarshmallowDay from @ClamBakeSanta\n\nGleam of stitched night bright\nPatchwork stars twirl softly high\nWarm glow curls in air\nHappy #FrankensteinDay from @ClamBakeSanta\n\nCandle wax drips gold,\nSoft cake crumbs on laughter’s fold—\nStories new unfold.\n#HappyBirthdayMaryShelley from @ClamBakeSanta\n\nGolden sun rises\nStock charts glow like soft sunrise\nCoins dance bright cheers rise\n#HappyBirthdayWarrenBuffett from @ClamBakeSanta",
+  "saved_at": "2026-08-30T14:20:21.081314+00:00"
 }

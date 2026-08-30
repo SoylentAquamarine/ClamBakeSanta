@@ -137,7 +137,8 @@
     "2026-08-26",
     "2026-08-27",
     "2026-08-28",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-08-30"
   ],
   "runs": [
     {
@@ -1783,6 +1784,18 @@
         "Birthday Ingrid Bergman"
       ],
       "content_preview": "Lemon zest glows bright Citrus waves splash soft cool air Sunlit juice sparks joy Happy #NationalLemonJuiceDay from @Cla"
+    },
+    {
+      "date": "2026-08-30",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-30T14:32:36.242700+00:00",
+      "themes": [
+        "National Toasted Marshmallow Day",
+        "Frankenstein Day",
+        "Birthday Mary Shelley",
+        "Birthday Warren Buffett"
+      ],
+      "content_preview": "Golden sparks ignite— gooey hugs on sticks alight. Sweet smoke swirls so bright. Happy #NationalToastedMarshmallowDay fr"
     }
   ]
 }
