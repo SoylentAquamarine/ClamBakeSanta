@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "haikus": [
     {
-      "theme": "National Toasted Marshmallow Day",
-      "haiku": "Golden sparks ignite—\ngooey hugs on sticks alight.\nSweet smoke swirls so bright.\nHappy #NationalToastedMarshmallowDay from @ClamBakeSanta",
-      "tag": "NationalToastedMarshmallowDay",
+      "theme": "National Trail Mix Day",
+      "haiku": "Crunchy trail mix calls\nSunlit nuts, sweet dried fruit swirl\nTaste buds dance, bright joy\nHappy #NationalTrailMixDay from @ClamBakeSanta",
+      "tag": "NationalTrailMixDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Frankenstein Day",
-      "haiku": "Gleam of stitched night bright\nPatchwork stars twirl softly high\nWarm glow curls in air\nHappy #FrankensteinDay from @ClamBakeSanta",
-      "tag": "FrankensteinDay",
+      "theme": "National Eat Outside Day",
+      "haiku": "Fresh breeze stirs green soft\nSun warms plates of crisp salad\nLaughter fills bright air\nHappy #NationalEatOutsideDay from @ClamBakeSanta",
+      "tag": "NationalEatOutsideDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Mary Shelley",
-      "haiku": "Candle wax drips gold,\nSoft cake crumbs on laughter’s fold—\nStories new unfold.\n#HappyBirthdayMaryShelley from @ClamBakeSanta",
-      "tag": "HappyBirthdayMaryShelley",
+      "theme": "Birthday Van Morrison",
+      "haiku": "Sunlight paints your grin\nSinging waves echo your song\nJoy lifts like bright kite\n#HappyBirthdayVanMorrison from @ClamBakeSanta",
+      "tag": "HappyBirthdayVanMorrison",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Warren Buffett",
-      "haiku": "Golden sun rises\nStock charts glow like soft sunrise\nCoins dance bright cheers rise\n#HappyBirthdayWarrenBuffett from @ClamBakeSanta",
-      "tag": "HappyBirthdayWarrenBuffett",
+      "theme": "Birthday Maria Montessori",
+      "haiku": "Bright balloons rise high\nLaughing children touch small hands\nNew ideas bloom\n#HappyBirthdayMariaMontessori from @ClamBakeSanta",
+      "tag": "HappyBirthdayMariaMontessori",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Toasted Marshmallow Day",
-    "Frankenstein Day",
-    "Birthday Mary Shelley",
-    "Birthday Warren Buffett"
+    "National Trail Mix Day",
+    "National Eat Outside Day",
+    "Birthday Van Morrison",
+    "Birthday Maria Montessori"
   ],
-  "content": "Golden sparks ignite—\ngooey hugs on sticks alight.\nSweet smoke swirls so bright.\nHappy #NationalToastedMarshmallowDay from @ClamBakeSanta\n\nGleam of stitched night bright\nPatchwork stars twirl softly high\nWarm glow curls in air\nHappy #FrankensteinDay from @ClamBakeSanta\n\nCandle wax drips gold,\nSoft cake crumbs on laughter’s fold—\nStories new unfold.\n#HappyBirthdayMaryShelley from @ClamBakeSanta\n\nGolden sun rises\nStock charts glow like soft sunrise\nCoins dance bright cheers rise\n#HappyBirthdayWarrenBuffett from @ClamBakeSanta",
-  "saved_at": "2026-08-30T14:20:21.081314+00:00"
+  "content": "Crunchy trail mix calls\nSunlit nuts, sweet dried fruit swirl\nTaste buds dance, bright joy\nHappy #NationalTrailMixDay from @ClamBakeSanta\n\nFresh breeze stirs green soft\nSun warms plates of crisp salad\nLaughter fills bright air\nHappy #NationalEatOutsideDay from @ClamBakeSanta\n\nSunlight paints your grin\nSinging waves echo your song\nJoy lifts like bright kite\n#HappyBirthdayVanMorrison from @ClamBakeSanta\n\nBright balloons rise high\nLaughing children touch small hands\nNew ideas bloom\n#HappyBirthdayMariaMontessori from @ClamBakeSanta",
+  "saved_at": "2026-08-31T16:51:23.666936+00:00"
 }

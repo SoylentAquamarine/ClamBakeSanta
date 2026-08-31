@@ -138,7 +138,8 @@
     "2026-08-27",
     "2026-08-28",
     "2026-08-29",
-    "2026-08-30"
+    "2026-08-30",
+    "2026-08-31"
   ],
   "runs": [
     {
@@ -1796,6 +1797,18 @@
         "Birthday Warren Buffett"
       ],
       "content_preview": "Golden sparks ignite— gooey hugs on sticks alight. Sweet smoke swirls so bright. Happy #NationalToastedMarshmallowDay fr"
+    },
+    {
+      "date": "2026-08-31",
+      "engine": "clambakesanta",
+      "timestamp": "2026-08-31T17:03:37.285716+00:00",
+      "themes": [
+        "National Trail Mix Day",
+        "National Eat Outside Day",
+        "Birthday Van Morrison",
+        "Birthday Maria Montessori"
+      ],
+      "content_preview": "Crunchy trail mix calls Sunlit nuts, sweet dried fruit swirl Taste buds dance, bright joy Happy #NationalTrailMixDay fro"
     }
   ]
 }

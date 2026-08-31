@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-23",
-    "theme": "National Spongecake Day",
-    "haiku": "Morning light drips sweet\nFluffy crumbs float like clouds soft\nScent fills warm room soft\nHappy #NationalSpongecakeDay from @ClamBakeSanta",
-    "tag": "NationalSpongecakeDay",
-    "logged_at": "2026-08-23T09:30:03.793381+00:00"
-  },
-  {
-    "date": "2026-08-23",
-    "theme": "International Weird Parents Day",
-    "haiku": "Quirky kids giggle\nToys spin, lights dance in bright rooms\nJoyful chaos feels\nHappy #InternationalWeirdParentsDay from @ClamBakeSanta",
-    "tag": "InternationalWeirdParentsDay",
-    "logged_at": "2026-08-23T09:30:03.793381+00:00"
-  },
-  {
-    "date": "2026-08-23",
-    "theme": "Birthday Gene Kelly",
-    "haiku": "Bright jazz steps glide soft\nStar‑lit shoes tap the bright floor\nJoy hums in each beat\n#HappyBirthdayGeneKelly from @ClamBakeSanta",
-    "tag": "HappyBirthdayGeneKelly",
-    "logged_at": "2026-08-23T09:30:03.793381+00:00"
-  },
-  {
     "date": "2026-08-24",
     "theme": "National Waffle Day",
     "haiku": "Sweet syrup drips slow\nGolden squares trap scent of home\nBreakfast hugs us tight\nHappy #NationalWaffleDay from @ClamBakeSanta",
@@ -180,5 +159,33 @@
     "haiku": "Soft candle bright flicks\nWarm soft co‑coa sighs on lips\nJoyous laughter rings\n#HappyBirthdayIngridBergman from @",
     "tag": "HappyBirthdayIngridBergman",
     "logged_at": "2026-08-29T14:14:30.685818+00:00"
+  },
+  {
+    "date": "2026-08-30",
+    "theme": "National Toasted Marshmallow Day",
+    "haiku": "Golden sparks ignite—\ngooey hugs on sticks alight.\nSweet smoke swirls so bright.\nHappy #NationalToastedMarshmallowDay from @ClamBakeSanta",
+    "tag": "NationalToastedMarshmallowDay",
+    "logged_at": "2026-08-30T14:20:21.081847+00:00"
+  },
+  {
+    "date": "2026-08-30",
+    "theme": "Frankenstein Day",
+    "haiku": "Gleam of stitched night bright\nPatchwork stars twirl softly high\nWarm glow curls in air\nHappy #FrankensteinDay from @ClamBakeSanta",
+    "tag": "FrankensteinDay",
+    "logged_at": "2026-08-30T14:20:21.081847+00:00"
+  },
+  {
+    "date": "2026-08-30",
+    "theme": "Birthday Mary Shelley",
+    "haiku": "Candle wax drips gold,\nSoft cake crumbs on laughter’s fold—\nStories new unfold.\n#HappyBirthdayMaryShelley from @ClamBakeSanta",
+    "tag": "HappyBirthdayMaryShelley",
+    "logged_at": "2026-08-30T14:20:21.081847+00:00"
+  },
+  {
+    "date": "2026-08-30",
+    "theme": "Birthday Warren Buffett",
+    "haiku": "Golden sun rises\nStock charts glow like soft sunrise\nCoins dance bright cheers rise\n#HappyBirthdayWarrenBuffett from @ClamBakeSanta",
+    "tag": "HappyBirthdayWarrenBuffett",
+    "logged_at": "2026-08-30T14:20:21.081847+00:00"
   }
 ]
