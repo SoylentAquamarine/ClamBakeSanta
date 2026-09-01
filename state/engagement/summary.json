@@ -1,4 +1,134 @@
 {
+  "2026-09-01": {
+    "NationalNoRhymeNorReasonDay": {
+      "theme": "National No Rhyme Nor Reason Day",
+      "haiku": "Bright soft snowflakes dance\nKids laugh, hearts glow, winter breeze\nJoyful hush, stars gleam\nHappy #NationalNoRhymeNorReasonDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117196141789445680",
+          "url": "https://mastodon.social/@ClamBakeSanta/117196141789445680",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muhlkjpmmn2f",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826562650574110720",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
+    },
+    "EmmaMNuttDay": {
+      "theme": "Emma M. Nutt Day",
+      "haiku": "Morning dew sparkles\nLaughter echoes over hills\nJoy fills warm bright air\nHappy #EmmaMNuttDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117196145761489485",
+          "url": "https://mastodon.social/@ClamBakeSanta/117196145761489485",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muhlmcyouq2b",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826562714069598208",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
+    },
+    "HappyBirthdayLilyTomlin": {
+      "theme": "Birthday Lily Tomlin",
+      "haiku": "Bright stars whisper light\nSoft breeze hums through silver trees\nJoy blooms like fresh dawn\n#HappyBirthdayLilyTomlin from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117196149786724745",
+          "url": "https://mastodon.social/@ClamBakeSanta/117196149786724745",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muhlo4dzds2b",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826562777257787392",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
+    },
+    "HappyBirthdayEdgarRiceBurroughs": {
+      "theme": "Birthday Edgar Rice Burroughs",
+      "haiku": "Starlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117196153797328480",
+          "url": "https://mastodon.social/@ClamBakeSanta/117196153797328480",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muhlpvo4qa27",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "826562840496390144",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "147",
+          "url": "https://clambakesanta.wordpress.com/2026/09/01/clam-bake-santa-2026-09-01/",
+          "views": 3,
+          "likes": 2,
+          "comments": 0,
+          "score": 2
+        }
+      },
+      "total_score": 2,
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
+    }
+  },
   "2026-08-31": {
     "NationalTrailMixDay": {
       "theme": "National Trail Mix Day",
@@ -26,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "NationalEatOutsideDay": {
       "theme": "National Eat Outside Day",
@@ -54,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "HappyBirthdayVanMorrison": {
       "theme": "Birthday Van Morrison",
@@ -82,7 +212,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "HappyBirthdayMariaMontessori": {
       "theme": "Birthday Maria Montessori",
@@ -110,7 +240,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -119,14 +249,14 @@
         "wordpress": {
           "id": "146",
           "url": "https://clambakesanta.wordpress.com/2026/08/31/clam-bake-santa-2026-08-31/",
-          "views": 2,
-          "likes": 2,
+          "views": 4,
+          "likes": 4,
           "comments": 0,
-          "score": 2
+          "score": 4
         }
       },
-      "total_score": 2,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "total_score": 4,
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     }
   },
   "2026-08-30": {
@@ -156,7 +286,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "FrankensteinDay": {
       "theme": "Frankenstein Day",
@@ -184,7 +314,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "HappyBirthdayMaryShelley": {
       "theme": "Birthday Mary Shelley",
@@ -212,7 +342,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "HappyBirthdayWarrenBuffett": {
       "theme": "Birthday Warren Buffett",
@@ -240,7 +370,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -256,7 +386,7 @@
         }
       },
       "total_score": 4,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     }
   },
   "2026-08-29": {
@@ -286,7 +416,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "NationalChopSueyDay": {
       "theme": "National Chop Suey Day",
@@ -314,7 +444,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "HappyBirthdayCharlieParker": {
       "theme": "Birthday Charlie Parker",
@@ -342,7 +472,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "HappyBirthdayIngridBergman": {
       "theme": "Birthday Ingrid Bergman",
@@ -370,7 +500,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -386,7 +516,7 @@
         }
       },
       "total_score": 5,
-      "last_checked": "2026-09-01T00:55:16.706604+00:00"
+      "last_checked": "2026-09-01T23:42:15.959373+00:00"
     }
   },
   "2026-08-28": {
