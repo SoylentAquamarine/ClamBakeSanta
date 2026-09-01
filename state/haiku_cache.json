@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "haikus": [
     {
-      "theme": "National Trail Mix Day",
-      "haiku": "Crunchy trail mix calls\nSunlit nuts, sweet dried fruit swirl\nTaste buds dance, bright joy\nHappy #NationalTrailMixDay from @ClamBakeSanta",
-      "tag": "NationalTrailMixDay",
+      "theme": "National No Rhyme Nor Reason Day",
+      "haiku": "Bright soft snowflakes dance\nKids laugh, hearts glow, winter breeze\nJoyful hush, stars gleam\nHappy #NationalNoRhymeNorReasonDay from @ClamBakeSanta",
+      "tag": "NationalNoRhymeNorReasonDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Eat Outside Day",
-      "haiku": "Fresh breeze stirs green soft\nSun warms plates of crisp salad\nLaughter fills bright air\nHappy #NationalEatOutsideDay from @ClamBakeSanta",
-      "tag": "NationalEatOutsideDay",
+      "theme": "Emma M. Nutt Day",
+      "haiku": "Morning dew sparkles\nLaughter echoes over hills\nJoy fills warm bright air\nHappy #EmmaMNuttDay from @ClamBakeSanta",
+      "tag": "EmmaMNuttDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Van Morrison",
-      "haiku": "Sunlight paints your grin\nSinging waves echo your song\nJoy lifts like bright kite\n#HappyBirthdayVanMorrison from @ClamBakeSanta",
-      "tag": "HappyBirthdayVanMorrison",
+      "theme": "Birthday Lily Tomlin",
+      "haiku": "Bright stars whisper light\nSoft breeze hums through silver trees\nJoy blooms like fresh dawn\n#HappyBirthdayLilyTomlin from @ClamBakeSanta",
+      "tag": "HappyBirthdayLilyTomlin",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Maria Montessori",
-      "haiku": "Bright balloons rise high\nLaughing children touch small hands\nNew ideas bloom\n#HappyBirthdayMariaMontessori from @ClamBakeSanta",
-      "tag": "HappyBirthdayMariaMontessori",
+      "theme": "Birthday Edgar Rice Burroughs",
+      "haiku": "Starlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
+      "tag": "HappyBirthdayEdgarRiceBurroughs",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Trail Mix Day",
-    "National Eat Outside Day",
-    "Birthday Van Morrison",
-    "Birthday Maria Montessori"
+    "National No Rhyme Nor Reason Day",
+    "Emma M. Nutt Day",
+    "Birthday Lily Tomlin",
+    "Birthday Edgar Rice Burroughs"
   ],
-  "content": "Crunchy trail mix calls\nSunlit nuts, sweet dried fruit swirl\nTaste buds dance, bright joy\nHappy #NationalTrailMixDay from @ClamBakeSanta\n\nFresh breeze stirs green soft\nSun warms plates of crisp salad\nLaughter fills bright air\nHappy #NationalEatOutsideDay from @ClamBakeSanta\n\nSunlight paints your grin\nSinging waves echo your song\nJoy lifts like bright kite\n#HappyBirthdayVanMorrison from @ClamBakeSanta\n\nBright balloons rise high\nLaughing children touch small hands\nNew ideas bloom\n#HappyBirthdayMariaMontessori from @ClamBakeSanta",
-  "saved_at": "2026-08-31T16:51:23.666936+00:00"
+  "content": "Bright soft snowflakes dance\nKids laugh, hearts glow, winter breeze\nJoyful hush, stars gleam\nHappy #NationalNoRhymeNorReasonDay from @ClamBakeSanta\n\nMorning dew sparkles\nLaughter echoes over hills\nJoy fills warm bright air\nHappy #EmmaMNuttDay from @ClamBakeSanta\n\nBright stars whisper light\nSoft breeze hums through silver trees\nJoy blooms like fresh dawn\n#HappyBirthdayLilyTomlin from @ClamBakeSanta\n\nStarlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
+  "saved_at": "2026-09-01T14:00:06.182468+00:00"
 }
