@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "haikus": [
     {
-      "theme": "National No Rhyme Nor Reason Day",
-      "haiku": "Bright soft snowflakes dance\nKids laugh, hearts glow, winter breeze\nJoyful hush, stars gleam\nHappy #NationalNoRhymeNorReasonDay from @ClamBakeSanta",
-      "tag": "NationalNoRhymeNorReasonDay",
+      "theme": "National Blueberry Popsicle Day",
+      "haiku": "Cold blue berry bite\nSun melts into sweet splash glow\nFrosty joy drips bright\nHappy #NationalBlueberryPopsicleDay from @ClamBakeSanta",
+      "tag": "NationalBlueberryPopsicleDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Emma M. Nutt Day",
-      "haiku": "Morning dew sparkles\nLaughter echoes over hills\nJoy fills warm bright air\nHappy #EmmaMNuttDay from @ClamBakeSanta",
-      "tag": "EmmaMNuttDay",
+      "theme": "World Coconut Day",
+      "haiku": "Palm leaves whisper soft\nCreamy water gleams bright near\nTaste of summer breeze\nHappy #WorldCoconutDay from @ClamBakeSanta",
+      "tag": "WorldCoconutDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Lily Tomlin",
-      "haiku": "Bright stars whisper light\nSoft breeze hums through silver trees\nJoy blooms like fresh dawn\n#HappyBirthdayLilyTomlin from @ClamBakeSanta",
-      "tag": "HappyBirthdayLilyTomlin",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Edgar Rice Burroughs",
-      "haiku": "Starlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
-      "tag": "HappyBirthdayEdgarRiceBurroughs",
+      "theme": "Birthday Keanu Reeves",
+      "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nStars wink at his smile\n#HappyBirthdayKeanuReeves from @ClamBakeSanta",
+      "tag": "HappyBirthdayKeanuReeves",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National No Rhyme Nor Reason Day",
-    "Emma M. Nutt Day",
-    "Birthday Lily Tomlin",
-    "Birthday Edgar Rice Burroughs"
+    "National Blueberry Popsicle Day",
+    "World Coconut Day",
+    "Birthday Keanu Reeves"
   ],
-  "content": "Bright soft snowflakes dance\nKids laugh, hearts glow, winter breeze\nJoyful hush, stars gleam\nHappy #NationalNoRhymeNorReasonDay from @ClamBakeSanta\n\nMorning dew sparkles\nLaughter echoes over hills\nJoy fills warm bright air\nHappy #EmmaMNuttDay from @ClamBakeSanta\n\nBright stars whisper light\nSoft breeze hums through silver trees\nJoy blooms like fresh dawn\n#HappyBirthdayLilyTomlin from @ClamBakeSanta\n\nStarlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
-  "saved_at": "2026-09-01T14:00:06.182468+00:00"
+  "content": "Cold blue berry bite\nSun melts into sweet splash glow\nFrosty joy drips bright\nHappy #NationalBlueberryPopsicleDay from @ClamBakeSanta\n\nPalm leaves whisper soft\nCreamy water gleams bright near\nTaste of summer breeze\nHappy #WorldCoconutDay from @ClamBakeSanta\n\nBirthday candles glow\nSoft breeze carries bright laughter\nStars wink at his smile\n#HappyBirthdayKeanuReeves from @ClamBakeSanta",
+  "saved_at": "2026-09-02T13:23:26.966077+00:00"
 }

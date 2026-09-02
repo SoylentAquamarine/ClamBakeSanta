@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-25",
-    "theme": "National Banana Split Day",
-    "haiku": "Soft banana curls\nVe-lvet ice cream warm sighs bright\nCherry tops sparkle\nHappy #NationalBananaSplitDay from @ClamBakeSanta",
-    "tag": "NationalBananaSplitDay",
-    "logged_at": "2026-08-25T09:37:43.274482+00:00"
-  },
-  {
-    "date": "2026-08-25",
-    "theme": "National Whiskey Sour Day",
-    "haiku": "Amber glass glows bright\nCitrus mist soft rises slow\nWarm heart sings with joy\nHappy #NationalWhiskey",
-    "tag": "NationalWhiskeySourDay",
-    "logged_at": "2026-08-25T09:37:43.274482+00:00"
-  },
-  {
-    "date": "2026-08-25",
-    "theme": "Birthday Althea Gibson",
-    "haiku": "Soft light falls on cake\nCrimson candles glow like stars\nJoy drips in sweet smiles\n#HappyBirthdayAltheaGibson from @ClamBakeSanta",
-    "tag": "HappyBirthdayAltheaGibson",
-    "logged_at": "2026-08-25T09:37:43.274482+00:00"
-  },
-  {
-    "date": "2026-08-25",
-    "theme": "Birthday Leonard Bernstein",
-    "haiku": "Bright candle soft swirls\nMelody rises like dawn\nJoy drifts through soft halls\n#HappyBirthdayLeonardBernstein from @ClamBakeSanta",
-    "tag": "HappyBirthdayLeonardBernstein",
-    "logged_at": "2026-08-25T09:37:43.274482+00:00"
-  },
-  {
     "date": "2026-08-26",
     "theme": "International Dog Day",
     "haiku": "Bark rings on park grass\nPaws tap grass, tails waggle bright sun\nSun warms fur, hearts glow\nHappy #InternationalDogDay from @ClamBakeSanta",
@@ -187,5 +159,33 @@
     "haiku": "Bright balloons rise high\nLaughing children touch small hands\nNew ideas bloom\n#HappyBirthdayMariaMontessori from @ClamBakeSanta",
     "tag": "HappyBirthdayMariaMontessori",
     "logged_at": "2026-08-31T16:51:23.667433+00:00"
+  },
+  {
+    "date": "2026-09-01",
+    "theme": "National No Rhyme Nor Reason Day",
+    "haiku": "Bright soft snowflakes dance\nKids laugh, hearts glow, winter breeze\nJoyful hush, stars gleam\nHappy #NationalNoRhymeNorReasonDay from @ClamBakeSanta",
+    "tag": "NationalNoRhymeNorReasonDay",
+    "logged_at": "2026-09-01T14:00:06.182929+00:00"
+  },
+  {
+    "date": "2026-09-01",
+    "theme": "Emma M. Nutt Day",
+    "haiku": "Morning dew sparkles\nLaughter echoes over hills\nJoy fills warm bright air\nHappy #EmmaMNuttDay from @ClamBakeSanta",
+    "tag": "EmmaMNuttDay",
+    "logged_at": "2026-09-01T14:00:06.182929+00:00"
+  },
+  {
+    "date": "2026-09-01",
+    "theme": "Birthday Lily Tomlin",
+    "haiku": "Bright stars whisper light\nSoft breeze hums through silver trees\nJoy blooms like fresh dawn\n#HappyBirthdayLilyTomlin from @ClamBakeSanta",
+    "tag": "HappyBirthdayLilyTomlin",
+    "logged_at": "2026-09-01T14:00:06.182929+00:00"
+  },
+  {
+    "date": "2026-09-01",
+    "theme": "Birthday Edgar Rice Burroughs",
+    "haiku": "Starlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
+    "tag": "HappyBirthdayEdgarRiceBurroughs",
+    "logged_at": "2026-09-01T14:00:06.182929+00:00"
   }
 ]
