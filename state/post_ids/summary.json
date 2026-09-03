@@ -1,4 +1,66 @@
 {
+  "2026-09-03": {
+    "NationalSkyscraperDay": {
+      "mastodon": {
+        "id": "117207316436253827",
+        "url": "https://mastodon.social/@ClamBakeSanta/117207316436253827"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mumkcdku7q2y",
+        "cid": "bafyreid6jiluawfm2iuzyplidt6rgxbbyzsaaesjmyoc5zf63wzfyiwoe4"
+      },
+      "tumblr": {
+        "id": "826741318137053184",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "446",
+        "channel": "@clambakesanta"
+      }
+    },
+    "NationalWelshRarebitDay": {
+      "mastodon": {
+        "id": "117207320420285512",
+        "url": "https://mastodon.social/@ClamBakeSanta/117207320420285512"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mumke5bg7y2t",
+        "cid": "bafyreibb6q34cwrb553yckoqw3ppx2piix6buqgpzxs4bgm3daa2tuxrpq"
+      },
+      "tumblr": {
+        "id": "826741381618860032",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "447",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayLouisSullivan": {
+      "mastodon": {
+        "id": "117207324381496602",
+        "url": "https://mastodon.social/@ClamBakeSanta/117207324381496602"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mumkfwphlj24",
+        "cid": "bafyreibncothiyec3x6hwio7czmqsxui6kx36xtwozwsawujry5zujh6k4"
+      },
+      "tumblr": {
+        "id": "826741445375541248",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "448",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "149",
+        "url": "https://clambakesanta.wordpress.com/2026/09/03/clam-bake-santa-2026-09-03/"
+      }
+    }
+  },
   "2026-09-02": {
     "NationalBlueberryPopsicleDay": {
       "mastodon": {
@@ -538,68 +600,6 @@
       "wordpress": {
         "id": "142",
         "url": "https://clambakesanta.wordpress.com/2026/08/27/clam-bake-santa-2026-08-27/"
-      }
-    }
-  },
-  "2026-08-26": {
-    "InternationalDogDay": {
-      "mastodon": {
-        "id": "117161162044546796",
-        "url": "https://mastodon.social/@ClamBakeSanta/117161162044546796"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mty2fq5gve2d",
-        "cid": "bafyreibess2ovio6biqamqngbwx4runpqxj3fjvuoxuhwlg3tazgdzxpkm"
-      },
-      "tumblr": {
-        "id": "826002847346851840",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "416",
-        "channel": "@clambakesanta"
-      }
-    },
-    "NationalToiletPaperDay": {
-      "mastodon": {
-        "id": "117161166004359558",
-        "url": "https://mastodon.social/@ClamBakeSanta/117161166004359558"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mty2hjrokc2k",
-        "cid": "bafyreidaqnoumyeo3lyi4le6jfaarsuke3klczeg5tidwaadz3gysao7uq"
-      },
-      "tumblr": {
-        "id": "826002910701895680",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "417",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayMotherTeresa": {
-      "mastodon": {
-        "id": "117161169974317942",
-        "url": "https://mastodon.social/@ClamBakeSanta/117161169974317942"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mty2jd5reh2f",
-        "cid": "bafyreidxmqu3szromnjh22tjohtkwd6vgbwfhdlakfilct2hyvl3gn4hlq"
-      },
-      "tumblr": {
-        "id": "826002974058905600",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "418",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "141",
-        "url": "https://clambakesanta.wordpress.com/2026/08/26/clam-bake-santa-2026-08-26/"
       }
     }
   }

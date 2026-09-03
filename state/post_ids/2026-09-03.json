@@ -1,0 +1,62 @@
+{
+  "NationalSkyscraperDay": {
+    "mastodon": {
+      "id": "117207316436253827",
+      "url": "https://mastodon.social/@ClamBakeSanta/117207316436253827"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mumkcdku7q2y",
+      "cid": "bafyreid6jiluawfm2iuzyplidt6rgxbbyzsaaesjmyoc5zf63wzfyiwoe4"
+    },
+    "tumblr": {
+      "id": "826741318137053184",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "446",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalWelshRarebitDay": {
+    "mastodon": {
+      "id": "117207320420285512",
+      "url": "https://mastodon.social/@ClamBakeSanta/117207320420285512"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mumke5bg7y2t",
+      "cid": "bafyreibb6q34cwrb553yckoqw3ppx2piix6buqgpzxs4bgm3daa2tuxrpq"
+    },
+    "tumblr": {
+      "id": "826741381618860032",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "447",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayLouisSullivan": {
+    "mastodon": {
+      "id": "117207324381496602",
+      "url": "https://mastodon.social/@ClamBakeSanta/117207324381496602"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mumkfwphlj24",
+      "cid": "bafyreibncothiyec3x6hwio7czmqsxui6kx36xtwozwsawujry5zujh6k4"
+    },
+    "tumblr": {
+      "id": "826741445375541248",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "448",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "149",
+      "url": "https://clambakesanta.wordpress.com/2026/09/03/clam-bake-santa-2026-09-03/"
+    }
+  }
+}

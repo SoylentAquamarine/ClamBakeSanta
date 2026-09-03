@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-26",
-    "theme": "International Dog Day",
-    "haiku": "Bark rings on park grass\nPaws tap grass, tails waggle bright sun\nSun warms fur, hearts glow\nHappy #InternationalDogDay from @ClamBakeSanta",
-    "tag": "InternationalDogDay",
-    "logged_at": "2026-08-26T09:44:17.479430+00:00"
-  },
-  {
-    "date": "2026-08-26",
-    "theme": "National Toilet Paper Day",
-    "haiku": "Soft sheets of warm white\nQuiet roll, soft gentle touch\nSoft paper bright smiles\nHappy #NationalToiletPaperDay from @ClamBakeSanta",
-    "tag": "NationalToiletPaperDay",
-    "logged_at": "2026-08-26T09:44:17.479430+00:00"
-  },
-  {
-    "date": "2026-08-26",
-    "theme": "Birthday Mother Teresa",
-    "haiku": "Soft candle glow bright\nSinging hearts in gentle hush\nJoy drifts like warm mist\n#HappyBirthdayMotherTeresa from @ClamBakeSanta",
-    "tag": "HappyBirthdayMotherTeresa",
-    "logged_at": "2026-08-26T09:44:17.479430+00:00"
-  },
-  {
     "date": "2026-08-27",
     "theme": "National Pots de Creme Day",
     "haiku": "Creamy clouds swirl soft\nSugar whispers in warm air\nVelvet taste melts slow\nHappy #NationalPotsDeCremeDay from @ClamBakeSanta",
@@ -187,5 +166,26 @@
     "haiku": "Starlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
     "tag": "HappyBirthdayEdgarRiceBurroughs",
     "logged_at": "2026-09-01T14:00:06.182929+00:00"
+  },
+  {
+    "date": "2026-09-02",
+    "theme": "National Blueberry Popsicle Day",
+    "haiku": "Cold blue berry bite\nSun melts into sweet splash glow\nFrosty joy drips bright\nHappy #NationalBlueberryPopsicleDay from @ClamBakeSanta",
+    "tag": "NationalBlueberryPopsicleDay",
+    "logged_at": "2026-09-02T13:23:26.966542+00:00"
+  },
+  {
+    "date": "2026-09-02",
+    "theme": "World Coconut Day",
+    "haiku": "Palm leaves whisper soft\nCreamy water gleams bright near\nTaste of summer breeze\nHappy #WorldCoconutDay from @ClamBakeSanta",
+    "tag": "WorldCoconutDay",
+    "logged_at": "2026-09-02T13:23:26.966542+00:00"
+  },
+  {
+    "date": "2026-09-02",
+    "theme": "Birthday Keanu Reeves",
+    "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nStars wink at his smile\n#HappyBirthdayKeanuReeves from @ClamBakeSanta",
+    "tag": "HappyBirthdayKeanuReeves",
+    "logged_at": "2026-09-02T13:23:26.966542+00:00"
   }
 ]

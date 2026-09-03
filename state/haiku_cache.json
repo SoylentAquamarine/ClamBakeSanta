@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "haikus": [
     {
-      "theme": "National Blueberry Popsicle Day",
-      "haiku": "Cold blue berry bite\nSun melts into sweet splash glow\nFrosty joy drips bright\nHappy #NationalBlueberryPopsicleDay from @ClamBakeSanta",
-      "tag": "NationalBlueberryPopsicleDay",
+      "theme": "National Skyscraper Day",
+      "haiku": "Tall glass hugs the blue,\nhot steel hums in city breeze—\nsunset paints them gold.\nHappy #NationalSkyscraperDay from @ClamBakeSanta",
+      "tag": "NationalSkyscraperDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Coconut Day",
-      "haiku": "Palm leaves whisper soft\nCreamy water gleams bright near\nTaste of summer breeze\nHappy #WorldCoconutDay from @ClamBakeSanta",
-      "tag": "WorldCoconutDay",
+      "theme": "National Welsh Rarebit Day",
+      "haiku": "Cheese melts, golden glow\nBrewed ale scent swirls soft through air\nWarm plate, joy in bite\nHappy #NationalWelshRarebitDay from @ClamBakeSanta",
+      "tag": "NationalWelshRarebitDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Keanu Reeves",
-      "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nStars wink at his smile\n#HappyBirthdayKeanuReeves from @ClamBakeSanta",
-      "tag": "HappyBirthdayKeanuReeves",
+      "theme": "Birthday Louis Sullivan",
+      "haiku": "Sill‑ven’s brick glow soft\nPatterns rise like waves in sun\nStone hearts beat bright now\n#HappyBirthdayLouisSullivan from @",
+      "tag": "HappyBirthdayLouisSullivan",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Blueberry Popsicle Day",
-    "World Coconut Day",
-    "Birthday Keanu Reeves"
+    "National Skyscraper Day",
+    "National Welsh Rarebit Day",
+    "Birthday Louis Sullivan"
   ],
-  "content": "Cold blue berry bite\nSun melts into sweet splash glow\nFrosty joy drips bright\nHappy #NationalBlueberryPopsicleDay from @ClamBakeSanta\n\nPalm leaves whisper soft\nCreamy water gleams bright near\nTaste of summer breeze\nHappy #WorldCoconutDay from @ClamBakeSanta\n\nBirthday candles glow\nSoft breeze carries bright laughter\nStars wink at his smile\n#HappyBirthdayKeanuReeves from @ClamBakeSanta",
-  "saved_at": "2026-09-02T13:23:26.966077+00:00"
+  "content": "Tall glass hugs the blue,\nhot steel hums in city breeze—\nsunset paints them gold.\nHappy #NationalSkyscraperDay from @ClamBakeSanta\n\nCheese melts, golden glow\nBrewed ale scent swirls soft through air\nWarm plate, joy in bite\nHappy #NationalWelshRarebitDay from @ClamBakeSanta\n\nSill‑ven’s brick glow soft\nPatterns rise like waves in sun\nStone hearts beat bright now\n#HappyBirthdayLouisSullivan from @",
+  "saved_at": "2026-09-03T13:21:57.537018+00:00"
 }
