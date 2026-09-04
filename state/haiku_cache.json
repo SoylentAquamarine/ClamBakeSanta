@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "haikus": [
     {
-      "theme": "National Skyscraper Day",
-      "haiku": "Tall glass hugs the blue,\nhot steel hums in city breeze—\nsunset paints them gold.\nHappy #NationalSkyscraperDay from @ClamBakeSanta",
-      "tag": "NationalSkyscraperDay",
+      "theme": "National Wildlife Day",
+      "haiku": "Mist lifts green trees soft\nOwls call as sun drifts down soft\nLeaves whisper, birds sing\nHappy #NationalWildlifeDay from @ClamBakeSanta",
+      "tag": "NationalWildlifeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Welsh Rarebit Day",
-      "haiku": "Cheese melts, golden glow\nBrewed ale scent swirls soft through air\nWarm plate, joy in bite\nHappy #NationalWelshRarebitDay from @ClamBakeSanta",
-      "tag": "NationalWelshRarebitDay",
+      "theme": "National Macadamia Nut Day",
+      "haiku": "Nutty breeze rolls soft\nShell cracks, cream spills bright in gold\nTaste of sun in palm\nHappy #NationalMacadamiaNutDay from @ClamBakeSanta",
+      "tag": "NationalMacadamiaNutDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Louis Sullivan",
-      "haiku": "Sill‑ven’s brick glow soft\nPatterns rise like waves in sun\nStone hearts beat bright now\n#HappyBirthdayLouisSullivan from @",
-      "tag": "HappyBirthdayLouisSullivan",
+      "theme": "Birthday Richard Wright",
+      "haiku": "Soft snowflakes whisper\nCandles glow like stars in night\nWarm wishes melt hearts\n#HappyBirthdayRichardWright from @ClamBakeSanta",
+      "tag": "HappyBirthdayRichardWright",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Last Quarter Moon",
+      "haiku": "Soft glow on night sky\nCrickets hum, moon whispers low\nStars lean close to watch\nHappy #LastQuarterMoon from @ClamBakeSanta",
+      "tag": "LastQuarterMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Skyscraper Day",
-    "National Welsh Rarebit Day",
-    "Birthday Louis Sullivan"
+    "National Wildlife Day",
+    "National Macadamia Nut Day",
+    "Birthday Richard Wright",
+    "Last Quarter Moon"
   ],
-  "content": "Tall glass hugs the blue,\nhot steel hums in city breeze—\nsunset paints them gold.\nHappy #NationalSkyscraperDay from @ClamBakeSanta\n\nCheese melts, golden glow\nBrewed ale scent swirls soft through air\nWarm plate, joy in bite\nHappy #NationalWelshRarebitDay from @ClamBakeSanta\n\nSill‑ven’s brick glow soft\nPatterns rise like waves in sun\nStone hearts beat bright now\n#HappyBirthdayLouisSullivan from @",
-  "saved_at": "2026-09-03T13:21:57.537018+00:00"
+  "content": "Mist lifts green trees soft\nOwls call as sun drifts down soft\nLeaves whisper, birds sing\nHappy #NationalWildlifeDay from @ClamBakeSanta\n\nNutty breeze rolls soft\nShell cracks, cream spills bright in gold\nTaste of sun in palm\nHappy #NationalMacadamiaNutDay from @ClamBakeSanta\n\nSoft snowflakes whisper\nCandles glow like stars in night\nWarm wishes melt hearts\n#HappyBirthdayRichardWright from @ClamBakeSanta\n\nSoft glow on night sky\nCrickets hum, moon whispers low\nStars lean close to watch\nHappy #LastQuarterMoon from @ClamBakeSanta",
+  "saved_at": "2026-09-04T13:16:09.562368+00:00"
 }
