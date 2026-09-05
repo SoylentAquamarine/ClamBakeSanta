@@ -1,0 +1,62 @@
+{
+  "NationalCheesePizzaDay": {
+    "mastodon": {
+      "id": "117218433440097332",
+      "url": "https://mastodon.social/@ClamBakeSanta/117218433440097332"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muribrogn72u",
+      "cid": "bafyreieadebf7n5zkt4ly4ls2agh5hca4fhc7ytmc5vqboanhzx277vhae"
+    },
+    "tumblr": {
+      "id": "826919190787194881",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "453",
+      "channel": "@clambakesanta"
+    }
+  },
+  "InternationalDayOfCharity": {
+    "mastodon": {
+      "id": "117218437453077643",
+      "url": "https://mastodon.social/@ClamBakeSanta/117218437453077643"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muridl3yeo2y",
+      "cid": "bafyreihddyx2ngiiwcy2ygmukcngej2zgdgdlwpx6r2zv4ettmdrvvllfa"
+    },
+    "tumblr": {
+      "id": "826919254392815616",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "454",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayFreddieMercury": {
+    "mastodon": {
+      "id": "117218441440925106",
+      "url": "https://mastodon.social/@ClamBakeSanta/117218441440925106"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3murifennxo2y",
+      "cid": "bafyreictiyxxwandsnsmmeyiuxglmqzfkyrgm3udlswpjwyjnbiasa36gi"
+    },
+    "tumblr": {
+      "id": "826919317903998976",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "455",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "151",
+      "url": "https://clambakesanta.wordpress.com/2026/09/05/clam-bake-santa-2026-09-05/"
+    }
+  }
+}

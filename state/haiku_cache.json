@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "haikus": [
     {
-      "theme": "National Wildlife Day",
-      "haiku": "Mist lifts green trees soft\nOwls call as sun drifts down soft\nLeaves whisper, birds sing\nHappy #NationalWildlifeDay from @ClamBakeSanta",
-      "tag": "NationalWildlifeDay",
+      "theme": "National Cheese Pizza Day",
+      "haiku": "Hot crust, melted gold,\nSalty scent fills up the room,\nWarm cheese pulls apart.\nHappy #NationalCheesePizzaDay from @ClamBakeSanta",
+      "tag": "NationalCheesePizzaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Macadamia Nut Day",
-      "haiku": "Nutty breeze rolls soft\nShell cracks, cream spills bright in gold\nTaste of sun in palm\nHappy #NationalMacadamiaNutDay from @ClamBakeSanta",
-      "tag": "NationalMacadamiaNutDay",
+      "theme": "International Day of Charity",
+      "haiku": "Kind hands spread warm light\nSunset hues paint soft hope's glow\nVoices share bright joy\nHappy #InternationalDayOfCharity from @ClamBakeSanta",
+      "tag": "InternationalDayOfCharity",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Richard Wright",
-      "haiku": "Soft snowflakes whisper\nCandles glow like stars in night\nWarm wishes melt hearts\n#HappyBirthdayRichardWright from @ClamBakeSanta",
-      "tag": "HappyBirthdayRichardWright",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Last Quarter Moon",
-      "haiku": "Soft glow on night sky\nCrickets hum, moon whispers low\nStars lean close to watch\nHappy #LastQuarterMoon from @ClamBakeSanta",
-      "tag": "LastQuarterMoon",
+      "theme": "Birthday Freddie Mercury",
+      "haiku": "Starlit stage hums soft\nBright chords echo deep gold night\nJoyful hearts rise high\n#HappyBirthdayFreddieMercury from @ClamBakeSanta",
+      "tag": "HappyBirthdayFreddieMercury",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Wildlife Day",
-    "National Macadamia Nut Day",
-    "Birthday Richard Wright",
-    "Last Quarter Moon"
+    "National Cheese Pizza Day",
+    "International Day of Charity",
+    "Birthday Freddie Mercury"
   ],
-  "content": "Mist lifts green trees soft\nOwls call as sun drifts down soft\nLeaves whisper, birds sing\nHappy #NationalWildlifeDay from @ClamBakeSanta\n\nNutty breeze rolls soft\nShell cracks, cream spills bright in gold\nTaste of sun in palm\nHappy #NationalMacadamiaNutDay from @ClamBakeSanta\n\nSoft snowflakes whisper\nCandles glow like stars in night\nWarm wishes melt hearts\n#HappyBirthdayRichardWright from @ClamBakeSanta\n\nSoft glow on night sky\nCrickets hum, moon whispers low\nStars lean close to watch\nHappy #LastQuarterMoon from @ClamBakeSanta",
-  "saved_at": "2026-09-04T13:16:09.562368+00:00"
+  "content": "Hot crust, melted gold,\nSalty scent fills up the room,\nWarm cheese pulls apart.\nHappy #NationalCheesePizzaDay from @ClamBakeSanta\n\nKind hands spread warm light\nSunset hues paint soft hope's glow\nVoices share bright joy\nHappy #InternationalDayOfCharity from @ClamBakeSanta\n\nStarlit stage hums soft\nBright chords echo deep gold night\nJoyful hearts rise high\n#HappyBirthdayFreddieMercury from @ClamBakeSanta",
+  "saved_at": "2026-09-05T12:29:09.136592+00:00"
 }
