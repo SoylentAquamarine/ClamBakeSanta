@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-29",
-    "theme": "National Lemon Juice Day",
-    "haiku": "Lemon zest glows bright\nCitrus waves splash soft cool air\nSunlit juice sparks joy\nHappy #NationalLemonJuiceDay from @ClamBakeSanta",
-    "tag": "NationalLemonJuiceDay",
-    "logged_at": "2026-08-29T14:14:30.685818+00:00"
-  },
-  {
-    "date": "2026-08-29",
-    "theme": "National Chop Suey Day",
-    "haiku": "Steaming wok sings bright,\nSavory steam curls up gold—\nChopsticks tap with joy.\nHappy #NationalChopSueyDay from @ClamBakeSanta",
-    "tag": "NationalChopSueyDay",
-    "logged_at": "2026-08-29T14:14:30.685818+00:00"
-  },
-  {
-    "date": "2026-08-29",
-    "theme": "Birthday Charlie Parker",
-    "haiku": "Blue sax sighs at dusk\nMelody curls through night air\nStars swirl on velvet\n#HappyBirthdayCharlieParker from @ClamBakeSanta",
-    "tag": "HappyBirthdayCharlieParker",
-    "logged_at": "2026-08-29T14:14:30.685818+00:00"
-  },
-  {
-    "date": "2026-08-29",
-    "theme": "Birthday Ingrid Bergman",
-    "haiku": "Soft candle bright flicks\nWarm soft co‑coa sighs on lips\nJoyous laughter rings\n#HappyBirthdayIngridBergman from @",
-    "tag": "HappyBirthdayIngridBergman",
-    "logged_at": "2026-08-29T14:14:30.685818+00:00"
-  },
-  {
     "date": "2026-08-30",
     "theme": "National Toasted Marshmallow Day",
     "haiku": "Golden sparks ignite—\ngooey hugs on sticks alight.\nSweet smoke swirls so bright.\nHappy #NationalToastedMarshmallowDay from @ClamBakeSanta",
@@ -180,5 +152,26 @@
     "haiku": "Soft glow on night sky\nCrickets hum, moon whispers low\nStars lean close to watch\nHappy #LastQuarterMoon from @ClamBakeSanta",
     "tag": "LastQuarterMoon",
     "logged_at": "2026-09-04T13:16:09.562731+00:00"
+  },
+  {
+    "date": "2026-09-05",
+    "theme": "National Cheese Pizza Day",
+    "haiku": "Hot crust, melted gold,\nSalty scent fills up the room,\nWarm cheese pulls apart.\nHappy #NationalCheesePizzaDay from @ClamBakeSanta",
+    "tag": "NationalCheesePizzaDay",
+    "logged_at": "2026-09-05T12:29:09.136980+00:00"
+  },
+  {
+    "date": "2026-09-05",
+    "theme": "International Day of Charity",
+    "haiku": "Kind hands spread warm light\nSunset hues paint soft hope's glow\nVoices share bright joy\nHappy #InternationalDayOfCharity from @ClamBakeSanta",
+    "tag": "InternationalDayOfCharity",
+    "logged_at": "2026-09-05T12:29:09.136980+00:00"
+  },
+  {
+    "date": "2026-09-05",
+    "theme": "Birthday Freddie Mercury",
+    "haiku": "Starlit stage hums soft\nBright chords echo deep gold night\nJoyful hearts rise high\n#HappyBirthdayFreddieMercury from @ClamBakeSanta",
+    "tag": "HappyBirthdayFreddieMercury",
+    "logged_at": "2026-09-05T12:29:09.136980+00:00"
   }
 ]

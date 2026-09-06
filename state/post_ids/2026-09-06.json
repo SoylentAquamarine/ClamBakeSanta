@@ -1,0 +1,62 @@
+{
+  "NationalCoffeeIceCreamDay": {
+    "mastodon": {
+      "id": "117224148367029979",
+      "url": "https://mastodon.social/@ClamBakeSanta/117224148367029979"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mutzilymid2u",
+      "cid": "bafyreigsw7l662uxcvwzx7fxp4sahsmhg4bhw6ta2f2dedbbhlomrrh6b4"
+    },
+    "tumblr": {
+      "id": "827010628755537920",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "456",
+      "channel": "@clambakesanta"
+    }
+  },
+  "FightProcrastinationDay": {
+    "mastodon": {
+      "id": "117224152333446028",
+      "url": "https://mastodon.social/@ClamBakeSanta/117224152333446028"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mutzkfgpkf2y",
+      "cid": "bafyreicnwbmkc6uefz4ddpminkgvzqt22erf6whwysqwh7oy3gbf6jqd4y"
+    },
+    "tumblr": {
+      "id": "827010692204953600",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "457",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayJaneAddams": {
+    "mastodon": {
+      "id": "117224156294667027",
+      "url": "https://mastodon.social/@ClamBakeSanta/117224156294667027"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mutzm7234t2u",
+      "cid": "bafyreianxj6pbv4lklc6ol2cqo74ejehzuus63ngq2rvj3ktsd4xu44l3e"
+    },
+    "tumblr": {
+      "id": "827010755474964480",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "458",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "152",
+      "url": "https://clambakesanta.wordpress.com/2026/09/06/clam-bake-santa-2026-09-06/"
+    }
+  }
+}
