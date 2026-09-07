@@ -1,0 +1,130 @@
+{
+  "NationalSalamiDay": {
+    "theme": "National Salami Day",
+    "haiku": "Red slices slide soft\nSunset smells of pepper, salt\nCheese melts warm inside\nHappy #NationalSalamiDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117230326857577296",
+        "url": "https://mastodon.social/@ClamBakeSanta/117230326857577296",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muwre3rmvw2d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "827109612208750592",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-07T23:52:18.499284+00:00"
+  },
+  "NationalAcornSquashDay": {
+    "theme": "National Acorn Squash Day",
+    "haiku": "Orange squash gleams bright\nSoft steam rises, sweet scent drifts\nGolden glow warms heart\nHappy #NationalAcornSquashDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117230330812363502",
+        "url": "https://mastodon.social/@ClamBakeSanta/117230330812363502",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muwrfv6xtu2g",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "827109675450417152",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-07T23:52:18.499284+00:00"
+  },
+  "LaborDay": {
+    "theme": "Labor Day",
+    "haiku": "Fields hum under sun\nWorkers clap as summer fades\nWarm breeze carries joy\nHappy #LaborDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117230334781120413",
+        "url": "https://mastodon.social/@ClamBakeSanta/117230334781120413",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muwrhooxti2g",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      },
+      "tumblr": {
+        "id": "827109738752983040",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-09-07T23:52:18.499284+00:00"
+  },
+  "HappyBirthdayGrandmaMoses": {
+    "theme": "Birthday Grandma Moses",
+    "haiku": "Soft quilt of warm years\nSunlight drips on canvas, bright\nPainted smiles soft rise\n#HappyBirthdayGrandmaMoses from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117230338774443169",
+        "url": "https://mastodon.social/@ClamBakeSanta/117230338774443169",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muwrji4y4o2d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "827109802072260608",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-07T23:52:18.499284+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "153",
+        "url": "https://clambakesanta.wordpress.com/2026/09/07/clam-bake-santa-2026-09-07/",
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-09-07T23:52:18.499284+00:00"
+  }
+}
