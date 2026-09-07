@@ -145,7 +145,8 @@
     "2026-09-03",
     "2026-09-04",
     "2026-09-05",
-    "2026-09-06"
+    "2026-09-06",
+    "2026-09-07"
   ],
   "runs": [
     {
@@ -1883,6 +1884,18 @@
         "Birthday Jane Addams"
       ],
       "content_preview": "Coffee swirl, ice sweet Creamy dream on winter spoon Taste of sunrise warm Happy #NationalCoffeeIceCreamDay from @ClamBa"
+    },
+    {
+      "date": "2026-09-07",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-07T15:06:05.007537+00:00",
+      "themes": [
+        "National Salami Day",
+        "National Acorn Squash Day",
+        "Labor Day",
+        "Birthday Grandma Moses"
+      ],
+      "content_preview": "Red slices slide soft Sunset smells of pepper, salt Cheese melts warm inside Happy #NationalSalamiDay from @ClamBakeSant"
     }
   ]
 }
