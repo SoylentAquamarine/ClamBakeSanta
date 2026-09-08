@@ -1,0 +1,62 @@
+{
+  "NationalDateNutBreadDay": {
+    "mastodon": {
+      "id": "117235636078735796",
+      "url": "https://mastodon.social/@ClamBakeSanta/117235636078735796"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muz4qmoabc2x",
+      "cid": "bafyreibfujee4oggrgyatx7kju64qq2hofakm3gzn5qoiiozjonifed6ea"
+    },
+    "tumblr": {
+      "id": "827194432492306432",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "463",
+      "channel": "@clambakesanta"
+    }
+  },
+  "StarTrekDay": {
+    "mastodon": {
+      "id": "117235640051305012",
+      "url": "https://mastodon.social/@ClamBakeSanta/117235640051305012"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muz4sg5twc2w",
+      "cid": "bafyreiahbub74txohh63hzf3wczpuz5plsmpci6ml4da5unjt52uzwbs6m"
+    },
+    "tumblr": {
+      "id": "827194496060178432",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "464",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayAntoninDvorak": {
+    "mastodon": {
+      "id": "117235644059840587",
+      "url": "https://mastodon.social/@ClamBakeSanta/117235644059840587"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3muz4u7izjr2g",
+      "cid": "bafyreicbczfg674frybyooiwzn5ahlfu7um2pjnni4teowdgklzqyk3gci"
+    },
+    "tumblr": {
+      "id": "827194559272484864",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "465",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "154",
+      "url": "https://clambakesanta.wordpress.com/2026/09/08/clam-bake-santa-2026-09-08/"
+    }
+  }
+}

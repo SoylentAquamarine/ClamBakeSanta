@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "haikus": [
     {
-      "theme": "National Salami Day",
-      "haiku": "Red slices slide soft\nSunset smells of pepper, salt\nCheese melts warm inside\nHappy #NationalSalamiDay from @ClamBakeSanta",
-      "tag": "NationalSalamiDay",
+      "theme": "National Date Nut Bread Day",
+      "haiku": "Warm dough rises bright\nDates tumble like amber stars\nSoft crumbs kiss warm tongue\nHappy #NationalDateNutBreadDay from @ClamBakeSanta",
+      "tag": "NationalDateNutBreadDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Acorn Squash Day",
-      "haiku": "Orange squash gleams bright\nSoft steam rises, sweet scent drifts\nGolden glow warms heart\nHappy #NationalAcornSquashDay from @ClamBakeSanta",
-      "tag": "NationalAcornSquashDay",
+      "theme": "Star Trek Day",
+      "haiku": "Bold crew glide past stars\nEchoes of warp drive hum soft\nHope lights the void deep\nHappy #StarTrekDay from @ClamBakeSanta",
+      "tag": "StarTrekDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Labor Day",
-      "haiku": "Fields hum under sun\nWorkers clap as summer fades\nWarm breeze carries joy\nHappy #LaborDay from @ClamBakeSanta",
-      "tag": "LaborDay",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Grandma Moses",
-      "haiku": "Soft quilt of warm years\nSunlight drips on canvas, bright\nPainted smiles soft rise\n#HappyBirthdayGrandmaMoses from @ClamBakeSanta",
-      "tag": "HappyBirthdayGrandmaMoses",
+      "theme": "Birthday Antonin Dvorak",
+      "haiku": "Gentle bells ring soft\nwarm wind drifts through pine softly\nnotes bloom like sunrise\n#HappyBirthdayAntoninDvorak from @ClamBakeSanta",
+      "tag": "HappyBirthdayAntoninDvorak",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Salami Day",
-    "National Acorn Squash Day",
-    "Labor Day",
-    "Birthday Grandma Moses"
+    "National Date Nut Bread Day",
+    "Star Trek Day",
+    "Birthday Antonin Dvorak"
   ],
-  "content": "Red slices slide soft\nSunset smells of pepper, salt\nCheese melts warm inside\nHappy #NationalSalamiDay from @ClamBakeSanta\n\nOrange squash gleams bright\nSoft steam rises, sweet scent drifts\nGolden glow warms heart\nHappy #NationalAcornSquashDay from @ClamBakeSanta\n\nFields hum under sun\nWorkers clap as summer fades\nWarm breeze carries joy\nHappy #LaborDay from @ClamBakeSanta\n\nSoft quilt of warm years\nSunlight drips on canvas, bright\nPainted smiles soft rise\n#HappyBirthdayGrandmaMoses from @ClamBakeSanta",
-  "saved_at": "2026-09-07T14:53:48.867155+00:00"
+  "content": "Warm dough rises bright\nDates tumble like amber stars\nSoft crumbs kiss warm tongue\nHappy #NationalDateNutBreadDay from @ClamBakeSanta\n\nBold crew glide past stars\nEchoes of warp drive hum soft\nHope lights the void deep\nHappy #StarTrekDay from @ClamBakeSanta\n\nGentle bells ring soft\nwarm wind drifts through pine softly\nnotes bloom like sunrise\n#HappyBirthdayAntoninDvorak from @ClamBakeSanta",
+  "saved_at": "2026-09-08T13:24:01.103097+00:00"
 }
