@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "theme": "National No Rhyme Nor Reason Day",
-    "haiku": "Bright soft snowflakes dance\nKids laugh, hearts glow, winter breeze\nJoyful hush, stars gleam\nHappy #NationalNoRhymeNorReasonDay from @ClamBakeSanta",
-    "tag": "NationalNoRhymeNorReasonDay",
-    "logged_at": "2026-09-01T14:00:06.182929+00:00"
-  },
-  {
-    "date": "2026-09-01",
-    "theme": "Emma M. Nutt Day",
-    "haiku": "Morning dew sparkles\nLaughter echoes over hills\nJoy fills warm bright air\nHappy #EmmaMNuttDay from @ClamBakeSanta",
-    "tag": "EmmaMNuttDay",
-    "logged_at": "2026-09-01T14:00:06.182929+00:00"
-  },
-  {
-    "date": "2026-09-01",
-    "theme": "Birthday Lily Tomlin",
-    "haiku": "Bright stars whisper light\nSoft breeze hums through silver trees\nJoy blooms like fresh dawn\n#HappyBirthdayLilyTomlin from @ClamBakeSanta",
-    "tag": "HappyBirthdayLilyTomlin",
-    "logged_at": "2026-09-01T14:00:06.182929+00:00"
-  },
-  {
-    "date": "2026-09-01",
-    "theme": "Birthday Edgar Rice Burroughs",
-    "haiku": "Starlit night whispers\nOld tales glow in bright soft blaze\nJoyful pages turn\n#HappyBirthdayEdgarRiceBurroughs from @ClamBakeSanta",
-    "tag": "HappyBirthdayEdgarRiceBurroughs",
-    "logged_at": "2026-09-01T14:00:06.182929+00:00"
-  },
-  {
     "date": "2026-09-02",
     "theme": "National Blueberry Popsicle Day",
     "haiku": "Cold blue berry bite\nSun melts into sweet splash glow\nFrosty joy drips bright\nHappy #NationalBlueberryPopsicleDay from @ClamBakeSanta",
@@ -166,5 +138,26 @@
     "haiku": "Soft quilt of warm years\nSunlight drips on canvas, bright\nPainted smiles soft rise\n#HappyBirthdayGrandmaMoses from @ClamBakeSanta",
     "tag": "HappyBirthdayGrandmaMoses",
     "logged_at": "2026-09-07T14:53:48.867525+00:00"
+  },
+  {
+    "date": "2026-09-08",
+    "theme": "National Date Nut Bread Day",
+    "haiku": "Warm dough rises bright\nDates tumble like amber stars\nSoft crumbs kiss warm tongue\nHappy #NationalDateNutBreadDay from @ClamBakeSanta",
+    "tag": "NationalDateNutBreadDay",
+    "logged_at": "2026-09-08T13:24:01.103529+00:00"
+  },
+  {
+    "date": "2026-09-08",
+    "theme": "Star Trek Day",
+    "haiku": "Bold crew glide past stars\nEchoes of warp drive hum soft\nHope lights the void deep\nHappy #StarTrekDay from @ClamBakeSanta",
+    "tag": "StarTrekDay",
+    "logged_at": "2026-09-08T13:24:01.103529+00:00"
+  },
+  {
+    "date": "2026-09-08",
+    "theme": "Birthday Antonin Dvorak",
+    "haiku": "Gentle bells ring soft\nwarm wind drifts through pine softly\nnotes bloom like sunrise\n#HappyBirthdayAntoninDvorak from @ClamBakeSanta",
+    "tag": "HappyBirthdayAntoninDvorak",
+    "logged_at": "2026-09-08T13:24:01.103529+00:00"
   }
 ]

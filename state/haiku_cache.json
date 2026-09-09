@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "haikus": [
     {
-      "theme": "National Date Nut Bread Day",
-      "haiku": "Warm dough rises bright\nDates tumble like amber stars\nSoft crumbs kiss warm tongue\nHappy #NationalDateNutBreadDay from @ClamBakeSanta",
-      "tag": "NationalDateNutBreadDay",
+      "theme": "National Teddy Bear Day",
+      "haiku": "Soft fur hugs my hand\nSnowflakes kiss the blanket bright\nWarm smiles share soft joy\nHappy #NationalTeddyBearDay from @ClamBakeSanta",
+      "tag": "NationalTeddyBearDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Star Trek Day",
-      "haiku": "Bold crew glide past stars\nEchoes of warp drive hum soft\nHope lights the void deep\nHappy #StarTrekDay from @ClamBakeSanta",
-      "tag": "StarTrekDay",
+      "theme": "National Wiener Schnitzel Day",
+      "haiku": "Crispy breaded treat\nGolden fried goodness sizzles\nTasty, tender joy\nHappy #NationalWienerSchnitzelDay from @ClamBakeSanta",
+      "tag": "NationalWienerSchnitzelDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Antonin Dvorak",
-      "haiku": "Gentle bells ring soft\nwarm wind drifts through pine softly\nnotes bloom like sunrise\n#HappyBirthdayAntoninDvorak from @ClamBakeSanta",
-      "tag": "HappyBirthdayAntoninDvorak",
+      "theme": "Birthday Leo Tolstoy",
+      "haiku": "Golden light ascends\nWax melts slow on Tolstoy's cake\nWinter's joy abides\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
+      "tag": "HappyBirthdayLeoTolstoy",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Date Nut Bread Day",
-    "Star Trek Day",
-    "Birthday Antonin Dvorak"
+    "National Teddy Bear Day",
+    "National Wiener Schnitzel Day",
+    "Birthday Leo Tolstoy"
   ],
-  "content": "Warm dough rises bright\nDates tumble like amber stars\nSoft crumbs kiss warm tongue\nHappy #NationalDateNutBreadDay from @ClamBakeSanta\n\nBold crew glide past stars\nEchoes of warp drive hum soft\nHope lights the void deep\nHappy #StarTrekDay from @ClamBakeSanta\n\nGentle bells ring soft\nwarm wind drifts through pine softly\nnotes bloom like sunrise\n#HappyBirthdayAntoninDvorak from @ClamBakeSanta",
-  "saved_at": "2026-09-08T13:24:01.103097+00:00"
+  "content": "Soft fur hugs my hand\nSnowflakes kiss the blanket bright\nWarm smiles share soft joy\nHappy #NationalTeddyBearDay from @ClamBakeSanta\n\nCrispy breaded treat\nGolden fried goodness sizzles\nTasty, tender joy\nHappy #NationalWienerSchnitzelDay from @ClamBakeSanta\n\nGolden light ascends\nWax melts slow on Tolstoy's cake\nWinter's joy abides\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
+  "saved_at": "2026-09-09T13:33:49.067148+00:00"
 }
