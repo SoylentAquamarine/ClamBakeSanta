@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "theme": "National Blueberry Popsicle Day",
-    "haiku": "Cold blue berry bite\nSun melts into sweet splash glow\nFrosty joy drips bright\nHappy #NationalBlueberryPopsicleDay from @ClamBakeSanta",
-    "tag": "NationalBlueberryPopsicleDay",
-    "logged_at": "2026-09-02T13:23:26.966542+00:00"
-  },
-  {
-    "date": "2026-09-02",
-    "theme": "World Coconut Day",
-    "haiku": "Palm leaves whisper soft\nCreamy water gleams bright near\nTaste of summer breeze\nHappy #WorldCoconutDay from @ClamBakeSanta",
-    "tag": "WorldCoconutDay",
-    "logged_at": "2026-09-02T13:23:26.966542+00:00"
-  },
-  {
-    "date": "2026-09-02",
-    "theme": "Birthday Keanu Reeves",
-    "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nStars wink at his smile\n#HappyBirthdayKeanuReeves from @ClamBakeSanta",
-    "tag": "HappyBirthdayKeanuReeves",
-    "logged_at": "2026-09-02T13:23:26.966542+00:00"
-  },
-  {
     "date": "2026-09-03",
     "theme": "National Skyscraper Day",
     "haiku": "Tall glass hugs the blue,\nhot steel hums in city breeze—\nsunset paints them gold.\nHappy #NationalSkyscraperDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Gentle bells ring soft\nwarm wind drifts through pine softly\nnotes bloom like sunrise\n#HappyBirthdayAntoninDvorak from @ClamBakeSanta",
     "tag": "HappyBirthdayAntoninDvorak",
     "logged_at": "2026-09-08T13:24:01.103529+00:00"
+  },
+  {
+    "date": "2026-09-09",
+    "theme": "National Teddy Bear Day",
+    "haiku": "Soft fur hugs my hand\nSnowflakes kiss the blanket bright\nWarm smiles share soft joy\nHappy #NationalTeddyBearDay from @ClamBakeSanta",
+    "tag": "NationalTeddyBearDay",
+    "logged_at": "2026-09-09T13:33:49.067527+00:00"
+  },
+  {
+    "date": "2026-09-09",
+    "theme": "National Wiener Schnitzel Day",
+    "haiku": "Crispy breaded treat\nGolden fried goodness sizzles\nTasty, tender joy\nHappy #NationalWienerSchnitzelDay from @ClamBakeSanta",
+    "tag": "NationalWienerSchnitzelDay",
+    "logged_at": "2026-09-09T13:33:49.067527+00:00"
+  },
+  {
+    "date": "2026-09-09",
+    "theme": "Birthday Leo Tolstoy",
+    "haiku": "Golden light ascends\nWax melts slow on Tolstoy's cake\nWinter's joy abides\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
+    "tag": "HappyBirthdayLeoTolstoy",
+    "logged_at": "2026-09-09T13:33:49.067527+00:00"
   }
 ]

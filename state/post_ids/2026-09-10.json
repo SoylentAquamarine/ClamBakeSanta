@@ -1,0 +1,26 @@
+{
+  "HappyBirthdayArnoldPalmer": {
+    "mastodon": {
+      "id": "117246964464155255",
+      "url": "https://mastodon.social/@ClamBakeSanta/117246964464155255"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mv65mkhqpm2g",
+      "cid": "bafyreidk47iht72qoeb3prrvdtgrxkskwxsdnkvkc24qc2yaqd5mgxxxre"
+    },
+    "tumblr": {
+      "id": "827375432742699008",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "469",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "156",
+      "url": "https://clambakesanta.wordpress.com/2026/09/10/clam-bake-santa-2026-09-10/"
+    }
+  }
+}

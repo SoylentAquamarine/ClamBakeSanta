@@ -1,32 +1,10 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "haikus": [
     {
-      "theme": "National Teddy Bear Day",
-      "haiku": "Soft fur hugs my hand\nSnowflakes kiss the blanket bright\nWarm smiles share soft joy\nHappy #NationalTeddyBearDay from @ClamBakeSanta",
-      "tag": "NationalTeddyBearDay",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "National Wiener Schnitzel Day",
-      "haiku": "Crispy breaded treat\nGolden fried goodness sizzles\nTasty, tender joy\nHappy #NationalWienerSchnitzelDay from @ClamBakeSanta",
-      "tag": "NationalWienerSchnitzelDay",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Leo Tolstoy",
-      "haiku": "Golden light ascends\nWax melts slow on Tolstoy's cake\nWinter's joy abides\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
-      "tag": "HappyBirthdayLeoTolstoy",
+      "theme": "Birthday Arnold Palmer",
+      "haiku": "Bright sun pours soft gold\nSip of foam, bright laughter rings\nJoy drips like soft dew\n#HappyBirthdayArnoldPalmer from @ClamBakeSanta",
+      "tag": "HappyBirthdayArnoldPalmer",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +14,10 @@
     }
   ],
   "themes": [
-    "National Teddy Bear Day",
-    "National Wiener Schnitzel Day",
-    "Birthday Leo Tolstoy"
+    "National TV Dinner Day",
+    "National Swap Ideas Day",
+    "Birthday Arnold Palmer"
   ],
-  "content": "Soft fur hugs my hand\nSnowflakes kiss the blanket bright\nWarm smiles share soft joy\nHappy #NationalTeddyBearDay from @ClamBakeSanta\n\nCrispy breaded treat\nGolden fried goodness sizzles\nTasty, tender joy\nHappy #NationalWienerSchnitzelDay from @ClamBakeSanta\n\nGolden light ascends\nWax melts slow on Tolstoy's cake\nWinter's joy abides\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
-  "saved_at": "2026-09-09T13:33:49.067148+00:00"
+  "content": "Bright sun pours soft gold\nSip of foam, bright laughter rings\nJoy drips like soft dew\n#HappyBirthdayArnoldPalmer from @ClamBakeSanta",
+  "saved_at": "2026-09-10T13:24:58.555693+00:00"
 }
