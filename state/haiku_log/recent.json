@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-03",
-    "theme": "National Skyscraper Day",
-    "haiku": "Tall glass hugs the blue,\nhot steel hums in city breeze—\nsunset paints them gold.\nHappy #NationalSkyscraperDay from @ClamBakeSanta",
-    "tag": "NationalSkyscraperDay",
-    "logged_at": "2026-09-03T13:21:57.537322+00:00"
-  },
-  {
-    "date": "2026-09-03",
-    "theme": "National Welsh Rarebit Day",
-    "haiku": "Cheese melts, golden glow\nBrewed ale scent swirls soft through air\nWarm plate, joy in bite\nHappy #NationalWelshRarebitDay from @ClamBakeSanta",
-    "tag": "NationalWelshRarebitDay",
-    "logged_at": "2026-09-03T13:21:57.537322+00:00"
-  },
-  {
-    "date": "2026-09-03",
-    "theme": "Birthday Louis Sullivan",
-    "haiku": "Sill‑ven’s brick glow soft\nPatterns rise like waves in sun\nStone hearts beat bright now\n#HappyBirthdayLouisSullivan from @",
-    "tag": "HappyBirthdayLouisSullivan",
-    "logged_at": "2026-09-03T13:21:57.537322+00:00"
-  },
-  {
     "date": "2026-09-04",
     "theme": "National Wildlife Day",
     "haiku": "Mist lifts green trees soft\nOwls call as sun drifts down soft\nLeaves whisper, birds sing\nHappy #NationalWildlifeDay from @ClamBakeSanta",
@@ -159,5 +138,12 @@
     "haiku": "Golden light ascends\nWax melts slow on Tolstoy's cake\nWinter's joy abides\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
     "tag": "HappyBirthdayLeoTolstoy",
     "logged_at": "2026-09-09T13:33:49.067527+00:00"
+  },
+  {
+    "date": "2026-09-10",
+    "theme": "Birthday Arnold Palmer",
+    "haiku": "Bright sun pours soft gold\nSip of foam, bright laughter rings\nJoy drips like soft dew\n#HappyBirthdayArnoldPalmer from @ClamBakeSanta",
+    "tag": "HappyBirthdayArnoldPalmer",
+    "logged_at": "2026-09-10T13:24:58.556000+00:00"
   }
 ]

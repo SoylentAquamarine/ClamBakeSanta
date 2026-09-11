@@ -1,10 +1,43 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "haikus": [
     {
-      "theme": "Birthday Arnold Palmer",
-      "haiku": "Bright sun pours soft gold\nSip of foam, bright laughter rings\nJoy drips like soft dew\n#HappyBirthdayArnoldPalmer from @ClamBakeSanta",
-      "tag": "HappyBirthdayArnoldPalmer",
+      "theme": "National Hot Cross Bun Day",
+      "haiku": "Golden buns ascend\nFragrant cinnamon unfurls\nMorning's sweet delight\nHappy #NationalHotCrossBunDay from @ClamBakeSanta",
+      "tag": "NationalHotCrossBunDay",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "National Day of Service and Remembrance",
+      "haiku": "Morning light gleams bright\nHands join in gentle chorus\nEchoes lift hope song\nHappy #NationalDayOfServiceAndRemembrance from @ClamBakeSanta",
+      "tag": "NationalDayOfServiceAndRemembrance",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday O. Henry",
+      "haiku": "Sunrise paints bright gold\nCandles glow, laughter rises\nJoy drifts like warm breeze\n#HappyBirthdayOHenry from @ClamBakeSanta",
+      "tag": "HappyBirthdayOHenry",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "New Moon",
+      "haiku": "Night sky turns silver\nStars hide, new light slips soft in\nMoon breathes fresh bright glow\nHappy #NewMoon from @ClamBakeSanta",
+      "tag": "NewMoon",
       "syllable_counts": [
         5,
         7,
@@ -14,10 +47,11 @@
     }
   ],
   "themes": [
-    "National TV Dinner Day",
-    "National Swap Ideas Day",
-    "Birthday Arnold Palmer"
+    "National Hot Cross Bun Day",
+    "National Day of Service and Remembrance",
+    "Birthday O. Henry",
+    "New Moon"
   ],
-  "content": "Bright sun pours soft gold\nSip of foam, bright laughter rings\nJoy drips like soft dew\n#HappyBirthdayArnoldPalmer from @ClamBakeSanta",
-  "saved_at": "2026-09-10T13:24:58.555693+00:00"
+  "content": "Golden buns ascend\nFragrant cinnamon unfurls\nMorning's sweet delight\nHappy #NationalHotCrossBunDay from @ClamBakeSanta\n\nMorning light gleams bright\nHands join in gentle chorus\nEchoes lift hope song\nHappy #NationalDayOfServiceAndRemembrance from @ClamBakeSanta\n\nSunrise paints bright gold\nCandles glow, laughter rises\nJoy drifts like warm breeze\n#HappyBirthdayOHenry from @ClamBakeSanta\n\nNight sky turns silver\nStars hide, new light slips soft in\nMoon breathes fresh bright glow\nHappy #NewMoon from @ClamBakeSanta",
+  "saved_at": "2026-09-11T13:22:52.525544+00:00"
 }
