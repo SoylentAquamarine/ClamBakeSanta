@@ -150,7 +150,8 @@
     "2026-09-08",
     "2026-09-09",
     "2026-09-10",
-    "2026-09-11"
+    "2026-09-11",
+    "2026-09-12"
   ],
   "runs": [
     {
@@ -1945,6 +1946,18 @@
         "New Moon"
       ],
       "content_preview": "Golden buns ascend Fragrant cinnamon unfurls Morning's sweet delight Happy #NationalHotCrossBunDay from @ClamBakeSanta  "
+    },
+    {
+      "date": "2026-09-12",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-12T12:55:52.243907+00:00",
+      "themes": [
+        "National Video Games Day",
+        "National Chocolate Milkshake Day",
+        "Birthday Jesse Owens",
+        "Birthday H.L. Mencken"
+      ],
+      "content_preview": "Pixel sparks glow bright Joyful quests rise, hearts race fast Controllers hum song Happy #NationalVideoGamesDay from @Cl"
     }
   ]
 }

@@ -1,18 +1,17 @@
 [
   {
-    "timestamp": "2026-08-12T10:25:33.027013+00:00",
-    "date": "2026-08-12",
+    "timestamp": "2026-09-12T12:55:52.245359+00:00",
+    "date": "2026-09-12",
     "themes_found": [
-      "National Julienne Fries Day",
-      "International Youth Day",
-      "Birthday William Blake",
-      "New Moon",
-      "Perseid Meteor Shower"
+      "National Video Games Day",
+      "National Chocolate Milkshake Day",
+      "Birthday Jesse Owens",
+      "Birthday H.L. Mencken"
     ],
     "haikus_posted": [
       {
-        "theme": "National Julienne Fries Day",
-        "tag": "NationalJulienneFriesDay",
+        "theme": "National Video Games Day",
+        "tag": "NationalVideoGamesDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -21,8 +20,8 @@
         ]
       },
       {
-        "theme": "International Youth Day",
-        "tag": "InternationalYouthDay",
+        "theme": "National Chocolate Milkshake Day",
+        "tag": "NationalChocolateMilkshakeDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -31,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday William Blake",
-        "tag": "HappyBirthdayWilliamBlake",
+        "theme": "Birthday Jesse Owens",
+        "tag": "HappyBirthdayJesseOwens",
         "valid_syllables": true,
         "counts": [
           5,
@@ -41,18 +40,8 @@
         ]
       },
       {
-        "theme": "New Moon",
-        "tag": "NewMoon",
-        "valid_syllables": true,
-        "counts": [
-          5,
-          7,
-          5
-        ]
-      },
-      {
-        "theme": "Perseid Meteor Shower",
-        "tag": "PerseidMeteorShower",
+        "theme": "Birthday H.L. Mencken",
+        "tag": "HappyBirthdayHLMencken",
         "valid_syllables": true,
         "counts": [
           5,

@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "haikus": [
     {
-      "theme": "National Hot Cross Bun Day",
-      "haiku": "Golden buns ascend\nFragrant cinnamon unfurls\nMorning's sweet delight\nHappy #NationalHotCrossBunDay from @ClamBakeSanta",
-      "tag": "NationalHotCrossBunDay",
+      "theme": "National Video Games Day",
+      "haiku": "Pixel sparks glow bright\nJoyful quests rise, hearts race fast\nControllers hum song\nHappy #NationalVideoGamesDay from @ClamBakeSanta",
+      "tag": "NationalVideoGamesDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Day of Service and Remembrance",
-      "haiku": "Morning light gleams bright\nHands join in gentle chorus\nEchoes lift hope song\nHappy #NationalDayOfServiceAndRemembrance from @ClamBakeSanta",
-      "tag": "NationalDayOfServiceAndRemembrance",
+      "theme": "National Chocolate Milkshake Day",
+      "haiku": "Creamy swirl, sweet sky\nFrothy clouds kiss soft cool glass\nTaste of joy, stars sip\nHappy #NationalChocolateMilkshakeDay from @ClamBakeSanta",
+      "tag": "NationalChocolateMilkshakeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday O. Henry",
-      "haiku": "Sunrise paints bright gold\nCandles glow, laughter rises\nJoy drifts like warm breeze\n#HappyBirthdayOHenry from @ClamBakeSanta",
-      "tag": "HappyBirthdayOHenry",
+      "theme": "Birthday Jesse Owens",
+      "haiku": "Morning sun bright glows\nTracks echo with cheers and light\nJoy runs swift, proud stride\n#HappyBirthdayJesseOwens from @ClamBake",
+      "tag": "HappyBirthdayJesseOwens",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "New Moon",
-      "haiku": "Night sky turns silver\nStars hide, new light slips soft in\nMoon breathes fresh bright glow\nHappy #NewMoon from @ClamBakeSanta",
-      "tag": "NewMoon",
+      "theme": "Birthday H.L. Mencken",
+      "haiku": "Ink spills on bright page\nA can der flick ers thoughts rise\nJoy curls like paper\n#HappyBirthdayHLMencken from @ClamBakeSanta",
+      "tag": "HappyBirthdayHLMencken",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Hot Cross Bun Day",
-    "National Day of Service and Remembrance",
-    "Birthday O. Henry",
-    "New Moon"
+    "National Video Games Day",
+    "National Chocolate Milkshake Day",
+    "Birthday Jesse Owens",
+    "Birthday H.L. Mencken"
   ],
-  "content": "Golden buns ascend\nFragrant cinnamon unfurls\nMorning's sweet delight\nHappy #NationalHotCrossBunDay from @ClamBakeSanta\n\nMorning light gleams bright\nHands join in gentle chorus\nEchoes lift hope song\nHappy #NationalDayOfServiceAndRemembrance from @ClamBakeSanta\n\nSunrise paints bright gold\nCandles glow, laughter rises\nJoy drifts like warm breeze\n#HappyBirthdayOHenry from @ClamBakeSanta\n\nNight sky turns silver\nStars hide, new light slips soft in\nMoon breathes fresh bright glow\nHappy #NewMoon from @ClamBakeSanta",
-  "saved_at": "2026-09-11T13:22:52.525544+00:00"
+  "content": "Pixel sparks glow bright\nJoyful quests rise, hearts race fast\nControllers hum song\nHappy #NationalVideoGamesDay from @ClamBakeSanta\n\nCreamy swirl, sweet sky\nFrothy clouds kiss soft cool glass\nTaste of joy, stars sip\nHappy #NationalChocolateMilkshakeDay from @ClamBakeSanta\n\nMorning sun bright glows\nTracks echo with cheers and light\nJoy runs swift, proud stride\n#HappyBirthdayJesseOwens from @ClamBake\n\nInk spills on bright page\nA can der flick ers thoughts rise\nJoy curls like paper\n#HappyBirthdayHLMencken from @ClamBakeSanta",
+  "saved_at": "2026-09-12T12:43:38.043160+00:00"
 }
