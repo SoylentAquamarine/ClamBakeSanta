@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "theme": "National Cheese Pizza Day",
-    "haiku": "Hot crust, melted gold,\nSalty scent fills up the room,\nWarm cheese pulls apart.\nHappy #NationalCheesePizzaDay from @ClamBakeSanta",
-    "tag": "NationalCheesePizzaDay",
-    "logged_at": "2026-09-05T12:29:09.136980+00:00"
-  },
-  {
-    "date": "2026-09-05",
-    "theme": "International Day of Charity",
-    "haiku": "Kind hands spread warm light\nSunset hues paint soft hope's glow\nVoices share bright joy\nHappy #InternationalDayOfCharity from @ClamBakeSanta",
-    "tag": "InternationalDayOfCharity",
-    "logged_at": "2026-09-05T12:29:09.136980+00:00"
-  },
-  {
-    "date": "2026-09-05",
-    "theme": "Birthday Freddie Mercury",
-    "haiku": "Starlit stage hums soft\nBright chords echo deep gold night\nJoyful hearts rise high\n#HappyBirthdayFreddieMercury from @ClamBakeSanta",
-    "tag": "HappyBirthdayFreddieMercury",
-    "logged_at": "2026-09-05T12:29:09.136980+00:00"
-  },
-  {
     "date": "2026-09-06",
     "theme": "National Coffee Ice Cream Day",
     "haiku": "Coffee swirl, ice sweet\nCreamy dream on winter spoon\nTaste of sunrise warm\nHappy #NationalCoffeeIceCreamDay from @ClamBakeSanta",
@@ -145,5 +124,33 @@
     "haiku": "Night sky turns silver\nStars hide, new light slips soft in\nMoon breathes fresh bright glow\nHappy #NewMoon from @ClamBakeSanta",
     "tag": "NewMoon",
     "logged_at": "2026-09-11T13:22:52.525982+00:00"
+  },
+  {
+    "date": "2026-09-12",
+    "theme": "National Video Games Day",
+    "haiku": "Pixel sparks glow bright\nJoyful quests rise, hearts race fast\nControllers hum song\nHappy #NationalVideoGamesDay from @ClamBakeSanta",
+    "tag": "NationalVideoGamesDay",
+    "logged_at": "2026-09-12T12:43:38.043633+00:00"
+  },
+  {
+    "date": "2026-09-12",
+    "theme": "National Chocolate Milkshake Day",
+    "haiku": "Creamy swirl, sweet sky\nFrothy clouds kiss soft cool glass\nTaste of joy, stars sip\nHappy #NationalChocolateMilkshakeDay from @ClamBakeSanta",
+    "tag": "NationalChocolateMilkshakeDay",
+    "logged_at": "2026-09-12T12:43:38.043633+00:00"
+  },
+  {
+    "date": "2026-09-12",
+    "theme": "Birthday Jesse Owens",
+    "haiku": "Morning sun bright glows\nTracks echo with cheers and light\nJoy runs swift, proud stride\n#HappyBirthdayJesseOwens from @ClamBake",
+    "tag": "HappyBirthdayJesseOwens",
+    "logged_at": "2026-09-12T12:43:38.043633+00:00"
+  },
+  {
+    "date": "2026-09-12",
+    "theme": "Birthday H.L. Mencken",
+    "haiku": "Ink spills on bright page\nA can der flick ers thoughts rise\nJoy curls like paper\n#HappyBirthdayHLMencken from @ClamBakeSanta",
+    "tag": "HappyBirthdayHLMencken",
+    "logged_at": "2026-09-12T12:43:38.043633+00:00"
   }
 ]

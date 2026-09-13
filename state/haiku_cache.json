@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "haikus": [
     {
-      "theme": "National Video Games Day",
-      "haiku": "Pixel sparks glow bright\nJoyful quests rise, hearts race fast\nControllers hum song\nHappy #NationalVideoGamesDay from @ClamBakeSanta",
-      "tag": "NationalVideoGamesDay",
+      "theme": "National Peanut Day",
+      "haiku": "soft peanut shells crack\nwarm butter melts over crunch\ngolden dust glows bright\nHappy #NationalPeanutDay from @ClamBakeSanta",
+      "tag": "NationalPeanutDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Chocolate Milkshake Day",
-      "haiku": "Creamy swirl, sweet sky\nFrothy clouds kiss soft cool glass\nTaste of joy, stars sip\nHappy #NationalChocolateMilkshakeDay from @ClamBakeSanta",
-      "tag": "NationalChocolateMilkshakeDay",
+      "theme": "International Chocolate Day",
+      "haiku": "Dark cocoa melts warm\nScent of sugar rises near\nJoyful bites unfold\nHappy #InternationalChocolateDay from @ClamBakeSanta",
+      "tag": "InternationalChocolateDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Jesse Owens",
-      "haiku": "Morning sun bright glows\nTracks echo with cheers and light\nJoy runs swift, proud stride\n#HappyBirthdayJesseOwens from @ClamBake",
-      "tag": "HappyBirthdayJesseOwens",
+      "theme": "Birthday Roald Dahl",
+      "haiku": "Candle flames dance bright\nPages turn in night air, stars\nDreams bloom like firework\n#HappyBirthdayRoaldDahl from @ClamBakeSanta",
+      "tag": "HappyBirthdayRoaldDahl",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday H.L. Mencken",
-      "haiku": "Ink spills on bright page\nA can der flick ers thoughts rise\nJoy curls like paper\n#HappyBirthdayHLMencken from @ClamBakeSanta",
-      "tag": "HappyBirthdayHLMencken",
+      "theme": "Birthday Sherwood Anderson",
+      "haiku": "Morning light drifts slow\nCakes rise like sunrise gold bright\nJoy sings in each bite\n#HappyBirthdaySherwoodAnderson from @ClamBakeSanta",
+      "tag": "HappyBirthdaySherwoodAnderson",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Video Games Day",
-    "National Chocolate Milkshake Day",
-    "Birthday Jesse Owens",
-    "Birthday H.L. Mencken"
+    "National Peanut Day",
+    "International Chocolate Day",
+    "Birthday Roald Dahl",
+    "Birthday Sherwood Anderson"
   ],
-  "content": "Pixel sparks glow bright\nJoyful quests rise, hearts race fast\nControllers hum song\nHappy #NationalVideoGamesDay from @ClamBakeSanta\n\nCreamy swirl, sweet sky\nFrothy clouds kiss soft cool glass\nTaste of joy, stars sip\nHappy #NationalChocolateMilkshakeDay from @ClamBakeSanta\n\nMorning sun bright glows\nTracks echo with cheers and light\nJoy runs swift, proud stride\n#HappyBirthdayJesseOwens from @ClamBake\n\nInk spills on bright page\nA can der flick ers thoughts rise\nJoy curls like paper\n#HappyBirthdayHLMencken from @ClamBakeSanta",
-  "saved_at": "2026-09-12T12:43:38.043160+00:00"
+  "content": "soft peanut shells crack\nwarm butter melts over crunch\ngolden dust glows bright\nHappy #NationalPeanutDay from @ClamBakeSanta\n\nDark cocoa melts warm\nScent of sugar rises near\nJoyful bites unfold\nHappy #InternationalChocolateDay from @ClamBakeSanta\n\nCandle flames dance bright\nPages turn in night air, stars\nDreams bloom like firework\n#HappyBirthdayRoaldDahl from @ClamBakeSanta\n\nMorning light drifts slow\nCakes rise like sunrise gold bright\nJoy sings in each bite\n#HappyBirthdaySherwoodAnderson from @ClamBakeSanta",
+  "saved_at": "2026-09-13T13:42:50.882869+00:00"
 }
