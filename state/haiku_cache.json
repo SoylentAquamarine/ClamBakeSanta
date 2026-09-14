@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "haikus": [
     {
-      "theme": "National Peanut Day",
-      "haiku": "soft peanut shells crack\nwarm butter melts over crunch\ngolden dust glows bright\nHappy #NationalPeanutDay from @ClamBakeSanta",
-      "tag": "NationalPeanutDay",
+      "theme": "National Cream Filled Donut Day",
+      "haiku": "Cream swirl in soft glaze\nPink dust sparkles, sweet breeze hums\nJoy melts in each bite\nHappy #NationalCreamFilledDonutDay from @ClamBakeSanta",
+      "tag": "NationalCreamFilledDonutDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Chocolate Day",
-      "haiku": "Dark cocoa melts warm\nScent of sugar rises near\nJoyful bites unfold\nHappy #InternationalChocolateDay from @ClamBakeSanta",
-      "tag": "InternationalChocolateDay",
+      "theme": "National Coloring Day",
+      "haiku": "Crayon rivers gleam\nPaper waves swirl bright blue soft\nColor dreams take flight\nHappy #NationalColoringDay from @ClamBakeSanta",
+      "tag": "NationalColoringDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Roald Dahl",
-      "haiku": "Candle flames dance bright\nPages turn in night air, stars\nDreams bloom like firework\n#HappyBirthdayRoaldDahl from @ClamBakeSanta",
-      "tag": "HappyBirthdayRoaldDahl",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Sherwood Anderson",
-      "haiku": "Morning light drifts slow\nCakes rise like sunrise gold bright\nJoy sings in each bite\n#HappyBirthdaySherwoodAnderson from @ClamBakeSanta",
-      "tag": "HappyBirthdaySherwoodAnderson",
+      "theme": "Birthday Alexander von Humboldt",
+      "haiku": "Morning mist kisses\nMountains hum with bright blue sky\nStars whisper soft light\n#HappyBirthdayAlexandervonHumboldt from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlexandervonHumboldt",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Peanut Day",
-    "International Chocolate Day",
-    "Birthday Roald Dahl",
-    "Birthday Sherwood Anderson"
+    "National Cream Filled Donut Day",
+    "National Coloring Day",
+    "Birthday Alexander von Humboldt"
   ],
-  "content": "soft peanut shells crack\nwarm butter melts over crunch\ngolden dust glows bright\nHappy #NationalPeanutDay from @ClamBakeSanta\n\nDark cocoa melts warm\nScent of sugar rises near\nJoyful bites unfold\nHappy #InternationalChocolateDay from @ClamBakeSanta\n\nCandle flames dance bright\nPages turn in night air, stars\nDreams bloom like firework\n#HappyBirthdayRoaldDahl from @ClamBakeSanta\n\nMorning light drifts slow\nCakes rise like sunrise gold bright\nJoy sings in each bite\n#HappyBirthdaySherwoodAnderson from @ClamBakeSanta",
-  "saved_at": "2026-09-13T13:42:50.882869+00:00"
+  "content": "Cream swirl in soft glaze\nPink dust sparkles, sweet breeze hums\nJoy melts in each bite\nHappy #NationalCreamFilledDonutDay from @ClamBakeSanta\n\nCrayon rivers gleam\nPaper waves swirl bright blue soft\nColor dreams take flight\nHappy #NationalColoringDay from @ClamBakeSanta\n\nMorning mist kisses\nMountains hum with bright blue sky\nStars whisper soft light\n#HappyBirthdayAlexandervonHumboldt from @ClamBakeSanta",
+  "saved_at": "2026-09-14T15:45:28.850017+00:00"
 }
