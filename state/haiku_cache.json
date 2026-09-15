@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "haikus": [
     {
-      "theme": "National Cream Filled Donut Day",
-      "haiku": "Cream swirl in soft glaze\nPink dust sparkles, sweet breeze hums\nJoy melts in each bite\nHappy #NationalCreamFilledDonutDay from @ClamBakeSanta",
-      "tag": "NationalCreamFilledDonutDay",
+      "theme": "National Linguine Day",
+      "haiku": "Pasta twirls in steam\nRed sauce drips like sunset glow\nTaste sings on warm tongue\nHappy #NationalLinguineDay from @ClamBakeSanta",
+      "tag": "NationalLinguineDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Coloring Day",
-      "haiku": "Crayon rivers gleam\nPaper waves swirl bright blue soft\nColor dreams take flight\nHappy #NationalColoringDay from @ClamBakeSanta",
-      "tag": "NationalColoringDay",
+      "theme": "National Make a Hat Day",
+      "haiku": "Stitching wool bright hats\nSoft yarn curls, warm bright sun smiles\nThreads weave joy, hats rise\nHappy #NationalMakeAHatDay from @ClamBakeSanta",
+      "tag": "NationalMakeAHatDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Alexander von Humboldt",
-      "haiku": "Morning mist kisses\nMountains hum with bright blue sky\nStars whisper soft light\n#HappyBirthdayAlexandervonHumboldt from @ClamBakeSanta",
-      "tag": "HappyBirthdayAlexandervonHumboldt",
+      "theme": "Birthday Agatha Christie",
+      "haiku": "Candle flickers low\nsoft scent of ink and tea swirl\nClue scents rise high soft\n#HappyBirthdayAgathaChristie from @Cl",
+      "tag": "HappyBirthdayAgathaChristie",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday James Fenimore Cooper",
+      "haiku": "Soft candle glow warm\nPaper pages turn, wind sighs\nLeaves dance, smiles rise bright\n#HappyBirthdayJamesFenimoreCooper from @ClamBakeSanta",
+      "tag": "HappyBirthdayJamesFenimoreCooper",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Cream Filled Donut Day",
-    "National Coloring Day",
-    "Birthday Alexander von Humboldt"
+    "National Linguine Day",
+    "National Make a Hat Day",
+    "Birthday Agatha Christie",
+    "Birthday James Fenimore Cooper"
   ],
-  "content": "Cream swirl in soft glaze\nPink dust sparkles, sweet breeze hums\nJoy melts in each bite\nHappy #NationalCreamFilledDonutDay from @ClamBakeSanta\n\nCrayon rivers gleam\nPaper waves swirl bright blue soft\nColor dreams take flight\nHappy #NationalColoringDay from @ClamBakeSanta\n\nMorning mist kisses\nMountains hum with bright blue sky\nStars whisper soft light\n#HappyBirthdayAlexandervonHumboldt from @ClamBakeSanta",
-  "saved_at": "2026-09-14T15:45:28.850017+00:00"
+  "content": "Pasta twirls in steam\nRed sauce drips like sunset glow\nTaste sings on warm tongue\nHappy #NationalLinguineDay from @ClamBakeSanta\n\nStitching wool bright hats\nSoft yarn curls, warm bright sun smiles\nThreads weave joy, hats rise\nHappy #NationalMakeAHatDay from @ClamBakeSanta\n\nCandle flickers low\nsoft scent of ink and tea swirl\nClue scents rise high soft\n#HappyBirthdayAgathaChristie from @Cl\n\nSoft candle glow warm\nPaper pages turn, wind sighs\nLeaves dance, smiles rise bright\n#HappyBirthdayJamesFenimoreCooper from @ClamBakeSanta",
+  "saved_at": "2026-09-15T14:13:22.725941+00:00"
 }
