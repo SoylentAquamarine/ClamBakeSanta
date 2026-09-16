@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "haikus": [
     {
-      "theme": "National Linguine Day",
-      "haiku": "Pasta twirls in steam\nRed sauce drips like sunset glow\nTaste sings on warm tongue\nHappy #NationalLinguineDay from @ClamBakeSanta",
-      "tag": "NationalLinguineDay",
+      "theme": "National Cinnamon Raisin Bread Day",
+      "haiku": "Warm dough rises soft\nCinnamon scent fills bright room\nRaisins glow inside\nHappy #National",
+      "tag": "NationalCinnamonRaisinBreadDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Make a Hat Day",
-      "haiku": "Stitching wool bright hats\nSoft yarn curls, warm bright sun smiles\nThreads weave joy, hats rise\nHappy #NationalMakeAHatDay from @ClamBakeSanta",
-      "tag": "NationalMakeAHatDay",
+      "theme": "Mayflower Day",
+      "haiku": "Leaves dance on breezes\nCrimson dawn spills over hills\nWarmth fills each bright heart\nHappy #MayflowerDay from @ClamBakeSanta",
+      "tag": "MayflowerDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Agatha Christie",
-      "haiku": "Candle flickers low\nsoft scent of ink and tea swirl\nClue scents rise high soft\n#HappyBirthdayAgathaChristie from @Cl",
-      "tag": "HappyBirthdayAgathaChristie",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday James Fenimore Cooper",
-      "haiku": "Soft candle glow warm\nPaper pages turn, wind sighs\nLeaves dance, smiles rise bright\n#HappyBirthdayJamesFenimoreCooper from @ClamBakeSanta",
-      "tag": "HappyBirthdayJamesFenimoreCooper",
+      "theme": "Birthday B.B. King",
+      "haiku": "Soft guitar strings hum\nNight sky twinkles, chords glide soft\nJoyful riffs echo\n#HappyBirthdayBBKing from @ClamBakeSanta",
+      "tag": "HappyBirthdayBBKing",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Linguine Day",
-    "National Make a Hat Day",
-    "Birthday Agatha Christie",
-    "Birthday James Fenimore Cooper"
+    "National Cinnamon Raisin Bread Day",
+    "Mayflower Day",
+    "Birthday B.B. King"
   ],
-  "content": "Pasta twirls in steam\nRed sauce drips like sunset glow\nTaste sings on warm tongue\nHappy #NationalLinguineDay from @ClamBakeSanta\n\nStitching wool bright hats\nSoft yarn curls, warm bright sun smiles\nThreads weave joy, hats rise\nHappy #NationalMakeAHatDay from @ClamBakeSanta\n\nCandle flickers low\nsoft scent of ink and tea swirl\nClue scents rise high soft\n#HappyBirthdayAgathaChristie from @Cl\n\nSoft candle glow warm\nPaper pages turn, wind sighs\nLeaves dance, smiles rise bright\n#HappyBirthdayJamesFenimoreCooper from @ClamBakeSanta",
-  "saved_at": "2026-09-15T14:13:22.725941+00:00"
+  "content": "Warm dough rises soft\nCinnamon scent fills bright room\nRaisins glow inside\nHappy #National\n\nLeaves dance on breezes\nCrimson dawn spills over hills\nWarmth fills each bright heart\nHappy #MayflowerDay from @ClamBakeSanta\n\nSoft guitar strings hum\nNight sky twinkles, chords glide soft\nJoyful riffs echo\n#HappyBirthdayBBKing from @ClamBakeSanta",
+  "saved_at": "2026-09-16T14:05:45.740526+00:00"
 }

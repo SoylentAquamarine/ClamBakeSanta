@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-08-16T09:37:59.446079+00:00",
-    "date": "2026-08-16",
+    "timestamp": "2026-09-16T14:14:00.917165+00:00",
+    "date": "2026-09-16",
     "themes_found": [
-      "National Rum Day",
-      "National Tell a Joke Day",
-      "Birthday Charles Bukowski"
+      "National Cinnamon Raisin Bread Day",
+      "Mayflower Day",
+      "Birthday B.B. King"
     ],
     "haikus_posted": [
       {
-        "theme": "National Rum Day",
-        "tag": "NationalRumDay",
+        "theme": "National Cinnamon Raisin Bread Day",
+        "tag": "NationalCinnamonRaisinBreadDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Tell a Joke Day",
-        "tag": "NationalTellAJokeDay",
+        "theme": "Mayflower Day",
+        "tag": "MayflowerDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Charles Bukowski",
-        "tag": "HappyBirthdayCharlesBukowski",
+        "theme": "Birthday B.B. King",
+        "tag": "HappyBirthdayBBKing",
         "valid_syllables": true,
         "counts": [
           5,
@@ -41,7 +41,6 @@
     ],
     "writers_block": [],
     "adapters_ok": [
-      "mastodon",
       "bluesky",
       "tumblr",
       "telegram",
@@ -49,7 +48,12 @@
       "wordpress",
       "github_pages"
     ],
-    "adapters_failed": [],
+    "adapters_failed": [
+      [
+        "mastodon",
+        "503 Server Error: Service Unavailable for url: https://mastodon.social/api/v1/statuses"
+      ]
+    ],
     "skipped": false
   }
 ]
