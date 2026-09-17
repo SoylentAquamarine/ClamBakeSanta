@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-09",
-    "theme": "National Teddy Bear Day",
-    "haiku": "Soft fur hugs my hand\nSnowflakes kiss the blanket bright\nWarm smiles share soft joy\nHappy #NationalTeddyBearDay from @ClamBakeSanta",
-    "tag": "NationalTeddyBearDay",
-    "logged_at": "2026-09-09T13:33:49.067527+00:00"
-  },
-  {
-    "date": "2026-09-09",
-    "theme": "National Wiener Schnitzel Day",
-    "haiku": "Crispy breaded treat\nGolden fried goodness sizzles\nTasty, tender joy\nHappy #NationalWienerSchnitzelDay from @ClamBakeSanta",
-    "tag": "NationalWienerSchnitzelDay",
-    "logged_at": "2026-09-09T13:33:49.067527+00:00"
-  },
-  {
-    "date": "2026-09-09",
-    "theme": "Birthday Leo Tolstoy",
-    "haiku": "Golden light ascends\nWax melts slow on Tolstoy's cake\nWinter's joy abides\n#HappyBirthdayLeoTolstoy from @ClamBakeSanta",
-    "tag": "HappyBirthdayLeoTolstoy",
-    "logged_at": "2026-09-09T13:33:49.067527+00:00"
-  },
-  {
     "date": "2026-09-10",
     "theme": "Birthday Arnold Palmer",
     "haiku": "Bright sun pours soft gold\nSip of foam, bright laughter rings\nJoy drips like soft dew\n#HappyBirthdayArnoldPalmer from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Soft candle glow warm\nPaper pages turn, wind sighs\nLeaves dance, smiles rise bright\n#HappyBirthdayJamesFenimoreCooper from @ClamBakeSanta",
     "tag": "HappyBirthdayJamesFenimoreCooper",
     "logged_at": "2026-09-15T14:13:22.726302+00:00"
+  },
+  {
+    "date": "2026-09-16",
+    "theme": "National Cinnamon Raisin Bread Day",
+    "haiku": "Warm dough rises soft\nCinnamon scent fills bright room\nRaisins glow inside\nHappy #National",
+    "tag": "NationalCinnamonRaisinBreadDay",
+    "logged_at": "2026-09-16T14:05:45.740852+00:00"
+  },
+  {
+    "date": "2026-09-16",
+    "theme": "Mayflower Day",
+    "haiku": "Leaves dance on breezes\nCrimson dawn spills over hills\nWarmth fills each bright heart\nHappy #MayflowerDay from @ClamBakeSanta",
+    "tag": "MayflowerDay",
+    "logged_at": "2026-09-16T14:05:45.740852+00:00"
+  },
+  {
+    "date": "2026-09-16",
+    "theme": "Birthday B.B. King",
+    "haiku": "Soft guitar strings hum\nNight sky twinkles, chords glide soft\nJoyful riffs echo\n#HappyBirthdayBBKing from @ClamBakeSanta",
+    "tag": "HappyBirthdayBBKing",
+    "logged_at": "2026-09-16T14:05:45.740852+00:00"
   }
 ]

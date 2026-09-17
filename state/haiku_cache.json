@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "haikus": [
     {
-      "theme": "National Cinnamon Raisin Bread Day",
-      "haiku": "Warm dough rises soft\nCinnamon scent fills bright room\nRaisins glow inside\nHappy #National",
-      "tag": "NationalCinnamonRaisinBreadDay",
+      "theme": "National Apple Dumpling Day",
+      "haiku": "Apple scent rises\nSteam curls, sugar sparks in steam\nWarm dough hugs sweet bite\nHappy #NationalAppleDumplingDay from @ClamBakeSanta",
+      "tag": "NationalAppleDumplingDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Mayflower Day",
-      "haiku": "Leaves dance on breezes\nCrimson dawn spills over hills\nWarmth fills each bright heart\nHappy #MayflowerDay from @ClamBakeSanta",
-      "tag": "MayflowerDay",
+      "theme": "National Constitution Day",
+      "haiku": "Paper parchment glows\nInk flows like river song bright\nDreams rise on parchment\nHappy #NationalConstitutionDay from @ClamBakeSanta",
+      "tag": "NationalConstitutionDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday B.B. King",
-      "haiku": "Soft guitar strings hum\nNight sky twinkles, chords glide soft\nJoyful riffs echo\n#HappyBirthdayBBKing from @ClamBakeSanta",
-      "tag": "HappyBirthdayBBKing",
+      "theme": "Birthday Hank Williams",
+      "haiku": "Soft blue sky sings bright\nStarlight drapes the porch with glow\nHank voice rides wind sweet\n#HappyBirthdayHankWilliams from @ClamBakeSanta",
+      "tag": "HappyBirthdayHankWilliams",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Cinnamon Raisin Bread Day",
-    "Mayflower Day",
-    "Birthday B.B. King"
+    "National Apple Dumpling Day",
+    "National Constitution Day",
+    "Birthday Hank Williams"
   ],
-  "content": "Warm dough rises soft\nCinnamon scent fills bright room\nRaisins glow inside\nHappy #National\n\nLeaves dance on breezes\nCrimson dawn spills over hills\nWarmth fills each bright heart\nHappy #MayflowerDay from @ClamBakeSanta\n\nSoft guitar strings hum\nNight sky twinkles, chords glide soft\nJoyful riffs echo\n#HappyBirthdayBBKing from @ClamBakeSanta",
-  "saved_at": "2026-09-16T14:05:45.740526+00:00"
+  "content": "Apple scent rises\nSteam curls, sugar sparks in steam\nWarm dough hugs sweet bite\nHappy #NationalAppleDumplingDay from @ClamBakeSanta\n\nPaper parchment glows\nInk flows like river song bright\nDreams rise on parchment\nHappy #NationalConstitutionDay from @ClamBakeSanta\n\nSoft blue sky sings bright\nStarlight drapes the porch with glow\nHank voice rides wind sweet\n#HappyBirthdayHankWilliams from @ClamBakeSanta",
+  "saved_at": "2026-09-17T14:11:09.147789+00:00"
 }

@@ -155,7 +155,8 @@
     "2026-09-13",
     "2026-09-14",
     "2026-09-15",
-    "2026-09-16"
+    "2026-09-16",
+    "2026-09-17"
   ],
   "runs": [
     {
@@ -2008,6 +2009,17 @@
         "Birthday B.B. King"
       ],
       "content_preview": "Warm dough rises soft Cinnamon scent fills bright room Raisins glow inside Happy #National  Leaves dance on breezes Crim"
+    },
+    {
+      "date": "2026-09-17",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-17T14:19:26.023943+00:00",
+      "themes": [
+        "National Apple Dumpling Day",
+        "National Constitution Day",
+        "Birthday Hank Williams"
+      ],
+      "content_preview": "Apple scent rises Steam curls, sugar sparks in steam Warm dough hugs sweet bite Happy #NationalAppleDumplingDay from @Cl"
     }
   ]
 }
