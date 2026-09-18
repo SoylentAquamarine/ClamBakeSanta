@@ -1,0 +1,64 @@
+{
+  "NationalCheeseburgerDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbllly442d",
+      "cid": "bafyreiahruunvkwekc3c6mbvxgewm7pbeysbhmvgmsjs4qge7ljcikk5ve"
+    },
+    "tumblr": {
+      "id": "828100667542470657",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "495",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalHivAidsAndAgingAwarenessDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbneycsx2x",
+      "cid": "bafyreie4jaztgcpzgv6b2n6q76agyfqyxratt5xmiq2juqrqjyxzvj7q3q"
+    },
+    "tumblr": {
+      "id": "828100731183775744",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "496",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdaySamuelJohnson": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbp6doba2x",
+      "cid": "bafyreiajncqykz743j423awll5peuwzobamutn5jpnquwzsjksyxa65ts4"
+    },
+    "tumblr": {
+      "id": "828100794558595072",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "497",
+      "channel": "@clambakesanta"
+    }
+  },
+  "FirstQuarterMoon": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbqxw5a62d",
+      "cid": "bafyreidscsebkkvxatan5r3sogtkcgfmv3bzcewnfwuxvndgwrtcuocd4q"
+    },
+    "tumblr": {
+      "id": "828100857943015424",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "498",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "164",
+      "url": "https://clambakesanta.wordpress.com/2026/09/18/clam-bake-santa-2026-09-18/"
+    }
+  }
+}

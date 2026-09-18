@@ -1,12 +1,5 @@
 [
   {
-    "date": "2026-09-10",
-    "theme": "Birthday Arnold Palmer",
-    "haiku": "Bright sun pours soft gold\nSip of foam, bright laughter rings\nJoy drips like soft dew\n#HappyBirthdayArnoldPalmer from @ClamBakeSanta",
-    "tag": "HappyBirthdayArnoldPalmer",
-    "logged_at": "2026-09-10T13:24:58.556000+00:00"
-  },
-  {
     "date": "2026-09-11",
     "theme": "National Hot Cross Bun Day",
     "haiku": "Golden buns ascend\nFragrant cinnamon unfurls\nMorning's sweet delight\nHappy #NationalHotCrossBunDay from @ClamBakeSanta",
@@ -159,5 +152,26 @@
     "haiku": "Soft guitar strings hum\nNight sky twinkles, chords glide soft\nJoyful riffs echo\n#HappyBirthdayBBKing from @ClamBakeSanta",
     "tag": "HappyBirthdayBBKing",
     "logged_at": "2026-09-16T14:05:45.740852+00:00"
+  },
+  {
+    "date": "2026-09-17",
+    "theme": "National Apple Dumpling Day",
+    "haiku": "Apple scent rises\nSteam curls, sugar sparks in steam\nWarm dough hugs sweet bite\nHappy #NationalAppleDumplingDay from @ClamBakeSanta",
+    "tag": "NationalAppleDumplingDay",
+    "logged_at": "2026-09-17T14:11:09.148184+00:00"
+  },
+  {
+    "date": "2026-09-17",
+    "theme": "National Constitution Day",
+    "haiku": "Paper parchment glows\nInk flows like river song bright\nDreams rise on parchment\nHappy #NationalConstitutionDay from @ClamBakeSanta",
+    "tag": "NationalConstitutionDay",
+    "logged_at": "2026-09-17T14:11:09.148184+00:00"
+  },
+  {
+    "date": "2026-09-17",
+    "theme": "Birthday Hank Williams",
+    "haiku": "Soft blue sky sings bright\nStarlight drapes the porch with glow\nHank voice rides wind sweet\n#HappyBirthdayHankWilliams from @ClamBakeSanta",
+    "tag": "HappyBirthdayHankWilliams",
+    "logged_at": "2026-09-17T14:11:09.148184+00:00"
   }
 ]

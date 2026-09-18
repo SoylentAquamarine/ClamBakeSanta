@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "haikus": [
     {
-      "theme": "National Apple Dumpling Day",
-      "haiku": "Apple scent rises\nSteam curls, sugar sparks in steam\nWarm dough hugs sweet bite\nHappy #NationalAppleDumplingDay from @ClamBakeSanta",
-      "tag": "NationalAppleDumplingDay",
+      "theme": "National Cheeseburger Day",
+      "haiku": "Patty sizzles hot\nCheese melts, soft green lettuce bright\nBun sighs warm, salt kiss\nHappy #NationalCheeseburgerDay from @ClamBakeSanta",
+      "tag": "NationalCheeseburgerDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Constitution Day",
-      "haiku": "Paper parchment glows\nInk flows like river song bright\nDreams rise on parchment\nHappy #NationalConstitutionDay from @ClamBakeSanta",
-      "tag": "NationalConstitutionDay",
+      "theme": "National HIV/AIDS and Aging Awareness Day",
+      "haiku": "Soft snow whispers light\nCrimson berries glow soft warm\nGentle hands share hope\nHappy #NationalHivAidsAndAgingAwarenessDay from @ClamBakeSanta",
+      "tag": "NationalHivAidsAndAgingAwarenessDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Hank Williams",
-      "haiku": "Soft blue sky sings bright\nStarlight drapes the porch with glow\nHank voice rides wind sweet\n#HappyBirthdayHankWilliams from @ClamBakeSanta",
-      "tag": "HappyBirthdayHankWilliams",
+      "theme": "Birthday Samuel Johnson",
+      "haiku": "Soft snowflakes whisper\nOak tree candles glow softly\nJoy drifts in winter\n#HappyBirthdaySamuelJohnson from @ClamBakeSanta",
+      "tag": "HappyBirthdaySamuelJohnson",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "First Quarter Moon",
+      "haiku": "Soft night sky rises\nMoon lifts a bright silver arc\nStars whisper soft light\nHappy #FirstQuarterMoon from @Clam",
+      "tag": "FirstQuarterMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Apple Dumpling Day",
-    "National Constitution Day",
-    "Birthday Hank Williams"
+    "National Cheeseburger Day",
+    "National HIV/AIDS and Aging Awareness Day",
+    "Birthday Samuel Johnson",
+    "First Quarter Moon"
   ],
-  "content": "Apple scent rises\nSteam curls, sugar sparks in steam\nWarm dough hugs sweet bite\nHappy #NationalAppleDumplingDay from @ClamBakeSanta\n\nPaper parchment glows\nInk flows like river song bright\nDreams rise on parchment\nHappy #NationalConstitutionDay from @ClamBakeSanta\n\nSoft blue sky sings bright\nStarlight drapes the porch with glow\nHank voice rides wind sweet\n#HappyBirthdayHankWilliams from @ClamBakeSanta",
-  "saved_at": "2026-09-17T14:11:09.147789+00:00"
+  "content": "Patty sizzles hot\nCheese melts, soft green lettuce bright\nBun sighs warm, salt kiss\nHappy #NationalCheeseburgerDay from @ClamBakeSanta\n\nSoft snow whispers light\nCrimson berries glow soft warm\nGentle hands share hope\nHappy #NationalHivAidsAndAgingAwarenessDay from @ClamBakeSanta\n\nSoft snowflakes whisper\nOak tree candles glow softly\nJoy drifts in winter\n#HappyBirthdaySamuelJohnson from @ClamBakeSanta\n\nSoft night sky rises\nMoon lifts a bright silver arc\nStars whisper soft light\nHappy #FirstQuarterMoon from @Clam",
+  "saved_at": "2026-09-18T13:29:16.071076+00:00"
 }
