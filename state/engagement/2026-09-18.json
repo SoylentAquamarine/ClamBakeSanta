@@ -1,0 +1,98 @@
+{
+  "NationalCheeseburgerDay": {
+    "theme": "National Cheeseburger Day",
+    "haiku": "Patty sizzles hot\nCheese melts, soft green lettuce bright\nBun sighs warm, salt kiss\nHappy #NationalCheeseburgerDay from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbllly442d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "828100667542470657",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-18T23:46:32.222829+00:00"
+  },
+  "NationalHivAidsAndAgingAwarenessDay": {
+    "theme": "National HIV/AIDS and Aging Awareness Day",
+    "haiku": "Soft snow whispers light\nCrimson berries glow soft warm\nGentle hands share hope\nHappy #NationalHivAidsAndAgingAwarenessDay from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbneycsx2x",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "828100731183775744",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-18T23:46:32.222829+00:00"
+  },
+  "HappyBirthdaySamuelJohnson": {
+    "theme": "Birthday Samuel Johnson",
+    "haiku": "Soft snowflakes whisper\nOak tree candles glow softly\nJoy drifts in winter\n#HappyBirthdaySamuelJohnson from @ClamBakeSanta",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbp6doba2x",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "828100794558595072",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-18T23:46:32.222829+00:00"
+  },
+  "FirstQuarterMoon": {
+    "theme": "First Quarter Moon",
+    "haiku": "Soft night sky rises\nMoon lifts a bright silver arc\nStars whisper soft light\nHappy #FirstQuarterMoon from @Clam",
+    "platforms": {
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvsbqxw5a62d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "828100857943015424",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-18T23:46:32.222829+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "164",
+        "url": "https://clambakesanta.wordpress.com/2026/09/18/clam-bake-santa-2026-09-18/",
+        "views": 1,
+        "likes": 1,
+        "comments": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-09-18T23:46:32.222829+00:00"
+  }
+}
