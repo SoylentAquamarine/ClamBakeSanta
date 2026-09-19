@@ -157,7 +157,8 @@
     "2026-09-15",
     "2026-09-16",
     "2026-09-17",
-    "2026-09-18"
+    "2026-09-18",
+    "2026-09-19"
   ],
   "runs": [
     {
@@ -2033,6 +2034,17 @@
         "First Quarter Moon"
       ],
       "content_preview": "Patty sizzles hot Cheese melts, soft green lettuce bright Bun sighs warm, salt kiss Happy #NationalCheeseburgerDay from "
+    },
+    {
+      "date": "2026-09-19",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-19T13:06:26.957309+00:00",
+      "themes": [
+        "Talk Like a Pirate Day",
+        "National Butterscotch Pudding Day",
+        "Birthday William Golding"
+      ],
+      "content_preview": "Yo ho, the sea calls Crackling waves, salty breeze soft Sails rise with sunrise Happy #TalkLikeAPirateDay from @ClamBake"
     }
   ]
 }

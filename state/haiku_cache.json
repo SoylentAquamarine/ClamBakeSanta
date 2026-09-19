@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "haikus": [
     {
-      "theme": "National Cheeseburger Day",
-      "haiku": "Patty sizzles hot\nCheese melts, soft green lettuce bright\nBun sighs warm, salt kiss\nHappy #NationalCheeseburgerDay from @ClamBakeSanta",
-      "tag": "NationalCheeseburgerDay",
+      "theme": "Talk Like a Pirate Day",
+      "haiku": "Yo ho, the sea calls\nCrackling waves, salty breeze soft\nSails rise with sunrise\nHappy #TalkLikeAPirateDay from @ClamBakeSanta",
+      "tag": "TalkLikeAPirateDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National HIV/AIDS and Aging Awareness Day",
-      "haiku": "Soft snow whispers light\nCrimson berries glow soft warm\nGentle hands share hope\nHappy #NationalHivAidsAndAgingAwarenessDay from @ClamBakeSanta",
-      "tag": "NationalHivAidsAndAgingAwarenessDay",
+      "theme": "National Butterscotch Pudding Day",
+      "haiku": "Golden pudding sigh\nSoft steam curls, warm spoon glides slow\nTaste of butter sun\nHappy #NationalButterscot",
+      "tag": "NationalButterscotchPuddingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Samuel Johnson",
-      "haiku": "Soft snowflakes whisper\nOak tree candles glow softly\nJoy drifts in winter\n#HappyBirthdaySamuelJohnson from @ClamBakeSanta",
-      "tag": "HappyBirthdaySamuelJohnson",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "First Quarter Moon",
-      "haiku": "Soft night sky rises\nMoon lifts a bright silver arc\nStars whisper soft light\nHappy #FirstQuarterMoon from @Clam",
-      "tag": "FirstQuarterMoon",
+      "theme": "Birthday William Golding",
+      "haiku": "Morning dew glints bright\nSun‑light warms the quiet hill\nJoy rings in the breeze\n#HappyBirthdayWilliamGolding from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamGolding",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Cheeseburger Day",
-    "National HIV/AIDS and Aging Awareness Day",
-    "Birthday Samuel Johnson",
-    "First Quarter Moon"
+    "Talk Like a Pirate Day",
+    "National Butterscotch Pudding Day",
+    "Birthday William Golding"
   ],
-  "content": "Patty sizzles hot\nCheese melts, soft green lettuce bright\nBun sighs warm, salt kiss\nHappy #NationalCheeseburgerDay from @ClamBakeSanta\n\nSoft snow whispers light\nCrimson berries glow soft warm\nGentle hands share hope\nHappy #NationalHivAidsAndAgingAwarenessDay from @ClamBakeSanta\n\nSoft snowflakes whisper\nOak tree candles glow softly\nJoy drifts in winter\n#HappyBirthdaySamuelJohnson from @ClamBakeSanta\n\nSoft night sky rises\nMoon lifts a bright silver arc\nStars whisper soft light\nHappy #FirstQuarterMoon from @Clam",
-  "saved_at": "2026-09-18T13:29:16.071076+00:00"
+  "content": "Yo ho, the sea calls\nCrackling waves, salty breeze soft\nSails rise with sunrise\nHappy #TalkLikeAPirateDay from @ClamBakeSanta\n\nGolden pudding sigh\nSoft steam curls, warm spoon glides slow\nTaste of butter sun\nHappy #NationalButterscot\n\nMorning dew glints bright\nSun‑light warms the quiet hill\nJoy rings in the breeze\n#HappyBirthdayWilliamGolding from @ClamBakeSanta",
+  "saved_at": "2026-09-19T12:57:59.850785+00:00"
 }
