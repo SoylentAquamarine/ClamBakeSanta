@@ -1,0 +1,62 @@
+{
+  "NationalPunchDay": {
+    "mastodon": {
+      "id": "117303610043560433",
+      "url": "https://mastodon.social/@ClamBakeSanta/117303610043560433"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvxcpkzyxz2g",
+      "cid": "bafyreidk2q7ptinuff7wohmurctixm7gjgaasrkhhhrezi3xs7htv7lnoi"
+    },
+    "tumblr": {
+      "id": "828282014356602880",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "502",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalStringCheeseDay": {
+    "mastodon": {
+      "id": "117303614006128846",
+      "url": "https://mastodon.social/@ClamBakeSanta/117303614006128846"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvxcreojfb2g",
+      "cid": "bafyreiahx3uicfqoaij2jxc54xhnlzlgyor2qmdj6tr7g5ze3bp62sq624"
+    },
+    "tumblr": {
+      "id": "828282077602562048",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "503",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayUptonSinclair": {
+    "mastodon": {
+      "id": "117303617963381543",
+      "url": "https://mastodon.social/@ClamBakeSanta/117303617963381543"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvxct5x6to2z",
+      "cid": "bafyreieudgbvn7nwtmfkjvp7c2h2a4vb4qun365tpc5wlcacs7glsknoki"
+    },
+    "tumblr": {
+      "id": "828282140777119744",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "504",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "166",
+      "url": "https://clambakesanta.wordpress.com/2026/09/20/clam-bake-santa-2026-09-20/"
+    }
+  }
+}

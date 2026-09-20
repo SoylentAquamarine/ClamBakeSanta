@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-12",
-    "theme": "National Video Games Day",
-    "haiku": "Pixel sparks glow bright\nJoyful quests rise, hearts race fast\nControllers hum song\nHappy #NationalVideoGamesDay from @ClamBakeSanta",
-    "tag": "NationalVideoGamesDay",
-    "logged_at": "2026-09-12T12:43:38.043633+00:00"
-  },
-  {
-    "date": "2026-09-12",
-    "theme": "National Chocolate Milkshake Day",
-    "haiku": "Creamy swirl, sweet sky\nFrothy clouds kiss soft cool glass\nTaste of joy, stars sip\nHappy #NationalChocolateMilkshakeDay from @ClamBakeSanta",
-    "tag": "NationalChocolateMilkshakeDay",
-    "logged_at": "2026-09-12T12:43:38.043633+00:00"
-  },
-  {
-    "date": "2026-09-12",
-    "theme": "Birthday Jesse Owens",
-    "haiku": "Morning sun bright glows\nTracks echo with cheers and light\nJoy runs swift, proud stride\n#HappyBirthdayJesseOwens from @ClamBake",
-    "tag": "HappyBirthdayJesseOwens",
-    "logged_at": "2026-09-12T12:43:38.043633+00:00"
-  },
-  {
-    "date": "2026-09-12",
-    "theme": "Birthday H.L. Mencken",
-    "haiku": "Ink spills on bright page\nA can der flick ers thoughts rise\nJoy curls like paper\n#HappyBirthdayHLMencken from @ClamBakeSanta",
-    "tag": "HappyBirthdayHLMencken",
-    "logged_at": "2026-09-12T12:43:38.043633+00:00"
-  },
-  {
     "date": "2026-09-13",
     "theme": "National Peanut Day",
     "haiku": "soft peanut shells crack\nwarm butter melts over crunch\ngolden dust glows bright\nHappy #NationalPeanutDay from @ClamBakeSanta",
@@ -173,5 +145,26 @@
     "haiku": "Soft night sky rises\nMoon lifts a bright silver arc\nStars whisper soft light\nHappy #FirstQuarterMoon from @Clam",
     "tag": "FirstQuarterMoon",
     "logged_at": "2026-09-18T13:29:16.071617+00:00"
+  },
+  {
+    "date": "2026-09-19",
+    "theme": "Talk Like a Pirate Day",
+    "haiku": "Yo ho, the sea calls\nCrackling waves, salty breeze soft\nSails rise with sunrise\nHappy #TalkLikeAPirateDay from @ClamBakeSanta",
+    "tag": "TalkLikeAPirateDay",
+    "logged_at": "2026-09-19T12:57:59.851195+00:00"
+  },
+  {
+    "date": "2026-09-19",
+    "theme": "National Butterscotch Pudding Day",
+    "haiku": "Golden pudding sigh\nSoft steam curls, warm spoon glides slow\nTaste of butter sun\nHappy #NationalButterscot",
+    "tag": "NationalButterscotchPuddingDay",
+    "logged_at": "2026-09-19T12:57:59.851195+00:00"
+  },
+  {
+    "date": "2026-09-19",
+    "theme": "Birthday William Golding",
+    "haiku": "Morning dew glints bright\nSun‑light warms the quiet hill\nJoy rings in the breeze\n#HappyBirthdayWilliamGolding from @ClamBakeSanta",
+    "tag": "HappyBirthdayWilliamGolding",
+    "logged_at": "2026-09-19T12:57:59.851195+00:00"
   }
 ]

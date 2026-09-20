@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "haikus": [
     {
-      "theme": "Talk Like a Pirate Day",
-      "haiku": "Yo ho, the sea calls\nCrackling waves, salty breeze soft\nSails rise with sunrise\nHappy #TalkLikeAPirateDay from @ClamBakeSanta",
-      "tag": "TalkLikeAPirateDay",
+      "theme": "National Punch Day",
+      "haiku": "Sunrise drips in glass\nTropical zest tingles lips\nBubbles rise, giggle\nHappy #NationalPunchDay from @ClamBakeSanta",
+      "tag": "NationalPunchDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Butterscotch Pudding Day",
-      "haiku": "Golden pudding sigh\nSoft steam curls, warm spoon glides slow\nTaste of butter sun\nHappy #NationalButterscot",
-      "tag": "NationalButterscotchPuddingDay",
+      "theme": "National String Cheese Day",
+      "haiku": "Golden strings of cheese\nMelting under summer sun\nTaste buds dance with joy\nHappy #NationalStringCheeseDay from @ClamBakeSanta",
+      "tag": "NationalStringCheeseDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday William Golding",
-      "haiku": "Morning dew glints bright\nSun‑light warms the quiet hill\nJoy rings in the breeze\n#HappyBirthdayWilliamGolding from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamGolding",
+      "theme": "Birthday Upton Sinclair",
+      "haiku": "Sunrise paints gold hues\nLaughter rings like bells in soft\nJoy blooms in bright sky\n#HappyBirthdayUptonSinclair from @ClamBakeSanta",
+      "tag": "HappyBirthdayUptonSinclair",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "Talk Like a Pirate Day",
-    "National Butterscotch Pudding Day",
-    "Birthday William Golding"
+    "National Punch Day",
+    "National String Cheese Day",
+    "Birthday Upton Sinclair"
   ],
-  "content": "Yo ho, the sea calls\nCrackling waves, salty breeze soft\nSails rise with sunrise\nHappy #TalkLikeAPirateDay from @ClamBakeSanta\n\nGolden pudding sigh\nSoft steam curls, warm spoon glides slow\nTaste of butter sun\nHappy #NationalButterscot\n\nMorning dew glints bright\nSun‑light warms the quiet hill\nJoy rings in the breeze\n#HappyBirthdayWilliamGolding from @ClamBakeSanta",
-  "saved_at": "2026-09-19T12:57:59.850785+00:00"
+  "content": "Sunrise drips in glass\nTropical zest tingles lips\nBubbles rise, giggle\nHappy #NationalPunchDay from @ClamBakeSanta\n\nGolden strings of cheese\nMelting under summer sun\nTaste buds dance with joy\nHappy #NationalStringCheeseDay from @ClamBakeSanta\n\nSunrise paints gold hues\nLaughter rings like bells in soft\nJoy blooms in bright sky\n#HappyBirthdayUptonSinclair from @ClamBakeSanta",
+  "saved_at": "2026-09-20T13:30:40.961221+00:00"
 }
