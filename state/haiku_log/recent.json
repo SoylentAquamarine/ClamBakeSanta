@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-13",
-    "theme": "National Peanut Day",
-    "haiku": "soft peanut shells crack\nwarm butter melts over crunch\ngolden dust glows bright\nHappy #NationalPeanutDay from @ClamBakeSanta",
-    "tag": "NationalPeanutDay",
-    "logged_at": "2026-09-13T13:42:50.883182+00:00"
-  },
-  {
-    "date": "2026-09-13",
-    "theme": "International Chocolate Day",
-    "haiku": "Dark cocoa melts warm\nScent of sugar rises near\nJoyful bites unfold\nHappy #InternationalChocolateDay from @ClamBakeSanta",
-    "tag": "InternationalChocolateDay",
-    "logged_at": "2026-09-13T13:42:50.883182+00:00"
-  },
-  {
-    "date": "2026-09-13",
-    "theme": "Birthday Roald Dahl",
-    "haiku": "Candle flames dance bright\nPages turn in night air, stars\nDreams bloom like firework\n#HappyBirthdayRoaldDahl from @ClamBakeSanta",
-    "tag": "HappyBirthdayRoaldDahl",
-    "logged_at": "2026-09-13T13:42:50.883182+00:00"
-  },
-  {
-    "date": "2026-09-13",
-    "theme": "Birthday Sherwood Anderson",
-    "haiku": "Morning light drifts slow\nCakes rise like sunrise gold bright\nJoy sings in each bite\n#HappyBirthdaySherwoodAnderson from @ClamBakeSanta",
-    "tag": "HappyBirthdaySherwoodAnderson",
-    "logged_at": "2026-09-13T13:42:50.883182+00:00"
-  },
-  {
     "date": "2026-09-14",
     "theme": "National Cream Filled Donut Day",
     "haiku": "Cream swirl in soft glaze\nPink dust sparkles, sweet breeze hums\nJoy melts in each bite\nHappy #NationalCreamFilledDonutDay from @ClamBakeSanta",
@@ -166,5 +138,26 @@
     "haiku": "Morning dew glints bright\nSun‑light warms the quiet hill\nJoy rings in the breeze\n#HappyBirthdayWilliamGolding from @ClamBakeSanta",
     "tag": "HappyBirthdayWilliamGolding",
     "logged_at": "2026-09-19T12:57:59.851195+00:00"
+  },
+  {
+    "date": "2026-09-20",
+    "theme": "National Punch Day",
+    "haiku": "Sunrise drips in glass\nTropical zest tingles lips\nBubbles rise, giggle\nHappy #NationalPunchDay from @ClamBakeSanta",
+    "tag": "NationalPunchDay",
+    "logged_at": "2026-09-20T13:30:40.961580+00:00"
+  },
+  {
+    "date": "2026-09-20",
+    "theme": "National String Cheese Day",
+    "haiku": "Golden strings of cheese\nMelting under summer sun\nTaste buds dance with joy\nHappy #NationalStringCheeseDay from @ClamBakeSanta",
+    "tag": "NationalStringCheeseDay",
+    "logged_at": "2026-09-20T13:30:40.961580+00:00"
+  },
+  {
+    "date": "2026-09-20",
+    "theme": "Birthday Upton Sinclair",
+    "haiku": "Sunrise paints gold hues\nLaughter rings like bells in soft\nJoy blooms in bright sky\n#HappyBirthdayUptonSinclair from @ClamBakeSanta",
+    "tag": "HappyBirthdayUptonSinclair",
+    "logged_at": "2026-09-20T13:30:40.961580+00:00"
   }
 ]

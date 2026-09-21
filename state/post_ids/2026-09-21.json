@@ -1,0 +1,68 @@
+{
+  "InternationalDayOfPeace": {
+    "mastodon": {
+      "id": "117309800657242167",
+      "url": "https://mastodon.social/@ClamBakeSanta/117309800657242167"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw22mxtkxc2z",
+      "cid": "bafyreiaos63sboyoxkytqshxigzhnmvfblwy7c4tpms2xfukl6nkcc5eoa"
+    },
+    "tumblr": {
+      "id": "828381066057465856",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "505",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalPecanCookieDay": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw22orbgvv2h",
+      "cid": "bafyreieokked5gpn2m4hszd7b4faruz7qt7mh7qo7sanogghnpdbanpbym"
+    },
+    "tumblr": {
+      "id": "828381129613688832",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "506",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayHGWells": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw22qkxgli2w",
+      "cid": "bafyreictzw7utgcpiywty35sf2znjcyhamwirxbinxl3iju6n6uceca5mi"
+    },
+    "tumblr": {
+      "id": "828381192982233088",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "507",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayStephenKing": {
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw22semgkh2x",
+      "cid": "bafyreiexxmz2v5yfpiluwjcvufnwvvgiek3sdifppwazojqlobube6eo6y"
+    },
+    "tumblr": {
+      "id": "828381256393916416",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "508",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "167",
+      "url": "https://clambakesanta.wordpress.com/2026/09/21/clam-bake-santa-2026-09-21/"
+    }
+  }
+}

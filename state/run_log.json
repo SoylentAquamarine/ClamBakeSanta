@@ -159,7 +159,8 @@
     "2026-09-17",
     "2026-09-18",
     "2026-09-19",
-    "2026-09-20"
+    "2026-09-20",
+    "2026-09-21"
   ],
   "runs": [
     {
@@ -2057,6 +2058,18 @@
         "Birthday Upton Sinclair"
       ],
       "content_preview": "Sunrise drips in glass Tropical zest tingles lips Bubbles rise, giggle Happy #NationalPunchDay from @ClamBakeSanta  Gold"
+    },
+    {
+      "date": "2026-09-21",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-21T15:55:23.946713+00:00",
+      "themes": [
+        "International Day of Peace",
+        "National Pecan Cookie Day",
+        "Birthday H.G. Wells",
+        "Birthday Stephen King"
+      ],
+      "content_preview": "Sunlit waves whisper Children laugh, hands join, peace blooms Soft stars glow calm earth Happy #InternationalDayOfPeace "
     }
   ]
 }
