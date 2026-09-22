@@ -1,4 +1,106 @@
 {
+  "2026-09-22": {
+    "FirstDayOfAutumn": {
+      "theme": "First Day of Autumn",
+      "haiku": "Golden leaves descend\nCrisp air whispers through the trees\nCozy warmth abides\nHappy #FirstDayOfAutumn from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117315040756146880",
+          "url": "https://mastodon.social/@ClamBakeSanta/117315040756146880",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f5oarvz25",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "828464906579951616",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
+    },
+    "NationalWhiteChocolateDay": {
+      "theme": "National White Chocolate Day",
+      "haiku": "White cocoa drifts bright\nSoft sugar clouds melt on tongue\nJoy melts in each bite\nHappy #NationalWhiteChocolateDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117315044731294523",
+          "url": "https://mastodon.social/@ClamBakeSanta/117315044731294523",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f7hobmr2x",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "828464970028220416",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
+    },
+    "HappyBirthdayMichaelFaraday": {
+      "theme": "Birthday Michael Faraday",
+      "haiku": "Bright sparks ignite wide\nFields hum with electric dreams\nJoy pulses through night\n#HappyBirthdayMichaelFaraday from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117315048684605957",
+          "url": "https://mastodon.social/@ClamBakeSanta/117315048684605957",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4fbb47yn2k",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "828465033483829248",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "168",
+          "url": "https://clambakesanta.wordpress.com/2026/09/22/clam-bake-santa-2026-09-22/",
+          "views": 4,
+          "likes": 3,
+          "comments": 0,
+          "score": 3
+        }
+      },
+      "total_score": 3,
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
+    }
+  },
   "2026-09-21": {
     "InternationalDayOfPeace": {
       "theme": "International Day of Peace",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "NationalPecanCookieDay": {
       "theme": "National Pecan Cookie Day",
@@ -46,7 +148,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "HappyBirthdayHGWells": {
       "theme": "Birthday H.G. Wells",
@@ -66,7 +168,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "HappyBirthdayStephenKing": {
       "theme": "Birthday Stephen King",
@@ -86,7 +188,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -102,7 +204,7 @@
         }
       },
       "total_score": 3,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     }
   },
   "2026-09-20": {
@@ -132,7 +234,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "NationalStringCheeseDay": {
       "theme": "National String Cheese Day",
@@ -160,7 +262,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "HappyBirthdayUptonSinclair": {
       "theme": "Birthday Upton Sinclair",
@@ -188,7 +290,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -204,7 +306,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     }
   },
   "2026-09-19": {
@@ -234,7 +336,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "NationalButterscotchPuddingDay": {
       "theme": "National Butterscotch Pudding Day",
@@ -262,7 +364,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "HappyBirthdayWilliamGolding": {
       "theme": "Birthday William Golding",
@@ -290,7 +392,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -306,7 +408,7 @@
         }
       },
       "total_score": 3,
-      "last_checked": "2026-09-22T00:26:35.877826+00:00"
+      "last_checked": "2026-09-22T23:55:40.235589+00:00"
     }
   },
   "2026-09-18": {
