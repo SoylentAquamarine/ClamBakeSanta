@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-14",
-    "theme": "National Cream Filled Donut Day",
-    "haiku": "Cream swirl in soft glaze\nPink dust sparkles, sweet breeze hums\nJoy melts in each bite\nHappy #NationalCreamFilledDonutDay from @ClamBakeSanta",
-    "tag": "NationalCreamFilledDonutDay",
-    "logged_at": "2026-09-14T15:45:28.850494+00:00"
-  },
-  {
-    "date": "2026-09-14",
-    "theme": "National Coloring Day",
-    "haiku": "Crayon rivers gleam\nPaper waves swirl bright blue soft\nColor dreams take flight\nHappy #NationalColoringDay from @ClamBakeSanta",
-    "tag": "NationalColoringDay",
-    "logged_at": "2026-09-14T15:45:28.850494+00:00"
-  },
-  {
-    "date": "2026-09-14",
-    "theme": "Birthday Alexander von Humboldt",
-    "haiku": "Morning mist kisses\nMountains hum with bright blue sky\nStars whisper soft light\n#HappyBirthdayAlexandervonHumboldt from @ClamBakeSanta",
-    "tag": "HappyBirthdayAlexandervonHumboldt",
-    "logged_at": "2026-09-14T15:45:28.850494+00:00"
-  },
-  {
     "date": "2026-09-15",
     "theme": "National Linguine Day",
     "haiku": "Pasta twirls in steam\nRed sauce drips like sunset glow\nTaste sings on warm tongue\nHappy #NationalLinguineDay from @ClamBakeSanta",
@@ -159,5 +138,33 @@
     "haiku": "Sunrise paints gold hues\nLaughter rings like bells in soft\nJoy blooms in bright sky\n#HappyBirthdayUptonSinclair from @ClamBakeSanta",
     "tag": "HappyBirthdayUptonSinclair",
     "logged_at": "2026-09-20T13:30:40.961580+00:00"
+  },
+  {
+    "date": "2026-09-21",
+    "theme": "International Day of Peace",
+    "haiku": "Sunlit waves whisper\nChildren laugh, hands join, peace blooms\nSoft stars glow calm earth\nHappy #InternationalDayOfPeace from @ClamBakeSanta",
+    "tag": "InternationalDayOfPeace",
+    "logged_at": "2026-09-21T15:44:58.896292+00:00"
+  },
+  {
+    "date": "2026-09-21",
+    "theme": "National Pecan Cookie Day",
+    "haiku": "Pecan crumbs fall bright\nSunset glaze on soft warm dough\nCrackling scent fills air\nHappy #NationalPecanCookieDay from @ClamBakeSanta",
+    "tag": "NationalPecanCookieDay",
+    "logged_at": "2026-09-21T15:44:58.896292+00:00"
+  },
+  {
+    "date": "2026-09-21",
+    "theme": "Birthday H.G. Wells",
+    "haiku": "Sunrise paints bright gold\nPages turn, tales bloom anew\nFireworks spark wonder\n#HappyBirthdayHGWells from @ClamBakeSanta",
+    "tag": "HappyBirthdayHGWells",
+    "logged_at": "2026-09-21T15:44:58.896292+00:00"
+  },
+  {
+    "date": "2026-09-21",
+    "theme": "Birthday Stephen King",
+    "haiku": "Midnight candles glow\nPages turn, stories stir, soft\nNight birds hum softly\n#HappyBirthdayStephenKing from @ClamBakeSanta",
+    "tag": "HappyBirthdayStephenKing",
+    "logged_at": "2026-09-21T15:44:58.896292+00:00"
   }
 ]

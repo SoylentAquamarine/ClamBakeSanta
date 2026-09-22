@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "haikus": [
     {
-      "theme": "International Day of Peace",
-      "haiku": "Sunlit waves whisper\nChildren laugh, hands join, peace blooms\nSoft stars glow calm earth\nHappy #InternationalDayOfPeace from @ClamBakeSanta",
-      "tag": "InternationalDayOfPeace",
+      "theme": "First Day of Autumn",
+      "haiku": "Golden leaves descend\nCrisp air whispers through the trees\nCozy warmth abides\nHappy #FirstDayOfAutumn from @ClamBakeSanta",
+      "tag": "FirstDayOfAutumn",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Pecan Cookie Day",
-      "haiku": "Pecan crumbs fall bright\nSunset glaze on soft warm dough\nCrackling scent fills air\nHappy #NationalPecanCookieDay from @ClamBakeSanta",
-      "tag": "NationalPecanCookieDay",
+      "theme": "National White Chocolate Day",
+      "haiku": "White cocoa drifts bright\nSoft sugar clouds melt on tongue\nJoy melts in each bite\nHappy #NationalWhiteChocolateDay from @ClamBakeSanta",
+      "tag": "NationalWhiteChocolateDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday H.G. Wells",
-      "haiku": "Sunrise paints bright gold\nPages turn, tales bloom anew\nFireworks spark wonder\n#HappyBirthdayHGWells from @ClamBakeSanta",
-      "tag": "HappyBirthdayHGWells",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Stephen King",
-      "haiku": "Midnight candles glow\nPages turn, stories stir, soft\nNight birds hum softly\n#HappyBirthdayStephenKing from @ClamBakeSanta",
-      "tag": "HappyBirthdayStephenKing",
+      "theme": "Birthday Michael Faraday",
+      "haiku": "Bright sparks ignite wide\nFields hum with electric dreams\nJoy pulses through night\n#HappyBirthdayMichaelFaraday from @ClamBakeSanta",
+      "tag": "HappyBirthdayMichaelFaraday",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "International Day of Peace",
-    "National Pecan Cookie Day",
-    "Birthday H.G. Wells",
-    "Birthday Stephen King"
+    "First Day of Autumn",
+    "National White Chocolate Day",
+    "Birthday Michael Faraday"
   ],
-  "content": "Sunlit waves whisper\nChildren laugh, hands join, peace blooms\nSoft stars glow calm earth\nHappy #InternationalDayOfPeace from @ClamBakeSanta\n\nPecan crumbs fall bright\nSunset glaze on soft warm dough\nCrackling scent fills air\nHappy #NationalPecanCookieDay from @ClamBakeSanta\n\nSunrise paints bright gold\nPages turn, tales bloom anew\nFireworks spark wonder\n#HappyBirthdayHGWells from @ClamBakeSanta\n\nMidnight candles glow\nPages turn, stories stir, soft\nNight birds hum softly\n#HappyBirthdayStephenKing from @ClamBakeSanta",
-  "saved_at": "2026-09-21T15:44:58.895952+00:00"
+  "content": "Golden leaves descend\nCrisp air whispers through the trees\nCozy warmth abides\nHappy #FirstDayOfAutumn from @ClamBakeSanta\n\nWhite cocoa drifts bright\nSoft sugar clouds melt on tongue\nJoy melts in each bite\nHappy #NationalWhiteChocolateDay from @ClamBakeSanta\n\nBright sparks ignite wide\nFields hum with electric dreams\nJoy pulses through night\n#HappyBirthdayMichaelFaraday from @ClamBakeSanta",
+  "saved_at": "2026-09-22T13:57:40.185110+00:00"
 }

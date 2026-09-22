@@ -1,4 +1,66 @@
 {
+  "2026-09-22": {
+    "FirstDayOfAutumn": {
+      "mastodon": {
+        "id": "117315040756146880",
+        "url": "https://mastodon.social/@ClamBakeSanta/117315040756146880"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f5oarvz25",
+        "cid": "bafyreiez5hko4bvx6yun4hw4ds3klgpknx2rkizx5y3m76zgpxdadmniji"
+      },
+      "tumblr": {
+        "id": "828464906579951616",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "509",
+        "channel": "@clambakesanta"
+      }
+    },
+    "NationalWhiteChocolateDay": {
+      "mastodon": {
+        "id": "117315044731294523",
+        "url": "https://mastodon.social/@ClamBakeSanta/117315044731294523"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f7hobmr2x",
+        "cid": "bafyreiaczbtcmwbxholv74vpni3qrto3unrx4gcd4hwq24lpyzld6caz64"
+      },
+      "tumblr": {
+        "id": "828464970028220416",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "510",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayMichaelFaraday": {
+      "mastodon": {
+        "id": "117315048684605957",
+        "url": "https://mastodon.social/@ClamBakeSanta/117315048684605957"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4fbb47yn2k",
+        "cid": "bafyreihmc27vnidfannnz6obyp64noxv5yo2uzc3gsxij2eavtnwpb32t4"
+      },
+      "tumblr": {
+        "id": "828465033483829248",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "511",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "168",
+        "url": "https://clambakesanta.wordpress.com/2026/09/22/clam-bake-santa-2026-09-22/"
+      }
+    }
+  },
   "2026-09-21": {
     "InternationalDayOfPeace": {
       "mastodon": {
@@ -452,68 +514,6 @@
       "wordpress": {
         "id": "161",
         "url": "https://clambakesanta.wordpress.com/2026/09/15/clam-bake-santa-2026-09-15/"
-      }
-    }
-  },
-  "2026-09-14": {
-    "NationalCreamFilledDonutDay": {
-      "mastodon": {
-        "id": "117270166208270090",
-        "url": "https://mastodon.social/@ClamBakeSanta/117270166208270090"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvihh5v4n42y",
-        "cid": "bafyreihfxncdd7l6nkrsmz5etg4n5bhhtqcnki6dkpibqtlwd6agwulkhi"
-      },
-      "tumblr": {
-        "id": "827746916158898176",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "482",
-        "channel": "@clambakesanta"
-      }
-    },
-    "NationalColoringDay": {
-      "mastodon": {
-        "id": "117270170192982154",
-        "url": "https://mastodon.social/@ClamBakeSanta/117270170192982154"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvihixh3u52z",
-        "cid": "bafyreihtg2pjtxei62trbkppvxglw2ynsht2vbmgdlij2uhnz26ztttc7e"
-      },
-      "tumblr": {
-        "id": "827746979508633600",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "483",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayAlexandervonHumboldt": {
-      "mastodon": {
-        "id": "117270174185235763",
-        "url": "https://mastodon.social/@ClamBakeSanta/117270174185235763"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvihkqtrnr2h",
-        "cid": "bafyreif77drkp76bje4erl2u464bsk7nmxtvbnhmoi4njiw77k3nwsrtha"
-      },
-      "tumblr": {
-        "id": "827747043032367104",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "484",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "160",
-        "url": "https://clambakesanta.wordpress.com/2026/09/14/clam-bake-santa-2026-09-14/"
       }
     }
   }

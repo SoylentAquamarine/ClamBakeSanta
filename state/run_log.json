@@ -160,7 +160,8 @@
     "2026-09-18",
     "2026-09-19",
     "2026-09-20",
-    "2026-09-21"
+    "2026-09-21",
+    "2026-09-22"
   ],
   "runs": [
     {
@@ -2070,6 +2071,17 @@
         "Birthday Stephen King"
       ],
       "content_preview": "Sunlit waves whisper Children laugh, hands join, peace blooms Soft stars glow calm earth Happy #InternationalDayOfPeace "
+    },
+    {
+      "date": "2026-09-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-22T14:05:54.428617+00:00",
+      "themes": [
+        "First Day of Autumn",
+        "National White Chocolate Day",
+        "Birthday Michael Faraday"
+      ],
+      "content_preview": "Golden leaves descend Crisp air whispers through the trees Cozy warmth abides Happy #FirstDayOfAutumn from @ClamBakeSant"
     }
   ]
 }

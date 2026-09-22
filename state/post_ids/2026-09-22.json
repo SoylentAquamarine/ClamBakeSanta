@@ -1,0 +1,62 @@
+{
+  "FirstDayOfAutumn": {
+    "mastodon": {
+      "id": "117315040756146880",
+      "url": "https://mastodon.social/@ClamBakeSanta/117315040756146880"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f5oarvz25",
+      "cid": "bafyreiez5hko4bvx6yun4hw4ds3klgpknx2rkizx5y3m76zgpxdadmniji"
+    },
+    "tumblr": {
+      "id": "828464906579951616",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "509",
+      "channel": "@clambakesanta"
+    }
+  },
+  "NationalWhiteChocolateDay": {
+    "mastodon": {
+      "id": "117315044731294523",
+      "url": "https://mastodon.social/@ClamBakeSanta/117315044731294523"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f7hobmr2x",
+      "cid": "bafyreiaczbtcmwbxholv74vpni3qrto3unrx4gcd4hwq24lpyzld6caz64"
+    },
+    "tumblr": {
+      "id": "828464970028220416",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "510",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayMichaelFaraday": {
+    "mastodon": {
+      "id": "117315048684605957",
+      "url": "https://mastodon.social/@ClamBakeSanta/117315048684605957"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4fbb47yn2k",
+      "cid": "bafyreihmc27vnidfannnz6obyp64noxv5yo2uzc3gsxij2eavtnwpb32t4"
+    },
+    "tumblr": {
+      "id": "828465033483829248",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "511",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "168",
+      "url": "https://clambakesanta.wordpress.com/2026/09/22/clam-bake-santa-2026-09-22/"
+    }
+  }
+}
