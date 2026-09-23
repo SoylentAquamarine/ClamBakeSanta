@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-15",
-    "theme": "National Linguine Day",
-    "haiku": "Pasta twirls in steam\nRed sauce drips like sunset glow\nTaste sings on warm tongue\nHappy #NationalLinguineDay from @ClamBakeSanta",
-    "tag": "NationalLinguineDay",
-    "logged_at": "2026-09-15T14:13:22.726302+00:00"
-  },
-  {
-    "date": "2026-09-15",
-    "theme": "National Make a Hat Day",
-    "haiku": "Stitching wool bright hats\nSoft yarn curls, warm bright sun smiles\nThreads weave joy, hats rise\nHappy #NationalMakeAHatDay from @ClamBakeSanta",
-    "tag": "NationalMakeAHatDay",
-    "logged_at": "2026-09-15T14:13:22.726302+00:00"
-  },
-  {
-    "date": "2026-09-15",
-    "theme": "Birthday Agatha Christie",
-    "haiku": "Candle flickers low\nsoft scent of ink and tea swirl\nClue scents rise high soft\n#HappyBirthdayAgathaChristie from @Cl",
-    "tag": "HappyBirthdayAgathaChristie",
-    "logged_at": "2026-09-15T14:13:22.726302+00:00"
-  },
-  {
-    "date": "2026-09-15",
-    "theme": "Birthday James Fenimore Cooper",
-    "haiku": "Soft candle glow warm\nPaper pages turn, wind sighs\nLeaves dance, smiles rise bright\n#HappyBirthdayJamesFenimoreCooper from @ClamBakeSanta",
-    "tag": "HappyBirthdayJamesFenimoreCooper",
-    "logged_at": "2026-09-15T14:13:22.726302+00:00"
-  },
-  {
     "date": "2026-09-16",
     "theme": "National Cinnamon Raisin Bread Day",
     "haiku": "Warm dough rises soft\nCinnamon scent fills bright room\nRaisins glow inside\nHappy #National",
@@ -166,5 +138,26 @@
     "haiku": "Midnight candles glow\nPages turn, stories stir, soft\nNight birds hum softly\n#HappyBirthdayStephenKing from @ClamBakeSanta",
     "tag": "HappyBirthdayStephenKing",
     "logged_at": "2026-09-21T15:44:58.896292+00:00"
+  },
+  {
+    "date": "2026-09-22",
+    "theme": "First Day of Autumn",
+    "haiku": "Golden leaves descend\nCrisp air whispers through the trees\nCozy warmth abides\nHappy #FirstDayOfAutumn from @ClamBakeSanta",
+    "tag": "FirstDayOfAutumn",
+    "logged_at": "2026-09-22T13:57:40.185432+00:00"
+  },
+  {
+    "date": "2026-09-22",
+    "theme": "National White Chocolate Day",
+    "haiku": "White cocoa drifts bright\nSoft sugar clouds melt on tongue\nJoy melts in each bite\nHappy #NationalWhiteChocolateDay from @ClamBakeSanta",
+    "tag": "NationalWhiteChocolateDay",
+    "logged_at": "2026-09-22T13:57:40.185432+00:00"
+  },
+  {
+    "date": "2026-09-22",
+    "theme": "Birthday Michael Faraday",
+    "haiku": "Bright sparks ignite wide\nFields hum with electric dreams\nJoy pulses through night\n#HappyBirthdayMichaelFaraday from @ClamBakeSanta",
+    "tag": "HappyBirthdayMichaelFaraday",
+    "logged_at": "2026-09-22T13:57:40.185432+00:00"
   }
 ]
