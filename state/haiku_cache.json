@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "haikus": [
     {
-      "theme": "National Great American Pot Pie Day",
-      "haiku": "Steam curls soft in air\nGolden crust gleams, butter melts\nTaste of home, heart sighs\nHappy #NationalGreatAmericanPotPieDay from @ClamBakeSanta",
-      "tag": "NationalGreatAmericanPotPieDay",
+      "theme": "National Cherries Jubilee Day",
+      "haiku": "Red fruit glows in gold,\nSweet warm scent fills all the air,\nRed juice drips on ice.\nHappy #NationalCherriesJubileeDay from @ClamBakeSanta",
+      "tag": "NationalCherriesJubileeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Dogs in Politics Day",
-      "haiku": "Bark echoes in halls\nCanines parade wagging tails\nJoyful paws step bright\nHappy #DogsInPoliticsDay from @Clam",
-      "tag": "DogsInPoliticsDay",
+      "theme": "National Punctuation Day",
+      "haiku": "Comma dots dance bright\nPunctuation sings like rain\nEach mark warms the word\nHappy #NationalPunctuationDay from @ClamBakeSanta",
+      "tag": "NationalPunctuationDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Ray Charles",
-      "haiku": "Golden trumpet gleams\nSax sings under velvet night\nJoy drips like honey\n#HappyBirthdayRayCharles from @ClamBakeSanta",
-      "tag": "HappyBirthdayRayCharles",
+      "theme": "Birthday F. Scott Fitzgerald",
+      "haiku": "Candle glow, soft night\nJazz notes swirl in warm air soft\nPages turn, dreams bloom\n#HappyBirthdayFScottFitzgerald from @ClamBakeSanta",
+      "tag": "HappyBirthdayFScottFitzgerald",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Autumn Equinox",
-      "haiku": "Crimson leaves descend\nCool breeze hums through quiet woods\nEarth sighs amber glow\nHappy #AutumnEquinox from @ClamBakeSanta",
-      "tag": "AutumnEquinox",
+      "theme": "Welcome to Libra Season",
+      "haiku": "Gentle wind sighs soft\nLeaves dance in silver light glow\nStars hum warm night glow\nHappy #WelcomeToLibraSeason from @ClamBakeSanta",
+      "tag": "WelcomeToLibraSeason",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Great American Pot Pie Day",
-    "Dogs in Politics Day",
-    "Birthday Ray Charles",
-    "Autumn Equinox"
+    "National Cherries Jubilee Day",
+    "National Punctuation Day",
+    "Birthday F. Scott Fitzgerald",
+    "Welcome to Libra Season"
   ],
-  "content": "Steam curls soft in air\nGolden crust gleams, butter melts\nTaste of home, heart sighs\nHappy #NationalGreatAmericanPotPieDay from @ClamBakeSanta\n\nBark echoes in halls\nCanines parade wagging tails\nJoyful paws step bright\nHappy #DogsInPoliticsDay from @Clam\n\nGolden trumpet gleams\nSax sings under velvet night\nJoy drips like honey\n#HappyBirthdayRayCharles from @ClamBakeSanta\n\nCrimson leaves descend\nCool breeze hums through quiet woods\nEarth sighs amber glow\nHappy #AutumnEquinox from @ClamBakeSanta",
-  "saved_at": "2026-09-23T14:08:01.421624+00:00"
+  "content": "Red fruit glows in gold,\nSweet warm scent fills all the air,\nRed juice drips on ice.\nHappy #NationalCherriesJubileeDay from @ClamBakeSanta\n\nComma dots dance bright\nPunctuation sings like rain\nEach mark warms the word\nHappy #NationalPunctuationDay from @ClamBakeSanta\n\nCandle glow, soft night\nJazz notes swirl in warm air soft\nPages turn, dreams bloom\n#HappyBirthdayFScottFitzgerald from @ClamBakeSanta\n\nGentle wind sighs soft\nLeaves dance in silver light glow\nStars hum warm night glow\nHappy #WelcomeToLibraSeason from @ClamBakeSanta",
+  "saved_at": "2026-09-24T14:06:13.172329+00:00"
 }
