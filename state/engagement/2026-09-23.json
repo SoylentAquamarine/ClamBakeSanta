@@ -1,0 +1,130 @@
+{
+  "NationalGreatAmericanPotPieDay": {
+    "theme": "National Great American Pot Pie Day",
+    "haiku": "Steam curls soft in air\nGolden crust gleams, butter melts\nTaste of home, heart sighs\nHappy #NationalGreatAmericanPotPieDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117320743779514495",
+        "url": "https://mastodon.social/@ClamBakeSanta/117320743779514495",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw6wavl55v2l",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "828556281189154816",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-24T00:08:54.623177+00:00"
+  },
+  "DogsInPoliticsDay": {
+    "theme": "Dogs in Politics Day",
+    "haiku": "Bark echoes in halls\nCanines parade wagging tails\nJoyful paws step bright\nHappy #DogsInPoliticsDay from @Clam",
+    "platforms": {
+      "mastodon": {
+        "id": "117320747738690916",
+        "url": "https://mastodon.social/@ClamBakeSanta/117320747738690916",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw6wcp22uy23",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      },
+      "tumblr": {
+        "id": "828556344743346176",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-09-24T00:08:54.623177+00:00"
+  },
+  "HappyBirthdayRayCharles": {
+    "theme": "Birthday Ray Charles",
+    "haiku": "Golden trumpet gleams\nSax sings under velvet night\nJoy drips like honey\n#HappyBirthdayRayCharles from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117320751698530860",
+        "url": "https://mastodon.social/@ClamBakeSanta/117320751698530860",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw6weijedp2p",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "828556408078450688",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-24T00:08:54.623177+00:00"
+  },
+  "AutumnEquinox": {
+    "theme": "Autumn Equinox",
+    "haiku": "Crimson leaves descend\nCool breeze hums through quiet woods\nEarth sighs amber glow\nHappy #AutumnEquinox from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117320755659060000",
+        "url": "https://mastodon.social/@ClamBakeSanta/117320755659060000",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw6wgbywkh2p",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "828556471405002752",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-09-24T00:08:54.623177+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "169",
+        "url": "https://clambakesanta.wordpress.com/2026/09/23/clam-bake-santa-2026-09-23/",
+        "views": 3,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-09-24T00:08:54.623177+00:00"
+  }
+}
