@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "haikus": [
     {
-      "theme": "National Cherries Jubilee Day",
-      "haiku": "Red fruit glows in gold,\nSweet warm scent fills all the air,\nRed juice drips on ice.\nHappy #NationalCherriesJubileeDay from @ClamBakeSanta",
-      "tag": "NationalCherriesJubileeDay",
+      "theme": "National Comic Book Day",
+      "haiku": "Ink glows on panels\nHeroes leap with comic hearts\nPages flutter, joy\nHappy #NationalComicBookDay from @ClamBakeSanta",
+      "tag": "NationalComicBookDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Punctuation Day",
-      "haiku": "Comma dots dance bright\nPunctuation sings like rain\nEach mark warms the word\nHappy #NationalPunctuationDay from @ClamBakeSanta",
-      "tag": "NationalPunctuationDay",
+      "theme": "National Lobster Day",
+      "haiku": "Red shells glow bright soft\nSea breeze carries sweet warm salt\nCrustacean feast calls\nHappy #NationalLobsterDay from @ClamBakeSanta",
+      "tag": "NationalLobsterDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday F. Scott Fitzgerald",
-      "haiku": "Candle glow, soft night\nJazz notes swirl in warm air soft\nPages turn, dreams bloom\n#HappyBirthdayFScottFitzgerald from @ClamBakeSanta",
-      "tag": "HappyBirthdayFScottFitzgerald",
+      "theme": "Birthday William Faulkner",
+      "haiku": "Gentle candle glow\nPages turn like soft rain near\nStories breathe warm light\n#HappyBirthdayWilliamFaulkner from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamFaulkner",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Welcome to Libra Season",
-      "haiku": "Gentle wind sighs soft\nLeaves dance in silver light glow\nStars hum warm night glow\nHappy #WelcomeToLibraSeason from @ClamBakeSanta",
-      "tag": "WelcomeToLibraSeason",
+      "theme": "Birthday Dmitri Shostakovich",
+      "haiku": "Melody drifts, soft\nBright chords dance on air and light\nJoy sings, heart bright now\n#HappyBirthdayDmitriShostakovich from @ClamBakeSanta",
+      "tag": "HappyBirthdayDmitriShostakovich",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Cherries Jubilee Day",
-    "National Punctuation Day",
-    "Birthday F. Scott Fitzgerald",
-    "Welcome to Libra Season"
+    "National Comic Book Day",
+    "National Lobster Day",
+    "Birthday William Faulkner",
+    "Birthday Dmitri Shostakovich"
   ],
-  "content": "Red fruit glows in gold,\nSweet warm scent fills all the air,\nRed juice drips on ice.\nHappy #NationalCherriesJubileeDay from @ClamBakeSanta\n\nComma dots dance bright\nPunctuation sings like rain\nEach mark warms the word\nHappy #NationalPunctuationDay from @ClamBakeSanta\n\nCandle glow, soft night\nJazz notes swirl in warm air soft\nPages turn, dreams bloom\n#HappyBirthdayFScottFitzgerald from @ClamBakeSanta\n\nGentle wind sighs soft\nLeaves dance in silver light glow\nStars hum warm night glow\nHappy #WelcomeToLibraSeason from @ClamBakeSanta",
-  "saved_at": "2026-09-24T14:06:13.172329+00:00"
+  "content": "Ink glows on panels\nHeroes leap with comic hearts\nPages flutter, joy\nHappy #NationalComicBookDay from @ClamBakeSanta\n\nRed shells glow bright soft\nSea breeze carries sweet warm salt\nCrustacean feast calls\nHappy #NationalLobsterDay from @ClamBakeSanta\n\nGentle candle glow\nPages turn like soft rain near\nStories breathe warm light\n#HappyBirthdayWilliamFaulkner from @ClamBakeSanta\n\nMelody drifts, soft\nBright chords dance on air and light\nJoy sings, heart bright now\n#HappyBirthdayDmitriShostakovich from @ClamBakeSanta",
+  "saved_at": "2026-09-25T14:29:11.181998+00:00"
 }

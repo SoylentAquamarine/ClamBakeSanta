@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-17",
-    "theme": "National Apple Dumpling Day",
-    "haiku": "Apple scent rises\nSteam curls, sugar sparks in steam\nWarm dough hugs sweet bite\nHappy #NationalAppleDumplingDay from @ClamBakeSanta",
-    "tag": "NationalAppleDumplingDay",
-    "logged_at": "2026-09-17T14:11:09.148184+00:00"
-  },
-  {
-    "date": "2026-09-17",
-    "theme": "National Constitution Day",
-    "haiku": "Paper parchment glows\nInk flows like river song bright\nDreams rise on parchment\nHappy #NationalConstitutionDay from @ClamBakeSanta",
-    "tag": "NationalConstitutionDay",
-    "logged_at": "2026-09-17T14:11:09.148184+00:00"
-  },
-  {
-    "date": "2026-09-17",
-    "theme": "Birthday Hank Williams",
-    "haiku": "Soft blue sky sings bright\nStarlight drapes the porch with glow\nHank voice rides wind sweet\n#HappyBirthdayHankWilliams from @ClamBakeSanta",
-    "tag": "HappyBirthdayHankWilliams",
-    "logged_at": "2026-09-17T14:11:09.148184+00:00"
-  },
-  {
     "date": "2026-09-18",
     "theme": "National Cheeseburger Day",
     "haiku": "Patty sizzles hot\nCheese melts, soft green lettuce bright\nBun sighs warm, salt kiss\nHappy #NationalCheeseburgerDay from @ClamBakeSanta",
@@ -166,5 +145,33 @@
     "haiku": "Crimson leaves descend\nCool breeze hums through quiet woods\nEarth sighs amber glow\nHappy #AutumnEquinox from @ClamBakeSanta",
     "tag": "AutumnEquinox",
     "logged_at": "2026-09-23T14:08:01.422089+00:00"
+  },
+  {
+    "date": "2026-09-24",
+    "theme": "National Cherries Jubilee Day",
+    "haiku": "Red fruit glows in gold,\nSweet warm scent fills all the air,\nRed juice drips on ice.\nHappy #NationalCherriesJubileeDay from @ClamBakeSanta",
+    "tag": "NationalCherriesJubileeDay",
+    "logged_at": "2026-09-24T14:06:13.172894+00:00"
+  },
+  {
+    "date": "2026-09-24",
+    "theme": "National Punctuation Day",
+    "haiku": "Comma dots dance bright\nPunctuation sings like rain\nEach mark warms the word\nHappy #NationalPunctuationDay from @ClamBakeSanta",
+    "tag": "NationalPunctuationDay",
+    "logged_at": "2026-09-24T14:06:13.172894+00:00"
+  },
+  {
+    "date": "2026-09-24",
+    "theme": "Birthday F. Scott Fitzgerald",
+    "haiku": "Candle glow, soft night\nJazz notes swirl in warm air soft\nPages turn, dreams bloom\n#HappyBirthdayFScottFitzgerald from @ClamBakeSanta",
+    "tag": "HappyBirthdayFScottFitzgerald",
+    "logged_at": "2026-09-24T14:06:13.172894+00:00"
+  },
+  {
+    "date": "2026-09-24",
+    "theme": "Welcome to Libra Season",
+    "haiku": "Gentle wind sighs soft\nLeaves dance in silver light glow\nStars hum warm night glow\nHappy #WelcomeToLibraSeason from @ClamBakeSanta",
+    "tag": "WelcomeToLibraSeason",
+    "logged_at": "2026-09-24T14:06:13.172894+00:00"
   }
 ]

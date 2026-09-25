@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-08-25T09:49:59.998485+00:00",
-    "date": "2026-08-25",
+    "timestamp": "2026-09-25T14:41:23.774674+00:00",
+    "date": "2026-09-25",
     "themes_found": [
-      "National Banana Split Day",
-      "National Whiskey Sour Day",
-      "Birthday Althea Gibson",
-      "Birthday Leonard Bernstein"
+      "National Comic Book Day",
+      "National Lobster Day",
+      "Birthday William Faulkner",
+      "Birthday Dmitri Shostakovich"
     ],
     "haikus_posted": [
       {
-        "theme": "National Banana Split Day",
-        "tag": "NationalBananaSplitDay",
+        "theme": "National Comic Book Day",
+        "tag": "NationalComicBookDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "National Whiskey Sour Day",
-        "tag": "NationalWhiskeySourDay",
+        "theme": "National Lobster Day",
+        "tag": "NationalLobsterDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday Althea Gibson",
-        "tag": "HappyBirthdayAltheaGibson",
+        "theme": "Birthday William Faulkner",
+        "tag": "HappyBirthdayWilliamFaulkner",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "Birthday Leonard Bernstein",
-        "tag": "HappyBirthdayLeonardBernstein",
+        "theme": "Birthday Dmitri Shostakovich",
+        "tag": "HappyBirthdayDmitriShostakovich",
         "valid_syllables": true,
         "counts": [
           5,
