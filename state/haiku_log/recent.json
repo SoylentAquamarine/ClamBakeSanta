@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-18",
-    "theme": "National Cheeseburger Day",
-    "haiku": "Patty sizzles hot\nCheese melts, soft green lettuce bright\nBun sighs warm, salt kiss\nHappy #NationalCheeseburgerDay from @ClamBakeSanta",
-    "tag": "NationalCheeseburgerDay",
-    "logged_at": "2026-09-18T13:29:16.071617+00:00"
-  },
-  {
-    "date": "2026-09-18",
-    "theme": "National HIV/AIDS and Aging Awareness Day",
-    "haiku": "Soft snow whispers light\nCrimson berries glow soft warm\nGentle hands share hope\nHappy #NationalHivAidsAndAgingAwarenessDay from @ClamBakeSanta",
-    "tag": "NationalHivAidsAndAgingAwarenessDay",
-    "logged_at": "2026-09-18T13:29:16.071617+00:00"
-  },
-  {
-    "date": "2026-09-18",
-    "theme": "Birthday Samuel Johnson",
-    "haiku": "Soft snowflakes whisper\nOak tree candles glow softly\nJoy drifts in winter\n#HappyBirthdaySamuelJohnson from @ClamBakeSanta",
-    "tag": "HappyBirthdaySamuelJohnson",
-    "logged_at": "2026-09-18T13:29:16.071617+00:00"
-  },
-  {
-    "date": "2026-09-18",
-    "theme": "First Quarter Moon",
-    "haiku": "Soft night sky rises\nMoon lifts a bright silver arc\nStars whisper soft light\nHappy #FirstQuarterMoon from @Clam",
-    "tag": "FirstQuarterMoon",
-    "logged_at": "2026-09-18T13:29:16.071617+00:00"
-  },
-  {
     "date": "2026-09-19",
     "theme": "Talk Like a Pirate Day",
     "haiku": "Yo ho, the sea calls\nCrackling waves, salty breeze soft\nSails rise with sunrise\nHappy #TalkLikeAPirateDay from @ClamBakeSanta",
@@ -173,5 +145,33 @@
     "haiku": "Gentle wind sighs soft\nLeaves dance in silver light glow\nStars hum warm night glow\nHappy #WelcomeToLibraSeason from @ClamBakeSanta",
     "tag": "WelcomeToLibraSeason",
     "logged_at": "2026-09-24T14:06:13.172894+00:00"
+  },
+  {
+    "date": "2026-09-25",
+    "theme": "National Comic Book Day",
+    "haiku": "Ink glows on panels\nHeroes leap with comic hearts\nPages flutter, joy\nHappy #NationalComicBookDay from @ClamBakeSanta",
+    "tag": "NationalComicBookDay",
+    "logged_at": "2026-09-25T14:29:11.182823+00:00"
+  },
+  {
+    "date": "2026-09-25",
+    "theme": "National Lobster Day",
+    "haiku": "Red shells glow bright soft\nSea breeze carries sweet warm salt\nCrustacean feast calls\nHappy #NationalLobsterDay from @ClamBakeSanta",
+    "tag": "NationalLobsterDay",
+    "logged_at": "2026-09-25T14:29:11.182823+00:00"
+  },
+  {
+    "date": "2026-09-25",
+    "theme": "Birthday William Faulkner",
+    "haiku": "Gentle candle glow\nPages turn like soft rain near\nStories breathe warm light\n#HappyBirthdayWilliamFaulkner from @ClamBakeSanta",
+    "tag": "HappyBirthdayWilliamFaulkner",
+    "logged_at": "2026-09-25T14:29:11.182823+00:00"
+  },
+  {
+    "date": "2026-09-25",
+    "theme": "Birthday Dmitri Shostakovich",
+    "haiku": "Melody drifts, soft\nBright chords dance on air and light\nJoy sings, heart bright now\n#HappyBirthdayDmitriShostakovich from @ClamBakeSanta",
+    "tag": "HappyBirthdayDmitriShostakovich",
+    "logged_at": "2026-09-25T14:29:11.182823+00:00"
   }
 ]

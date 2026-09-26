@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "haikus": [
     {
-      "theme": "National Comic Book Day",
-      "haiku": "Ink glows on panels\nHeroes leap with comic hearts\nPages flutter, joy\nHappy #NationalComicBookDay from @ClamBakeSanta",
-      "tag": "NationalComicBookDay",
+      "theme": "National Pancake Day",
+      "haiku": "Syrup drips at dawn\nStacks rise like soft clouds, gold bright\nFlavors swirl in air\nHappy #NationalPancakeDay from @Cl",
+      "tag": "NationalPancakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Lobster Day",
-      "haiku": "Red shells glow bright soft\nSea breeze carries sweet warm salt\nCrustacean feast calls\nHappy #NationalLobsterDay from @ClamBakeSanta",
-      "tag": "NationalLobsterDay",
+      "theme": "Johnny Appleseed Day",
+      "haiku": "Seeds scattered by hand\nGolden blossoms bloom freely\nNature's gifts unfold\nHappy #JohnnyAppleseedDay from @ClamBakeSanta",
+      "tag": "JohnnyAppleseedDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday William Faulkner",
-      "haiku": "Gentle candle glow\nPages turn like soft rain near\nStories breathe warm light\n#HappyBirthdayWilliamFaulkner from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamFaulkner",
+      "theme": "Birthday George Gershwin",
+      "haiku": "Midnight jazz hums bright\nGershwin smiles, notes rise, sweet soft\nMoonlight waltzes slow\n#HappyBirthdayGeorgeGers",
+      "tag": "HappyBirthdayGeorgeGershwin",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Dmitri Shostakovich",
-      "haiku": "Melody drifts, soft\nBright chords dance on air and light\nJoy sings, heart bright now\n#HappyBirthdayDmitriShostakovich from @ClamBakeSanta",
-      "tag": "HappyBirthdayDmitriShostakovich",
+      "theme": "Birthday Olivia Newton-John",
+      "haiku": "Bright glow of candles\nSoftly music swirls in air\nJoyful hearts sing bright\n#HappyBirthdayOliviaNewtonJohn from @Clam",
+      "tag": "HappyBirthdayOliviaNewtonJohn",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Full Moon",
+      "haiku": "Silver glow drifts high\nNight air hums with quiet stars\nMoonlight paints warm waves\nHappy #FullMoon from @ClamBakeSanta",
+      "tag": "FullMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +58,12 @@
     }
   ],
   "themes": [
-    "National Comic Book Day",
-    "National Lobster Day",
-    "Birthday William Faulkner",
-    "Birthday Dmitri Shostakovich"
+    "National Pancake Day",
+    "Johnny Appleseed Day",
+    "Birthday George Gershwin",
+    "Birthday Olivia Newton-John",
+    "Full Moon"
   ],
-  "content": "Ink glows on panels\nHeroes leap with comic hearts\nPages flutter, joy\nHappy #NationalComicBookDay from @ClamBakeSanta\n\nRed shells glow bright soft\nSea breeze carries sweet warm salt\nCrustacean feast calls\nHappy #NationalLobsterDay from @ClamBakeSanta\n\nGentle candle glow\nPages turn like soft rain near\nStories breathe warm light\n#HappyBirthdayWilliamFaulkner from @ClamBakeSanta\n\nMelody drifts, soft\nBright chords dance on air and light\nJoy sings, heart bright now\n#HappyBirthdayDmitriShostakovich from @ClamBakeSanta",
-  "saved_at": "2026-09-25T14:29:11.181998+00:00"
+  "content": "Syrup drips at dawn\nStacks rise like soft clouds, gold bright\nFlavors swirl in air\nHappy #NationalPancakeDay from @Cl\n\nSeeds scattered by hand\nGolden blossoms bloom freely\nNature's gifts unfold\nHappy #JohnnyAppleseedDay from @ClamBakeSanta\n\nMidnight jazz hums bright\nGershwin smiles, notes rise, sweet soft\nMoonlight waltzes slow\n#HappyBirthdayGeorgeGers\n\nBright glow of candles\nSoftly music swirls in air\nJoyful hearts sing bright\n#HappyBirthdayOliviaNewtonJohn from @Clam\n\nSilver glow drifts high\nNight air hums with quiet stars\nMoonlight paints warm waves\nHappy #FullMoon from @ClamBakeSanta",
+  "saved_at": "2026-09-26T13:47:18.081849+00:00"
 }
