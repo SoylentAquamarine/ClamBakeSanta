@@ -103,25 +103,23 @@ ai:
       model: openai
       optional_key: true
     - name: gemini
-      # BLOCKED — quota limit:0, confirmed twice (2026-08-09, 2026-08-10),
-      # requires linking a billing account to this Google Cloud project to
-      # unlock actual free quota. Kept anyway, a no-cost skip until then.
+      # Model id fixed 2026-09-27 — gemini-2.0-flash was retired (404 "no
+      # longer available", Google's error pointed at gemini-3.8-flash, GA'd
+      # 2026-09-02, confirmed via live docs). Previously blocked on
+      # quota limit:0 (2026-08-09/10) requiring a billing account — that
+      # quota block cleared at some point since the 404 is now model-id, not
+      # quota. Re-verify billing status is still fine if this 404s again.
       base_url: https://generativelanguage.googleapis.com/v1beta/openai/
       key_env: GEMINI_API_KEY
-      model: gemini-2.0-flash
+      model: gemini-3.8-flash
     - name: fireworks
-      # WORKS, partially (confirmed 2026-08-10) — two Llama model ids both
-      # 404'd since Fireworks dropped plain Llama from serverless entirely
-      # (current catalog: DeepSeek/Kimi/GLM/Qwen/MiniMax/gpt-oss/Nemotron).
-      # gpt-oss-20b generates real haikus, including succeeding directly on
-      # some themes, but even at reasoning_effort=low it occasionally still
-      # burns the token budget on hidden reasoning on this specific host,
-      # and this account also hit real rate limits during testing. Kept
-      # low-priority in the chain since it's not fully reliable, but the
-      # retry loop + fallback to the next provider handles that fine.
+      # Model id fixed 2026-09-27 — gpt-oss-20b was dropped from Fireworks'
+      # serverless catalog as of their September 2026 update (confirmed via
+      # live docs/changelog); gpt-oss-120b is now their flagship low-cost
+      # serverless model and takes its place, same reasoning_effort handling.
       base_url: https://api.fireworks.ai/inference/v1
       key_env: FIREWORKS_API_KEY
-      model: accounts/fireworks/models/gpt-oss-20b
+      model: accounts/fireworks/models/gpt-oss-120b
       reasoning_effort: low
     - name: huggingface
       # 400 "not supported by any provider you have enabled" (2026-08-09) —
