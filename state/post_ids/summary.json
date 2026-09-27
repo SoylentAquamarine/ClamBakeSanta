@@ -1,4 +1,66 @@
 {
+  "2026-09-27": {
+    "NationalChocolateMilkDay": {
+      "mastodon": {
+        "id": "117343509715269628",
+        "url": "https://mastodon.social/@ClamBakeSanta/117343509715269628"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwizpuataf2p",
+        "cid": "bafyreidfekeetx6ktgji5l4yguevu5gs2yjxu55cqkwl4t6sskthemi3oe"
+      },
+      "tumblr": {
+        "id": "828920410216218624",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "529",
+        "channel": "@clambakesanta"
+      }
+    },
+    "WorldTourismDay": {
+      "mastodon": {
+        "id": "117343513684966385",
+        "url": "https://mastodon.social/@ClamBakeSanta/117343513684966385"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwizrnnxzp2q",
+        "cid": "bafyreigh4yk5auoymmyzlkjdf6xuudqz74elqdtrebkcsxpttro2eac4ra"
+      },
+      "tumblr": {
+        "id": "828920473753649152",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "530",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayLouisAndriessen": {
+      "mastodon": {
+        "id": "117343517657818480",
+        "url": "https://mastodon.social/@ClamBakeSanta/117343517657818480"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwizth3mpf2d",
+        "cid": "bafyreig3hu2ews4rxiqt2uiay2ufumub3g2q262oy5ntj3ueulczie5rla"
+      },
+      "tumblr": {
+        "id": "828920537284771840",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "531",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "173",
+        "url": "https://clambakesanta.wordpress.com/2026/09/27/clam-bake-santa-2026-09-27/"
+      }
+    }
+  },
   "2026-09-26": {
     "NationalPancakeDay": {
       "mastodon": {
@@ -526,68 +588,6 @@
       "wordpress": {
         "id": "166",
         "url": "https://clambakesanta.wordpress.com/2026/09/20/clam-bake-santa-2026-09-20/"
-      }
-    }
-  },
-  "2026-09-19": {
-    "TalkLikeAPirateDay": {
-      "mastodon": {
-        "id": "117297819169373280",
-        "url": "https://mastodon.social/@ClamBakeSanta/117297819169373280"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvuqg7gznc2g",
-        "cid": "bafyreic7abnimvcwtgsfxmel7tugvotfgj27lcbn75y4se3huhj6x5j7da"
-      },
-      "tumblr": {
-        "id": "828189362259902464",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "499",
-        "channel": "@clambakesanta"
-      }
-    },
-    "NationalButterscotchPuddingDay": {
-      "mastodon": {
-        "id": "117297823126256079",
-        "url": "https://mastodon.social/@ClamBakeSanta/117297823126256079"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvuqhzmmmu2x",
-        "cid": "bafyreiacgw76je32eesgvndn5dfvdb6wpc6zi5nsmtxdrverpeuimonyrm"
-      },
-      "tumblr": {
-        "id": "828189425477533696",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "500",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayWilliamGolding": {
-      "mastodon": {
-        "id": "117297827098933146",
-        "url": "https://mastodon.social/@ClamBakeSanta/117297827098933146"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mvuqjta6cv2y",
-        "cid": "bafyreieypzxwhzbys6kjwip6hsj7fsxflh4awqaifcpd6ucveqdz5xd6re"
-      },
-      "tumblr": {
-        "id": "828189488703553536",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "501",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "165",
-        "url": "https://clambakesanta.wordpress.com/2026/09/19/clam-bake-santa-2026-09-19/"
       }
     }
   }

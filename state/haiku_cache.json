@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "haikus": [
     {
-      "theme": "National Pancake Day",
-      "haiku": "Syrup drips at dawn\nStacks rise like soft clouds, gold bright\nFlavors swirl in air\nHappy #NationalPancakeDay from @Cl",
-      "tag": "NationalPancakeDay",
+      "theme": "National Chocolate Milk Day",
+      "haiku": "Cold glass glistens bright\nCream swirls like soft clouds in warm\nTaste melts, smiles bloom wide\nHappy #NationalChocolateMilkDay from @ClamBakeSanta",
+      "tag": "NationalChocolateMilkDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Johnny Appleseed Day",
-      "haiku": "Seeds scattered by hand\nGolden blossoms bloom freely\nNature's gifts unfold\nHappy #JohnnyAppleseedDay from @ClamBakeSanta",
-      "tag": "JohnnyAppleseedDay",
+      "theme": "World Tourism Day",
+      "haiku": "Maples greet new paths\nStarlit trains hum over hills\nColors dance on roofs\nHappy #WorldTourismDay from @ClamBakeSanta",
+      "tag": "WorldTourismDay",
       "syllable_counts": [
         5,
         7,
@@ -24,31 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday George Gershwin",
-      "haiku": "Midnight jazz hums bright\nGershwin smiles, notes rise, sweet soft\nMoonlight waltzes slow\n#HappyBirthdayGeorgeGers",
-      "tag": "HappyBirthdayGeorgeGershwin",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Olivia Newton-John",
-      "haiku": "Bright glow of candles\nSoftly music swirls in air\nJoyful hearts sing bright\n#HappyBirthdayOliviaNewtonJohn from @Clam",
-      "tag": "HappyBirthdayOliviaNewtonJohn",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Full Moon",
-      "haiku": "Silver glow drifts high\nNight air hums with quiet stars\nMoonlight paints warm waves\nHappy #FullMoon from @ClamBakeSanta",
-      "tag": "FullMoon",
+      "theme": "Birthday Louis Andriessen",
+      "haiku": "Softly falls the night\nCandlelight dances on scores\nJoyful birthday song\n#HappyBirthdayLouisAndriessen from @ClamBakeSanta",
+      "tag": "HappyBirthdayLouisAndriessen",
       "syllable_counts": [
         5,
         7,
@@ -58,12 +36,10 @@
     }
   ],
   "themes": [
-    "National Pancake Day",
-    "Johnny Appleseed Day",
-    "Birthday George Gershwin",
-    "Birthday Olivia Newton-John",
-    "Full Moon"
+    "National Chocolate Milk Day",
+    "World Tourism Day",
+    "Birthday Louis Andriessen"
   ],
-  "content": "Syrup drips at dawn\nStacks rise like soft clouds, gold bright\nFlavors swirl in air\nHappy #NationalPancakeDay from @Cl\n\nSeeds scattered by hand\nGolden blossoms bloom freely\nNature's gifts unfold\nHappy #JohnnyAppleseedDay from @ClamBakeSanta\n\nMidnight jazz hums bright\nGershwin smiles, notes rise, sweet soft\nMoonlight waltzes slow\n#HappyBirthdayGeorgeGers\n\nBright glow of candles\nSoftly music swirls in air\nJoyful hearts sing bright\n#HappyBirthdayOliviaNewtonJohn from @Clam\n\nSilver glow drifts high\nNight air hums with quiet stars\nMoonlight paints warm waves\nHappy #FullMoon from @ClamBakeSanta",
-  "saved_at": "2026-09-26T13:47:18.081849+00:00"
+  "content": "Cold glass glistens bright\nCream swirls like soft clouds in warm\nTaste melts, smiles bloom wide\nHappy #NationalChocolateMilkDay from @ClamBakeSanta\n\nMaples greet new paths\nStarlit trains hum over hills\nColors dance on roofs\nHappy #WorldTourismDay from @ClamBakeSanta\n\nSoftly falls the night\nCandlelight dances on scores\nJoyful birthday song\n#HappyBirthdayLouisAndriessen from @ClamBakeSanta",
+  "saved_at": "2026-09-27T14:37:41.837656+00:00"
 }

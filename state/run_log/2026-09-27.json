@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-08-27T19:48:50.237353+00:00",
-    "date": "2026-08-27",
+    "timestamp": "2026-09-27T14:45:51.042318+00:00",
+    "date": "2026-09-27",
     "themes_found": [
-      "National Pots de Creme Day",
-      "Global Forgiveness Day",
-      "Birthday Lyndon B. Johnson"
+      "National Chocolate Milk Day",
+      "World Tourism Day",
+      "Birthday Louis Andriessen"
     ],
     "haikus_posted": [
       {
-        "theme": "National Pots de Creme Day",
-        "tag": "NationalPotsDeCremeDay",
+        "theme": "National Chocolate Milk Day",
+        "tag": "NationalChocolateMilkDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "Global Forgiveness Day",
-        "tag": "GlobalForgivenessDay",
+        "theme": "World Tourism Day",
+        "tag": "WorldTourismDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Lyndon B. Johnson",
-        "tag": "HappyBirthdayLyndonBJohnson",
+        "theme": "Birthday Louis Andriessen",
+        "tag": "HappyBirthdayLouisAndriessen",
         "valid_syllables": true,
         "counts": [
           5,
