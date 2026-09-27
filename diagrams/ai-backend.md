@@ -59,17 +59,17 @@ Code: `_generate()` in `plugins/engines/clambakesanta.py` runs the cascade;
 Ordered by confidence, in `config.yml` under `ai.fallback` (primary is set by
 `ai.model` + `CBS_AI_KEY`/`CBS_AI_BASE_URL` env vars, not the fallback list).
 
-| # | Provider | Status (as of 2026-08-10) | Model | Notes |
+| # | Provider | Status (as of 2026-09-27) | Model | Notes |
 |---|---|---|---|---|
-| 1 | **Groq** (primary) | ✅ Working | `openai/gpt-oss-20b` | Reasoning model — needs `reasoning_effort: low` |
-| 2 | **Mistral** | ✅ Working | `mistral-small-latest` | Don't send `reasoning_effort` — rejects "low"/"medium" |
-| 3 | **Cohere** | ✅ Working | `command-r7b-12-2024` | Same `reasoning_effort` restriction as Mistral |
-| 4 | **Cerebras** | ✅ Working | `gpt-oss-120b` | Reasoning model, needs `reasoning_effort: low`. Two earlier model ids (`llama3.1-8b`, `llama-3.3-70b`) were stale/404 |
-| 5 | **OpenRouter** | ⚠️ Unreliable | `google/gemma-4-31b-it:free` | `:free` models route through a shared pool — repeatedly 429s on congestion, not fixable by retrying |
-| 6 | **Pollinations** | ✅ Working (anonymous) | `openai` | `optional_key: true` — authenticated requests need a "pollen" balance, anonymous ones don't |
-| 7 | **Gemini** | ❌ Blocked | `gemini-2.0-flash` | Returns quota `limit: 0` — Google requires linking a billing account to unlock actual free quota on this project |
-| 8 | **Fireworks** | ⚠️ Partially working | `accounts/fireworks/models/gpt-oss-20b` | Two Llama model ids 404'd — Fireworks dropped plain Llama from serverless entirely (current catalog: DeepSeek/Kimi/GLM/Qwen/MiniMax/gpt-oss/Nemotron, confirmed via their models page). gpt-oss-20b works but even at `reasoning_effort: low` occasionally still burns its token budget, plus this account hit real rate limits during testing |
-| 9 | **HuggingFace** | ✅ Working (capped) | `meta-llama/Llama-3.1-8B-Instruct` | Router auto-selects a provider by default — no "enable a provider" step needed despite what the error text implies. Runs out of free monthly credits fast if over-tested |
+| 1 | **Groq** (primary) | ✅ Working | `openai/gpt-oss-20b` | Reasoning model — needs `reasoning_effort: low`. Re-verified clean 3/3 |
+| 2 | **Mistral** | ❌ Now failing | `mistral-small-latest` | Was working as of 2026-08-10. Every request across 4 separate test runs (~60 calls) on 2026-09-27 got an immediate `429 rate_limited` (code 1300), even on the very first attempt of a run — looks like account-level quota exhaustion (free tier is 500k tokens/month, 1 req/s), not the burst congestion OpenRouter has. Not fixable via config — check the Mistral console for remaining quota/plan status |
+| 3 | **Cohere** | ⚠️ Degraded | `command-r7b-12-2024` | API itself is healthy (HTTP 200 on every call), but on 2026-09-27 it failed syllable validation on **all ~20 test attempts** across 4 runs — mostly "got unknown" (response didn't parse into countable lines at all). Was clean 5-7-5 output as of 2026-08-10. Looks like a model-quality regression, not a config bug — no config fix applied, needs a closer look at raw responses before swapping models |
+| 4 | **Cerebras** | ❌ Now blocked | `gpt-oss-120b` | Was working as of 2026-08-10. Every call now returns `402 payment_required`. Confirmed via web research: Cerebras killed its no-card free tier on 2026-08-17 — accounts now need a payment method on file for $5/mo trial credits. Same shape as the SambaNova removal. Not fixable via config; kept in the chain as a harmless no-cost skip unless/until a card is added |
+| 5 | **OpenRouter** | ⚠️ Unreliable | `google/gemma-4-31b-it:free` | Unchanged — `:free` models route through a shared pool, still repeatedly 429s on congestion (also hit the per-minute free-models cap directly once this run). Not fixable by retrying |
+| 6 | **Pollinations** | ✅ Working (anonymous) | `openai` | Unchanged — succeeded immediately on most themes across all runs; occasionally needs its full 5 retries on one theme, still within normal variance |
+| 7 | **Gemini** | ⚠️ Reachable, unreliable | `gemini-3.8-flash` | **Fixed 2026-09-27**: old id `gemini-2.0-flash` was fully retired (404, Google's error named `gemini-3.8-flash` as the replacement, GA'd 2026-09-02) — confirmed via live search, model id updated. The old "blocked, quota limit:0" billing issue is also gone (no more quota-zero error). But the Flash tier's free quota is very tight — hit `RESOURCE_EXHAUSTED` at "limit: 5" requests/minute during testing — and even un-throttled responses mostly failed syllable parsing ("got unknown"). Recommend evaluating `gemini-3.5-flash-lite` (500 free requests/day vs Flash's ~20/day, per current docs) as a follow-up — not applied here since it needs its own verification pass |
+| 8 | **Fireworks** | ✅ Fixed | `accounts/fireworks/models/gpt-oss-120b` | **Fixed 2026-09-27**: `gpt-oss-20b` was dropped from Fireworks' serverless catalog in their September 2026 update (confirmed via live docs — 404 "Model not found, inaccessible, and/or not deployed"). Swapped to `gpt-oss-120b`, their current flagship low-cost serverless model, same `reasoning_effort: low` handling. Re-verified 3/3 haikus |
+| 9 | **HuggingFace** | ✅ Working (capped) | `meta-llama/Llama-3.1-8B-Instruct` | Unchanged — router auto-selects a provider by default. Runs out of free monthly credits fast if over-tested |
 
 Removed entirely (tried, deliberately dropped — see git log for
 `config.yml` around 2026-08-09/10 for the full reasoning):
@@ -136,6 +136,14 @@ Not wired in at all:
    "complete" to avoid retry-spam — so no Actions failure notification ever
    fires on its own. The `state/run_log/` entry's `haikus_posted` count is
    the only reliable signal, plus the failure-alert email described below.
+
+8. **`ai_key_secret` in Test AI Backend must be the repo *secret name*, not
+   the `CBS_AI_KEY` env var it maps to.** The workflow does
+   `secrets[inputs.ai_key_secret]` — pass `ai_key_secret="CBS_AI_KEY"` and it
+   silently resolves to nothing (repo has no secret literally named that),
+   logged as "no API key set" and easy to mistake for primary being broken.
+   Primary Groq's actual secret is `GROQ_API_KEY` (see `daily.yml`'s env
+   block) — pass `ai_key_secret="GROQ_API_KEY"` to test it in isolation.
 
 ## How to test
 
