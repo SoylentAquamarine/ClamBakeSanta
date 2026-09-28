@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "haikus": [
     {
-      "theme": "National Chocolate Milk Day",
-      "haiku": "Cold glass glistens bright\nCream swirls like soft clouds in warm\nTaste melts, smiles bloom wide\nHappy #NationalChocolateMilkDay from @ClamBakeSanta",
-      "tag": "NationalChocolateMilkDay",
+      "theme": "National Strawberry Cream Pie Day",
+      "haiku": "Red berries swirl sweet\nCreamy clouds drift above sky\nTaste of summer sighs\nHappy #NationalStrawberryCreamPieDay from @ClamBakeSanta",
+      "tag": "NationalStrawberryCreamPieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Tourism Day",
-      "haiku": "Maples greet new paths\nStarlit trains hum over hills\nColors dance on roofs\nHappy #WorldTourismDay from @ClamBakeSanta",
-      "tag": "WorldTourismDay",
+      "theme": "Ask a Stupid Question Day",
+      "haiku": "Bright moon hums above\nKids giggle, light sparks in sky\nQuestions rise like stars\nHappy #AskAStupidQuestion",
+      "tag": "AskAStupidQuestionDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Louis Andriessen",
-      "haiku": "Softly falls the night\nCandlelight dances on scores\nJoyful birthday song\n#HappyBirthdayLouisAndriessen from @ClamBakeSanta",
-      "tag": "HappyBirthdayLouisAndriessen",
+      "theme": "Birthday Confucius",
+      "haiku": "Gentle snowflakes fall\nWise breeze carries old tales soft\nJoy rings in quiet\n#HappyBirthdayConfucius from @ClamBakeSanta",
+      "tag": "HappyBirthdayConfucius",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Michelangelo Antonioni",
+      "haiku": "Soft light drifts on walls\nPainted dreams swirl bright in air\nJoy blooms in each frame\n#HappyBirthdayMichelangeloAntonioni from @ClamBakeSanta",
+      "tag": "HappyBirthdayMichelangeloAntonioni",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Chocolate Milk Day",
-    "World Tourism Day",
-    "Birthday Louis Andriessen"
+    "National Strawberry Cream Pie Day",
+    "Ask a Stupid Question Day",
+    "Birthday Confucius",
+    "Birthday Michelangelo Antonioni"
   ],
-  "content": "Cold glass glistens bright\nCream swirls like soft clouds in warm\nTaste melts, smiles bloom wide\nHappy #NationalChocolateMilkDay from @ClamBakeSanta\n\nMaples greet new paths\nStarlit trains hum over hills\nColors dance on roofs\nHappy #WorldTourismDay from @ClamBakeSanta\n\nSoftly falls the night\nCandlelight dances on scores\nJoyful birthday song\n#HappyBirthdayLouisAndriessen from @ClamBakeSanta",
-  "saved_at": "2026-09-27T14:37:41.837656+00:00"
+  "content": "Red berries swirl sweet\nCreamy clouds drift above sky\nTaste of summer sighs\nHappy #NationalStrawberryCreamPieDay from @ClamBakeSanta\n\nBright moon hums above\nKids giggle, light sparks in sky\nQuestions rise like stars\nHappy #AskAStupidQuestion\n\nGentle snowflakes fall\nWise breeze carries old tales soft\nJoy rings in quiet\n#HappyBirthdayConfucius from @ClamBakeSanta\n\nSoft light drifts on walls\nPainted dreams swirl bright in air\nJoy blooms in each frame\n#HappyBirthdayMichelangeloAntonioni from @ClamBakeSanta",
+  "saved_at": "2026-09-28T17:27:33.902336+00:00"
 }

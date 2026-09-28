@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-20",
-    "theme": "National Punch Day",
-    "haiku": "Sunrise drips in glass\nTropical zest tingles lips\nBubbles rise, giggle\nHappy #NationalPunchDay from @ClamBakeSanta",
-    "tag": "NationalPunchDay",
-    "logged_at": "2026-09-20T13:30:40.961580+00:00"
-  },
-  {
-    "date": "2026-09-20",
-    "theme": "National String Cheese Day",
-    "haiku": "Golden strings of cheese\nMelting under summer sun\nTaste buds dance with joy\nHappy #NationalStringCheeseDay from @ClamBakeSanta",
-    "tag": "NationalStringCheeseDay",
-    "logged_at": "2026-09-20T13:30:40.961580+00:00"
-  },
-  {
-    "date": "2026-09-20",
-    "theme": "Birthday Upton Sinclair",
-    "haiku": "Sunrise paints gold hues\nLaughter rings like bells in soft\nJoy blooms in bright sky\n#HappyBirthdayUptonSinclair from @ClamBakeSanta",
-    "tag": "HappyBirthdayUptonSinclair",
-    "logged_at": "2026-09-20T13:30:40.961580+00:00"
-  },
-  {
     "date": "2026-09-21",
     "theme": "International Day of Peace",
     "haiku": "Sunlit waves whisper\nChildren laugh, hands join, peace blooms\nSoft stars glow calm earth\nHappy #InternationalDayOfPeace from @ClamBakeSanta",
@@ -187,5 +166,26 @@
     "haiku": "Silver glow drifts high\nNight air hums with quiet stars\nMoonlight paints warm waves\nHappy #FullMoon from @ClamBakeSanta",
     "tag": "FullMoon",
     "logged_at": "2026-09-26T13:47:18.082341+00:00"
+  },
+  {
+    "date": "2026-09-27",
+    "theme": "National Chocolate Milk Day",
+    "haiku": "Cold glass glistens bright\nCream swirls like soft clouds in warm\nTaste melts, smiles bloom wide\nHappy #NationalChocolateMilkDay from @ClamBakeSanta",
+    "tag": "NationalChocolateMilkDay",
+    "logged_at": "2026-09-27T14:37:41.838212+00:00"
+  },
+  {
+    "date": "2026-09-27",
+    "theme": "World Tourism Day",
+    "haiku": "Maples greet new paths\nStarlit trains hum over hills\nColors dance on roofs\nHappy #WorldTourismDay from @ClamBakeSanta",
+    "tag": "WorldTourismDay",
+    "logged_at": "2026-09-27T14:37:41.838212+00:00"
+  },
+  {
+    "date": "2026-09-27",
+    "theme": "Birthday Louis Andriessen",
+    "haiku": "Softly falls the night\nCandlelight dances on scores\nJoyful birthday song\n#HappyBirthdayLouisAndriessen from @ClamBakeSanta",
+    "tag": "HappyBirthdayLouisAndriessen",
+    "logged_at": "2026-09-27T14:37:41.838212+00:00"
   }
 ]

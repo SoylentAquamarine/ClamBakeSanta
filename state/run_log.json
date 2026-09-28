@@ -166,7 +166,8 @@
     "2026-09-24",
     "2026-09-25",
     "2026-09-26",
-    "2026-09-27"
+    "2026-09-27",
+    "2026-09-28"
   ],
   "runs": [
     {
@@ -2147,6 +2148,18 @@
         "Birthday Louis Andriessen"
       ],
       "content_preview": "Cold glass glistens bright Cream swirls like soft clouds in warm Taste melts, smiles bloom wide Happy #NationalChocolate"
+    },
+    {
+      "date": "2026-09-28",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-28T17:39:50.321850+00:00",
+      "themes": [
+        "National Strawberry Cream Pie Day",
+        "Ask a Stupid Question Day",
+        "Birthday Confucius",
+        "Birthday Michelangelo Antonioni"
+      ],
+      "content_preview": "Red berries swirl sweet Creamy clouds drift above sky Taste of summer sighs Happy #NationalStrawberryCreamPieDay from @C"
     }
   ]
 }

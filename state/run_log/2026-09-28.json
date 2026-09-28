@@ -1,18 +1,17 @@
 [
   {
-    "timestamp": "2026-08-28T21:02:06.779126+00:00",
-    "date": "2026-08-28",
+    "timestamp": "2026-09-28T17:39:50.323650+00:00",
+    "date": "2026-09-28",
     "themes_found": [
-      "National Cherry Turnovers Day",
-      "National Bow Tie Day",
-      "Birthday Leo Tolstoy",
-      "Birthday Goethe",
-      "Full Moon"
+      "National Strawberry Cream Pie Day",
+      "Ask a Stupid Question Day",
+      "Birthday Confucius",
+      "Birthday Michelangelo Antonioni"
     ],
     "haikus_posted": [
       {
-        "theme": "National Cherry Turnovers Day",
-        "tag": "NationalCherryTurnoversDay",
+        "theme": "National Strawberry Cream Pie Day",
+        "tag": "NationalStrawberryCreamPieDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -21,8 +20,8 @@
         ]
       },
       {
-        "theme": "National Bow Tie Day",
-        "tag": "NationalBowTieDay",
+        "theme": "Ask a Stupid Question Day",
+        "tag": "AskAStupidQuestionDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -31,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday Leo Tolstoy",
-        "tag": "HappyBirthdayLeoTolstoy",
+        "theme": "Birthday Confucius",
+        "tag": "HappyBirthdayConfucius",
         "valid_syllables": true,
         "counts": [
           5,
@@ -41,18 +40,8 @@
         ]
       },
       {
-        "theme": "Birthday Goethe",
-        "tag": "HappyBirthdayGoethe",
-        "valid_syllables": true,
-        "counts": [
-          5,
-          7,
-          5
-        ]
-      },
-      {
-        "theme": "Full Moon",
-        "tag": "FullMoon",
+        "theme": "Birthday Michelangelo Antonioni",
+        "tag": "HappyBirthdayMichelangeloAntonioni",
         "valid_syllables": true,
         "counts": [
           5,
