@@ -167,7 +167,8 @@
     "2026-09-25",
     "2026-09-26",
     "2026-09-27",
-    "2026-09-28"
+    "2026-09-28",
+    "2026-09-29"
   ],
   "runs": [
     {
@@ -2160,6 +2161,17 @@
         "Birthday Michelangelo Antonioni"
       ],
       "content_preview": "Red berries swirl sweet Creamy clouds drift above sky Taste of summer sighs Happy #NationalStrawberryCreamPieDay from @C"
+    },
+    {
+      "date": "2026-09-29",
+      "engine": "clambakesanta",
+      "timestamp": "2026-09-29T15:37:33.205711+00:00",
+      "themes": [
+        "National Coffee Day",
+        "International Goose Day",
+        "Birthday Miguel de Cervantes"
+      ],
+      "content_preview": "Morning brew sighs soft Warm steam rises, bright sunrise Cup holds golden hope Happy #NationalCoffeeDay from @ClamBakeSa"
     }
   ]
 }
