@@ -1,4 +1,106 @@
 {
+  "2026-09-29": {
+    "NationalCoffeeDay": {
+      "theme": "National Coffee Day",
+      "haiku": "Morning brew sighs soft\nWarm steam rises, bright sunrise\nCup holds golden hope\nHappy #NationalCoffeeDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117355037674375672",
+          "url": "https://mastodon.social/@ClamBakeSanta/117355037674375672",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwo5k5nwii2q",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "829104856734302208",
+          "notes": 1,
+          "score": 1
+        }
+      },
+      "total_score": 1,
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
+    },
+    "InternationalGooseDay": {
+      "theme": "International Goose Day",
+      "haiku": "Gleaming goslings glide\nSoft water sings, feathers flit\nSun warms their bright feet\nHappy #InternationalGooseDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117355041630529747",
+          "url": "https://mastodon.social/@ClamBakeSanta/117355041630529747",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwo5lwzwle23",
+          "likes": 0,
+          "reposts": 1,
+          "replies": 0,
+          "score": 2
+        },
+        "tumblr": {
+          "id": "829104920072486912",
+          "notes": 1,
+          "score": 1
+        }
+      },
+      "total_score": 3,
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
+    },
+    "HappyBirthdayMigueldeCervantes": {
+      "theme": "Birthday Miguel de Cervantes",
+      "haiku": "Soft sun kisses page\nInk rivers flow in bright dreams\nStars hum sweet stories\n#HappyBirthdayMigueldeCervantes from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117355045595007431",
+          "url": "https://mastodon.social/@ClamBakeSanta/117355045595007431",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwo5nqln6q2a",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "829104983380279296",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "175",
+          "url": "https://clambakesanta.wordpress.com/2026/09/29/clam-bake-santa-2026-09-29/",
+          "views": 2,
+          "likes": 3,
+          "comments": 0,
+          "score": 3
+        }
+      },
+      "total_score": 3,
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
+    }
+  },
   "2026-09-28": {
     "NationalStrawberryCreamPieDay": {
       "theme": "National Strawberry Cream Pie Day",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     },
     "AskAStupidQuestionDay": {
       "theme": "Ask a Stupid Question Day",
@@ -54,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     },
     "HappyBirthdayConfucius": {
       "theme": "Birthday Confucius",
@@ -82,7 +184,7 @@
         }
       },
       "total_score": 1,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     },
     "HappyBirthdayMichelangeloAntonioni": {
       "theme": "Birthday Michelangelo Antonioni",
@@ -110,7 +212,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -119,14 +221,14 @@
         "wordpress": {
           "id": "174",
           "url": "https://clambakesanta.wordpress.com/2026/09/28/clam-bake-santa-2026-09-28/",
-          "views": 3,
-          "likes": 3,
+          "views": 4,
+          "likes": 4,
           "comments": 0,
-          "score": 3
+          "score": 4
         }
       },
-      "total_score": 3,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "total_score": 4,
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     }
   },
   "2026-09-27": {
@@ -156,7 +258,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     },
     "WorldTourismDay": {
       "theme": "World Tourism Day",
@@ -184,7 +286,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     },
     "HappyBirthdayLouisAndriessen": {
       "theme": "Birthday Louis Andriessen",
@@ -212,7 +314,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -228,7 +330,7 @@
         }
       },
       "total_score": 5,
-      "last_checked": "2026-09-29T01:22:19.127697+00:00"
+      "last_checked": "2026-09-30T00:55:51.856796+00:00"
     }
   },
   "2026-09-26": {
@@ -777,108 +879,6 @@
       },
       "total_score": 3,
       "last_checked": "2026-09-26T00:17:38.938454+00:00"
-    }
-  },
-  "2026-09-22": {
-    "FirstDayOfAutumn": {
-      "theme": "First Day of Autumn",
-      "haiku": "Golden leaves descend\nCrisp air whispers through the trees\nCozy warmth abides\nHappy #FirstDayOfAutumn from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117315040756146880",
-          "url": "https://mastodon.social/@ClamBakeSanta/117315040756146880",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f5oarvz25",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "828464906579951616",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-09-25T00:11:03.098543+00:00"
-    },
-    "NationalWhiteChocolateDay": {
-      "theme": "National White Chocolate Day",
-      "haiku": "White cocoa drifts bright\nSoft sugar clouds melt on tongue\nJoy melts in each bite\nHappy #NationalWhiteChocolateDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117315044731294523",
-          "url": "https://mastodon.social/@ClamBakeSanta/117315044731294523",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4f7hobmr2x",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "828464970028220416",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-09-25T00:11:03.098543+00:00"
-    },
-    "HappyBirthdayMichaelFaraday": {
-      "theme": "Birthday Michael Faraday",
-      "haiku": "Bright sparks ignite wide\nFields hum with electric dreams\nJoy pulses through night\n#HappyBirthdayMichaelFaraday from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117315048684605957",
-          "url": "https://mastodon.social/@ClamBakeSanta/117315048684605957",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mw4fbb47yn2k",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "828465033483829248",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-09-25T00:11:03.098543+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {
-        "wordpress": {
-          "id": "168",
-          "url": "https://clambakesanta.wordpress.com/2026/09/22/clam-bake-santa-2026-09-22/",
-          "views": 6,
-          "likes": 5,
-          "comments": 0,
-          "score": 5
-        }
-      },
-      "total_score": 5,
-      "last_checked": "2026-09-25T00:11:03.098543+00:00"
     }
   }
 }
