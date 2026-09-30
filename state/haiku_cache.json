@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "haikus": [
     {
-      "theme": "National Coffee Day",
-      "haiku": "Morning brew sighs soft\nWarm steam rises, bright sunrise\nCup holds golden hope\nHappy #NationalCoffeeDay from @ClamBakeSanta",
-      "tag": "NationalCoffeeDay",
+      "theme": "National Chewing Gum Day",
+      "haiku": "Chews swirl bright in hand\nTaffy ribbon tastes like sun\nJoy pops in each bite\nHappy #NationalChewingGumDay from @ClamBakeSanta",
+      "tag": "NationalChewingGumDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Goose Day",
-      "haiku": "Gleaming goslings glide\nSoft water sings, feathers flit\nSun warms their bright feet\nHappy #InternationalGooseDay from @ClamBakeSanta",
-      "tag": "InternationalGooseDay",
+      "theme": "International Podcast Day",
+      "haiku": "Echoes of voices\nWarm words float like light on clouds\nStories spark bright hearts\nHappy #InternationalPodcastDay from @ClamBakeSanta",
+      "tag": "InternationalPodcastDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Miguel de Cervantes",
-      "haiku": "Soft sun kisses page\nInk rivers flow in bright dreams\nStars hum sweet stories\n#HappyBirthdayMigueldeCervantes from @ClamBakeSanta",
-      "tag": "HappyBirthdayMigueldeCervantes",
+      "theme": "Birthday Truman Capote",
+      "haiku": "Sunlight on paper\nSoft stories bloom bright like spring\nJoy rides in each line\n#HappyBirthdayTrumanCapote from @ClamBakeSanta",
+      "tag": "HappyBirthdayTrumanCapote",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Elie Wiesel",
+      "haiku": "Bright candles flicker\nSoft laughter fills the room warm\nJoy blooms like sunrise\n#HappyBirthday",
+      "tag": "HappyBirthdayElieWiesel",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Coffee Day",
-    "International Goose Day",
-    "Birthday Miguel de Cervantes"
+    "National Chewing Gum Day",
+    "International Podcast Day",
+    "Birthday Truman Capote",
+    "Birthday Elie Wiesel"
   ],
-  "content": "Morning brew sighs soft\nWarm steam rises, bright sunrise\nCup holds golden hope\nHappy #NationalCoffeeDay from @ClamBakeSanta\n\nGleaming goslings glide\nSoft water sings, feathers flit\nSun warms their bright feet\nHappy #InternationalGooseDay from @ClamBakeSanta\n\nSoft sun kisses page\nInk rivers flow in bright dreams\nStars hum sweet stories\n#HappyBirthdayMigueldeCervantes from @ClamBakeSanta",
-  "saved_at": "2026-09-29T15:29:24.902358+00:00"
+  "content": "Chews swirl bright in hand\nTaffy ribbon tastes like sun\nJoy pops in each bite\nHappy #NationalChewingGumDay from @ClamBakeSanta\n\nEchoes of voices\nWarm words float like light on clouds\nStories spark bright hearts\nHappy #InternationalPodcastDay from @ClamBakeSanta\n\nSunlight on paper\nSoft stories bloom bright like spring\nJoy rides in each line\n#HappyBirthdayTrumanCapote from @ClamBakeSanta\n\nBright candles flicker\nSoft laughter fills the room warm\nJoy blooms like sunrise\n#HappyBirthday",
+  "saved_at": "2026-09-30T15:43:54.906523+00:00"
 }

@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-08-30T14:32:36.244132+00:00",
-    "date": "2026-08-30",
+    "timestamp": "2026-09-30T15:56:13.406237+00:00",
+    "date": "2026-09-30",
     "themes_found": [
-      "National Toasted Marshmallow Day",
-      "Frankenstein Day",
-      "Birthday Mary Shelley",
-      "Birthday Warren Buffett"
+      "National Chewing Gum Day",
+      "International Podcast Day",
+      "Birthday Truman Capote",
+      "Birthday Elie Wiesel"
     ],
     "haikus_posted": [
       {
-        "theme": "National Toasted Marshmallow Day",
-        "tag": "NationalToastedMarshmallowDay",
+        "theme": "National Chewing Gum Day",
+        "tag": "NationalChewingGumDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "Frankenstein Day",
-        "tag": "FrankensteinDay",
+        "theme": "International Podcast Day",
+        "tag": "InternationalPodcastDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday Mary Shelley",
-        "tag": "HappyBirthdayMaryShelley",
+        "theme": "Birthday Truman Capote",
+        "tag": "HappyBirthdayTrumanCapote",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "Birthday Warren Buffett",
-        "tag": "HappyBirthdayWarrenBuffett",
+        "theme": "Birthday Elie Wiesel",
+        "tag": "HappyBirthdayElieWiesel",
         "valid_syllables": true,
         "counts": [
           5,
