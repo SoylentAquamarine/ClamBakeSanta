@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "haikus": [
     {
-      "theme": "National Chewing Gum Day",
-      "haiku": "Chews swirl bright in hand\nTaffy ribbon tastes like sun\nJoy pops in each bite\nHappy #NationalChewingGumDay from @ClamBakeSanta",
-      "tag": "NationalChewingGumDay",
+      "theme": "International Coffee Day",
+      "haiku": "Morning brew sighs soft\nSteam curls like gentle lace bright\nSavor notes bloom warm\nHappy #InternationalCoffeeDay from @ClamBakeSanta",
+      "tag": "InternationalCoffeeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Podcast Day",
-      "haiku": "Echoes of voices\nWarm words float like light on clouds\nStories spark bright hearts\nHappy #InternationalPodcastDay from @ClamBakeSanta",
-      "tag": "InternationalPodcastDay",
+      "theme": "National Homemade Cookies Day",
+      "haiku": "Warm dough rises, sweet\nCrackling oven, golden glow\nCrunch of cookie bite\nHappy #NationalHomemadeCookiesDay from @ClamBakeSanta",
+      "tag": "NationalHomemadeCookiesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Truman Capote",
-      "haiku": "Sunlight on paper\nSoft stories bloom bright like spring\nJoy rides in each line\n#HappyBirthdayTrumanCapote from @ClamBakeSanta",
-      "tag": "HappyBirthdayTrumanCapote",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Elie Wiesel",
-      "haiku": "Bright candles flicker\nSoft laughter fills the room warm\nJoy blooms like sunrise\n#HappyBirthday",
-      "tag": "HappyBirthdayElieWiesel",
+      "theme": "Birthday Walter Matthau",
+      "haiku": "Bright noon sky smiles soft\nGolden laughter warm fills air\nJoyful toast rises\n#HappyBirthdayWalterMatthau from @ClamBakeSanta",
+      "tag": "HappyBirthdayWalterMatthau",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Chewing Gum Day",
-    "International Podcast Day",
-    "Birthday Truman Capote",
-    "Birthday Elie Wiesel"
+    "International Coffee Day",
+    "National Homemade Cookies Day",
+    "Birthday Walter Matthau"
   ],
-  "content": "Chews swirl bright in hand\nTaffy ribbon tastes like sun\nJoy pops in each bite\nHappy #NationalChewingGumDay from @ClamBakeSanta\n\nEchoes of voices\nWarm words float like light on clouds\nStories spark bright hearts\nHappy #InternationalPodcastDay from @ClamBakeSanta\n\nSunlight on paper\nSoft stories bloom bright like spring\nJoy rides in each line\n#HappyBirthdayTrumanCapote from @ClamBakeSanta\n\nBright candles flicker\nSoft laughter fills the room warm\nJoy blooms like sunrise\n#HappyBirthday",
-  "saved_at": "2026-09-30T15:43:54.906523+00:00"
+  "content": "Morning brew sighs soft\nSteam curls like gentle lace bright\nSavor notes bloom warm\nHappy #InternationalCoffeeDay from @ClamBakeSanta\n\nWarm dough rises, sweet\nCrackling oven, golden glow\nCrunch of cookie bite\nHappy #NationalHomemadeCookiesDay from @ClamBakeSanta\n\nBright noon sky smiles soft\nGolden laughter warm fills air\nJoyful toast rises\n#HappyBirthdayWalterMatthau from @ClamBakeSanta",
+  "saved_at": "2026-10-01T16:07:32.720352+00:00"
 }
