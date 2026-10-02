@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "haikus": [
     {
-      "theme": "International Coffee Day",
-      "haiku": "Morning brew sighs soft\nSteam curls like gentle lace bright\nSavor notes bloom warm\nHappy #InternationalCoffeeDay from @ClamBakeSanta",
-      "tag": "InternationalCoffeeDay",
+      "theme": "National Fried Scallops Day",
+      "haiku": "Golden scallop flakes\nCrisp crunch, salty soft warm breeze\nHeat glows, sea sings sweet\nHappy",
+      "tag": "NationalFriedScallopsDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Homemade Cookies Day",
-      "haiku": "Warm dough rises, sweet\nCrackling oven, golden glow\nCrunch of cookie bite\nHappy #NationalHomemadeCookiesDay from @ClamBakeSanta",
-      "tag": "NationalHomemadeCookiesDay",
+      "theme": "World Farm Animals Day",
+      "haiku": "Morning dew on hay\nLarks sing, cows graze, bright sun smiles\nFields echo soft joy\nHappy #WorldFarmAnimalsDay from @ClamBakeSanta",
+      "tag": "WorldFarmAnimalsDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Walter Matthau",
-      "haiku": "Bright noon sky smiles soft\nGolden laughter warm fills air\nJoyful toast rises\n#HappyBirthdayWalterMatthau from @ClamBakeSanta",
-      "tag": "HappyBirthdayWalterMatthau",
+      "theme": "Birthday Mahatma Gandhi",
+      "haiku": "Morning light hums warm\nGentle breeze carries bright peace\nJoyful hearts bloom bright\n#HappyBirthdayMahatmaGandhi from @ClamBakeSanta",
+      "tag": "HappyBirthdayMahatmaGandhi",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Groucho Marx",
+      "haiku": "Bright laugh rings like snow\nSilver glasses clink with wit\nCheers rise, warm as toast\n#HappyBirthdayGrouchoMarx from @ClamBakeSanta",
+      "tag": "HappyBirthdayGrouchoMarx",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "International Coffee Day",
-    "National Homemade Cookies Day",
-    "Birthday Walter Matthau"
+    "National Fried Scallops Day",
+    "World Farm Animals Day",
+    "Birthday Mahatma Gandhi",
+    "Birthday Groucho Marx"
   ],
-  "content": "Morning brew sighs soft\nSteam curls like gentle lace bright\nSavor notes bloom warm\nHappy #InternationalCoffeeDay from @ClamBakeSanta\n\nWarm dough rises, sweet\nCrackling oven, golden glow\nCrunch of cookie bite\nHappy #NationalHomemadeCookiesDay from @ClamBakeSanta\n\nBright noon sky smiles soft\nGolden laughter warm fills air\nJoyful toast rises\n#HappyBirthdayWalterMatthau from @ClamBakeSanta",
-  "saved_at": "2026-10-01T16:07:32.720352+00:00"
+  "content": "Golden scallop flakes\nCrisp crunch, salty soft warm breeze\nHeat glows, sea sings sweet\nHappy\n\nMorning dew on hay\nLarks sing, cows graze, bright sun smiles\nFields echo soft joy\nHappy #WorldFarmAnimalsDay from @ClamBakeSanta\n\nMorning light hums warm\nGentle breeze carries bright peace\nJoyful hearts bloom bright\n#HappyBirthdayMahatmaGandhi from @ClamBakeSanta\n\nBright laugh rings like snow\nSilver glasses clink with wit\nCheers rise, warm as toast\n#HappyBirthdayGrouchoMarx from @ClamBakeSanta",
+  "saved_at": "2026-10-02T15:31:13.306971+00:00"
 }
