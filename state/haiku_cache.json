@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "haikus": [
     {
-      "theme": "National Fried Scallops Day",
-      "haiku": "Golden scallop flakes\nCrisp crunch, salty soft warm breeze\nHeat glows, sea sings sweet\nHappy",
-      "tag": "NationalFriedScallopsDay",
+      "theme": "National Caramel Custard Day",
+      "haiku": "Golden custard glows\nVelvet swirl, warm sun drips soft\nTaste of summer sigh\nHappy #NationalCaramelCustardDay from @ClamBakeSanta",
+      "tag": "NationalCaramelCustardDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Farm Animals Day",
-      "haiku": "Morning dew on hay\nLarks sing, cows graze, bright sun smiles\nFields echo soft joy\nHappy #WorldFarmAnimalsDay from @ClamBakeSanta",
-      "tag": "WorldFarmAnimalsDay",
+      "theme": "National Techies Day",
+      "haiku": "Bright code sparks soft glow\nCircuits hum like gentle rain\nPixels glow warm light\nHappy #NationalTechiesDay from @ClamBakeSanta",
+      "tag": "NationalTechiesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Mahatma Gandhi",
-      "haiku": "Morning light hums warm\nGentle breeze carries bright peace\nJoyful hearts bloom bright\n#HappyBirthdayMahatmaGandhi from @ClamBakeSanta",
-      "tag": "HappyBirthdayMahatmaGandhi",
+      "theme": "Birthday Thomas Wolfe",
+      "haiku": "Warm sun soft on skin\nPages turn like leaves in spring\nJoy pours from words deep\n#HappyBirthdayThomasWolfe from @ClamBakeSanta",
+      "tag": "HappyBirthdayThomasWolfe",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Groucho Marx",
-      "haiku": "Bright laugh rings like snow\nSilver glasses clink with wit\nCheers rise, warm as toast\n#HappyBirthdayGrouchoMarx from @ClamBakeSanta",
-      "tag": "HappyBirthdayGrouchoMarx",
+      "theme": "Last Quarter Moon",
+      "haiku": "Crimson sky whispers\nNight folds in soft gold bright glow\nStars blink in calm glow\nHappy #LastQuarterMoon from @ClamBakeSanta",
+      "tag": "LastQuarterMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Fried Scallops Day",
-    "World Farm Animals Day",
-    "Birthday Mahatma Gandhi",
-    "Birthday Groucho Marx"
+    "National Caramel Custard Day",
+    "National Techies Day",
+    "Birthday Thomas Wolfe",
+    "Last Quarter Moon"
   ],
-  "content": "Golden scallop flakes\nCrisp crunch, salty soft warm breeze\nHeat glows, sea sings sweet\nHappy\n\nMorning dew on hay\nLarks sing, cows graze, bright sun smiles\nFields echo soft joy\nHappy #WorldFarmAnimalsDay from @ClamBakeSanta\n\nMorning light hums warm\nGentle breeze carries bright peace\nJoyful hearts bloom bright\n#HappyBirthdayMahatmaGandhi from @ClamBakeSanta\n\nBright laugh rings like snow\nSilver glasses clink with wit\nCheers rise, warm as toast\n#HappyBirthdayGrouchoMarx from @ClamBakeSanta",
-  "saved_at": "2026-10-02T15:31:13.306971+00:00"
+  "content": "Golden custard glows\nVelvet swirl, warm sun drips soft\nTaste of summer sigh\nHappy #NationalCaramelCustardDay from @ClamBakeSanta\n\nBright code sparks soft glow\nCircuits hum like gentle rain\nPixels glow warm light\nHappy #NationalTechiesDay from @ClamBakeSanta\n\nWarm sun soft on skin\nPages turn like leaves in spring\nJoy pours from words deep\n#HappyBirthdayThomasWolfe from @ClamBakeSanta\n\nCrimson sky whispers\nNight folds in soft gold bright glow\nStars blink in calm glow\nHappy #LastQuarterMoon from @ClamBakeSanta",
+  "saved_at": "2026-10-03T14:10:44.365846+00:00"
 }

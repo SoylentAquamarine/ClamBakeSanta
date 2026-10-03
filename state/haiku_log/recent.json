@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-25",
-    "theme": "National Comic Book Day",
-    "haiku": "Ink glows on panels\nHeroes leap with comic hearts\nPages flutter, joy\nHappy #NationalComicBookDay from @ClamBakeSanta",
-    "tag": "NationalComicBookDay",
-    "logged_at": "2026-09-25T14:29:11.182823+00:00"
-  },
-  {
-    "date": "2026-09-25",
-    "theme": "National Lobster Day",
-    "haiku": "Red shells glow bright soft\nSea breeze carries sweet warm salt\nCrustacean feast calls\nHappy #NationalLobsterDay from @ClamBakeSanta",
-    "tag": "NationalLobsterDay",
-    "logged_at": "2026-09-25T14:29:11.182823+00:00"
-  },
-  {
-    "date": "2026-09-25",
-    "theme": "Birthday William Faulkner",
-    "haiku": "Gentle candle glow\nPages turn like soft rain near\nStories breathe warm light\n#HappyBirthdayWilliamFaulkner from @ClamBakeSanta",
-    "tag": "HappyBirthdayWilliamFaulkner",
-    "logged_at": "2026-09-25T14:29:11.182823+00:00"
-  },
-  {
-    "date": "2026-09-25",
-    "theme": "Birthday Dmitri Shostakovich",
-    "haiku": "Melody drifts, soft\nBright chords dance on air and light\nJoy sings, heart bright now\n#HappyBirthdayDmitriShostakovich from @ClamBakeSanta",
-    "tag": "HappyBirthdayDmitriShostakovich",
-    "logged_at": "2026-09-25T14:29:11.182823+00:00"
-  },
-  {
     "date": "2026-09-26",
     "theme": "National Pancake Day",
     "haiku": "Syrup drips at dawn\nStacks rise like soft clouds, gold bright\nFlavors swirl in air\nHappy #NationalPancakeDay from @Cl",
@@ -180,5 +152,33 @@
     "haiku": "Bright noon sky smiles soft\nGolden laughter warm fills air\nJoyful toast rises\n#HappyBirthdayWalterMatthau from @ClamBakeSanta",
     "tag": "HappyBirthdayWalterMatthau",
     "logged_at": "2026-10-01T16:07:32.720906+00:00"
+  },
+  {
+    "date": "2026-10-02",
+    "theme": "National Fried Scallops Day",
+    "haiku": "Golden scallop flakes\nCrisp crunch, salty soft warm breeze\nHeat glows, sea sings sweet\nHappy",
+    "tag": "NationalFriedScallopsDay",
+    "logged_at": "2026-10-02T15:31:13.307321+00:00"
+  },
+  {
+    "date": "2026-10-02",
+    "theme": "World Farm Animals Day",
+    "haiku": "Morning dew on hay\nLarks sing, cows graze, bright sun smiles\nFields echo soft joy\nHappy #WorldFarmAnimalsDay from @ClamBakeSanta",
+    "tag": "WorldFarmAnimalsDay",
+    "logged_at": "2026-10-02T15:31:13.307321+00:00"
+  },
+  {
+    "date": "2026-10-02",
+    "theme": "Birthday Mahatma Gandhi",
+    "haiku": "Morning light hums warm\nGentle breeze carries bright peace\nJoyful hearts bloom bright\n#HappyBirthdayMahatmaGandhi from @ClamBakeSanta",
+    "tag": "HappyBirthdayMahatmaGandhi",
+    "logged_at": "2026-10-02T15:31:13.307321+00:00"
+  },
+  {
+    "date": "2026-10-02",
+    "theme": "Birthday Groucho Marx",
+    "haiku": "Bright laugh rings like snow\nSilver glasses clink with wit\nCheers rise, warm as toast\n#HappyBirthdayGrouchoMarx from @ClamBakeSanta",
+    "tag": "HappyBirthdayGrouchoMarx",
+    "logged_at": "2026-10-02T15:31:13.307321+00:00"
   }
 ]
