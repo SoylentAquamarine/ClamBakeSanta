@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "haikus": [
     {
-      "theme": "National Caramel Custard Day",
-      "haiku": "Golden custard glows\nVelvet swirl, warm sun drips soft\nTaste of summer sigh\nHappy #NationalCaramelCustardDay from @ClamBakeSanta",
-      "tag": "NationalCaramelCustardDay",
+      "theme": "National Taco Day",
+      "haiku": "Taco shells glow bright\nSauce drips, salsa sings in heat\nMouthful joy, spice bloom\nHappy #NationalTacoDay from @ClamBakeSanta",
+      "tag": "NationalTacoDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Techies Day",
-      "haiku": "Bright code sparks soft glow\nCircuits hum like gentle rain\nPixels glow warm light\nHappy #NationalTechiesDay from @ClamBakeSanta",
-      "tag": "NationalTechiesDay",
+      "theme": "World Animal Day",
+      "haiku": "Bright paws tap soft grass\nSunlit rivers hum with joy\nFeathers flutter, smiles\nHappy #WorldAnimalDay from @ClamBakeSanta",
+      "tag": "WorldAnimalDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Thomas Wolfe",
-      "haiku": "Warm sun soft on skin\nPages turn like leaves in spring\nJoy pours from words deep\n#HappyBirthdayThomasWolfe from @ClamBakeSanta",
-      "tag": "HappyBirthdayThomasWolfe",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Last Quarter Moon",
-      "haiku": "Crimson sky whispers\nNight folds in soft gold bright glow\nStars blink in calm glow\nHappy #LastQuarterMoon from @ClamBakeSanta",
-      "tag": "LastQuarterMoon",
+      "theme": "Birthday Buster Keaton",
+      "haiku": "Bright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
+      "tag": "HappyBirthdayBusterKeaton",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Caramel Custard Day",
-    "National Techies Day",
-    "Birthday Thomas Wolfe",
-    "Last Quarter Moon"
+    "National Taco Day",
+    "World Animal Day",
+    "Birthday Buster Keaton"
   ],
-  "content": "Golden custard glows\nVelvet swirl, warm sun drips soft\nTaste of summer sigh\nHappy #NationalCaramelCustardDay from @ClamBakeSanta\n\nBright code sparks soft glow\nCircuits hum like gentle rain\nPixels glow warm light\nHappy #NationalTechiesDay from @ClamBakeSanta\n\nWarm sun soft on skin\nPages turn like leaves in spring\nJoy pours from words deep\n#HappyBirthdayThomasWolfe from @ClamBakeSanta\n\nCrimson sky whispers\nNight folds in soft gold bright glow\nStars blink in calm glow\nHappy #LastQuarterMoon from @ClamBakeSanta",
-  "saved_at": "2026-10-03T14:10:44.365846+00:00"
+  "content": "Taco shells glow bright\nSauce drips, salsa sings in heat\nMouthful joy, spice bloom\nHappy #NationalTacoDay from @ClamBakeSanta\n\nBright paws tap soft grass\nSunlit rivers hum with joy\nFeathers flutter, smiles\nHappy #WorldAnimalDay from @ClamBakeSanta\n\nBright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
+  "saved_at": "2026-10-04T14:41:45.002260+00:00"
 }

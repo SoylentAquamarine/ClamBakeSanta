@@ -1,40 +1,5 @@
 [
   {
-    "date": "2026-09-26",
-    "theme": "National Pancake Day",
-    "haiku": "Syrup drips at dawn\nStacks rise like soft clouds, gold bright\nFlavors swirl in air\nHappy #NationalPancakeDay from @Cl",
-    "tag": "NationalPancakeDay",
-    "logged_at": "2026-09-26T13:47:18.082341+00:00"
-  },
-  {
-    "date": "2026-09-26",
-    "theme": "Johnny Appleseed Day",
-    "haiku": "Seeds scattered by hand\nGolden blossoms bloom freely\nNature's gifts unfold\nHappy #JohnnyAppleseedDay from @ClamBakeSanta",
-    "tag": "JohnnyAppleseedDay",
-    "logged_at": "2026-09-26T13:47:18.082341+00:00"
-  },
-  {
-    "date": "2026-09-26",
-    "theme": "Birthday George Gershwin",
-    "haiku": "Midnight jazz hums bright\nGershwin smiles, notes rise, sweet soft\nMoonlight waltzes slow\n#HappyBirthdayGeorgeGers",
-    "tag": "HappyBirthdayGeorgeGershwin",
-    "logged_at": "2026-09-26T13:47:18.082341+00:00"
-  },
-  {
-    "date": "2026-09-26",
-    "theme": "Birthday Olivia Newton-John",
-    "haiku": "Bright glow of candles\nSoftly music swirls in air\nJoyful hearts sing bright\n#HappyBirthdayOliviaNewtonJohn from @Clam",
-    "tag": "HappyBirthdayOliviaNewtonJohn",
-    "logged_at": "2026-09-26T13:47:18.082341+00:00"
-  },
-  {
-    "date": "2026-09-26",
-    "theme": "Full Moon",
-    "haiku": "Silver glow drifts high\nNight air hums with quiet stars\nMoonlight paints warm waves\nHappy #FullMoon from @ClamBakeSanta",
-    "tag": "FullMoon",
-    "logged_at": "2026-09-26T13:47:18.082341+00:00"
-  },
-  {
     "date": "2026-09-27",
     "theme": "National Chocolate Milk Day",
     "haiku": "Cold glass glistens bright\nCream swirls like soft clouds in warm\nTaste melts, smiles bloom wide\nHappy #NationalChocolateMilkDay from @ClamBakeSanta",
@@ -180,5 +145,33 @@
     "haiku": "Bright laugh rings like snow\nSilver glasses clink with wit\nCheers rise, warm as toast\n#HappyBirthdayGrouchoMarx from @ClamBakeSanta",
     "tag": "HappyBirthdayGrouchoMarx",
     "logged_at": "2026-10-02T15:31:13.307321+00:00"
+  },
+  {
+    "date": "2026-10-03",
+    "theme": "National Caramel Custard Day",
+    "haiku": "Golden custard glows\nVelvet swirl, warm sun drips soft\nTaste of summer sigh\nHappy #NationalCaramelCustardDay from @ClamBakeSanta",
+    "tag": "NationalCaramelCustardDay",
+    "logged_at": "2026-10-03T14:10:44.366206+00:00"
+  },
+  {
+    "date": "2026-10-03",
+    "theme": "National Techies Day",
+    "haiku": "Bright code sparks soft glow\nCircuits hum like gentle rain\nPixels glow warm light\nHappy #NationalTechiesDay from @ClamBakeSanta",
+    "tag": "NationalTechiesDay",
+    "logged_at": "2026-10-03T14:10:44.366206+00:00"
+  },
+  {
+    "date": "2026-10-03",
+    "theme": "Birthday Thomas Wolfe",
+    "haiku": "Warm sun soft on skin\nPages turn like leaves in spring\nJoy pours from words deep\n#HappyBirthdayThomasWolfe from @ClamBakeSanta",
+    "tag": "HappyBirthdayThomasWolfe",
+    "logged_at": "2026-10-03T14:10:44.366206+00:00"
+  },
+  {
+    "date": "2026-10-03",
+    "theme": "Last Quarter Moon",
+    "haiku": "Crimson sky whispers\nNight folds in soft gold bright glow\nStars blink in calm glow\nHappy #LastQuarterMoon from @ClamBakeSanta",
+    "tag": "LastQuarterMoon",
+    "logged_at": "2026-10-03T14:10:44.366206+00:00"
   }
 ]

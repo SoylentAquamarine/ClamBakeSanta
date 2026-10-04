@@ -172,7 +172,8 @@
     "2026-09-30",
     "2026-10-01",
     "2026-10-02",
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-04"
   ],
   "runs": [
     {
@@ -2223,6 +2224,17 @@
         "Last Quarter Moon"
       ],
       "content_preview": "Golden custard glows Velvet swirl, warm sun drips soft Taste of summer sigh Happy #NationalCaramelCustardDay from @ClamB"
+    },
+    {
+      "date": "2026-10-04",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-04T14:50:00.681907+00:00",
+      "themes": [
+        "National Taco Day",
+        "World Animal Day",
+        "Birthday Buster Keaton"
+      ],
+      "content_preview": "Taco shells glow bright Sauce drips, salsa sings in heat Mouthful joy, spice bloom Happy #NationalTacoDay from @ClamBake"
     }
   ]
 }
