@@ -1,17 +1,16 @@
 [
   {
-    "timestamp": "2026-09-04T13:28:29.602307+00:00",
-    "date": "2026-09-04",
+    "timestamp": "2026-10-05T18:17:53.461673+00:00",
+    "date": "2026-10-05",
     "themes_found": [
-      "National Wildlife Day",
-      "National Macadamia Nut Day",
-      "Birthday Richard Wright",
-      "Last Quarter Moon"
+      "National Apple Betty Day",
+      "World Teachers Day",
+      "Birthday Chester A. Arthur"
     ],
     "haikus_posted": [
       {
-        "theme": "National Wildlife Day",
-        "tag": "NationalWildlifeDay",
+        "theme": "National Apple Betty Day",
+        "tag": "NationalAppleBettyDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Macadamia Nut Day",
-        "tag": "NationalMacadamiaNutDay",
+        "theme": "World Teachers Day",
+        "tag": "WorldTeachersDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,18 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Richard Wright",
-        "tag": "HappyBirthdayRichardWright",
-        "valid_syllables": true,
-        "counts": [
-          5,
-          7,
-          5
-        ]
-      },
-      {
-        "theme": "Last Quarter Moon",
-        "tag": "LastQuarterMoon",
+        "theme": "Birthday Chester A. Arthur",
+        "tag": "HappyBirthdayChesterAArthur",
         "valid_syllables": true,
         "counts": [
           5,

@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "haikus": [
     {
-      "theme": "National Taco Day",
-      "haiku": "Taco shells glow bright\nSauce drips, salsa sings in heat\nMouthful joy, spice bloom\nHappy #NationalTacoDay from @ClamBakeSanta",
-      "tag": "NationalTacoDay",
+      "theme": "National Apple Betty Day",
+      "haiku": "Crimson apples gleam\nCrunchy scent fills bright orchard\nTaste of summer joy\nHappy #NationalAppleBettyDay from @ClamBakeSanta",
+      "tag": "NationalAppleBettyDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Animal Day",
-      "haiku": "Bright paws tap soft grass\nSunlit rivers hum with joy\nFeathers flutter, smiles\nHappy #WorldAnimalDay from @ClamBakeSanta",
-      "tag": "WorldAnimalDay",
+      "theme": "World Teachers Day",
+      "haiku": "Chalk dust lifts like mist\nStudents' eyes glow bright with hope\nLessons bloom in hearts\nHappy #WorldTeachersDay from @ClamBakeSanta",
+      "tag": "WorldTeachersDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Buster Keaton",
-      "haiku": "Bright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
-      "tag": "HappyBirthdayBusterKeaton",
+      "theme": "Birthday Chester A. Arthur",
+      "haiku": "Golden candles glow\nBreezes carry old soft songs\nJoy rings bright in halls\n#HappyBirthdayChesterAArthur from @ClamBakeSanta",
+      "tag": "HappyBirthdayChesterAArthur",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Taco Day",
-    "World Animal Day",
-    "Birthday Buster Keaton"
+    "National Apple Betty Day",
+    "World Teachers Day",
+    "Birthday Chester A. Arthur"
   ],
-  "content": "Taco shells glow bright\nSauce drips, salsa sings in heat\nMouthful joy, spice bloom\nHappy #NationalTacoDay from @ClamBakeSanta\n\nBright paws tap soft grass\nSunlit rivers hum with joy\nFeathers flutter, smiles\nHappy #WorldAnimalDay from @ClamBakeSanta\n\nBright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
-  "saved_at": "2026-10-04T14:41:45.002260+00:00"
+  "content": "Crimson apples gleam\nCrunchy scent fills bright orchard\nTaste of summer joy\nHappy #NationalAppleBettyDay from @ClamBakeSanta\n\nChalk dust lifts like mist\nStudents' eyes glow bright with hope\nLessons bloom in hearts\nHappy #WorldTeachersDay from @ClamBakeSanta\n\nGolden candles glow\nBreezes carry old soft songs\nJoy rings bright in halls\n#HappyBirthdayChesterAArthur from @ClamBakeSanta",
+  "saved_at": "2026-10-05T18:09:36.761091+00:00"
 }

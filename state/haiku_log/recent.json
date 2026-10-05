@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-27",
-    "theme": "National Chocolate Milk Day",
-    "haiku": "Cold glass glistens bright\nCream swirls like soft clouds in warm\nTaste melts, smiles bloom wide\nHappy #NationalChocolateMilkDay from @ClamBakeSanta",
-    "tag": "NationalChocolateMilkDay",
-    "logged_at": "2026-09-27T14:37:41.838212+00:00"
-  },
-  {
-    "date": "2026-09-27",
-    "theme": "World Tourism Day",
-    "haiku": "Maples greet new paths\nStarlit trains hum over hills\nColors dance on roofs\nHappy #WorldTourismDay from @ClamBakeSanta",
-    "tag": "WorldTourismDay",
-    "logged_at": "2026-09-27T14:37:41.838212+00:00"
-  },
-  {
-    "date": "2026-09-27",
-    "theme": "Birthday Louis Andriessen",
-    "haiku": "Softly falls the night\nCandlelight dances on scores\nJoyful birthday song\n#HappyBirthdayLouisAndriessen from @ClamBakeSanta",
-    "tag": "HappyBirthdayLouisAndriessen",
-    "logged_at": "2026-09-27T14:37:41.838212+00:00"
-  },
-  {
     "date": "2026-09-28",
     "theme": "National Strawberry Cream Pie Day",
     "haiku": "Red berries swirl sweet\nCreamy clouds drift above sky\nTaste of summer sighs\nHappy #NationalStrawberryCreamPieDay from @ClamBakeSanta",
@@ -173,5 +152,26 @@
     "haiku": "Crimson sky whispers\nNight folds in soft gold bright glow\nStars blink in calm glow\nHappy #LastQuarterMoon from @ClamBakeSanta",
     "tag": "LastQuarterMoon",
     "logged_at": "2026-10-03T14:10:44.366206+00:00"
+  },
+  {
+    "date": "2026-10-04",
+    "theme": "National Taco Day",
+    "haiku": "Taco shells glow bright\nSauce drips, salsa sings in heat\nMouthful joy, spice bloom\nHappy #NationalTacoDay from @ClamBakeSanta",
+    "tag": "NationalTacoDay",
+    "logged_at": "2026-10-04T14:41:45.002609+00:00"
+  },
+  {
+    "date": "2026-10-04",
+    "theme": "World Animal Day",
+    "haiku": "Bright paws tap soft grass\nSunlit rivers hum with joy\nFeathers flutter, smiles\nHappy #WorldAnimalDay from @ClamBakeSanta",
+    "tag": "WorldAnimalDay",
+    "logged_at": "2026-10-04T14:41:45.002609+00:00"
+  },
+  {
+    "date": "2026-10-04",
+    "theme": "Birthday Buster Keaton",
+    "haiku": "Bright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
+    "tag": "HappyBirthdayBusterKeaton",
+    "logged_at": "2026-10-04T14:41:45.002609+00:00"
   }
 ]
