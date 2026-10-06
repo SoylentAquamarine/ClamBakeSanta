@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "haikus": [
     {
-      "theme": "National Apple Betty Day",
-      "haiku": "Crimson apples gleam\nCrunchy scent fills bright orchard\nTaste of summer joy\nHappy #NationalAppleBettyDay from @ClamBakeSanta",
-      "tag": "NationalAppleBettyDay",
+      "theme": "National Noodle Day",
+      "haiku": "Steam curls, silver bowl\nSpoons twirl, broth sings clear and steam\nNoodles dance, joy flows\nHappy #NationalNoodleDay",
+      "tag": "NationalNoodleDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Teachers Day",
-      "haiku": "Chalk dust lifts like mist\nStudents' eyes glow bright with hope\nLessons bloom in hearts\nHappy #WorldTeachersDay from @ClamBakeSanta",
-      "tag": "WorldTeachersDay",
+      "theme": "Mad Hatter Day",
+      "haiku": "Tea steam curls bright soft\nCups clink, hats twirl, laughter rings\nWhisked sugar clouds rise\nHappy #MadHatterDay from @ClamBakeSanta",
+      "tag": "MadHatterDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Chester A. Arthur",
-      "haiku": "Golden candles glow\nBreezes carry old soft songs\nJoy rings bright in halls\n#HappyBirthdayChesterAArthur from @ClamBakeSanta",
-      "tag": "HappyBirthdayChesterAArthur",
+      "theme": "Birthday George Westinghouse",
+      "haiku": "Steam whistles rise high\nGears turn in bright joy today\nCandles glow like sparks\n#HappyBirthdayGeorgeWestinghouse from @ClamBakeSanta",
+      "tag": "HappyBirthdayGeorgeWestinghouse",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Apple Betty Day",
-    "World Teachers Day",
-    "Birthday Chester A. Arthur"
+    "National Noodle Day",
+    "Mad Hatter Day",
+    "Birthday George Westinghouse"
   ],
-  "content": "Crimson apples gleam\nCrunchy scent fills bright orchard\nTaste of summer joy\nHappy #NationalAppleBettyDay from @ClamBakeSanta\n\nChalk dust lifts like mist\nStudents' eyes glow bright with hope\nLessons bloom in hearts\nHappy #WorldTeachersDay from @ClamBakeSanta\n\nGolden candles glow\nBreezes carry old soft songs\nJoy rings bright in halls\n#HappyBirthdayChesterAArthur from @ClamBakeSanta",
-  "saved_at": "2026-10-05T18:09:36.761091+00:00"
+  "content": "Steam curls, silver bowl\nSpoons twirl, broth sings clear and steam\nNoodles dance, joy flows\nHappy #NationalNoodleDay\n\nTea steam curls bright soft\nCups clink, hats twirl, laughter rings\nWhisked sugar clouds rise\nHappy #MadHatterDay from @ClamBakeSanta\n\nSteam whistles rise high\nGears turn in bright joy today\nCandles glow like sparks\n#HappyBirthdayGeorgeWestinghouse from @ClamBakeSanta",
+  "saved_at": "2026-10-06T15:55:48.801034+00:00"
 }

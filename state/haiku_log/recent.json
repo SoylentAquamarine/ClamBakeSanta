@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-28",
-    "theme": "National Strawberry Cream Pie Day",
-    "haiku": "Red berries swirl sweet\nCreamy clouds drift above sky\nTaste of summer sighs\nHappy #NationalStrawberryCreamPieDay from @ClamBakeSanta",
-    "tag": "NationalStrawberryCreamPieDay",
-    "logged_at": "2026-09-28T17:27:33.902823+00:00"
-  },
-  {
-    "date": "2026-09-28",
-    "theme": "Ask a Stupid Question Day",
-    "haiku": "Bright moon hums above\nKids giggle, light sparks in sky\nQuestions rise like stars\nHappy #AskAStupidQuestion",
-    "tag": "AskAStupidQuestionDay",
-    "logged_at": "2026-09-28T17:27:33.902823+00:00"
-  },
-  {
-    "date": "2026-09-28",
-    "theme": "Birthday Confucius",
-    "haiku": "Gentle snowflakes fall\nWise breeze carries old tales soft\nJoy rings in quiet\n#HappyBirthdayConfucius from @ClamBakeSanta",
-    "tag": "HappyBirthdayConfucius",
-    "logged_at": "2026-09-28T17:27:33.902823+00:00"
-  },
-  {
-    "date": "2026-09-28",
-    "theme": "Birthday Michelangelo Antonioni",
-    "haiku": "Soft light drifts on walls\nPainted dreams swirl bright in air\nJoy blooms in each frame\n#HappyBirthdayMichelangeloAntonioni from @ClamBakeSanta",
-    "tag": "HappyBirthdayMichelangeloAntonioni",
-    "logged_at": "2026-09-28T17:27:33.902823+00:00"
-  },
-  {
     "date": "2026-09-29",
     "theme": "National Coffee Day",
     "haiku": "Morning brew sighs soft\nWarm steam rises, bright sunrise\nCup holds golden hope\nHappy #NationalCoffeeDay from @ClamBakeSanta",
@@ -173,5 +145,26 @@
     "haiku": "Bright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
     "tag": "HappyBirthdayBusterKeaton",
     "logged_at": "2026-10-04T14:41:45.002609+00:00"
+  },
+  {
+    "date": "2026-10-05",
+    "theme": "National Apple Betty Day",
+    "haiku": "Crimson apples gleam\nCrunchy scent fills bright orchard\nTaste of summer joy\nHappy #NationalAppleBettyDay from @ClamBakeSanta",
+    "tag": "NationalAppleBettyDay",
+    "logged_at": "2026-10-05T18:09:36.761604+00:00"
+  },
+  {
+    "date": "2026-10-05",
+    "theme": "World Teachers Day",
+    "haiku": "Chalk dust lifts like mist\nStudents' eyes glow bright with hope\nLessons bloom in hearts\nHappy #WorldTeachersDay from @ClamBakeSanta",
+    "tag": "WorldTeachersDay",
+    "logged_at": "2026-10-05T18:09:36.761604+00:00"
+  },
+  {
+    "date": "2026-10-05",
+    "theme": "Birthday Chester A. Arthur",
+    "haiku": "Golden candles glow\nBreezes carry old soft songs\nJoy rings bright in halls\n#HappyBirthdayChesterAArthur from @ClamBakeSanta",
+    "tag": "HappyBirthdayChesterAArthur",
+    "logged_at": "2026-10-05T18:09:36.761604+00:00"
   }
 ]
