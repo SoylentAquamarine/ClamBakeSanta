@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "haikus": [
     {
-      "theme": "National Noodle Day",
-      "haiku": "Steam curls, silver bowl\nSpoons twirl, broth sings clear and steam\nNoodles dance, joy flows\nHappy #NationalNoodleDay",
-      "tag": "NationalNoodleDay",
+      "theme": "World Smile Day",
+      "haiku": "Soft clouds drift on blue\nChildren laugh, bright echoes bloom\nSmiles spread like warm heat\nHappy #WorldSmileDay from @ClamBakeSanta",
+      "tag": "WorldSmileDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Mad Hatter Day",
-      "haiku": "Tea steam curls bright soft\nCups clink, hats twirl, laughter rings\nWhisked sugar clouds rise\nHappy #MadHatterDay from @ClamBakeSanta",
-      "tag": "MadHatterDay",
+      "theme": "National Frappe Day",
+      "haiku": "Cool foam rises high\nSparkling stars in soft cup swirl\nTaste of summer dreams\nHappy #NationalFrappeDay from @ClamBakeSanta",
+      "tag": "NationalFrappeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday George Westinghouse",
-      "haiku": "Steam whistles rise high\nGears turn in bright joy today\nCandles glow like sparks\n#HappyBirthdayGeorgeWestinghouse from @ClamBakeSanta",
-      "tag": "HappyBirthdayGeorgeWestinghouse",
+      "theme": "Birthday Desmond Tutu",
+      "haiku": "Gentle snowflakes fall\nJoyous candles glow bright warm\nHappy heart beats clear\n#HappyBirthdayDesmondTutu from @ClamBakeSanta",
+      "tag": "HappyBirthdayDesmondTutu",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Noodle Day",
-    "Mad Hatter Day",
-    "Birthday George Westinghouse"
+    "World Smile Day",
+    "National Frappe Day",
+    "Birthday Desmond Tutu"
   ],
-  "content": "Steam curls, silver bowl\nSpoons twirl, broth sings clear and steam\nNoodles dance, joy flows\nHappy #NationalNoodleDay\n\nTea steam curls bright soft\nCups clink, hats twirl, laughter rings\nWhisked sugar clouds rise\nHappy #MadHatterDay from @ClamBakeSanta\n\nSteam whistles rise high\nGears turn in bright joy today\nCandles glow like sparks\n#HappyBirthdayGeorgeWestinghouse from @ClamBakeSanta",
-  "saved_at": "2026-10-06T15:55:48.801034+00:00"
+  "content": "Soft clouds drift on blue\nChildren laugh, bright echoes bloom\nSmiles spread like warm heat\nHappy #WorldSmileDay from @ClamBakeSanta\n\nCool foam rises high\nSparkling stars in soft cup swirl\nTaste of summer dreams\nHappy #NationalFrappeDay from @ClamBakeSanta\n\nGentle snowflakes fall\nJoyous candles glow bright warm\nHappy heart beats clear\n#HappyBirthdayDesmondTutu from @ClamBakeSanta",
+  "saved_at": "2026-10-07T16:10:36.310091+00:00"
 }

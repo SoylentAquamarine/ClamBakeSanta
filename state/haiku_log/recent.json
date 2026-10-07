@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-09-29",
-    "theme": "National Coffee Day",
-    "haiku": "Morning brew sighs soft\nWarm steam rises, bright sunrise\nCup holds golden hope\nHappy #NationalCoffeeDay from @ClamBakeSanta",
-    "tag": "NationalCoffeeDay",
-    "logged_at": "2026-09-29T15:29:24.902737+00:00"
-  },
-  {
-    "date": "2026-09-29",
-    "theme": "International Goose Day",
-    "haiku": "Gleaming goslings glide\nSoft water sings, feathers flit\nSun warms their bright feet\nHappy #InternationalGooseDay from @ClamBakeSanta",
-    "tag": "InternationalGooseDay",
-    "logged_at": "2026-09-29T15:29:24.902737+00:00"
-  },
-  {
-    "date": "2026-09-29",
-    "theme": "Birthday Miguel de Cervantes",
-    "haiku": "Soft sun kisses page\nInk rivers flow in bright dreams\nStars hum sweet stories\n#HappyBirthdayMigueldeCervantes from @ClamBakeSanta",
-    "tag": "HappyBirthdayMigueldeCervantes",
-    "logged_at": "2026-09-29T15:29:24.902737+00:00"
-  },
-  {
     "date": "2026-09-30",
     "theme": "National Chewing Gum Day",
     "haiku": "Chews swirl bright in hand\nTaffy ribbon tastes like sun\nJoy pops in each bite\nHappy #NationalChewingGumDay from @ClamBakeSanta",
@@ -166,5 +145,26 @@
     "haiku": "Golden candles glow\nBreezes carry old soft songs\nJoy rings bright in halls\n#HappyBirthdayChesterAArthur from @ClamBakeSanta",
     "tag": "HappyBirthdayChesterAArthur",
     "logged_at": "2026-10-05T18:09:36.761604+00:00"
+  },
+  {
+    "date": "2026-10-06",
+    "theme": "National Noodle Day",
+    "haiku": "Steam curls, silver bowl\nSpoons twirl, broth sings clear and steam\nNoodles dance, joy flows\nHappy #NationalNoodleDay",
+    "tag": "NationalNoodleDay",
+    "logged_at": "2026-10-06T15:55:48.801553+00:00"
+  },
+  {
+    "date": "2026-10-06",
+    "theme": "Mad Hatter Day",
+    "haiku": "Tea steam curls bright soft\nCups clink, hats twirl, laughter rings\nWhisked sugar clouds rise\nHappy #MadHatterDay from @ClamBakeSanta",
+    "tag": "MadHatterDay",
+    "logged_at": "2026-10-06T15:55:48.801553+00:00"
+  },
+  {
+    "date": "2026-10-06",
+    "theme": "Birthday George Westinghouse",
+    "haiku": "Steam whistles rise high\nGears turn in bright joy today\nCandles glow like sparks\n#HappyBirthdayGeorgeWestinghouse from @ClamBakeSanta",
+    "tag": "HappyBirthdayGeorgeWestinghouse",
+    "logged_at": "2026-10-06T15:55:48.801553+00:00"
   }
 ]
