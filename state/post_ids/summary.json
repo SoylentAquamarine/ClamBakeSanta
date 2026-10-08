@@ -1,4 +1,66 @@
 {
+  "2026-10-08": {
+    "NationalFluffernutterDay": {
+      "mastodon": {
+        "id": "117406177021714840",
+        "url": "https://mastodon.social/@ClamBakeSanta/117406177021714840"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxeubn7xph2x",
+        "cid": "bafyreidkch4ai5iarvxagab4dxguy4d4pjvz7qbp4im4wyzwym2u3wa7gy"
+      },
+      "tumblr": {
+        "id": "829923086459633664",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "566",
+        "channel": "@clambakesanta"
+      }
+    },
+    "AmericanTagDay": {
+      "mastodon": {
+        "id": "117406180979494860",
+        "url": "https://mastodon.social/@ClamBakeSanta/117406180979494860"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxeudgp34s24",
+        "cid": "bafyreia6y3b7sjik3stxzm76qq3rzjkcvdafstjdsjk2luoi364hmmtopu"
+      },
+      "tumblr": {
+        "id": "829923149823066112",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "567",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayEddieRickenbacker": {
+      "mastodon": {
+        "id": "117406184941397414",
+        "url": "https://mastodon.social/@ClamBakeSanta/117406184941397414"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxeufa5vyx23",
+        "cid": "bafyreiesqqmno4n5flo5kmk5zlqnjh6g34y5zg7es45j2yb6vfj5zblztm"
+      },
+      "tumblr": {
+        "id": "829923213227196416",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "568",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "184",
+        "url": "https://clambakesanta.wordpress.com/2026/10/08/clam-bake-santa-2026-10-08/"
+      }
+    }
+  },
   "2026-10-07": {
     "WorldSmileDay": {
       "mastodon": {
@@ -466,86 +528,6 @@
       "wordpress": {
         "id": "177",
         "url": "https://clambakesanta.wordpress.com/2026/10/01/clam-bake-santa-2026-10-01/"
-      }
-    }
-  },
-  "2026-09-30": {
-    "NationalChewingGumDay": {
-      "mastodon": {
-        "id": "117360757006005788",
-        "url": "https://mastodon.social/@ClamBakeSanta/117360757006005788"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwqoutgdci2e",
-        "cid": "bafyreiaz7k54w47olidva7jtfcq6g64wqrdt2vhie5v7hdwe6yt5syxmiy"
-      },
-      "tumblr": {
-        "id": "829196493657407488",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "539",
-        "channel": "@clambakesanta"
-      }
-    },
-    "InternationalPodcastDay": {
-      "mastodon": {
-        "id": "117360760995741220",
-        "url": "https://mastodon.social/@ClamBakeSanta/117360760995741220"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwqowmvfwk2x",
-        "cid": "bafyreichqoc7ajmu7p76y6ctinlxubiyzpwkt74ypjq5ht4gvupmqgr3la"
-      },
-      "tumblr": {
-        "id": "829196557215825920",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "540",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayTrumanCapote": {
-      "mastodon": {
-        "id": "117360764971796055",
-        "url": "https://mastodon.social/@ClamBakeSanta/117360764971796055"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwqoygebl227",
-        "cid": "bafyreiawmmn3qndseqjd7wbmhlszuwpagwmwpbgghtlsut5tdnhx4dm64m"
-      },
-      "tumblr": {
-        "id": "829196620515229696",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "541",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayElieWiesel": {
-      "mastodon": {
-        "id": "117360768934491774",
-        "url": "https://mastodon.social/@ClamBakeSanta/117360768934491774"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwqp27tp3c2y",
-        "cid": "bafyreib5xdpb6jglzlkm67ewufpyrgvltavcl5m34xurzcyzebvfbi5gey"
-      },
-      "tumblr": {
-        "id": "829196683816599552",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "542",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "176",
-        "url": "https://clambakesanta.wordpress.com/2026/09/30/clam-bake-santa-2026-09-30/"
       }
     }
   }

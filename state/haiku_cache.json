@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "haikus": [
     {
-      "theme": "World Smile Day",
-      "haiku": "Soft clouds drift on blue\nChildren laugh, bright echoes bloom\nSmiles spread like warm heat\nHappy #WorldSmileDay from @ClamBakeSanta",
-      "tag": "WorldSmileDay",
+      "theme": "National Fluffernutter Day",
+      "haiku": "Peanut butter sighs\nSoft spread on toast, warm bright crumbs\nSoft joy melts like jam\nHappy #NationalFluffernutterDay from @ClamBakeSanta",
+      "tag": "NationalFluffernutterDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Frappe Day",
-      "haiku": "Cool foam rises high\nSparkling stars in soft cup swirl\nTaste of summer dreams\nHappy #NationalFrappeDay from @ClamBakeSanta",
-      "tag": "NationalFrappeDay",
+      "theme": "American Tag Day",
+      "haiku": "Red flags flutter high\nKids laugh, ribbons kiss the air\nSun paints the streets gold\nHappy #AmericanTagDay from @ClamBakeSanta",
+      "tag": "AmericanTagDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Desmond Tutu",
-      "haiku": "Gentle snowflakes fall\nJoyous candles glow bright warm\nHappy heart beats clear\n#HappyBirthdayDesmondTutu from @ClamBakeSanta",
-      "tag": "HappyBirthdayDesmondTutu",
+      "theme": "Birthday Eddie Rickenbacker",
+      "haiku": "Eddie flies bright sky\nWings beat like drum of joy soft\nStars salute his name\n#HappyBirthdayEddieRickenbacker from @ClamBakeSanta",
+      "tag": "HappyBirthdayEddieRickenbacker",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "World Smile Day",
-    "National Frappe Day",
-    "Birthday Desmond Tutu"
+    "National Fluffernutter Day",
+    "American Tag Day",
+    "Birthday Eddie Rickenbacker"
   ],
-  "content": "Soft clouds drift on blue\nChildren laugh, bright echoes bloom\nSmiles spread like warm heat\nHappy #WorldSmileDay from @ClamBakeSanta\n\nCool foam rises high\nSparkling stars in soft cup swirl\nTaste of summer dreams\nHappy #NationalFrappeDay from @ClamBakeSanta\n\nGentle snowflakes fall\nJoyous candles glow bright warm\nHappy heart beats clear\n#HappyBirthdayDesmondTutu from @ClamBakeSanta",
-  "saved_at": "2026-10-07T16:10:36.310091+00:00"
+  "content": "Peanut butter sighs\nSoft spread on toast, warm bright crumbs\nSoft joy melts like jam\nHappy #NationalFluffernutterDay from @ClamBakeSanta\n\nRed flags flutter high\nKids laugh, ribbons kiss the air\nSun paints the streets gold\nHappy #AmericanTagDay from @ClamBakeSanta\n\nEddie flies bright sky\nWings beat like drum of joy soft\nStars salute his name\n#HappyBirthdayEddieRickenbacker from @ClamBakeSanta",
+  "saved_at": "2026-10-08T16:14:49.112194+00:00"
 }

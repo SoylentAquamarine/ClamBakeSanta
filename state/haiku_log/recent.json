@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-30",
-    "theme": "National Chewing Gum Day",
-    "haiku": "Chews swirl bright in hand\nTaffy ribbon tastes like sun\nJoy pops in each bite\nHappy #NationalChewingGumDay from @ClamBakeSanta",
-    "tag": "NationalChewingGumDay",
-    "logged_at": "2026-09-30T15:43:54.907102+00:00"
-  },
-  {
-    "date": "2026-09-30",
-    "theme": "International Podcast Day",
-    "haiku": "Echoes of voices\nWarm words float like light on clouds\nStories spark bright hearts\nHappy #InternationalPodcastDay from @ClamBakeSanta",
-    "tag": "InternationalPodcastDay",
-    "logged_at": "2026-09-30T15:43:54.907102+00:00"
-  },
-  {
-    "date": "2026-09-30",
-    "theme": "Birthday Truman Capote",
-    "haiku": "Sunlight on paper\nSoft stories bloom bright like spring\nJoy rides in each line\n#HappyBirthdayTrumanCapote from @ClamBakeSanta",
-    "tag": "HappyBirthdayTrumanCapote",
-    "logged_at": "2026-09-30T15:43:54.907102+00:00"
-  },
-  {
-    "date": "2026-09-30",
-    "theme": "Birthday Elie Wiesel",
-    "haiku": "Bright candles flicker\nSoft laughter fills the room warm\nJoy blooms like sunrise\n#HappyBirthday",
-    "tag": "HappyBirthdayElieWiesel",
-    "logged_at": "2026-09-30T15:43:54.907102+00:00"
-  },
-  {
     "date": "2026-10-01",
     "theme": "International Coffee Day",
     "haiku": "Morning brew sighs soft\nSteam curls like gentle lace bright\nSavor notes bloom warm\nHappy #InternationalCoffeeDay from @ClamBakeSanta",
@@ -166,5 +138,26 @@
     "haiku": "Steam whistles rise high\nGears turn in bright joy today\nCandles glow like sparks\n#HappyBirthdayGeorgeWestinghouse from @ClamBakeSanta",
     "tag": "HappyBirthdayGeorgeWestinghouse",
     "logged_at": "2026-10-06T15:55:48.801553+00:00"
+  },
+  {
+    "date": "2026-10-07",
+    "theme": "World Smile Day",
+    "haiku": "Soft clouds drift on blue\nChildren laugh, bright echoes bloom\nSmiles spread like warm heat\nHappy #WorldSmileDay from @ClamBakeSanta",
+    "tag": "WorldSmileDay",
+    "logged_at": "2026-10-07T16:10:36.310497+00:00"
+  },
+  {
+    "date": "2026-10-07",
+    "theme": "National Frappe Day",
+    "haiku": "Cool foam rises high\nSparkling stars in soft cup swirl\nTaste of summer dreams\nHappy #NationalFrappeDay from @ClamBakeSanta",
+    "tag": "NationalFrappeDay",
+    "logged_at": "2026-10-07T16:10:36.310497+00:00"
+  },
+  {
+    "date": "2026-10-07",
+    "theme": "Birthday Desmond Tutu",
+    "haiku": "Gentle snowflakes fall\nJoyous candles glow bright warm\nHappy heart beats clear\n#HappyBirthdayDesmondTutu from @ClamBakeSanta",
+    "tag": "HappyBirthdayDesmondTutu",
+    "logged_at": "2026-10-07T16:10:36.310497+00:00"
   }
 ]
