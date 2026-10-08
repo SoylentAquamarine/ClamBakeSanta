@@ -1,0 +1,102 @@
+{
+  "WorldSmileDay": {
+    "theme": "World Smile Day",
+    "haiku": "Soft clouds drift on blue\nChildren laugh, bright echoes bloom\nSmiles spread like warm heat\nHappy #WorldSmileDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117400498115478165",
+        "url": "https://mastodon.social/@ClamBakeSanta/117400498115478165",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxcdl5sup62s",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "829832222971494401",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-08T01:27:17.206100+00:00"
+  },
+  "NationalFrappeDay": {
+    "theme": "National Frappe Day",
+    "haiku": "Cool foam rises high\nSparkling stars in soft cup swirl\nTaste of summer dreams\nHappy #NationalFrappeDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117400502069753231",
+        "url": "https://mastodon.social/@ClamBakeSanta/117400502069753231",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxcdmx47ow2s",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "829832286348460032",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-08T01:27:17.206100+00:00"
+  },
+  "HappyBirthdayDesmondTutu": {
+    "theme": "Birthday Desmond Tutu",
+    "haiku": "Gentle snowflakes fall\nJoyous candles glow bright warm\nHappy heart beats clear\n#HappyBirthdayDesmondTutu from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117400506025120493",
+        "url": "https://mastodon.social/@ClamBakeSanta/117400506025120493",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxcdoqgz3j2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "829832349748445184",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-08T01:27:17.206100+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "183",
+        "url": "https://clambakesanta.wordpress.com/2026/10/07/clam-bake-santa-2026-10-07/",
+        "views": 3,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-10-08T01:27:17.206100+00:00"
+  }
+}
