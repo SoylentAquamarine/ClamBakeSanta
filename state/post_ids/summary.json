@@ -1,4 +1,66 @@
 {
+  "2026-10-09": {
+    "NationalMoldyCheeseDay": {
+      "mastodon": {
+        "id": "117411762972339302",
+        "url": "https://mastodon.social/@ClamBakeSanta/117411762972339302"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxhdntns3n2f",
+        "cid": "bafyreibjlcu3lv3o2ltreahfcqryuamrjagl6w5ytcucxa4n5pudsvgpty"
+      },
+      "tumblr": {
+        "id": "830012461837156352",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "569",
+        "channel": "@clambakesanta"
+      }
+    },
+    "WorldPostDay": {
+      "mastodon": {
+        "id": "117411766949594442",
+        "url": "https://mastodon.social/@ClamBakeSanta/117411766949594442"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxhdpn4spv2f",
+        "cid": "bafyreif7xn4yjbz4oma4wyff5yerpzx7jmi4buu4ud2yeux74wzctpsuem"
+      },
+      "tumblr": {
+        "id": "830012525179551744",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "570",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayJohnLennon": {
+      "mastodon": {
+        "id": "117411770904958626",
+        "url": "https://mastodon.social/@ClamBakeSanta/117411770904958626"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxhdrglxb32n",
+        "cid": "bafyreiabgzsqu774b3u6pze4he6qohkj2rw3qgmh5sciha6ibvs2wxsbsa"
+      },
+      "tumblr": {
+        "id": "830012588549111808",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "571",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "185",
+        "url": "https://clambakesanta.wordpress.com/2026/10/09/clam-bake-santa-2026-10-09/"
+      }
+    }
+  },
   "2026-10-08": {
     "NationalFluffernutterDay": {
       "mastodon": {
@@ -466,68 +528,6 @@
       "wordpress": {
         "id": "178",
         "url": "https://clambakesanta.wordpress.com/2026/10/02/clam-bake-santa-2026-10-02/"
-      }
-    }
-  },
-  "2026-10-01": {
-    "InternationalCoffeeDay": {
-      "mastodon": {
-        "id": "117366512227536502",
-        "url": "https://mastodon.social/@ClamBakeSanta/117366512227536502"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwtam7adlf2b",
-        "cid": "bafyreiaallypm4sengabcslnztcf4oytn4ojcosq47gdnyvypwwwy4d2yy"
-      },
-      "tumblr": {
-        "id": "829288450819751936",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "543",
-        "channel": "@clambakesanta"
-      }
-    },
-    "NationalHomemadeCookiesDay": {
-      "mastodon": {
-        "id": "117366516222856165",
-        "url": "https://mastodon.social/@ClamBakeSanta/117366516222856165"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwtanylzrf2b",
-        "cid": "bafyreiglpajvfckn576xjuh5wuoyatedbx74ly4sj4zuoykw2hjqir2mga"
-      },
-      "tumblr": {
-        "id": "829288514185297920",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "544",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayWalterMatthau": {
-      "mastodon": {
-        "id": "117366520192167281",
-        "url": "https://mastodon.social/@ClamBakeSanta/117366520192167281"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mwtaps6ohp25",
-        "cid": "bafyreiey2gvg6lay6obmole45f77p7coyxmvnwfiwm2sxhytj5l2hwzfza"
-      },
-      "tumblr": {
-        "id": "829288577992163328",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "545",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "177",
-        "url": "https://clambakesanta.wordpress.com/2026/10/01/clam-bake-santa-2026-10-01/"
       }
     }
   }

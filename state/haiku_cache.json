@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "haikus": [
     {
-      "theme": "National Fluffernutter Day",
-      "haiku": "Peanut butter sighs\nSoft spread on toast, warm bright crumbs\nSoft joy melts like jam\nHappy #NationalFluffernutterDay from @ClamBakeSanta",
-      "tag": "NationalFluffernutterDay",
+      "theme": "National Moldy Cheese Day",
+      "haiku": "Moldy rind sings soft\nCheese swirls amber glow in room\nWarm crumbs dance bright near\nHappy #NationalMoldyCheeseDay from @ClamBakeSanta",
+      "tag": "NationalMoldyCheeseDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "American Tag Day",
-      "haiku": "Red flags flutter high\nKids laugh, ribbons kiss the air\nSun paints the streets gold\nHappy #AmericanTagDay from @ClamBakeSanta",
-      "tag": "AmericanTagDay",
+      "theme": "World Post Day",
+      "haiku": "Mail bags hum early\nPostmen smile as stamps glide near\nLetters travel bright\nHappy #WorldPostDay from @ClamBakeSanta",
+      "tag": "WorldPostDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Eddie Rickenbacker",
-      "haiku": "Eddie flies bright sky\nWings beat like drum of joy soft\nStars salute his name\n#HappyBirthdayEddieRickenbacker from @ClamBakeSanta",
-      "tag": "HappyBirthdayEddieRickenbacker",
+      "theme": "Birthday John Lennon",
+      "haiku": "Soft breeze hums through trees\nSongs of peace in bright summer\nJoy rings in each heart\n#HappyBirthdayJohnLennon from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnLennon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Fluffernutter Day",
-    "American Tag Day",
-    "Birthday Eddie Rickenbacker"
+    "National Moldy Cheese Day",
+    "World Post Day",
+    "Birthday John Lennon"
   ],
-  "content": "Peanut butter sighs\nSoft spread on toast, warm bright crumbs\nSoft joy melts like jam\nHappy #NationalFluffernutterDay from @ClamBakeSanta\n\nRed flags flutter high\nKids laugh, ribbons kiss the air\nSun paints the streets gold\nHappy #AmericanTagDay from @ClamBakeSanta\n\nEddie flies bright sky\nWings beat like drum of joy soft\nStars salute his name\n#HappyBirthdayEddieRickenbacker from @ClamBakeSanta",
-  "saved_at": "2026-10-08T16:14:49.112194+00:00"
+  "content": "Moldy rind sings soft\nCheese swirls amber glow in room\nWarm crumbs dance bright near\nHappy #NationalMoldyCheeseDay from @ClamBakeSanta\n\nMail bags hum early\nPostmen smile as stamps glide near\nLetters travel bright\nHappy #WorldPostDay from @ClamBakeSanta\n\nSoft breeze hums through trees\nSongs of peace in bright summer\nJoy rings in each heart\n#HappyBirthdayJohnLennon from @ClamBakeSanta",
+  "saved_at": "2026-10-09T15:55:23.673599+00:00"
 }

@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-01",
-    "theme": "International Coffee Day",
-    "haiku": "Morning brew sighs soft\nSteam curls like gentle lace bright\nSavor notes bloom warm\nHappy #InternationalCoffeeDay from @ClamBakeSanta",
-    "tag": "InternationalCoffeeDay",
-    "logged_at": "2026-10-01T16:07:32.720906+00:00"
-  },
-  {
-    "date": "2026-10-01",
-    "theme": "National Homemade Cookies Day",
-    "haiku": "Warm dough rises, sweet\nCrackling oven, golden glow\nCrunch of cookie bite\nHappy #NationalHomemadeCookiesDay from @ClamBakeSanta",
-    "tag": "NationalHomemadeCookiesDay",
-    "logged_at": "2026-10-01T16:07:32.720906+00:00"
-  },
-  {
-    "date": "2026-10-01",
-    "theme": "Birthday Walter Matthau",
-    "haiku": "Bright noon sky smiles soft\nGolden laughter warm fills air\nJoyful toast rises\n#HappyBirthdayWalterMatthau from @ClamBakeSanta",
-    "tag": "HappyBirthdayWalterMatthau",
-    "logged_at": "2026-10-01T16:07:32.720906+00:00"
-  },
-  {
     "date": "2026-10-02",
     "theme": "National Fried Scallops Day",
     "haiku": "Golden scallop flakes\nCrisp crunch, salty soft warm breeze\nHeat glows, sea sings sweet\nHappy",
@@ -159,5 +138,26 @@
     "haiku": "Gentle snowflakes fall\nJoyous candles glow bright warm\nHappy heart beats clear\n#HappyBirthdayDesmondTutu from @ClamBakeSanta",
     "tag": "HappyBirthdayDesmondTutu",
     "logged_at": "2026-10-07T16:10:36.310497+00:00"
+  },
+  {
+    "date": "2026-10-08",
+    "theme": "National Fluffernutter Day",
+    "haiku": "Peanut butter sighs\nSoft spread on toast, warm bright crumbs\nSoft joy melts like jam\nHappy #NationalFluffernutterDay from @ClamBakeSanta",
+    "tag": "NationalFluffernutterDay",
+    "logged_at": "2026-10-08T16:14:49.112802+00:00"
+  },
+  {
+    "date": "2026-10-08",
+    "theme": "American Tag Day",
+    "haiku": "Red flags flutter high\nKids laugh, ribbons kiss the air\nSun paints the streets gold\nHappy #AmericanTagDay from @ClamBakeSanta",
+    "tag": "AmericanTagDay",
+    "logged_at": "2026-10-08T16:14:49.112802+00:00"
+  },
+  {
+    "date": "2026-10-08",
+    "theme": "Birthday Eddie Rickenbacker",
+    "haiku": "Eddie flies bright sky\nWings beat like drum of joy soft\nStars salute his name\n#HappyBirthdayEddieRickenbacker from @ClamBakeSanta",
+    "tag": "HappyBirthdayEddieRickenbacker",
+    "logged_at": "2026-10-08T16:14:49.112802+00:00"
   }
 ]
