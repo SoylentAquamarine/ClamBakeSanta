@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-02",
-    "theme": "National Fried Scallops Day",
-    "haiku": "Golden scallop flakes\nCrisp crunch, salty soft warm breeze\nHeat glows, sea sings sweet\nHappy",
-    "tag": "NationalFriedScallopsDay",
-    "logged_at": "2026-10-02T15:31:13.307321+00:00"
-  },
-  {
-    "date": "2026-10-02",
-    "theme": "World Farm Animals Day",
-    "haiku": "Morning dew on hay\nLarks sing, cows graze, bright sun smiles\nFields echo soft joy\nHappy #WorldFarmAnimalsDay from @ClamBakeSanta",
-    "tag": "WorldFarmAnimalsDay",
-    "logged_at": "2026-10-02T15:31:13.307321+00:00"
-  },
-  {
-    "date": "2026-10-02",
-    "theme": "Birthday Mahatma Gandhi",
-    "haiku": "Morning light hums warm\nGentle breeze carries bright peace\nJoyful hearts bloom bright\n#HappyBirthdayMahatmaGandhi from @ClamBakeSanta",
-    "tag": "HappyBirthdayMahatmaGandhi",
-    "logged_at": "2026-10-02T15:31:13.307321+00:00"
-  },
-  {
-    "date": "2026-10-02",
-    "theme": "Birthday Groucho Marx",
-    "haiku": "Bright laugh rings like snow\nSilver glasses clink with wit\nCheers rise, warm as toast\n#HappyBirthdayGrouchoMarx from @ClamBakeSanta",
-    "tag": "HappyBirthdayGrouchoMarx",
-    "logged_at": "2026-10-02T15:31:13.307321+00:00"
-  },
-  {
     "date": "2026-10-03",
     "theme": "National Caramel Custard Day",
     "haiku": "Golden custard glows\nVelvet swirl, warm sun drips soft\nTaste of summer sigh\nHappy #NationalCaramelCustardDay from @ClamBakeSanta",
@@ -159,5 +131,26 @@
     "haiku": "Eddie flies bright sky\nWings beat like drum of joy soft\nStars salute his name\n#HappyBirthdayEddieRickenbacker from @ClamBakeSanta",
     "tag": "HappyBirthdayEddieRickenbacker",
     "logged_at": "2026-10-08T16:14:49.112802+00:00"
+  },
+  {
+    "date": "2026-10-09",
+    "theme": "National Moldy Cheese Day",
+    "haiku": "Moldy rind sings soft\nCheese swirls amber glow in room\nWarm crumbs dance bright near\nHappy #NationalMoldyCheeseDay from @ClamBakeSanta",
+    "tag": "NationalMoldyCheeseDay",
+    "logged_at": "2026-10-09T15:55:23.674023+00:00"
+  },
+  {
+    "date": "2026-10-09",
+    "theme": "World Post Day",
+    "haiku": "Mail bags hum early\nPostmen smile as stamps glide near\nLetters travel bright\nHappy #WorldPostDay from @ClamBakeSanta",
+    "tag": "WorldPostDay",
+    "logged_at": "2026-10-09T15:55:23.674023+00:00"
+  },
+  {
+    "date": "2026-10-09",
+    "theme": "Birthday John Lennon",
+    "haiku": "Soft breeze hums through trees\nSongs of peace in bright summer\nJoy rings in each heart\n#HappyBirthdayJohnLennon from @ClamBakeSanta",
+    "tag": "HappyBirthdayJohnLennon",
+    "logged_at": "2026-10-09T15:55:23.674023+00:00"
   }
 ]

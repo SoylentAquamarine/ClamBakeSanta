@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "haikus": [
     {
-      "theme": "National Moldy Cheese Day",
-      "haiku": "Moldy rind sings soft\nCheese swirls amber glow in room\nWarm crumbs dance bright near\nHappy #NationalMoldyCheeseDay from @ClamBakeSanta",
-      "tag": "NationalMoldyCheeseDay",
+      "theme": "World Mental Health Day",
+      "haiku": "Morning light whispers\nSoft breeze carries hope and song\nHands touch bright hearts bloom\nHappy #WorldMentalHealthDay from @ClamBakeSanta",
+      "tag": "WorldMentalHealthDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Post Day",
-      "haiku": "Mail bags hum early\nPostmen smile as stamps glide near\nLetters travel bright\nHappy #WorldPostDay from @ClamBakeSanta",
-      "tag": "WorldPostDay",
+      "theme": "National Cake Decorating Day",
+      "haiku": "Sugar swirls in light\nI paint rainbow swirls on cake\nCrimson glaze kisses\nHappy #NationalCake",
+      "tag": "NationalCakeDecoratingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday John Lennon",
-      "haiku": "Soft breeze hums through trees\nSongs of peace in bright summer\nJoy rings in each heart\n#HappyBirthdayJohnLennon from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnLennon",
+      "theme": "Birthday Giuseppe Verdi",
+      "haiku": "Melody winds rise\nBright notes swirl in warm soft air\nJoy sings bright on stage\n#HappyBirthdayGiuseppeVerdi from @ClamBakeSanta",
+      "tag": "HappyBirthdayGiuseppeVerdi",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Thelonious Monk",
+      "haiku": "Blue jazz notes drift soft\nMoonlit street hums midnight beat\nAge rings in cool air\n#HappyBirthdayTheloniousMonk from @ClamBakeSanta",
+      "tag": "HappyBirthdayTheloniousMonk",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "New Moon",
+      "haiku": "Night sky hides its face\nSoft stars whisper, new bright glow\nHope rises with night\nHappy #New",
+      "tag": "NewMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +58,12 @@
     }
   ],
   "themes": [
-    "National Moldy Cheese Day",
-    "World Post Day",
-    "Birthday John Lennon"
+    "World Mental Health Day",
+    "National Cake Decorating Day",
+    "Birthday Giuseppe Verdi",
+    "Birthday Thelonious Monk",
+    "New Moon"
   ],
-  "content": "Moldy rind sings soft\nCheese swirls amber glow in room\nWarm crumbs dance bright near\nHappy #NationalMoldyCheeseDay from @ClamBakeSanta\n\nMail bags hum early\nPostmen smile as stamps glide near\nLetters travel bright\nHappy #WorldPostDay from @ClamBakeSanta\n\nSoft breeze hums through trees\nSongs of peace in bright summer\nJoy rings in each heart\n#HappyBirthdayJohnLennon from @ClamBakeSanta",
-  "saved_at": "2026-10-09T15:55:23.673599+00:00"
+  "content": "Morning light whispers\nSoft breeze carries hope and song\nHands touch bright hearts bloom\nHappy #WorldMentalHealthDay from @ClamBakeSanta\n\nSugar swirls in light\nI paint rainbow swirls on cake\nCrimson glaze kisses\nHappy #NationalCake\n\nMelody winds rise\nBright notes swirl in warm soft air\nJoy sings bright on stage\n#HappyBirthdayGiuseppeVerdi from @ClamBakeSanta\n\nBlue jazz notes drift soft\nMoonlit street hums midnight beat\nAge rings in cool air\n#HappyBirthdayTheloniousMonk from @ClamBakeSanta\n\nNight sky hides its face\nSoft stars whisper, new bright glow\nHope rises with night\nHappy #New",
+  "saved_at": "2026-10-10T15:06:35.179008+00:00"
 }
