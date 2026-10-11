@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "haikus": [
     {
-      "theme": "World Mental Health Day",
-      "haiku": "Morning light whispers\nSoft breeze carries hope and song\nHands touch bright hearts bloom\nHappy #WorldMentalHealthDay from @ClamBakeSanta",
-      "tag": "WorldMentalHealthDay",
+      "theme": "National Sausage Pizza Day",
+      "haiku": "Cheese melts, sausage sings\nBubbles rise, dough hugs warmly\nFlavor bursts, bright smiles\nHappy #NationalSausagePizzaDay from @ClamBakeSanta",
+      "tag": "NationalSausagePizzaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Cake Decorating Day",
-      "haiku": "Sugar swirls in light\nI paint rainbow swirls on cake\nCrimson glaze kisses\nHappy #NationalCake",
-      "tag": "NationalCakeDecoratingDay",
+      "theme": "It's My Party Day",
+      "haiku": "Sunrise paints the sky\nCandles flicker, sweet laughter\nJoyful cheers rise high\nHappy #ItSMyPartyDay from @ClamBakeSanta",
+      "tag": "ItSMyPartyDay",
       "syllable_counts": [
         5,
         7,
@@ -24,31 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Giuseppe Verdi",
-      "haiku": "Melody winds rise\nBright notes swirl in warm soft air\nJoy sings bright on stage\n#HappyBirthdayGiuseppeVerdi from @ClamBakeSanta",
-      "tag": "HappyBirthdayGiuseppeVerdi",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Thelonious Monk",
-      "haiku": "Blue jazz notes drift soft\nMoonlit street hums midnight beat\nAge rings in cool air\n#HappyBirthdayTheloniousMonk from @ClamBakeSanta",
-      "tag": "HappyBirthdayTheloniousMonk",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "New Moon",
-      "haiku": "Night sky hides its face\nSoft stars whisper, new bright glow\nHope rises with night\nHappy #New",
-      "tag": "NewMoon",
+      "theme": "Birthday Eleanor Roosevelt",
+      "haiku": "Sunrise paints her smile\nGentle breeze carries soft hope\nStars hum quiet joy\n#HappyBirthdayEleanorRoosevelt from @ClamBakeSanta",
+      "tag": "HappyBirthdayEleanorRoosevelt",
       "syllable_counts": [
         5,
         7,
@@ -58,12 +36,10 @@
     }
   ],
   "themes": [
-    "World Mental Health Day",
-    "National Cake Decorating Day",
-    "Birthday Giuseppe Verdi",
-    "Birthday Thelonious Monk",
-    "New Moon"
+    "National Sausage Pizza Day",
+    "It's My Party Day",
+    "Birthday Eleanor Roosevelt"
   ],
-  "content": "Morning light whispers\nSoft breeze carries hope and song\nHands touch bright hearts bloom\nHappy #WorldMentalHealthDay from @ClamBakeSanta\n\nSugar swirls in light\nI paint rainbow swirls on cake\nCrimson glaze kisses\nHappy #NationalCake\n\nMelody winds rise\nBright notes swirl in warm soft air\nJoy sings bright on stage\n#HappyBirthdayGiuseppeVerdi from @ClamBakeSanta\n\nBlue jazz notes drift soft\nMoonlit street hums midnight beat\nAge rings in cool air\n#HappyBirthdayTheloniousMonk from @ClamBakeSanta\n\nNight sky hides its face\nSoft stars whisper, new bright glow\nHope rises with night\nHappy #New",
-  "saved_at": "2026-10-10T15:06:35.179008+00:00"
+  "content": "Cheese melts, sausage sings\nBubbles rise, dough hugs warmly\nFlavor bursts, bright smiles\nHappy #NationalSausagePizzaDay from @ClamBakeSanta\n\nSunrise paints the sky\nCandles flicker, sweet laughter\nJoyful cheers rise high\nHappy #ItSMyPartyDay from @ClamBakeSanta\n\nSunrise paints her smile\nGentle breeze carries soft hope\nStars hum quiet joy\n#HappyBirthdayEleanorRoosevelt from @ClamBakeSanta",
+  "saved_at": "2026-10-11T15:25:22.067328+00:00"
 }

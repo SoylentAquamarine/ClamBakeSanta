@@ -1,0 +1,62 @@
+{
+  "NationalSausagePizzaDay": {
+    "mastodon": {
+      "id": "117422969489672329",
+      "url": "https://mastodon.social/@ClamBakeSanta/117422969489672329"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxmcvy42mg2i",
+      "cid": "bafyreicspl4nrfssoqlgbex3f6ba3rmb3r2cwf5qbmkgfxcxyfwfdqmwoy"
+    },
+    "tumblr": {
+      "id": "830191766412165120",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "577",
+      "channel": "@clambakesanta"
+    }
+  },
+  "ItSMyPartyDay": {
+    "mastodon": {
+      "id": "117422973465198651",
+      "url": "https://mastodon.social/@ClamBakeSanta/117422973465198651"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxmcxrjoct2i",
+      "cid": "bafyreieytaksczvq3wgggsk4is5rflzut4efder3iyeiyuc7fyqemkzflu"
+    },
+    "tumblr": {
+      "id": "830191829856157696",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "578",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayEleanorRoosevelt": {
+    "mastodon": {
+      "id": "117422977434774547",
+      "url": "https://mastodon.social/@ClamBakeSanta/117422977434774547"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxmczkxdlr2x",
+      "cid": "bafyreigtfnjd5gaqxd547mgxd4a5c36xb6xmldzs3eutrgsah2bn3fmnqa"
+    },
+    "tumblr": {
+      "id": "830191893238480896",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "579",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "187",
+      "url": "https://clambakesanta.wordpress.com/2026/10/11/clam-bake-santa-2026-10-11/"
+    }
+  }
+}
