@@ -1,4 +1,106 @@
 {
+  "2026-10-11": {
+    "NationalSausagePizzaDay": {
+      "theme": "National Sausage Pizza Day",
+      "haiku": "Cheese melts, sausage sings\nBubbles rise, dough hugs warmly\nFlavor bursts, bright smiles\nHappy #NationalSausagePizzaDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117422969489672329",
+          "url": "https://mastodon.social/@ClamBakeSanta/117422969489672329",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxmcvy42mg2i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "830191766412165120",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
+    },
+    "ItSMyPartyDay": {
+      "theme": "It's My Party Day",
+      "haiku": "Sunrise paints the sky\nCandles flicker, sweet laughter\nJoyful cheers rise high\nHappy #ItSMyPartyDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117422973465198651",
+          "url": "https://mastodon.social/@ClamBakeSanta/117422973465198651",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxmcxrjoct2i",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "830191829856157696",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
+    },
+    "HappyBirthdayEleanorRoosevelt": {
+      "theme": "Birthday Eleanor Roosevelt",
+      "haiku": "Sunrise paints her smile\nGentle breeze carries soft hope\nStars hum quiet joy\n#HappyBirthdayEleanorRoosevelt from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117422977434774547",
+          "url": "https://mastodon.social/@ClamBakeSanta/117422977434774547",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mxmczkxdlr2x",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "830191893238480896",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "187",
+          "url": "https://clambakesanta.wordpress.com/2026/10/11/clam-bake-santa-2026-10-11/",
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
+    }
+  },
   "2026-10-10": {
     "WorldMentalHealthDay": {
       "theme": "World Mental Health Day",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "NationalCakeDecoratingDay": {
       "theme": "National Cake Decorating Day",
@@ -54,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "HappyBirthdayGiuseppeVerdi": {
       "theme": "Birthday Giuseppe Verdi",
@@ -82,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "HappyBirthdayTheloniousMonk": {
       "theme": "Birthday Thelonious Monk",
@@ -110,7 +212,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "NewMoon": {
       "theme": "New Moon",
@@ -138,7 +240,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -147,14 +249,14 @@
         "wordpress": {
           "id": "186",
           "url": "https://clambakesanta.wordpress.com/2026/10/10/clam-bake-santa-2026-10-10/",
-          "views": 2,
+          "views": 3,
           "likes": 2,
           "comments": 0,
           "score": 2
         }
       },
       "total_score": 2,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     }
   },
   "2026-10-09": {
@@ -184,7 +286,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "WorldPostDay": {
       "theme": "World Post Day",
@@ -212,7 +314,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "HappyBirthdayJohnLennon": {
       "theme": "Birthday John Lennon",
@@ -240,7 +342,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -256,7 +358,7 @@
         }
       },
       "total_score": 5,
-      "last_checked": "2026-10-11T00:35:43.771390+00:00"
+      "last_checked": "2026-10-12T00:52:21.058151+00:00"
     }
   },
   "2026-10-08": {
@@ -665,108 +767,6 @@
       },
       "total_score": 3,
       "last_checked": "2026-10-08T01:27:17.206100+00:00"
-    }
-  },
-  "2026-10-04": {
-    "NationalTacoDay": {
-      "theme": "National Taco Day",
-      "haiku": "Taco shells glow bright\nSauce drips, salsa sings in heat\nMouthful joy, spice bloom\nHappy #NationalTacoDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117383161816988734",
-          "url": "https://mastodon.social/@ClamBakeSanta/117383161816988734",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mx2n7kd47e2j",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "829554843898232832",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-10-07T01:09:15.997709+00:00"
-    },
-    "WorldAnimalDay": {
-      "theme": "World Animal Day",
-      "haiku": "Bright paws tap soft grass\nSunlit rivers hum with joy\nFeathers flutter, smiles\nHappy #WorldAnimalDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117383165784838806",
-          "url": "https://mastodon.social/@ClamBakeSanta/117383165784838806",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mx2nbdqsgd2e",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "829554907296202752",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-10-07T01:09:15.997709+00:00"
-    },
-    "HappyBirthdayBusterKeaton": {
-      "theme": "Birthday Buster Keaton",
-      "haiku": "Bright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117383169747326824",
-          "url": "https://mastodon.social/@ClamBakeSanta/117383169747326824",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mx2nd57ewt2p",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "829554970748731392",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-10-07T01:09:15.997709+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {
-        "wordpress": {
-          "id": "180",
-          "url": "https://clambakesanta.wordpress.com/2026/10/04/clam-bake-santa-2026-10-04/",
-          "views": 4,
-          "likes": 5,
-          "comments": 0,
-          "score": 5
-        }
-      },
-      "total_score": 5,
-      "last_checked": "2026-10-07T01:09:15.997709+00:00"
     }
   }
 }
