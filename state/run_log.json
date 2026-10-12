@@ -180,7 +180,8 @@
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
   ],
   "runs": [
     {
@@ -2321,6 +2322,18 @@
         "Birthday Eleanor Roosevelt"
       ],
       "content_preview": "Cheese melts, sausage sings Bubbles rise, dough hugs warmly Flavor bursts, bright smiles Happy #NationalSausagePizzaDay "
+    },
+    {
+      "date": "2026-10-12",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-12T18:57:32.726444+00:00",
+      "themes": [
+        "National Gumbo Day",
+        "World Arthritis Day",
+        "Columbus Day",
+        "Birthday Luciano Pavarotti"
+      ],
+      "content_preview": "Red broth glows warmly Spices swirl with smoky steam Taste bright, heart feels light Happy #NationalGumboDay from @ClamB"
     }
   ]
 }

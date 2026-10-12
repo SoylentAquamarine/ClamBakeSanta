@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-04",
-    "theme": "National Taco Day",
-    "haiku": "Taco shells glow bright\nSauce drips, salsa sings in heat\nMouthful joy, spice bloom\nHappy #NationalTacoDay from @ClamBakeSanta",
-    "tag": "NationalTacoDay",
-    "logged_at": "2026-10-04T14:41:45.002609+00:00"
-  },
-  {
-    "date": "2026-10-04",
-    "theme": "World Animal Day",
-    "haiku": "Bright paws tap soft grass\nSunlit rivers hum with joy\nFeathers flutter, smiles\nHappy #WorldAnimalDay from @ClamBakeSanta",
-    "tag": "WorldAnimalDay",
-    "logged_at": "2026-10-04T14:41:45.002609+00:00"
-  },
-  {
-    "date": "2026-10-04",
-    "theme": "Birthday Buster Keaton",
-    "haiku": "Bright grin lights room soft\nLaughter rings in quiet hall\nCandles glow like stars\n#HappyBirthdayBusterKeaton from @ClamBakeSanta",
-    "tag": "HappyBirthdayBusterKeaton",
-    "logged_at": "2026-10-04T14:41:45.002609+00:00"
-  },
-  {
     "date": "2026-10-05",
     "theme": "National Apple Betty Day",
     "haiku": "Crimson apples gleam\nCrunchy scent fills bright orchard\nTaste of summer joy\nHappy #NationalAppleBettyDay from @ClamBakeSanta",
@@ -159,5 +138,26 @@
     "haiku": "Night sky hides its face\nSoft stars whisper, new bright glow\nHope rises with night\nHappy #New",
     "tag": "NewMoon",
     "logged_at": "2026-10-10T15:06:35.179564+00:00"
+  },
+  {
+    "date": "2026-10-11",
+    "theme": "National Sausage Pizza Day",
+    "haiku": "Cheese melts, sausage sings\nBubbles rise, dough hugs warmly\nFlavor bursts, bright smiles\nHappy #NationalSausagePizzaDay from @ClamBakeSanta",
+    "tag": "NationalSausagePizzaDay",
+    "logged_at": "2026-10-11T15:25:22.067669+00:00"
+  },
+  {
+    "date": "2026-10-11",
+    "theme": "It's My Party Day",
+    "haiku": "Sunrise paints the sky\nCandles flicker, sweet laughter\nJoyful cheers rise high\nHappy #ItSMyPartyDay from @ClamBakeSanta",
+    "tag": "ItSMyPartyDay",
+    "logged_at": "2026-10-11T15:25:22.067669+00:00"
+  },
+  {
+    "date": "2026-10-11",
+    "theme": "Birthday Eleanor Roosevelt",
+    "haiku": "Sunrise paints her smile\nGentle breeze carries soft hope\nStars hum quiet joy\n#HappyBirthdayEleanorRoosevelt from @ClamBakeSanta",
+    "tag": "HappyBirthdayEleanorRoosevelt",
+    "logged_at": "2026-10-11T15:25:22.067669+00:00"
   }
 ]

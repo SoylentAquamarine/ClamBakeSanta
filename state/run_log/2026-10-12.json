@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-09-11T13:35:09.097927+00:00",
-    "date": "2026-09-11",
+    "timestamp": "2026-10-12T18:57:32.728010+00:00",
+    "date": "2026-10-12",
     "themes_found": [
-      "National Hot Cross Bun Day",
-      "National Day of Service and Remembrance",
-      "Birthday O. Henry",
-      "New Moon"
+      "National Gumbo Day",
+      "World Arthritis Day",
+      "Columbus Day",
+      "Birthday Luciano Pavarotti"
     ],
     "haikus_posted": [
       {
-        "theme": "National Hot Cross Bun Day",
-        "tag": "NationalHotCrossBunDay",
+        "theme": "National Gumbo Day",
+        "tag": "NationalGumboDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "National Day of Service and Remembrance",
-        "tag": "NationalDayOfServiceAndRemembrance",
+        "theme": "World Arthritis Day",
+        "tag": "WorldArthritisDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday O. Henry",
-        "tag": "HappyBirthdayOHenry",
+        "theme": "Columbus Day",
+        "tag": "ColumbusDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "New Moon",
-        "tag": "NewMoon",
+        "theme": "Birthday Luciano Pavarotti",
+        "tag": "HappyBirthdayLucianoPavarotti",
         "valid_syllables": true,
         "counts": [
           5,
