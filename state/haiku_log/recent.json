@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-05",
-    "theme": "National Apple Betty Day",
-    "haiku": "Crimson apples gleam\nCrunchy scent fills bright orchard\nTaste of summer joy\nHappy #NationalAppleBettyDay from @ClamBakeSanta",
-    "tag": "NationalAppleBettyDay",
-    "logged_at": "2026-10-05T18:09:36.761604+00:00"
-  },
-  {
-    "date": "2026-10-05",
-    "theme": "World Teachers Day",
-    "haiku": "Chalk dust lifts like mist\nStudents' eyes glow bright with hope\nLessons bloom in hearts\nHappy #WorldTeachersDay from @ClamBakeSanta",
-    "tag": "WorldTeachersDay",
-    "logged_at": "2026-10-05T18:09:36.761604+00:00"
-  },
-  {
-    "date": "2026-10-05",
-    "theme": "Birthday Chester A. Arthur",
-    "haiku": "Golden candles glow\nBreezes carry old soft songs\nJoy rings bright in halls\n#HappyBirthdayChesterAArthur from @ClamBakeSanta",
-    "tag": "HappyBirthdayChesterAArthur",
-    "logged_at": "2026-10-05T18:09:36.761604+00:00"
-  },
-  {
     "date": "2026-10-06",
     "theme": "National Noodle Day",
     "haiku": "Steam curls, silver bowl\nSpoons twirl, broth sings clear and steam\nNoodles dance, joy flows\nHappy #NationalNoodleDay",
@@ -159,5 +138,33 @@
     "haiku": "Sunrise paints her smile\nGentle breeze carries soft hope\nStars hum quiet joy\n#HappyBirthdayEleanorRoosevelt from @ClamBakeSanta",
     "tag": "HappyBirthdayEleanorRoosevelt",
     "logged_at": "2026-10-11T15:25:22.067669+00:00"
+  },
+  {
+    "date": "2026-10-12",
+    "theme": "National Gumbo Day",
+    "haiku": "Red broth glows warmly\nSpices swirl with smoky steam\nTaste bright, heart feels light\nHappy #NationalGumboDay from @ClamBakeSanta",
+    "tag": "NationalGumboDay",
+    "logged_at": "2026-10-12T18:45:16.462840+00:00"
+  },
+  {
+    "date": "2026-10-12",
+    "theme": "World Arthritis Day",
+    "haiku": "Warm light drifts soft in\nHands heal, hearts beat, gentle wind\nHope rises, joints sing\nHappy #WorldArthritisDay from @ClamBakeSanta",
+    "tag": "WorldArthritisDay",
+    "logged_at": "2026-10-12T18:45:16.462840+00:00"
+  },
+  {
+    "date": "2026-10-12",
+    "theme": "Columbus Day",
+    "haiku": "Morning mist rolls soft\nSeagulls call bright over waves\nSunlight paints the sea\nHappy #ColumbusDay from @ClamBakeSanta",
+    "tag": "ColumbusDay",
+    "logged_at": "2026-10-12T18:45:16.462840+00:00"
+  },
+  {
+    "date": "2026-10-12",
+    "theme": "Birthday Luciano Pavarotti",
+    "haiku": "Bright notes rise tonight\nEchoes fill warm hall air soft\nVoices lift, hearts sing\n#HappyBirthdayLucianoPavarotti from @ClamBakeSanta",
+    "tag": "HappyBirthdayLucianoPavarotti",
+    "logged_at": "2026-10-12T18:45:16.462840+00:00"
   }
 ]

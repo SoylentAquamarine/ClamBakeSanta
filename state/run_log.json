@@ -181,7 +181,8 @@
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
   "runs": [
     {
@@ -2334,6 +2335,17 @@
         "Birthday Luciano Pavarotti"
       ],
       "content_preview": "Red broth glows warmly Spices swirl with smoky steam Taste bright, heart feels light Happy #NationalGumboDay from @ClamB"
+    },
+    {
+      "date": "2026-10-13",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-13T16:56:08.267019+00:00",
+      "themes": [
+        "National Yorkshire Pudding Day",
+        "National Train Your Brain Day",
+        "Birthday Nipsey Russell"
+      ],
+      "content_preview": "Golden crust rises Scent drifts through warm kitchen air Melted butter sings Happy #NationalYorkshirePuddingDay from @Cl"
     }
   ]
 }
