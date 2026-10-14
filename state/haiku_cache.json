@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "haikus": [
     {
-      "theme": "National Yorkshire Pudding Day",
-      "haiku": "Golden crust rises\nScent drifts through warm kitchen air\nMelted butter sings\nHappy #NationalYorkshirePuddingDay from @ClamBakeSanta",
-      "tag": "NationalYorkshirePuddingDay",
+      "theme": "National Dessert Day",
+      "haiku": "Sweet cake rises warm\nFlame curls butter melts steam sings\nCrumbs dance soft on tongue\nHappy #NationalDessertDay from @",
+      "tag": "NationalDessertDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Train Your Brain Day",
-      "haiku": "Bright thoughts rise like sun\nNeurons hum in cool morning\nLearning lifts the heart\nHappy #NationalTrainYourBrainDay from @ClamBakeSanta",
-      "tag": "NationalTrainYourBrainDay",
+      "theme": "National Pumpkin Pie Day",
+      "haiku": "Golden crust gleams bright\nSpice curls, steam rises warm soft\nTaste of fall inside\nHappy #NationalPumpkinPieDay from @ClamBakeSanta",
+      "tag": "NationalPumpkinPieDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Nipsey Russell",
-      "haiku": "Golden candles glow\nSoft laughter fills the bright room\nJoy dances in hearts\n#HappyBirthdayNipseyRussell from @ClamBakeSanta",
-      "tag": "HappyBirthdayNipseyRussell",
+      "theme": "Birthday Dwight D. Eisenhower",
+      "haiku": "Crisp dawn greets the hill\nRed sunrise paints bright banners\nJoy drums echo far\n#HappyBirthdayDwightDEisenhower from @ClamBakeSanta",
+      "tag": "HappyBirthdayDwightDEisenhower",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Yorkshire Pudding Day",
-    "National Train Your Brain Day",
-    "Birthday Nipsey Russell"
+    "National Dessert Day",
+    "National Pumpkin Pie Day",
+    "Birthday Dwight D. Eisenhower"
   ],
-  "content": "Golden crust rises\nScent drifts through warm kitchen air\nMelted butter sings\nHappy #NationalYorkshirePuddingDay from @ClamBakeSanta\n\nBright thoughts rise like sun\nNeurons hum in cool morning\nLearning lifts the heart\nHappy #NationalTrainYourBrainDay from @ClamBakeSanta\n\nGolden candles glow\nSoft laughter fills the bright room\nJoy dances in hearts\n#HappyBirthdayNipseyRussell from @ClamBakeSanta",
-  "saved_at": "2026-10-13T16:47:55.969180+00:00"
+  "content": "Sweet cake rises warm\nFlame curls butter melts steam sings\nCrumbs dance soft on tongue\nHappy #NationalDessertDay from @\n\nGolden crust gleams bright\nSpice curls, steam rises warm soft\nTaste of fall inside\nHappy #NationalPumpkinPieDay from @ClamBakeSanta\n\nCrisp dawn greets the hill\nRed sunrise paints bright banners\nJoy drums echo far\n#HappyBirthdayDwightDEisenhower from @ClamBakeSanta",
+  "saved_at": "2026-10-14T14:23:58.791814+00:00"
 }

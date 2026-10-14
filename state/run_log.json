@@ -182,7 +182,8 @@
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-14"
   ],
   "runs": [
     {
@@ -2346,6 +2347,17 @@
         "Birthday Nipsey Russell"
       ],
       "content_preview": "Golden crust rises Scent drifts through warm kitchen air Melted butter sings Happy #NationalYorkshirePuddingDay from @Cl"
+    },
+    {
+      "date": "2026-10-14",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-14T14:32:11.105958+00:00",
+      "themes": [
+        "National Dessert Day",
+        "National Pumpkin Pie Day",
+        "Birthday Dwight D. Eisenhower"
+      ],
+      "content_preview": "Sweet cake rises warm Flame curls butter melts steam sings Crumbs dance soft on tongue Happy #NationalDessertDay from @ "
     }
   ]
 }
