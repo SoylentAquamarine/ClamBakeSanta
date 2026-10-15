@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "haikus": [
     {
-      "theme": "National Dessert Day",
-      "haiku": "Sweet cake rises warm\nFlame curls butter melts steam sings\nCrumbs dance soft on tongue\nHappy #NationalDessertDay from @",
-      "tag": "NationalDessertDay",
+      "theme": "National Cheese Curd Day",
+      "haiku": "Soft creamy curds glow\nWarm sun drips bright on green grass\nCheese scent rises high\nHappy #NationalCheese",
+      "tag": "NationalCheeseCurdDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Pumpkin Pie Day",
-      "haiku": "Golden crust gleams bright\nSpice curls, steam rises warm soft\nTaste of fall inside\nHappy #NationalPumpkinPieDay from @ClamBakeSanta",
-      "tag": "NationalPumpkinPieDay",
+      "theme": "Global Handwashing Day",
+      "haiku": "Hands gleam in bright rain\nFoam dances, scent of fresh soap\nJoy spreads warm sunrise\nHappy #GlobalHandwashingDay from @ClamBakeSanta",
+      "tag": "GlobalHandwashingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Dwight D. Eisenhower",
-      "haiku": "Crisp dawn greets the hill\nRed sunrise paints bright banners\nJoy drums echo far\n#HappyBirthdayDwightDEisenhower from @ClamBakeSanta",
-      "tag": "HappyBirthdayDwightDEisenhower",
+      "theme": "Birthday Virgil",
+      "haiku": "Morning sun kisses\nCandles glow like tiny stars\nJoy drifts in warm air\n#HappyBirthdayVirgil from @ClamBakeSanta",
+      "tag": "HappyBirthdayVirgil",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Nietzsche",
+      "haiku": "Golden candle glow\nSoft steam rises, bright laughter\nWarm cake melts, sweet scent\n#HappyBirthdayNietzsche from @ClamBakeSanta",
+      "tag": "HappyBirthdayNietzsche",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Dessert Day",
-    "National Pumpkin Pie Day",
-    "Birthday Dwight D. Eisenhower"
+    "National Cheese Curd Day",
+    "Global Handwashing Day",
+    "Birthday Virgil",
+    "Birthday Nietzsche"
   ],
-  "content": "Sweet cake rises warm\nFlame curls butter melts steam sings\nCrumbs dance soft on tongue\nHappy #NationalDessertDay from @\n\nGolden crust gleams bright\nSpice curls, steam rises warm soft\nTaste of fall inside\nHappy #NationalPumpkinPieDay from @ClamBakeSanta\n\nCrisp dawn greets the hill\nRed sunrise paints bright banners\nJoy drums echo far\n#HappyBirthdayDwightDEisenhower from @ClamBakeSanta",
-  "saved_at": "2026-10-14T14:23:58.791814+00:00"
+  "content": "Soft creamy curds glow\nWarm sun drips bright on green grass\nCheese scent rises high\nHappy #NationalCheese\n\nHands gleam in bright rain\nFoam dances, scent of fresh soap\nJoy spreads warm sunrise\nHappy #GlobalHandwashingDay from @ClamBakeSanta\n\nMorning sun kisses\nCandles glow like tiny stars\nJoy drifts in warm air\n#HappyBirthdayVirgil from @ClamBakeSanta\n\nGolden candle glow\nSoft steam rises, bright laughter\nWarm cake melts, sweet scent\n#HappyBirthdayNietzsche from @ClamBakeSanta",
+  "saved_at": "2026-10-15T14:01:22.885671+00:00"
 }
