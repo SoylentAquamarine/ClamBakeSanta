@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-08",
-    "theme": "National Fluffernutter Day",
-    "haiku": "Peanut butter sighs\nSoft spread on toast, warm bright crumbs\nSoft joy melts like jam\nHappy #NationalFluffernutterDay from @ClamBakeSanta",
-    "tag": "NationalFluffernutterDay",
-    "logged_at": "2026-10-08T16:14:49.112802+00:00"
-  },
-  {
-    "date": "2026-10-08",
-    "theme": "American Tag Day",
-    "haiku": "Red flags flutter high\nKids laugh, ribbons kiss the air\nSun paints the streets gold\nHappy #AmericanTagDay from @ClamBakeSanta",
-    "tag": "AmericanTagDay",
-    "logged_at": "2026-10-08T16:14:49.112802+00:00"
-  },
-  {
-    "date": "2026-10-08",
-    "theme": "Birthday Eddie Rickenbacker",
-    "haiku": "Eddie flies bright sky\nWings beat like drum of joy soft\nStars salute his name\n#HappyBirthdayEddieRickenbacker from @ClamBakeSanta",
-    "tag": "HappyBirthdayEddieRickenbacker",
-    "logged_at": "2026-10-08T16:14:49.112802+00:00"
-  },
-  {
     "date": "2026-10-09",
     "theme": "National Moldy Cheese Day",
     "haiku": "Moldy rind sings soft\nCheese swirls amber glow in room\nWarm crumbs dance bright near\nHappy #NationalMoldyCheeseDay from @ClamBakeSanta",
@@ -166,5 +145,33 @@
     "haiku": "Crisp dawn greets the hill\nRed sunrise paints bright banners\nJoy drums echo far\n#HappyBirthdayDwightDEisenhower from @ClamBakeSanta",
     "tag": "HappyBirthdayDwightDEisenhower",
     "logged_at": "2026-10-14T14:23:58.792394+00:00"
+  },
+  {
+    "date": "2026-10-15",
+    "theme": "National Cheese Curd Day",
+    "haiku": "Soft creamy curds glow\nWarm sun drips bright on green grass\nCheese scent rises high\nHappy #NationalCheese",
+    "tag": "NationalCheeseCurdDay",
+    "logged_at": "2026-10-15T14:01:22.886008+00:00"
+  },
+  {
+    "date": "2026-10-15",
+    "theme": "Global Handwashing Day",
+    "haiku": "Hands gleam in bright rain\nFoam dances, scent of fresh soap\nJoy spreads warm sunrise\nHappy #GlobalHandwashingDay from @ClamBakeSanta",
+    "tag": "GlobalHandwashingDay",
+    "logged_at": "2026-10-15T14:01:22.886008+00:00"
+  },
+  {
+    "date": "2026-10-15",
+    "theme": "Birthday Virgil",
+    "haiku": "Morning sun kisses\nCandles glow like tiny stars\nJoy drifts in warm air\n#HappyBirthdayVirgil from @ClamBakeSanta",
+    "tag": "HappyBirthdayVirgil",
+    "logged_at": "2026-10-15T14:01:22.886008+00:00"
+  },
+  {
+    "date": "2026-10-15",
+    "theme": "Birthday Nietzsche",
+    "haiku": "Golden candle glow\nSoft steam rises, bright laughter\nWarm cake melts, sweet scent\n#HappyBirthdayNietzsche from @ClamBakeSanta",
+    "tag": "HappyBirthdayNietzsche",
+    "logged_at": "2026-10-15T14:01:22.886008+00:00"
   }
 ]

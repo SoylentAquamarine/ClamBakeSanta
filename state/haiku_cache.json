@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "haikus": [
     {
-      "theme": "National Cheese Curd Day",
-      "haiku": "Soft creamy curds glow\nWarm sun drips bright on green grass\nCheese scent rises high\nHappy #NationalCheese",
-      "tag": "NationalCheeseCurdDay",
+      "theme": "World Food Day",
+      "haiku": "Bowl of steam rises\nBright colors dance, taste buds sing\nJoyful plates share love\nHappy #WorldFoodDay from @ClamBakeSanta",
+      "tag": "WorldFoodDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Global Handwashing Day",
-      "haiku": "Hands gleam in bright rain\nFoam dances, scent of fresh soap\nJoy spreads warm sunrise\nHappy #GlobalHandwashingDay from @ClamBakeSanta",
-      "tag": "GlobalHandwashingDay",
+      "theme": "National Liqueur Day",
+      "haiku": "Amber glass gleams bright\nCinnamon swirl rises warm\nTaste of winter glow\nHappy #NationalLiqueurDay from @ClamBakeSanta",
+      "tag": "NationalLiqueurDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Virgil",
-      "haiku": "Morning sun kisses\nCandles glow like tiny stars\nJoy drifts in warm air\n#HappyBirthdayVirgil from @ClamBakeSanta",
-      "tag": "HappyBirthdayVirgil",
+      "theme": "Birthday Oscar Wilde",
+      "haiku": "Gold candles flicker\nWitty wit spills soft bright toast\nLaughter rings like bells\n#HappyBirthdayOscarWilde from @ClamBakeSanta",
+      "tag": "HappyBirthdayOscarWilde",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Nietzsche",
-      "haiku": "Golden candle glow\nSoft steam rises, bright laughter\nWarm cake melts, sweet scent\n#HappyBirthdayNietzsche from @ClamBakeSanta",
-      "tag": "HappyBirthdayNietzsche",
+      "theme": "Birthday Eugene O'Neill",
+      "haiku": "Gentle candle glow\nSoft laughter fills bright the room\nJoyful hearts dance near\n#HappyBirthdayEugeneONeill from @ClamBakeSanta",
+      "tag": "HappyBirthdayEugeneONeill",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Cheese Curd Day",
-    "Global Handwashing Day",
-    "Birthday Virgil",
-    "Birthday Nietzsche"
+    "World Food Day",
+    "National Liqueur Day",
+    "Birthday Oscar Wilde",
+    "Birthday Eugene O'Neill"
   ],
-  "content": "Soft creamy curds glow\nWarm sun drips bright on green grass\nCheese scent rises high\nHappy #NationalCheese\n\nHands gleam in bright rain\nFoam dances, scent of fresh soap\nJoy spreads warm sunrise\nHappy #GlobalHandwashingDay from @ClamBakeSanta\n\nMorning sun kisses\nCandles glow like tiny stars\nJoy drifts in warm air\n#HappyBirthdayVirgil from @ClamBakeSanta\n\nGolden candle glow\nSoft steam rises, bright laughter\nWarm cake melts, sweet scent\n#HappyBirthdayNietzsche from @ClamBakeSanta",
-  "saved_at": "2026-10-15T14:01:22.885671+00:00"
+  "content": "Bowl of steam rises\nBright colors dance, taste buds sing\nJoyful plates share love\nHappy #WorldFoodDay from @ClamBakeSanta\n\nAmber glass gleams bright\nCinnamon swirl rises warm\nTaste of winter glow\nHappy #NationalLiqueurDay from @ClamBakeSanta\n\nGold candles flicker\nWitty wit spills soft bright toast\nLaughter rings like bells\n#HappyBirthdayOscarWilde from @ClamBakeSanta\n\nGentle candle glow\nSoft laughter fills bright the room\nJoyful hearts dance near\n#HappyBirthdayEugeneONeill from @ClamBakeSanta",
+  "saved_at": "2026-10-16T13:48:16.025025+00:00"
 }

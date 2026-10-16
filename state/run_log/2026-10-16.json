@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-09-15T14:25:36.042369+00:00",
-    "date": "2026-09-15",
+    "timestamp": "2026-10-16T14:00:35.441187+00:00",
+    "date": "2026-10-16",
     "themes_found": [
-      "National Linguine Day",
-      "National Make a Hat Day",
-      "Birthday Agatha Christie",
-      "Birthday James Fenimore Cooper"
+      "World Food Day",
+      "National Liqueur Day",
+      "Birthday Oscar Wilde",
+      "Birthday Eugene O'Neill"
     ],
     "haikus_posted": [
       {
-        "theme": "National Linguine Day",
-        "tag": "NationalLinguineDay",
+        "theme": "World Food Day",
+        "tag": "WorldFoodDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "National Make a Hat Day",
-        "tag": "NationalMakeAHatDay",
+        "theme": "National Liqueur Day",
+        "tag": "NationalLiqueurDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday Agatha Christie",
-        "tag": "HappyBirthdayAgathaChristie",
+        "theme": "Birthday Oscar Wilde",
+        "tag": "HappyBirthdayOscarWilde",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "Birthday James Fenimore Cooper",
-        "tag": "HappyBirthdayJamesFenimoreCooper",
+        "theme": "Birthday Eugene O'Neill",
+        "tag": "HappyBirthdayEugeneONeill",
         "valid_syllables": true,
         "counts": [
           5,
