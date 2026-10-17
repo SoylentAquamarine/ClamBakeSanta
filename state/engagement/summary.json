@@ -1,4 +1,106 @@
 {
+  "2026-10-17": {
+    "NationalPastaDay": {
+      "theme": "National Pasta Day",
+      "haiku": "Pasta twirls in steam\nAl dente bites sing with salt\nSauce glows, noodles sigh\nHappy #NationalPastaDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117456315847614167",
+          "url": "https://mastodon.social/@ClamBakeSanta/117456315847614167",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3my34s6iawu2p",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "830725309401874432",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
+    },
+    "NationalMulliganDay": {
+      "theme": "National Mulligan Day",
+      "haiku": "Gentle snowflakes fall\nEach step fresh reset, bright paths\nWarm hearts cheer the glide\nHappy #NationalMulliganDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117456319839169860",
+          "url": "https://mastodon.social/@ClamBakeSanta/117456319839169860",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3my34ty3azu2v",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "830725372740059136",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
+    },
+    "HappyBirthdayArthurMiller": {
+      "theme": "Birthday Arthur Miller",
+      "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nFireworks paint soft night\n#HappyBirthdayArthurMiller from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117456323830621871",
+          "url": "https://mastodon.social/@ClamBakeSanta/117456323830621871",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3my34vrkzcy2x",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "830725436315222017",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "193",
+          "url": "https://clambakesanta.wordpress.com/2026/10/17/clam-bake-santa-2026-10-17/",
+          "views": 3,
+          "likes": 2,
+          "comments": 0,
+          "score": 2
+        }
+      },
+      "total_score": 2,
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
+    }
+  },
   "2026-10-16": {
     "WorldFoodDay": {
       "theme": "World Food Day",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "NationalLiqueurDay": {
       "theme": "National Liqueur Day",
@@ -54,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "HappyBirthdayOscarWilde": {
       "theme": "Birthday Oscar Wilde",
@@ -82,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "HappyBirthdayEugeneONeill": {
       "theme": "Birthday Eugene O'Neill",
@@ -110,7 +212,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -119,14 +221,14 @@
         "wordpress": {
           "id": "192",
           "url": "https://clambakesanta.wordpress.com/2026/10/16/clam-bake-santa-2026-10-16/",
-          "views": 2,
-          "likes": 2,
+          "views": 3,
+          "likes": 3,
           "comments": 0,
-          "score": 2
+          "score": 3
         }
       },
-      "total_score": 2,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "total_score": 3,
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     }
   },
   "2026-10-15": {
@@ -156,7 +258,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "GlobalHandwashingDay": {
       "theme": "Global Handwashing Day",
@@ -184,7 +286,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "HappyBirthdayVirgil": {
       "theme": "Birthday Virgil",
@@ -212,7 +314,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "HappyBirthdayNietzsche": {
       "theme": "Birthday Nietzsche",
@@ -240,7 +342,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -256,7 +358,7 @@
         }
       },
       "total_score": 5,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     }
   },
   "2026-10-14": {
@@ -286,7 +388,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "NationalPumpkinPieDay": {
       "theme": "National Pumpkin Pie Day",
@@ -314,7 +416,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "HappyBirthdayDwightDEisenhower": {
       "theme": "Birthday Dwight D. Eisenhower",
@@ -342,7 +444,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -358,7 +460,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-10-17T00:04:32.229250+00:00"
+      "last_checked": "2026-10-17T23:40:16.660940+00:00"
     }
   },
   "2026-10-13": {
