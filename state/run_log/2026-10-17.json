@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-09-16T14:14:00.917165+00:00",
-    "date": "2026-09-16",
+    "timestamp": "2026-10-17T12:54:02.958581+00:00",
+    "date": "2026-10-17",
     "themes_found": [
-      "National Cinnamon Raisin Bread Day",
-      "Mayflower Day",
-      "Birthday B.B. King"
+      "National Pasta Day",
+      "National Mulligan Day",
+      "Birthday Arthur Miller"
     ],
     "haikus_posted": [
       {
-        "theme": "National Cinnamon Raisin Bread Day",
-        "tag": "NationalCinnamonRaisinBreadDay",
+        "theme": "National Pasta Day",
+        "tag": "NationalPastaDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "Mayflower Day",
-        "tag": "MayflowerDay",
+        "theme": "National Mulligan Day",
+        "tag": "NationalMulliganDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday B.B. King",
-        "tag": "HappyBirthdayBBKing",
+        "theme": "Birthday Arthur Miller",
+        "tag": "HappyBirthdayArthurMiller",
         "valid_syllables": true,
         "counts": [
           5,
@@ -41,6 +41,7 @@
     ],
     "writers_block": [],
     "adapters_ok": [
+      "mastodon",
       "bluesky",
       "tumblr",
       "telegram",
@@ -48,12 +49,7 @@
       "wordpress",
       "github_pages"
     ],
-    "adapters_failed": [
-      [
-        "mastodon",
-        "503 Server Error: Service Unavailable for url: https://mastodon.social/api/v1/statuses"
-      ]
-    ],
+    "adapters_failed": [],
     "skipped": false
   }
 ]

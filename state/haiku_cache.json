@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "haikus": [
     {
-      "theme": "World Food Day",
-      "haiku": "Bowl of steam rises\nBright colors dance, taste buds sing\nJoyful plates share love\nHappy #WorldFoodDay from @ClamBakeSanta",
-      "tag": "WorldFoodDay",
+      "theme": "National Pasta Day",
+      "haiku": "Pasta twirls in steam\nAl dente bites sing with salt\nSauce glows, noodles sigh\nHappy #NationalPastaDay from @ClamBakeSanta",
+      "tag": "NationalPastaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Liqueur Day",
-      "haiku": "Amber glass gleams bright\nCinnamon swirl rises warm\nTaste of winter glow\nHappy #NationalLiqueurDay from @ClamBakeSanta",
-      "tag": "NationalLiqueurDay",
+      "theme": "National Mulligan Day",
+      "haiku": "Gentle snowflakes fall\nEach step fresh reset, bright paths\nWarm hearts cheer the glide\nHappy #NationalMulliganDay from @ClamBakeSanta",
+      "tag": "NationalMulliganDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Oscar Wilde",
-      "haiku": "Gold candles flicker\nWitty wit spills soft bright toast\nLaughter rings like bells\n#HappyBirthdayOscarWilde from @ClamBakeSanta",
-      "tag": "HappyBirthdayOscarWilde",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Eugene O'Neill",
-      "haiku": "Gentle candle glow\nSoft laughter fills bright the room\nJoyful hearts dance near\n#HappyBirthdayEugeneONeill from @ClamBakeSanta",
-      "tag": "HappyBirthdayEugeneONeill",
+      "theme": "Birthday Arthur Miller",
+      "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nFireworks paint soft night\n#HappyBirthdayArthurMiller from @ClamBakeSanta",
+      "tag": "HappyBirthdayArthurMiller",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "World Food Day",
-    "National Liqueur Day",
-    "Birthday Oscar Wilde",
-    "Birthday Eugene O'Neill"
+    "National Pasta Day",
+    "National Mulligan Day",
+    "Birthday Arthur Miller"
   ],
-  "content": "Bowl of steam rises\nBright colors dance, taste buds sing\nJoyful plates share love\nHappy #WorldFoodDay from @ClamBakeSanta\n\nAmber glass gleams bright\nCinnamon swirl rises warm\nTaste of winter glow\nHappy #NationalLiqueurDay from @ClamBakeSanta\n\nGold candles flicker\nWitty wit spills soft bright toast\nLaughter rings like bells\n#HappyBirthdayOscarWilde from @ClamBakeSanta\n\nGentle candle glow\nSoft laughter fills bright the room\nJoyful hearts dance near\n#HappyBirthdayEugeneONeill from @ClamBakeSanta",
-  "saved_at": "2026-10-16T13:48:16.025025+00:00"
+  "content": "Pasta twirls in steam\nAl dente bites sing with salt\nSauce glows, noodles sigh\nHappy #NationalPastaDay from @ClamBakeSanta\n\nGentle snowflakes fall\nEach step fresh reset, bright paths\nWarm hearts cheer the glide\nHappy #NationalMulliganDay from @ClamBakeSanta\n\nBirthday candles glow\nSoft breeze carries bright laughter\nFireworks paint soft night\n#HappyBirthdayArthurMiller from @ClamBakeSanta",
+  "saved_at": "2026-10-17T12:45:47.259795+00:00"
 }

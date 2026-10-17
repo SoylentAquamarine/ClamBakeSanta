@@ -185,7 +185,8 @@
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-17"
   ],
   "runs": [
     {
@@ -2384,6 +2385,17 @@
         "Birthday Eugene O'Neill"
       ],
       "content_preview": "Bowl of steam rises Bright colors dance, taste buds sing Joyful plates share love Happy #WorldFoodDay from @ClamBakeSant"
+    },
+    {
+      "date": "2026-10-17",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-17T12:54:02.956706+00:00",
+      "themes": [
+        "National Pasta Day",
+        "National Mulligan Day",
+        "Birthday Arthur Miller"
+      ],
+      "content_preview": "Pasta twirls in steam Al dente bites sing with salt Sauce glows, noodles sigh Happy #NationalPastaDay from @ClamBakeSant"
     }
   ]
 }
