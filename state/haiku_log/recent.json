@@ -1,40 +1,5 @@
 [
   {
-    "date": "2026-10-10",
-    "theme": "World Mental Health Day",
-    "haiku": "Morning light whispers\nSoft breeze carries hope and song\nHands touch bright hearts bloom\nHappy #WorldMentalHealthDay from @ClamBakeSanta",
-    "tag": "WorldMentalHealthDay",
-    "logged_at": "2026-10-10T15:06:35.179564+00:00"
-  },
-  {
-    "date": "2026-10-10",
-    "theme": "National Cake Decorating Day",
-    "haiku": "Sugar swirls in light\nI paint rainbow swirls on cake\nCrimson glaze kisses\nHappy #NationalCake",
-    "tag": "NationalCakeDecoratingDay",
-    "logged_at": "2026-10-10T15:06:35.179564+00:00"
-  },
-  {
-    "date": "2026-10-10",
-    "theme": "Birthday Giuseppe Verdi",
-    "haiku": "Melody winds rise\nBright notes swirl in warm soft air\nJoy sings bright on stage\n#HappyBirthdayGiuseppeVerdi from @ClamBakeSanta",
-    "tag": "HappyBirthdayGiuseppeVerdi",
-    "logged_at": "2026-10-10T15:06:35.179564+00:00"
-  },
-  {
-    "date": "2026-10-10",
-    "theme": "Birthday Thelonious Monk",
-    "haiku": "Blue jazz notes drift soft\nMoonlit street hums midnight beat\nAge rings in cool air\n#HappyBirthdayTheloniousMonk from @ClamBakeSanta",
-    "tag": "HappyBirthdayTheloniousMonk",
-    "logged_at": "2026-10-10T15:06:35.179564+00:00"
-  },
-  {
-    "date": "2026-10-10",
-    "theme": "New Moon",
-    "haiku": "Night sky hides its face\nSoft stars whisper, new bright glow\nHope rises with night\nHappy #New",
-    "tag": "NewMoon",
-    "logged_at": "2026-10-10T15:06:35.179564+00:00"
-  },
-  {
     "date": "2026-10-11",
     "theme": "National Sausage Pizza Day",
     "haiku": "Cheese melts, sausage sings\nBubbles rise, dough hugs warmly\nFlavor bursts, bright smiles\nHappy #NationalSausagePizzaDay from @ClamBakeSanta",
@@ -180,5 +145,26 @@
     "haiku": "Gentle candle glow\nSoft laughter fills bright the room\nJoyful hearts dance near\n#HappyBirthdayEugeneONeill from @ClamBakeSanta",
     "tag": "HappyBirthdayEugeneONeill",
     "logged_at": "2026-10-16T13:48:16.025408+00:00"
+  },
+  {
+    "date": "2026-10-17",
+    "theme": "National Pasta Day",
+    "haiku": "Pasta twirls in steam\nAl dente bites sing with salt\nSauce glows, noodles sigh\nHappy #NationalPastaDay from @ClamBakeSanta",
+    "tag": "NationalPastaDay",
+    "logged_at": "2026-10-17T12:45:47.260204+00:00"
+  },
+  {
+    "date": "2026-10-17",
+    "theme": "National Mulligan Day",
+    "haiku": "Gentle snowflakes fall\nEach step fresh reset, bright paths\nWarm hearts cheer the glide\nHappy #NationalMulliganDay from @ClamBakeSanta",
+    "tag": "NationalMulliganDay",
+    "logged_at": "2026-10-17T12:45:47.260204+00:00"
+  },
+  {
+    "date": "2026-10-17",
+    "theme": "Birthday Arthur Miller",
+    "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nFireworks paint soft night\n#HappyBirthdayArthurMiller from @ClamBakeSanta",
+    "tag": "HappyBirthdayArthurMiller",
+    "logged_at": "2026-10-17T12:45:47.260204+00:00"
   }
 ]

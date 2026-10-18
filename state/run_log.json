@@ -186,7 +186,8 @@
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
   ],
   "runs": [
     {
@@ -2396,6 +2397,18 @@
         "Birthday Arthur Miller"
       ],
       "content_preview": "Pasta twirls in steam Al dente bites sing with salt Sauce glows, noodles sigh Happy #NationalPastaDay from @ClamBakeSant"
+    },
+    {
+      "date": "2026-10-18",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-18T13:14:38.154220+00:00",
+      "themes": [
+        "National Chocolate Cupcake Day",
+        "World Menopause Day",
+        "Birthday Wynton Marsalis",
+        "First Quarter Moon"
+      ],
+      "content_preview": "Cool breeze lifts the rose Soft petals whisper calm change She smiles at sunrise Happy #WorldMenopauseDay from @ClamBake"
     }
   ]
 }

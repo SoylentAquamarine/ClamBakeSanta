@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "haikus": [
     {
-      "theme": "National Pasta Day",
-      "haiku": "Pasta twirls in steam\nAl dente bites sing with salt\nSauce glows, noodles sigh\nHappy #NationalPastaDay from @ClamBakeSanta",
-      "tag": "NationalPastaDay",
+      "theme": "World Menopause Day",
+      "haiku": "Cool breeze lifts the rose\nSoft petals whisper calm change\nShe smiles at sunrise\nHappy #WorldMenopauseDay from @ClamBakeSanta",
+      "tag": "WorldMenopauseDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Mulligan Day",
-      "haiku": "Gentle snowflakes fall\nEach step fresh reset, bright paths\nWarm hearts cheer the glide\nHappy #NationalMulliganDay from @ClamBakeSanta",
-      "tag": "NationalMulliganDay",
+      "theme": "Birthday Wynton Marsalis",
+      "haiku": "Bright brass notes bloom soft\nSway‑ing strings sing joy‑ful‑ly\nCrowd cheers with warm light\n#HappyBirthdayWyntonMarsalis from @ClamBakeSanta",
+      "tag": "HappyBirthdayWyntonMarsalis",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Arthur Miller",
-      "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nFireworks paint soft night\n#HappyBirthdayArthurMiller from @ClamBakeSanta",
-      "tag": "HappyBirthdayArthurMiller",
+      "theme": "First Quarter Moon",
+      "haiku": "Soft glow of new moon\nSilver rim kisses night sky\nStars hum in hush soft\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+      "tag": "FirstQuarterMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,11 @@
     }
   ],
   "themes": [
-    "National Pasta Day",
-    "National Mulligan Day",
-    "Birthday Arthur Miller"
+    "National Chocolate Cupcake Day",
+    "World Menopause Day",
+    "Birthday Wynton Marsalis",
+    "First Quarter Moon"
   ],
-  "content": "Pasta twirls in steam\nAl dente bites sing with salt\nSauce glows, noodles sigh\nHappy #NationalPastaDay from @ClamBakeSanta\n\nGentle snowflakes fall\nEach step fresh reset, bright paths\nWarm hearts cheer the glide\nHappy #NationalMulliganDay from @ClamBakeSanta\n\nBirthday candles glow\nSoft breeze carries bright laughter\nFireworks paint soft night\n#HappyBirthdayArthurMiller from @ClamBakeSanta",
-  "saved_at": "2026-10-17T12:45:47.259795+00:00"
+  "content": "Cool breeze lifts the rose\nSoft petals whisper calm change\nShe smiles at sunrise\nHappy #WorldMenopauseDay from @ClamBakeSanta\n\nBright brass notes bloom soft\nSway‑ing strings sing joy‑ful‑ly\nCrowd cheers with warm light\n#HappyBirthdayWyntonMarsalis from @ClamBakeSanta\n\nSoft glow of new moon\nSilver rim kisses night sky\nStars hum in hush soft\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+  "saved_at": "2026-10-18T13:06:22.372578+00:00"
 }

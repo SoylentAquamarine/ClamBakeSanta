@@ -1,16 +1,17 @@
 [
   {
-    "timestamp": "2026-09-17T14:19:26.025509+00:00",
-    "date": "2026-09-17",
+    "timestamp": "2026-10-18T13:14:38.155482+00:00",
+    "date": "2026-10-18",
     "themes_found": [
-      "National Apple Dumpling Day",
-      "National Constitution Day",
-      "Birthday Hank Williams"
+      "National Chocolate Cupcake Day",
+      "World Menopause Day",
+      "Birthday Wynton Marsalis",
+      "First Quarter Moon"
     ],
     "haikus_posted": [
       {
-        "theme": "National Apple Dumpling Day",
-        "tag": "NationalAppleDumplingDay",
+        "theme": "World Menopause Day",
+        "tag": "WorldMenopauseDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +20,8 @@
         ]
       },
       {
-        "theme": "National Constitution Day",
-        "tag": "NationalConstitutionDay",
+        "theme": "Birthday Wynton Marsalis",
+        "tag": "HappyBirthdayWyntonMarsalis",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday Hank Williams",
-        "tag": "HappyBirthdayHankWilliams",
+        "theme": "First Quarter Moon",
+        "tag": "FirstQuarterMoon",
         "valid_syllables": true,
         "counts": [
           5,
@@ -39,7 +40,13 @@
         ]
       }
     ],
-    "writers_block": [],
+    "writers_block": [
+      {
+        "theme": "National Chocolate Cupcake Day",
+        "tag": "NationalChocolateCupcakeDay",
+        "attempts": 23
+      }
+    ],
     "adapters_ok": [
       "mastodon",
       "bluesky",
