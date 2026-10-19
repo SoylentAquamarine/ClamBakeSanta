@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "haikus": [
     {
-      "theme": "World Menopause Day",
-      "haiku": "Cool breeze lifts the rose\nSoft petals whisper calm change\nShe smiles at sunrise\nHappy #WorldMenopauseDay from @ClamBakeSanta",
-      "tag": "WorldMenopauseDay",
+      "theme": "National Seafood Bisque Day",
+      "haiku": "Creamy broth sighs, sun\nShellfish whispers, foam rises\nTaste of ocean, hug\nHappy #NationalSeafoodBisqueDay from @ClamBakeSanta",
+      "tag": "NationalSeafoodBisqueDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Wynton Marsalis",
-      "haiku": "Bright brass notes bloom soft\nSway‑ing strings sing joy‑ful‑ly\nCrowd cheers with warm light\n#HappyBirthdayWyntonMarsalis from @ClamBakeSanta",
-      "tag": "HappyBirthdayWyntonMarsalis",
+      "theme": "Evaluate Your Life Day",
+      "haiku": "Soft light drifts over\nSunrise paints bright gold on trees\nWe pause to breathe joy\nHappy #EvaluateYourLifeDay from @ClamBakeSanta",
+      "tag": "EvaluateYourLifeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "First Quarter Moon",
-      "haiku": "Soft glow of new moon\nSilver rim kisses night sky\nStars hum in hush soft\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-      "tag": "FirstQuarterMoon",
+      "theme": "Birthday John le Carre",
+      "haiku": "Soft snowflakes bright dance\nWarm candle glow soft in hush\nJoyful laughter rings\n#HappyBirthdayJohnleCarre from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnleCarre",
       "syllable_counts": [
         5,
         7,
@@ -36,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Chocolate Cupcake Day",
-    "World Menopause Day",
-    "Birthday Wynton Marsalis",
-    "First Quarter Moon"
+    "National Seafood Bisque Day",
+    "Evaluate Your Life Day",
+    "Birthday John le Carre"
   ],
-  "content": "Cool breeze lifts the rose\nSoft petals whisper calm change\nShe smiles at sunrise\nHappy #WorldMenopauseDay from @ClamBakeSanta\n\nBright brass notes bloom soft\nSway‑ing strings sing joy‑ful‑ly\nCrowd cheers with warm light\n#HappyBirthdayWyntonMarsalis from @ClamBakeSanta\n\nSoft glow of new moon\nSilver rim kisses night sky\nStars hum in hush soft\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-  "saved_at": "2026-10-18T13:06:22.372578+00:00"
+  "content": "Creamy broth sighs, sun\nShellfish whispers, foam rises\nTaste of ocean, hug\nHappy #NationalSeafoodBisqueDay from @ClamBakeSanta\n\nSoft light drifts over\nSunrise paints bright gold on trees\nWe pause to breathe joy\nHappy #EvaluateYourLifeDay from @ClamBakeSanta\n\nSoft snowflakes bright dance\nWarm candle glow soft in hush\nJoyful laughter rings\n#HappyBirthdayJohnleCarre from @ClamBakeSanta",
+  "saved_at": "2026-10-19T16:17:37.261289+00:00"
 }

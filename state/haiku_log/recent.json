@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-11",
-    "theme": "National Sausage Pizza Day",
-    "haiku": "Cheese melts, sausage sings\nBubbles rise, dough hugs warmly\nFlavor bursts, bright smiles\nHappy #NationalSausagePizzaDay from @ClamBakeSanta",
-    "tag": "NationalSausagePizzaDay",
-    "logged_at": "2026-10-11T15:25:22.067669+00:00"
-  },
-  {
-    "date": "2026-10-11",
-    "theme": "It's My Party Day",
-    "haiku": "Sunrise paints the sky\nCandles flicker, sweet laughter\nJoyful cheers rise high\nHappy #ItSMyPartyDay from @ClamBakeSanta",
-    "tag": "ItSMyPartyDay",
-    "logged_at": "2026-10-11T15:25:22.067669+00:00"
-  },
-  {
-    "date": "2026-10-11",
-    "theme": "Birthday Eleanor Roosevelt",
-    "haiku": "Sunrise paints her smile\nGentle breeze carries soft hope\nStars hum quiet joy\n#HappyBirthdayEleanorRoosevelt from @ClamBakeSanta",
-    "tag": "HappyBirthdayEleanorRoosevelt",
-    "logged_at": "2026-10-11T15:25:22.067669+00:00"
-  },
-  {
     "date": "2026-10-12",
     "theme": "National Gumbo Day",
     "haiku": "Red broth glows warmly\nSpices swirl with smoky steam\nTaste bright, heart feels light\nHappy #NationalGumboDay from @ClamBakeSanta",
@@ -166,5 +145,26 @@
     "haiku": "Birthday candles glow\nSoft breeze carries bright laughter\nFireworks paint soft night\n#HappyBirthdayArthurMiller from @ClamBakeSanta",
     "tag": "HappyBirthdayArthurMiller",
     "logged_at": "2026-10-17T12:45:47.260204+00:00"
+  },
+  {
+    "date": "2026-10-18",
+    "theme": "World Menopause Day",
+    "haiku": "Cool breeze lifts the rose\nSoft petals whisper calm change\nShe smiles at sunrise\nHappy #WorldMenopauseDay from @ClamBakeSanta",
+    "tag": "WorldMenopauseDay",
+    "logged_at": "2026-10-18T13:06:22.373143+00:00"
+  },
+  {
+    "date": "2026-10-18",
+    "theme": "Birthday Wynton Marsalis",
+    "haiku": "Bright brass notes bloom soft\nSway‑ing strings sing joy‑ful‑ly\nCrowd cheers with warm light\n#HappyBirthdayWyntonMarsalis from @ClamBakeSanta",
+    "tag": "HappyBirthdayWyntonMarsalis",
+    "logged_at": "2026-10-18T13:06:22.373143+00:00"
+  },
+  {
+    "date": "2026-10-18",
+    "theme": "First Quarter Moon",
+    "haiku": "Soft glow of new moon\nSilver rim kisses night sky\nStars hum in hush soft\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+    "tag": "FirstQuarterMoon",
+    "logged_at": "2026-10-18T13:06:22.373143+00:00"
   }
 ]

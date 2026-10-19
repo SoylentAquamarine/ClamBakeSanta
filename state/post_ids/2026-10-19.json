@@ -1,0 +1,62 @@
+{
+  "NationalSeafoodBisqueDay": {
+    "mastodon": {
+      "id": "117468473435485412",
+      "url": "https://mastodon.social/@ClamBakeSanta/117468473435485412"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myajkrfza62u",
+      "cid": "bafyreicz6bautulzsnveu7ynvuto67bdukagk7rzbltgoghngn7q2amilq"
+    },
+    "tumblr": {
+      "id": "830919829242413056",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "604",
+      "channel": "@clambakesanta"
+    }
+  },
+  "EvaluateYourLifeDay": {
+    "mastodon": {
+      "id": "117468477399602855",
+      "url": "https://mastodon.social/@ClamBakeSanta/117468477399602855"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myajmkufa226",
+      "cid": "bafyreic7h463r3tl7xrnb2sspjhstgafjyg45cillu2dd2r4dvi66vypra"
+    },
+    "tumblr": {
+      "id": "830919892629848064",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "605",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayJohnleCarre": {
+    "mastodon": {
+      "id": "117468481357544361",
+      "url": "https://mastodon.social/@ClamBakeSanta/117468481357544361"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myajoecnoh24",
+      "cid": "bafyreickdc5mx4jpj2wbfcajuzbx4g7zif3c4ug5gf4ju5bk7knxtthq7u"
+    },
+    "tumblr": {
+      "id": "830919955903053824",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "606",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "195",
+      "url": "https://clambakesanta.wordpress.com/2026/10/19/clam-bake-santa-2026-10-19/"
+    }
+  }
+}
