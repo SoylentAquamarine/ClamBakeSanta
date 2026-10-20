@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "haikus": [
     {
-      "theme": "National Seafood Bisque Day",
-      "haiku": "Creamy broth sighs, sun\nShellfish whispers, foam rises\nTaste of ocean, hug\nHappy #NationalSeafoodBisqueDay from @ClamBakeSanta",
-      "tag": "NationalSeafoodBisqueDay",
+      "theme": "National Brandied Fruit Day",
+      "haiku": "Cider cups steam bright\nOrchard whispers sweet amber\nHands stir warm honey\nHappy #NationalBrandiedFruitDay from @ClamBakeSanta",
+      "tag": "NationalBrandiedFruitDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Evaluate Your Life Day",
-      "haiku": "Soft light drifts over\nSunrise paints bright gold on trees\nWe pause to breathe joy\nHappy #EvaluateYourLifeDay from @ClamBakeSanta",
-      "tag": "EvaluateYourLifeDay",
+      "theme": "International Chefs Day",
+      "haiku": "soft steam curls in night\nflavors dance on bright plates glow\njoyful hands stir love\nHappy #InternationalChefsDay from @ClamBakeSanta",
+      "tag": "InternationalChefsDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday John le Carre",
-      "haiku": "Soft snowflakes bright dance\nWarm candle glow soft in hush\nJoyful laughter rings\n#HappyBirthdayJohnleCarre from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnleCarre",
+      "theme": "Birthday Arthur Rimbaud",
+      "haiku": "Sunlight drips on leaves\nSoft breeze hums through quiet trees\nJoy twirls in bright cheer\n#HappyBirthdayArthurRimbaud from @ClamBakeSanta",
+      "tag": "HappyBirthdayArthurRimbaud",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Seafood Bisque Day",
-    "Evaluate Your Life Day",
-    "Birthday John le Carre"
+    "National Brandied Fruit Day",
+    "International Chefs Day",
+    "Birthday Arthur Rimbaud"
   ],
-  "content": "Creamy broth sighs, sun\nShellfish whispers, foam rises\nTaste of ocean, hug\nHappy #NationalSeafoodBisqueDay from @ClamBakeSanta\n\nSoft light drifts over\nSunrise paints bright gold on trees\nWe pause to breathe joy\nHappy #EvaluateYourLifeDay from @ClamBakeSanta\n\nSoft snowflakes bright dance\nWarm candle glow soft in hush\nJoyful laughter rings\n#HappyBirthdayJohnleCarre from @ClamBakeSanta",
-  "saved_at": "2026-10-19T16:17:37.261289+00:00"
+  "content": "Cider cups steam bright\nOrchard whispers sweet amber\nHands stir warm honey\nHappy #NationalBrandiedFruitDay from @ClamBakeSanta\n\nsoft steam curls in night\nflavors dance on bright plates glow\njoyful hands stir love\nHappy #InternationalChefsDay from @ClamBakeSanta\n\nSunlight drips on leaves\nSoft breeze hums through quiet trees\nJoy twirls in bright cheer\n#HappyBirthdayArthurRimbaud from @ClamBakeSanta",
+  "saved_at": "2026-10-20T14:10:40.142813+00:00"
 }

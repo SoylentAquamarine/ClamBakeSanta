@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-09-19T13:06:26.958867+00:00",
-    "date": "2026-09-19",
+    "timestamp": "2026-10-20T14:18:55.473511+00:00",
+    "date": "2026-10-20",
     "themes_found": [
-      "Talk Like a Pirate Day",
-      "National Butterscotch Pudding Day",
-      "Birthday William Golding"
+      "National Brandied Fruit Day",
+      "International Chefs Day",
+      "Birthday Arthur Rimbaud"
     ],
     "haikus_posted": [
       {
-        "theme": "Talk Like a Pirate Day",
-        "tag": "TalkLikeAPirateDay",
+        "theme": "National Brandied Fruit Day",
+        "tag": "NationalBrandiedFruitDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Butterscotch Pudding Day",
-        "tag": "NationalButterscotchPuddingDay",
+        "theme": "International Chefs Day",
+        "tag": "InternationalChefsDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday William Golding",
-        "tag": "HappyBirthdayWilliamGolding",
+        "theme": "Birthday Arthur Rimbaud",
+        "tag": "HappyBirthdayArthurRimbaud",
         "valid_syllables": true,
         "counts": [
           5,

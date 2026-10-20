@@ -188,7 +188,8 @@
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
   ],
   "runs": [
     {
@@ -2421,6 +2422,17 @@
         "Birthday John le Carre"
       ],
       "content_preview": "Creamy broth sighs, sun Shellfish whispers, foam rises Taste of ocean, hug Happy #NationalSeafoodBisqueDay from @ClamBak"
+    },
+    {
+      "date": "2026-10-20",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-20T14:18:55.471721+00:00",
+      "themes": [
+        "National Brandied Fruit Day",
+        "International Chefs Day",
+        "Birthday Arthur Rimbaud"
+      ],
+      "content_preview": "Cider cups steam bright Orchard whispers sweet amber Hands stir warm honey Happy #NationalBrandiedFruitDay from @ClamBak"
     }
   ]
 }
