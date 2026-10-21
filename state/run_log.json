@@ -189,7 +189,8 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "runs": [
     {
@@ -2433,6 +2434,18 @@
         "Birthday Arthur Rimbaud"
       ],
       "content_preview": "Cider cups steam bright Orchard whispers sweet amber Hands stir warm honey Happy #NationalBrandiedFruitDay from @ClamBak"
+    },
+    {
+      "date": "2026-10-21",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-21T14:36:31.281084+00:00",
+      "themes": [
+        "National Pumpkin Cheesecake Day",
+        "National Apple Day",
+        "Birthday Samuel Taylor Coleridge",
+        "Orionid Meteor Shower"
+      ],
+      "content_preview": "Pumpkin scent swirls bright Creamy cream kisses soft cheeks Warm night hums sweet tide Happy #NationalPumpkinCheesecakeD"
     }
   ]
 }

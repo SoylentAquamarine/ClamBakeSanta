@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "haikus": [
     {
-      "theme": "National Brandied Fruit Day",
-      "haiku": "Cider cups steam bright\nOrchard whispers sweet amber\nHands stir warm honey\nHappy #NationalBrandiedFruitDay from @ClamBakeSanta",
-      "tag": "NationalBrandiedFruitDay",
+      "theme": "National Pumpkin Cheesecake Day",
+      "haiku": "Pumpkin scent swirls bright\nCreamy cream kisses soft cheeks\nWarm night hums sweet tide\nHappy #NationalPumpkinCheesecakeDay from @ClamBakeSanta",
+      "tag": "NationalPumpkinCheesecakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Chefs Day",
-      "haiku": "soft steam curls in night\nflavors dance on bright plates glow\njoyful hands stir love\nHappy #InternationalChefsDay from @ClamBakeSanta",
-      "tag": "InternationalChefsDay",
+      "theme": "National Apple Day",
+      "haiku": "Red apple glows bright\nCrunchy skin shivers on tongue\nSummer scent fills air\nHappy #NationalAppleDay from @ClamBakeSanta",
+      "tag": "NationalAppleDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Arthur Rimbaud",
-      "haiku": "Sunlight drips on leaves\nSoft breeze hums through quiet trees\nJoy twirls in bright cheer\n#HappyBirthdayArthurRimbaud from @ClamBakeSanta",
-      "tag": "HappyBirthdayArthurRimbaud",
+      "theme": "Birthday Samuel Taylor Coleridge",
+      "haiku": "Old verses hum bright\nFriends gather with warm fresh tea\nPages glow like cake\n#HappyBirthdaySamuelTaylorColeridge from @ClamBakeSanta",
+      "tag": "HappyBirthdaySamuelTaylorColeridge",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Orionid Meteor Shower",
+      "haiku": "Night sky whispers bright\nStar-lit trails blaze like soft glow\nSilver sparks dance high\nHappy #OrionidMeteorSh",
+      "tag": "OrionidMeteorShower",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Brandied Fruit Day",
-    "International Chefs Day",
-    "Birthday Arthur Rimbaud"
+    "National Pumpkin Cheesecake Day",
+    "National Apple Day",
+    "Birthday Samuel Taylor Coleridge",
+    "Orionid Meteor Shower"
   ],
-  "content": "Cider cups steam bright\nOrchard whispers sweet amber\nHands stir warm honey\nHappy #NationalBrandiedFruitDay from @ClamBakeSanta\n\nsoft steam curls in night\nflavors dance on bright plates glow\njoyful hands stir love\nHappy #InternationalChefsDay from @ClamBakeSanta\n\nSunlight drips on leaves\nSoft breeze hums through quiet trees\nJoy twirls in bright cheer\n#HappyBirthdayArthurRimbaud from @ClamBakeSanta",
-  "saved_at": "2026-10-20T14:10:40.142813+00:00"
+  "content": "Pumpkin scent swirls bright\nCreamy cream kisses soft cheeks\nWarm night hums sweet tide\nHappy #NationalPumpkinCheesecakeDay from @ClamBakeSanta\n\nRed apple glows bright\nCrunchy skin shivers on tongue\nSummer scent fills air\nHappy #NationalAppleDay from @ClamBakeSanta\n\nOld verses hum bright\nFriends gather with warm fresh tea\nPages glow like cake\n#HappyBirthdaySamuelTaylorColeridge from @ClamBakeSanta\n\nNight sky whispers bright\nStar-lit trails blaze like soft glow\nSilver sparks dance high\nHappy #OrionidMeteorSh",
+  "saved_at": "2026-10-21T14:24:17.176429+00:00"
 }

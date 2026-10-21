@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-10-21T14:36:31.282587+00:00",
+    "date": "2026-10-21",
+    "themes_found": [
+      "National Pumpkin Cheesecake Day",
+      "National Apple Day",
+      "Birthday Samuel Taylor Coleridge",
+      "Orionid Meteor Shower"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Pumpkin Cheesecake Day",
+        "tag": "NationalPumpkinCheesecakeDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Apple Day",
+        "tag": "NationalAppleDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Samuel Taylor Coleridge",
+        "tag": "HappyBirthdaySamuelTaylorColeridge",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Orionid Meteor Shower",
+        "tag": "OrionidMeteorShower",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]
