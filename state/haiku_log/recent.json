@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-14",
-    "theme": "National Dessert Day",
-    "haiku": "Sweet cake rises warm\nFlame curls butter melts steam sings\nCrumbs dance soft on tongue\nHappy #NationalDessertDay from @",
-    "tag": "NationalDessertDay",
-    "logged_at": "2026-10-14T14:23:58.792394+00:00"
-  },
-  {
-    "date": "2026-10-14",
-    "theme": "National Pumpkin Pie Day",
-    "haiku": "Golden crust gleams bright\nSpice curls, steam rises warm soft\nTaste of fall inside\nHappy #NationalPumpkinPieDay from @ClamBakeSanta",
-    "tag": "NationalPumpkinPieDay",
-    "logged_at": "2026-10-14T14:23:58.792394+00:00"
-  },
-  {
-    "date": "2026-10-14",
-    "theme": "Birthday Dwight D. Eisenhower",
-    "haiku": "Crisp dawn greets the hill\nRed sunrise paints bright banners\nJoy drums echo far\n#HappyBirthdayDwightDEisenhower from @ClamBakeSanta",
-    "tag": "HappyBirthdayDwightDEisenhower",
-    "logged_at": "2026-10-14T14:23:58.792394+00:00"
-  },
-  {
     "date": "2026-10-15",
     "theme": "National Cheese Curd Day",
     "haiku": "Soft creamy curds glow\nWarm sun drips bright on green grass\nCheese scent rises high\nHappy #NationalCheese",
@@ -159,5 +138,33 @@
     "haiku": "Sunlight drips on leaves\nSoft breeze hums through quiet trees\nJoy twirls in bright cheer\n#HappyBirthdayArthurRimbaud from @ClamBakeSanta",
     "tag": "HappyBirthdayArthurRimbaud",
     "logged_at": "2026-10-20T14:10:40.143392+00:00"
+  },
+  {
+    "date": "2026-10-21",
+    "theme": "National Pumpkin Cheesecake Day",
+    "haiku": "Pumpkin scent swirls bright\nCreamy cream kisses soft cheeks\nWarm night hums sweet tide\nHappy #NationalPumpkinCheesecakeDay from @ClamBakeSanta",
+    "tag": "NationalPumpkinCheesecakeDay",
+    "logged_at": "2026-10-21T14:24:17.177249+00:00"
+  },
+  {
+    "date": "2026-10-21",
+    "theme": "National Apple Day",
+    "haiku": "Red apple glows bright\nCrunchy skin shivers on tongue\nSummer scent fills air\nHappy #NationalAppleDay from @ClamBakeSanta",
+    "tag": "NationalAppleDay",
+    "logged_at": "2026-10-21T14:24:17.177249+00:00"
+  },
+  {
+    "date": "2026-10-21",
+    "theme": "Birthday Samuel Taylor Coleridge",
+    "haiku": "Old verses hum bright\nFriends gather with warm fresh tea\nPages glow like cake\n#HappyBirthdaySamuelTaylorColeridge from @ClamBakeSanta",
+    "tag": "HappyBirthdaySamuelTaylorColeridge",
+    "logged_at": "2026-10-21T14:24:17.177249+00:00"
+  },
+  {
+    "date": "2026-10-21",
+    "theme": "Orionid Meteor Shower",
+    "haiku": "Night sky whispers bright\nStar-lit trails blaze like soft glow\nSilver sparks dance high\nHappy #OrionidMeteorSh",
+    "tag": "OrionidMeteorShower",
+    "logged_at": "2026-10-21T14:24:17.177249+00:00"
   }
 ]

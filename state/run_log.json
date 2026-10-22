@@ -190,7 +190,8 @@
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "runs": [
     {
@@ -2446,6 +2447,17 @@
         "Orionid Meteor Shower"
       ],
       "content_preview": "Pumpkin scent swirls bright Creamy cream kisses soft cheeks Warm night hums sweet tide Happy #NationalPumpkinCheesecakeD"
+    },
+    {
+      "date": "2026-10-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-22T14:32:31.794612+00:00",
+      "themes": [
+        "National Nut Day",
+        "International Stuttering Awareness Day",
+        "Birthday Franz Liszt"
+      ],
+      "content_preview": "Crunchy shells soft glow Nutty scent swirls bright in air Tasting joy with friends Happy #NationalNutDay from @ClamBakeS"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "haikus": [
     {
-      "theme": "National Pumpkin Cheesecake Day",
-      "haiku": "Pumpkin scent swirls bright\nCreamy cream kisses soft cheeks\nWarm night hums sweet tide\nHappy #NationalPumpkinCheesecakeDay from @ClamBakeSanta",
-      "tag": "NationalPumpkinCheesecakeDay",
+      "theme": "National Nut Day",
+      "haiku": "Crunchy shells soft glow\nNutty scent swirls bright in air\nTasting joy with friends\nHappy #NationalNutDay from @ClamBakeSanta",
+      "tag": "NationalNutDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Apple Day",
-      "haiku": "Red apple glows bright\nCrunchy skin shivers on tongue\nSummer scent fills air\nHappy #NationalAppleDay from @ClamBakeSanta",
-      "tag": "NationalAppleDay",
+      "theme": "International Stuttering Awareness Day",
+      "haiku": "Soft snow whispers light\nEach breath a soft gentle song\nJoy blooms in soft pause\nHappy #InternationalStutteringAwarenessDay from @ClamBakeSanta",
+      "tag": "InternationalStutteringAwarenessDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Samuel Taylor Coleridge",
-      "haiku": "Old verses hum bright\nFriends gather with warm fresh tea\nPages glow like cake\n#HappyBirthdaySamuelTaylorColeridge from @ClamBakeSanta",
-      "tag": "HappyBirthdaySamuelTaylorColeridge",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Orionid Meteor Shower",
-      "haiku": "Night sky whispers bright\nStar-lit trails blaze like soft glow\nSilver sparks dance high\nHappy #OrionidMeteorSh",
-      "tag": "OrionidMeteorShower",
+      "theme": "Birthday Franz Liszt",
+      "haiku": "Keys dance in moonlight\nMelody swells like warm breeze\nBirthday sighs in keys\n#HappyBirthdayFranzLiszt from @ClamBakeSanta",
+      "tag": "HappyBirthdayFranzLiszt",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Pumpkin Cheesecake Day",
-    "National Apple Day",
-    "Birthday Samuel Taylor Coleridge",
-    "Orionid Meteor Shower"
+    "National Nut Day",
+    "International Stuttering Awareness Day",
+    "Birthday Franz Liszt"
   ],
-  "content": "Pumpkin scent swirls bright\nCreamy cream kisses soft cheeks\nWarm night hums sweet tide\nHappy #NationalPumpkinCheesecakeDay from @ClamBakeSanta\n\nRed apple glows bright\nCrunchy skin shivers on tongue\nSummer scent fills air\nHappy #NationalAppleDay from @ClamBakeSanta\n\nOld verses hum bright\nFriends gather with warm fresh tea\nPages glow like cake\n#HappyBirthdaySamuelTaylorColeridge from @ClamBakeSanta\n\nNight sky whispers bright\nStar-lit trails blaze like soft glow\nSilver sparks dance high\nHappy #OrionidMeteorSh",
-  "saved_at": "2026-10-21T14:24:17.176429+00:00"
+  "content": "Crunchy shells soft glow\nNutty scent swirls bright in air\nTasting joy with friends\nHappy #NationalNutDay from @ClamBakeSanta\n\nSoft snow whispers light\nEach breath a soft gentle song\nJoy blooms in soft pause\nHappy #InternationalStutteringAwarenessDay from @ClamBakeSanta\n\nKeys dance in moonlight\nMelody swells like warm breeze\nBirthday sighs in keys\n#HappyBirthdayFranzLiszt from @ClamBakeSanta",
+  "saved_at": "2026-10-22T14:24:20.992204+00:00"
 }
