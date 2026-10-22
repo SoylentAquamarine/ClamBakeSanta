@@ -1,0 +1,130 @@
+{
+  "NationalPumpkinCheesecakeDay": {
+    "theme": "National Pumpkin Cheesecake Day",
+    "haiku": "Pumpkin scent swirls bright\nCreamy cream kisses soft cheeks\nWarm night hums sweet tide\nHappy #NationalPumpkinCheesecakeDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117479352428640671",
+        "url": "https://mastodon.social/@ClamBakeSanta/117479352428640671",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myfe7ujnyx2n",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "831094023013924864",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-22T00:19:59.984076+00:00"
+  },
+  "NationalAppleDay": {
+    "theme": "National Apple Day",
+    "haiku": "Red apple glows bright\nCrunchy skin shivers on tongue\nSummer scent fills air\nHappy #NationalAppleDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117479356436058784",
+        "url": "https://mastodon.social/@ClamBakeSanta/117479356436058784",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myfebnww2623",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "831094086334398464",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-22T00:19:59.984076+00:00"
+  },
+  "HappyBirthdaySamuelTaylorColeridge": {
+    "theme": "Birthday Samuel Taylor Coleridge",
+    "haiku": "Old verses hum bright\nFriends gather with warm fresh tea\nPages glow like cake\n#HappyBirthdaySamuelTaylorColeridge from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117479360522963454",
+        "url": "https://mastodon.social/@ClamBakeSanta/117479360522963454",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myfedheay526",
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "score": 1
+      },
+      "tumblr": {
+        "id": "831094149996478464",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-10-22T00:19:59.984076+00:00"
+  },
+  "OrionidMeteorShower": {
+    "theme": "Orionid Meteor Shower",
+    "haiku": "Night sky whispers bright\nStar-lit trails blaze like soft glow\nSilver sparks dance high\nHappy #OrionidMeteorSh",
+    "platforms": {
+      "mastodon": {
+        "id": "117479364550348496",
+        "url": "https://mastodon.social/@ClamBakeSanta/117479364550348496",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myfefarjx62a",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "831094213442732032",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-22T00:19:59.984076+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "197",
+        "url": "https://clambakesanta.wordpress.com/2026/10/21/clam-bake-santa-2026-10-21/",
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-10-22T00:19:59.984076+00:00"
+  }
+}
