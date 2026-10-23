@@ -191,7 +191,8 @@
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
   "runs": [
     {
@@ -2458,6 +2459,17 @@
         "Birthday Franz Liszt"
       ],
       "content_preview": "Crunchy shells soft glow Nutty scent swirls bright in air Tasting joy with friends Happy #NationalNutDay from @ClamBakeS"
+    },
+    {
+      "date": "2026-10-23",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-23T14:15:39.647824+00:00",
+      "themes": [
+        "National Boston Cream Pie Day",
+        "National Mole Day",
+        "Birthday Pele"
+      ],
+      "content_preview": "Warm buttered crumbs soft Velvet custard drips sweet warm Tale of frothy rise Happy #NationalBostonCreamPieDay from @Cla"
     }
   ]
 }

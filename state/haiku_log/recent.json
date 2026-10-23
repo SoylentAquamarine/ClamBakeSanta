@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-15",
-    "theme": "National Cheese Curd Day",
-    "haiku": "Soft creamy curds glow\nWarm sun drips bright on green grass\nCheese scent rises high\nHappy #NationalCheese",
-    "tag": "NationalCheeseCurdDay",
-    "logged_at": "2026-10-15T14:01:22.886008+00:00"
-  },
-  {
-    "date": "2026-10-15",
-    "theme": "Global Handwashing Day",
-    "haiku": "Hands gleam in bright rain\nFoam dances, scent of fresh soap\nJoy spreads warm sunrise\nHappy #GlobalHandwashingDay from @ClamBakeSanta",
-    "tag": "GlobalHandwashingDay",
-    "logged_at": "2026-10-15T14:01:22.886008+00:00"
-  },
-  {
-    "date": "2026-10-15",
-    "theme": "Birthday Virgil",
-    "haiku": "Morning sun kisses\nCandles glow like tiny stars\nJoy drifts in warm air\n#HappyBirthdayVirgil from @ClamBakeSanta",
-    "tag": "HappyBirthdayVirgil",
-    "logged_at": "2026-10-15T14:01:22.886008+00:00"
-  },
-  {
-    "date": "2026-10-15",
-    "theme": "Birthday Nietzsche",
-    "haiku": "Golden candle glow\nSoft steam rises, bright laughter\nWarm cake melts, sweet scent\n#HappyBirthdayNietzsche from @ClamBakeSanta",
-    "tag": "HappyBirthdayNietzsche",
-    "logged_at": "2026-10-15T14:01:22.886008+00:00"
-  },
-  {
     "date": "2026-10-16",
     "theme": "World Food Day",
     "haiku": "Bowl of steam rises\nBright colors dance, taste buds sing\nJoyful plates share love\nHappy #WorldFoodDay from @ClamBakeSanta",
@@ -166,5 +138,26 @@
     "haiku": "Night sky whispers bright\nStar-lit trails blaze like soft glow\nSilver sparks dance high\nHappy #OrionidMeteorSh",
     "tag": "OrionidMeteorShower",
     "logged_at": "2026-10-21T14:24:17.177249+00:00"
+  },
+  {
+    "date": "2026-10-22",
+    "theme": "National Nut Day",
+    "haiku": "Crunchy shells soft glow\nNutty scent swirls bright in air\nTasting joy with friends\nHappy #NationalNutDay from @ClamBakeSanta",
+    "tag": "NationalNutDay",
+    "logged_at": "2026-10-22T14:24:20.992515+00:00"
+  },
+  {
+    "date": "2026-10-22",
+    "theme": "International Stuttering Awareness Day",
+    "haiku": "Soft snow whispers light\nEach breath a soft gentle song\nJoy blooms in soft pause\nHappy #InternationalStutteringAwarenessDay from @ClamBakeSanta",
+    "tag": "InternationalStutteringAwarenessDay",
+    "logged_at": "2026-10-22T14:24:20.992515+00:00"
+  },
+  {
+    "date": "2026-10-22",
+    "theme": "Birthday Franz Liszt",
+    "haiku": "Keys dance in moonlight\nMelody swells like warm breeze\nBirthday sighs in keys\n#HappyBirthdayFranzLiszt from @ClamBakeSanta",
+    "tag": "HappyBirthdayFranzLiszt",
+    "logged_at": "2026-10-22T14:24:20.992515+00:00"
   }
 ]
