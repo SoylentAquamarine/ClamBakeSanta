@@ -192,7 +192,8 @@
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
   ],
   "runs": [
     {
@@ -2470,6 +2471,18 @@
         "Birthday Pele"
       ],
       "content_preview": "Warm buttered crumbs soft Velvet custard drips sweet warm Tale of frothy rise Happy #NationalBostonCreamPieDay from @Cla"
+    },
+    {
+      "date": "2026-10-24",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-24T13:22:39.609752+00:00",
+      "themes": [
+        "National Bologna Day",
+        "World Tripe Day",
+        "Birthday Kevin Kline",
+        "Welcome to Scorpio Season"
+      ],
+      "content_preview": "Sliced bologna sighs Golden grill sparks heat softly Melted cheese waves bright Happy #NationalBolognaDay from @ClamBake"
     }
   ]
 }

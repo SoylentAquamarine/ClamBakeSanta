@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "haikus": [
     {
-      "theme": "National Boston Cream Pie Day",
-      "haiku": "Warm buttered crumbs soft\nVelvet custard drips sweet warm\nTale of frothy rise\nHappy #NationalBostonCreamPieDay from @Clam",
-      "tag": "NationalBostonCreamPieDay",
+      "theme": "National Bologna Day",
+      "haiku": "Sliced bologna sighs\nGolden grill sparks heat softly\nMelted cheese waves bright\nHappy #NationalBolognaDay from @ClamBakeSanta",
+      "tag": "NationalBolognaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Mole Day",
-      "haiku": "Tiny paws dig soft\nEarth smells of spring soil and mud\nMoles dance below leaves\nHappy #NationalMoleDay from @ClamBakeSanta",
-      "tag": "NationalMoleDay",
+      "theme": "World Tripe Day",
+      "haiku": "Warm tripe simmering\nSpices dance, steam curls soft bright\nTasting joy in bowl\nHappy #WorldTripeDay from @ClamBakeSanta",
+      "tag": "WorldTripeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Pele",
-      "haiku": "Soft sunrise paints sky\nGolden light kisses soft cheeks\nJoyful cheers rise high\n#HappyBirthdayPele from @ClamBakeSanta",
-      "tag": "HappyBirthdayPele",
+      "theme": "Birthday Kevin Kline",
+      "haiku": "Soft cake scent rises\nLaughter echoes like bright bells\nCandles flicker warm\n#HappyBirthdayKevinKline from @ClamBakeSanta",
+      "tag": "HappyBirthdayKevinKline",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Welcome to Scorpio Season",
+      "haiku": "Soft night stars flicker\nMoonlit rivers glow, hearts sing\nFireflies soft dance bright\nHappy #WelcomeToScorpioSeason from @ClamBakeSanta",
+      "tag": "WelcomeToScorpioSeason",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Boston Cream Pie Day",
-    "National Mole Day",
-    "Birthday Pele"
+    "National Bologna Day",
+    "World Tripe Day",
+    "Birthday Kevin Kline",
+    "Welcome to Scorpio Season"
   ],
-  "content": "Warm buttered crumbs soft\nVelvet custard drips sweet warm\nTale of frothy rise\nHappy #NationalBostonCreamPieDay from @Clam\n\nTiny paws dig soft\nEarth smells of spring soil and mud\nMoles dance below leaves\nHappy #NationalMoleDay from @ClamBakeSanta\n\nSoft sunrise paints sky\nGolden light kisses soft cheeks\nJoyful cheers rise high\n#HappyBirthdayPele from @ClamBakeSanta",
-  "saved_at": "2026-10-23T14:07:20.007284+00:00"
+  "content": "Sliced bologna sighs\nGolden grill sparks heat softly\nMelted cheese waves bright\nHappy #NationalBolognaDay from @ClamBakeSanta\n\nWarm tripe simmering\nSpices dance, steam curls soft bright\nTasting joy in bowl\nHappy #WorldTripeDay from @ClamBakeSanta\n\nSoft cake scent rises\nLaughter echoes like bright bells\nCandles flicker warm\n#HappyBirthdayKevinKline from @ClamBakeSanta\n\nSoft night stars flicker\nMoonlit rivers glow, hearts sing\nFireflies soft dance bright\nHappy #WelcomeToScorpioSeason from @ClamBakeSanta",
+  "saved_at": "2026-10-24T13:10:24.857448+00:00"
 }
