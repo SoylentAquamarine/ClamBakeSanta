@@ -59,16 +59,16 @@ Code: `_generate()` in `plugins/engines/clambakesanta.py` runs the cascade;
 Ordered by confidence, in `config.yml` under `ai.fallback` (primary is set by
 `ai.model` + `CBS_AI_KEY`/`CBS_AI_BASE_URL` env vars, not the fallback list).
 
-| # | Provider | Status (as of 2026-10-18) | Model | Notes |
+| # | Provider | Status (as of 2026-10-25) | Model | Notes |
 |---|---|---|---|---|
-| 1 | **Groq** (primary) | ✅ Working | `openai/gpt-oss-20b` | Reasoning model — needs `reasoning_effort: low`. Re-verified clean across two isolation runs (3/4 and 4/4 themes resolved directly on primary; two separate "empty content, finish_reason=length" hiccups this round — expected gpt-oss behavior under this rule, auto-retried fine on the next attempt each time) |
-| 2 | **Mistral** | ❌ Still failing | `mistral-small-latest` | Unchanged since 2026-09-27 — every attempt across every test run this week still gets an immediate `429 rate_limited` (code 1300). Still looks like account-level quota exhaustion. Not fixable via config — check the Mistral console for remaining quota/plan status |
-| 3 | **Cohere** | ⚠️ Still degraded | `command-r7b-12-2024` | Unchanged since 2026-09-27 — API itself is mostly healthy (HTTP 200 on most calls), but syllable validation still fails nearly every attempt this run ("got unknown"), exhausting all 5 attempts whenever reached. One isolation run also surfaced an explicit `429` "Trial key, limited to 20 API calls/minute" message on a couple of attempts — a secondary rate cap, but the primary blocker remains the syllable-validation failure, not quota. Model-quality regression persists, not a config bug |
+| 1 | **Groq** (primary) | ✅ Working | `openai/gpt-oss-20b` | Reasoning model — needs `reasoning_effort: low`. Re-verified clean — 3/4 themes resolved directly on primary (one "empty content, finish_reason=length" hiccup and several syllable mismatches, all auto-retried fine); the 4th theme exhausted primary (429s + another empty-content hiccup) and fell through the whole chain to Pollinations, same pattern as previous rounds |
+| 2 | **Mistral** | ❌ Still failing | `mistral-small-latest` | Unchanged since 2026-09-27 — every attempt across all three test runs this round (whole-chain + isolation) still gets an immediate `429 rate_limited` (code 1300). Still looks like account-level quota exhaustion. Not fixable via config — check the Mistral console for remaining quota/plan status |
+| 3 | **Cohere** | ⚠️ Still degraded | `command-r7b-12-2024` | Unchanged since 2026-09-27 — API itself is mostly healthy (HTTP 200 on most calls), but syllable validation still fails nearly every attempt this round ("got unknown"), exhausting all 5 attempts whenever reached. Model-quality regression persists, not a config bug. **New this round**: during one isolation run, a retry to Cohere hung with no response and no error for 20+ minutes — had to be cancelled manually. See rule 9 below; this is a test-harness/client gap, not evidence Cohere itself got worse |
 | 4 | **Cerebras** | ❌ Still blocked | `gpt-oss-120b` | Unchanged since 2026-08-17 — every call still returns `402 payment_required`. Still no payment method on file. Not fixable via config; kept in the chain as a harmless no-cost skip unless/until a card is added |
-| 5 | **OpenRouter** | ⚠️ Still unreliable | `google/gemma-4-31b-it:free` | Unchanged — `:free` models still route through a shared pool, 429'd on every attempt across every test this run (both the upstream-pool 429 and OpenRouter's own `free-models-per-min` 429 were seen). Not fixable by retrying |
-| 6 | **Pollinations** | 🟢 Still working | `openai` | Confirmed still recovered (status change was 2026-10-11) — `HTTP 200` and a valid haiku on attempt 1/5 every single time it was reached across all test runs this round (multiple whole-chain and isolation fall-throughs). No config change needed |
-| 7 | **Gemini** | ⚠️ Still reachable, unreliable | `gemini-3.8-flash` | Unchanged since 2026-09-27 — model id still valid (no 404s), but hit `429 RESOURCE_EXHAUSTED` on every attempt this run. **New detail**: the error's `quotaId` this time was `GenerateRequestsPerDayPerProjectPerModel-FreeTier` with `quotaValue: 20` (a 20-requests-**per-day** cap) rather than the per-minute cap previously assumed — `retryDelay` came back as ~3h44m, not ~30s. Isolation test still took ~2 min to exhaust 5 attempts on one theme before falling through. `gemini-3.5-flash-lite` evaluation still outstanding as a follow-up |
-| 8 | **Fireworks** | ✅ Working | `accounts/fireworks/models/gpt-oss-120b` | Unchanged since the 2026-09-27 model-id fix — re-verified in isolation, clean 4/4 (one syllable-mismatch retry on attempt 1 for two themes, succeeded on attempt 2 both times) |
+| 5 | **OpenRouter** | ⚠️ Still unreliable | `google/gemma-4-31b-it:free` | Unchanged — `:free` models still route through a shared pool, 429'd on every attempt across every test this round (both the upstream-pool 429 and OpenRouter's own `free-models-per-min` 429 were seen). Not fixable by retrying |
+| 6 | **Pollinations** | 🟢 Still working | `openai` | Confirmed still recovered (status change was 2026-10-11) — `HTTP 200` and a valid haiku on attempt 1/5 every single time it was reached across all three test runs this round. No config change needed |
+| 7 | **Gemini** | ⚠️ Still reachable, unreliable | `gemini-3.8-flash` | Unchanged since 2026-09-27 — model id still valid (no 404s). This round's isolation run hit a mix of syllable mismatches, two `503 UNAVAILABLE` ("experiencing high demand") errors, and finally a `429 RESOURCE_EXHAUSTED` — but this time on the **per-minute** quota (`GenerateRequestsPerMinutePerProjectPerModel-FreeTier`, `quotaValue: 5`, `retryDelay: 17s`), a different dimension than last round's per-day cap (`quotaValue: 20`, ~3h44m delay). Same overall conclusion: free tier is quota-constrained, not fixable without billing. `gemini-3.5-flash-lite` evaluation still outstanding as a follow-up |
+| 8 | **Fireworks** | ✅ Working | `accounts/fireworks/models/gpt-oss-120b` | Unchanged since the 2026-09-27 model-id fix — re-verified in isolation, clean 4/4, every theme valid on attempt 1/5, no syllable mismatches |
 | 9 | **HuggingFace** | 🔴 Still failing | `meta-llama/Llama-3.1-8B-Instruct` | Unchanged since the 2026-10-11 regression — still gets `402 - You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits.` on every attempt (correctly fast-skipped as a permanent failure, not retried 5x). This is HuggingFace's own router billing, not a model-id or config issue — the free inference-credits allowance is still exhausted. **Not fixable via config** — needs the user to either wait for the monthly free-credits reset, buy pre-paid credits, or subscribe to PRO. Harmless to leave in the chain as a fast no-cost skip in the meantime |
 
 Removed entirely (tried, deliberately dropped — see git log for
@@ -144,6 +144,29 @@ Not wired in at all:
    logged as "no API key set" and easy to mistake for primary being broken.
    Primary Groq's actual secret is `GROQ_API_KEY` (see `daily.yml`'s env
    block) — pass `ai_key_secret="GROQ_API_KEY"` to test it in isolation.
+
+9. **No request timeout is set on the OpenAI client — a stalled connection
+   can hang a run indefinitely with zero log output.** `_generate()` builds
+   `client = OpenAI(base_url=provider["base_url"], api_key=provider["api_key"])`
+   with no `timeout=`. Observed during the 2026-10-25 audit: a Gemini
+   isolation run fell through to Cohere, and a single retry to Cohere's API
+   sat with no response and no error for 20+ minutes before the GitHub
+   Actions run had to be cancelled manually — no timeout ever fired. The
+   same gap exists in the real `daily.yml` run, so a provider that accepts
+   the connection but never answers could, in theory, stall the whole daily
+   run rather than fail fast into the next fallback. Not fixed as part of a
+   config/doc-only audit — fixing it means adding an explicit per-request
+   `timeout=` to the `OpenAI(...)` client in `plugins/engines/clambakesanta.py`,
+   a code change left for the user's call.
+
+10. **This weekly audit doesn't require the `gh` CLI specifically — any
+    GitHub Actions API access (e.g. the GitHub MCP tools available in a
+    Claude Code cloud session) works the same way: trigger
+    `workflow_dispatch` on `test_ai_backend.yml` with the same inputs, then
+    read the run's job logs.** If `gh auth status` fails in whatever
+    environment is running this check, that's not automatically a blocker —
+    confirm there's no other path to the Actions API before giving up on
+    testing.
 
 ## How to test
 
