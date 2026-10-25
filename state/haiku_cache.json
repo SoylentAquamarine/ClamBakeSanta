@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "haikus": [
     {
-      "theme": "National Bologna Day",
-      "haiku": "Sliced bologna sighs\nGolden grill sparks heat softly\nMelted cheese waves bright\nHappy #NationalBolognaDay from @ClamBakeSanta",
-      "tag": "NationalBolognaDay",
+      "theme": "National Greasy Food Day",
+      "haiku": "Greasy sizzle swells\nOil glints, bacon drips, joy bright\nHeat hugs the pan warm\nHappy #NationalGreasyFoodDay from @ClamBakeSanta",
+      "tag": "NationalGreasyFoodDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Tripe Day",
-      "haiku": "Warm tripe simmering\nSpices dance, steam curls soft bright\nTasting joy in bowl\nHappy #WorldTripeDay from @ClamBakeSanta",
-      "tag": "WorldTripeDay",
+      "theme": "World Pasta Day",
+      "haiku": "Warm red sauce drips bright\nTwist of noodles twirls like sun\nTaste melts, soft joy sings\nHappy #WorldPastaDay from @ClamBakeSanta",
+      "tag": "WorldPastaDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Kevin Kline",
-      "haiku": "Soft cake scent rises\nLaughter echoes like bright bells\nCandles flicker warm\n#HappyBirthdayKevinKline from @ClamBakeSanta",
-      "tag": "HappyBirthdayKevinKline",
+      "theme": "Birthday Pablo Picasso",
+      "haiku": "Canvas wakes to sun\nColors dance in morning light\nBrushes sigh, joy spills\n#HappyBirthdayPabloPicasso from @ClamBakeSanta",
+      "tag": "HappyBirthdayPabloPicasso",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Welcome to Scorpio Season",
-      "haiku": "Soft night stars flicker\nMoonlit rivers glow, hearts sing\nFireflies soft dance bright\nHappy #WelcomeToScorpioSeason from @ClamBakeSanta",
-      "tag": "WelcomeToScorpioSeason",
+      "theme": "Birthday Johann Strauss II",
+      "haiku": "Vienna drums rise\nsilver notes float on air bright\njoyful hearts dance loud\n#HappyBirthdayJohannStraussII from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohannStraussII",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Bologna Day",
-    "World Tripe Day",
-    "Birthday Kevin Kline",
-    "Welcome to Scorpio Season"
+    "National Greasy Food Day",
+    "World Pasta Day",
+    "Birthday Pablo Picasso",
+    "Birthday Johann Strauss II"
   ],
-  "content": "Sliced bologna sighs\nGolden grill sparks heat softly\nMelted cheese waves bright\nHappy #NationalBolognaDay from @ClamBakeSanta\n\nWarm tripe simmering\nSpices dance, steam curls soft bright\nTasting joy in bowl\nHappy #WorldTripeDay from @ClamBakeSanta\n\nSoft cake scent rises\nLaughter echoes like bright bells\nCandles flicker warm\n#HappyBirthdayKevinKline from @ClamBakeSanta\n\nSoft night stars flicker\nMoonlit rivers glow, hearts sing\nFireflies soft dance bright\nHappy #WelcomeToScorpioSeason from @ClamBakeSanta",
-  "saved_at": "2026-10-24T13:10:24.857448+00:00"
+  "content": "Greasy sizzle swells\nOil glints, bacon drips, joy bright\nHeat hugs the pan warm\nHappy #NationalGreasyFoodDay from @ClamBakeSanta\n\nWarm red sauce drips bright\nTwist of noodles twirls like sun\nTaste melts, soft joy sings\nHappy #WorldPastaDay from @ClamBakeSanta\n\nCanvas wakes to sun\nColors dance in morning light\nBrushes sigh, joy spills\n#HappyBirthdayPabloPicasso from @ClamBakeSanta\n\nVienna drums rise\nsilver notes float on air bright\njoyful hearts dance loud\n#HappyBirthdayJohannStraussII from @ClamBakeSanta",
+  "saved_at": "2026-10-25T13:36:39.137533+00:00"
 }

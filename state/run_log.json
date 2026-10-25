@@ -193,7 +193,8 @@
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
-    "2026-10-24"
+    "2026-10-24",
+    "2026-10-25"
   ],
   "runs": [
     {
@@ -2483,6 +2484,18 @@
         "Welcome to Scorpio Season"
       ],
       "content_preview": "Sliced bologna sighs Golden grill sparks heat softly Melted cheese waves bright Happy #NationalBolognaDay from @ClamBake"
+    },
+    {
+      "date": "2026-10-25",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-25T13:48:52.898833+00:00",
+      "themes": [
+        "National Greasy Food Day",
+        "World Pasta Day",
+        "Birthday Pablo Picasso",
+        "Birthday Johann Strauss II"
+      ],
+      "content_preview": "Greasy sizzle swells Oil glints, bacon drips, joy bright Heat hugs the pan warm Happy #NationalGreasyFoodDay from @ClamB"
     }
   ]
 }
