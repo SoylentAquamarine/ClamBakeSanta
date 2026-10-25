@@ -1,0 +1,130 @@
+{
+  "NationalGreasyFoodDay": {
+    "theme": "National Greasy Food Day",
+    "haiku": "Greasy sizzle swells\nOil glints, bacon drips, joy bright\nHeat hugs the pan warm\nHappy #NationalGreasyFoodDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117501814348672761",
+        "url": "https://mastodon.social/@ClamBakeSanta/117501814348672761",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mypdgazkyg2t",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "831453410190671872",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-25T23:41:33.930404+00:00"
+  },
+  "WorldPastaDay": {
+    "theme": "World Pasta Day",
+    "haiku": "Warm red sauce drips bright\nTwist of noodles twirls like sun\nTaste melts, soft joy sings\nHappy #WorldPastaDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117501818310606667",
+        "url": "https://mastodon.social/@ClamBakeSanta/117501818310606667",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mypdi2eevj2h",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "831453473397784576",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-25T23:41:33.930404+00:00"
+  },
+  "HappyBirthdayPabloPicasso": {
+    "theme": "Birthday Pablo Picasso",
+    "haiku": "Canvas wakes to sun\nColors dance in morning light\nBrushes sigh, joy spills\n#HappyBirthdayPabloPicasso from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117501822267697385",
+        "url": "https://mastodon.social/@ClamBakeSanta/117501822267697385",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mypdjtxn6m23",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "831453536683524096",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-25T23:41:33.930404+00:00"
+  },
+  "HappyBirthdayJohannStraussII": {
+    "theme": "Birthday Johann Strauss II",
+    "haiku": "Vienna drums rise\nsilver notes float on air bright\njoyful hearts dance loud\n#HappyBirthdayJohannStraussII from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117501826234696071",
+        "url": "https://mastodon.social/@ClamBakeSanta/117501826234696071",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mypdlnadrn2b",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "831453600428523521",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-10-25T23:41:33.930404+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "201",
+        "url": "https://clambakesanta.wordpress.com/2026/10/25/clam-bake-santa-2026-10-25/",
+        "views": 3,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-10-25T23:41:33.930404+00:00"
+  }
+}
