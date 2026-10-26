@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-09-25T14:41:23.774674+00:00",
-    "date": "2026-09-25",
+    "timestamp": "2026-10-26T16:09:13.027566+00:00",
+    "date": "2026-10-26",
     "themes_found": [
-      "National Comic Book Day",
-      "National Lobster Day",
-      "Birthday William Faulkner",
-      "Birthday Dmitri Shostakovich"
+      "National Mincemeat Pie Day",
+      "National Pumpkin Day",
+      "Birthday Mahalia Jackson",
+      "Full Moon"
     ],
     "haikus_posted": [
       {
-        "theme": "National Comic Book Day",
-        "tag": "NationalComicBookDay",
+        "theme": "National Mincemeat Pie Day",
+        "tag": "NationalMincemeatPieDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "National Lobster Day",
-        "tag": "NationalLobsterDay",
+        "theme": "National Pumpkin Day",
+        "tag": "NationalPumpkinDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday William Faulkner",
-        "tag": "HappyBirthdayWilliamFaulkner",
+        "theme": "Birthday Mahalia Jackson",
+        "tag": "HappyBirthdayMahaliaJackson",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "Birthday Dmitri Shostakovich",
-        "tag": "HappyBirthdayDmitriShostakovich",
+        "theme": "Full Moon",
+        "tag": "FullMoon",
         "valid_syllables": true,
         "counts": [
           5,

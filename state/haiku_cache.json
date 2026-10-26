@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "haikus": [
     {
-      "theme": "National Greasy Food Day",
-      "haiku": "Greasy sizzle swells\nOil glints, bacon drips, joy bright\nHeat hugs the pan warm\nHappy #NationalGreasyFoodDay from @ClamBakeSanta",
-      "tag": "NationalGreasyFoodDay",
+      "theme": "National Mincemeat Pie Day",
+      "haiku": "Frosted crust sighs warm\nSoft spiced berries swirl inside\nGolden crumbs kiss heat\nHappy #NationalMincemeatPieDay from @ClamBakeSanta",
+      "tag": "NationalMincemeatPieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Pasta Day",
-      "haiku": "Warm red sauce drips bright\nTwist of noodles twirls like sun\nTaste melts, soft joy sings\nHappy #WorldPastaDay from @ClamBakeSanta",
-      "tag": "WorldPastaDay",
+      "theme": "National Pumpkin Day",
+      "haiku": "Orange glow at dusk\nCrisp air carries sweet spice soft\nLeaves whisper pumpkin\nHappy #NationalPumpkinDay from @ClamBakeSanta",
+      "tag": "NationalPumpkinDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Pablo Picasso",
-      "haiku": "Canvas wakes to sun\nColors dance in morning light\nBrushes sigh, joy spills\n#HappyBirthdayPabloPicasso from @ClamBakeSanta",
-      "tag": "HappyBirthdayPabloPicasso",
+      "theme": "Birthday Mahalia Jackson",
+      "haiku": "Golden candles glow\nJoyful voices rise like dawn\nSongs lift hearts aloft\n#HappyBirthdayMahaliaJackson from @ClamBakeSanta",
+      "tag": "HappyBirthdayMahaliaJackson",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Johann Strauss II",
-      "haiku": "Vienna drums rise\nsilver notes float on air bright\njoyful hearts dance loud\n#HappyBirthdayJohannStraussII from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohannStraussII",
+      "theme": "Full Moon",
+      "haiku": "Silver glow rises\nCrickets hum, stars twirl in night\nMoon bathes soft warm earth\nHappy #FullMoon from @ClamBakeSanta",
+      "tag": "FullMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Greasy Food Day",
-    "World Pasta Day",
-    "Birthday Pablo Picasso",
-    "Birthday Johann Strauss II"
+    "National Mincemeat Pie Day",
+    "National Pumpkin Day",
+    "Birthday Mahalia Jackson",
+    "Full Moon"
   ],
-  "content": "Greasy sizzle swells\nOil glints, bacon drips, joy bright\nHeat hugs the pan warm\nHappy #NationalGreasyFoodDay from @ClamBakeSanta\n\nWarm red sauce drips bright\nTwist of noodles twirls like sun\nTaste melts, soft joy sings\nHappy #WorldPastaDay from @ClamBakeSanta\n\nCanvas wakes to sun\nColors dance in morning light\nBrushes sigh, joy spills\n#HappyBirthdayPabloPicasso from @ClamBakeSanta\n\nVienna drums rise\nsilver notes float on air bright\njoyful hearts dance loud\n#HappyBirthdayJohannStraussII from @ClamBakeSanta",
-  "saved_at": "2026-10-25T13:36:39.137533+00:00"
+  "content": "Frosted crust sighs warm\nSoft spiced berries swirl inside\nGolden crumbs kiss heat\nHappy #NationalMincemeatPieDay from @ClamBakeSanta\n\nOrange glow at dusk\nCrisp air carries sweet spice soft\nLeaves whisper pumpkin\nHappy #NationalPumpkinDay from @ClamBakeSanta\n\nGolden candles glow\nJoyful voices rise like dawn\nSongs lift hearts aloft\n#HappyBirthdayMahaliaJackson from @ClamBakeSanta\n\nSilver glow rises\nCrickets hum, stars twirl in night\nMoon bathes soft warm earth\nHappy #FullMoon from @ClamBakeSanta",
+  "saved_at": "2026-10-26T15:56:55.239258+00:00"
 }

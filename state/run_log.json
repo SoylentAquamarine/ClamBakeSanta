@@ -194,7 +194,8 @@
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
-    "2026-10-25"
+    "2026-10-25",
+    "2026-10-26"
   ],
   "runs": [
     {
@@ -2496,6 +2497,18 @@
         "Birthday Johann Strauss II"
       ],
       "content_preview": "Greasy sizzle swells Oil glints, bacon drips, joy bright Heat hugs the pan warm Happy #NationalGreasyFoodDay from @ClamB"
+    },
+    {
+      "date": "2026-10-26",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-26T16:09:13.025347+00:00",
+      "themes": [
+        "National Mincemeat Pie Day",
+        "National Pumpkin Day",
+        "Birthday Mahalia Jackson",
+        "Full Moon"
+      ],
+      "content_preview": "Frosted crust sighs warm Soft spiced berries swirl inside Golden crumbs kiss heat Happy #NationalMincemeatPieDay from @C"
     }
   ]
 }
