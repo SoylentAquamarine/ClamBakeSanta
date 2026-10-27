@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-19",
-    "theme": "National Seafood Bisque Day",
-    "haiku": "Creamy broth sighs, sun\nShellfish whispers, foam rises\nTaste of ocean, hug\nHappy #NationalSeafoodBisqueDay from @ClamBakeSanta",
-    "tag": "NationalSeafoodBisqueDay",
-    "logged_at": "2026-10-19T16:17:37.261636+00:00"
-  },
-  {
-    "date": "2026-10-19",
-    "theme": "Evaluate Your Life Day",
-    "haiku": "Soft light drifts over\nSunrise paints bright gold on trees\nWe pause to breathe joy\nHappy #EvaluateYourLifeDay from @ClamBakeSanta",
-    "tag": "EvaluateYourLifeDay",
-    "logged_at": "2026-10-19T16:17:37.261636+00:00"
-  },
-  {
-    "date": "2026-10-19",
-    "theme": "Birthday John le Carre",
-    "haiku": "Soft snowflakes bright dance\nWarm candle glow soft in hush\nJoyful laughter rings\n#HappyBirthdayJohnleCarre from @ClamBakeSanta",
-    "tag": "HappyBirthdayJohnleCarre",
-    "logged_at": "2026-10-19T16:17:37.261636+00:00"
-  },
-  {
     "date": "2026-10-20",
     "theme": "National Brandied Fruit Day",
     "haiku": "Cider cups steam bright\nOrchard whispers sweet amber\nHands stir warm honey\nHappy #NationalBrandiedFruitDay from @ClamBakeSanta",
@@ -166,5 +145,33 @@
     "haiku": "Vienna drums rise\nsilver notes float on air bright\njoyful hearts dance loud\n#HappyBirthdayJohannStraussII from @ClamBakeSanta",
     "tag": "HappyBirthdayJohannStraussII",
     "logged_at": "2026-10-25T13:36:39.137970+00:00"
+  },
+  {
+    "date": "2026-10-26",
+    "theme": "National Mincemeat Pie Day",
+    "haiku": "Frosted crust sighs warm\nSoft spiced berries swirl inside\nGolden crumbs kiss heat\nHappy #NationalMincemeatPieDay from @ClamBakeSanta",
+    "tag": "NationalMincemeatPieDay",
+    "logged_at": "2026-10-26T15:56:55.239866+00:00"
+  },
+  {
+    "date": "2026-10-26",
+    "theme": "National Pumpkin Day",
+    "haiku": "Orange glow at dusk\nCrisp air carries sweet spice soft\nLeaves whisper pumpkin\nHappy #NationalPumpkinDay from @ClamBakeSanta",
+    "tag": "NationalPumpkinDay",
+    "logged_at": "2026-10-26T15:56:55.239866+00:00"
+  },
+  {
+    "date": "2026-10-26",
+    "theme": "Birthday Mahalia Jackson",
+    "haiku": "Golden candles glow\nJoyful voices rise like dawn\nSongs lift hearts aloft\n#HappyBirthdayMahaliaJackson from @ClamBakeSanta",
+    "tag": "HappyBirthdayMahaliaJackson",
+    "logged_at": "2026-10-26T15:56:55.239866+00:00"
+  },
+  {
+    "date": "2026-10-26",
+    "theme": "Full Moon",
+    "haiku": "Silver glow rises\nCrickets hum, stars twirl in night\nMoon bathes soft warm earth\nHappy #FullMoon from @ClamBakeSanta",
+    "tag": "FullMoon",
+    "logged_at": "2026-10-26T15:56:55.239866+00:00"
   }
 ]

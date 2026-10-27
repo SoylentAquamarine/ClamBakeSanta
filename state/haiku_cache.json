@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "haikus": [
     {
-      "theme": "National Mincemeat Pie Day",
-      "haiku": "Frosted crust sighs warm\nSoft spiced berries swirl inside\nGolden crumbs kiss heat\nHappy #NationalMincemeatPieDay from @ClamBakeSanta",
-      "tag": "NationalMincemeatPieDay",
+      "theme": "National American Beer Day",
+      "haiku": "Golden foam climbs soft\nSunlit taps hum, laughter rings\nBubbles dance, bright joy\nHappy #NationalAmericanBeerDay from @ClamBakeSanta",
+      "tag": "NationalAmericanBeerDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Pumpkin Day",
-      "haiku": "Orange glow at dusk\nCrisp air carries sweet spice soft\nLeaves whisper pumpkin\nHappy #NationalPumpkinDay from @ClamBakeSanta",
-      "tag": "NationalPumpkinDay",
+      "theme": "National Black Cat Day",
+      "haiku": "Midnight whiskers gleam\nSoft paws pat the cool stone floor\nNight air hums with joy\nHappy #NationalBlackCatDay from @ClamBakeSanta",
+      "tag": "NationalBlackCatDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Mahalia Jackson",
-      "haiku": "Golden candles glow\nJoyful voices rise like dawn\nSongs lift hearts aloft\n#HappyBirthdayMahaliaJackson from @ClamBakeSanta",
-      "tag": "HappyBirthdayMahaliaJackson",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Full Moon",
-      "haiku": "Silver glow rises\nCrickets hum, stars twirl in night\nMoon bathes soft warm earth\nHappy #FullMoon from @ClamBakeSanta",
-      "tag": "FullMoon",
+      "theme": "Birthday Theodore Roosevelt",
+      "haiku": "Morning light calls us\nBold oak stands, roots deep, wind sings\nBirthday cheers rise high\n#HappyBirthdayTheodoreRoosevelt from @ClamBakeSanta",
+      "tag": "HappyBirthdayTheodoreRoosevelt",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Mincemeat Pie Day",
-    "National Pumpkin Day",
-    "Birthday Mahalia Jackson",
-    "Full Moon"
+    "National American Beer Day",
+    "National Black Cat Day",
+    "Birthday Theodore Roosevelt"
   ],
-  "content": "Frosted crust sighs warm\nSoft spiced berries swirl inside\nGolden crumbs kiss heat\nHappy #NationalMincemeatPieDay from @ClamBakeSanta\n\nOrange glow at dusk\nCrisp air carries sweet spice soft\nLeaves whisper pumpkin\nHappy #NationalPumpkinDay from @ClamBakeSanta\n\nGolden candles glow\nJoyful voices rise like dawn\nSongs lift hearts aloft\n#HappyBirthdayMahaliaJackson from @ClamBakeSanta\n\nSilver glow rises\nCrickets hum, stars twirl in night\nMoon bathes soft warm earth\nHappy #FullMoon from @ClamBakeSanta",
-  "saved_at": "2026-10-26T15:56:55.239258+00:00"
+  "content": "Golden foam climbs soft\nSunlit taps hum, laughter rings\nBubbles dance, bright joy\nHappy #NationalAmericanBeerDay from @ClamBakeSanta\n\nMidnight whiskers gleam\nSoft paws pat the cool stone floor\nNight air hums with joy\nHappy #NationalBlackCatDay from @ClamBakeSanta\n\nMorning light calls us\nBold oak stands, roots deep, wind sings\nBirthday cheers rise high\n#HappyBirthdayTheodoreRoosevelt from @ClamBakeSanta",
+  "saved_at": "2026-10-27T15:11:58.334110+00:00"
 }
