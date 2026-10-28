@@ -1,4 +1,66 @@
 {
+  "2026-10-28": {
+    "NationalChocolateDay": {
+      "mastodon": {
+        "id": "117519316990696208",
+        "url": "https://mastodon.social/@ClamBakeSanta/117519316990696208"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myx43qde3f27",
+        "cid": "bafyreih7vf2s6udopgotjspmcuxilsbltt22yrocl4vu6er5bwyr2scgyi"
+      },
+      "tumblr": {
+        "id": "831733325794328576",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "635",
+        "channel": "@clambakesanta"
+      }
+    },
+    "MakeADifferenceDay": {
+      "mastodon": {
+        "id": "117519320947993869",
+        "url": "https://mastodon.social/@ClamBakeSanta/117519320947993869"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myx45jrzis2r",
+        "cid": "bafyreiafynhrwjn6ak3vkvz3nce62d7vdqbxdmobz45lydeiavmpizly4m"
+      },
+      "tumblr": {
+        "id": "831733389178634240",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "636",
+        "channel": "@clambakesanta"
+      }
+    },
+    "HappyBirthdayErasmusofRotterdam": {
+      "mastodon": {
+        "id": "117519324903850769",
+        "url": "https://mastodon.social/@ClamBakeSanta/117519324903850769"
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myx47daxeo22",
+        "cid": "bafyreib7lbtkpe7l3rz3xefydek5funwdtko4npjko5e6k52uzxywjmfsu"
+      },
+      "tumblr": {
+        "id": "831733452831408128",
+        "blog_name": "clambakesanta"
+      },
+      "telegram": {
+        "id": "637",
+        "channel": "@clambakesanta"
+      }
+    },
+    "_wp_daily": {
+      "wordpress": {
+        "id": "204",
+        "url": "https://clambakesanta.wordpress.com/2026/10/28/clam-bake-santa-2026-10-28/"
+      }
+    }
+  },
   "2026-10-27": {
     "NationalAmericanBeerDay": {
       "mastodon": {
@@ -502,68 +564,6 @@
       "wordpress": {
         "id": "197",
         "url": "https://clambakesanta.wordpress.com/2026/10/21/clam-bake-santa-2026-10-21/"
-      }
-    }
-  },
-  "2026-10-20": {
-    "NationalBrandiedFruitDay": {
-      "mastodon": {
-        "id": "117473636601861484",
-        "url": "https://mastodon.social/@ClamBakeSanta/117473636601861484"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mycswq53652d",
-        "cid": "bafyreidviopnbjckugvmclqft6hr5n5dka3y4uasusw5pnyyooj6g4gtma"
-      },
-      "tumblr": {
-        "id": "831002440832860160",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "607",
-        "channel": "@clambakesanta"
-      }
-    },
-    "InternationalChefsDay": {
-      "mastodon": {
-        "id": "117473640580987644",
-        "url": "https://mastodon.social/@ClamBakeSanta/117473640580987644"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mycsyjnoxa2n",
-        "cid": "bafyreihjgggfmnih56zyo6yzfpng2dg5uomgb7dgfpjhqxh3pselz4s2ue"
-      },
-      "tumblr": {
-        "id": "831002504306262016",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "608",
-        "channel": "@clambakesanta"
-      }
-    },
-    "HappyBirthdayArthurRimbaud": {
-      "mastodon": {
-        "id": "117473644547120141",
-        "url": "https://mastodon.social/@ClamBakeSanta/117473644547120141"
-      },
-      "bluesky": {
-        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myct2da4lo2d",
-        "cid": "bafyreiakl2haidcmg4mqxnrounrq2kbjsmj73f7opvqr3zd6qndvb7hiou"
-      },
-      "tumblr": {
-        "id": "831002567623524352",
-        "blog_name": "clambakesanta"
-      },
-      "telegram": {
-        "id": "609",
-        "channel": "@clambakesanta"
-      }
-    },
-    "_wp_daily": {
-      "wordpress": {
-        "id": "196",
-        "url": "https://clambakesanta.wordpress.com/2026/10/20/clam-bake-santa-2026-10-20/"
       }
     }
   }

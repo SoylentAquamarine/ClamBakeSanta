@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-09-27T14:45:51.042318+00:00",
-    "date": "2026-09-27",
+    "timestamp": "2026-10-28T15:56:03.395178+00:00",
+    "date": "2026-10-28",
     "themes_found": [
-      "National Chocolate Milk Day",
-      "World Tourism Day",
-      "Birthday Louis Andriessen"
+      "National Chocolate Day",
+      "Make a Difference Day",
+      "Birthday Erasmus of Rotterdam"
     ],
     "haikus_posted": [
       {
-        "theme": "National Chocolate Milk Day",
-        "tag": "NationalChocolateMilkDay",
+        "theme": "National Chocolate Day",
+        "tag": "NationalChocolateDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "World Tourism Day",
-        "tag": "WorldTourismDay",
+        "theme": "Make a Difference Day",
+        "tag": "MakeADifferenceDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Louis Andriessen",
-        "tag": "HappyBirthdayLouisAndriessen",
+        "theme": "Birthday Erasmus of Rotterdam",
+        "tag": "HappyBirthdayErasmusofRotterdam",
         "valid_syllables": true,
         "counts": [
           5,

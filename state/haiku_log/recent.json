@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-20",
-    "theme": "National Brandied Fruit Day",
-    "haiku": "Cider cups steam bright\nOrchard whispers sweet amber\nHands stir warm honey\nHappy #NationalBrandiedFruitDay from @ClamBakeSanta",
-    "tag": "NationalBrandiedFruitDay",
-    "logged_at": "2026-10-20T14:10:40.143392+00:00"
-  },
-  {
-    "date": "2026-10-20",
-    "theme": "International Chefs Day",
-    "haiku": "soft steam curls in night\nflavors dance on bright plates glow\njoyful hands stir love\nHappy #InternationalChefsDay from @ClamBakeSanta",
-    "tag": "InternationalChefsDay",
-    "logged_at": "2026-10-20T14:10:40.143392+00:00"
-  },
-  {
-    "date": "2026-10-20",
-    "theme": "Birthday Arthur Rimbaud",
-    "haiku": "Sunlight drips on leaves\nSoft breeze hums through quiet trees\nJoy twirls in bright cheer\n#HappyBirthdayArthurRimbaud from @ClamBakeSanta",
-    "tag": "HappyBirthdayArthurRimbaud",
-    "logged_at": "2026-10-20T14:10:40.143392+00:00"
-  },
-  {
     "date": "2026-10-21",
     "theme": "National Pumpkin Cheesecake Day",
     "haiku": "Pumpkin scent swirls bright\nCreamy cream kisses soft cheeks\nWarm night hums sweet tide\nHappy #NationalPumpkinCheesecakeDay from @ClamBakeSanta",
@@ -173,5 +152,26 @@
     "haiku": "Silver glow rises\nCrickets hum, stars twirl in night\nMoon bathes soft warm earth\nHappy #FullMoon from @ClamBakeSanta",
     "tag": "FullMoon",
     "logged_at": "2026-10-26T15:56:55.239866+00:00"
+  },
+  {
+    "date": "2026-10-27",
+    "theme": "National American Beer Day",
+    "haiku": "Golden foam climbs soft\nSunlit taps hum, laughter rings\nBubbles dance, bright joy\nHappy #NationalAmericanBeerDay from @ClamBakeSanta",
+    "tag": "NationalAmericanBeerDay",
+    "logged_at": "2026-10-27T15:11:58.334364+00:00"
+  },
+  {
+    "date": "2026-10-27",
+    "theme": "National Black Cat Day",
+    "haiku": "Midnight whiskers gleam\nSoft paws pat the cool stone floor\nNight air hums with joy\nHappy #NationalBlackCatDay from @ClamBakeSanta",
+    "tag": "NationalBlackCatDay",
+    "logged_at": "2026-10-27T15:11:58.334364+00:00"
+  },
+  {
+    "date": "2026-10-27",
+    "theme": "Birthday Theodore Roosevelt",
+    "haiku": "Morning light calls us\nBold oak stands, roots deep, wind sings\nBirthday cheers rise high\n#HappyBirthdayTheodoreRoosevelt from @ClamBakeSanta",
+    "tag": "HappyBirthdayTheodoreRoosevelt",
+    "logged_at": "2026-10-27T15:11:58.334364+00:00"
   }
 ]

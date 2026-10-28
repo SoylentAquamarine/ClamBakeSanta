@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "haikus": [
     {
-      "theme": "National American Beer Day",
-      "haiku": "Golden foam climbs soft\nSunlit taps hum, laughter rings\nBubbles dance, bright joy\nHappy #NationalAmericanBeerDay from @ClamBakeSanta",
-      "tag": "NationalAmericanBeerDay",
+      "theme": "National Chocolate Day",
+      "haiku": "Melting cocoa drips\nSilky scent wraps soft warm hands\nDark rivers taste glow\nHappy #NationalChocolateDay from",
+      "tag": "NationalChocolateDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Black Cat Day",
-      "haiku": "Midnight whiskers gleam\nSoft paws pat the cool stone floor\nNight air hums with joy\nHappy #NationalBlackCatDay from @ClamBakeSanta",
-      "tag": "NationalBlackCatDay",
+      "theme": "Make a Difference Day",
+      "haiku": "Sunrise paints bright gold\nKids hand in hand plant bright seeds\nHope grows in warm heart\nHappy #MakeADifferenceDay from @ClamBakeSanta",
+      "tag": "MakeADifferenceDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Theodore Roosevelt",
-      "haiku": "Morning light calls us\nBold oak stands, roots deep, wind sings\nBirthday cheers rise high\n#HappyBirthdayTheodoreRoosevelt from @ClamBakeSanta",
-      "tag": "HappyBirthdayTheodoreRoosevelt",
+      "theme": "Birthday Erasmus of Rotterdam",
+      "haiku": "Rotterdam lights glow\nErasmus laughs by canal\nJoyful waves applaud\n#HappyBirthdayErasmusofRotterdam from @ClamBakeSanta",
+      "tag": "HappyBirthdayErasmusofRotterdam",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National American Beer Day",
-    "National Black Cat Day",
-    "Birthday Theodore Roosevelt"
+    "National Chocolate Day",
+    "Make a Difference Day",
+    "Birthday Erasmus of Rotterdam"
   ],
-  "content": "Golden foam climbs soft\nSunlit taps hum, laughter rings\nBubbles dance, bright joy\nHappy #NationalAmericanBeerDay from @ClamBakeSanta\n\nMidnight whiskers gleam\nSoft paws pat the cool stone floor\nNight air hums with joy\nHappy #NationalBlackCatDay from @ClamBakeSanta\n\nMorning light calls us\nBold oak stands, roots deep, wind sings\nBirthday cheers rise high\n#HappyBirthdayTheodoreRoosevelt from @ClamBakeSanta",
-  "saved_at": "2026-10-27T15:11:58.334110+00:00"
+  "content": "Melting cocoa drips\nSilky scent wraps soft warm hands\nDark rivers taste glow\nHappy #NationalChocolateDay from\n\nSunrise paints bright gold\nKids hand in hand plant bright seeds\nHope grows in warm heart\nHappy #MakeADifferenceDay from @ClamBakeSanta\n\nRotterdam lights glow\nErasmus laughs by canal\nJoyful waves applaud\n#HappyBirthdayErasmusofRotterdam from @ClamBakeSanta",
+  "saved_at": "2026-10-28T15:47:48.439639+00:00"
 }

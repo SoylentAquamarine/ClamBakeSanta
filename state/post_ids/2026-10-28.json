@@ -1,0 +1,62 @@
+{
+  "NationalChocolateDay": {
+    "mastodon": {
+      "id": "117519316990696208",
+      "url": "https://mastodon.social/@ClamBakeSanta/117519316990696208"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myx43qde3f27",
+      "cid": "bafyreih7vf2s6udopgotjspmcuxilsbltt22yrocl4vu6er5bwyr2scgyi"
+    },
+    "tumblr": {
+      "id": "831733325794328576",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "635",
+      "channel": "@clambakesanta"
+    }
+  },
+  "MakeADifferenceDay": {
+    "mastodon": {
+      "id": "117519320947993869",
+      "url": "https://mastodon.social/@ClamBakeSanta/117519320947993869"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myx45jrzis2r",
+      "cid": "bafyreiafynhrwjn6ak3vkvz3nce62d7vdqbxdmobz45lydeiavmpizly4m"
+    },
+    "tumblr": {
+      "id": "831733389178634240",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "636",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayErasmusofRotterdam": {
+    "mastodon": {
+      "id": "117519324903850769",
+      "url": "https://mastodon.social/@ClamBakeSanta/117519324903850769"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myx47daxeo22",
+      "cid": "bafyreib7lbtkpe7l3rz3xefydek5funwdtko4npjko5e6k52uzxywjmfsu"
+    },
+    "tumblr": {
+      "id": "831733452831408128",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "637",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "204",
+      "url": "https://clambakesanta.wordpress.com/2026/10/28/clam-bake-santa-2026-10-28/"
+    }
+  }
+}
