@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "haikus": [
     {
-      "theme": "National Chocolate Day",
-      "haiku": "Melting cocoa drips\nSilky scent wraps soft warm hands\nDark rivers taste glow\nHappy #NationalChocolateDay from",
-      "tag": "NationalChocolateDay",
+      "theme": "National Cat Day",
+      "haiku": "Gentle paws tap light\nPurring hums fill quiet rooms\nSunlit fur glows warm\nHappy #NationalCatDay from @ClamBakeSanta",
+      "tag": "NationalCatDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Make a Difference Day",
-      "haiku": "Sunrise paints bright gold\nKids hand in hand plant bright seeds\nHope grows in warm heart\nHappy #MakeADifferenceDay from @ClamBakeSanta",
-      "tag": "MakeADifferenceDay",
+      "theme": "National Oatmeal Day",
+      "haiku": "Morning sun pours oat\nSteam curls, sweet cinnamon drifts\nCreamy bowl glows warm\nHappy #NationalOatmealDay from @ClamBakeSanta",
+      "tag": "NationalOatmealDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Erasmus of Rotterdam",
-      "haiku": "Rotterdam lights glow\nErasmus laughs by canal\nJoyful waves applaud\n#HappyBirthdayErasmusofRotterdam from @ClamBakeSanta",
-      "tag": "HappyBirthdayErasmusofRotterdam",
+      "theme": "Birthday James Boswell",
+      "haiku": "Gentle candle glow\nPages turn with soft light near\nJoy rings in each word\n#HappyBirthdayJamesBoswell from @ClamBakeSanta",
+      "tag": "HappyBirthdayJamesBoswell",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Chocolate Day",
-    "Make a Difference Day",
-    "Birthday Erasmus of Rotterdam"
+    "National Cat Day",
+    "National Oatmeal Day",
+    "Birthday James Boswell"
   ],
-  "content": "Melting cocoa drips\nSilky scent wraps soft warm hands\nDark rivers taste glow\nHappy #NationalChocolateDay from\n\nSunrise paints bright gold\nKids hand in hand plant bright seeds\nHope grows in warm heart\nHappy #MakeADifferenceDay from @ClamBakeSanta\n\nRotterdam lights glow\nErasmus laughs by canal\nJoyful waves applaud\n#HappyBirthdayErasmusofRotterdam from @ClamBakeSanta",
-  "saved_at": "2026-10-28T15:47:48.439639+00:00"
+  "content": "Gentle paws tap light\nPurring hums fill quiet rooms\nSunlit fur glows warm\nHappy #NationalCatDay from @ClamBakeSanta\n\nMorning sun pours oat\nSteam curls, sweet cinnamon drifts\nCreamy bowl glows warm\nHappy #NationalOatmealDay from @ClamBakeSanta\n\nGentle candle glow\nPages turn with soft light near\nJoy rings in each word\n#HappyBirthdayJamesBoswell from @ClamBakeSanta",
+  "saved_at": "2026-10-29T15:55:55.698610+00:00"
 }
