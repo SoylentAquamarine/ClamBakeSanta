@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "haikus": [
     {
-      "theme": "National Cat Day",
-      "haiku": "Gentle paws tap light\nPurring hums fill quiet rooms\nSunlit fur glows warm\nHappy #NationalCatDay from @ClamBakeSanta",
-      "tag": "NationalCatDay",
+      "theme": "National Candy Corn Day",
+      "haiku": "Orange kernels glow\nSweet dust drifts in summer air\nCandy dreams melt bright\nHappy #NationalCandyCornDay from @ClamBakeSanta",
+      "tag": "NationalCandyCornDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Oatmeal Day",
-      "haiku": "Morning sun pours oat\nSteam curls, sweet cinnamon drifts\nCreamy bowl glows warm\nHappy #NationalOatmealDay from @ClamBakeSanta",
-      "tag": "NationalOatmealDay",
+      "theme": "Mischief Night",
+      "haiku": "Midnight bells ring bright\nShadows dance in soft glow near\nLaughter spills like snow\nHappy #MischiefNight from @ClamBakeSanta",
+      "tag": "MischiefNight",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday James Boswell",
-      "haiku": "Gentle candle glow\nPages turn with soft light near\nJoy rings in each word\n#HappyBirthdayJamesBoswell from @ClamBakeSanta",
-      "tag": "HappyBirthdayJamesBoswell",
+      "theme": "Birthday John Adams",
+      "haiku": "Bright candles burn slow\nJohn laughs, joy fills soft bright air\nSunset paints gold light\n#HappyBirthdayJohnAdams from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnAdams",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Cat Day",
-    "National Oatmeal Day",
-    "Birthday James Boswell"
+    "National Candy Corn Day",
+    "Mischief Night",
+    "Birthday John Adams"
   ],
-  "content": "Gentle paws tap light\nPurring hums fill quiet rooms\nSunlit fur glows warm\nHappy #NationalCatDay from @ClamBakeSanta\n\nMorning sun pours oat\nSteam curls, sweet cinnamon drifts\nCreamy bowl glows warm\nHappy #NationalOatmealDay from @ClamBakeSanta\n\nGentle candle glow\nPages turn with soft light near\nJoy rings in each word\n#HappyBirthdayJamesBoswell from @ClamBakeSanta",
-  "saved_at": "2026-10-29T15:55:55.698610+00:00"
+  "content": "Orange kernels glow\nSweet dust drifts in summer air\nCandy dreams melt bright\nHappy #NationalCandyCornDay from @ClamBakeSanta\n\nMidnight bells ring bright\nShadows dance in soft glow near\nLaughter spills like snow\nHappy #MischiefNight from @ClamBakeSanta\n\nBright candles burn slow\nJohn laughs, joy fills soft bright air\nSunset paints gold light\n#HappyBirthdayJohnAdams from @ClamBakeSanta",
+  "saved_at": "2026-10-30T15:41:21.565251+00:00"
 }

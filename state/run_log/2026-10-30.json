@@ -1,16 +1,16 @@
 [
   {
-    "timestamp": "2026-09-29T15:37:33.207354+00:00",
-    "date": "2026-09-29",
+    "timestamp": "2026-10-30T15:49:37.428534+00:00",
+    "date": "2026-10-30",
     "themes_found": [
-      "National Coffee Day",
-      "International Goose Day",
-      "Birthday Miguel de Cervantes"
+      "National Candy Corn Day",
+      "Mischief Night",
+      "Birthday John Adams"
     ],
     "haikus_posted": [
       {
-        "theme": "National Coffee Day",
-        "tag": "NationalCoffeeDay",
+        "theme": "National Candy Corn Day",
+        "tag": "NationalCandyCornDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +19,8 @@
         ]
       },
       {
-        "theme": "International Goose Day",
-        "tag": "InternationalGooseDay",
+        "theme": "Mischief Night",
+        "tag": "MischiefNight",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Miguel de Cervantes",
-        "tag": "HappyBirthdayMigueldeCervantes",
+        "theme": "Birthday John Adams",
+        "tag": "HappyBirthdayJohnAdams",
         "valid_syllables": true,
         "counts": [
           5,

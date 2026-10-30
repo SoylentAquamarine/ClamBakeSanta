@@ -198,7 +198,8 @@
     "2026-10-26",
     "2026-10-27",
     "2026-10-28",
-    "2026-10-29"
+    "2026-10-29",
+    "2026-10-30"
   ],
   "runs": [
     {
@@ -2545,6 +2546,17 @@
         "Birthday James Boswell"
       ],
       "content_preview": "Gentle paws tap light Purring hums fill quiet rooms Sunlit fur glows warm Happy #NationalCatDay from @ClamBakeSanta  Mor"
+    },
+    {
+      "date": "2026-10-30",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-30T15:49:37.426479+00:00",
+      "themes": [
+        "National Candy Corn Day",
+        "Mischief Night",
+        "Birthday John Adams"
+      ],
+      "content_preview": "Orange kernels glow Sweet dust drifts in summer air Candy dreams melt bright Happy #NationalCandyCornDay from @ClamBakeS"
     }
   ]
 }

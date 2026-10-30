@@ -1,0 +1,62 @@
+{
+  "NationalCandyCornDay": {
+    "mastodon": {
+      "id": "117530616285205021",
+      "url": "https://mastodon.social/@ClamBakeSanta/117530616285205021"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mz44o37ct42t",
+      "cid": "bafyreidgwfkm3xy7iie6wtanqh5hspe2nuihlytrrzeethy7v3yli5fi3i"
+    },
+    "tumblr": {
+      "id": "831914115399352320",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "641",
+      "channel": "@clambakesanta"
+    }
+  },
+  "MischiefNight": {
+    "mastodon": {
+      "id": "117530620251320126",
+      "url": "https://mastodon.social/@ClamBakeSanta/117530620251320126"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mz44puocvh23",
+      "cid": "bafyreihac3lzwnbzpwqj46z62b5bj2r2y67a65ic6ue6bbgcbd4grgri6i"
+    },
+    "tumblr": {
+      "id": "831914178712322048",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "642",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayJohnAdams": {
+    "mastodon": {
+      "id": "117530624208829505",
+      "url": "https://mastodon.social/@ClamBakeSanta/117530624208829505"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mz44rocaw32b",
+      "cid": "bafyreihtfuolincgn4t4ulhzc3s4d6z7jlhmookqvh5hculv6vabzyazqu"
+    },
+    "tumblr": {
+      "id": "831914242306408448",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "643",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "206",
+      "url": "https://clambakesanta.wordpress.com/2026/10/30/clam-bake-santa-2026-10-30/"
+    }
+  }
+}
