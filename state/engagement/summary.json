@@ -1,4 +1,106 @@
 {
+  "2026-10-30": {
+    "NationalCandyCornDay": {
+      "theme": "National Candy Corn Day",
+      "haiku": "Orange kernels glow\nSweet dust drifts in summer air\nCandy dreams melt bright\nHappy #NationalCandyCornDay from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117530616285205021",
+          "url": "https://mastodon.social/@ClamBakeSanta/117530616285205021",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mz44o37ct42t",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "831914115399352320",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
+    },
+    "MischiefNight": {
+      "theme": "Mischief Night",
+      "haiku": "Midnight bells ring bright\nShadows dance in soft glow near\nLaughter spills like snow\nHappy #MischiefNight from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117530620251320126",
+          "url": "https://mastodon.social/@ClamBakeSanta/117530620251320126",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mz44puocvh23",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "831914178712322048",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
+    },
+    "HappyBirthdayJohnAdams": {
+      "theme": "Birthday John Adams",
+      "haiku": "Bright candles burn slow\nJohn laughs, joy fills soft bright air\nSunset paints gold light\n#HappyBirthdayJohnAdams from @ClamBakeSanta",
+      "platforms": {
+        "mastodon": {
+          "id": "117530624208829505",
+          "url": "https://mastodon.social/@ClamBakeSanta/117530624208829505",
+          "likes": 0,
+          "boosts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "bluesky": {
+          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mz44rocaw32b",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "score": 0
+        },
+        "tumblr": {
+          "id": "831914242306408448",
+          "notes": 0,
+          "score": 0
+        }
+      },
+      "total_score": 0,
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
+    },
+    "_wp_daily": {
+      "theme": "_wp_daily",
+      "haiku": "",
+      "platforms": {
+        "wordpress": {
+          "id": "206",
+          "url": "https://clambakesanta.wordpress.com/2026/10/30/clam-bake-santa-2026-10-30/",
+          "views": 1,
+          "likes": 1,
+          "comments": 0,
+          "score": 1
+        }
+      },
+      "total_score": 1,
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
+    }
+  },
   "2026-10-29": {
     "NationalCatDay": {
       "theme": "National Cat Day",
@@ -26,7 +128,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     },
     "NationalOatmealDay": {
       "theme": "National Oatmeal Day",
@@ -54,7 +156,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     },
     "HappyBirthdayJamesBoswell": {
       "theme": "Birthday James Boswell",
@@ -82,7 +184,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -98,7 +200,7 @@
         }
       },
       "total_score": 2,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     }
   },
   "2026-10-28": {
@@ -128,7 +230,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     },
     "MakeADifferenceDay": {
       "theme": "Make a Difference Day",
@@ -156,7 +258,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     },
     "HappyBirthdayErasmusofRotterdam": {
       "theme": "Birthday Erasmus of Rotterdam",
@@ -184,7 +286,7 @@
         }
       },
       "total_score": 0,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     },
     "_wp_daily": {
       "theme": "_wp_daily",
@@ -200,7 +302,7 @@
         }
       },
       "total_score": 4,
-      "last_checked": "2026-10-30T01:28:24.251630+00:00"
+      "last_checked": "2026-10-31T01:17:51.390037+00:00"
     }
   },
   "2026-10-27": {
@@ -693,108 +795,6 @@
       },
       "total_score": 3,
       "last_checked": "2026-10-27T01:01:03.569141+00:00"
-    }
-  },
-  "2026-10-23": {
-    "NationalBostonCreamPieDay": {
-      "theme": "National Boston Cream Pie Day",
-      "haiku": "Warm buttered crumbs soft\nVelvet custard drips sweet warm\nTale of frothy rise\nHappy #NationalBostonCreamPieDay from @Clam",
-      "platforms": {
-        "mastodon": {
-          "id": "117490610384220469",
-          "url": "https://mastodon.social/@ClamBakeSanta/117490610384220469",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myke5ipluq25",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "831274021052088320",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-10-25T23:41:33.930404+00:00"
-    },
-    "NationalMoleDay": {
-      "theme": "National Mole Day",
-      "haiku": "Tiny paws dig soft\nEarth smells of spring soil and mud\nMoles dance below leaves\nHappy #NationalMoleDay from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117490614360049866",
-          "url": "https://mastodon.social/@ClamBakeSanta/117490614360049866",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3myke7ck5q52b",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "831274084515053568",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-10-25T23:41:33.930404+00:00"
-    },
-    "HappyBirthdayPele": {
-      "theme": "Birthday Pele",
-      "haiku": "Soft sunrise paints sky\nGolden light kisses soft cheeks\nJoyful cheers rise high\n#HappyBirthdayPele from @ClamBakeSanta",
-      "platforms": {
-        "mastodon": {
-          "id": "117490618322622816",
-          "url": "https://mastodon.social/@ClamBakeSanta/117490618322622816",
-          "likes": 0,
-          "boosts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "bluesky": {
-          "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mykeb3z4c72e",
-          "likes": 0,
-          "reposts": 0,
-          "replies": 0,
-          "score": 0
-        },
-        "tumblr": {
-          "id": "831274147855417344",
-          "notes": 0,
-          "score": 0
-        }
-      },
-      "total_score": 0,
-      "last_checked": "2026-10-25T23:41:33.930404+00:00"
-    },
-    "_wp_daily": {
-      "theme": "_wp_daily",
-      "haiku": "",
-      "platforms": {
-        "wordpress": {
-          "id": "199",
-          "url": "https://clambakesanta.wordpress.com/2026/10/23/clam-bake-santa-2026-10-23/",
-          "views": 3,
-          "likes": 2,
-          "comments": 0,
-          "score": 2
-        }
-      },
-      "total_score": 2,
-      "last_checked": "2026-10-25T23:41:33.930404+00:00"
     }
   }
 }
