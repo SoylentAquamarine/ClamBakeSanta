@@ -199,7 +199,8 @@
     "2026-10-27",
     "2026-10-28",
     "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
   "runs": [
     {
@@ -2557,6 +2558,18 @@
         "Birthday John Adams"
       ],
       "content_preview": "Orange kernels glow Sweet dust drifts in summer air Candy dreams melt bright Happy #NationalCandyCornDay from @ClamBakeS"
+    },
+    {
+      "date": "2026-10-31",
+      "engine": "clambakesanta",
+      "timestamp": "2026-10-31T15:22:18.992387+00:00",
+      "themes": [
+        "Halloween",
+        "National Caramel Apple Day",
+        "Birthday John Keats",
+        "Birthday Jan Vermeer"
+      ],
+      "content_preview": "Pumpkin lights glow bright Crickets sing in dusk haze soft Moon whispers sweet treats Happy #Halloween from @ClamBakeSan"
     }
   ]
 }

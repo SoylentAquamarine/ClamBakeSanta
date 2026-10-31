@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "haikus": [
     {
-      "theme": "National Candy Corn Day",
-      "haiku": "Orange kernels glow\nSweet dust drifts in summer air\nCandy dreams melt bright\nHappy #NationalCandyCornDay from @ClamBakeSanta",
-      "tag": "NationalCandyCornDay",
+      "theme": "Halloween",
+      "haiku": "Pumpkin lights glow bright\nCrickets sing in dusk haze soft\nMoon whispers sweet treats\nHappy #Halloween from @ClamBakeSanta",
+      "tag": "Halloween",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Mischief Night",
-      "haiku": "Midnight bells ring bright\nShadows dance in soft glow near\nLaughter spills like snow\nHappy #MischiefNight from @ClamBakeSanta",
-      "tag": "MischiefNight",
+      "theme": "National Caramel Apple Day",
+      "haiku": "Apple gleams in sun\nCaramel drips, sweet breeze, soft\nTaste of joy, bright glow\nHappy #NationalCaramelAppleDay from @ClamBakeSanta",
+      "tag": "NationalCaramelAppleDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday John Adams",
-      "haiku": "Bright candles burn slow\nJohn laughs, joy fills soft bright air\nSunset paints gold light\n#HappyBirthdayJohnAdams from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnAdams",
+      "theme": "Birthday John Keats",
+      "haiku": "Bright sunrise soft greets\nGentle breeze carries laughter\nPoet smiles, heart sings\n#HappyBirthdayJohnKeats from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnKeats",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Jan Vermeer",
+      "haiku": "Morning light spills bright\nSoft breeze hums across room warm\nJoy blooms in each cup\n#HappyBirthdayJanVermeer from @ClamBakeSanta",
+      "tag": "HappyBirthdayJanVermeer",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Candy Corn Day",
-    "Mischief Night",
-    "Birthday John Adams"
+    "Halloween",
+    "National Caramel Apple Day",
+    "Birthday John Keats",
+    "Birthday Jan Vermeer"
   ],
-  "content": "Orange kernels glow\nSweet dust drifts in summer air\nCandy dreams melt bright\nHappy #NationalCandyCornDay from @ClamBakeSanta\n\nMidnight bells ring bright\nShadows dance in soft glow near\nLaughter spills like snow\nHappy #MischiefNight from @ClamBakeSanta\n\nBright candles burn slow\nJohn laughs, joy fills soft bright air\nSunset paints gold light\n#HappyBirthdayJohnAdams from @ClamBakeSanta",
-  "saved_at": "2026-10-30T15:41:21.565251+00:00"
+  "content": "Pumpkin lights glow bright\nCrickets sing in dusk haze soft\nMoon whispers sweet treats\nHappy #Halloween from @ClamBakeSanta\n\nApple gleams in sun\nCaramel drips, sweet breeze, soft\nTaste of joy, bright glow\nHappy #NationalCaramelAppleDay from @ClamBakeSanta\n\nBright sunrise soft greets\nGentle breeze carries laughter\nPoet smiles, heart sings\n#HappyBirthdayJohnKeats from @ClamBakeSanta\n\nMorning light spills bright\nSoft breeze hums across room warm\nJoy blooms in each cup\n#HappyBirthdayJanVermeer from @ClamBakeSanta",
+  "saved_at": "2026-10-31T15:10:02.561674+00:00"
 }
