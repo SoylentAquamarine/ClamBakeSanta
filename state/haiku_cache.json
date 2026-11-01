@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "haikus": [
     {
-      "theme": "Halloween",
-      "haiku": "Pumpkin lights glow bright\nCrickets sing in dusk haze soft\nMoon whispers sweet treats\nHappy #Halloween from @ClamBakeSanta",
-      "tag": "Halloween",
+      "theme": "National Cook for Your Pets Day",
+      "haiku": "Soft steam curls a‑round\nPaws wag as broth sings in warm\nTreats bloom in bowls soft\nHappy #NationalCookForYourPetsDay from @ClamBakeSanta",
+      "tag": "NationalCookForYourPetsDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Caramel Apple Day",
-      "haiku": "Apple gleams in sun\nCaramel drips, sweet breeze, soft\nTaste of joy, bright glow\nHappy #NationalCaramelAppleDay from @ClamBakeSanta",
-      "tag": "NationalCaramelAppleDay",
+      "theme": "World Vegan Day",
+      "haiku": "Fresh leaves rustle green\nSunlight drips on tofu soup\nTaste buds dance with joy\nHappy #WorldVeganDay from @ClamBakeSanta",
+      "tag": "WorldVeganDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday John Keats",
-      "haiku": "Bright sunrise soft greets\nGentle breeze carries laughter\nPoet smiles, heart sings\n#HappyBirthdayJohnKeats from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnKeats",
+      "theme": "Daylight Saving Time Ends",
+      "haiku": "Soft dusk drifts to night\nLeaves whisper cool breaths, clocks sigh\nNight sighs, sun still waits\nHappy #DaylightSaving",
+      "tag": "DaylightSavingTimeEnds",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Jan Vermeer",
-      "haiku": "Morning light spills bright\nSoft breeze hums across room warm\nJoy blooms in each cup\n#HappyBirthdayJanVermeer from @ClamBakeSanta",
-      "tag": "HappyBirthdayJanVermeer",
+      "theme": "Birthday Stephen Crane",
+      "haiku": "Soft snow falls on ink\nPages glow with quiet light\nCrane smiles in soft light\n#HappyBirthdayStephen",
+      "tag": "HappyBirthdayStephenCrane",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Aishwarya Rai",
+      "haiku": "Soft moonlit petals\nGentle breeze sings lullabies\nJoyful hearts glow bright\n#HappyBirthdayAishwaryaRai from @ClamBakeSanta",
+      "tag": "HappyBirthdayAishwaryaRai",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Last Quarter Moon",
+      "haiku": "Soft glow curls above\nCrickets hum, moonlight dances\nNight whispers warm light\nHappy #LastQuarterMoon from @ClamBakeSanta",
+      "tag": "LastQuarterMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +69,13 @@
     }
   ],
   "themes": [
-    "Halloween",
-    "National Caramel Apple Day",
-    "Birthday John Keats",
-    "Birthday Jan Vermeer"
+    "National Cook for Your Pets Day",
+    "World Vegan Day",
+    "Daylight Saving Time Ends",
+    "Birthday Stephen Crane",
+    "Birthday Aishwarya Rai",
+    "Last Quarter Moon"
   ],
-  "content": "Pumpkin lights glow bright\nCrickets sing in dusk haze soft\nMoon whispers sweet treats\nHappy #Halloween from @ClamBakeSanta\n\nApple gleams in sun\nCaramel drips, sweet breeze, soft\nTaste of joy, bright glow\nHappy #NationalCaramelAppleDay from @ClamBakeSanta\n\nBright sunrise soft greets\nGentle breeze carries laughter\nPoet smiles, heart sings\n#HappyBirthdayJohnKeats from @ClamBakeSanta\n\nMorning light spills bright\nSoft breeze hums across room warm\nJoy blooms in each cup\n#HappyBirthdayJanVermeer from @ClamBakeSanta",
-  "saved_at": "2026-10-31T15:10:02.561674+00:00"
+  "content": "Soft steam curls a‑round\nPaws wag as broth sings in warm\nTreats bloom in bowls soft\nHappy #NationalCookForYourPetsDay from @ClamBakeSanta\n\nFresh leaves rustle green\nSunlight drips on tofu soup\nTaste buds dance with joy\nHappy #WorldVeganDay from @ClamBakeSanta\n\nSoft dusk drifts to night\nLeaves whisper cool breaths, clocks sigh\nNight sighs, sun still waits\nHappy #DaylightSaving\n\nSoft snow falls on ink\nPages glow with quiet light\nCrane smiles in soft light\n#HappyBirthdayStephen\n\nSoft moonlit petals\nGentle breeze sings lullabies\nJoyful hearts glow bright\n#HappyBirthdayAishwaryaRai from @ClamBakeSanta\n\nSoft glow curls above\nCrickets hum, moonlight dances\nNight whispers warm light\nHappy #LastQuarterMoon from @ClamBakeSanta",
+  "saved_at": "2026-11-01T15:52:45.989062+00:00"
 }

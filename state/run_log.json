@@ -200,7 +200,8 @@
     "2026-10-28",
     "2026-10-29",
     "2026-10-30",
-    "2026-10-31"
+    "2026-10-31",
+    "2026-11-01"
   ],
   "runs": [
     {
@@ -2570,6 +2571,20 @@
         "Birthday Jan Vermeer"
       ],
       "content_preview": "Pumpkin lights glow bright Crickets sing in dusk haze soft Moon whispers sweet treats Happy #Halloween from @ClamBakeSan"
+    },
+    {
+      "date": "2026-11-01",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-01T16:13:04.067067+00:00",
+      "themes": [
+        "National Cook for Your Pets Day",
+        "World Vegan Day",
+        "Daylight Saving Time Ends",
+        "Birthday Stephen Crane",
+        "Birthday Aishwarya Rai",
+        "Last Quarter Moon"
+      ],
+      "content_preview": "Soft steam curls a‑round Paws wag as broth sings in warm Treats bloom in bowls soft Happy #NationalCookForYourPetsDay fr"
     }
   ]
 }
