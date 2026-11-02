@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-25",
-    "theme": "National Greasy Food Day",
-    "haiku": "Greasy sizzle swells\nOil glints, bacon drips, joy bright\nHeat hugs the pan warm\nHappy #NationalGreasyFoodDay from @ClamBakeSanta",
-    "tag": "NationalGreasyFoodDay",
-    "logged_at": "2026-10-25T13:36:39.137970+00:00"
-  },
-  {
-    "date": "2026-10-25",
-    "theme": "World Pasta Day",
-    "haiku": "Warm red sauce drips bright\nTwist of noodles twirls like sun\nTaste melts, soft joy sings\nHappy #WorldPastaDay from @ClamBakeSanta",
-    "tag": "WorldPastaDay",
-    "logged_at": "2026-10-25T13:36:39.137970+00:00"
-  },
-  {
-    "date": "2026-10-25",
-    "theme": "Birthday Pablo Picasso",
-    "haiku": "Canvas wakes to sun\nColors dance in morning light\nBrushes sigh, joy spills\n#HappyBirthdayPabloPicasso from @ClamBakeSanta",
-    "tag": "HappyBirthdayPabloPicasso",
-    "logged_at": "2026-10-25T13:36:39.137970+00:00"
-  },
-  {
-    "date": "2026-10-25",
-    "theme": "Birthday Johann Strauss II",
-    "haiku": "Vienna drums rise\nsilver notes float on air bright\njoyful hearts dance loud\n#HappyBirthdayJohannStraussII from @ClamBakeSanta",
-    "tag": "HappyBirthdayJohannStraussII",
-    "logged_at": "2026-10-25T13:36:39.137970+00:00"
-  },
-  {
     "date": "2026-10-26",
     "theme": "National Mincemeat Pie Day",
     "haiku": "Frosted crust sighs warm\nSoft spiced berries swirl inside\nGolden crumbs kiss heat\nHappy #NationalMincemeatPieDay from @ClamBakeSanta",
@@ -166,5 +138,47 @@
     "haiku": "Morning light spills bright\nSoft breeze hums across room warm\nJoy blooms in each cup\n#HappyBirthdayJanVermeer from @ClamBakeSanta",
     "tag": "HappyBirthdayJanVermeer",
     "logged_at": "2026-10-31T15:10:02.562044+00:00"
+  },
+  {
+    "date": "2026-11-01",
+    "theme": "National Cook for Your Pets Day",
+    "haiku": "Soft steam curls a‑round\nPaws wag as broth sings in warm\nTreats bloom in bowls soft\nHappy #NationalCookForYourPetsDay from @ClamBakeSanta",
+    "tag": "NationalCookForYourPetsDay",
+    "logged_at": "2026-11-01T15:52:45.989533+00:00"
+  },
+  {
+    "date": "2026-11-01",
+    "theme": "World Vegan Day",
+    "haiku": "Fresh leaves rustle green\nSunlight drips on tofu soup\nTaste buds dance with joy\nHappy #WorldVeganDay from @ClamBakeSanta",
+    "tag": "WorldVeganDay",
+    "logged_at": "2026-11-01T15:52:45.989533+00:00"
+  },
+  {
+    "date": "2026-11-01",
+    "theme": "Daylight Saving Time Ends",
+    "haiku": "Soft dusk drifts to night\nLeaves whisper cool breaths, clocks sigh\nNight sighs, sun still waits\nHappy #DaylightSaving",
+    "tag": "DaylightSavingTimeEnds",
+    "logged_at": "2026-11-01T15:52:45.989533+00:00"
+  },
+  {
+    "date": "2026-11-01",
+    "theme": "Birthday Stephen Crane",
+    "haiku": "Soft snow falls on ink\nPages glow with quiet light\nCrane smiles in soft light\n#HappyBirthdayStephen",
+    "tag": "HappyBirthdayStephenCrane",
+    "logged_at": "2026-11-01T15:52:45.989533+00:00"
+  },
+  {
+    "date": "2026-11-01",
+    "theme": "Birthday Aishwarya Rai",
+    "haiku": "Soft moonlit petals\nGentle breeze sings lullabies\nJoyful hearts glow bright\n#HappyBirthdayAishwaryaRai from @ClamBakeSanta",
+    "tag": "HappyBirthdayAishwaryaRai",
+    "logged_at": "2026-11-01T15:52:45.989533+00:00"
+  },
+  {
+    "date": "2026-11-01",
+    "theme": "Last Quarter Moon",
+    "haiku": "Soft glow curls above\nCrickets hum, moonlight dances\nNight whispers warm light\nHappy #LastQuarterMoon from @ClamBakeSanta",
+    "tag": "LastQuarterMoon",
+    "logged_at": "2026-11-01T15:52:45.989533+00:00"
   }
 ]

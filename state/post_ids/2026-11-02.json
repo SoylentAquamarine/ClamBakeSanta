@@ -1,0 +1,62 @@
+{
+  "NationalDeviledEggDay": {
+    "mastodon": {
+      "id": "117548449516290078",
+      "url": "https://mastodon.social/@ClamBakeSanta/117548449516290078"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mze23orjjx2z",
+      "cid": "bafyreiblmwanuliwjqascbf37yu6xu7lwhzjnujotcrqrqxxd3t6mf7gvq"
+    },
+    "tumblr": {
+      "id": "832199446343319552",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "654",
+      "channel": "@clambakesanta"
+    }
+  },
+  "LookForCirclesDay": {
+    "mastodon": {
+      "id": "117548453482921437",
+      "url": "https://mastodon.social/@ClamBakeSanta/117548453482921437"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mze25i7iu322",
+      "cid": "bafyreibfxvmwfz5cqup7asstfo6vq4z73ufxvd6d5uq3sm4fjahc4yo5i4"
+    },
+    "tumblr": {
+      "id": "832199509559967744",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "655",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayBurtLancaster": {
+    "mastodon": {
+      "id": "117548457459188470",
+      "url": "https://mastodon.social/@ClamBakeSanta/117548457459188470"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mze27bj4o42k",
+      "cid": "bafyreieyi5hknha6sz2qrypmsk2fvblholv4n6uqtulxwam5hfuwip7vgu"
+    },
+    "tumblr": {
+      "id": "832199572769095680",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "656",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "209",
+      "url": "https://clambakesanta.wordpress.com/2026/11/02/clam-bake-santa-2026-11-02/"
+    }
+  }
+}

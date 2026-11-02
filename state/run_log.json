@@ -201,7 +201,8 @@
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",
-    "2026-11-01"
+    "2026-11-01",
+    "2026-11-02"
   ],
   "runs": [
     {
@@ -2585,6 +2586,17 @@
         "Last Quarter Moon"
       ],
       "content_preview": "Soft steam curls a‑round Paws wag as broth sings in warm Treats bloom in bowls soft Happy #NationalCookForYourPetsDay fr"
+    },
+    {
+      "date": "2026-11-02",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-02T19:24:46.980802+00:00",
+      "themes": [
+        "National Deviled Egg Day",
+        "Look for Circles Day",
+        "Birthday Burt Lancaster"
+      ],
+      "content_preview": "Egg yolk glows soft bright Creamy spice twirls on plate near Guests cheer with egg grin Happy #NationalDeviledEggDay fro"
     }
   ]
 }

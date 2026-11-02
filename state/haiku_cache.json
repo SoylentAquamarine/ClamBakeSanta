@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "haikus": [
     {
-      "theme": "National Cook for Your Pets Day",
-      "haiku": "Soft steam curls a‑round\nPaws wag as broth sings in warm\nTreats bloom in bowls soft\nHappy #NationalCookForYourPetsDay from @ClamBakeSanta",
-      "tag": "NationalCookForYourPetsDay",
+      "theme": "National Deviled Egg Day",
+      "haiku": "Egg yolk glows soft bright\nCreamy spice twirls on plate near\nGuests cheer with egg grin\nHappy #NationalDeviledEggDay from @ClamBakeSanta",
+      "tag": "NationalDeviledEggDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Vegan Day",
-      "haiku": "Fresh leaves rustle green\nSunlight drips on tofu soup\nTaste buds dance with joy\nHappy #WorldVeganDay from @ClamBakeSanta",
-      "tag": "WorldVeganDay",
+      "theme": "Look for Circles Day",
+      "haiku": "Soft snow circles glow\nChildren trace bright shapes in air\nWarm smiles round the hill\nHappy #LookForCirclesDay from @ClamBakeSanta",
+      "tag": "LookForCirclesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,42 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Daylight Saving Time Ends",
-      "haiku": "Soft dusk drifts to night\nLeaves whisper cool breaths, clocks sigh\nNight sighs, sun still waits\nHappy #DaylightSaving",
-      "tag": "DaylightSavingTimeEnds",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Stephen Crane",
-      "haiku": "Soft snow falls on ink\nPages glow with quiet light\nCrane smiles in soft light\n#HappyBirthdayStephen",
-      "tag": "HappyBirthdayStephenCrane",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Aishwarya Rai",
-      "haiku": "Soft moonlit petals\nGentle breeze sings lullabies\nJoyful hearts glow bright\n#HappyBirthdayAishwaryaRai from @ClamBakeSanta",
-      "tag": "HappyBirthdayAishwaryaRai",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Last Quarter Moon",
-      "haiku": "Soft glow curls above\nCrickets hum, moonlight dances\nNight whispers warm light\nHappy #LastQuarterMoon from @ClamBakeSanta",
-      "tag": "LastQuarterMoon",
+      "theme": "Birthday Burt Lancaster",
+      "haiku": "Soft cake sighs, sweet glow\nLaughter rings through bright soft halls\nBirthday candles dance\n#HappyBirthdayBurtLancaster from @ClamBakeSanta",
+      "tag": "HappyBirthdayBurtLancaster",
       "syllable_counts": [
         5,
         7,
@@ -69,13 +36,10 @@
     }
   ],
   "themes": [
-    "National Cook for Your Pets Day",
-    "World Vegan Day",
-    "Daylight Saving Time Ends",
-    "Birthday Stephen Crane",
-    "Birthday Aishwarya Rai",
-    "Last Quarter Moon"
+    "National Deviled Egg Day",
+    "Look for Circles Day",
+    "Birthday Burt Lancaster"
   ],
-  "content": "Soft steam curls a‑round\nPaws wag as broth sings in warm\nTreats bloom in bowls soft\nHappy #NationalCookForYourPetsDay from @ClamBakeSanta\n\nFresh leaves rustle green\nSunlight drips on tofu soup\nTaste buds dance with joy\nHappy #WorldVeganDay from @ClamBakeSanta\n\nSoft dusk drifts to night\nLeaves whisper cool breaths, clocks sigh\nNight sighs, sun still waits\nHappy #DaylightSaving\n\nSoft snow falls on ink\nPages glow with quiet light\nCrane smiles in soft light\n#HappyBirthdayStephen\n\nSoft moonlit petals\nGentle breeze sings lullabies\nJoyful hearts glow bright\n#HappyBirthdayAishwaryaRai from @ClamBakeSanta\n\nSoft glow curls above\nCrickets hum, moonlight dances\nNight whispers warm light\nHappy #LastQuarterMoon from @ClamBakeSanta",
-  "saved_at": "2026-11-01T15:52:45.989062+00:00"
+  "content": "Egg yolk glows soft bright\nCreamy spice twirls on plate near\nGuests cheer with egg grin\nHappy #NationalDeviledEggDay from @ClamBakeSanta\n\nSoft snow circles glow\nChildren trace bright shapes in air\nWarm smiles round the hill\nHappy #LookForCirclesDay from @ClamBakeSanta\n\nSoft cake sighs, sweet glow\nLaughter rings through bright soft halls\nBirthday candles dance\n#HappyBirthdayBurtLancaster from @ClamBakeSanta",
+  "saved_at": "2026-11-02T19:16:35.289506+00:00"
 }
