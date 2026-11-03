@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-26",
-    "theme": "National Mincemeat Pie Day",
-    "haiku": "Frosted crust sighs warm\nSoft spiced berries swirl inside\nGolden crumbs kiss heat\nHappy #NationalMincemeatPieDay from @ClamBakeSanta",
-    "tag": "NationalMincemeatPieDay",
-    "logged_at": "2026-10-26T15:56:55.239866+00:00"
-  },
-  {
-    "date": "2026-10-26",
-    "theme": "National Pumpkin Day",
-    "haiku": "Orange glow at dusk\nCrisp air carries sweet spice soft\nLeaves whisper pumpkin\nHappy #NationalPumpkinDay from @ClamBakeSanta",
-    "tag": "NationalPumpkinDay",
-    "logged_at": "2026-10-26T15:56:55.239866+00:00"
-  },
-  {
-    "date": "2026-10-26",
-    "theme": "Birthday Mahalia Jackson",
-    "haiku": "Golden candles glow\nJoyful voices rise like dawn\nSongs lift hearts aloft\n#HappyBirthdayMahaliaJackson from @ClamBakeSanta",
-    "tag": "HappyBirthdayMahaliaJackson",
-    "logged_at": "2026-10-26T15:56:55.239866+00:00"
-  },
-  {
-    "date": "2026-10-26",
-    "theme": "Full Moon",
-    "haiku": "Silver glow rises\nCrickets hum, stars twirl in night\nMoon bathes soft warm earth\nHappy #FullMoon from @ClamBakeSanta",
-    "tag": "FullMoon",
-    "logged_at": "2026-10-26T15:56:55.239866+00:00"
-  },
-  {
     "date": "2026-10-27",
     "theme": "National American Beer Day",
     "haiku": "Golden foam climbs soft\nSunlit taps hum, laughter rings\nBubbles dance, bright joy\nHappy #NationalAmericanBeerDay from @ClamBakeSanta",
@@ -180,5 +152,26 @@
     "haiku": "Soft glow curls above\nCrickets hum, moonlight dances\nNight whispers warm light\nHappy #LastQuarterMoon from @ClamBakeSanta",
     "tag": "LastQuarterMoon",
     "logged_at": "2026-11-01T15:52:45.989533+00:00"
+  },
+  {
+    "date": "2026-11-02",
+    "theme": "National Deviled Egg Day",
+    "haiku": "Egg yolk glows soft bright\nCreamy spice twirls on plate near\nGuests cheer with egg grin\nHappy #NationalDeviledEggDay from @ClamBakeSanta",
+    "tag": "NationalDeviledEggDay",
+    "logged_at": "2026-11-02T19:16:35.289813+00:00"
+  },
+  {
+    "date": "2026-11-02",
+    "theme": "Look for Circles Day",
+    "haiku": "Soft snow circles glow\nChildren trace bright shapes in air\nWarm smiles round the hill\nHappy #LookForCirclesDay from @ClamBakeSanta",
+    "tag": "LookForCirclesDay",
+    "logged_at": "2026-11-02T19:16:35.289813+00:00"
+  },
+  {
+    "date": "2026-11-02",
+    "theme": "Birthday Burt Lancaster",
+    "haiku": "Soft cake sighs, sweet glow\nLaughter rings through bright soft halls\nBirthday candles dance\n#HappyBirthdayBurtLancaster from @ClamBakeSanta",
+    "tag": "HappyBirthdayBurtLancaster",
+    "logged_at": "2026-11-02T19:16:35.289813+00:00"
   }
 ]

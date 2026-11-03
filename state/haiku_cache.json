@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "haikus": [
     {
-      "theme": "National Deviled Egg Day",
-      "haiku": "Egg yolk glows soft bright\nCreamy spice twirls on plate near\nGuests cheer with egg grin\nHappy #NationalDeviledEggDay from @ClamBakeSanta",
-      "tag": "NationalDeviledEggDay",
+      "theme": "National Sandwich Day",
+      "haiku": "Bready toast sighs warm\nCheese melts, jam swirls bright on sides\nCrumbs dance, smiles gleam bright\nHappy #NationalSandwichDay from @ClamBakeSanta",
+      "tag": "NationalSandwichDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Look for Circles Day",
-      "haiku": "Soft snow circles glow\nChildren trace bright shapes in air\nWarm smiles round the hill\nHappy #LookForCirclesDay from @ClamBakeSanta",
-      "tag": "LookForCirclesDay",
+      "theme": "National Housewife's Day",
+      "haiku": "Soft steam rises warm\nApron colors brighten home\nSpoons clink, laughter sings\nHappy #NationalHousewifeSDay from @ClamBakeSanta",
+      "tag": "NationalHousewifeSDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Burt Lancaster",
-      "haiku": "Soft cake sighs, sweet glow\nLaughter rings through bright soft halls\nBirthday candles dance\n#HappyBirthdayBurtLancaster from @ClamBakeSanta",
-      "tag": "HappyBirthdayBurtLancaster",
+      "theme": "Birthday Bronislaw Malinowski",
+      "haiku": "Soft snowflakes whisper\nCandles glow in winter glow\nJoy drifts like cocoa\n#HappyBirthdayBronislawMalinowski from @ClamBakeSanta",
+      "tag": "HappyBirthdayBronislawMalinowski",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Deviled Egg Day",
-    "Look for Circles Day",
-    "Birthday Burt Lancaster"
+    "National Sandwich Day",
+    "National Housewife's Day",
+    "Birthday Bronislaw Malinowski"
   ],
-  "content": "Egg yolk glows soft bright\nCreamy spice twirls on plate near\nGuests cheer with egg grin\nHappy #NationalDeviledEggDay from @ClamBakeSanta\n\nSoft snow circles glow\nChildren trace bright shapes in air\nWarm smiles round the hill\nHappy #LookForCirclesDay from @ClamBakeSanta\n\nSoft cake sighs, sweet glow\nLaughter rings through bright soft halls\nBirthday candles dance\n#HappyBirthdayBurtLancaster from @ClamBakeSanta",
-  "saved_at": "2026-11-02T19:16:35.289506+00:00"
+  "content": "Bready toast sighs warm\nCheese melts, jam swirls bright on sides\nCrumbs dance, smiles gleam bright\nHappy #NationalSandwichDay from @ClamBakeSanta\n\nSoft steam rises warm\nApron colors brighten home\nSpoons clink, laughter sings\nHappy #NationalHousewifeSDay from @ClamBakeSanta\n\nSoft snowflakes whisper\nCandles glow in winter glow\nJoy drifts like cocoa\n#HappyBirthdayBronislawMalinowski from @ClamBakeSanta",
+  "saved_at": "2026-11-03T16:52:56.483597+00:00"
 }
