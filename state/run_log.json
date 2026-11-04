@@ -203,7 +203,8 @@
     "2026-10-31",
     "2026-11-01",
     "2026-11-02",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-04"
   ],
   "runs": [
     {
@@ -2609,6 +2610,17 @@
         "Birthday Bronislaw Malinowski"
       ],
       "content_preview": "Bready toast sighs warm Cheese melts, jam swirls bright on sides Crumbs dance, smiles gleam bright Happy #NationalSandwi"
+    },
+    {
+      "date": "2026-11-04",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-04T17:04:42.708117+00:00",
+      "themes": [
+        "National Candy Day",
+        "King Tut Day",
+        "Birthday Will Rogers"
+      ],
+      "content_preview": "Sugary clouds swirl Bright ribbons taste like soft rain Lemon sparkles laugh Happy #NationalCandyDay from @ClamBakeSanta"
     }
   ]
 }

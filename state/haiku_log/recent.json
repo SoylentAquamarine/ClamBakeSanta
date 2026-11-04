@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-27",
-    "theme": "National American Beer Day",
-    "haiku": "Golden foam climbs soft\nSunlit taps hum, laughter rings\nBubbles dance, bright joy\nHappy #NationalAmericanBeerDay from @ClamBakeSanta",
-    "tag": "NationalAmericanBeerDay",
-    "logged_at": "2026-10-27T15:11:58.334364+00:00"
-  },
-  {
-    "date": "2026-10-27",
-    "theme": "National Black Cat Day",
-    "haiku": "Midnight whiskers gleam\nSoft paws pat the cool stone floor\nNight air hums with joy\nHappy #NationalBlackCatDay from @ClamBakeSanta",
-    "tag": "NationalBlackCatDay",
-    "logged_at": "2026-10-27T15:11:58.334364+00:00"
-  },
-  {
-    "date": "2026-10-27",
-    "theme": "Birthday Theodore Roosevelt",
-    "haiku": "Morning light calls us\nBold oak stands, roots deep, wind sings\nBirthday cheers rise high\n#HappyBirthdayTheodoreRoosevelt from @ClamBakeSanta",
-    "tag": "HappyBirthdayTheodoreRoosevelt",
-    "logged_at": "2026-10-27T15:11:58.334364+00:00"
-  },
-  {
     "date": "2026-10-28",
     "theme": "National Chocolate Day",
     "haiku": "Melting cocoa drips\nSilky scent wraps soft warm hands\nDark rivers taste glow\nHappy #NationalChocolateDay from",
@@ -173,5 +152,26 @@
     "haiku": "Soft cake sighs, sweet glow\nLaughter rings through bright soft halls\nBirthday candles dance\n#HappyBirthdayBurtLancaster from @ClamBakeSanta",
     "tag": "HappyBirthdayBurtLancaster",
     "logged_at": "2026-11-02T19:16:35.289813+00:00"
+  },
+  {
+    "date": "2026-11-03",
+    "theme": "National Sandwich Day",
+    "haiku": "Bready toast sighs warm\nCheese melts, jam swirls bright on sides\nCrumbs dance, smiles gleam bright\nHappy #NationalSandwichDay from @ClamBakeSanta",
+    "tag": "NationalSandwichDay",
+    "logged_at": "2026-11-03T16:52:56.483913+00:00"
+  },
+  {
+    "date": "2026-11-03",
+    "theme": "National Housewife's Day",
+    "haiku": "Soft steam rises warm\nApron colors brighten home\nSpoons clink, laughter sings\nHappy #NationalHousewifeSDay from @ClamBakeSanta",
+    "tag": "NationalHousewifeSDay",
+    "logged_at": "2026-11-03T16:52:56.483913+00:00"
+  },
+  {
+    "date": "2026-11-03",
+    "theme": "Birthday Bronislaw Malinowski",
+    "haiku": "Soft snowflakes whisper\nCandles glow in winter glow\nJoy drifts like cocoa\n#HappyBirthdayBronislawMalinowski from @ClamBakeSanta",
+    "tag": "HappyBirthdayBronislawMalinowski",
+    "logged_at": "2026-11-03T16:52:56.483913+00:00"
   }
 ]
