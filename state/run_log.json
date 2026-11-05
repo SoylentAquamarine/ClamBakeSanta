@@ -204,7 +204,8 @@
     "2026-11-01",
     "2026-11-02",
     "2026-11-03",
-    "2026-11-04"
+    "2026-11-04",
+    "2026-11-05"
   ],
   "runs": [
     {
@@ -2621,6 +2622,18 @@
         "Birthday Will Rogers"
       ],
       "content_preview": "Sugary clouds swirl Bright ribbons taste like soft rain Lemon sparkles laugh Happy #NationalCandyDay from @ClamBakeSanta"
+    },
+    {
+      "date": "2026-11-05",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-05T17:23:40.553304+00:00",
+      "themes": [
+        "National Doughnut Day",
+        "National Love Your Red Hair Day",
+        "Birthday Vivien Leigh",
+        "Birthday Roy Rogers"
+      ],
+      "content_preview": "Sweet glaze sparkles bright Bubbles rise in warm sugar Joy swirls in each bite Happy #NationalDoughnutDay from @ClamBake"
     }
   ]
 }

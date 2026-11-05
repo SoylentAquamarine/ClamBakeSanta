@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-28",
-    "theme": "National Chocolate Day",
-    "haiku": "Melting cocoa drips\nSilky scent wraps soft warm hands\nDark rivers taste glow\nHappy #NationalChocolateDay from",
-    "tag": "NationalChocolateDay",
-    "logged_at": "2026-10-28T15:47:48.440119+00:00"
-  },
-  {
-    "date": "2026-10-28",
-    "theme": "Make a Difference Day",
-    "haiku": "Sunrise paints bright gold\nKids hand in hand plant bright seeds\nHope grows in warm heart\nHappy #MakeADifferenceDay from @ClamBakeSanta",
-    "tag": "MakeADifferenceDay",
-    "logged_at": "2026-10-28T15:47:48.440119+00:00"
-  },
-  {
-    "date": "2026-10-28",
-    "theme": "Birthday Erasmus of Rotterdam",
-    "haiku": "Rotterdam lights glow\nErasmus laughs by canal\nJoyful waves applaud\n#HappyBirthdayErasmusofRotterdam from @ClamBakeSanta",
-    "tag": "HappyBirthdayErasmusofRotterdam",
-    "logged_at": "2026-10-28T15:47:48.440119+00:00"
-  },
-  {
     "date": "2026-10-29",
     "theme": "National Cat Day",
     "haiku": "Gentle paws tap light\nPurring hums fill quiet rooms\nSunlit fur glows warm\nHappy #NationalCatDay from @ClamBakeSanta",
@@ -173,5 +152,26 @@
     "haiku": "Soft snowflakes whisper\nCandles glow in winter glow\nJoy drifts like cocoa\n#HappyBirthdayBronislawMalinowski from @ClamBakeSanta",
     "tag": "HappyBirthdayBronislawMalinowski",
     "logged_at": "2026-11-03T16:52:56.483913+00:00"
+  },
+  {
+    "date": "2026-11-04",
+    "theme": "National Candy Day",
+    "haiku": "Sugary clouds swirl\nBright ribbons taste like soft rain\nLemon sparkles laugh\nHappy #NationalCandyDay from @ClamBakeSanta",
+    "tag": "NationalCandyDay",
+    "logged_at": "2026-11-04T16:56:19.452511+00:00"
+  },
+  {
+    "date": "2026-11-04",
+    "theme": "King Tut Day",
+    "haiku": "Golden scarab gleams\nSunlit sands whisper gold bright\nMoses' shadow laughs\nHappy #KingTutDay from @ClamBakeSanta",
+    "tag": "KingTutDay",
+    "logged_at": "2026-11-04T16:56:19.452511+00:00"
+  },
+  {
+    "date": "2026-11-04",
+    "theme": "Birthday Will Rogers",
+    "haiku": "Breezes sing at noon\nLaughter spills like honeydew\nStars wink in soft dusk\n#HappyBirthdayWillRogers from @ClamBakeSanta",
+    "tag": "HappyBirthdayWillRogers",
+    "logged_at": "2026-11-04T16:56:19.452511+00:00"
   }
 ]
