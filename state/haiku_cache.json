@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "haikus": [
     {
-      "theme": "National Doughnut Day",
-      "haiku": "Sweet glaze sparkles bright\nBubbles rise in warm sugar\nJoy swirls in each bite\nHappy #NationalDoughnutDay from @ClamBakeSanta",
-      "tag": "NationalDoughnutDay",
+      "theme": "National Nachos Day",
+      "haiku": "Cheese drips, warm gold, soft\nCrunch of chips, salt wind sings bright\nToppings dance, smiles rise\nHappy #NationalNachosDay from @ClamBakeSanta",
+      "tag": "NationalNachosDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Love Your Red Hair Day",
-      "haiku": "Red hair glows like flame\nSunlit strands dance in bright breeze\nWarmth wraps each bright curl\nHappy #NationalLoveYourRedHairDay from @ClamBakeSanta",
-      "tag": "NationalLoveYourRedHairDay",
+      "theme": "Saxophone Day",
+      "haiku": "Bright brass glints warmly\nNotes rise like summer flame soft\nEchoes linger warm\nHappy #S",
+      "tag": "SaxophoneDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Vivien Leigh",
-      "haiku": "Sunrise paints her hair\nGold light whispers soft her name\nJoy blooms in her smile\n#HappyBirthdayVivienLeigh from @",
-      "tag": "HappyBirthdayVivienLeigh",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Roy Rogers",
-      "haiku": "Sunny day wraps cake\nBubbles rise, bright crumbs fall soft\nJoy sings in each bite\n#HappyBirthdayRoy",
-      "tag": "HappyBirthdayRoyRogers",
+      "theme": "Birthday John Philip Sousa",
+      "haiku": "Bright brass notes rise soft\nEchoing laughter fills hall\nCandles glow summer\n#HappyBirthdayJohnPhilipSousa from @ClamBakeSanta",
+      "tag": "HappyBirthdayJohnPhilipSousa",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Doughnut Day",
-    "National Love Your Red Hair Day",
-    "Birthday Vivien Leigh",
-    "Birthday Roy Rogers"
+    "National Nachos Day",
+    "Saxophone Day",
+    "Birthday John Philip Sousa"
   ],
-  "content": "Sweet glaze sparkles bright\nBubbles rise in warm sugar\nJoy swirls in each bite\nHappy #NationalDoughnutDay from @ClamBakeSanta\n\nRed hair glows like flame\nSunlit strands dance in bright breeze\nWarmth wraps each bright curl\nHappy #NationalLoveYourRedHairDay from @ClamBakeSanta\n\nSunrise paints her hair\nGold light whispers soft her name\nJoy blooms in her smile\n#HappyBirthdayVivienLeigh from @\n\nSunny day wraps cake\nBubbles rise, bright crumbs fall soft\nJoy sings in each bite\n#HappyBirthdayRoy",
-  "saved_at": "2026-11-05T17:11:23.056042+00:00"
+  "content": "Cheese drips, warm gold, soft\nCrunch of chips, salt wind sings bright\nToppings dance, smiles rise\nHappy #NationalNachosDay from @ClamBakeSanta\n\nBright brass glints warmly\nNotes rise like summer flame soft\nEchoes linger warm\nHappy #S\n\nBright brass notes rise soft\nEchoing laughter fills hall\nCandles glow summer\n#HappyBirthdayJohnPhilipSousa from @ClamBakeSanta",
+  "saved_at": "2026-11-06T16:38:25.407982+00:00"
 }

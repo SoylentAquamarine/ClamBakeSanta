@@ -205,7 +205,8 @@
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "runs": [
     {
@@ -2634,6 +2635,17 @@
         "Birthday Roy Rogers"
       ],
       "content_preview": "Sweet glaze sparkles bright Bubbles rise in warm sugar Joy swirls in each bite Happy #NationalDoughnutDay from @ClamBake"
+    },
+    {
+      "date": "2026-11-06",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-06T16:46:33.476256+00:00",
+      "themes": [
+        "National Nachos Day",
+        "Saxophone Day",
+        "Birthday John Philip Sousa"
+      ],
+      "content_preview": "Cheese drips, warm gold, soft Crunch of chips, salt wind sings bright Toppings dance, smiles rise Happy #NationalNachosD"
     }
   ]
 }

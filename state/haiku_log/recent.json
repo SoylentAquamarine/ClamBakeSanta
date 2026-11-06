@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-10-29",
-    "theme": "National Cat Day",
-    "haiku": "Gentle paws tap light\nPurring hums fill quiet rooms\nSunlit fur glows warm\nHappy #NationalCatDay from @ClamBakeSanta",
-    "tag": "NationalCatDay",
-    "logged_at": "2026-10-29T15:55:55.698974+00:00"
-  },
-  {
-    "date": "2026-10-29",
-    "theme": "National Oatmeal Day",
-    "haiku": "Morning sun pours oat\nSteam curls, sweet cinnamon drifts\nCreamy bowl glows warm\nHappy #NationalOatmealDay from @ClamBakeSanta",
-    "tag": "NationalOatmealDay",
-    "logged_at": "2026-10-29T15:55:55.698974+00:00"
-  },
-  {
-    "date": "2026-10-29",
-    "theme": "Birthday James Boswell",
-    "haiku": "Gentle candle glow\nPages turn with soft light near\nJoy rings in each word\n#HappyBirthdayJamesBoswell from @ClamBakeSanta",
-    "tag": "HappyBirthdayJamesBoswell",
-    "logged_at": "2026-10-29T15:55:55.698974+00:00"
-  },
-  {
     "date": "2026-10-30",
     "theme": "National Candy Corn Day",
     "haiku": "Orange kernels glow\nSweet dust drifts in summer air\nCandy dreams melt bright\nHappy #NationalCandyCornDay from @ClamBakeSanta",
@@ -173,5 +152,33 @@
     "haiku": "Breezes sing at noon\nLaughter spills like honeydew\nStars wink in soft dusk\n#HappyBirthdayWillRogers from @ClamBakeSanta",
     "tag": "HappyBirthdayWillRogers",
     "logged_at": "2026-11-04T16:56:19.452511+00:00"
+  },
+  {
+    "date": "2026-11-05",
+    "theme": "National Doughnut Day",
+    "haiku": "Sweet glaze sparkles bright\nBubbles rise in warm sugar\nJoy swirls in each bite\nHappy #NationalDoughnutDay from @ClamBakeSanta",
+    "tag": "NationalDoughnutDay",
+    "logged_at": "2026-11-05T17:11:23.056392+00:00"
+  },
+  {
+    "date": "2026-11-05",
+    "theme": "National Love Your Red Hair Day",
+    "haiku": "Red hair glows like flame\nSunlit strands dance in bright breeze\nWarmth wraps each bright curl\nHappy #NationalLoveYourRedHairDay from @ClamBakeSanta",
+    "tag": "NationalLoveYourRedHairDay",
+    "logged_at": "2026-11-05T17:11:23.056392+00:00"
+  },
+  {
+    "date": "2026-11-05",
+    "theme": "Birthday Vivien Leigh",
+    "haiku": "Sunrise paints her hair\nGold light whispers soft her name\nJoy blooms in her smile\n#HappyBirthdayVivienLeigh from @",
+    "tag": "HappyBirthdayVivienLeigh",
+    "logged_at": "2026-11-05T17:11:23.056392+00:00"
+  },
+  {
+    "date": "2026-11-05",
+    "theme": "Birthday Roy Rogers",
+    "haiku": "Sunny day wraps cake\nBubbles rise, bright crumbs fall soft\nJoy sings in each bite\n#HappyBirthdayRoy",
+    "tag": "HappyBirthdayRoyRogers",
+    "logged_at": "2026-11-05T17:11:23.056392+00:00"
   }
 ]
