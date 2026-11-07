@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "haikus": [
     {
-      "theme": "National Nachos Day",
-      "haiku": "Cheese drips, warm gold, soft\nCrunch of chips, salt wind sings bright\nToppings dance, smiles rise\nHappy #NationalNachosDay from @ClamBakeSanta",
-      "tag": "NationalNachosDay",
+      "theme": "National Bittersweet Chocolate with Almonds Day",
+      "haiku": "Sweet chocolate almonds,\nA treat to savor and share,\nTasty bliss, we cheer!\nHappy #NationalBittersweetChocolateWithAlmondsDay from @ClamBakeSanta",
+      "tag": "NationalBittersweetChocolateWithAlmondsDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Saxophone Day",
-      "haiku": "Bright brass glints warmly\nNotes rise like summer flame soft\nEchoes linger warm\nHappy #S",
-      "tag": "SaxophoneDay",
+      "theme": "Notary Public Day",
+      "haiku": "Ink glides on paper\nSeal soft, stamp echoes gently\nSunlight warms the desk\nHappy #NotaryPublicDay from @ClamBakeSanta",
+      "tag": "NotaryPublicDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday John Philip Sousa",
-      "haiku": "Bright brass notes rise soft\nEchoing laughter fills hall\nCandles glow summer\n#HappyBirthdayJohnPhilipSousa from @ClamBakeSanta",
-      "tag": "HappyBirthdayJohnPhilipSousa",
+      "theme": "Birthday Marie Curie",
+      "haiku": "Bright amber candle\nSoft sparks dance on glassy night\nHeat of science glow\n#HappyBirthdayMarieCurie from @ClamBakeSanta",
+      "tag": "HappyBirthdayMarieCurie",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Albert Camus",
+      "haiku": "Starlit path whispers\nCandle flames dance slow soft bright\nJoy blooms like sunrise\n#HappyBirthdayAlbertCamus from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlbertCamus",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Nachos Day",
-    "Saxophone Day",
-    "Birthday John Philip Sousa"
+    "National Bittersweet Chocolate with Almonds Day",
+    "Notary Public Day",
+    "Birthday Marie Curie",
+    "Birthday Albert Camus"
   ],
-  "content": "Cheese drips, warm gold, soft\nCrunch of chips, salt wind sings bright\nToppings dance, smiles rise\nHappy #NationalNachosDay from @ClamBakeSanta\n\nBright brass glints warmly\nNotes rise like summer flame soft\nEchoes linger warm\nHappy #S\n\nBright brass notes rise soft\nEchoing laughter fills hall\nCandles glow summer\n#HappyBirthdayJohnPhilipSousa from @ClamBakeSanta",
-  "saved_at": "2026-11-06T16:38:25.407982+00:00"
+  "content": "Sweet chocolate almonds,\nA treat to savor and share,\nTasty bliss, we cheer!\nHappy #NationalBittersweetChocolateWithAlmondsDay from @ClamBakeSanta\n\nInk glides on paper\nSeal soft, stamp echoes gently\nSunlight warms the desk\nHappy #NotaryPublicDay from @ClamBakeSanta\n\nBright amber candle\nSoft sparks dance on glassy night\nHeat of science glow\n#HappyBirthdayMarieCurie from @ClamBakeSanta\n\nStarlit path whispers\nCandle flames dance slow soft bright\nJoy blooms like sunrise\n#HappyBirthdayAlbertCamus from @ClamBakeSanta",
+  "saved_at": "2026-11-07T15:31:50.747336+00:00"
 }
