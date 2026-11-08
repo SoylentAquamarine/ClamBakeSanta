@@ -1,0 +1,130 @@
+{
+  "NationalBittersweetChocolateWithAlmondsDay": {
+    "theme": "National Bittersweet Chocolate with Almonds Day",
+    "haiku": "Sweet chocolate almonds,\nA treat to savor and share,\nTasty bliss, we cheer!\nHappy #NationalBittersweetChocolateWithAlmondsDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117575877335980476",
+        "url": "https://mastodon.social/@ClamBakeSanta/117575877335980476",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mzq7w7tlj52d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "832638418535186432",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-08T00:58:31.987023+00:00"
+  },
+  "NotaryPublicDay": {
+    "theme": "Notary Public Day",
+    "haiku": "Ink glides on paper\nSeal soft, stamp echoes gently\nSunlight warms the desk\nHappy #NotaryPublicDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117575881311954958",
+        "url": "https://mastodon.social/@ClamBakeSanta/117575881311954958",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mzq7xza33c2y",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "832638481814667264",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-08T00:58:31.987023+00:00"
+  },
+  "HappyBirthdayMarieCurie": {
+    "theme": "Birthday Marie Curie",
+    "haiku": "Bright amber candle\nSoft sparks dance on glassy night\nHeat of science glow\n#HappyBirthdayMarieCurie from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117575885269679339",
+        "url": "https://mastodon.social/@ClamBakeSanta/117575885269679339",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mzq7zsocb42t",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "832638545096228864",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-08T00:58:31.987023+00:00"
+  },
+  "HappyBirthdayAlbertCamus": {
+    "theme": "Birthday Albert Camus",
+    "haiku": "Starlit path whispers\nCandle flames dance slow soft bright\nJoy blooms like sunrise\n#HappyBirthdayAlbertCamus from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117575889226684503",
+        "url": "https://mastodon.social/@ClamBakeSanta/117575889226684503",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mzqa3makl724",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "832638608345300992",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-08T00:58:31.987023+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "214",
+        "url": "https://clambakesanta.wordpress.com/2026/11/07/clam-bake-santa-2026-11-07/",
+        "views": 3,
+        "likes": 3,
+        "comments": 0,
+        "score": 3
+      }
+    },
+    "total_score": 3,
+    "last_checked": "2026-11-08T00:58:31.987023+00:00"
+  }
+}
