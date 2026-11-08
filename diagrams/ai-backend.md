@@ -59,17 +59,17 @@ Code: `_generate()` in `plugins/engines/clambakesanta.py` runs the cascade;
 Ordered by confidence, in `config.yml` under `ai.fallback` (primary is set by
 `ai.model` + `CBS_AI_KEY`/`CBS_AI_BASE_URL` env vars, not the fallback list).
 
-| # | Provider | Status (as of 2026-11-01) | Model | Notes |
+| # | Provider | Status (as of 2026-11-08) | Model | Notes |
 |---|---|---|---|---|
-| 1 | **Groq** (primary) | ✅ Working | `openai/gpt-oss-20b` | Unchanged — isolation test (forced via `GROQ_API_KEY`) resolved 5/6 themes directly on primary (empty-content/`finish_reason=length` hiccups and syllable mismatches, all auto-retried fine); the 6th theme exhausted primary (more empty-content hiccups + mismatches) and fell through the chain to Fireworks. Same pattern as every previous round |
-| 2 | **Mistral** | ❌ Still failing | `mistral-small-latest` | Unchanged since 2026-09-27 — every attempt across all three test runs this round (whole-chain + 2 isolation runs) still gets an immediate `429 rate_limited`. Still looks like account-level quota exhaustion. Not fixable via config — check the Mistral console for remaining quota/plan status |
-| 3 | **Cohere** | ⚠️ Still degraded | `command-r7b-12-2024` | Unchanged since 2026-09-27 — API itself is healthy (HTTP 200 on every call), but syllable validation still fails almost every attempt this round ("got unknown" or an off syllable count), exhausting all 5 attempts nearly every time reached (one lone success this round, attempt 4/5). Model-quality regression persists, not a config bug |
-| 4 | **Cerebras** | ❌ Still blocked | `gpt-oss-120b` | Unchanged since 2026-08-17 — every call across all three test runs this round still returns `402 payment_required`. Still no payment method on file. Not fixable via config |
-| 5 | **OpenRouter** | ⚠️ Still unreliable | `google/gemma-4-31b-it:free` | Unchanged — `:free` model still routes through a congested shared pool, 429'd on every single attempt across all three test runs this round. Not fixable by retrying |
-| 6 | **Pollinations** | ⚠️ Newly degraded | `openai` | **Status change from last round's "🟢 Still working"**: no longer succeeds every time it's reached. This round, only `World Vegan Day` and `Daylight Saving Time Ends` succeeded (attempt 1/5, every time); every other theme hit a **syllable mismatch that repeated identically across all 5 retry attempts, and again across separate test runs for the same theme** (`Last Quarter Moon` always `7-8-6`, `Birthday Aishwarya Rai` always `6-7-5`, `Birthday Stephen Crane` `6-7-6`/`6-7-5` depending on run) — strongly suggests the anonymous `openai` endpoint is now returning a cached/deterministic response per-prompt regardless of temperature, so retrying an unlucky theme can't help. Also hit the anonymous tier's `402 "Free limit reached: 1 reply every 45 seconds per IP"` once, when reached twice within 45s in the whole-chain run (correctly fast-skipped as "permanent" by `_is_permanent_failure`, even though it's really a 10s-45s transient cooldown — harmless misclassification, just means no wasted 5x retry). **Not fixable via config** — this is Pollinations' own anonymous-tier behavior, not a model-id or auth issue. Recommendation for the user: a `POLLINATIONS_API_KEY` ("pollen key") would likely remove both the 45s/IP limit and the caching behavior, but adding a new secret is outside this routine's scope |
-| 7 | **Gemini** | ⚠️ Still reachable, unreliable | `gemini-3.8-flash` | Unchanged since 2026-09-27 — model id still valid (no 404s). This round saw the same mix of syllable mismatches, `503 UNAVAILABLE`, and `429` (both per-minute and general) across all three test runs. Free tier still quota-constrained, not fixable without billing |
-| 8 | **Fireworks** | ✅ Working | `accounts/fireworks/models/gpt-oss-120b` | Unchanged since the 2026-09-27 model-id fix — succeeded every single time it was reached across all three test runs this round (4 themes total, each on attempt 1/5 or 2/5), no syllable mismatches |
-| 9 | **HuggingFace** | 🔴 Still failing | `meta-llama/Llama-3.1-8B-Instruct` | Unchanged since the 2026-10-11 regression — re-confirmed via a dedicated isolation test this round (never reached in the whole-chain run, since Fireworks/Pollinations resolved every theme before the chain got that far): still `402 Payment Required` on every attempt, correctly fast-skipped as a permanent failure. This is HuggingFace's own router billing, not a model-id or config issue. **Not fixable via config** — needs the user to either wait for the monthly free-credits reset, buy pre-paid credits, or subscribe to PRO |
+| 1 | **Groq** (primary) | ✅ Working | `openai/gpt-oss-20b` | Unchanged — isolation test (forced via `GROQ_API_KEY`) resolved 2/3 themes directly on primary (empty-content/`finish_reason=length` hiccups and a syllable mismatch, all auto-retried fine); the 3rd theme exhausted primary (more empty-content hiccups + mismatches) and fell through the chain to Pollinations. Same pattern as every previous round |
+| 2 | **Mistral** | ❌ Still failing | `mistral-small-latest` | Unchanged since 2026-09-27 — every attempt across all test runs this round (whole-chain + isolation) still gets an immediate `429 rate_limited`. Still looks like account-level quota exhaustion. Not fixable via config — check the Mistral console for remaining quota/plan status |
+| 3 | **Cohere** | ⚠️ Still degraded | `command-r7b-12-2024` | Unchanged since 2026-09-27 in real fallback-chain use — whole-chain test still gets HTTP 200 on every call but syllable validation fails almost every attempt ("got unknown" or an off count). **New this round**: Cohere's own isolation test (forced via `ai_key_secret`) now gets a hard `422 "reasoning_effort 'medium' and 'low' are not supported. Use 'high' instead"` on every attempt — Cohere's API appears to now strictly validate that param where it previously tolerated it. This does **not** affect production: `config.yml`'s cohere entry correctly has no `reasoning_effort` set, so the real fallback chain never sends it. It only breaks the isolation-test method itself, because `_providers()` always defaults `reasoning_effort="low"` onto whatever is forced into the `primary` slot, regardless of whether that provider is a reasoning model (see note added to rule 1 below). Also saw several `429 "Trial key limited to 20 API calls/minute"` responses this round that weren't seen before — likely an artifact of this round testing all 9 providers concurrently (shared `COHERE_API_KEY` hit by several simultaneous jobs), not a steady-state change; re-verify with a non-concurrent run if a clean read is needed |
+| 4 | **Cerebras** | ❌ Still blocked | `gpt-oss-120b` | Unchanged since 2026-08-17 — every call across all test runs this round still returns `402 payment_required`. Still no payment method on file. Not fixable via config |
+| 5 | **OpenRouter** | ⚠️ Still unreliable | `google/gemma-4-31b-it:free` | Unchanged — `:free` model still routes through a congested shared pool, 429'd (mix of generic "Provider returned error" and explicit "Rate limit exceeded: free-models-per-min") on nearly every attempt across all test runs this round. Not fixable by retrying |
+| 6 | **Pollinations** | 🟢 Recovered | `openai` | **Status change from last round's "⚠️ Newly degraded"**: back to succeeding on attempt 1/5 in every cascade position observed this round — the whole-chain test resolved all 3 themes cleanly, and it also resolved cleanly every time another provider's isolation test fell through to it. No repeat of last round's deterministic per-theme wrong-syllable response. Its own isolation test did hit one `402 "Free limit reached: 1 reply every 45 seconds per IP"` (correctly fast-skipped as permanent) and one theme repeated the same `5-7-6` mismatch across all 5 retries when hit as `primary` before succeeding cleanly moments later via its normal fallback-list slot — consistent with the anonymous tier being sensitive to being hit twice in quick succession, which this round's concurrent dispatch of 9 isolation tests partly induced rather than reflecting ordinary daily-run behavior. **Not fixable via config** — this is Pollinations' own anonymous-tier behavior. Recommendation for the user, unchanged: a `POLLINATIONS_API_KEY` ("pollen key") would likely remove the 45s/IP limit; adding a new secret is outside this routine's scope |
+| 7 | **Gemini** | ⚠️ Reachable, slow | `gemini-3.8-flash` | Model id still valid (no 404s). Resolved all 3 themes this round (an improvement over last round's mix of syllable mismatches/503/429 failures), but every theme needed a `503 Service Unavailable` retry that took **2–3 minutes** to clear before succeeding — the isolation-test job ran 8m17s total vs. ~1–2 min for every other provider. This is the same class of risk already flagged in rule 9 below (no request timeout on the OpenAI client): not a full indefinite hang this round, but a severe latency cliff on Gemini's free tier that could meaningfully slow (though not necessarily break, since Gemini sits near the end of the chain) the real daily run if it's reached. Not fixed as part of this config/doc-only audit — the same `timeout=` fix noted in rule 9 would help here too |
+| 8 | **Fireworks** | ✅ Working | `accounts/fireworks/models/gpt-oss-120b` | Unchanged since the 2026-09-27 model-id fix — succeeded every single time it was reached across all test runs this round (3 themes, each on attempt 1/5 or 2/5, total job under 15s), no syllable mismatches |
+| 9 | **HuggingFace** | 🔴 Still failing | `meta-llama/Llama-3.1-8B-Instruct` | Unchanged since the 2026-10-11 regression — re-confirmed via a dedicated isolation test this round: still `402 Payment Required` on every attempt, correctly fast-skipped as a permanent failure. This is HuggingFace's own router billing, not a model-id or config issue. **Not fixable via config** — needs the user to either wait for the monthly free-credits reset, buy pre-paid credits, or subscribe to PRO |
 
 Removed entirely (tried, deliberately dropped — see git log for
 `config.yml` around 2026-08-09/10 for the full reasoning):
@@ -101,6 +101,22 @@ Not wired in at all:
    as a blanket default. See `providers[i]["reasoning_effort"]` in
    `_providers()`.
 
+   **Caveat discovered 2026-11-08**: `_providers()` builds the `primary`
+   slot with `"reasoning_effort": ai_config.get("reasoning_effort", "low")`
+   — i.e. it **always** defaults to `"low"` for whatever is forced into
+   `primary` via the Test AI Backend workflow's `ai_key_secret` override,
+   regardless of whether that provider is actually a reasoning model. This
+   doesn't affect the real fallback chain (each `ai.fallback` entry's own
+   `reasoning_effort` is read from its own dict, which is `None` for
+   Mistral/Cohere/OpenRouter/Pollinations/HuggingFace), but it does mean an
+   **isolation test** of a non-reasoning provider can fail purely because of
+   this default — e.g. Cohere's isolation test started getting a hard `422`
+   ("reasoning_effort 'medium' and 'low' are not supported") once Cohere's
+   API began strictly validating the param. Worth fixing in `_providers()`
+   (e.g. only default `reasoning_effort` for primary when the model name
+   matches a known reasoning-model pattern) — left for the user's call since
+   it's a code change beyond a config/doc-only audit.
+
 2. **A `400`/`401`/`402`/`404` from a provider is a config problem, not a
    flaky API — don't retry it 5 times.** `_is_permanent_failure()` matches
    on these (plus balance/quota-zero phrases) and breaks out of that
@@ -130,6 +146,15 @@ Not wired in at all:
    month. Prefer `--engine-only` test runs (below) over repeated live
    `daily.yml` triggers, and don't re-test a provider that already passed
    just to double-check.
+
+   **Caveat discovered 2026-11-08**: dispatching every provider's isolation
+   test concurrently (all at once, rather than one at a time) means several
+   jobs hit the *same* shared secret simultaneously (every job's env block
+   wires in all fallback keys, not just the one being isolated). This round
+   that produced extra `429`s on Cohere/OpenRouter that look like genuine
+   degradation but are really concurrency contention. Either accept that
+   noise and note it in the write-up (as done this round), or space
+   isolation-test dispatches out instead of firing all 9 at once.
 
 7. **A GitHub Actions run "succeeding" (`conclusion: success`) does NOT mean
    haikus posted.** The runner intentionally marks a zero-haiku day as
