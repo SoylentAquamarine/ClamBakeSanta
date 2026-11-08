@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "haikus": [
     {
-      "theme": "National Bittersweet Chocolate with Almonds Day",
-      "haiku": "Sweet chocolate almonds,\nA treat to savor and share,\nTasty bliss, we cheer!\nHappy #NationalBittersweetChocolateWithAlmondsDay from @ClamBakeSanta",
-      "tag": "NationalBittersweetChocolateWithAlmondsDay",
+      "theme": "National Harvey Wallbanger Day",
+      "haiku": "Orange sun glows bright\nCitrus mist lifts the glass high\nTaste of sunshine swirls\nHappy #NationalHarveyWallbangerDay from @ClamBakeSanta",
+      "tag": "NationalHarveyWallbangerDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Notary Public Day",
-      "haiku": "Ink glides on paper\nSeal soft, stamp echoes gently\nSunlight warms the desk\nHappy #NotaryPublicDay from @ClamBakeSanta",
-      "tag": "NotaryPublicDay",
+      "theme": "Cook Something Bold and Pungent Day",
+      "haiku": "Spice sparks in pan now\nRed peppers sing bold heat bright\nFlavor dances loud\nHappy #CookSomethingBoldAndPungentDay from @ClamBakeSanta",
+      "tag": "CookSomethingBoldAndPungentDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Marie Curie",
-      "haiku": "Bright amber candle\nSoft sparks dance on glassy night\nHeat of science glow\n#HappyBirthdayMarieCurie from @ClamBakeSanta",
-      "tag": "HappyBirthdayMarieCurie",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Albert Camus",
-      "haiku": "Starlit path whispers\nCandle flames dance slow soft bright\nJoy blooms like sunrise\n#HappyBirthdayAlbertCamus from @ClamBakeSanta",
-      "tag": "HappyBirthdayAlbertCamus",
+      "theme": "Birthday Hermann Rorschach",
+      "haiku": "Bright candles flicker\nInk swirls like sunrise soft glow\nJoy pours in each print\n#HappyBirthdayHermannRorschach from @ClamBakeSanta",
+      "tag": "HappyBirthdayHermannRorschach",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Bittersweet Chocolate with Almonds Day",
-    "Notary Public Day",
-    "Birthday Marie Curie",
-    "Birthday Albert Camus"
+    "National Harvey Wallbanger Day",
+    "Cook Something Bold and Pungent Day",
+    "Birthday Hermann Rorschach"
   ],
-  "content": "Sweet chocolate almonds,\nA treat to savor and share,\nTasty bliss, we cheer!\nHappy #NationalBittersweetChocolateWithAlmondsDay from @ClamBakeSanta\n\nInk glides on paper\nSeal soft, stamp echoes gently\nSunlight warms the desk\nHappy #NotaryPublicDay from @ClamBakeSanta\n\nBright amber candle\nSoft sparks dance on glassy night\nHeat of science glow\n#HappyBirthdayMarieCurie from @ClamBakeSanta\n\nStarlit path whispers\nCandle flames dance slow soft bright\nJoy blooms like sunrise\n#HappyBirthdayAlbertCamus from @ClamBakeSanta",
-  "saved_at": "2026-11-07T15:31:50.747336+00:00"
+  "content": "Orange sun glows bright\nCitrus mist lifts the glass high\nTaste of sunshine swirls\nHappy #NationalHarveyWallbangerDay from @ClamBakeSanta\n\nSpice sparks in pan now\nRed peppers sing bold heat bright\nFlavor dances loud\nHappy #CookSomethingBoldAndPungentDay from @ClamBakeSanta\n\nBright candles flicker\nInk swirls like sunrise soft glow\nJoy pours in each print\n#HappyBirthdayHermannRorschach from @ClamBakeSanta",
+  "saved_at": "2026-11-08T15:51:03.914863+00:00"
 }

@@ -1,0 +1,62 @@
+{
+  "NationalHarveyWallbangerDay": {
+    "mastodon": {
+      "id": "117581615243939703",
+      "url": "https://mastodon.social/@ClamBakeSanta/117581615243939703"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mzsrfpb3st2y",
+      "cid": "bafyreiageek72xfbq4nrjbokxrqp44jp5ns2bindzzlagvu2m7fzy26c6a"
+    },
+    "tumblr": {
+      "id": "832730097390845952",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "674",
+      "channel": "@clambakesanta"
+    }
+  },
+  "CookSomethingBoldAndPungentDay": {
+    "mastodon": {
+      "id": "117581619205661875",
+      "url": "https://mastodon.social/@ClamBakeSanta/117581619205661875"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mzsrhiklm62w",
+      "cid": "bafyreie7xztgxpllwxq74ktexgrfamfuvtuvonwsbgfhmqs2hvnl7leoma"
+    },
+    "tumblr": {
+      "id": "832730160639983616",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "675",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayHermannRorschach": {
+    "mastodon": {
+      "id": "117581623160545735",
+      "url": "https://mastodon.social/@ClamBakeSanta/117581623160545735"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3mzsrjbum4d2l",
+      "cid": "bafyreiacwjq4llpopxkoz26aqa4owj5ycmsbmvid2ltpjezw2pjqbb63je"
+    },
+    "tumblr": {
+      "id": "832730224428023809",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "676",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "215",
+      "url": "https://clambakesanta.wordpress.com/2026/11/08/clam-bake-santa-2026-11-08/"
+    }
+  }
+}

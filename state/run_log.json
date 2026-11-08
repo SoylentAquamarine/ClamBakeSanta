@@ -207,7 +207,8 @@
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "runs": [
     {
@@ -2659,6 +2660,17 @@
         "Birthday Albert Camus"
       ],
       "content_preview": "Sweet chocolate almonds, A treat to savor and share, Tasty bliss, we cheer! Happy #NationalBittersweetChocolateWithAlmon"
+    },
+    {
+      "date": "2026-11-08",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-08T15:59:16.250015+00:00",
+      "themes": [
+        "National Harvey Wallbanger Day",
+        "Cook Something Bold and Pungent Day",
+        "Birthday Hermann Rorschach"
+      ],
+      "content_preview": "Orange sun glows bright Citrus mist lifts the glass high Taste of sunshine swirls Happy #NationalHarveyWallbangerDay fro"
     }
   ]
 }

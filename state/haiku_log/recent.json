@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-31",
-    "theme": "Halloween",
-    "haiku": "Pumpkin lights glow bright\nCrickets sing in dusk haze soft\nMoon whispers sweet treats\nHappy #Halloween from @ClamBakeSanta",
-    "tag": "Halloween",
-    "logged_at": "2026-10-31T15:10:02.562044+00:00"
-  },
-  {
-    "date": "2026-10-31",
-    "theme": "National Caramel Apple Day",
-    "haiku": "Apple gleams in sun\nCaramel drips, sweet breeze, soft\nTaste of joy, bright glow\nHappy #NationalCaramelAppleDay from @ClamBakeSanta",
-    "tag": "NationalCaramelAppleDay",
-    "logged_at": "2026-10-31T15:10:02.562044+00:00"
-  },
-  {
-    "date": "2026-10-31",
-    "theme": "Birthday John Keats",
-    "haiku": "Bright sunrise soft greets\nGentle breeze carries laughter\nPoet smiles, heart sings\n#HappyBirthdayJohnKeats from @ClamBakeSanta",
-    "tag": "HappyBirthdayJohnKeats",
-    "logged_at": "2026-10-31T15:10:02.562044+00:00"
-  },
-  {
-    "date": "2026-10-31",
-    "theme": "Birthday Jan Vermeer",
-    "haiku": "Morning light spills bright\nSoft breeze hums across room warm\nJoy blooms in each cup\n#HappyBirthdayJanVermeer from @ClamBakeSanta",
-    "tag": "HappyBirthdayJanVermeer",
-    "logged_at": "2026-10-31T15:10:02.562044+00:00"
-  },
-  {
     "date": "2026-11-01",
     "theme": "National Cook for Your Pets Day",
     "haiku": "Soft steam curls a‑round\nPaws wag as broth sings in warm\nTreats bloom in bowls soft\nHappy #NationalCookForYourPetsDay from @ClamBakeSanta",
@@ -180,5 +152,33 @@
     "haiku": "Bright brass notes rise soft\nEchoing laughter fills hall\nCandles glow summer\n#HappyBirthdayJohnPhilipSousa from @ClamBakeSanta",
     "tag": "HappyBirthdayJohnPhilipSousa",
     "logged_at": "2026-11-06T16:38:25.408295+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "theme": "National Bittersweet Chocolate with Almonds Day",
+    "haiku": "Sweet chocolate almonds,\nA treat to savor and share,\nTasty bliss, we cheer!\nHappy #NationalBittersweetChocolateWithAlmondsDay from @ClamBakeSanta",
+    "tag": "NationalBittersweetChocolateWithAlmondsDay",
+    "logged_at": "2026-11-07T15:31:50.748143+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "theme": "Notary Public Day",
+    "haiku": "Ink glides on paper\nSeal soft, stamp echoes gently\nSunlight warms the desk\nHappy #NotaryPublicDay from @ClamBakeSanta",
+    "tag": "NotaryPublicDay",
+    "logged_at": "2026-11-07T15:31:50.748143+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "theme": "Birthday Marie Curie",
+    "haiku": "Bright amber candle\nSoft sparks dance on glassy night\nHeat of science glow\n#HappyBirthdayMarieCurie from @ClamBakeSanta",
+    "tag": "HappyBirthdayMarieCurie",
+    "logged_at": "2026-11-07T15:31:50.748143+00:00"
+  },
+  {
+    "date": "2026-11-07",
+    "theme": "Birthday Albert Camus",
+    "haiku": "Starlit path whispers\nCandle flames dance slow soft bright\nJoy blooms like sunrise\n#HappyBirthdayAlbertCamus from @ClamBakeSanta",
+    "tag": "HappyBirthdayAlbertCamus",
+    "logged_at": "2026-11-07T15:31:50.748143+00:00"
   }
 ]
