@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "haikus": [
     {
-      "theme": "National Harvey Wallbanger Day",
-      "haiku": "Orange sun glows bright\nCitrus mist lifts the glass high\nTaste of sunshine swirls\nHappy #NationalHarveyWallbangerDay from @ClamBakeSanta",
-      "tag": "NationalHarveyWallbangerDay",
+      "theme": "National Scrapple Day",
+      "haiku": "Corn husks crackle bright\nSmell of pork, sweet salt, deep warm\nTaste of home, heart smiles\nHappy #NationalScrappleDay from @ClamBakeSanta",
+      "tag": "NationalScrappleDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Cook Something Bold and Pungent Day",
-      "haiku": "Spice sparks in pan now\nRed peppers sing bold heat bright\nFlavor dances loud\nHappy #CookSomethingBoldAndPungentDay from @ClamBakeSanta",
-      "tag": "CookSomethingBoldAndPungentDay",
+      "theme": "National Go to an Art Museum Day",
+      "haiku": "Brush strokes whisper light\nColors dance on quiet walls\nHands feel warmth of paint\nHappy #NationalGoToAnArtMuseumDay from @ClamBakeSanta",
+      "tag": "NationalGoToAnArtMuseumDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Hermann Rorschach",
-      "haiku": "Bright candles flicker\nInk swirls like sunrise soft glow\nJoy pours in each print\n#HappyBirthdayHermannRorschach from @ClamBakeSanta",
-      "tag": "HappyBirthdayHermannRorschach",
+      "theme": "Birthday Carl Sagan",
+      "haiku": "Stars wink in soft night\nCosmic candles glow bright for\nBirthday sky sings soft\n#HappyBirthdayCarlSagan from @ClamBakeSanta",
+      "tag": "HappyBirthdayCarlSagan",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Ivan Turgenev",
+      "haiku": "Sunlit paper sighs\nInk drips like amber rain soft\nPages turn, hearts glow\n#HappyBirthdayIvanTurgenev from @ClamBakeSanta",
+      "tag": "HappyBirthdayIvanTurgenev",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "New Moon",
+      "haiku": "Night sky folds soft moon\nStars whisper silver bright glow\nSilence hums gentle\nHappy #NewMoon from @ClamBakeSanta",
+      "tag": "NewMoon",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +58,12 @@
     }
   ],
   "themes": [
-    "National Harvey Wallbanger Day",
-    "Cook Something Bold and Pungent Day",
-    "Birthday Hermann Rorschach"
+    "National Scrapple Day",
+    "National Go to an Art Museum Day",
+    "Birthday Carl Sagan",
+    "Birthday Ivan Turgenev",
+    "New Moon"
   ],
-  "content": "Orange sun glows bright\nCitrus mist lifts the glass high\nTaste of sunshine swirls\nHappy #NationalHarveyWallbangerDay from @ClamBakeSanta\n\nSpice sparks in pan now\nRed peppers sing bold heat bright\nFlavor dances loud\nHappy #CookSomethingBoldAndPungentDay from @ClamBakeSanta\n\nBright candles flicker\nInk swirls like sunrise soft glow\nJoy pours in each print\n#HappyBirthdayHermannRorschach from @ClamBakeSanta",
-  "saved_at": "2026-11-08T15:51:03.914863+00:00"
+  "content": "Corn husks crackle bright\nSmell of pork, sweet salt, deep warm\nTaste of home, heart smiles\nHappy #NationalScrappleDay from @ClamBakeSanta\n\nBrush strokes whisper light\nColors dance on quiet walls\nHands feel warmth of paint\nHappy #NationalGoToAnArtMuseumDay from @ClamBakeSanta\n\nStars wink in soft night\nCosmic candles glow bright for\nBirthday sky sings soft\n#HappyBirthdayCarlSagan from @ClamBakeSanta\n\nSunlit paper sighs\nInk drips like amber rain soft\nPages turn, hearts glow\n#HappyBirthdayIvanTurgenev from @ClamBakeSanta\n\nNight sky folds soft moon\nStars whisper silver bright glow\nSilence hums gentle\nHappy #NewMoon from @ClamBakeSanta",
+  "saved_at": "2026-11-09T19:37:09.704352+00:00"
 }
