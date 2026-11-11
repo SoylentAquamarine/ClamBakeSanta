@@ -1,16 +1,17 @@
 [
   {
-    "timestamp": "2026-10-11T15:33:36.476567+00:00",
-    "date": "2026-10-11",
+    "timestamp": "2026-11-11T17:09:59.933131+00:00",
+    "date": "2026-11-11",
     "themes_found": [
-      "National Sausage Pizza Day",
-      "It's My Party Day",
-      "Birthday Eleanor Roosevelt"
+      "Veterans Day",
+      "National Sundae Day",
+      "Birthday Fyodor Dostoevsky",
+      "Birthday Kurt Vonnegut"
     ],
     "haikus_posted": [
       {
-        "theme": "National Sausage Pizza Day",
-        "tag": "NationalSausagePizzaDay",
+        "theme": "Veterans Day",
+        "tag": "VeteransDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -19,8 +20,8 @@
         ]
       },
       {
-        "theme": "It's My Party Day",
-        "tag": "ItSMyPartyDay",
+        "theme": "National Sundae Day",
+        "tag": "NationalSundaeDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -29,8 +30,18 @@
         ]
       },
       {
-        "theme": "Birthday Eleanor Roosevelt",
-        "tag": "HappyBirthdayEleanorRoosevelt",
+        "theme": "Birthday Fyodor Dostoevsky",
+        "tag": "HappyBirthdayFyodorDostoevsky",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Kurt Vonnegut",
+        "tag": "HappyBirthdayKurtVonnegut",
         "valid_syllables": true,
         "counts": [
           5,

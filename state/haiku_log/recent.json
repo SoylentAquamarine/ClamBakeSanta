@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-11-03",
-    "theme": "National Sandwich Day",
-    "haiku": "Bready toast sighs warm\nCheese melts, jam swirls bright on sides\nCrumbs dance, smiles gleam bright\nHappy #NationalSandwichDay from @ClamBakeSanta",
-    "tag": "NationalSandwichDay",
-    "logged_at": "2026-11-03T16:52:56.483913+00:00"
-  },
-  {
-    "date": "2026-11-03",
-    "theme": "National Housewife's Day",
-    "haiku": "Soft steam rises warm\nApron colors brighten home\nSpoons clink, laughter sings\nHappy #NationalHousewifeSDay from @ClamBakeSanta",
-    "tag": "NationalHousewifeSDay",
-    "logged_at": "2026-11-03T16:52:56.483913+00:00"
-  },
-  {
-    "date": "2026-11-03",
-    "theme": "Birthday Bronislaw Malinowski",
-    "haiku": "Soft snowflakes whisper\nCandles glow in winter glow\nJoy drifts like cocoa\n#HappyBirthdayBronislawMalinowski from @ClamBakeSanta",
-    "tag": "HappyBirthdayBronislawMalinowski",
-    "logged_at": "2026-11-03T16:52:56.483913+00:00"
-  },
-  {
     "date": "2026-11-04",
     "theme": "National Candy Day",
     "haiku": "Sugary clouds swirl\nBright ribbons taste like soft rain\nLemon sparkles laugh\nHappy #NationalCandyDay from @ClamBakeSanta",
@@ -173,5 +152,26 @@
     "haiku": "Night sky folds soft moon\nStars whisper silver bright glow\nSilence hums gentle\nHappy #NewMoon from @ClamBakeSanta",
     "tag": "NewMoon",
     "logged_at": "2026-11-09T19:37:09.704853+00:00"
+  },
+  {
+    "date": "2026-11-10",
+    "theme": "National Vanilla Cupcake Day",
+    "haiku": "Vanilla scent drifts\nSoft cream clouds kiss fingertips\nSprinkles glow like stars\nHappy #NationalVanillaCupcakeDay from",
+    "tag": "NationalVanillaCupcakeDay",
+    "logged_at": "2026-11-10T16:51:41.276930+00:00"
+  },
+  {
+    "date": "2026-11-10",
+    "theme": "Marine Corps Birthday",
+    "haiku": "Blue waves salute bright\nCorps drums echo, proud hearts rise\nSails glow, salt kiss sun\nHappy #MarineCorpsBirthday from @ClamBakeSanta",
+    "tag": "MarineCorpsBirthday",
+    "logged_at": "2026-11-10T16:51:41.276930+00:00"
+  },
+  {
+    "date": "2026-11-10",
+    "theme": "Birthday Martin Luther",
+    "haiku": "Morning light pours soft\nCandles flicker, echo joy\nWarm cake scent rises\n#HappyBirthdayMartinLuther from @ClamBakeSanta",
+    "tag": "HappyBirthdayMartinLuther",
+    "logged_at": "2026-11-10T16:51:41.276930+00:00"
   }
 ]

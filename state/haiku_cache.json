@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "haikus": [
     {
-      "theme": "National Vanilla Cupcake Day",
-      "haiku": "Vanilla scent drifts\nSoft cream clouds kiss fingertips\nSprinkles glow like stars\nHappy #NationalVanillaCupcakeDay from",
-      "tag": "NationalVanillaCupcakeDay",
+      "theme": "Veterans Day",
+      "haiku": "Brave boots tread dawn soft\nEchoes of salute rise high\nStars shine on fields bright\nHappy #VeteransDay from @ClamBakeSanta",
+      "tag": "VeteransDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Marine Corps Birthday",
-      "haiku": "Blue waves salute bright\nCorps drums echo, proud hearts rise\nSails glow, salt kiss sun\nHappy #MarineCorpsBirthday from @ClamBakeSanta",
-      "tag": "MarineCorpsBirthday",
+      "theme": "National Sundae Day",
+      "haiku": "Cone swirls bright cream soft\nCherry sprinkles dance soft rain\nWarm syrup hugs tongue\nHappy #NationalSundaeDay from @ClamBakeSanta",
+      "tag": "NationalSundaeDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Martin Luther",
-      "haiku": "Morning light pours soft\nCandles flicker, echo joy\nWarm cake scent rises\n#HappyBirthdayMartinLuther from @ClamBakeSanta",
-      "tag": "HappyBirthdayMartinLuther",
+      "theme": "Birthday Fyodor Dostoevsky",
+      "haiku": "Midnight candle sighs\nPages turn in quiet glow\nThoughts dance like soft light\n#HappyBirthdayFyodorDostoevsky from @ClamBakeSanta",
+      "tag": "HappyBirthdayFyodorDostoevsky",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Birthday Kurt Vonnegut",
+      "haiku": "Soft candle glow bright\nPages turn with gentle hush\nInk drips like sunrise\n#HappyBirthdayKurtVonnegut from @ClamBakeSanta",
+      "tag": "HappyBirthdayKurtVonnegut",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +47,11 @@
     }
   ],
   "themes": [
-    "National Vanilla Cupcake Day",
-    "Marine Corps Birthday",
-    "Birthday Martin Luther"
+    "Veterans Day",
+    "National Sundae Day",
+    "Birthday Fyodor Dostoevsky",
+    "Birthday Kurt Vonnegut"
   ],
-  "content": "Vanilla scent drifts\nSoft cream clouds kiss fingertips\nSprinkles glow like stars\nHappy #NationalVanillaCupcakeDay from\n\nBlue waves salute bright\nCorps drums echo, proud hearts rise\nSails glow, salt kiss sun\nHappy #MarineCorpsBirthday from @ClamBakeSanta\n\nMorning light pours soft\nCandles flicker, echo joy\nWarm cake scent rises\n#HappyBirthdayMartinLuther from @ClamBakeSanta",
-  "saved_at": "2026-11-10T16:51:41.276510+00:00"
+  "content": "Brave boots tread dawn soft\nEchoes of salute rise high\nStars shine on fields bright\nHappy #VeteransDay from @ClamBakeSanta\n\nCone swirls bright cream soft\nCherry sprinkles dance soft rain\nWarm syrup hugs tongue\nHappy #NationalSundaeDay from @ClamBakeSanta\n\nMidnight candle sighs\nPages turn in quiet glow\nThoughts dance like soft light\n#HappyBirthdayFyodorDostoevsky from @ClamBakeSanta\n\nSoft candle glow bright\nPages turn with gentle hush\nInk drips like sunrise\n#HappyBirthdayKurtVonnegut from @ClamBakeSanta",
+  "saved_at": "2026-11-11T16:57:38.139942+00:00"
 }
