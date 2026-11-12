@@ -1,0 +1,130 @@
+{
+  "VeteransDay": {
+    "theme": "Veterans Day",
+    "haiku": "Brave boots tread dawn soft\nEchoes of salute rise high\nStars shine on fields bright\nHappy #VeteransDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117598863963604110",
+        "url": "https://mastodon.social/@ClamBakeSanta/117598863963604110",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n22gle37ww2j",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833006205324640256",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-12T02:37:18.385821+00:00"
+  },
+  "NationalSundaeDay": {
+    "theme": "National Sundae Day",
+    "haiku": "Cone swirls bright cream soft\nCherry sprinkles dance soft rain\nWarm syrup hugs tongue\nHappy #NationalSundaeDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117598867923797532",
+        "url": "https://mastodon.social/@ClamBakeSanta/117598867923797532",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n22gn5ouzv2u",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833006268619866112",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-12T02:37:18.385821+00:00"
+  },
+  "HappyBirthdayFyodorDostoevsky": {
+    "theme": "Birthday Fyodor Dostoevsky",
+    "haiku": "Midnight candle sighs\nPages turn in quiet glow\nThoughts dance like soft light\n#HappyBirthdayFyodorDostoevsky from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117598871925705124",
+        "url": "https://mastodon.social/@ClamBakeSanta/117598871925705124",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n22gox3vah2o",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833006331951759360",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-12T02:37:18.385821+00:00"
+  },
+  "HappyBirthdayKurtVonnegut": {
+    "theme": "Birthday Kurt Vonnegut",
+    "haiku": "Soft candle glow bright\nPages turn with gentle hush\nInk drips like sunrise\n#HappyBirthdayKurtVonnegut from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117598875931005157",
+        "url": "https://mastodon.social/@ClamBakeSanta/117598875931005157",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n22gqqhz2g2j",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833006395805876224",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-12T02:37:18.385821+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "218",
+        "url": "https://clambakesanta.wordpress.com/2026/11/11/clam-bake-santa-2026-11-11/",
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-11-12T02:37:18.385821+00:00"
+  }
+}
