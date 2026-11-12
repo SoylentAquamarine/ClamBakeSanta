@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "haikus": [
     {
-      "theme": "Veterans Day",
-      "haiku": "Brave boots tread dawn soft\nEchoes of salute rise high\nStars shine on fields bright\nHappy #VeteransDay from @ClamBakeSanta",
-      "tag": "VeteransDay",
+      "theme": "National Pizza with the Works Day",
+      "haiku": "Warm crust sighs at dawn\nToppings dance, tomato steam\nCheese melts, sweet scent fills\nHappy #NationalPizzaWithTheWorksDay from @ClamBakeSanta",
+      "tag": "NationalPizzaWithTheWorksDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Sundae Day",
-      "haiku": "Cone swirls bright cream soft\nCherry sprinkles dance soft rain\nWarm syrup hugs tongue\nHappy #NationalSundaeDay from @ClamBakeSanta",
-      "tag": "NationalSundaeDay",
+      "theme": "National Happy Hour Day",
+      "haiku": "Cold glass, ice cubes clink,\nFriends laugh in the gold sun light,\nCheers to a good day.\nHappy #NationalHappyHourDay from @ClamBakeSanta",
+      "tag": "NationalHappyHourDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Fyodor Dostoevsky",
-      "haiku": "Midnight candle sighs\nPages turn in quiet glow\nThoughts dance like soft light\n#HappyBirthdayFyodorDostoevsky from @ClamBakeSanta",
-      "tag": "HappyBirthdayFyodorDostoevsky",
+      "theme": "Birthday Auguste Rodin",
+      "haiku": "Stone breathes warm light soft\nClay sings under summer sky\nCarved joy in each curve\n#HappyBirthdayAugusteRodin from @ClamBakeSanta",
+      "tag": "HappyBirthdayAugusteRodin",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Kurt Vonnegut",
-      "haiku": "Soft candle glow bright\nPages turn with gentle hush\nInk drips like sunrise\n#HappyBirthdayKurtVonnegut from @ClamBakeSanta",
-      "tag": "HappyBirthdayKurtVonnegut",
+      "theme": "Birthday Elizabeth Cady Stanton",
+      "haiku": "Bright moonlit garden\nSoft wind hums through silver leaves\nJoyful heart beats bright\n#HappyBirthdayElizabethCadyStanton from @ClamBakeSanta",
+      "tag": "HappyBirthdayElizabethCadyStanton",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "Veterans Day",
-    "National Sundae Day",
-    "Birthday Fyodor Dostoevsky",
-    "Birthday Kurt Vonnegut"
+    "National Pizza with the Works Day",
+    "National Happy Hour Day",
+    "Birthday Auguste Rodin",
+    "Birthday Elizabeth Cady Stanton"
   ],
-  "content": "Brave boots tread dawn soft\nEchoes of salute rise high\nStars shine on fields bright\nHappy #VeteransDay from @ClamBakeSanta\n\nCone swirls bright cream soft\nCherry sprinkles dance soft rain\nWarm syrup hugs tongue\nHappy #NationalSundaeDay from @ClamBakeSanta\n\nMidnight candle sighs\nPages turn in quiet glow\nThoughts dance like soft light\n#HappyBirthdayFyodorDostoevsky from @ClamBakeSanta\n\nSoft candle glow bright\nPages turn with gentle hush\nInk drips like sunrise\n#HappyBirthdayKurtVonnegut from @ClamBakeSanta",
-  "saved_at": "2026-11-11T16:57:38.139942+00:00"
+  "content": "Warm crust sighs at dawn\nToppings dance, tomato steam\nCheese melts, sweet scent fills\nHappy #NationalPizzaWithTheWorksDay from @ClamBakeSanta\n\nCold glass, ice cubes clink,\nFriends laugh in the gold sun light,\nCheers to a good day.\nHappy #NationalHappyHourDay from @ClamBakeSanta\n\nStone breathes warm light soft\nClay sings under summer sky\nCarved joy in each curve\n#HappyBirthdayAugusteRodin from @ClamBakeSanta\n\nBright moonlit garden\nSoft wind hums through silver leaves\nJoyful heart beats bright\n#HappyBirthdayElizabethCadyStanton from @ClamBakeSanta",
+  "saved_at": "2026-11-12T17:26:33.551017+00:00"
 }
