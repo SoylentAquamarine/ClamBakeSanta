@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "haikus": [
     {
-      "theme": "National Pizza with the Works Day",
-      "haiku": "Warm crust sighs at dawn\nToppings dance, tomato steam\nCheese melts, sweet scent fills\nHappy #NationalPizzaWithTheWorksDay from @ClamBakeSanta",
-      "tag": "NationalPizzaWithTheWorksDay",
+      "theme": "National Indian Pudding Day",
+      "haiku": "Melted honey swirls\nSoft steam curls, sweet warm corn scent\nPudding dreams melt bright\nHappy #NationalIndianPuddingDay from @ClamBakeSanta",
+      "tag": "NationalIndianPuddingDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Happy Hour Day",
-      "haiku": "Cold glass, ice cubes clink,\nFriends laugh in the gold sun light,\nCheers to a good day.\nHappy #NationalHappyHourDay from @ClamBakeSanta",
-      "tag": "NationalHappyHourDay",
+      "theme": "World Kindness Day",
+      "haiku": "Gentle hands share light\nSoft smiles bloom like rain in town\nKindness grows warm hearts\nHappy #WorldKindnessDay from @ClamBakeSanta",
+      "tag": "WorldKindnessDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Auguste Rodin",
-      "haiku": "Stone breathes warm light soft\nClay sings under summer sky\nCarved joy in each curve\n#HappyBirthdayAugusteRodin from @ClamBakeSanta",
-      "tag": "HappyBirthdayAugusteRodin",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday Elizabeth Cady Stanton",
-      "haiku": "Bright moonlit garden\nSoft wind hums through silver leaves\nJoyful heart beats bright\n#HappyBirthdayElizabethCadyStanton from @ClamBakeSanta",
-      "tag": "HappyBirthdayElizabethCadyStanton",
+      "theme": "Birthday Robert Louis Stevenson",
+      "haiku": "Ink spills on paper\nGilded quill writes tales bright new\nJoyful candles glow\n#HappyBirthdayRobertLouisStevenson from @ClamBakeSanta",
+      "tag": "HappyBirthdayRobertLouisStevenson",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Pizza with the Works Day",
-    "National Happy Hour Day",
-    "Birthday Auguste Rodin",
-    "Birthday Elizabeth Cady Stanton"
+    "National Indian Pudding Day",
+    "World Kindness Day",
+    "Birthday Robert Louis Stevenson"
   ],
-  "content": "Warm crust sighs at dawn\nToppings dance, tomato steam\nCheese melts, sweet scent fills\nHappy #NationalPizzaWithTheWorksDay from @ClamBakeSanta\n\nCold glass, ice cubes clink,\nFriends laugh in the gold sun light,\nCheers to a good day.\nHappy #NationalHappyHourDay from @ClamBakeSanta\n\nStone breathes warm light soft\nClay sings under summer sky\nCarved joy in each curve\n#HappyBirthdayAugusteRodin from @ClamBakeSanta\n\nBright moonlit garden\nSoft wind hums through silver leaves\nJoyful heart beats bright\n#HappyBirthdayElizabethCadyStanton from @ClamBakeSanta",
-  "saved_at": "2026-11-12T17:26:33.551017+00:00"
+  "content": "Melted honey swirls\nSoft steam curls, sweet warm corn scent\nPudding dreams melt bright\nHappy #NationalIndianPuddingDay from @ClamBakeSanta\n\nGentle hands share light\nSoft smiles bloom like rain in town\nKindness grows warm hearts\nHappy #WorldKindnessDay from @ClamBakeSanta\n\nInk spills on paper\nGilded quill writes tales bright new\nJoyful candles glow\n#HappyBirthdayRobertLouisStevenson from @ClamBakeSanta",
+  "saved_at": "2026-11-13T17:00:26.725988+00:00"
 }

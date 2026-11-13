@@ -1,0 +1,62 @@
+{
+  "NationalIndianPuddingDay": {
+    "mastodon": {
+      "id": "117610199589254333",
+      "url": "https://mastodon.social/@ClamBakeSanta/117610199589254333"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n27hmfbblx2r",
+      "cid": "bafyreiagfpdnm4ihim7iecnwtqp56ifneqsvd35n6xsz46rmtb43mynvae"
+    },
+    "tumblr": {
+      "id": "833187448751357952",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "693",
+      "channel": "@clambakesanta"
+    }
+  },
+  "WorldKindnessDay": {
+    "mastodon": {
+      "id": "117610203577045504",
+      "url": "https://mastodon.social/@ClamBakeSanta/117610203577045504"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n27ho6pbxk2z",
+      "cid": "bafyreiclvkybeopyvppqtknkkzf2xsoa7qdzgthsvna6cikz5mdalofnwu"
+    },
+    "tumblr": {
+      "id": "833187512026644480",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "694",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayRobertLouisStevenson": {
+    "mastodon": {
+      "id": "117610207542586443",
+      "url": "https://mastodon.social/@ClamBakeSanta/117610207542586443"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n27hpy5kfl2a",
+      "cid": "bafyreiawxehx6utcq45r7onmeok437xmg4feg4fjb4t6lfudgzc34xdy34"
+    },
+    "tumblr": {
+      "id": "833187575520952321",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "695",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "220",
+      "url": "https://clambakesanta.wordpress.com/2026/11/13/clam-bake-santa-2026-11-13/"
+    }
+  }
+}
