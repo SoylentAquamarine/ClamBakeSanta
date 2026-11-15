@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "haikus": [
     {
-      "theme": "National Pickle Day",
-      "haiku": "Soft crisp green jars gleam\nBright tang swirls softly on tongue\nJoyful crunch lifts hearts\nHappy #NationalPickleDay from @ClamBakeSanta",
-      "tag": "NationalPickleDay",
+      "theme": "National Raisin Bran Cereal Day",
+      "haiku": "Raisin grains rise high\nMorning sun pours amber light\nSteam curls from warm bowl\nHappy #NationalRaisinBranCerealDay from @ClamBakeSanta",
+      "tag": "NationalRaisinBranCerealDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Spicy Guacamole Day",
-      "haiku": "Crisp bright green dice sing\nMild lime sighs, pepper blazes\nCreamy heat hugs tongue\nHappy #NationalSpicyGuacamoleDay from @ClamBakeSanta",
-      "tag": "NationalSpicyGuacamoleDay",
+      "theme": "America Recycles Day",
+      "haiku": "Bright glass glints, cool soft\nChildren laugh, sorting cans near\nEarth sighs, thanks again\nHappy #AmericaRecyclesDay from @ClamBakeSanta",
+      "tag": "AmericaRecyclesDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Claude Monet",
-      "haiku": "Sunlight drips on pond\nColors bloom like whispered song\nBrush sighs in warm breeze\n#HappyBirthdayClaudeMonet from @ClamBakeSanta",
-      "tag": "HappyBirthdayClaudeMonet",
+      "theme": "Birthday Georgia O'Keeffe",
+      "haiku": "Petal glow in sky\nSoft breeze carries bright wild bloom\nSunset paints calm field\n#HappyBirthdayGeorgiaOKeeffe from @ClamBakeSanta",
+      "tag": "HappyBirthdayGeorgiaOKeeffe",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Aaron Copland",
-      "haiku": "Morning light pours warm\nNotes rise like dawn birds softly\nCake gleams with bright hope\n#HappyBirthdayAaronCopland from @ClamBakeSanta",
-      "tag": "HappyBirthdayAaronCopland",
+      "theme": "Birthday William Herschel",
+      "haiku": "Starlight drifts above\nTelescopes hum softly night\nNew planets dance bright\n#HappyBirthdayWilliamHerschel from @ClamBakeSanta",
+      "tag": "HappyBirthdayWilliamHerschel",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Pickle Day",
-    "National Spicy Guacamole Day",
-    "Birthday Claude Monet",
-    "Birthday Aaron Copland"
+    "National Raisin Bran Cereal Day",
+    "America Recycles Day",
+    "Birthday Georgia O'Keeffe",
+    "Birthday William Herschel"
   ],
-  "content": "Soft crisp green jars gleam\nBright tang swirls softly on tongue\nJoyful crunch lifts hearts\nHappy #NationalPickleDay from @ClamBakeSanta\n\nCrisp bright green dice sing\nMild lime sighs, pepper blazes\nCreamy heat hugs tongue\nHappy #NationalSpicyGuacamoleDay from @ClamBakeSanta\n\nSunlight drips on pond\nColors bloom like whispered song\nBrush sighs in warm breeze\n#HappyBirthdayClaudeMonet from @ClamBakeSanta\n\nMorning light pours warm\nNotes rise like dawn birds softly\nCake gleams with bright hope\n#HappyBirthdayAaronCopland from @ClamBakeSanta",
-  "saved_at": "2026-11-14T15:39:57.202994+00:00"
+  "content": "Raisin grains rise high\nMorning sun pours amber light\nSteam curls from warm bowl\nHappy #NationalRaisinBranCerealDay from @ClamBakeSanta\n\nBright glass glints, cool soft\nChildren laugh, sorting cans near\nEarth sighs, thanks again\nHappy #AmericaRecyclesDay from @ClamBakeSanta\n\nPetal glow in sky\nSoft breeze carries bright wild bloom\nSunset paints calm field\n#HappyBirthdayGeorgiaOKeeffe from @ClamBakeSanta\n\nStarlight drifts above\nTelescopes hum softly night\nNew planets dance bright\n#HappyBirthdayWilliamHerschel from @ClamBakeSanta",
+  "saved_at": "2026-11-15T16:08:28.351172+00:00"
 }
