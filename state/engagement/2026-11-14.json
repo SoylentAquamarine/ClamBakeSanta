@@ -1,0 +1,130 @@
+{
+  "NationalPickleDay": {
+    "theme": "National Pickle Day",
+    "haiku": "Soft crisp green jars gleam\nBright tang swirls softly on tongue\nJoyful crunch lifts hearts\nHappy #NationalPickleDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117615545396100268",
+        "url": "https://mastodon.social/@ClamBakeSanta/117615545396100268",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2btn7diud2z",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833273109089075200",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-15T01:26:35.564044+00:00"
+  },
+  "NationalSpicyGuacamoleDay": {
+    "theme": "National Spicy Guacamole Day",
+    "haiku": "Crisp bright green dice sing\nMild lime sighs, pepper blazes\nCreamy heat hugs tongue\nHappy #NationalSpicyGuacamoleDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117615549387154585",
+        "url": "https://mastodon.social/@ClamBakeSanta/117615549387154585",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2btoywawh2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833273172329709568",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-15T01:26:35.564044+00:00"
+  },
+  "HappyBirthdayClaudeMonet": {
+    "theme": "Birthday Claude Monet",
+    "haiku": "Sunlight drips on pond\nColors bloom like whispered song\nBrush sighs in warm breeze\n#HappyBirthdayClaudeMonet from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117615553361681551",
+        "url": "https://mastodon.social/@ClamBakeSanta/117615553361681551",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2btqsgu4z2a",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833273235571392512",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-15T01:26:35.564044+00:00"
+  },
+  "HappyBirthdayAaronCopland": {
+    "theme": "Birthday Aaron Copland",
+    "haiku": "Morning light pours warm\nNotes rise like dawn birds softly\nCake gleams with bright hope\n#HappyBirthdayAaronCopland from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117615557385430626",
+        "url": "https://mastodon.social/@ClamBakeSanta/117615557385430626",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2btsm444g27",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833273298870747136",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-15T01:26:35.564044+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "221",
+        "url": "https://clambakesanta.wordpress.com/2026/11/14/clam-bake-santa-2026-11-14/",
+        "views": 3,
+        "likes": 3,
+        "comments": 0,
+        "score": 3
+      }
+    },
+    "total_score": 3,
+    "last_checked": "2026-11-15T01:26:35.564044+00:00"
+  }
+}
