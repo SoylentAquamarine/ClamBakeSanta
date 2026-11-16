@@ -1,0 +1,62 @@
+{
+  "NationalFastFoodDay": {
+    "mastodon": {
+      "id": "117627748537612915",
+      "url": "https://mastodon.social/@ClamBakeSanta/117627748537612915"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2hayptpef2i",
+      "cid": "bafyreiganhmniwtmp2zwrbal2iqqhtb7i6uapmzvmm542zj2f2tlro67pi"
+    },
+    "tumblr": {
+      "id": "833468231195017216",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "704",
+      "channel": "@clambakesanta"
+    }
+  },
+  "InternationalDayForTolerance": {
+    "mastodon": {
+      "id": "117627752551082872",
+      "url": "https://mastodon.social/@ClamBakeSanta/117627752551082872"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2hb2jeeni2k",
+      "cid": "bafyreif6sudfyxt73mu7xf2pnmbdzkvxhz2p3evlwc3htrkklykea35om4"
+    },
+    "tumblr": {
+      "id": "833468294402048000",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "705",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayWCHandy": {
+    "mastodon": {
+      "id": "117627756519332372",
+      "url": "https://mastodon.social/@ClamBakeSanta/117627756519332372"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2hb4cok4w2c",
+      "cid": "bafyreid3qofmf44mv7wthpzxjg5z5plqiqgnt3dhn6jogxwctodagciwza"
+    },
+    "tumblr": {
+      "id": "833468357814697984",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "706",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "223",
+      "url": "https://clambakesanta.wordpress.com/2026/11/16/clam-bake-santa-2026-11-16/"
+    }
+  }
+}

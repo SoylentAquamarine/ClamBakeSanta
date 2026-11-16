@@ -1,17 +1,16 @@
 [
   {
-    "timestamp": "2026-10-16T14:00:35.441187+00:00",
-    "date": "2026-10-16",
+    "timestamp": "2026-11-16T19:31:36.042896+00:00",
+    "date": "2026-11-16",
     "themes_found": [
-      "World Food Day",
-      "National Liqueur Day",
-      "Birthday Oscar Wilde",
-      "Birthday Eugene O'Neill"
+      "National Fast Food Day",
+      "International Day for Tolerance",
+      "Birthday W.C. Handy"
     ],
     "haikus_posted": [
       {
-        "theme": "World Food Day",
-        "tag": "WorldFoodDay",
+        "theme": "National Fast Food Day",
+        "tag": "NationalFastFoodDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +19,8 @@
         ]
       },
       {
-        "theme": "National Liqueur Day",
-        "tag": "NationalLiqueurDay",
+        "theme": "International Day for Tolerance",
+        "tag": "InternationalDayForTolerance",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,18 +29,8 @@
         ]
       },
       {
-        "theme": "Birthday Oscar Wilde",
-        "tag": "HappyBirthdayOscarWilde",
-        "valid_syllables": true,
-        "counts": [
-          5,
-          7,
-          5
-        ]
-      },
-      {
-        "theme": "Birthday Eugene O'Neill",
-        "tag": "HappyBirthdayEugeneONeill",
+        "theme": "Birthday W.C. Handy",
+        "tag": "HappyBirthdayWCHandy",
         "valid_syllables": true,
         "counts": [
           5,

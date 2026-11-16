@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-11-08",
-    "theme": "National Harvey Wallbanger Day",
-    "haiku": "Orange sun glows bright\nCitrus mist lifts the glass high\nTaste of sunshine swirls\nHappy #NationalHarveyWallbangerDay from @ClamBakeSanta",
-    "tag": "NationalHarveyWallbangerDay",
-    "logged_at": "2026-11-08T15:51:03.915175+00:00"
-  },
-  {
-    "date": "2026-11-08",
-    "theme": "Cook Something Bold and Pungent Day",
-    "haiku": "Spice sparks in pan now\nRed peppers sing bold heat bright\nFlavor dances loud\nHappy #CookSomethingBoldAndPungentDay from @ClamBakeSanta",
-    "tag": "CookSomethingBoldAndPungentDay",
-    "logged_at": "2026-11-08T15:51:03.915175+00:00"
-  },
-  {
-    "date": "2026-11-08",
-    "theme": "Birthday Hermann Rorschach",
-    "haiku": "Bright candles flicker\nInk swirls like sunrise soft glow\nJoy pours in each print\n#HappyBirthdayHermannRorschach from @ClamBakeSanta",
-    "tag": "HappyBirthdayHermannRorschach",
-    "logged_at": "2026-11-08T15:51:03.915175+00:00"
-  },
-  {
     "date": "2026-11-09",
     "theme": "National Scrapple Day",
     "haiku": "Corn husks crackle bright\nSmell of pork, sweet salt, deep warm\nTaste of home, heart smiles\nHappy #NationalScrappleDay from @ClamBakeSanta",
@@ -180,5 +159,33 @@
     "haiku": "Morning light pours warm\nNotes rise like dawn birds softly\nCake gleams with bright hope\n#HappyBirthdayAaronCopland from @ClamBakeSanta",
     "tag": "HappyBirthdayAaronCopland",
     "logged_at": "2026-11-14T15:39:57.203485+00:00"
+  },
+  {
+    "date": "2026-11-15",
+    "theme": "National Raisin Bran Cereal Day",
+    "haiku": "Raisin grains rise high\nMorning sun pours amber light\nSteam curls from warm bowl\nHappy #NationalRaisinBranCerealDay from @ClamBakeSanta",
+    "tag": "NationalRaisinBranCerealDay",
+    "logged_at": "2026-11-15T16:08:28.351564+00:00"
+  },
+  {
+    "date": "2026-11-15",
+    "theme": "America Recycles Day",
+    "haiku": "Bright glass glints, cool soft\nChildren laugh, sorting cans near\nEarth sighs, thanks again\nHappy #AmericaRecyclesDay from @ClamBakeSanta",
+    "tag": "AmericaRecyclesDay",
+    "logged_at": "2026-11-15T16:08:28.351564+00:00"
+  },
+  {
+    "date": "2026-11-15",
+    "theme": "Birthday Georgia O'Keeffe",
+    "haiku": "Petal glow in sky\nSoft breeze carries bright wild bloom\nSunset paints calm field\n#HappyBirthdayGeorgiaOKeeffe from @ClamBakeSanta",
+    "tag": "HappyBirthdayGeorgiaOKeeffe",
+    "logged_at": "2026-11-15T16:08:28.351564+00:00"
+  },
+  {
+    "date": "2026-11-15",
+    "theme": "Birthday William Herschel",
+    "haiku": "Starlight drifts above\nTelescopes hum softly night\nNew planets dance bright\n#HappyBirthdayWilliamHerschel from @ClamBakeSanta",
+    "tag": "HappyBirthdayWilliamHerschel",
+    "logged_at": "2026-11-15T16:08:28.351564+00:00"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "haikus": [
     {
-      "theme": "National Raisin Bran Cereal Day",
-      "haiku": "Raisin grains rise high\nMorning sun pours amber light\nSteam curls from warm bowl\nHappy #NationalRaisinBranCerealDay from @ClamBakeSanta",
-      "tag": "NationalRaisinBranCerealDay",
+      "theme": "National Fast Food Day",
+      "haiku": "Buns steam in sunshine\nGolden fries dance with salt bright\nTaste buds sing a cheer\nHappy #NationalFastFoodDay from @ClamBakeSanta",
+      "tag": "NationalFastFoodDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "America Recycles Day",
-      "haiku": "Bright glass glints, cool soft\nChildren laugh, sorting cans near\nEarth sighs, thanks again\nHappy #AmericaRecyclesDay from @ClamBakeSanta",
-      "tag": "AmericaRecyclesDay",
+      "theme": "International Day for Tolerance",
+      "haiku": "Gentle breeze sings soft\nColors mingle in warm glow\nHands join hearts lift high\nHappy #InternationalDayForTolerance from @ClamBakeSanta",
+      "tag": "InternationalDayForTolerance",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Georgia O'Keeffe",
-      "haiku": "Petal glow in sky\nSoft breeze carries bright wild bloom\nSunset paints calm field\n#HappyBirthdayGeorgiaOKeeffe from @ClamBakeSanta",
-      "tag": "HappyBirthdayGeorgiaOKeeffe",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday William Herschel",
-      "haiku": "Starlight drifts above\nTelescopes hum softly night\nNew planets dance bright\n#HappyBirthdayWilliamHerschel from @ClamBakeSanta",
-      "tag": "HappyBirthdayWilliamHerschel",
+      "theme": "Birthday W.C. Handy",
+      "haiku": "Melody wakes dawn\nBright chords spill through cool air soft\nJoy rings in warm glass\n#HappyBirthdayWCHandy from @ClamBakeSanta",
+      "tag": "HappyBirthdayWCHandy",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Raisin Bran Cereal Day",
-    "America Recycles Day",
-    "Birthday Georgia O'Keeffe",
-    "Birthday William Herschel"
+    "National Fast Food Day",
+    "International Day for Tolerance",
+    "Birthday W.C. Handy"
   ],
-  "content": "Raisin grains rise high\nMorning sun pours amber light\nSteam curls from warm bowl\nHappy #NationalRaisinBranCerealDay from @ClamBakeSanta\n\nBright glass glints, cool soft\nChildren laugh, sorting cans near\nEarth sighs, thanks again\nHappy #AmericaRecyclesDay from @ClamBakeSanta\n\nPetal glow in sky\nSoft breeze carries bright wild bloom\nSunset paints calm field\n#HappyBirthdayGeorgiaOKeeffe from @ClamBakeSanta\n\nStarlight drifts above\nTelescopes hum softly night\nNew planets dance bright\n#HappyBirthdayWilliamHerschel from @ClamBakeSanta",
-  "saved_at": "2026-11-15T16:08:28.351172+00:00"
+  "content": "Buns steam in sunshine\nGolden fries dance with salt bright\nTaste buds sing a cheer\nHappy #NationalFastFoodDay from @ClamBakeSanta\n\nGentle breeze sings soft\nColors mingle in warm glow\nHands join hearts lift high\nHappy #InternationalDayForTolerance from @ClamBakeSanta\n\nMelody wakes dawn\nBright chords spill through cool air soft\nJoy rings in warm glass\n#HappyBirthdayWCHandy from @ClamBakeSanta",
+  "saved_at": "2026-11-16T19:23:22.352050+00:00"
 }
