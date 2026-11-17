@@ -1,0 +1,77 @@
+[
+  {
+    "timestamp": "2026-11-17T18:38:48.676112+00:00",
+    "date": "2026-11-17",
+    "themes_found": [
+      "National Baklava Day",
+      "National Hiking Day",
+      "Birthday Danny DeVito",
+      "First Quarter Moon",
+      "Leonid Meteor Shower"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Baklava Day",
+        "tag": "NationalBaklavaDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Hiking Day",
+        "tag": "NationalHikingDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Danny DeVito",
+        "tag": "HappyBirthdayDannyDeVito",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "First Quarter Moon",
+        "tag": "FirstQuarterMoon",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Leonid Meteor Shower",
+        "tag": "LeonidMeteorShower",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]

@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "haikus": [
     {
-      "theme": "National Fast Food Day",
-      "haiku": "Buns steam in sunshine\nGolden fries dance with salt bright\nTaste buds sing a cheer\nHappy #NationalFastFoodDay from @ClamBakeSanta",
-      "tag": "NationalFastFoodDay",
+      "theme": "National Baklava Day",
+      "haiku": "Golden crumbs lift high\nHoney drizzle soft sweet scent\nWarm crust deep sighs joy\nHappy #NationalBaklavaDay from @ClamBakeSanta",
+      "tag": "NationalBaklavaDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Day for Tolerance",
-      "haiku": "Gentle breeze sings soft\nColors mingle in warm glow\nHands join hearts lift high\nHappy #InternationalDayForTolerance from @ClamBakeSanta",
-      "tag": "InternationalDayForTolerance",
+      "theme": "National Hiking Day",
+      "haiku": "Trail winds through green soft\nSunlight bright filters, leaves hum\nFeet echo in moss\nHappy #NationalHikingDay from @ClamBakeSanta",
+      "tag": "NationalHikingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,31 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday W.C. Handy",
-      "haiku": "Melody wakes dawn\nBright chords spill through cool air soft\nJoy rings in warm glass\n#HappyBirthdayWCHandy from @ClamBakeSanta",
-      "tag": "HappyBirthdayWCHandy",
+      "theme": "Birthday Danny DeVito",
+      "haiku": "Tiny candles glow\nSoft laughter fills bright warm room\nJoyful cheers rise high\n#HappyBirthdayDannyDeVito from @ClamBakeSanta",
+      "tag": "HappyBirthdayDannyDeVito",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "First Quarter Moon",
+      "haiku": "Crimson dusk settles\nSilver arc climbs bright skyward\nNight breathes gentle glow\nHappy #FirstQuarterMoon from @ClamBakeSanta",
+      "tag": "FirstQuarterMoon",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Leonid Meteor Shower",
+      "haiku": "Silent night sky glows\nStreaks of silver paint the dark\nDreams dance on cold air\nHappy #LeonidMeteorShower from @ClamBakeSanta",
+      "tag": "LeonidMeteorShower",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +58,12 @@
     }
   ],
   "themes": [
-    "National Fast Food Day",
-    "International Day for Tolerance",
-    "Birthday W.C. Handy"
+    "National Baklava Day",
+    "National Hiking Day",
+    "Birthday Danny DeVito",
+    "First Quarter Moon",
+    "Leonid Meteor Shower"
   ],
-  "content": "Buns steam in sunshine\nGolden fries dance with salt bright\nTaste buds sing a cheer\nHappy #NationalFastFoodDay from @ClamBakeSanta\n\nGentle breeze sings soft\nColors mingle in warm glow\nHands join hearts lift high\nHappy #InternationalDayForTolerance from @ClamBakeSanta\n\nMelody wakes dawn\nBright chords spill through cool air soft\nJoy rings in warm glass\n#HappyBirthdayWCHandy from @ClamBakeSanta",
-  "saved_at": "2026-11-16T19:23:22.352050+00:00"
+  "content": "Golden crumbs lift high\nHoney drizzle soft sweet scent\nWarm crust deep sighs joy\nHappy #NationalBaklavaDay from @ClamBakeSanta\n\nTrail winds through green soft\nSunlight bright filters, leaves hum\nFeet echo in moss\nHappy #NationalHikingDay from @ClamBakeSanta\n\nTiny candles glow\nSoft laughter fills bright warm room\nJoyful cheers rise high\n#HappyBirthdayDannyDeVito from @ClamBakeSanta\n\nCrimson dusk settles\nSilver arc climbs bright skyward\nNight breathes gentle glow\nHappy #FirstQuarterMoon from @ClamBakeSanta\n\nSilent night sky glows\nStreaks of silver paint the dark\nDreams dance on cold air\nHappy #LeonidMeteorShower from @ClamBakeSanta",
+  "saved_at": "2026-11-17T18:22:21.151450+00:00"
 }

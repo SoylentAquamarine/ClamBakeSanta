@@ -216,7 +216,8 @@
     "2026-11-13",
     "2026-11-14",
     "2026-11-15",
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-17"
   ],
   "runs": [
     {
@@ -2773,6 +2774,19 @@
         "Birthday W.C. Handy"
       ],
       "content_preview": "Buns steam in sunshine Golden fries dance with salt bright Taste buds sing a cheer Happy #NationalFastFoodDay from @Clam"
+    },
+    {
+      "date": "2026-11-17",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-17T18:38:48.674486+00:00",
+      "themes": [
+        "National Baklava Day",
+        "National Hiking Day",
+        "Birthday Danny DeVito",
+        "First Quarter Moon",
+        "Leonid Meteor Shower"
+      ],
+      "content_preview": "Golden crumbs lift high Honey drizzle soft sweet scent Warm crust deep sighs joy Happy #NationalBaklavaDay from @ClamBak"
     }
   ]
 }
