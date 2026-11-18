@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "haikus": [
     {
-      "theme": "National Baklava Day",
-      "haiku": "Golden crumbs lift high\nHoney drizzle soft sweet scent\nWarm crust deep sighs joy\nHappy #NationalBaklavaDay from @ClamBakeSanta",
-      "tag": "NationalBaklavaDay",
+      "theme": "National Vichyssoise Day",
+      "haiku": "Creamy chill in bowl\nSilk broth swirls, bright spoon glides soft\nTaste of winter sun\nHappy #NationalVichyssoiseDay from @ClamBakeSanta",
+      "tag": "NationalVichyssoiseDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Hiking Day",
-      "haiku": "Trail winds through green soft\nSunlight bright filters, leaves hum\nFeet echo in moss\nHappy #NationalHikingDay from @ClamBakeSanta",
-      "tag": "NationalHikingDay",
+      "theme": "National Occult Day",
+      "haiku": "Starlit paths unfold\nMoonlight drapes the night, hush soft\nWhispers stir the stars\nHappy #NationalOccultDay from @ClamBakeSanta",
+      "tag": "NationalOccultDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Danny DeVito",
-      "haiku": "Tiny candles glow\nSoft laughter fills bright warm room\nJoyful cheers rise high\n#HappyBirthdayDannyDeVito from @ClamBakeSanta",
-      "tag": "HappyBirthdayDannyDeVito",
+      "theme": "Birthday Louis Daguerre",
+      "haiku": "Silver light bright flicks\nShadows dance on glass, film dreams\nFireflies glow, night sighs\n#HappyBirthdayLouisDaguerre from @ClamBakeSanta",
+      "tag": "HappyBirthdayLouisDaguerre",
       "syllable_counts": [
         5,
         7,
@@ -35,20 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "First Quarter Moon",
-      "haiku": "Crimson dusk settles\nSilver arc climbs bright skyward\nNight breathes gentle glow\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-      "tag": "FirstQuarterMoon",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Leonid Meteor Shower",
-      "haiku": "Silent night sky glows\nStreaks of silver paint the dark\nDreams dance on cold air\nHappy #LeonidMeteorShower from @ClamBakeSanta",
-      "tag": "LeonidMeteorShower",
+      "theme": "Birthday Alan Shepard",
+      "haiku": "Stars wink above night\nRocket dreams lift hearts high bright\nHope glows like sunrise\n#HappyBirthdayAlanShepard from @ClamBakeSanta",
+      "tag": "HappyBirthdayAlanShepard",
       "syllable_counts": [
         5,
         7,
@@ -58,12 +47,11 @@
     }
   ],
   "themes": [
-    "National Baklava Day",
-    "National Hiking Day",
-    "Birthday Danny DeVito",
-    "First Quarter Moon",
-    "Leonid Meteor Shower"
+    "National Vichyssoise Day",
+    "National Occult Day",
+    "Birthday Louis Daguerre",
+    "Birthday Alan Shepard"
   ],
-  "content": "Golden crumbs lift high\nHoney drizzle soft sweet scent\nWarm crust deep sighs joy\nHappy #NationalBaklavaDay from @ClamBakeSanta\n\nTrail winds through green soft\nSunlight bright filters, leaves hum\nFeet echo in moss\nHappy #NationalHikingDay from @ClamBakeSanta\n\nTiny candles glow\nSoft laughter fills bright warm room\nJoyful cheers rise high\n#HappyBirthdayDannyDeVito from @ClamBakeSanta\n\nCrimson dusk settles\nSilver arc climbs bright skyward\nNight breathes gentle glow\nHappy #FirstQuarterMoon from @ClamBakeSanta\n\nSilent night sky glows\nStreaks of silver paint the dark\nDreams dance on cold air\nHappy #LeonidMeteorShower from @ClamBakeSanta",
-  "saved_at": "2026-11-17T18:22:21.151450+00:00"
+  "content": "Creamy chill in bowl\nSilk broth swirls, bright spoon glides soft\nTaste of winter sun\nHappy #NationalVichyssoiseDay from @ClamBakeSanta\n\nStarlit paths unfold\nMoonlight drapes the night, hush soft\nWhispers stir the stars\nHappy #NationalOccultDay from @ClamBakeSanta\n\nSilver light bright flicks\nShadows dance on glass, film dreams\nFireflies glow, night sighs\n#HappyBirthdayLouisDaguerre from @ClamBakeSanta\n\nStars wink above night\nRocket dreams lift hearts high bright\nHope glows like sunrise\n#HappyBirthdayAlanShepard from @ClamBakeSanta",
+  "saved_at": "2026-11-18T17:52:10.769510+00:00"
 }

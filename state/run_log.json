@@ -217,7 +217,8 @@
     "2026-11-14",
     "2026-11-15",
     "2026-11-16",
-    "2026-11-17"
+    "2026-11-17",
+    "2026-11-18"
   ],
   "runs": [
     {
@@ -2787,6 +2788,18 @@
         "Leonid Meteor Shower"
       ],
       "content_preview": "Golden crumbs lift high Honey drizzle soft sweet scent Warm crust deep sighs joy Happy #NationalBaklavaDay from @ClamBak"
+    },
+    {
+      "date": "2026-11-18",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-18T18:04:21.864492+00:00",
+      "themes": [
+        "National Vichyssoise Day",
+        "National Occult Day",
+        "Birthday Louis Daguerre",
+        "Birthday Alan Shepard"
+      ],
+      "content_preview": "Creamy chill in bowl Silk broth swirls, bright spoon glides soft Taste of winter sun Happy #NationalVichyssoiseDay from "
     }
   ]
 }
