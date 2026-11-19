@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-11-11",
-    "theme": "Veterans Day",
-    "haiku": "Brave boots tread dawn soft\nEchoes of salute rise high\nStars shine on fields bright\nHappy #VeteransDay from @ClamBakeSanta",
-    "tag": "VeteransDay",
-    "logged_at": "2026-11-11T16:57:38.140259+00:00"
-  },
-  {
-    "date": "2026-11-11",
-    "theme": "National Sundae Day",
-    "haiku": "Cone swirls bright cream soft\nCherry sprinkles dance soft rain\nWarm syrup hugs tongue\nHappy #NationalSundaeDay from @ClamBakeSanta",
-    "tag": "NationalSundaeDay",
-    "logged_at": "2026-11-11T16:57:38.140259+00:00"
-  },
-  {
-    "date": "2026-11-11",
-    "theme": "Birthday Fyodor Dostoevsky",
-    "haiku": "Midnight candle sighs\nPages turn in quiet glow\nThoughts dance like soft light\n#HappyBirthdayFyodorDostoevsky from @ClamBakeSanta",
-    "tag": "HappyBirthdayFyodorDostoevsky",
-    "logged_at": "2026-11-11T16:57:38.140259+00:00"
-  },
-  {
-    "date": "2026-11-11",
-    "theme": "Birthday Kurt Vonnegut",
-    "haiku": "Soft candle glow bright\nPages turn with gentle hush\nInk drips like sunrise\n#HappyBirthdayKurtVonnegut from @ClamBakeSanta",
-    "tag": "HappyBirthdayKurtVonnegut",
-    "logged_at": "2026-11-11T16:57:38.140259+00:00"
-  },
-  {
     "date": "2026-11-12",
     "theme": "National Pizza with the Works Day",
     "haiku": "Warm crust sighs at dawn\nToppings dance, tomato steam\nCheese melts, sweet scent fills\nHappy #NationalPizzaWithTheWorksDay from @ClamBakeSanta",
@@ -187,5 +159,33 @@
     "haiku": "Silent night sky glows\nStreaks of silver paint the dark\nDreams dance on cold air\nHappy #LeonidMeteorShower from @ClamBakeSanta",
     "tag": "LeonidMeteorShower",
     "logged_at": "2026-11-17T18:22:21.151776+00:00"
+  },
+  {
+    "date": "2026-11-18",
+    "theme": "National Vichyssoise Day",
+    "haiku": "Creamy chill in bowl\nSilk broth swirls, bright spoon glides soft\nTaste of winter sun\nHappy #NationalVichyssoiseDay from @ClamBakeSanta",
+    "tag": "NationalVichyssoiseDay",
+    "logged_at": "2026-11-18T17:52:10.769813+00:00"
+  },
+  {
+    "date": "2026-11-18",
+    "theme": "National Occult Day",
+    "haiku": "Starlit paths unfold\nMoonlight drapes the night, hush soft\nWhispers stir the stars\nHappy #NationalOccultDay from @ClamBakeSanta",
+    "tag": "NationalOccultDay",
+    "logged_at": "2026-11-18T17:52:10.769813+00:00"
+  },
+  {
+    "date": "2026-11-18",
+    "theme": "Birthday Louis Daguerre",
+    "haiku": "Silver light bright flicks\nShadows dance on glass, film dreams\nFireflies glow, night sighs\n#HappyBirthdayLouisDaguerre from @ClamBakeSanta",
+    "tag": "HappyBirthdayLouisDaguerre",
+    "logged_at": "2026-11-18T17:52:10.769813+00:00"
+  },
+  {
+    "date": "2026-11-18",
+    "theme": "Birthday Alan Shepard",
+    "haiku": "Stars wink above night\nRocket dreams lift hearts high bright\nHope glows like sunrise\n#HappyBirthdayAlanShepard from @ClamBakeSanta",
+    "tag": "HappyBirthdayAlanShepard",
+    "logged_at": "2026-11-18T17:52:10.769813+00:00"
   }
 ]

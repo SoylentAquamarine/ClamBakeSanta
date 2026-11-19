@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "haikus": [
     {
-      "theme": "National Vichyssoise Day",
-      "haiku": "Creamy chill in bowl\nSilk broth swirls, bright spoon glides soft\nTaste of winter sun\nHappy #NationalVichyssoiseDay from @ClamBakeSanta",
-      "tag": "NationalVichyssoiseDay",
+      "theme": "National Carbonated Beverage with Caffeine Day",
+      "haiku": "Fizz sparks in glass soft\nSunrise pours bright bubbles near\nJoy swirls with each sip\nHappy #NationalCarbonatedBeverageWithCaffeineDay from @ClamBakeSanta",
+      "tag": "NationalCarbonatedBeverageWithCaffeineDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Occult Day",
-      "haiku": "Starlit paths unfold\nMoonlight drapes the night, hush soft\nWhispers stir the stars\nHappy #NationalOccultDay from @ClamBakeSanta",
-      "tag": "NationalOccultDay",
+      "theme": "Have a Bad Day Day",
+      "haiku": "Rain taps on pane soft\nCocoa scent curls in air warm\nSmiles rise like dawn bright\nHappy #HaveABadDayDay from @ClamBakeSanta",
+      "tag": "HaveABadDayDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Louis Daguerre",
-      "haiku": "Silver light bright flicks\nShadows dance on glass, film dreams\nFireflies glow, night sighs\n#HappyBirthdayLouisDaguerre from @ClamBakeSanta",
-      "tag": "HappyBirthdayLouisDaguerre",
+      "theme": "Birthday Indira Gandhi",
+      "haiku": "Soft dawn bright light glows\nGolden candles sway gently\nJoyful hearts rise high\n#HappyBirthdayIndiraGandhi from @ClamBakeSanta",
+      "tag": "HappyBirthdayIndiraGandhi",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Alan Shepard",
-      "haiku": "Stars wink above night\nRocket dreams lift hearts high bright\nHope glows like sunrise\n#HappyBirthdayAlanShepard from @ClamBakeSanta",
-      "tag": "HappyBirthdayAlanShepard",
+      "theme": "Birthday James Garfield",
+      "haiku": "Joyful candles glow\nBright smiles mix with sweet soft cake\nPresents swirl below\n#HappyBirthdayJamesGarfield from @ClamBakeSanta",
+      "tag": "HappyBirthdayJamesGarfield",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,11 @@
     }
   ],
   "themes": [
-    "National Vichyssoise Day",
-    "National Occult Day",
-    "Birthday Louis Daguerre",
-    "Birthday Alan Shepard"
+    "National Carbonated Beverage with Caffeine Day",
+    "Have a Bad Day Day",
+    "Birthday Indira Gandhi",
+    "Birthday James Garfield"
   ],
-  "content": "Creamy chill in bowl\nSilk broth swirls, bright spoon glides soft\nTaste of winter sun\nHappy #NationalVichyssoiseDay from @ClamBakeSanta\n\nStarlit paths unfold\nMoonlight drapes the night, hush soft\nWhispers stir the stars\nHappy #NationalOccultDay from @ClamBakeSanta\n\nSilver light bright flicks\nShadows dance on glass, film dreams\nFireflies glow, night sighs\n#HappyBirthdayLouisDaguerre from @ClamBakeSanta\n\nStars wink above night\nRocket dreams lift hearts high bright\nHope glows like sunrise\n#HappyBirthdayAlanShepard from @ClamBakeSanta",
-  "saved_at": "2026-11-18T17:52:10.769510+00:00"
+  "content": "Fizz sparks in glass soft\nSunrise pours bright bubbles near\nJoy swirls with each sip\nHappy #NationalCarbonatedBeverageWithCaffeineDay from @ClamBakeSanta\n\nRain taps on pane soft\nCocoa scent curls in air warm\nSmiles rise like dawn bright\nHappy #HaveABadDayDay from @ClamBakeSanta\n\nSoft dawn bright light glows\nGolden candles sway gently\nJoyful hearts rise high\n#HappyBirthdayIndiraGandhi from @ClamBakeSanta\n\nJoyful candles glow\nBright smiles mix with sweet soft cake\nPresents swirl below\n#HappyBirthdayJamesGarfield from @ClamBakeSanta",
+  "saved_at": "2026-11-19T18:02:42.661527+00:00"
 }
