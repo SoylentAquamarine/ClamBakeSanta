@@ -1,0 +1,130 @@
+{
+  "NationalVichyssoiseDay": {
+    "theme": "National Vichyssoise Day",
+    "haiku": "Creamy chill in bowl\nSilk broth swirls, bright spoon glides soft\nTaste of winter sun\nHappy #NationalVichyssoiseDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117638714588405615",
+        "url": "https://mastodon.social/@ClamBakeSanta/117638714588405615",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2m4vcnaeb2j",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833643815218839552",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-19T02:53:42.751752+00:00"
+  },
+  "NationalOccultDay": {
+    "theme": "National Occult Day",
+    "haiku": "Starlit paths unfold\nMoonlight drapes the night, hush soft\nWhispers stir the stars\nHappy #NationalOccultDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117638718547184388",
+        "url": "https://mastodon.social/@ClamBakeSanta/117638718547184388",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2m4x45nbm2c",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833643878732201984",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-19T02:53:42.751752+00:00"
+  },
+  "HappyBirthdayLouisDaguerre": {
+    "theme": "Birthday Louis Daguerre",
+    "haiku": "Silver light bright flicks\nShadows dance on glass, film dreams\nFireflies glow, night sighs\n#HappyBirthdayLouisDaguerre from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117638722512290538",
+        "url": "https://mastodon.social/@ClamBakeSanta/117638722512290538",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2m4yvj5k72k",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833643942242402304",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-19T02:53:42.751752+00:00"
+  },
+  "HappyBirthdayAlanShepard": {
+    "theme": "Birthday Alan Shepard",
+    "haiku": "Stars wink above night\nRocket dreams lift hearts high bright\nHope glows like sunrise\n#HappyBirthdayAlanShepard from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117638726494931614",
+        "url": "https://mastodon.social/@ClamBakeSanta/117638726494931614",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2m52pbd4m2z",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "833644005544853504",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-19T02:53:42.751752+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "225",
+        "url": "https://clambakesanta.wordpress.com/2026/11/18/clam-bake-santa-2026-11-18/",
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-11-19T02:53:42.751752+00:00"
+  }
+}
