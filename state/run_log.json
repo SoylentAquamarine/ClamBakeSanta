@@ -219,7 +219,8 @@
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
-    "2026-11-19"
+    "2026-11-19",
+    "2026-11-20"
   ],
   "runs": [
     {
@@ -2813,6 +2814,17 @@
         "Birthday James Garfield"
       ],
       "content_preview": "Fizz sparks in glass soft Sunrise pours bright bubbles near Joy swirls with each sip Happy #NationalCarbonatedBeverageWi"
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-20T17:46:16.359966+00:00",
+      "themes": [
+        "National Pineapple Upside-Down Cake Day",
+        "Beautiful Day",
+        "Birthday Edwin Hubble"
+      ],
+      "content_preview": "Pineapple shines bright Sugar drips like summer light Batter swirls, joy lifts Happy #NationalPineappleUpsideDownCakeDay"
     }
   ]
 }

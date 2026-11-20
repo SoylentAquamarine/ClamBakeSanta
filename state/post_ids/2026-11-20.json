@@ -1,0 +1,62 @@
+{
+  "NationalPineappleUpsideDownCakeDay": {
+    "mastodon": {
+      "id": "117649983665703373",
+      "url": "https://mastodon.social/@ClamBakeSanta/117649983665703373"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2r4y2suke2z",
+      "cid": "bafyreig2ndiyq4q62e3gw47o7eu46mzfvcxom564jhqsmr72qbscvx2z4u"
+    },
+    "tumblr": {
+      "id": "833823992974622720",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "720",
+      "channel": "@clambakesanta"
+    }
+  },
+  "BeautifulDay": {
+    "mastodon": {
+      "id": "117649987642659411",
+      "url": "https://mastodon.social/@ClamBakeSanta/117649987642659411"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2r4zuh6aa2c",
+      "cid": "bafyreigfbc37bujrjnq6jhpfkzyjmfqal2fwvumrvwtcoijmopl7rablxa"
+    },
+    "tumblr": {
+      "id": "833824056233033728",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "721",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayEdwinHubble": {
+    "mastodon": {
+      "id": "117649991603260572",
+      "url": "https://mastodon.social/@ClamBakeSanta/117649991603260572"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2r53o4k6s2m",
+      "cid": "bafyreick2fbmbdkyiaffaz4yx52y6tpmbsnqcfacu2ge4ncjtdxpd25ole"
+    },
+    "tumblr": {
+      "id": "833824119476862976",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "722",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "227",
+      "url": "https://clambakesanta.wordpress.com/2026/11/20/clam-bake-santa-2026-11-20/"
+    }
+  }
+}

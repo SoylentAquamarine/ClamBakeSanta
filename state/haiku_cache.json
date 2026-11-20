@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "haikus": [
     {
-      "theme": "National Carbonated Beverage with Caffeine Day",
-      "haiku": "Fizz sparks in glass soft\nSunrise pours bright bubbles near\nJoy swirls with each sip\nHappy #NationalCarbonatedBeverageWithCaffeineDay from @ClamBakeSanta",
-      "tag": "NationalCarbonatedBeverageWithCaffeineDay",
+      "theme": "National Pineapple Upside-Down Cake Day",
+      "haiku": "Pineapple shines bright\nSugar drips like summer light\nBatter swirls, joy lifts\nHappy #NationalPineappleUpsideDownCakeDay from @ClamBakeSanta",
+      "tag": "NationalPineappleUpsideDownCakeDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Have a Bad Day Day",
-      "haiku": "Rain taps on pane soft\nCocoa scent curls in air warm\nSmiles rise like dawn bright\nHappy #HaveABadDayDay from @ClamBakeSanta",
-      "tag": "HaveABadDayDay",
+      "theme": "Beautiful Day",
+      "haiku": "Sunrise paints gold light\nBirds sing soft as clouds drift by\nLeaves whisper bright joy\nHappy #BeautifulDay from @Clam",
+      "tag": "BeautifulDay",
       "syllable_counts": [
         5,
         7,
@@ -24,20 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Indira Gandhi",
-      "haiku": "Soft dawn bright light glows\nGolden candles sway gently\nJoyful hearts rise high\n#HappyBirthdayIndiraGandhi from @ClamBakeSanta",
-      "tag": "HappyBirthdayIndiraGandhi",
-      "syllable_counts": [
-        5,
-        7,
-        5
-      ],
-      "valid_syllables": true
-    },
-    {
-      "theme": "Birthday James Garfield",
-      "haiku": "Joyful candles glow\nBright smiles mix with sweet soft cake\nPresents swirl below\n#HappyBirthdayJamesGarfield from @ClamBakeSanta",
-      "tag": "HappyBirthdayJamesGarfield",
+      "theme": "Birthday Edwin Hubble",
+      "haiku": "Star dust twinkles bright\nGalaxies hum in night sky\nJoy climbs comet trail\n#HappyBirthdayEdwinHubble from @ClamBakeSanta",
+      "tag": "HappyBirthdayEdwinHubble",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +36,10 @@
     }
   ],
   "themes": [
-    "National Carbonated Beverage with Caffeine Day",
-    "Have a Bad Day Day",
-    "Birthday Indira Gandhi",
-    "Birthday James Garfield"
+    "National Pineapple Upside-Down Cake Day",
+    "Beautiful Day",
+    "Birthday Edwin Hubble"
   ],
-  "content": "Fizz sparks in glass soft\nSunrise pours bright bubbles near\nJoy swirls with each sip\nHappy #NationalCarbonatedBeverageWithCaffeineDay from @ClamBakeSanta\n\nRain taps on pane soft\nCocoa scent curls in air warm\nSmiles rise like dawn bright\nHappy #HaveABadDayDay from @ClamBakeSanta\n\nSoft dawn bright light glows\nGolden candles sway gently\nJoyful hearts rise high\n#HappyBirthdayIndiraGandhi from @ClamBakeSanta\n\nJoyful candles glow\nBright smiles mix with sweet soft cake\nPresents swirl below\n#HappyBirthdayJamesGarfield from @ClamBakeSanta",
-  "saved_at": "2026-11-19T18:02:42.661527+00:00"
+  "content": "Pineapple shines bright\nSugar drips like summer light\nBatter swirls, joy lifts\nHappy #NationalPineappleUpsideDownCakeDay from @ClamBakeSanta\n\nSunrise paints gold light\nBirds sing soft as clouds drift by\nLeaves whisper bright joy\nHappy #BeautifulDay from @Clam\n\nStar dust twinkles bright\nGalaxies hum in night sky\nJoy climbs comet trail\n#HappyBirthdayEdwinHubble from @ClamBakeSanta",
+  "saved_at": "2026-11-20T17:38:03.661939+00:00"
 }
