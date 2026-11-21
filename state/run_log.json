@@ -220,7 +220,8 @@
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
   "runs": [
     {
@@ -2825,6 +2826,17 @@
         "Birthday Edwin Hubble"
       ],
       "content_preview": "Pineapple shines bright Sugar drips like summer light Batter swirls, joy lifts Happy #NationalPineappleUpsideDownCakeDay"
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-21T16:47:42.839720+00:00",
+      "themes": [
+        "National Stuffing Day",
+        "World Hello Day",
+        "Birthday Voltaire"
+      ],
+      "content_preview": "Warm crumbs sighing soft Golden scent drifts up like cloud Tasting joy in air Happy #NationalStuffingDay from @ClamBakeS"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "haikus": [
     {
-      "theme": "National Pineapple Upside-Down Cake Day",
-      "haiku": "Pineapple shines bright\nSugar drips like summer light\nBatter swirls, joy lifts\nHappy #NationalPineappleUpsideDownCakeDay from @ClamBakeSanta",
-      "tag": "NationalPineappleUpsideDownCakeDay",
+      "theme": "National Stuffing Day",
+      "haiku": "Warm crumbs sighing soft\nGolden scent drifts up like cloud\nTasting joy in air\nHappy #NationalStuffingDay from @ClamBakeSanta",
+      "tag": "NationalStuffingDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Beautiful Day",
-      "haiku": "Sunrise paints gold light\nBirds sing soft as clouds drift by\nLeaves whisper bright joy\nHappy #BeautifulDay from @Clam",
-      "tag": "BeautifulDay",
+      "theme": "World Hello Day",
+      "haiku": "Morning sun greets all\nBright voices mingle, warm smile\nJoyful hearts rise, bright\nHappy #WorldHelloDay from @ClamBakeSanta",
+      "tag": "WorldHelloDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Edwin Hubble",
-      "haiku": "Star dust twinkles bright\nGalaxies hum in night sky\nJoy climbs comet trail\n#HappyBirthdayEdwinHubble from @ClamBakeSanta",
-      "tag": "HappyBirthdayEdwinHubble",
+      "theme": "Birthday Voltaire",
+      "haiku": "Bright candles flicker\nSilver laughter rises high\nJoyful snowflakes fall\n#HappyBirthdayVoltaire from @ClamBakeSanta",
+      "tag": "HappyBirthdayVoltaire",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Pineapple Upside-Down Cake Day",
-    "Beautiful Day",
-    "Birthday Edwin Hubble"
+    "National Stuffing Day",
+    "World Hello Day",
+    "Birthday Voltaire"
   ],
-  "content": "Pineapple shines bright\nSugar drips like summer light\nBatter swirls, joy lifts\nHappy #NationalPineappleUpsideDownCakeDay from @ClamBakeSanta\n\nSunrise paints gold light\nBirds sing soft as clouds drift by\nLeaves whisper bright joy\nHappy #BeautifulDay from @Clam\n\nStar dust twinkles bright\nGalaxies hum in night sky\nJoy climbs comet trail\n#HappyBirthdayEdwinHubble from @ClamBakeSanta",
-  "saved_at": "2026-11-20T17:38:03.661939+00:00"
+  "content": "Warm crumbs sighing soft\nGolden scent drifts up like cloud\nTasting joy in air\nHappy #NationalStuffingDay from @ClamBakeSanta\n\nMorning sun greets all\nBright voices mingle, warm smile\nJoyful hearts rise, bright\nHappy #WorldHelloDay from @ClamBakeSanta\n\nBright candles flicker\nSilver laughter rises high\nJoyful snowflakes fall\n#HappyBirthdayVoltaire from @ClamBakeSanta",
+  "saved_at": "2026-11-21T16:39:31.381075+00:00"
 }

@@ -1,0 +1,55 @@
+[
+  {
+    "timestamp": "2026-11-21T16:47:42.841362+00:00",
+    "date": "2026-11-21",
+    "themes_found": [
+      "National Stuffing Day",
+      "World Hello Day",
+      "Birthday Voltaire"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Stuffing Day",
+        "tag": "NationalStuffingDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "World Hello Day",
+        "tag": "WorldHelloDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Voltaire",
+        "tag": "HappyBirthdayVoltaire",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]
