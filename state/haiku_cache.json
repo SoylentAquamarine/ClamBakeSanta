@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "haikus": [
     {
-      "theme": "National Stuffing Day",
-      "haiku": "Warm crumbs sighing soft\nGolden scent drifts up like cloud\nTasting joy in air\nHappy #NationalStuffingDay from @ClamBakeSanta",
-      "tag": "NationalStuffingDay",
+      "theme": "National Cranberry Relish Day",
+      "haiku": "Red berries sing bright\nSweet tang on tongue, crisp bite soft\nLog glow warm near soft\nHappy #NationalCranberryRelishDay from @ClamBakeSanta",
+      "tag": "NationalCranberryRelishDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "World Hello Day",
-      "haiku": "Morning sun greets all\nBright voices mingle, warm smile\nJoyful hearts rise, bright\nHappy #WorldHelloDay from @ClamBakeSanta",
-      "tag": "WorldHelloDay",
+      "theme": "Go for a Ride Day",
+      "haiku": "Sunrise paints the road\nKids laugh as wheels spin bright glee\nSun warms the pavement\nHappy #GoForARideDay from @ClamBakeSanta",
+      "tag": "GoForARideDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Voltaire",
-      "haiku": "Bright candles flicker\nSilver laughter rises high\nJoyful snowflakes fall\n#HappyBirthdayVoltaire from @ClamBakeSanta",
-      "tag": "HappyBirthdayVoltaire",
+      "theme": "Birthday George Eliot",
+      "haiku": "Soft dawn light drapes warm\nCandles flicker, laughter swirls\nJoyful pages turn\n#HappyBirthdayGeorgeEliot from @ClamBakeSanta",
+      "tag": "HappyBirthdayGeorgeEliot",
       "syllable_counts": [
         5,
         7,
@@ -36,10 +36,10 @@
     }
   ],
   "themes": [
-    "National Stuffing Day",
-    "World Hello Day",
-    "Birthday Voltaire"
+    "National Cranberry Relish Day",
+    "Go for a Ride Day",
+    "Birthday George Eliot"
   ],
-  "content": "Warm crumbs sighing soft\nGolden scent drifts up like cloud\nTasting joy in air\nHappy #NationalStuffingDay from @ClamBakeSanta\n\nMorning sun greets all\nBright voices mingle, warm smile\nJoyful hearts rise, bright\nHappy #WorldHelloDay from @ClamBakeSanta\n\nBright candles flicker\nSilver laughter rises high\nJoyful snowflakes fall\n#HappyBirthdayVoltaire from @ClamBakeSanta",
-  "saved_at": "2026-11-21T16:39:31.381075+00:00"
+  "content": "Red berries sing bright\nSweet tang on tongue, crisp bite soft\nLog glow warm near soft\nHappy #NationalCranberryRelishDay from @ClamBakeSanta\n\nSunrise paints the road\nKids laugh as wheels spin bright glee\nSun warms the pavement\nHappy #GoForARideDay from @ClamBakeSanta\n\nSoft dawn light drapes warm\nCandles flicker, laughter swirls\nJoyful pages turn\n#HappyBirthdayGeorgeEliot from @ClamBakeSanta",
+  "saved_at": "2026-11-22T16:57:50.583276+00:00"
 }

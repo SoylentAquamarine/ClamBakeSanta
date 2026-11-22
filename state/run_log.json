@@ -221,7 +221,8 @@
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
   "runs": [
     {
@@ -2837,6 +2838,17 @@
         "Birthday Voltaire"
       ],
       "content_preview": "Warm crumbs sighing soft Golden scent drifts up like cloud Tasting joy in air Happy #NationalStuffingDay from @ClamBakeS"
+    },
+    {
+      "date": "2026-11-22",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-22T17:06:05.524351+00:00",
+      "themes": [
+        "National Cranberry Relish Day",
+        "Go for a Ride Day",
+        "Birthday George Eliot"
+      ],
+      "content_preview": "Red berries sing bright Sweet tang on tongue, crisp bite soft Log glow warm near soft Happy #NationalCranberryRelishDay "
     }
   ]
 }

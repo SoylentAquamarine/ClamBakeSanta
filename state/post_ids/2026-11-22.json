@@ -1,0 +1,62 @@
+{
+  "NationalCranberryRelishDay": {
+    "mastodon": {
+      "id": "117661150145126698",
+      "url": "https://mastodon.social/@ClamBakeSanta/117661150145126698"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2w3nz43rm2p",
+      "cid": "bafyreih7wmvvrwzyzznbzi3le7alfauhukeqwz7mvquzlz56g7yjpywlie"
+    },
+    "tumblr": {
+      "id": "834002657108787200",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "726",
+      "channel": "@clambakesanta"
+    }
+  },
+  "GoForARideDay": {
+    "mastodon": {
+      "id": "117661154145393572",
+      "url": "https://mastodon.social/@ClamBakeSanta/117661154145393572"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2w3pslf752f",
+      "cid": "bafyreigdfsnuxmpw77gsgho4bf2vp2hbv223j3dqglfl53u75ywvl26myi"
+    },
+    "tumblr": {
+      "id": "834002720523534338",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "727",
+      "channel": "@clambakesanta"
+    }
+  },
+  "HappyBirthdayGeorgeEliot": {
+    "mastodon": {
+      "id": "117661158104027020",
+      "url": "https://mastodon.social/@ClamBakeSanta/117661158104027020"
+    },
+    "bluesky": {
+      "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2w3rm2omn2f",
+      "cid": "bafyreid2o4fsxqbxvrjwhc6xj2vj65phxsntx57hnjfkhr5qvlk33xbqcy"
+    },
+    "tumblr": {
+      "id": "834002784318783488",
+      "blog_name": "clambakesanta"
+    },
+    "telegram": {
+      "id": "728",
+      "channel": "@clambakesanta"
+    }
+  },
+  "_wp_daily": {
+    "wordpress": {
+      "id": "229",
+      "url": "https://clambakesanta.wordpress.com/2026/11/22/clam-bake-santa-2026-11-22/"
+    }
+  }
+}
