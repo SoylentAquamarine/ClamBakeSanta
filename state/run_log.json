@@ -222,7 +222,8 @@
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
-    "2026-11-22"
+    "2026-11-22",
+    "2026-11-23"
   ],
   "runs": [
     {
@@ -2849,6 +2850,18 @@
         "Birthday George Eliot"
       ],
       "content_preview": "Red berries sing bright Sweet tang on tongue, crisp bite soft Log glow warm near soft Happy #NationalCranberryRelishDay "
+    },
+    {
+      "date": "2026-11-23",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-23T21:10:28.294972+00:00",
+      "themes": [
+        "National Espresso Day",
+        "National Cashew Day",
+        "Birthday Billy the Kid",
+        "Welcome to Sagittarius Season"
+      ],
+      "content_preview": "Dark roast wakes dawn soft Steam curls, amber kiss warm hug Velvet taste, sunrise Happy #NationalEspressoDay from @ClamB"
     }
   ]
 }

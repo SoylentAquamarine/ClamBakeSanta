@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-11-23T21:10:28.297213+00:00",
+    "date": "2026-11-23",
+    "themes_found": [
+      "National Espresso Day",
+      "National Cashew Day",
+      "Birthday Billy the Kid",
+      "Welcome to Sagittarius Season"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Espresso Day",
+        "tag": "NationalEspressoDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "National Cashew Day",
+        "tag": "NationalCashewDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Billy the Kid",
+        "tag": "HappyBirthdayBillytheKid",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Welcome to Sagittarius Season",
+        "tag": "WelcomeToSagittariusSeason",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]
