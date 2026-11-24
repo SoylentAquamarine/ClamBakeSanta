@@ -1,0 +1,130 @@
+{
+  "NationalEspressoDay": {
+    "theme": "National Espresso Day",
+    "haiku": "Dark roast wakes dawn soft\nSteam curls, amber kiss warm hug\nVelvet taste, sunrise\nHappy #NationalEspressoDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117667757609278408",
+        "url": "https://mastodon.social/@ClamBakeSanta/117667757609278408",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2yzmjrjxz2a",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834108502774513664",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-24T05:41:14.949013+00:00"
+  },
+  "NationalCashewDay": {
+    "theme": "National Cashew Day",
+    "haiku": "Crunchy cashews glow\nSunlit forest hums sweet crunch\nNuts whisper warm bliss\nHappy #NationalCashewDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117667761568439831",
+        "url": "https://mastodon.social/@ClamBakeSanta/117667761568439831",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2yzodarm62d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834108566120038400",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-24T05:41:14.949013+00:00"
+  },
+  "HappyBirthdayBillytheKid": {
+    "theme": "Birthday Billy the Kid",
+    "haiku": "Bright sun on the ridge\nBilly rides past pine trees soft\nFireworks light the sky\n#HappyBirthdayBillytheKid from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117667765531477072",
+        "url": "https://mastodon.social/@ClamBakeSanta/117667765531477072",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2yzq4ozvj2j",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834108629386936320",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-24T05:41:14.949013+00:00"
+  },
+  "WelcomeToSagittariusSeason": {
+    "theme": "Welcome to Sagittarius Season",
+    "haiku": "Sunlit sky turns green\nFireflies dance in amber glow\nNight hums warm whispers\nHappy #WelcomeToSagittariusSeason from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117667769513657989",
+        "url": "https://mastodon.social/@ClamBakeSanta/117667769513657989",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n2yzrw5jqz27",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834108692835237888",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-24T05:41:14.949013+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "230",
+        "url": "https://clambakesanta.wordpress.com/2026/11/23/clam-bake-santa-2026-11-23/",
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-11-24T05:41:14.949013+00:00"
+  }
+}
