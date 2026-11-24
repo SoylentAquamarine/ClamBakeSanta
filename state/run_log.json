@@ -223,7 +223,8 @@
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
   ],
   "runs": [
     {
@@ -2862,6 +2863,19 @@
         "Welcome to Sagittarius Season"
       ],
       "content_preview": "Dark roast wakes dawn soft Steam curls, amber kiss warm hug Velvet taste, sunrise Happy #NationalEspressoDay from @ClamB"
+    },
+    {
+      "date": "2026-11-24",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-24T20:17:19.076485+00:00",
+      "themes": [
+        "National Sardines Day",
+        "D.B. Cooper Day",
+        "Birthday Toulouse-Lautrec",
+        "Birthday Scott Joplin",
+        "Full Moon"
+      ],
+      "content_preview": "Salt spray kisses skin Ocean hums bright, waves sing soft Tuna glints, joy stirs Happy #NationalSardinesDay from @ClamBa"
     }
   ]
 }

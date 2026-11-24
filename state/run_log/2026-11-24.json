@@ -1,17 +1,18 @@
 [
   {
-    "timestamp": "2026-10-24T13:22:39.611383+00:00",
-    "date": "2026-10-24",
+    "timestamp": "2026-11-24T20:17:19.078833+00:00",
+    "date": "2026-11-24",
     "themes_found": [
-      "National Bologna Day",
-      "World Tripe Day",
-      "Birthday Kevin Kline",
-      "Welcome to Scorpio Season"
+      "National Sardines Day",
+      "D.B. Cooper Day",
+      "Birthday Toulouse-Lautrec",
+      "Birthday Scott Joplin",
+      "Full Moon"
     ],
     "haikus_posted": [
       {
-        "theme": "National Bologna Day",
-        "tag": "NationalBolognaDay",
+        "theme": "National Sardines Day",
+        "tag": "NationalSardinesDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +21,8 @@
         ]
       },
       {
-        "theme": "World Tripe Day",
-        "tag": "WorldTripeDay",
+        "theme": "D.B. Cooper Day",
+        "tag": "DBCooperDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +31,8 @@
         ]
       },
       {
-        "theme": "Birthday Kevin Kline",
-        "tag": "HappyBirthdayKevinKline",
+        "theme": "Birthday Toulouse-Lautrec",
+        "tag": "HappyBirthdayToulouseLautrec",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +41,18 @@
         ]
       },
       {
-        "theme": "Welcome to Scorpio Season",
-        "tag": "WelcomeToScorpioSeason",
+        "theme": "Birthday Scott Joplin",
+        "tag": "HappyBirthdayScottJoplin",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Full Moon",
+        "tag": "FullMoon",
         "valid_syllables": true,
         "counts": [
           5,

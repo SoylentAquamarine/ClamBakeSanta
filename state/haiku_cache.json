@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "haikus": [
     {
-      "theme": "National Espresso Day",
-      "haiku": "Dark roast wakes dawn soft\nSteam curls, amber kiss warm hug\nVelvet taste, sunrise\nHappy #NationalEspressoDay from @ClamBakeSanta",
-      "tag": "NationalEspressoDay",
+      "theme": "National Sardines Day",
+      "haiku": "Salt spray kisses skin\nOcean hums bright, waves sing soft\nTuna glints, joy stirs\nHappy #NationalSardinesDay from @ClamBakeSanta",
+      "tag": "NationalSardinesDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "National Cashew Day",
-      "haiku": "Crunchy cashews glow\nSunlit forest hums sweet crunch\nNuts whisper warm bliss\nHappy #NationalCashewDay from @ClamBakeSanta",
-      "tag": "NationalCashewDay",
+      "theme": "D.B. Cooper Day",
+      "haiku": "Midnight sky cracks soft\nSilver wind rides high over\nGlint of hope rises\nHappy #DBCooperDay from @ClamBakeSanta",
+      "tag": "DBCooperDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Billy the Kid",
-      "haiku": "Bright sun on the ridge\nBilly rides past pine trees soft\nFireworks light the sky\n#HappyBirthdayBillytheKid from @ClamBakeSanta",
-      "tag": "HappyBirthdayBillytheKid",
+      "theme": "Birthday Toulouse-Lautrec",
+      "haiku": "Brush strokes paint soft night\nColor spills on canvas glow\nJoyful hue wakes dreams\n#HappyBirthdayToulouseLautrec from @ClamBakeSanta",
+      "tag": "HappyBirthdayToulouseLautrec",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,20 @@
       "valid_syllables": true
     },
     {
-      "theme": "Welcome to Sagittarius Season",
-      "haiku": "Sunlit sky turns green\nFireflies dance in amber glow\nNight hums warm whispers\nHappy #WelcomeToSagittariusSeason from @ClamBakeSanta",
-      "tag": "WelcomeToSagittariusSeason",
+      "theme": "Birthday Scott Joplin",
+      "haiku": "Soft brass notes rise bright\nMoonlight taps on keys softly\nJoy swirls in brass warm\n#HappyBirthdayScottJoplin from @ClamBakeSanta",
+      "tag": "HappyBirthdayScottJoplin",
+      "syllable_counts": [
+        5,
+        7,
+        5
+      ],
+      "valid_syllables": true
+    },
+    {
+      "theme": "Full Moon",
+      "haiku": "Night sky turns silver\nCrickets hum beneath soft moon\nWaves whisper, glow bright\nHappy #FullMoon from @ClamBakeSanta",
+      "tag": "FullMoon",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +58,12 @@
     }
   ],
   "themes": [
-    "National Espresso Day",
-    "National Cashew Day",
-    "Birthday Billy the Kid",
-    "Welcome to Sagittarius Season"
+    "National Sardines Day",
+    "D.B. Cooper Day",
+    "Birthday Toulouse-Lautrec",
+    "Birthday Scott Joplin",
+    "Full Moon"
   ],
-  "content": "Dark roast wakes dawn soft\nSteam curls, amber kiss warm hug\nVelvet taste, sunrise\nHappy #NationalEspressoDay from @ClamBakeSanta\n\nCrunchy cashews glow\nSunlit forest hums sweet crunch\nNuts whisper warm bliss\nHappy #NationalCashewDay from @ClamBakeSanta\n\nBright sun on the ridge\nBilly rides past pine trees soft\nFireworks light the sky\n#HappyBirthdayBillytheKid from @ClamBakeSanta\n\nSunlit sky turns green\nFireflies dance in amber glow\nNight hums warm whispers\nHappy #WelcomeToSagittariusSeason from @ClamBakeSanta",
-  "saved_at": "2026-11-23T20:58:12.592290+00:00"
+  "content": "Salt spray kisses skin\nOcean hums bright, waves sing soft\nTuna glints, joy stirs\nHappy #NationalSardinesDay from @ClamBakeSanta\n\nMidnight sky cracks soft\nSilver wind rides high over\nGlint of hope rises\nHappy #DBCooperDay from @ClamBakeSanta\n\nBrush strokes paint soft night\nColor spills on canvas glow\nJoyful hue wakes dreams\n#HappyBirthdayToulouseLautrec from @ClamBakeSanta\n\nSoft brass notes rise bright\nMoonlight taps on keys softly\nJoy swirls in brass warm\n#HappyBirthdayScottJoplin from @ClamBakeSanta\n\nNight sky turns silver\nCrickets hum beneath soft moon\nWaves whisper, glow bright\nHappy #FullMoon from @ClamBakeSanta",
+  "saved_at": "2026-11-24T20:01:03.277595+00:00"
 }

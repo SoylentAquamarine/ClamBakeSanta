@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-11-16",
-    "theme": "National Fast Food Day",
-    "haiku": "Buns steam in sunshine\nGolden fries dance with salt bright\nTaste buds sing a cheer\nHappy #NationalFastFoodDay from @ClamBakeSanta",
-    "tag": "NationalFastFoodDay",
-    "logged_at": "2026-11-16T19:23:22.352326+00:00"
-  },
-  {
-    "date": "2026-11-16",
-    "theme": "International Day for Tolerance",
-    "haiku": "Gentle breeze sings soft\nColors mingle in warm glow\nHands join hearts lift high\nHappy #InternationalDayForTolerance from @ClamBakeSanta",
-    "tag": "InternationalDayForTolerance",
-    "logged_at": "2026-11-16T19:23:22.352326+00:00"
-  },
-  {
-    "date": "2026-11-16",
-    "theme": "Birthday W.C. Handy",
-    "haiku": "Melody wakes dawn\nBright chords spill through cool air soft\nJoy rings in warm glass\n#HappyBirthdayWCHandy from @ClamBakeSanta",
-    "tag": "HappyBirthdayWCHandy",
-    "logged_at": "2026-11-16T19:23:22.352326+00:00"
-  },
-  {
     "date": "2026-11-17",
     "theme": "National Baklava Day",
     "haiku": "Golden crumbs lift high\nHoney drizzle soft sweet scent\nWarm crust deep sighs joy\nHappy #NationalBaklavaDay from @ClamBakeSanta",
@@ -173,5 +152,33 @@
     "haiku": "Soft dawn light drapes warm\nCandles flicker, laughter swirls\nJoyful pages turn\n#HappyBirthdayGeorgeEliot from @ClamBakeSanta",
     "tag": "HappyBirthdayGeorgeEliot",
     "logged_at": "2026-11-22T16:57:50.583742+00:00"
+  },
+  {
+    "date": "2026-11-23",
+    "theme": "National Espresso Day",
+    "haiku": "Dark roast wakes dawn soft\nSteam curls, amber kiss warm hug\nVelvet taste, sunrise\nHappy #NationalEspressoDay from @ClamBakeSanta",
+    "tag": "NationalEspressoDay",
+    "logged_at": "2026-11-23T20:58:12.592781+00:00"
+  },
+  {
+    "date": "2026-11-23",
+    "theme": "National Cashew Day",
+    "haiku": "Crunchy cashews glow\nSunlit forest hums sweet crunch\nNuts whisper warm bliss\nHappy #NationalCashewDay from @ClamBakeSanta",
+    "tag": "NationalCashewDay",
+    "logged_at": "2026-11-23T20:58:12.592781+00:00"
+  },
+  {
+    "date": "2026-11-23",
+    "theme": "Birthday Billy the Kid",
+    "haiku": "Bright sun on the ridge\nBilly rides past pine trees soft\nFireworks light the sky\n#HappyBirthdayBillytheKid from @ClamBakeSanta",
+    "tag": "HappyBirthdayBillytheKid",
+    "logged_at": "2026-11-23T20:58:12.592781+00:00"
+  },
+  {
+    "date": "2026-11-23",
+    "theme": "Welcome to Sagittarius Season",
+    "haiku": "Sunlit sky turns green\nFireflies dance in amber glow\nNight hums warm whispers\nHappy #WelcomeToSagittariusSeason from @ClamBakeSanta",
+    "tag": "WelcomeToSagittariusSeason",
+    "logged_at": "2026-11-23T20:58:12.592781+00:00"
   }
 ]
