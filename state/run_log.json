@@ -224,7 +224,8 @@
     "2026-11-21",
     "2026-11-22",
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-25"
   ],
   "runs": [
     {
@@ -2876,6 +2877,18 @@
         "Full Moon"
       ],
       "content_preview": "Salt spray kisses skin Ocean hums bright, waves sing soft Tuna glints, joy stirs Happy #NationalSardinesDay from @ClamBa"
+    },
+    {
+      "date": "2026-11-25",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-25T19:13:06.067294+00:00",
+      "themes": [
+        "National Parfait Day",
+        "International Day for the Elimination of Violence",
+        "Birthday Andrew Carnegie",
+        "Birthday Joe DiMaggio"
+      ],
+      "content_preview": "Layered swirls of joy Honey drips like soft sunshine Berries kiss the cream Happy #NationalParfaitDay from @ClamBakeSant"
     }
   ]
 }

@@ -1,17 +1,17 @@
 [
   {
-    "timestamp": "2026-10-25T13:48:52.900792+00:00",
-    "date": "2026-10-25",
+    "timestamp": "2026-11-25T19:13:06.069191+00:00",
+    "date": "2026-11-25",
     "themes_found": [
-      "National Greasy Food Day",
-      "World Pasta Day",
-      "Birthday Pablo Picasso",
-      "Birthday Johann Strauss II"
+      "National Parfait Day",
+      "International Day for the Elimination of Violence",
+      "Birthday Andrew Carnegie",
+      "Birthday Joe DiMaggio"
     ],
     "haikus_posted": [
       {
-        "theme": "National Greasy Food Day",
-        "tag": "NationalGreasyFoodDay",
+        "theme": "National Parfait Day",
+        "tag": "NationalParfaitDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +20,8 @@
         ]
       },
       {
-        "theme": "World Pasta Day",
-        "tag": "WorldPastaDay",
+        "theme": "International Day for the Elimination of Violence",
+        "tag": "InternationalDayForTheEliminationOfViolence",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "theme": "Birthday Pablo Picasso",
-        "tag": "HappyBirthdayPabloPicasso",
+        "theme": "Birthday Andrew Carnegie",
+        "tag": "HappyBirthdayAndrewCarnegie",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "theme": "Birthday Johann Strauss II",
-        "tag": "HappyBirthdayJohannStraussII",
+        "theme": "Birthday Joe DiMaggio",
+        "tag": "HappyBirthdayJoeDiMaggio",
         "valid_syllables": true,
         "counts": [
           5,

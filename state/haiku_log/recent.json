@@ -1,40 +1,5 @@
 [
   {
-    "date": "2026-11-17",
-    "theme": "National Baklava Day",
-    "haiku": "Golden crumbs lift high\nHoney drizzle soft sweet scent\nWarm crust deep sighs joy\nHappy #NationalBaklavaDay from @ClamBakeSanta",
-    "tag": "NationalBaklavaDay",
-    "logged_at": "2026-11-17T18:22:21.151776+00:00"
-  },
-  {
-    "date": "2026-11-17",
-    "theme": "National Hiking Day",
-    "haiku": "Trail winds through green soft\nSunlight bright filters, leaves hum\nFeet echo in moss\nHappy #NationalHikingDay from @ClamBakeSanta",
-    "tag": "NationalHikingDay",
-    "logged_at": "2026-11-17T18:22:21.151776+00:00"
-  },
-  {
-    "date": "2026-11-17",
-    "theme": "Birthday Danny DeVito",
-    "haiku": "Tiny candles glow\nSoft laughter fills bright warm room\nJoyful cheers rise high\n#HappyBirthdayDannyDeVito from @ClamBakeSanta",
-    "tag": "HappyBirthdayDannyDeVito",
-    "logged_at": "2026-11-17T18:22:21.151776+00:00"
-  },
-  {
-    "date": "2026-11-17",
-    "theme": "First Quarter Moon",
-    "haiku": "Crimson dusk settles\nSilver arc climbs bright skyward\nNight breathes gentle glow\nHappy #FirstQuarterMoon from @ClamBakeSanta",
-    "tag": "FirstQuarterMoon",
-    "logged_at": "2026-11-17T18:22:21.151776+00:00"
-  },
-  {
-    "date": "2026-11-17",
-    "theme": "Leonid Meteor Shower",
-    "haiku": "Silent night sky glows\nStreaks of silver paint the dark\nDreams dance on cold air\nHappy #LeonidMeteorShower from @ClamBakeSanta",
-    "tag": "LeonidMeteorShower",
-    "logged_at": "2026-11-17T18:22:21.151776+00:00"
-  },
-  {
     "date": "2026-11-18",
     "theme": "National Vichyssoise Day",
     "haiku": "Creamy chill in bowl\nSilk broth swirls, bright spoon glides soft\nTaste of winter sun\nHappy #NationalVichyssoiseDay from @ClamBakeSanta",
@@ -180,5 +145,40 @@
     "haiku": "Sunlit sky turns green\nFireflies dance in amber glow\nNight hums warm whispers\nHappy #WelcomeToSagittariusSeason from @ClamBakeSanta",
     "tag": "WelcomeToSagittariusSeason",
     "logged_at": "2026-11-23T20:58:12.592781+00:00"
+  },
+  {
+    "date": "2026-11-24",
+    "theme": "National Sardines Day",
+    "haiku": "Salt spray kisses skin\nOcean hums bright, waves sing soft\nTuna glints, joy stirs\nHappy #NationalSardinesDay from @ClamBakeSanta",
+    "tag": "NationalSardinesDay",
+    "logged_at": "2026-11-24T20:01:03.277981+00:00"
+  },
+  {
+    "date": "2026-11-24",
+    "theme": "D.B. Cooper Day",
+    "haiku": "Midnight sky cracks soft\nSilver wind rides high over\nGlint of hope rises\nHappy #DBCooperDay from @ClamBakeSanta",
+    "tag": "DBCooperDay",
+    "logged_at": "2026-11-24T20:01:03.277981+00:00"
+  },
+  {
+    "date": "2026-11-24",
+    "theme": "Birthday Toulouse-Lautrec",
+    "haiku": "Brush strokes paint soft night\nColor spills on canvas glow\nJoyful hue wakes dreams\n#HappyBirthdayToulouseLautrec from @ClamBakeSanta",
+    "tag": "HappyBirthdayToulouseLautrec",
+    "logged_at": "2026-11-24T20:01:03.277981+00:00"
+  },
+  {
+    "date": "2026-11-24",
+    "theme": "Birthday Scott Joplin",
+    "haiku": "Soft brass notes rise bright\nMoonlight taps on keys softly\nJoy swirls in brass warm\n#HappyBirthdayScottJoplin from @ClamBakeSanta",
+    "tag": "HappyBirthdayScottJoplin",
+    "logged_at": "2026-11-24T20:01:03.277981+00:00"
+  },
+  {
+    "date": "2026-11-24",
+    "theme": "Full Moon",
+    "haiku": "Night sky turns silver\nCrickets hum beneath soft moon\nWaves whisper, glow bright\nHappy #FullMoon from @ClamBakeSanta",
+    "tag": "FullMoon",
+    "logged_at": "2026-11-24T20:01:03.277981+00:00"
   }
 ]
