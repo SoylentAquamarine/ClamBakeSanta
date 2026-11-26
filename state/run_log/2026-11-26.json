@@ -1,17 +1,18 @@
 [
   {
-    "timestamp": "2026-10-26T16:09:13.027566+00:00",
-    "date": "2026-10-26",
+    "timestamp": "2026-11-26T19:06:45.235126+00:00",
+    "date": "2026-11-26",
     "themes_found": [
-      "National Mincemeat Pie Day",
-      "National Pumpkin Day",
-      "Birthday Mahalia Jackson",
-      "Full Moon"
+      "National Cake Day",
+      "Shopping Reminder Day",
+      "Thanksgiving Day",
+      "Birthday Charles Schulz",
+      "Birthday Tina Turner"
     ],
     "haikus_posted": [
       {
-        "theme": "National Mincemeat Pie Day",
-        "tag": "NationalMincemeatPieDay",
+        "theme": "Shopping Reminder Day",
+        "tag": "ShoppingReminderDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -20,8 +21,8 @@
         ]
       },
       {
-        "theme": "National Pumpkin Day",
-        "tag": "NationalPumpkinDay",
+        "theme": "Thanksgiving Day",
+        "tag": "ThanksgivingDay",
         "valid_syllables": true,
         "counts": [
           5,
@@ -30,8 +31,8 @@
         ]
       },
       {
-        "theme": "Birthday Mahalia Jackson",
-        "tag": "HappyBirthdayMahaliaJackson",
+        "theme": "Birthday Charles Schulz",
+        "tag": "HappyBirthdayCharlesSchulz",
         "valid_syllables": true,
         "counts": [
           5,
@@ -40,8 +41,8 @@
         ]
       },
       {
-        "theme": "Full Moon",
-        "tag": "FullMoon",
+        "theme": "Birthday Tina Turner",
+        "tag": "HappyBirthdayTinaTurner",
         "valid_syllables": true,
         "counts": [
           5,
@@ -50,7 +51,13 @@
         ]
       }
     ],
-    "writers_block": [],
+    "writers_block": [
+      {
+        "theme": "National Cake Day",
+        "tag": "NationalCakeDay",
+        "attempts": 14
+      }
+    ],
     "adapters_ok": [
       "mastodon",
       "bluesky",

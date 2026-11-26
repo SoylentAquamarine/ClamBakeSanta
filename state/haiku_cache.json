@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "haikus": [
     {
-      "theme": "National Parfait Day",
-      "haiku": "Layered swirls of joy\nHoney drips like soft sunshine\nBerries kiss the cream\nHappy #NationalParfaitDay from @ClamBakeSanta",
-      "tag": "NationalParfaitDay",
+      "theme": "Shopping Reminder Day",
+      "haiku": "Cart glows with bright hope\nShoppers laugh, bags dance, bright noon\nToys sparkle, joy sings\nHappy #ShoppingReminderDay from @ClamBakeSanta",
+      "tag": "ShoppingReminderDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "International Day for the Elimination of Violence",
-      "haiku": "Gentle dawn hums hope\nSoft breeze carries kind song near\nHands weave peace warm bright\nHappy #InternationalDayForTheEliminationOfViolence from @ClamBakeSanta",
-      "tag": "InternationalDayForTheEliminationOfViolence",
+      "theme": "Thanksgiving Day",
+      "haiku": "Golden leaves drift soft\nPumpkin scent fills deep warm halls\nCrows call, night settles\nHappy #ThanksgivingDay from @ClamBakeSanta",
+      "tag": "ThanksgivingDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Andrew Carnegie",
-      "haiku": "Bright candles rise high\nWarm glow fills the hall with cheer\nember glow lights bright\n#HappyBirthdayAndrewCarnegie from @ClamBakeSanta",
-      "tag": "HappyBirthdayAndrewCarnegie",
+      "theme": "Birthday Charles Schulz",
+      "haiku": "Bubbles lift, bright up\nCartoon clouds drift over town\nJoyful laughter rings\n#HappyBirthdayCharlesSchulz from @ClamBakeSanta",
+      "tag": "HappyBirthdayCharlesSchulz",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Joe DiMaggio",
-      "haiku": "Golden field at dusk\nSoft breeze hums, fireflies glow bright\nJoy rides the night soft\n#HappyBirthdayJoeDiMaggio from @ClamBakeSanta",
-      "tag": "HappyBirthdayJoeDiMaggio",
+      "theme": "Birthday Tina Turner",
+      "haiku": "Golden lights dance soft\nSwaying rhythms fill the air\nVibrant cheers rise high\n#HappyBirthdayTinaTurner from @ClamBakeSanta",
+      "tag": "HappyBirthdayTinaTurner",
       "syllable_counts": [
         5,
         7,
@@ -47,11 +47,12 @@
     }
   ],
   "themes": [
-    "National Parfait Day",
-    "International Day for the Elimination of Violence",
-    "Birthday Andrew Carnegie",
-    "Birthday Joe DiMaggio"
+    "National Cake Day",
+    "Shopping Reminder Day",
+    "Thanksgiving Day",
+    "Birthday Charles Schulz",
+    "Birthday Tina Turner"
   ],
-  "content": "Layered swirls of joy\nHoney drips like soft sunshine\nBerries kiss the cream\nHappy #NationalParfaitDay from @ClamBakeSanta\n\nGentle dawn hums hope\nSoft breeze carries kind song near\nHands weave peace warm bright\nHappy #InternationalDayForTheEliminationOfViolence from @ClamBakeSanta\n\nBright candles rise high\nWarm glow fills the hall with cheer\nember glow lights bright\n#HappyBirthdayAndrewCarnegie from @ClamBakeSanta\n\nGolden field at dusk\nSoft breeze hums, fireflies glow bright\nJoy rides the night soft\n#HappyBirthdayJoeDiMaggio from @ClamBakeSanta",
-  "saved_at": "2026-11-25T19:00:51.304410+00:00"
+  "content": "Cart glows with bright hope\nShoppers laugh, bags dance, bright noon\nToys sparkle, joy sings\nHappy #ShoppingReminderDay from @ClamBakeSanta\n\nGolden leaves drift soft\nPumpkin scent fills deep warm halls\nCrows call, night settles\nHappy #ThanksgivingDay from @ClamBakeSanta\n\nBubbles lift, bright up\nCartoon clouds drift over town\nJoyful laughter rings\n#HappyBirthdayCharlesSchulz from @ClamBakeSanta\n\nGolden lights dance soft\nSwaying rhythms fill the air\nVibrant cheers rise high\n#HappyBirthdayTinaTurner from @ClamBakeSanta",
+  "saved_at": "2026-11-26T18:54:31.166175+00:00"
 }

@@ -225,7 +225,8 @@
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
   ],
   "runs": [
     {
@@ -2889,6 +2890,19 @@
         "Birthday Joe DiMaggio"
       ],
       "content_preview": "Layered swirls of joy Honey drips like soft sunshine Berries kiss the cream Happy #NationalParfaitDay from @ClamBakeSant"
+    },
+    {
+      "date": "2026-11-26",
+      "engine": "clambakesanta",
+      "timestamp": "2026-11-26T19:06:45.232893+00:00",
+      "themes": [
+        "National Cake Day",
+        "Shopping Reminder Day",
+        "Thanksgiving Day",
+        "Birthday Charles Schulz",
+        "Birthday Tina Turner"
+      ],
+      "content_preview": "Cart glows with bright hope Shoppers laugh, bags dance, bright noon Toys sparkle, joy sings Happy #ShoppingReminderDay f"
     }
   ]
 }
