@@ -1,0 +1,130 @@
+{
+  "NationalParfaitDay": {
+    "theme": "National Parfait Day",
+    "haiku": "Layered swirls of joy\nHoney drips like soft sunshine\nBerries kiss the cream\nHappy #NationalParfaitDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117678620797026697",
+        "url": "https://mastodon.social/@ClamBakeSanta/117678620797026697",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n35tyjm7xy24",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834282313016901632",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-26T03:51:36.360141+00:00"
+  },
+  "InternationalDayForTheEliminationOfViolence": {
+    "theme": "International Day for the Elimination of Violence",
+    "haiku": "Gentle dawn hums hope\nSoft breeze carries kind song near\nHands weave peace warm bright\nHappy #InternationalDayForTheEliminationOfViolence from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117678624771973201",
+        "url": "https://mastodon.social/@ClamBakeSanta/117678624771973201",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n35u2cwyvq2w",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834282376291106816",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-26T03:51:36.360141+00:00"
+  },
+  "HappyBirthdayAndrewCarnegie": {
+    "theme": "Birthday Andrew Carnegie",
+    "haiku": "Bright candles rise high\nWarm glow fills the hall with cheer\nember glow lights bright\n#HappyBirthdayAndrewCarnegie from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117678628732176701",
+        "url": "https://mastodon.social/@ClamBakeSanta/117678628732176701",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n35u44d6p527",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834282439711047680",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-26T03:51:36.360141+00:00"
+  },
+  "HappyBirthdayJoeDiMaggio": {
+    "theme": "Birthday Joe DiMaggio",
+    "haiku": "Golden field at dusk\nSoft breeze hums, fireflies glow bright\nJoy rides the night soft\n#HappyBirthdayJoeDiMaggio from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117678632687114603",
+        "url": "https://mastodon.social/@ClamBakeSanta/117678632687114603",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n35u5vqxcr2l",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834282503488569344",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-26T03:51:36.360141+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "232",
+        "url": "https://clambakesanta.wordpress.com/2026/11/25/clam-bake-santa-2026-11-25/",
+        "views": 1,
+        "likes": 1,
+        "comments": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-11-26T03:51:36.360141+00:00"
+  }
+}
