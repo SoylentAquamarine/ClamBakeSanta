@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "haikus": [
     {
-      "theme": "Shopping Reminder Day",
-      "haiku": "Cart glows with bright hope\nShoppers laugh, bags dance, bright noon\nToys sparkle, joy sings\nHappy #ShoppingReminderDay from @ClamBakeSanta",
-      "tag": "ShoppingReminderDay",
+      "theme": "National Bavarian Cream Pie Day",
+      "haiku": "Creamy swirl of joy\nSweet vanilla scent drifts soft\nGolden crust sighs warm\nHappy #NationalBavarianCreamPieDay from @ClamBakeSanta",
+      "tag": "NationalBavarianCreamPieDay",
       "syllable_counts": [
         5,
         7,
@@ -13,9 +13,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Thanksgiving Day",
-      "haiku": "Golden leaves drift soft\nPumpkin scent fills deep warm halls\nCrows call, night settles\nHappy #ThanksgivingDay from @ClamBakeSanta",
-      "tag": "ThanksgivingDay",
+      "theme": "Electric Eel Day",
+      "haiku": "Blue waves hum below\nElectric pulses glow bright\nNight river sings soft\nHappy #ElectricEelDay from @ClamBakeSanta",
+      "tag": "ElectricEelDay",
       "syllable_counts": [
         5,
         7,
@@ -24,9 +24,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Charles Schulz",
-      "haiku": "Bubbles lift, bright up\nCartoon clouds drift over town\nJoyful laughter rings\n#HappyBirthdayCharlesSchulz from @ClamBakeSanta",
-      "tag": "HappyBirthdayCharlesSchulz",
+      "theme": "Birthday Jimi Hendrix",
+      "haiku": "Strum of neon light\nSparks dance on summer bright air\nGuitar sighs, moon laughs\n#HappyBirthdayJimiHendrix from @ClamBakeSanta",
+      "tag": "HappyBirthdayJimiHendrix",
       "syllable_counts": [
         5,
         7,
@@ -35,9 +35,9 @@
       "valid_syllables": true
     },
     {
-      "theme": "Birthday Tina Turner",
-      "haiku": "Golden lights dance soft\nSwaying rhythms fill the air\nVibrant cheers rise high\n#HappyBirthdayTinaTurner from @ClamBakeSanta",
-      "tag": "HappyBirthdayTinaTurner",
+      "theme": "Birthday Bruce Lee",
+      "haiku": "Firefly glow on night\nMoonlight drips like silver rain\nJoy leaps in bright air\n#HappyBirthdayBruceLee from @ClamBakeSanta",
+      "tag": "HappyBirthdayBruceLee",
       "syllable_counts": [
         5,
         7,
@@ -47,12 +47,11 @@
     }
   ],
   "themes": [
-    "National Cake Day",
-    "Shopping Reminder Day",
-    "Thanksgiving Day",
-    "Birthday Charles Schulz",
-    "Birthday Tina Turner"
+    "National Bavarian Cream Pie Day",
+    "Electric Eel Day",
+    "Birthday Jimi Hendrix",
+    "Birthday Bruce Lee"
   ],
-  "content": "Cart glows with bright hope\nShoppers laugh, bags dance, bright noon\nToys sparkle, joy sings\nHappy #ShoppingReminderDay from @ClamBakeSanta\n\nGolden leaves drift soft\nPumpkin scent fills deep warm halls\nCrows call, night settles\nHappy #ThanksgivingDay from @ClamBakeSanta\n\nBubbles lift, bright up\nCartoon clouds drift over town\nJoyful laughter rings\n#HappyBirthdayCharlesSchulz from @ClamBakeSanta\n\nGolden lights dance soft\nSwaying rhythms fill the air\nVibrant cheers rise high\n#HappyBirthdayTinaTurner from @ClamBakeSanta",
-  "saved_at": "2026-11-26T18:54:31.166175+00:00"
+  "content": "Creamy swirl of joy\nSweet vanilla scent drifts soft\nGolden crust sighs warm\nHappy #NationalBavarianCreamPieDay from @ClamBakeSanta\n\nBlue waves hum below\nElectric pulses glow bright\nNight river sings soft\nHappy #ElectricEelDay from @ClamBakeSanta\n\nStrum of neon light\nSparks dance on summer bright air\nGuitar sighs, moon laughs\n#HappyBirthdayJimiHendrix from @ClamBakeSanta\n\nFirefly glow on night\nMoonlight drips like silver rain\nJoy leaps in bright air\n#HappyBirthdayBruceLee from @ClamBakeSanta",
+  "saved_at": "2026-11-27T18:45:17.483760+00:00"
 }

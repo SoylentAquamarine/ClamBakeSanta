@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-11-27T18:57:32.751047+00:00",
+    "date": "2026-11-27",
+    "themes_found": [
+      "National Bavarian Cream Pie Day",
+      "Electric Eel Day",
+      "Birthday Jimi Hendrix",
+      "Birthday Bruce Lee"
+    ],
+    "haikus_posted": [
+      {
+        "theme": "National Bavarian Cream Pie Day",
+        "tag": "NationalBavarianCreamPieDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Electric Eel Day",
+        "tag": "ElectricEelDay",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Jimi Hendrix",
+        "tag": "HappyBirthdayJimiHendrix",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      },
+      {
+        "theme": "Birthday Bruce Lee",
+        "tag": "HappyBirthdayBruceLee",
+        "valid_syllables": true,
+        "counts": [
+          5,
+          7,
+          5
+        ]
+      }
+    ],
+    "writers_block": [],
+    "adapters_ok": [
+      "mastodon",
+      "bluesky",
+      "tumblr",
+      "telegram",
+      "email_list",
+      "wordpress",
+      "github_pages"
+    ],
+    "adapters_failed": [],
+    "skipped": false
+  }
+]
