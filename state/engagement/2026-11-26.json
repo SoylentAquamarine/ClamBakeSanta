@@ -1,0 +1,130 @@
+{
+  "ShoppingReminderDay": {
+    "theme": "Shopping Reminder Day",
+    "haiku": "Cart glows with bright hope\nShoppers laugh, bags dance, bright noon\nToys sparkle, joy sings\nHappy #ShoppingReminderDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117684258170772549",
+        "url": "https://mastodon.social/@ClamBakeSanta/117684258170772549",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3ae44hzlx2d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834372511348228096",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-27T03:52:55.282416+00:00"
+  },
+  "ThanksgivingDay": {
+    "theme": "Thanksgiving Day",
+    "haiku": "Golden leaves drift soft\nPumpkin scent fills deep warm halls\nCrows call, night settles\nHappy #ThanksgivingDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117684262126986834",
+        "url": "https://mastodon.social/@ClamBakeSanta/117684262126986834",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3ae5vu5of2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834372575184519168",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-27T03:52:55.282416+00:00"
+  },
+  "HappyBirthdayCharlesSchulz": {
+    "theme": "Birthday Charles Schulz",
+    "haiku": "Bubbles lift, bright up\nCartoon clouds drift over town\nJoyful laughter rings\n#HappyBirthdayCharlesSchulz from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117684266082455549",
+        "url": "https://mastodon.social/@ClamBakeSanta/117684266082455549",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3ae7pctox2r",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834372638397857792",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-27T03:52:55.282416+00:00"
+  },
+  "HappyBirthdayTinaTurner": {
+    "theme": "Birthday Tina Turner",
+    "haiku": "Golden lights dance soft\nSwaying rhythms fill the air\nVibrant cheers rise high\n#HappyBirthdayTinaTurner from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117684270059592362",
+        "url": "https://mastodon.social/@ClamBakeSanta/117684270059592362",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3aebioaqp2d",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834372701596598272",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-27T03:52:55.282416+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "233",
+        "url": "https://clambakesanta.wordpress.com/2026/11/26/clam-bake-santa-2026-11-26/",
+        "views": 2,
+        "likes": 2,
+        "comments": 0,
+        "score": 2
+      }
+    },
+    "total_score": 2,
+    "last_checked": "2026-11-27T03:52:55.282416+00:00"
+  }
+}
