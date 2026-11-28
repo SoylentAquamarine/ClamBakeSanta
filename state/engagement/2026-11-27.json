@@ -1,0 +1,130 @@
+{
+  "NationalBavarianCreamPieDay": {
+    "theme": "National Bavarian Cream Pie Day",
+    "haiku": "Creamy swirl of joy\nSweet vanilla scent drifts soft\nGolden crust sighs warm\nHappy #NationalBavarianCreamPieDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117689884226869480",
+        "url": "https://mastodon.social/@ClamBakeSanta/117689884226869480",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3cu2kihop2r",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834462528916635648",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-28T03:39:27.699303+00:00"
+  },
+  "ElectricEelDay": {
+    "theme": "Electric Eel Day",
+    "haiku": "Blue waves hum below\nElectric pulses glow bright\nNight river sings soft\nHappy #ElectricEelDay from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117689888187380285",
+        "url": "https://mastodon.social/@ClamBakeSanta/117689888187380285",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3cu4dymns2r",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834462592190840832",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-28T03:39:27.699303+00:00"
+  },
+  "HappyBirthdayJimiHendrix": {
+    "theme": "Birthday Jimi Hendrix",
+    "haiku": "Strum of neon light\nSparks dance on summer bright air\nGuitar sighs, moon laughs\n#HappyBirthdayJimiHendrix from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117689892159169597",
+        "url": "https://mastodon.social/@ClamBakeSanta/117689892159169597",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3cu65fpnn2e",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834462655497568256",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-28T03:39:27.699303+00:00"
+  },
+  "HappyBirthdayBruceLee": {
+    "theme": "Birthday Bruce Lee",
+    "haiku": "Firefly glow on night\nMoonlight drips like silver rain\nJoy leaps in bright air\n#HappyBirthdayBruceLee from @ClamBakeSanta",
+    "platforms": {
+      "mastodon": {
+        "id": "117689896136276319",
+        "url": "https://mastodon.social/@ClamBakeSanta/117689896136276319",
+        "likes": 0,
+        "boosts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "bluesky": {
+        "uri": "at://did:plc:yerdasftfzpxambm3u7ieuq7/app.bsky.feed.post/3n3cu7x2hor27",
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "score": 0
+      },
+      "tumblr": {
+        "id": "834462718821122048",
+        "notes": 0,
+        "score": 0
+      }
+    },
+    "total_score": 0,
+    "last_checked": "2026-11-28T03:39:27.699303+00:00"
+  },
+  "_wp_daily": {
+    "theme": "_wp_daily",
+    "haiku": "",
+    "platforms": {
+      "wordpress": {
+        "id": "234",
+        "url": "https://clambakesanta.wordpress.com/2026/11/27/clam-bake-santa-2026-11-27/",
+        "views": 1,
+        "likes": 1,
+        "comments": 0,
+        "score": 1
+      }
+    },
+    "total_score": 1,
+    "last_checked": "2026-11-28T03:39:27.699303+00:00"
+  }
+}
